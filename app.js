@@ -632,8 +632,18 @@
       return;
     }
     els.cardExplain.hidden = false;
-    els.cardExplain.innerHTML =
-      `<strong>Giải thích</strong><span>${escapeHtml(text)}</span>`;
+    const wrong =
+      checked &&
+      q.answers?.length &&
+      !setsEqual(selected, new Set(q.answers));
+    const title = wrong
+      ? "Giải thích chi tiết (bạn chọn sai)"
+      : "Giải thích chi tiết";
+    // preserve newlines from rich explanations
+    const body = escapeHtml(text).replace(/\n/g, "<br>");
+    els.cardExplain.className =
+      "card-explain" + (wrong ? " explain-wrong" : "");
+    els.cardExplain.innerHTML = `<strong>${title}</strong><span class="explain-body">${body}</span>`;
   }
 
   function render() {

@@ -447,9 +447,21 @@ input {
   color: #0369a1;
 }
 
-.card-explain span {
+.card-explain span,
+.card-explain .explain-body {
   display: block;
   white-space: pre-wrap;
+  line-height: 1.55;
+}
+
+.card-explain.explain-wrong {
+  background: #fff7ed;
+  border-color: #fdba74;
+  color: #9a3412;
+}
+
+.card-explain.explain-wrong strong {
+  color: #c2410c;
 }
 
 .card-note {
