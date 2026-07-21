@@ -15,6 +15,7 @@
         <span class="brand-sub" id="brandSub">Chọn môn · có giải thích</span>
       </div>
       <div class="top-actions">
+        <button type="button" class="btn ghost" id="btnSync" title="Đồng bộ laptop ↔ iPad">☁</button>
         <button type="button" class="btn ghost" id="btnMode" title="Đổi chế độ">Lần lượt</button>
         <button type="button" class="btn ghost" id="btnShuffle" title="Xáo trộn">🔀</button>
         <button type="button" class="btn ghost" id="btnReset" title="Xóa tiến độ môn này">↺</button>
@@ -96,8 +97,56 @@
     <p class="hint">
       Chọn đáp án → hiện đúng/sai + <strong>giải thích</strong> · Phím: <kbd>A</kbd>–<kbd>E</kbd> ·
       <kbd>Enter</kbd>/<kbd>→</kbd> tiếp · <kbd>←</kbd> trước · <kbd>H</kbd> hiện ĐA · <kbd>S</kbd> đánh dấu
-      · Nguồn: <a href="https://fuexam.me/" target="_blank" rel="noopener">fuexam.me</a>
+      · ☁ Đồng bộ thiết bị · Nguồn: <a href="https://fuexam.me/" target="_blank" rel="noopener">fuexam.me</a>
     </p>
+  </div>
+
+  <!-- Sync modal -->
+  <div class="modal-backdrop" id="syncModal" hidden>
+    <div class="modal" role="dialog" aria-labelledby="syncTitle">
+      <header class="modal-head">
+        <h2 id="syncTitle">Đồng bộ tiến độ</h2>
+        <button type="button" class="btn ghost" id="btnSyncClose" title="Đóng">✕</button>
+      </header>
+      <p class="modal-lead">
+        Học trên laptop rồi mở iPad (cùng mã) — tiến độ, câu đang làm, ★ và đúng/sai sẽ giống nhau.
+      </p>
+
+      <label class="sync-field">
+        Mã đồng bộ
+        <div class="sync-row">
+          <input type="text" id="syncCodeInput" placeholder="Dán mã hoặc tạo mới" autocomplete="off" spellcheck="false" />
+          <button type="button" class="btn small" id="btnSyncCopy" title="Copy mã">Copy</button>
+        </div>
+      </label>
+
+      <div class="sync-actions">
+        <button type="button" class="btn primary" id="btnSyncCreate">Tạo mã mới</button>
+        <button type="button" class="btn" id="btnSyncPush">⬆ Đẩy lên (lưu)</button>
+        <button type="button" class="btn" id="btnSyncPull">⬇ Kéo về</button>
+      </div>
+
+      <label class="sync-check">
+        <input type="checkbox" id="syncAuto" checked />
+        Tự đồng bộ sau khi làm bài (khuyến nghị)
+      </label>
+
+      <p class="sync-status" id="syncStatus">Chưa kết nối.</p>
+
+      <div class="sync-link-box" id="syncLinkBox" hidden>
+        <span class="muted">Link mở trên iPad (tự nối mã):</span>
+        <a id="syncLink" href="#" target="_blank" rel="noopener"></a>
+        <button type="button" class="btn small" id="btnSyncCopyLink">Copy link</button>
+      </div>
+
+      <hr class="modal-hr" />
+      <p class="muted small">Dự phòng offline: xuất / nhập file JSON.</p>
+      <div class="sync-actions">
+        <button type="button" class="btn small" id="btnSyncExport">Xuất JSON</button>
+        <button type="button" class="btn small" id="btnSyncImport">Nhập JSON</button>
+        <input type="file" id="syncImportFile" accept="application/json,.json" hidden />
+      </div>
+    </div>
   </div>
 
   <script src="app.js"></script>

@@ -532,6 +532,160 @@ kbd {
   background: #fffbeb;
 }
 
+/* ===== Sync modal ===== */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  z-index: 50;
+}
+
+.modal-backdrop[hidden] {
+  display: none !important;
+}
+
+.modal {
+  width: 100%;
+  max-width: 440px;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 20px 50px rgba(15, 23, 42, 0.2);
+  padding: 18px 18px 16px;
+  max-height: min(90vh, 640px);
+  overflow: auto;
+}
+
+.modal-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.modal-head h2 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.modal-lead {
+  margin: 0 0 14px;
+  font-size: 0.88rem;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.sync-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #334155;
+  margin-bottom: 12px;
+}
+
+.sync-row {
+  display: flex;
+  gap: 6px;
+}
+
+.sync-row input {
+  flex: 1;
+  min-width: 0;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  font: inherit;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.sync-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.sync-check {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.86rem;
+  color: #475569;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.sync-status {
+  margin: 0 0 10px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: #f8fafc;
+  border: 1px solid var(--line);
+  font-size: 0.84rem;
+  color: #334155;
+  line-height: 1.4;
+}
+
+.sync-status.ok {
+  background: var(--ok-bg);
+  border-color: #a7f3d0;
+  color: var(--ok);
+}
+
+.sync-status.err {
+  background: var(--bad-bg);
+  border-color: #fecaca;
+  color: var(--bad);
+}
+
+.sync-status.busy {
+  background: #eff6ff;
+  border-color: #bfdbfe;
+  color: #1d4ed8;
+}
+
+.sync-link-box {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 8px;
+  font-size: 0.8rem;
+  word-break: break-all;
+}
+
+.sync-link-box a {
+  color: var(--primary);
+}
+
+.modal-hr {
+  border: none;
+  border-top: 1px solid var(--line);
+  margin: 12px 0;
+}
+
+.muted {
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.small {
+  font-size: 0.82rem;
+  margin: 0 0 8px;
+}
+
+#btnSync.sync-on {
+  color: #0369a1;
+  border-color: #7dd3fc;
+  background: #e0f2fe;
+}
+
 /* Responsive */
 @media (max-width: 520px) {
   .app {
