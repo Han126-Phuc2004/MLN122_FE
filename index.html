@@ -8,178 +8,127 @@
 </head>
 <body>
   <div class="app">
-    <!-- Full-width top -->
     <header class="topbar">
       <div class="brand">
         <span class="brand-code" id="brandCode">FE Ôn tập</span>
-        <span class="brand-sub" id="brandSub">Chọn môn · có giải thích</span>
+        <span class="brand-sub" id="brandSub">—</span>
       </div>
-      <nav class="subjects subjects-top" id="subjects" aria-label="Chọn môn">
+      <nav class="subjects" id="subjects" aria-label="Chọn môn">
         <button type="button" class="sub-tab active" data-subject="mln122">MLN122</button>
         <button type="button" class="sub-tab" data-subject="prm393">PRM393</button>
         <button type="button" class="sub-tab" data-subject="jfe301">JFE301</button>
         <button type="button" class="sub-tab" data-subject="jit401">JIT401</button>
       </nav>
       <div class="top-actions">
-        <button type="button" class="btn ghost" id="btnSync" title="Đồng bộ laptop ↔ iPad">☁</button>
-        <button type="button" class="btn ghost" id="btnMode" title="Đổi chế độ">Lần lượt</button>
+        <button type="button" class="btn ghost" id="btnSync" title="Đồng bộ">☁</button>
+        <button type="button" class="btn ghost" id="btnMode" title="Chế độ">Lần lượt</button>
         <button type="button" class="btn ghost" id="btnShuffle" title="Xáo trộn">🔀</button>
-        <button type="button" class="btn ghost" id="btnReset" title="Xóa tiến độ môn này">↺</button>
+        <button type="button" class="btn ghost" id="btnReset" title="Reset">↺</button>
       </div>
     </header>
 
     <div class="workspace">
-      <!-- LEFT: filters & stats -->
-      <aside class="side side-left" aria-label="Bộ lọc và thống kê">
-        <section class="panel">
-          <h3 class="panel-title">Tiến độ</h3>
-          <div class="stats stats-vertical" id="stats">
-            <div class="stat"><span class="stat-n" id="statDone">0</span><span class="stat-l">Đã làm</span></div>
-            <div class="stat ok"><span class="stat-n" id="statOk">0</span><span class="stat-l">Đúng</span></div>
-            <div class="stat bad"><span class="stat-n" id="statBad">0</span><span class="stat-l">Sai</span></div>
-            <div class="stat"><span class="stat-n" id="statLeft">0</span><span class="stat-l">Còn lại</span></div>
+      <main class="main-col">
+        <div class="toolbar-simple">
+          <div class="stats-inline" id="stats">
+            <span><b id="statDone">0</b> đã làm</span>
+            <span class="ok"><b id="statOk">0</b> đúng</span>
+            <span class="bad"><b id="statBad">0</b> sai</span>
+            <span><b id="statLeft">0</b> còn</span>
             <div class="progress-wrap">
               <div class="progress-bar" id="progressBar"></div>
             </div>
           </div>
-        </section>
-
-        <section class="panel">
-          <h3 class="panel-title">Điều hướng</h3>
-          <label class="jump jump-block">
-            Câu số
-            <span class="jump-row">
+          <div class="toolbar-right">
+            <label class="jump">
+              Câu
               <input type="number" id="jumpInput" min="1" max="9999" value="1" />
               <button type="button" class="btn small" id="btnJump">Đi</button>
-            </span>
-          </label>
-          <p class="side-meta" id="sideMeta">—</p>
-        </section>
-
-        <section class="panel">
-          <h3 class="panel-title">Bộ lọc</h3>
-          <div class="filters filters-col">
-            <button type="button" class="chip active" data-filter="all">Tất cả</button>
-            <button type="button" class="chip" data-filter="wrong">Sai</button>
-            <button type="button" class="chip" data-filter="unseen">Chưa làm</button>
-            <button type="button" class="chip" data-filter="star">★ Đánh dấu</button>
-          </div>
-          <div class="filters filters-col source-filters" id="sourceFilters" hidden>
-            <button type="button" class="chip active" data-source="all">Mọi nguồn</button>
-            <button type="button" class="chip" data-source="exam">2 đề FE</button>
-            <button type="button" class="chip" data-source="slides">12 slide</button>
-          </div>
-        </section>
-
-        <section class="panel panel-hint">
-          <h3 class="panel-title">Phím tắt</h3>
-          <ul class="kbd-list">
-            <li><kbd>A</kbd>–<kbd>E</kbd> chọn đáp án</li>
-            <li><kbd>←</kbd> <kbd>→</kbd> trước / tiếp</li>
-            <li><kbd>H</kbd> hiện đáp án</li>
-            <li><kbd>S</kbd> đánh dấu</li>
-          </ul>
-        </section>
-      </aside>
-
-      <!-- CENTER: exam -->
-      <div class="main-col">
-        <main class="stage">
-          <article class="exam-card" id="examCard">
-            <div class="card-header">
-              <span class="card-code" id="cardCode">—</span>
-              <span class="card-sep">|</span>
-              <span class="card-qnum" id="cardQnum">Multiple Choice Question</span>
+            </label>
+            <div class="filters">
+              <button type="button" class="chip active" data-filter="all">Tất cả</button>
+              <button type="button" class="chip" data-filter="wrong">Sai</button>
+              <button type="button" class="chip" data-filter="unseen">Chưa</button>
+              <button type="button" class="chip" data-filter="star">★</button>
             </div>
+            <div class="filters source-filters" id="sourceFilters" hidden>
+              <button type="button" class="chip active" data-source="all">Tất cả</button>
+              <button type="button" class="chip" data-source="exam">Đề FE</button>
+              <button type="button" class="chip" data-source="slides">Ôn thêm</button>
+            </div>
+          </div>
+        </div>
 
-            <p class="card-choose" id="cardChoose">(Choose 1 answer)</p>
-
-            <h1 class="card-question" id="cardQuestion">Đang tải…</h1>
-
-            <div class="card-options" id="cardOptions"></div>
-
-            <div class="card-feedback" id="cardFeedback" hidden></div>
-            <div class="card-explain" id="cardExplain" hidden></div>
-            <div class="card-note" id="cardNote" hidden></div>
-            <div class="card-alt" id="cardAlt" hidden></div>
-
-            <div class="fe-mark" aria-hidden="true">FE</div>
-          </article>
-        </main>
+        <article class="exam-card" id="examCard">
+          <div class="card-header">
+            <span class="card-code" id="cardCode">—</span>
+            <span class="card-sep">|</span>
+            <span class="card-qnum" id="cardQnum">—</span>
+            <span class="card-pos" id="sideMeta"></span>
+          </div>
+          <p class="card-choose" id="cardChoose"></p>
+          <h1 class="card-question" id="cardQuestion">Đang tải…</h1>
+          <div class="card-options" id="cardOptions"></div>
+          <div class="card-feedback" id="cardFeedback" hidden></div>
+          <div class="card-explain" id="cardExplain" hidden></div>
+          <div class="card-note" id="cardNote" hidden></div>
+          <div class="card-alt" id="cardAlt" hidden></div>
+        </article>
 
         <footer class="controls">
           <button type="button" class="btn" id="btnPrev">← Trước</button>
           <button type="button" class="btn" id="btnStar" title="Đánh dấu">☆</button>
           <button type="button" class="btn" id="btnCheck" hidden aria-hidden="true">Kiểm tra</button>
-          <button type="button" class="btn" id="btnReveal" title="Xem đáp án + giải thích">Hiện ĐA</button>
+          <button type="button" class="btn" id="btnReveal">Hiện ĐA</button>
           <button type="button" class="btn primary" id="btnNext">Tiếp →</button>
         </footer>
+      </main>
 
-        <p class="hint">
-          ☁ Đồng bộ · Nguồn: <a href="https://fuexam.me/" target="_blank" rel="noopener">fuexam.me</a>
-        </p>
-      </div>
-
-      <!-- RIGHT: question map -->
-      <aside class="side side-right" aria-label="Bản đồ câu hỏi">
-        <section class="panel panel-map">
-          <div class="panel-map-head">
-            <h3 class="panel-title">Bản đồ câu</h3>
-            <span class="map-count" id="mapCount">0</span>
-          </div>
-          <div class="map-legend">
-            <span><i class="dot current"></i>Hiện tại</span>
-            <span><i class="dot ok"></i>Đúng</span>
-            <span><i class="dot bad"></i>Sai</span>
-            <span><i class="dot star"></i>★</span>
-            <span><i class="dot unseen"></i>Chưa</span>
-          </div>
-          <div class="q-map" id="qMap" role="list"></div>
-        </section>
+      <aside class="side-map" aria-label="Bản đồ câu">
+        <div class="map-head">
+          <span>Câu hỏi</span>
+          <span class="map-count" id="mapCount">0</span>
+        </div>
+        <div class="map-legend">
+          <span><i class="dot current"></i>đang</span>
+          <span><i class="dot ok"></i>đúng</span>
+          <span><i class="dot bad"></i>sai</span>
+          <span><i class="dot unseen"></i>chưa</span>
+        </div>
+        <div class="q-map" id="qMap" role="list"></div>
       </aside>
     </div>
   </div>
 
-  <!-- Sync modal -->
   <div class="modal-backdrop" id="syncModal" hidden>
     <div class="modal" role="dialog" aria-labelledby="syncTitle">
       <header class="modal-head">
-        <h2 id="syncTitle">Đồng bộ tiến độ</h2>
-        <button type="button" class="btn ghost" id="btnSyncClose" title="Đóng">✕</button>
+        <h2 id="syncTitle">Đồng bộ</h2>
+        <button type="button" class="btn ghost" id="btnSyncClose">✕</button>
       </header>
-      <p class="modal-lead">
-        Học trên laptop rồi mở iPad (cùng mã) — tiến độ, câu đang làm, ★ và đúng/sai sẽ giống nhau.
-      </p>
-
+      <p class="modal-lead">Cùng mã trên laptop &amp; iPad để giữ tiến độ.</p>
       <label class="sync-field">
-        Mã đồng bộ
+        Mã
         <div class="sync-row">
-          <input type="text" id="syncCodeInput" placeholder="Dán mã hoặc tạo mới" autocomplete="off" spellcheck="false" />
-          <button type="button" class="btn small" id="btnSyncCopy" title="Copy mã">Copy</button>
+          <input type="text" id="syncCodeInput" placeholder="Mã đồng bộ" autocomplete="off" spellcheck="false" />
+          <button type="button" class="btn small" id="btnSyncCopy">Copy</button>
         </div>
       </label>
-
       <div class="sync-actions">
-        <button type="button" class="btn primary" id="btnSyncCreate">Tạo mã mới</button>
-        <button type="button" class="btn" id="btnSyncPush">⬆ Đẩy lên (lưu)</button>
-        <button type="button" class="btn" id="btnSyncPull">⬇ Kéo về</button>
+        <button type="button" class="btn primary" id="btnSyncCreate">Tạo mã</button>
+        <button type="button" class="btn" id="btnSyncPush">Đẩy lên</button>
+        <button type="button" class="btn" id="btnSyncPull">Kéo về</button>
       </div>
-
       <label class="sync-check">
         <input type="checkbox" id="syncAuto" checked />
-        Tự đồng bộ sau khi làm bài (khuyến nghị)
+        Tự đồng bộ
       </label>
-
       <p class="sync-status" id="syncStatus">Chưa kết nối.</p>
-
       <div class="sync-link-box" id="syncLinkBox" hidden>
-        <span class="muted">Link mở trên iPad (tự nối mã):</span>
         <a id="syncLink" href="#" target="_blank" rel="noopener"></a>
         <button type="button" class="btn small" id="btnSyncCopyLink">Copy link</button>
       </div>
-
       <hr class="modal-hr" />
-      <p class="muted small">Dự phòng offline: xuất / nhập file JSON.</p>
       <div class="sync-actions">
         <button type="button" class="btn small" id="btnSyncExport">Xuất JSON</button>
         <button type="button" class="btn small" id="btnSyncImport">Nhập JSON</button>
