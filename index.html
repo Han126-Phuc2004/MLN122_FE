@@ -8,12 +8,18 @@
 </head>
 <body>
   <div class="app">
-    <!-- Top bar -->
+    <!-- Full-width top -->
     <header class="topbar">
       <div class="brand">
         <span class="brand-code" id="brandCode">FE Ôn tập</span>
         <span class="brand-sub" id="brandSub">Chọn môn · có giải thích</span>
       </div>
+      <nav class="subjects subjects-top" id="subjects" aria-label="Chọn môn">
+        <button type="button" class="sub-tab active" data-subject="mln122">MLN122</button>
+        <button type="button" class="sub-tab" data-subject="prm393">PRM393</button>
+        <button type="button" class="sub-tab" data-subject="jfe301">JFE301</button>
+        <button type="button" class="sub-tab" data-subject="jit401">JIT401</button>
+      </nav>
       <div class="top-actions">
         <button type="button" class="btn ghost" id="btnSync" title="Đồng bộ laptop ↔ iPad">☁</button>
         <button type="button" class="btn ghost" id="btnMode" title="Đổi chế độ">Lần lượt</button>
@@ -22,83 +28,116 @@
       </div>
     </header>
 
-    <!-- Subject tabs -->
-    <nav class="subjects" id="subjects" aria-label="Chọn môn">
-      <button type="button" class="sub-tab active" data-subject="mln122">MLN122</button>
-      <button type="button" class="sub-tab" data-subject="prm393">PRM393</button>
-      <button type="button" class="sub-tab" data-subject="jfe301">JFE301</button>
-      <button type="button" class="sub-tab" data-subject="jit401">JIT401</button>
-    </nav>
+    <div class="workspace">
+      <!-- LEFT: filters & stats -->
+      <aside class="side side-left" aria-label="Bộ lọc và thống kê">
+        <section class="panel">
+          <h3 class="panel-title">Tiến độ</h3>
+          <div class="stats stats-vertical" id="stats">
+            <div class="stat"><span class="stat-n" id="statDone">0</span><span class="stat-l">Đã làm</span></div>
+            <div class="stat ok"><span class="stat-n" id="statOk">0</span><span class="stat-l">Đúng</span></div>
+            <div class="stat bad"><span class="stat-n" id="statBad">0</span><span class="stat-l">Sai</span></div>
+            <div class="stat"><span class="stat-n" id="statLeft">0</span><span class="stat-l">Còn lại</span></div>
+            <div class="progress-wrap">
+              <div class="progress-bar" id="progressBar"></div>
+            </div>
+          </div>
+        </section>
 
-    <!-- Stats -->
-    <section class="stats" id="stats">
-      <div class="stat"><span class="stat-n" id="statDone">0</span><span class="stat-l">Đã làm</span></div>
-      <div class="stat ok"><span class="stat-n" id="statOk">0</span><span class="stat-l">Đúng</span></div>
-      <div class="stat bad"><span class="stat-n" id="statBad">0</span><span class="stat-l">Sai</span></div>
-      <div class="stat"><span class="stat-n" id="statLeft">0</span><span class="stat-l">Còn lại</span></div>
-      <div class="progress-wrap">
-        <div class="progress-bar" id="progressBar"></div>
+        <section class="panel">
+          <h3 class="panel-title">Điều hướng</h3>
+          <label class="jump jump-block">
+            Câu số
+            <span class="jump-row">
+              <input type="number" id="jumpInput" min="1" max="9999" value="1" />
+              <button type="button" class="btn small" id="btnJump">Đi</button>
+            </span>
+          </label>
+          <p class="side-meta" id="sideMeta">—</p>
+        </section>
+
+        <section class="panel">
+          <h3 class="panel-title">Bộ lọc</h3>
+          <div class="filters filters-col">
+            <button type="button" class="chip active" data-filter="all">Tất cả</button>
+            <button type="button" class="chip" data-filter="wrong">Sai</button>
+            <button type="button" class="chip" data-filter="unseen">Chưa làm</button>
+            <button type="button" class="chip" data-filter="star">★ Đánh dấu</button>
+          </div>
+          <div class="filters filters-col source-filters" id="sourceFilters" hidden>
+            <button type="button" class="chip active" data-source="all">Mọi nguồn</button>
+            <button type="button" class="chip" data-source="exam">2 đề FE</button>
+            <button type="button" class="chip" data-source="slides">12 slide</button>
+          </div>
+        </section>
+
+        <section class="panel panel-hint">
+          <h3 class="panel-title">Phím tắt</h3>
+          <ul class="kbd-list">
+            <li><kbd>A</kbd>–<kbd>E</kbd> chọn đáp án</li>
+            <li><kbd>←</kbd> <kbd>→</kbd> trước / tiếp</li>
+            <li><kbd>H</kbd> hiện đáp án</li>
+            <li><kbd>S</kbd> đánh dấu</li>
+          </ul>
+        </section>
+      </aside>
+
+      <!-- CENTER: exam -->
+      <div class="main-col">
+        <main class="stage">
+          <article class="exam-card" id="examCard">
+            <div class="card-header">
+              <span class="card-code" id="cardCode">—</span>
+              <span class="card-sep">|</span>
+              <span class="card-qnum" id="cardQnum">Multiple Choice Question</span>
+            </div>
+
+            <p class="card-choose" id="cardChoose">(Choose 1 answer)</p>
+
+            <h1 class="card-question" id="cardQuestion">Đang tải…</h1>
+
+            <div class="card-options" id="cardOptions"></div>
+
+            <div class="card-feedback" id="cardFeedback" hidden></div>
+            <div class="card-explain" id="cardExplain" hidden></div>
+            <div class="card-note" id="cardNote" hidden></div>
+            <div class="card-alt" id="cardAlt" hidden></div>
+
+            <div class="fe-mark" aria-hidden="true">FE</div>
+          </article>
+        </main>
+
+        <footer class="controls">
+          <button type="button" class="btn" id="btnPrev">← Trước</button>
+          <button type="button" class="btn" id="btnStar" title="Đánh dấu">☆</button>
+          <button type="button" class="btn" id="btnCheck" hidden aria-hidden="true">Kiểm tra</button>
+          <button type="button" class="btn" id="btnReveal" title="Xem đáp án + giải thích">Hiện ĐA</button>
+          <button type="button" class="btn primary" id="btnNext">Tiếp →</button>
+        </footer>
+
+        <p class="hint">
+          ☁ Đồng bộ · Nguồn: <a href="https://fuexam.me/" target="_blank" rel="noopener">fuexam.me</a>
+        </p>
       </div>
-    </section>
 
-    <!-- Jump / filter -->
-    <section class="toolbar">
-      <label class="jump">
-        Câu
-        <input type="number" id="jumpInput" min="1" max="9999" value="1" />
-        <button type="button" class="btn small" id="btnJump">Đi</button>
-      </label>
-      <div class="filters">
-        <button type="button" class="chip active" data-filter="all">Tất cả</button>
-        <button type="button" class="chip" data-filter="wrong">Sai</button>
-        <button type="button" class="chip" data-filter="unseen">Chưa làm</button>
-        <button type="button" class="chip" data-filter="star">★ Đánh dấu</button>
-      </div>
-      <div class="filters source-filters" id="sourceFilters" hidden>
-        <button type="button" class="chip active" data-source="all">Mọi nguồn</button>
-        <button type="button" class="chip" data-source="exam">2 đề FE</button>
-        <button type="button" class="chip" data-source="slides">12 slide</button>
-      </div>
-    </section>
-
-    <!-- Exam card -->
-    <main class="stage">
-      <article class="exam-card" id="examCard">
-        <div class="card-header">
-          <span class="card-code" id="cardCode">—</span>
-          <span class="card-sep">|</span>
-          <span class="card-qnum" id="cardQnum">Multiple Choice Question</span>
-        </div>
-
-        <p class="card-choose" id="cardChoose">(Choose 1 answer)</p>
-
-        <h1 class="card-question" id="cardQuestion">Đang tải…</h1>
-
-        <div class="card-options" id="cardOptions"></div>
-
-        <div class="card-feedback" id="cardFeedback" hidden></div>
-        <div class="card-explain" id="cardExplain" hidden></div>
-        <div class="card-note" id="cardNote" hidden></div>
-        <div class="card-alt" id="cardAlt" hidden></div>
-
-        <div class="fe-mark" aria-hidden="true">FE</div>
-      </article>
-    </main>
-
-    <!-- Controls -->
-    <footer class="controls">
-      <button type="button" class="btn" id="btnPrev">← Trước</button>
-      <button type="button" class="btn" id="btnStar" title="Đánh dấu">☆</button>
-      <button type="button" class="btn" id="btnCheck" hidden aria-hidden="true">Kiểm tra</button>
-      <button type="button" class="btn" id="btnReveal" title="Xem đáp án + giải thích">Hiện ĐA</button>
-      <button type="button" class="btn primary" id="btnNext">Tiếp →</button>
-    </footer>
-
-    <p class="hint">
-      Chọn đáp án → hiện đúng/sai + <strong>giải thích</strong> · Phím: <kbd>A</kbd>–<kbd>E</kbd> ·
-      <kbd>Enter</kbd>/<kbd>→</kbd> tiếp · <kbd>←</kbd> trước · <kbd>H</kbd> hiện ĐA · <kbd>S</kbd> đánh dấu
-      · ☁ Đồng bộ thiết bị · Nguồn: <a href="https://fuexam.me/" target="_blank" rel="noopener">fuexam.me</a>
-    </p>
+      <!-- RIGHT: question map -->
+      <aside class="side side-right" aria-label="Bản đồ câu hỏi">
+        <section class="panel panel-map">
+          <div class="panel-map-head">
+            <h3 class="panel-title">Bản đồ câu</h3>
+            <span class="map-count" id="mapCount">0</span>
+          </div>
+          <div class="map-legend">
+            <span><i class="dot current"></i>Hiện tại</span>
+            <span><i class="dot ok"></i>Đúng</span>
+            <span><i class="dot bad"></i>Sai</span>
+            <span><i class="dot star"></i>★</span>
+            <span><i class="dot unseen"></i>Chưa</span>
+          </div>
+          <div class="q-map" id="qMap" role="list"></div>
+        </section>
+      </aside>
+    </div>
   </div>
 
   <!-- Sync modal -->

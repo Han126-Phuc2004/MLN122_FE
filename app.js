@@ -618,19 +618,109 @@
     let ok = 0;
     let bad = 0;
     let done = 0;
-    for (const q of all) {
+    // Stats for current queue (respects filters/source), fallback to all
+    const pool = queue.length ? queue.map((i) => all[i]) : all;
+    for (const q of pool) {
       const p = progress[q.id];
       if (!p || !p.result) continue;
       done++;
       if (p.result === "ok") ok++;
       else if (p.result === "bad") bad++;
     }
-    const total = all.length || 1;
+    const total = pool.length || 1;
     els.statDone.textContent = String(done);
     els.statOk.textContent = String(ok);
     els.statBad.textContent = String(bad);
-    els.statLeft.textContent = String(Math.max(0, all.length - done));
+    els.statLeft.textContent = String(Math.max(0, pool.length - done));
     els.progressBar.style.width = `${((done / total) * 100).toFixed(1)}%`;
+  }
+
+  function renderQMap() {
+    const map = document.getElementById("qMap");
+    const countEl = document.getElementById("mapCount");
+    const meta = document.getElementById("sideMeta");
+    if (!map) return;
+
+    const cur = getQ();
+    const list = queue.length ? queue : [];
+    if (countEl) countEl.textContent = String(list.length);
+    if (meta) {
+      if (cur) {
+        meta.textContent = `Đang xem #${cur.id} · ${pos + 1}/${list.length || 0} trong bộ lọc`;
+      } else {
+        meta.textContent = list.length ? `${list.length} câu trong bộ lọc` : "Không có câu trong bộ lọc";
+      }
+    }
+
+    // Cap DOM size for huge banks: window around current position
+    const MAX = 300;
+    let start = 0;
+    let end = list.length;
+    if (list.length > MAX) {
+      start = Math.max(0, pos - Math.floor(MAX / 2));
+      end = Math.min(list.length, start + MAX);
+      start = Math.max(0, end - MAX);
+    }
+
+    const frag = document.createDocumentFragment();
+    if (start > 0) {
+      const more = document.createElement("button");
+      more.type = "button";
+      more.className = "q-cell";
+      more.textContent = "…";
+      more.title = "Về đầu danh sách";
+      more.addEventListener("click", () => {
+        pos = 0;
+        selected = new Set();
+        checked = false;
+        rememberCurrent();
+        render();
+      });
+      frag.appendChild(more);
+    }
+
+    for (let i = start; i < end; i++) {
+      const q = all[list[i]];
+      if (!q) continue;
+      const p = progress[q.id] || {};
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "q-cell";
+      btn.textContent = String(q.id);
+      btn.title = `Câu ${q.id}`;
+      btn.setAttribute("role", "listitem");
+      if (cur && q.id === cur.id) btn.classList.add("is-current");
+      if (p.result === "ok") btn.classList.add("is-ok");
+      if (p.result === "bad") btn.classList.add("is-bad");
+      if (p.star) btn.classList.add("is-star");
+      btn.addEventListener("click", () => jumpToId(q.id));
+      frag.appendChild(btn);
+    }
+
+    if (end < list.length) {
+      const more = document.createElement("button");
+      more.type = "button";
+      more.className = "q-cell";
+      more.textContent = "…";
+      more.title = "Tới cuối danh sách";
+      more.addEventListener("click", () => {
+        pos = Math.max(0, list.length - 1);
+        selected = new Set();
+        checked = false;
+        rememberCurrent();
+        render();
+      });
+      frag.appendChild(more);
+    }
+
+    map.innerHTML = "";
+    map.appendChild(frag);
+
+    // Keep current cell visible
+    const curBtn = map.querySelector(".q-cell.is-current");
+    if (curBtn && typeof curBtn.scrollIntoView === "function") {
+      curBtn.scrollIntoView({ block: "nearest", inline: "nearest" });
+    }
   }
 
   function showExplain(q) {
@@ -659,6 +749,7 @@
   function render() {
     const q = getQ();
     updateStats();
+    renderQMap();
 
     if (els.brandCode) {
       els.brandCode.textContent = data?.subject || data?.code || subjectId.toUpperCase();
