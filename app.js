@@ -1027,6 +1027,7 @@
       if (!nextFilter || nextFilter === filter) return;
       const leaving = getQ();
       if (leaving) {
+        cursorBucket()[cursorKey(filter, sourceFilter)] = leaving.id;
         cursorBucket()[filter] = leaving.id;
         saveCursors();
       }
@@ -1088,8 +1089,8 @@
       // Save position for the source filter we are LEAVING (e.g. exam → câu 9)
       const leaving = getQ();
       if (leaving) {
-        cursorBucket()[cursorKey(filter, sourceFilter)] = leaving.id;
-        // also keep progress-filter legacy when on "all" sources
+        const leaveKey = cursorKey(filter, sourceFilter);
+        cursorBucket()[leaveKey] = leaving.id;
         if (sourceFilter === "all") cursorBucket()[filter] = leaving.id;
         saveCursors();
       }
