@@ -628,11 +628,13 @@
       else if (p.result === "bad") bad++;
     }
     const total = pool.length || 1;
-    els.statDone.textContent = String(done);
-    els.statOk.textContent = String(ok);
-    els.statBad.textContent = String(bad);
-    els.statLeft.textContent = String(Math.max(0, pool.length - done));
-    els.progressBar.style.width = `${((done / total) * 100).toFixed(1)}%`;
+    if (els.statDone) els.statDone.textContent = String(done);
+    if (els.statOk) els.statOk.textContent = String(ok);
+    if (els.statBad) els.statBad.textContent = String(bad);
+    if (els.statLeft) els.statLeft.textContent = String(Math.max(0, pool.length - done));
+    if (els.progressBar) {
+      els.progressBar.style.width = `${((done / total) * 100).toFixed(1)}%`;
+    }
   }
 
   function renderQMap() {
@@ -642,13 +644,20 @@
     if (!map) return;
 
     const cur = getQ();
-    const list = queue.length ? queue : [];
+    // Prefer filtered queue; if empty but bank loaded, fall back to all indices
+    let list = queue.length ? queue.slice() : [];
+    if (!list.length && all.length) {
+      list = all.map((_, i) => i);
+    }
+
     if (countEl) countEl.textContent = String(list.length);
     if (meta) {
       if (cur) {
-        meta.textContent = `Đang xem #${cur.id} · ${pos + 1}/${list.length || 0} trong bộ lọc`;
+        meta.textContent = `#${cur.id} · ${pos + 1}/${list.length || 0}`;
+      } else if (list.length) {
+        meta.textContent = `${list.length} câu`;
       } else {
-        meta.textContent = list.length ? `${list.length} câu trong bộ lọc` : "Không có câu trong bộ lọc";
+        meta.textContent = "";
       }
     }
 
@@ -657,12 +666,20 @@
     let start = 0;
     let end = list.length;
     if (list.length > MAX) {
-      start = Math.max(0, pos - Math.floor(MAX / 2));
+      const safePos = Math.min(Math.max(0, pos), Math.max(0, list.length - 1));
+      start = Math.max(0, safePos - Math.floor(MAX / 2));
       end = Math.min(list.length, start + MAX);
       start = Math.max(0, end - MAX);
     }
 
     const frag = document.createDocumentFragment();
+    if (!list.length) {
+      const empty = document.createElement("div");
+      empty.className = "q-map-empty";
+      empty.textContent = "Chưa có câu";
+      frag.appendChild(empty);
+    }
+
     if (start > 0) {
       const more = document.createElement("button");
       more.type = "button";
@@ -716,10 +733,14 @@
     map.innerHTML = "";
     map.appendChild(frag);
 
-    // Keep current cell visible
-    const curBtn = map.querySelector(".q-cell.is-current");
-    if (curBtn && typeof curBtn.scrollIntoView === "function") {
-      curBtn.scrollIntoView({ block: "nearest", inline: "nearest" });
+    // Keep current cell visible (avoid crash on iOS if out of view)
+    try {
+      const curBtn = map.querySelector(".q-cell.is-current");
+      if (curBtn && typeof curBtn.scrollIntoView === "function") {
+        curBtn.scrollIntoView({ block: "nearest", inline: "nearest" });
+      }
+    } catch {
+      /* ignore iOS quirks */
     }
   }
 

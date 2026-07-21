@@ -480,7 +480,7 @@ input {
   background: #fffbeb;
 }
 
-/* Side map — slim */
+/* Side map — fixed height for iPad Safari (flex:1 often collapses to 0) */
 .side-map {
   position: sticky;
   top: 12px;
@@ -488,10 +488,15 @@ input {
   border: 1px solid var(--line);
   border-radius: var(--radius);
   padding: 10px;
-  max-height: calc(100vh - 24px);
+  /* Prefer dvh; fallback vh. Explicit height avoids iOS flex bug */
+  height: calc(100vh - 88px);
+  height: calc(100dvh - 88px);
+  min-height: 280px;
+  max-height: calc(100vh - 88px);
+  max-height: calc(100dvh - 88px);
   display: flex;
   flex-direction: column;
-  min-height: 200px;
+  overflow: hidden;
 }
 
 .map-head {
@@ -504,6 +509,7 @@ input {
   text-transform: uppercase;
   letter-spacing: 0.04em;
   margin-bottom: 8px;
+  flex: 0 0 auto;
 }
 
 .map-count {
@@ -521,6 +527,7 @@ input {
   margin-bottom: 8px;
   font-size: 0.68rem;
   color: var(--muted);
+  flex: 0 0 auto;
 }
 
 .map-legend .dot {
@@ -531,6 +538,9 @@ input {
   margin-right: 3px;
   border: 1px solid #cbd5e1;
   vertical-align: middle;
+  /* empty <i> can collapse on some WebKit builds */
+  min-width: 8px;
+  min-height: 8px;
 }
 
 .map-legend .dot.current {
@@ -556,9 +566,22 @@ input {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(32px, 1fr));
   gap: 5px;
-  overflow: auto;
-  flex: 1;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  /* Critical: do NOT rely on flex:1 alone on iPad */
+  flex: 1 1 auto;
+  min-height: 180px;
+  height: 100%;
   align-content: start;
+}
+
+.q-map-empty {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.8rem;
+  padding: 16px 8px;
 }
 
 .q-cell {
@@ -566,11 +589,15 @@ input {
   background: #fff;
   border-radius: 6px;
   height: 30px;
+  min-height: 30px;
   font-size: 0.68rem;
   font-weight: 700;
   color: #64748b;
   cursor: pointer;
   padding: 0;
+  -webkit-appearance: none;
+  appearance: none;
+  touch-action: manipulation;
 }
 
 .q-cell:hover {
@@ -734,7 +761,7 @@ input {
   background: #e0f2fe;
 }
 
-/* iPad / tablet: same 2-col layout */
+/* iPad / tablet: same 2-col layout as laptop */
 @media (max-width: 900px) {
   .workspace {
     grid-template-columns: minmax(0, 1fr) 170px;
@@ -743,10 +770,18 @@ input {
 
   .side-map {
     top: 8px;
+    height: calc(100vh - 96px);
+    height: calc(100dvh - 96px);
+    min-height: 300px;
+  }
+
+  .q-map {
+    min-height: 200px;
   }
 
   .q-cell {
     height: 28px;
+    min-height: 28px;
     font-size: 0.65rem;
   }
 }
@@ -759,8 +794,16 @@ input {
 
   .side-map {
     position: static;
-    max-height: 220px;
+    height: auto;
+    min-height: 0;
+    max-height: none;
     order: 2;
+  }
+
+  .q-map {
+    min-height: 160px;
+    max-height: 200px;
+    height: 200px;
   }
 
   .app {
