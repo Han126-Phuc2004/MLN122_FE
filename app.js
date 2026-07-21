@@ -53,6 +53,8 @@
   let checked = false;
   let mode = "seq";
   let filter = "all";
+  /** 'all' | 'exam' | 'slides' — mainly for PRM393 multi-source bank */
+  let sourceFilter = "all";
   let cursors = loadCursors();
   let progress = loadProgress();
 
@@ -157,6 +159,16 @@
       if (filter === "wrong" && p.result !== "bad") continue;
       if (filter === "unseen" && p.result) continue;
       if (filter === "star" && !p.star) continue;
+      if (sourceFilter === "exam") {
+        const src = q.source || "";
+        const exam = q.exam || "";
+        if (src === "slides" || String(exam).includes("SLIDES")) continue;
+      }
+      if (sourceFilter === "slides") {
+        const src = q.source || "";
+        const exam = q.exam || "";
+        if (!(src === "slides" || String(exam).includes("SLIDES"))) continue;
+      }
       indices.push(i);
     }
 
@@ -499,13 +511,18 @@
     selected = new Set();
     checked = false;
     filter = "all";
+    sourceFilter = "all";
     mode = "seq";
-    document.querySelectorAll(".chip").forEach((c) => {
+    document.querySelectorAll(".filters:not(.source-filters) .chip").forEach((c) => {
       c.classList.toggle("active", c.dataset.filter === "all");
+    });
+    document.querySelectorAll("#sourceFilters .chip").forEach((c) => {
+      c.classList.toggle("active", c.dataset.source === "all");
     });
     document.querySelectorAll(".sub-tab").forEach((t) => {
       t.classList.toggle("active", t.dataset.subject === id);
     });
+    updateSourceFilterVisibility();
 
     const meta = SUBJECTS[id];
     const tryFiles = [meta.file, id === "mln122" ? "questions.json" : null].filter(Boolean);
@@ -630,6 +647,31 @@
       const id = tab.dataset.subject;
       if (!id || id === subjectId) return;
       loadSubjectData(id);
+    });
+  });
+
+  function updateSourceFilterVisibility() {
+    const el = document.getElementById("sourceFilters");
+    if (!el) return;
+    const show = subjectId === "prm393";
+    el.hidden = !show;
+    if (!show) sourceFilter = "all";
+  }
+
+  document.querySelectorAll("#sourceFilters .chip").forEach((chip) => {
+    chip.addEventListener("click", () => {
+      const next = chip.dataset.source;
+      if (!next || next === sourceFilter) return;
+      sourceFilter = next;
+      document.querySelectorAll("#sourceFilters .chip").forEach((c) => {
+        c.classList.toggle("active", c.dataset.source === sourceFilter);
+      });
+      const curId = getQ()?.id ?? null;
+      rebuildQueue({ keepId: curId, shuffle: false });
+      selected = new Set();
+      checked = false;
+      rememberCurrent();
+      render();
     });
   });
 

@@ -275,6 +275,16 @@ input {
   color: #fff;
 }
 
+.source-filters {
+  width: 100%;
+  margin-top: 4px;
+}
+
+.source-filters .chip.active {
+  background: #7c3aed;
+  border-color: #7c3aed;
+}
+
 /* ===== Exam card — matches screenshot ===== */
 .stage {
   display: flex;

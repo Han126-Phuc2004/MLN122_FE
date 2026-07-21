@@ -1,8 +1,13 @@
 {
-  "title": "PRM393 – Ôn tập FE (2 đề: B5 FE + SP26 FE)",
+  "title": "PRM393 – 2 đề FE + ôn 12 slide (224 câu)",
   "code": "PRM393_ALL",
   "subject": "PRM393",
-  "total": 98,
+  "total": 224,
+  "breakdown": {
+    "B5_FE": 48,
+    "SP26_FE": 50,
+    "slides_practice": 126
+  },
   "questions": [
     {
       "id": 1,
@@ -1865,6 +1870,2400 @@
       "explanation": "5xx = lỗi server; 500 Internal Server Error.",
       "source": "fuexam_image",
       "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 99,
+      "question": "According to Flutter architecture overview, which three layers are described?",
+      "options": {
+        "A": "Framework (Dart), Engine (C++), Embedder",
+        "B": "HTML, CSS, JavaScript only",
+        "C": "JVM, ART, Dalvik only",
+        "D": "Kernel, Shell, Desktop only"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M1",
+      "alt": null,
+      "explanation": "Slide M1: ba tầng Framework (Dart) – Engine (C++) – Embedder.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M1"
+    },
+    {
+      "id": 100,
+      "question": "What is the correct high-level rendering workflow in Flutter?",
+      "options": {
+        "A": "GPU → Widget Tree → SQL → Disk",
+        "B": "Widget Tree → Render Tree → Composited Scene → GPU Rendering",
+        "C": "XML Layout → Bridge → Native View only",
+        "D": "CSS DOM → Browser → Print only"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M1",
+      "alt": null,
+      "explanation": "M1: Widget Tree → Render Tree → Composited Scene → GPU.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M1"
+    },
+    {
+      "id": 101,
+      "question": "Which statement matches a key concept of Flutter UI?",
+      "options": {
+        "A": "Everything must be written in Kotlin",
+        "B": "UI is defined only with HTML files",
+        "C": "Everything in Flutter is a Widget",
+        "D": "Flutter cannot draw custom UI"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M1",
+      "alt": null,
+      "explanation": "M1: Everything in Flutter is a Widget.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M1"
+    },
+    {
+      "id": 102,
+      "question": "Which engine technology does Flutter use for rendering (as mentioned in slides)?",
+      "options": {
+        "A": "WebKit only",
+        "B": "Skia (C++ engine, GPU acceleration)",
+        "C": "OpenGL ES exclusive without Skia",
+        "D": "Swing toolkit"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M1",
+      "alt": null,
+      "explanation": "M1 Engine: C++ powered by Skia, GPU acceleration.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M1"
+    },
+    {
+      "id": 103,
+      "question": "Compared with React Native in the comparison table, Flutter uses which language?",
+      "options": {
+        "A": "Dart",
+        "B": "JavaScript only",
+        "C": "Ruby",
+        "D": "PHP"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M1",
+      "alt": null,
+      "explanation": "M1 table: Flutter → Dart; React Native → JS.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M1"
+    },
+    {
+      "id": 104,
+      "question": "What is a main benefit of Flutter listed in the introduction slides?",
+      "options": {
+        "A": "Must rewrite UI for every OS with different languages only",
+        "B": "Consistency: same UI across devices (plus performance/flexibility)",
+        "C": "Cannot compile to ARM",
+        "D": "No widget set available"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M1",
+      "alt": null,
+      "explanation": "M1 Benefits: Performance, Consistency, Flexibility.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M1"
+    },
+    {
+      "id": 105,
+      "question": "Which command verifies Flutter SDK installation after adding PATH?",
+      "options": {
+        "A": "npm doctor",
+        "B": "pip check",
+        "C": "flutter doctor",
+        "D": "adb uninstall"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M1",
+      "alt": null,
+      "explanation": "M1: Verify with flutter doctor.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M1"
+    },
+    {
+      "id": 106,
+      "question": "What is DartPad mainly useful for according to the slides?",
+      "options": {
+        "A": "Run Flutter/Dart code in browser without local install",
+        "B": "Deploy apps to App Store automatically",
+        "C": "Compile C++ engine source",
+        "D": "Manage Android signing keys only"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M1",
+      "alt": null,
+      "explanation": "M1: DartPad online, no installation, ideal for demos.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M1"
+    },
+    {
+      "id": 107,
+      "question": "When installing Android Studio for Flutter, which plugin is required?",
+      "options": {
+        "A": "Only Python plugin",
+        "B": "Flutter plugin (Dart plugin installs with it)",
+        "C": "Only COBOL plugin",
+        "D": "Only Photoshop plugin"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M1",
+      "alt": null,
+      "explanation": "M1: Install Flutter plugin; Dart comes automatically.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M1"
+    },
+    {
+      "id": 108,
+      "question": "Dart in Flutter is described as supporting which compilation modes?",
+      "options": {
+        "A": "Only interpreted BASIC",
+        "B": "Only COBOL batch",
+        "C": "AOT and JIT compilation",
+        "D": "Only assembly hand-writing"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M1",
+      "alt": null,
+      "explanation": "M1: Dart combines AOT and JIT.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M1"
+    },
+    {
+      "id": 109,
+      "question": "Which collection type stores ordered elements that may contain duplicates?",
+      "options": {
+        "A": "Set",
+        "B": "List",
+        "C": "Map only without order",
+        "D": "Hash without values"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M2",
+      "alt": null,
+      "explanation": "M2: List ordered; Set unique; Map key-value.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M2"
+    },
+    {
+      "id": 110,
+      "question": "Which collection stores unique values only?",
+      "options": {
+        "A": "Set",
+        "B": "List always allowing duplicates only",
+        "C": "String buffer only",
+        "D": "StreamController only"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M2",
+      "alt": null,
+      "explanation": "M2: Set = unique elements.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M2"
+    },
+    {
+      "id": 111,
+      "question": "What does a Map primarily store in Dart?",
+      "options": {
+        "A": "Only one integer",
+        "B": "Only UI widgets",
+        "C": "Key–value pairs",
+        "D": "Only file handles"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M2",
+      "alt": null,
+      "explanation": "M2: Map: key-value.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M2"
+    },
+    {
+      "id": 112,
+      "question": "Which keyword creates a compile-time constant in Dart?",
+      "options": {
+        "A": "var",
+        "B": "const",
+        "C": "dynamic always",
+        "D": "late without value forever"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M2",
+      "alt": null,
+      "explanation": "const = compile-time constant; final = runtime single assignment.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M2"
+    },
+    {
+      "id": 113,
+      "question": "What is null safety designed to help with?",
+      "options": {
+        "A": "Prevent unexpected null errors by making types non-nullable by default",
+        "B": "Force every variable to be null always",
+        "C": "Disable type checking completely",
+        "D": "Replace HTTP with FTP"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M2",
+      "alt": null,
+      "explanation": "M2/M1: null safety & strong typing.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M2"
+    },
+    {
+      "id": 114,
+      "question": "If a non-nullable variable is not initialized before use, what typically happens?",
+      "options": {
+        "A": "It silently becomes null",
+        "B": "The OS reboots",
+        "C": "A compile-time error occurs",
+        "D": "Git commits fail"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M2",
+      "alt": null,
+      "explanation": "Null safety: uninitialized non-nullable → compile error (FE style).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M2"
+    },
+    {
+      "id": 115,
+      "question": "Which statement about Dart classes is correct?",
+      "options": {
+        "A": "Dart is not object-oriented",
+        "B": "Dart is object-oriented; classes are blueprints for objects",
+        "C": "Classes cannot have methods",
+        "D": "Objects cannot be created from classes"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M2",
+      "alt": null,
+      "explanation": "M2 OOP: classes/objects.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M2"
+    },
+    {
+      "id": 116,
+      "question": "What does string interpolation like \"$name\" do?",
+      "options": {
+        "A": "Embeds expression/variable values into a string",
+        "B": "Encrypts the string with AES",
+        "C": "Deletes the variable",
+        "D": "Starts a new isolate always"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M2",
+      "alt": null,
+      "explanation": "Dart essentials: string interpolation.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M2"
+    },
+    {
+      "id": 117,
+      "question": "Which type annotation is appropriate for a list of integers?",
+      "options": {
+        "A": "List<String> only for ints",
+        "B": "List<int>",
+        "C": "Map<int> without value type",
+        "D": "Set<void>"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M2",
+      "alt": null,
+      "explanation": "M2 example: List<int> nums = [1,2,3];",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M2"
+    },
+    {
+      "id": 118,
+      "question": "Functions in Dart are described as:",
+      "options": {
+        "A": "Never first-class",
+        "B": "Only allowed inside C++",
+        "C": "First-class objects (can be assigned/passed)",
+        "D": "Forbidden in Flutter"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M2",
+      "alt": null,
+      "explanation": "M1/M2: Functions as first-class objects.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M2"
+    },
+    {
+      "id": 119,
+      "question": "What is a common use of a factory constructor mentioned in slides?",
+      "options": {
+        "A": "Only painting pixels",
+        "B": "Return existing instance / singleton / .fromJson conversion",
+        "C": "Delete the class permanently",
+        "D": "Disable null safety"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M3",
+      "alt": null,
+      "explanation": "M3 Factory: singleton, fromJson, type checks.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M3"
+    },
+    {
+      "id": 120,
+      "question": "Why is async/await important in Flutter apps?",
+      "options": {
+        "A": "Handle asynchronous work without blocking the UI thread",
+        "B": "Force UI to freeze during network calls",
+        "C": "Replace all widgets with XML",
+        "D": "Compile Dart to COBOL"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M3",
+      "alt": null,
+      "explanation": "Advanced Dart + Flutter: async avoids blocking UI.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M3"
+    },
+    {
+      "id": 121,
+      "question": "What does a Future represent?",
+      "options": {
+        "A": "A completed widget tree only",
+        "B": "A synchronous int always",
+        "C": "A value or error that will be available later",
+        "D": "A GPU shader"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M3",
+      "alt": null,
+      "explanation": "Future = async result later.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M3"
+    },
+    {
+      "id": 122,
+      "question": "What does a Stream provide compared to a single Future?",
+      "options": {
+        "A": "Exactly one value then ends always only",
+        "B": "A sequence of asynchronous events/values over time",
+        "C": "Only file system permissions",
+        "D": "Only compile-time constants"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M3",
+      "alt": null,
+      "explanation": "Stream: multiple async events over time.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M3"
+    },
+    {
+      "id": 123,
+      "question": "How do packages and imports help structure Dart code?",
+      "options": {
+        "A": "Organize reusable libraries and dependencies",
+        "B": "Increase APK size without any reuse",
+        "C": "Remove null safety",
+        "D": "Replace the Flutter engine"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M3",
+      "alt": null,
+      "explanation": "Packages/imports = modular reusable code.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M3"
+    },
+    {
+      "id": 124,
+      "question": "What is .fromJson() typically used for?",
+      "options": {
+        "A": "Drawing custom paint",
+        "B": "Converting JSON map data into a Dart model object",
+        "C": "Starting the emulator",
+        "D": "Signing release APKs"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M3",
+      "alt": null,
+      "explanation": "M3 factory use cases: .fromJson().",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M3"
+    },
+    {
+      "id": 125,
+      "question": "Which practice is recommended for long-running CPU work?",
+      "options": {
+        "A": "Run heavy loops directly in every build()",
+        "B": "Block the main isolate forever",
+        "C": "Use async patterns / avoid blocking UI (and isolates when needed)",
+        "D": "Disable the UI thread intentionally"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M3",
+      "alt": null,
+      "explanation": "Advanced async + later M12: don't block UI.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M3"
+    },
+    {
+      "id": 126,
+      "question": "What does await do when used with a Future?",
+      "options": {
+        "A": "Suspends the async function until the Future completes",
+        "B": "Cancels null safety",
+        "C": "Converts widgets to HTML",
+        "D": "Forces a hot restart"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M3",
+      "alt": null,
+      "explanation": "await waits for Future completion inside async function.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M3"
+    },
+    {
+      "id": 127,
+      "question": "Which is a valid reason to use a singleton via factory?",
+      "options": {
+        "A": "To create millions of identical DB connections every frame",
+        "B": "To reuse one shared service instance",
+        "C": "To avoid all state management",
+        "D": "To replace Navigator"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M3",
+      "alt": null,
+      "explanation": "M3: factory singleton services.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M3"
+    },
+    {
+      "id": 128,
+      "question": "Generics in Dart mainly help you:",
+      "options": {
+        "A": "Remove type safety",
+        "B": "Only style colors",
+        "C": "Write reusable type-safe APIs (e.g., List<T>)",
+        "D": "Compile CSS"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M3",
+      "alt": null,
+      "explanation": "Generics = reusable type-safe components (FE style).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M3"
+    },
+    {
+      "id": 129,
+      "question": "What is the role of BuildContext?",
+      "options": {
+        "A": "Store only binary APK data",
+        "B": "Locate a widget in the widget tree / access inherited widgets",
+        "C": "Replace the Dart VM",
+        "D": "Manage only SQL transactions"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M4",
+      "alt": null,
+      "explanation": "BuildContext: vị trí widget trong tree (FE + M4).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M4"
+    },
+    {
+      "id": 130,
+      "question": "What does setState() do in a StatefulWidget?",
+      "options": {
+        "A": "Marks state changed so Flutter rebuilds the widget",
+        "B": "Deletes the widget forever",
+        "C": "Only changes AndroidManifest",
+        "D": "Uploads the app to stores"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M4",
+      "alt": null,
+      "explanation": "setState → rebuild UI.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M4"
+    },
+    {
+      "id": 131,
+      "question": "Which widget arranges children vertically?",
+      "options": {
+        "A": "Row",
+        "B": "Stack only always",
+        "C": "Column",
+        "D": "GridView only"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M4",
+      "alt": null,
+      "explanation": "Column = vertical; Row = horizontal.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M4"
+    },
+    {
+      "id": 132,
+      "question": "Which widget allows children to overlap?",
+      "options": {
+        "A": "Column",
+        "B": "Stack",
+        "C": "ListView.builder only",
+        "D": "LinearProgressIndicator"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M4",
+      "alt": null,
+      "explanation": "Stack overlaps children (M5 demo also uses Stack).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M4"
+    },
+    {
+      "id": 133,
+      "question": "What is Scaffold typically used for?",
+      "options": {
+        "A": "Basic page structure (AppBar, body, etc.)",
+        "B": "HTTP client only",
+        "C": "Database migration only",
+        "D": "Code generation of isolates"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M4",
+      "alt": null,
+      "explanation": "Scaffold = screen structure.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M4"
+    },
+    {
+      "id": 134,
+      "question": "What does a Switch widget primarily toggle?",
+      "options": {
+        "A": "Git branches",
+        "B": "A boolean ON/OFF value",
+        "C": "CPU frequency",
+        "D": "Null safety mode"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M4",
+      "alt": null,
+      "explanation": "M4: Switch toggles boolean (notifications, dark mode…).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M4"
+    },
+    {
+      "id": 135,
+      "question": "Why use const widgets when possible?",
+      "options": {
+        "A": "They force full tree rebuild every frame",
+        "B": "They disable hot reload",
+        "C": "They reduce rebuild cost for stable UI",
+        "D": "They remove type safety"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M4",
+      "alt": null,
+      "explanation": "const widgets = cheaper rebuilds (FE + M12).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M4"
+    },
+    {
+      "id": 136,
+      "question": "What does ThemeData primarily define?",
+      "options": {
+        "A": "Application-wide visual styles",
+        "B": "Only SQLite schema",
+        "C": "Only deep link schemes",
+        "D": "Only test coverage reports"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M4",
+      "alt": null,
+      "explanation": "ThemeData = visual theme (FE).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M4"
+    },
+    {
+      "id": 137,
+      "question": "What does the build() method return?",
+      "options": {
+        "A": "Raw GPU pixels only",
+        "B": "A widget tree describing the UI",
+        "C": "A signed APK",
+        "D": "A database connection pool"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M4",
+      "alt": null,
+      "explanation": "build() returns widgets describing UI.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M4"
+    },
+    {
+      "id": 138,
+      "question": "StatelessWidget is best when:",
+      "options": {
+        "A": "UI must hold mutable local state with setState",
+        "B": "You need AnimationController disposal always",
+        "C": "UI depends only on constructor inputs / configuration",
+        "D": "You must ignore BuildContext"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M4",
+      "alt": null,
+      "explanation": "Stateless = no internal mutable state.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M4"
+    },
+    {
+      "id": 139,
+      "question": "crossAxisAlignment in a Column controls alignment along which axis?",
+      "options": {
+        "A": "Horizontal (cross axis) for a vertical Column",
+        "B": "Only Z-depth",
+        "C": "Only time axis",
+        "D": "Network latency"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M4",
+      "alt": null,
+      "explanation": "Column main=vertical → cross=horizontal.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M4"
+    },
+    {
+      "id": 140,
+      "question": "Which widget is best for fixed empty space of a given size?",
+      "options": {
+        "A": "Expanded always filling remaining space",
+        "B": "SizedBox",
+        "C": "Navigator",
+        "D": "HttpClient"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M4",
+      "alt": null,
+      "explanation": "SizedBox for fixed space (FE).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M4"
+    },
+    {
+      "id": 141,
+      "question": "What is a key idea of Navigator 2.0 in the slides?",
+      "options": {
+        "A": "Only imperative push/pop forever with no description of stack",
+        "B": "Declarative model: describe the desired navigation stack",
+        "C": "Remove all routes from Flutter",
+        "D": "Use only Android Activities XML"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M5",
+      "alt": null,
+      "explanation": "M5: Navigator 2.0 declarative stack.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M5"
+    },
+    {
+      "id": 142,
+      "question": "What is deep linking used for?",
+      "options": {
+        "A": "Open a specific screen via URL/external source",
+        "B": "Compress images only",
+        "C": "Generate unit tests only",
+        "D": "Increase battery temperature"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M5",
+      "alt": null,
+      "explanation": "M5 Deep linking overview.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M5"
+    },
+    {
+      "id": 143,
+      "question": "Where do you typically configure Android deep link intent filters?",
+      "options": {
+        "A": "pubspec.yaml only",
+        "B": "iOS Info.plist only",
+        "C": "AndroidManifest.xml",
+        "D": "README.md"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M5",
+      "alt": null,
+      "explanation": "M5: Modify AndroidManifest intent-filter.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M5"
+    },
+    {
+      "id": 144,
+      "question": "BLoC architecture primarily separates:",
+      "options": {
+        "A": "HTML and CSS",
+        "B": "UI from business logic via events and states (often Streams)",
+        "C": "CPU and GPU permanently",
+        "D": "Git and SVN"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M5",
+      "alt": null,
+      "explanation": "M5 state management: BLoC event→state.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M5"
+    },
+    {
+      "id": 145,
+      "question": "What is the output of a BLoC typically?",
+      "options": {
+        "A": "States",
+        "B": "Only raw SQL dumps",
+        "C": "APK files",
+        "D": "Certificate pins only"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M5",
+      "alt": null,
+      "explanation": "BLoC emits States (FE).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M5"
+    },
+    {
+      "id": 146,
+      "question": "What do events do in BLoC?",
+      "options": {
+        "A": "Render pixels directly",
+        "B": "Trigger state changes / business handling",
+        "C": "Sign the APK",
+        "D": "Replace Material icons"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M5",
+      "alt": null,
+      "explanation": "Events trigger processing → new states.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M5"
+    },
+    {
+      "id": 147,
+      "question": "Why is immutability important for BLoC states?",
+      "options": {
+        "A": "To make states random",
+        "B": "To prevent any UI update",
+        "C": "Predictable state changes / easier comparison",
+        "D": "To disable Streams"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M5",
+      "alt": null,
+      "explanation": "Immutable states = predictable (FE).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M5"
+    },
+    {
+      "id": 148,
+      "question": "How can data be passed to a new screen in common Flutter practice?",
+      "options": {
+        "A": "Via constructor arguments / route arguments",
+        "B": "Only by rebooting the phone",
+        "C": "Only by editing the Flutter engine",
+        "D": "Only through SMS"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M5",
+      "alt": null,
+      "explanation": "Pass data via constructor/route args (FE).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M5"
+    },
+    {
+      "id": 149,
+      "question": "Which widget rebuilds when a Stream emits new data?",
+      "options": {
+        "A": "SizedBox only",
+        "B": "StreamBuilder",
+        "C": "Icon only",
+        "D": "Divider only"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M5",
+      "alt": null,
+      "explanation": "StreamBuilder listens to Stream.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M5"
+    },
+    {
+      "id": 150,
+      "question": "Why separate UI and state logic?",
+      "options": {
+        "A": "Improve maintainability and testability",
+        "B": "Make animations slower only",
+        "C": "Force more global mutable state",
+        "D": "Avoid widgets entirely"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M5",
+      "alt": null,
+      "explanation": "Separation → maintainability (FE B5).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M5"
+    },
+    {
+      "id": 151,
+      "question": "What does a route guard pattern aim to protect?",
+      "options": {
+        "A": "GPU shaders",
+        "B": "Only font files",
+        "C": "Authenticated routes / unauthorized access",
+        "D": "Hot reload itself"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M5",
+      "alt": null,
+      "explanation": "Guard pattern for auth routes (FE B5).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M5"
+    },
+    {
+      "id": 152,
+      "question": "Provider is commonly used for:",
+      "options": {
+        "A": "Image compression only",
+        "B": "Dependency injection / state exposure to the widget tree",
+        "C": "Replacing Dart with Java",
+        "D": "Building Windows kernels"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M5",
+      "alt": null,
+      "explanation": "M5 ecosystem: Provider for DI/state.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M5"
+    },
+    {
+      "id": 153,
+      "question": "What is the main goal of responsive UI?",
+      "options": {
+        "A": "UI only works on one fixed phone model",
+        "B": "Layouts adapt to different screen sizes",
+        "C": "Disable orientation changes forever",
+        "D": "Remove MediaQuery"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M6",
+      "alt": null,
+      "explanation": "M6: responsive & adaptive layouts.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M6"
+    },
+    {
+      "id": 154,
+      "question": "What does GridView help build according to the slides?",
+      "options": {
+        "A": "Scrollable grids that adapt columns to width",
+        "B": "Only 3D games engines",
+        "C": "SQL indexes",
+        "D": "Certificate authorities"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M6",
+      "alt": null,
+      "explanation": "M6 Responsive GridView.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M6"
+    },
+    {
+      "id": 155,
+      "question": "Which API is commonly used to read screen size/orientation?",
+      "options": {
+        "A": "SharedPreferences only",
+        "B": "HttpClient only",
+        "C": "MediaQuery",
+        "D": "FlutterDriver only"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M6",
+      "alt": null,
+      "explanation": "MediaQuery for size/orientation.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M6"
+    },
+    {
+      "id": 156,
+      "question": "Adaptive layout typically means:",
+      "options": {
+        "A": "Same exact pixels on all devices always",
+        "B": "UI chooses suitable layout patterns for platform/screen class",
+        "C": "No widgets allowed",
+        "D": "Only landscape tablets forever"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M6",
+      "alt": null,
+      "explanation": "Adaptive = fit platform/screen class.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M6"
+    },
+    {
+      "id": 157,
+      "question": "Expanded inside a Flex (Row/Column) is used to:",
+      "options": {
+        "A": "Take remaining free space along the main axis",
+        "B": "Hide the keyboard only",
+        "C": "Start deep links",
+        "D": "Compile AOT"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M6",
+      "alt": null,
+      "explanation": "Expanded fills remaining space.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M6"
+    },
+    {
+      "id": 158,
+      "question": "Why avoid hard-coded sizes for all devices?",
+      "options": {
+        "A": "Hard-coded sizes always look perfect everywhere",
+        "B": "Screens differ; rigid sizes break layouts on small/large devices",
+        "C": "Flutter forbids numbers",
+        "D": "MediaQuery is illegal"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M6",
+      "alt": null,
+      "explanation": "Responsive principle.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M6"
+    },
+    {
+      "id": 159,
+      "question": "LayoutBuilder is useful because it:",
+      "options": {
+        "A": "Only builds APKs",
+        "B": "Only manages auth tokens",
+        "C": "Provides parent constraints to choose layout",
+        "D": "Replaces Navigator permanently"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M6",
+      "alt": null,
+      "explanation": "LayoutBuilder → constraints-based UI.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M6"
+    },
+    {
+      "id": 160,
+      "question": "Which widget is commonly used for scrollable single-child content?",
+      "options": {
+        "A": "SingleChildScrollView",
+        "B": "AppBar only",
+        "C": "SnackBar only",
+        "D": "Tooltip only"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M6",
+      "alt": null,
+      "explanation": "SingleChildScrollView for overflow content.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M6"
+    },
+    {
+      "id": 161,
+      "question": "What is the primary purpose of forms in mobile apps?",
+      "options": {
+        "A": "GPU profiling only",
+        "B": "User data collection with validation",
+        "C": "Deep link DNS setup only",
+        "D": "Engine compilation"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M7",
+      "alt": null,
+      "explanation": "M7 + FE: forms collect user data.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M7"
+    },
+    {
+      "id": 162,
+      "question": "TextEditingController is used to:",
+      "options": {
+        "A": "Read/control text field values",
+        "B": "Sign APKs",
+        "C": "Manage isolates only",
+        "D": "Configure AndroidManifest deep links"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M7",
+      "alt": null,
+      "explanation": "TextEditingController manages input value.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M7"
+    },
+    {
+      "id": 163,
+      "question": "How do you typically hide password characters in a TextField?",
+      "options": {
+        "A": "Set keyboardType to email only",
+        "B": "Use ListView",
+        "C": "obscureText: true",
+        "D": "Use GridView.count"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M7",
+      "alt": null,
+      "explanation": "obscureText on TextField (slides + FE).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M7"
+    },
+    {
+      "id": 164,
+      "question": "What does FormState.reset() do?",
+      "options": {
+        "A": "Uninstall the app",
+        "B": "Reset form fields to initial values",
+        "C": "Clear device storage entirely",
+        "D": "Invalidate SSL certificates"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M7",
+      "alt": null,
+      "explanation": "reset() clears/resets fields (FE).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M7"
+    },
+    {
+      "id": 165,
+      "question": "A strong password validation demo in slides requires at least:",
+      "options": {
+        "A": "Length rules (e.g. ≥ 8) and matching confirm password",
+        "B": "Only one character always",
+        "C": "No validation ever",
+        "D": "Password stored in plain Text widget title only"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M7",
+      "alt": null,
+      "explanation": "M7 Demo: password ≥ 8 & include constraints + confirm.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M7"
+    },
+    {
+      "id": 166,
+      "question": "GlobalKey<FormState> is commonly used to:",
+      "options": {
+        "A": "Paint custom shaders",
+        "B": "Replace MaterialApp",
+        "C": "Validate the form from outside (currentState.validate())",
+        "D": "Start the emulator"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M7",
+      "alt": null,
+      "explanation": "Form key for validate/save/reset.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M7"
+    },
+    {
+      "id": 167,
+      "question": "Why validate user input before submit?",
+      "options": {
+        "A": "To slow the UI intentionally",
+        "B": "To ensure correct data and better UX / fewer server errors",
+        "C": "To disable null safety",
+        "D": "To remove FocusNode"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M7",
+      "alt": null,
+      "explanation": "Validation improves UX and data quality.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M7"
+    },
+    {
+      "id": 168,
+      "question": "Async validation checks are useful when:",
+      "options": {
+        "A": "You must verify uniqueness against a server (e.g. username taken)",
+        "B": "You never use network",
+        "C": "You only draw icons",
+        "D": "You compile the engine"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M7",
+      "alt": null,
+      "explanation": "M7 mentions async checks.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M7"
+    },
+    {
+      "id": 169,
+      "question": "Which widget groups multiple fields for joint validation?",
+      "options": {
+        "A": "Spacer",
+        "B": "Divider",
+        "C": "Form",
+        "D": "Placeholder"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M7",
+      "alt": null,
+      "explanation": "Form groups fields.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M7"
+    },
+    {
+      "id": 170,
+      "question": "AutovalidateMode.onUserInteraction typically means:",
+      "options": {
+        "A": "Never validate",
+        "B": "Validate as the user interacts with fields",
+        "C": "Validate only after APK install",
+        "D": "Validate only on desktop"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M7",
+      "alt": null,
+      "explanation": "Auto-validate on interaction.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M7"
+    },
+    {
+      "id": 171,
+      "question": "Which HTTP method is typically used to retrieve data?",
+      "options": {
+        "A": "DELETE only",
+        "B": "PUT only",
+        "C": "GET",
+        "D": "PATCH only always"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M8",
+      "alt": null,
+      "explanation": "GET retrieve (FE).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M8"
+    },
+    {
+      "id": 172,
+      "question": "What is the purpose of parsing JSON?",
+      "options": {
+        "A": "Encrypt the APK",
+        "B": "Convert JSON into Dart objects/maps",
+        "C": "Start Android Studio",
+        "D": "Create deep links"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M8",
+      "alt": null,
+      "explanation": "Parse JSON → Dart models (FE + M8).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M8"
+    },
+    {
+      "id": 173,
+      "question": "Why is FutureBuilder useful for API data?",
+      "options": {
+        "A": "Binds async Future to UI (loading/success/error)",
+        "B": "Replaces HTTP with Bluetooth only",
+        "C": "Compiles C++ Skia",
+        "D": "Manages only FormState"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M8",
+      "alt": null,
+      "explanation": "M8: FutureBuilder binding data to UI.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M8"
+    },
+    {
+      "id": 174,
+      "question": "Which HTTP header commonly carries access credentials?",
+      "options": {
+        "A": "Content-Language only",
+        "B": "Authorization",
+        "C": "Accept-Charset only",
+        "D": "Warning only"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M8",
+      "alt": null,
+      "explanation": "Authorization header (FE).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M8"
+    },
+    {
+      "id": 175,
+      "question": "Which status code indicates a server error?",
+      "options": {
+        "A": "200",
+        "B": "301",
+        "C": "404",
+        "D": "500"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M8",
+      "alt": null,
+      "explanation": "5xx server error (FE).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M8"
+    },
+    {
+      "id": 176,
+      "question": "What does status code 404 typically mean?",
+      "options": {
+        "A": "Resource not found",
+        "B": "OK success",
+        "C": "Server internal error",
+        "D": "Redirect permanent only"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M8",
+      "alt": null,
+      "explanation": "404 not found.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M8"
+    },
+    {
+      "id": 177,
+      "question": "What is pagination used for?",
+      "options": {
+        "A": "Only styling buttons",
+        "B": "Loading large datasets in pages efficiently",
+        "C": "Signing APKs",
+        "D": "Disabling JSON"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M8",
+      "alt": null,
+      "explanation": "Pagination for large lists (FE).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M8"
+    },
+    {
+      "id": 178,
+      "question": "What is a refresh token used for?",
+      "options": {
+        "A": "UI theme switching",
+        "B": "Image caching only",
+        "C": "Obtain new access tokens without re-login",
+        "D": "Hot reload"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M8",
+      "alt": null,
+      "explanation": "Refresh token extends session (FE + M10 overlap).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M8"
+    },
+    {
+      "id": 179,
+      "question": "When calling APIs, why handle loading and error states in UI?",
+      "options": {
+        "A": "Network is async; users need feedback and recovery paths",
+        "B": "HTTP is always instant and never fails",
+        "C": "Flutter forbids try/catch",
+        "D": "JSON cannot fail"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M8",
+      "alt": null,
+      "explanation": "M8 FutureBuilder loading/success/error.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M8"
+    },
+    {
+      "id": 180,
+      "question": "POST is most appropriate when:",
+      "options": {
+        "A": "Idempotent pure retrieval of a static file only",
+        "B": "Creating/submitting data to the server",
+        "C": "Only deleting DNS records",
+        "D": "Only reading SharedPreferences"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M8",
+      "alt": null,
+      "explanation": "POST create/submit data.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M8"
+    },
+    {
+      "id": 181,
+      "question": "What does Content-Type: application/json indicate?",
+      "options": {
+        "A": "Body is an image PNG",
+        "B": "Body is multipart file only",
+        "C": "Request/response body is JSON",
+        "D": "Request is a WebSocket upgrade only"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M8",
+      "alt": null,
+      "explanation": "JSON content type.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M8"
+    },
+    {
+      "id": 182,
+      "question": "Why map JSON fields into model classes?",
+      "options": {
+        "A": "Type safety, readability, and easier UI binding",
+        "B": "To avoid using Dart",
+        "C": "To disable null safety",
+        "D": "To force stringly-typed maps forever without structure"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M8",
+      "alt": null,
+      "explanation": "Models + fromJson pattern.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M8"
+    },
+    {
+      "id": 183,
+      "question": "When are local files preferred over simple key–value storage?",
+      "options": {
+        "A": "Only for one boolean flag",
+        "B": "When data is bigger/structured but may not need full SQL",
+        "C": "When you never need persistence",
+        "D": "When only cloud is allowed"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M9",
+      "alt": null,
+      "explanation": "M9: files when bigger than key-value, structure without full SQL.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M9"
+    },
+    {
+      "id": 184,
+      "question": "Which package is commonly used for simple key-value storage?",
+      "options": {
+        "A": "shared_preferences",
+        "B": "flutter_bloc only",
+        "C": "flutter_test only",
+        "D": "path_provider only always as KV store"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M9",
+      "alt": null,
+      "explanation": "shared_preferences for simple KV (FE).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M9"
+    },
+    {
+      "id": 185,
+      "question": "What is Hive mainly used for?",
+      "options": {
+        "A": "Remote PostgreSQL hosting",
+        "B": "Lightweight local NoSQL storage",
+        "C": "Only SSL pinning",
+        "D": "Only deep links"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M9",
+      "alt": null,
+      "explanation": "Hive local NoSQL (FE).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M9"
+    },
+    {
+      "id": 186,
+      "question": "Which plugin provides SQLite support in Flutter?",
+      "options": {
+        "A": "provider",
+        "B": "http",
+        "C": "sqflite",
+        "D": "flutter_local_notifications only"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M9",
+      "alt": null,
+      "explanation": "sqflite (FE).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M9"
+    },
+    {
+      "id": 187,
+      "question": "Which widget is often used to show async local storage reads?",
+      "options": {
+        "A": "FutureBuilder",
+        "B": "IconButton only",
+        "C": "AppBar only",
+        "D": "SnackBar only"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M9",
+      "alt": null,
+      "explanation": "FutureBuilder + local async (FE).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M9"
+    },
+    {
+      "id": 188,
+      "question": "Why should database operations be asynchronous?",
+      "options": {
+        "A": "To freeze the UI on purpose",
+        "B": "To avoid blocking the UI thread",
+        "C": "Because SQL cannot run async ever",
+        "D": "To disable persistence"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M9",
+      "alt": null,
+      "explanation": "Async DB → keep UI responsive (FE).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M9"
+    },
+    {
+      "id": 189,
+      "question": "path_provider is typically used to:",
+      "options": {
+        "A": "Call REST APIs",
+        "B": "Manage BLoC events",
+        "C": "Locate app directories for file storage",
+        "D": "Theme the MaterialApp"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M9",
+      "alt": null,
+      "explanation": "path_provider for filesystem locations.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M9"
+    },
+    {
+      "id": 190,
+      "question": "Which storage suits a small flag like 'onboardingCompleted'?",
+      "options": {
+        "A": "shared_preferences",
+        "B": "Full remote warehouse DB only",
+        "C": "Video codec storage",
+        "D": "Git LFS only"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M9",
+      "alt": null,
+      "explanation": "Small KV → SharedPreferences.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M9"
+    },
+    {
+      "id": 191,
+      "question": "What is persistence in mobile apps?",
+      "options": {
+        "A": "Keeping data only in RAM until process death always",
+        "B": "Saving data so it survives app restarts",
+        "C": "Only drawing frames",
+        "D": "Only hot reload state"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M9",
+      "alt": null,
+      "explanation": "Persistence = survive restarts.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M9"
+    },
+    {
+      "id": 192,
+      "question": "Choosing SQLite is more appropriate when:",
+      "options": {
+        "A": "You store one boolean",
+        "B": "You need only ephemeral memory",
+        "C": "You need relational queries on structured local data",
+        "D": "You never read data back"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M9",
+      "alt": null,
+      "explanation": "SQLite for relational local data.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M9"
+    },
+    {
+      "id": 193,
+      "question": "Why is secure authentication critical in mobile apps?",
+      "options": {
+        "A": "Only to change icon colors",
+        "B": "To protect user data and control access",
+        "C": "To improve GPU fill rate",
+        "D": "To compile Dart faster"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M10",
+      "alt": null,
+      "explanation": "Auth protects user data (FE).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M10"
+    },
+    {
+      "id": 194,
+      "question": "After successful login with a mock token flow, what should you typically do?",
+      "options": {
+        "A": "Save token (e.g. in AuthService) and prepare next navigation",
+        "B": "Delete the Flutter SDK",
+        "C": "Disable all network",
+        "D": "Force a compile error"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M10",
+      "alt": null,
+      "explanation": "M10 steps: receive token → save → continue.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M10"
+    },
+    {
+      "id": 195,
+      "question": "What is a token in authentication systems?",
+      "options": {
+        "A": "A UI color",
+        "B": "A layout constraint",
+        "C": "A temporary access credential",
+        "D": "A Git commit hash only"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M10",
+      "alt": null,
+      "explanation": "Token = access credential (FE).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M10"
+    },
+    {
+      "id": 196,
+      "question": "Why centralize authentication state?",
+      "options": {
+        "A": "To scatter tokens in random widgets",
+        "B": "Ensure consistent access control across screens",
+        "C": "To avoid secure storage forever",
+        "D": "To remove logout"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M10",
+      "alt": null,
+      "explanation": "Central auth state (FE).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M10"
+    },
+    {
+      "id": 197,
+      "question": "Which widget can react to auth state exposed as a Stream?",
+      "options": {
+        "A": "StreamBuilder",
+        "B": "SizedBox only",
+        "C": "Divider only",
+        "D": "Placeholder only"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M10",
+      "alt": null,
+      "explanation": "Auth stream → StreamBuilder (FE).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M10"
+    },
+    {
+      "id": 198,
+      "question": "What happens after successful login from a session perspective?",
+      "options": {
+        "A": "App always crashes",
+        "B": "User session starts (authenticated context)",
+        "C": "Device factory resets",
+        "D": "All tokens are printed to UI permanently"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M10",
+      "alt": null,
+      "explanation": "Session starts (FE).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M10"
+    },
+    {
+      "id": 199,
+      "question": "Storing tokens insecurely (plain SharedPreferences without care) risks:",
+      "options": {
+        "A": "Faster animations",
+        "B": "Better SEO",
+        "C": "Token theft / account compromise",
+        "D": "Better null safety"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M10",
+      "alt": null,
+      "explanation": "Security: protect tokens/session.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M10"
+    },
+    {
+      "id": 200,
+      "question": "Logout should typically:",
+      "options": {
+        "A": "Clear session/token and return to unauthenticated UI",
+        "B": "Keep tokens forever without clearing",
+        "C": "Uninstall Flutter",
+        "D": "Disable hot reload"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M10",
+      "alt": null,
+      "explanation": "Logout clears session.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M10"
+    },
+    {
+      "id": 201,
+      "question": "Push notifications in this module are related to:",
+      "options": {
+        "A": "Only offline SQLite vacuum",
+        "B": "Alerting users (often after auth/session context exists)",
+        "C": "Replacing REST entirely",
+        "D": "Compiling Skia"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M10",
+      "alt": null,
+      "explanation": "M10 includes notifications with auth/session themes.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M10"
+    },
+    {
+      "id": 202,
+      "question": "Protected routes should:",
+      "options": {
+        "A": "Always be public without checks",
+        "B": "Ignore tokens",
+        "C": "Allow access only when authenticated",
+        "D": "Bypass SSL always"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M10",
+      "alt": null,
+      "explanation": "Route protection / guard idea.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M10"
+    },
+    {
+      "id": 203,
+      "question": "Which test type checks individual functions or classes?",
+      "options": {
+        "A": "Widget test",
+        "B": "Integration test",
+        "C": "Unit test",
+        "D": "Manual only screenshot without code"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M11",
+      "alt": null,
+      "explanation": "Unit test (FE + M11).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M11"
+    },
+    {
+      "id": 204,
+      "question": "Which Flutter test focuses on UI components/widgets?",
+      "options": {
+        "A": "Unit test only of pure Dart math",
+        "B": "Widget test",
+        "C": "Load test of servers only",
+        "D": "DNS test only"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M11",
+      "alt": null,
+      "explanation": "Widget test (FE).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M11"
+    },
+    {
+      "id": 205,
+      "question": "What does an integration test verify?",
+      "options": {
+        "A": "End-to-end app behavior across parts",
+        "B": "Only one private method always",
+        "C": "Only font file integrity",
+        "D": "Only Gradle version"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M11",
+      "alt": null,
+      "explanation": "Integration ≈ E2E behavior (FE).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M11"
+    },
+    {
+      "id": 206,
+      "question": "Why are tests important for refactoring?",
+      "options": {
+        "A": "They slow CI only with no benefit",
+        "B": "Ensure changes don't break functionality",
+        "C": "They replace product requirements",
+        "D": "They remove the need for UI"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M11",
+      "alt": null,
+      "explanation": "Tests protect refactoring (FE B5).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M11"
+    },
+    {
+      "id": 207,
+      "question": "What is test isolation?",
+      "options": {
+        "A": "Independence of test cases",
+        "B": "Running all tests in one shared mutable global only",
+        "C": "Disabling assertions",
+        "D": "Skipping failures"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M11",
+      "alt": null,
+      "explanation": "Isolation (FE).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M11"
+    },
+    {
+      "id": 208,
+      "question": "Which tool helps debug Flutter apps (network, performance, etc.)?",
+      "options": {
+        "A": "Notepad only",
+        "B": "Paint.exe",
+        "C": "DevTools",
+        "D": "Calculator only"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M11",
+      "alt": null,
+      "explanation": "DevTools (FE + M11).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M11"
+    },
+    {
+      "id": 209,
+      "question": "The Taskly demo app in slides is used to:",
+      "options": {
+        "A": "Replace the Flutter engine",
+        "B": "Demonstrate each test type on a simple Todo app",
+        "C": "Host production payments only",
+        "D": "Compile C++ only"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M11",
+      "alt": null,
+      "explanation": "M11 Taskly demo for tests.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M11"
+    },
+    {
+      "id": 210,
+      "question": "find.byType / find.text in widget tests are used to:",
+      "options": {
+        "A": "Locate widgets in the test environment",
+        "B": "Deploy to Play Store",
+        "C": "Generate icons",
+        "D": "Create keystores"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M11",
+      "alt": null,
+      "explanation": "Widget test finders.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M11"
+    },
+    {
+      "id": 211,
+      "question": "Mocking dependencies in unit tests helps:",
+      "options": {
+        "A": "Increase flakiness only",
+        "B": "Force real network always",
+        "C": "Test logic in isolation without external systems",
+        "D": "Disable CI"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M11",
+      "alt": null,
+      "explanation": "Mocks isolate unit logic.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M11"
+    },
+    {
+      "id": 212,
+      "question": "Golden tests primarily verify:",
+      "options": {
+        "A": "API JSON schema only",
+        "B": "UI appearance consistency (screenshots/baselines)",
+        "C": "Battery temperature",
+        "D": "DNS TTL"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M11",
+      "alt": null,
+      "explanation": "Golden = UI appearance (FE; extended knowledge).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M11"
+    },
+    {
+      "id": 213,
+      "question": "What should you avoid doing inside build()?",
+      "options": {
+        "A": "Heavy work: sorting, JSON parse, complex calc, DB/API calls",
+        "B": "Returning a simple widget tree",
+        "C": "Using const widgets",
+        "D": "Reading Theme.of(context) lightly"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M12",
+      "alt": null,
+      "explanation": "M12: Avoid heavy work in build().",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M12"
+    },
+    {
+      "id": 214,
+      "question": "Why extract list item widgets (e.g. TaskTile) and use Selector?",
+      "options": {
+        "A": "To rebuild the entire screen on every tiny change always",
+        "B": "To reduce unnecessary rebuilds / narrow rebuild scope",
+        "C": "To disable DevTools",
+        "D": "To remove keys"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M12",
+      "alt": null,
+      "explanation": "M12 Taskly: widget extraction + Selector.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M12"
+    },
+    {
+      "id": 215,
+      "question": "What is the main purpose of hot reload?",
+      "options": {
+        "A": "Publish to stores",
+        "B": "Increase APK size",
+        "C": "Instantly reflect code changes in UI while developing",
+        "D": "Replace unit tests"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M12",
+      "alt": null,
+      "explanation": "Hot reload (FE + intro/M12).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M12"
+    },
+    {
+      "id": 216,
+      "question": "Which command builds a release APK?",
+      "options": {
+        "A": "flutter run",
+        "B": "flutter build apk",
+        "C": "flutter doctor --uninstall",
+        "D": "dart fix --dry-run only"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M12",
+      "alt": null,
+      "explanation": "flutter build apk (FE).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M12"
+    },
+    {
+      "id": 217,
+      "question": "Why use ValueKey(task.id) instead of UniqueKey() for list items?",
+      "options": {
+        "A": "Preserve identity/state; UniqueKey forces excess rebuilds",
+        "B": "UniqueKey is always faster",
+        "C": "Keys are forbidden in lists",
+        "D": "ValueKey disables scrolling"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M12",
+      "alt": null,
+      "explanation": "M12 Keys: ValueKey good; UniqueKey bad for lists.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M12"
+    },
+    {
+      "id": 218,
+      "question": "GlobalKey warning in slides: GlobalKey is:",
+      "options": {
+        "A": "Always free and should be used everywhere",
+        "B": "Powerful but expensive; avoid unless necessary",
+        "C": "Required for every Text widget",
+        "D": "Only used in unit tests"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M12",
+      "alt": null,
+      "explanation": "M12: GlobalKey powerful but slow.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M12"
+    },
+    {
+      "id": 219,
+      "question": "Which practice improves deployment security?",
+      "options": {
+        "A": "Hardcoding secrets in source",
+        "B": "Committing keystores to public repos",
+        "C": "Protecting signing keys / secure release process",
+        "D": "Using only debug builds in production"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M12",
+      "alt": null,
+      "explanation": "Secure signing keys (FE).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M12"
+    },
+    {
+      "id": 220,
+      "question": "const widgets help performance because they:",
+      "options": {
+        "A": "Can be reused and reduce rebuild work",
+        "B": "Force full screen invalidation always",
+        "C": "Disable tree shaking",
+        "D": "Remove AOT"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M12",
+      "alt": null,
+      "explanation": "const + extraction (M12).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M12"
+    },
+    {
+      "id": 221,
+      "question": "What is technical debt?",
+      "options": {
+        "A": "A bank loan for GPUs",
+        "B": "Future cost of poor design decisions",
+        "C": "A Flutter widget",
+        "D": "A type of Future"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M12",
+      "alt": null,
+      "explanation": "Technical debt (FE wording; design quality).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M12"
+    },
+    {
+      "id": 222,
+      "question": "Why is clean architecture beneficial?",
+      "options": {
+        "A": "Easier maintenance and testing via separation of concerns",
+        "B": "Fewer files always regardless of design",
+        "C": "Guaranteed faster GPU",
+        "D": "Removes need for tests"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M12",
+      "alt": null,
+      "explanation": "Clean architecture benefits (FE).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M12"
+    },
+    {
+      "id": 223,
+      "question": "App size analysis before deployment helps you:",
+      "options": {
+        "A": "Ignore unused assets forever",
+        "B": "Increase size intentionally without reason",
+        "C": "Find large assets/code to optimize release package",
+        "D": "Disable Play Store"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M12",
+      "alt": null,
+      "explanation": "M12 focus: app size analysis / deploy prep.",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M12"
+    },
+    {
+      "id": 224,
+      "question": "Why decide architecture early?",
+      "options": {
+        "A": "Architecture never matters",
+        "B": "Reduce later refactoring cost",
+        "C": "To avoid writing UI",
+        "D": "To skip testing"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ slide M12",
+      "alt": null,
+      "explanation": "Early architecture reduces refactor cost (FE).",
+      "source": "slides",
+      "exam": "PRM393_SLIDES_M12"
     }
   ]
 }
