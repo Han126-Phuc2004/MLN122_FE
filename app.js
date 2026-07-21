@@ -618,10 +618,10 @@
     render();
   });
 
-  document.querySelectorAll(".chip").forEach((chip) => {
+  document.querySelectorAll(".filters:not(.source-filters) .chip").forEach((chip) => {
     chip.addEventListener("click", () => {
       const nextFilter = chip.dataset.filter;
-      if (nextFilter === filter) return;
+      if (!nextFilter || nextFilter === filter) return;
       const leaving = getQ();
       if (leaving) {
         cursorBucket()[filter] = leaving.id;
