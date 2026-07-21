@@ -20,17 +20,17 @@
     {
       "id": "jfe301",
       "code": "JFE301",
-      "name": "IT Fundamentals (FE + textbook)",
+      "name": "IT Fundamentals (FE + textbook + ôn thêm)",
       "file": "data/jfe301.json",
-      "total": 318,
+      "total": 726,
       "color": "#059669"
     },
     {
       "id": "jit401",
       "code": "JIT401",
-      "name": "日本語 IT (FE + slide)",
+      "name": "日本語 IT (FE + slide + ôn thêm)",
       "file": "data/jit401.json",
-      "total": 622,
+      "total": 623,
       "color": "#dc2626"
     }
   ],
@@ -38,7 +38,8 @@
     "https://fuexam.me/forums/mln122.168/",
     "https://fuexam.me/forums/prm393.174/",
     "https://fuexam.me/forums/jfe301.221/",
-    "https://fuexam.me/forums/jit401.222/"
+    "https://fuexam.me/forums/jit401.222/",
+    "https://albazzz.github.io/FPT/"
   ],
-  "note": "Đáp án PRM/JFE/JIT và giải thích do hệ thống biên soạn theo kiến thức chuyên môn; MLN122 ưu tiên ngân hàng 526 đã có key. Đề chỉ có ảnh (C1/C2/FE-RE image-only, PRM FE image-only) chưa OCR được sẽ bổ sung sau."
+  "note": "Đáp án PRM/JFE/JIT và giải thích do hệ thống biên soạn theo kiến thức chuyên môn; MLN122 ưu tiên ngân hàng 526 đã có key. Bank ôn thêm JFE/JIT gộp từ albazzz/FPT (dedupe stem). Đề chỉ có ảnh (C1/C2/FE-RE image-only, PRM FE image-only) chưa OCR được sẽ bổ sung sau."
 }

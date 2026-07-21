@@ -529,16 +529,23 @@
     const src = q.source || "";
     const exam = String(q.exam || "");
     if (sourceFilter === "exam") {
-      if (src === "slides" || src === "books") return false;
-      if (exam.includes("SLIDES") || exam.includes("BOOK_")) return false;
+      if (src === "slides" || src === "books" || src === "albazzz") return false;
+      if (
+        exam.includes("SLIDES") ||
+        exam.includes("BOOK_") ||
+        exam.includes("ALBAZZZ")
+      )
+        return false;
       return true;
     }
     if (sourceFilter === "slides") {
       return (
         src === "slides" ||
         src === "books" ||
+        src === "albazzz" ||
         exam.includes("SLIDES") ||
-        exam.includes("BOOK_")
+        exam.includes("BOOK_") ||
+        exam.includes("ALBAZZZ")
       );
     }
     return true;
@@ -1189,7 +1196,11 @@
     }
     if (slideChip) {
       slideChip.textContent =
-        subjectId === "jfe301" ? "2 textbook" : "Slide ôn";
+        subjectId === "jfe301"
+          ? "Ôn thêm (textbook + bank)"
+          : subjectId === "jit401"
+            ? "Ôn thêm (slide + bank)"
+            : "Slide ôn";
     }
   }
 

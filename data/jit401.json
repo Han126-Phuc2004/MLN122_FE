@@ -1,11 +1,12 @@
 {
-  "title": "JIT401 – FE + ôn slide (622 câu)",
+  "title": "JIT401 – FE + slide + albazzz (623 câu)",
   "code": "JIT401_ALL",
   "subject": "JIT401",
-  "total": 622,
+  "total": 623,
   "breakdown": {
     "FE": 60,
-    "slides": 562
+    "slides": 562,
+    "albazzz": 1
   },
   "questions": [
     {
@@ -422,7 +423,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Cấu trúc hình cây = 木構造.",
+      "explanation": "Cấu trúc hình cây（カウ・チュック・ヒン・カイ）は階層構造（木構造）（かいそうこうぞう）です（§17.2）。",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -517,7 +518,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Thứ tự tăng dần = 昇順.",
+      "explanation": "Thứ tự tăng dần（トゥー・トゥー・タン・ダン）は昇順（しょうじゅん）です（§ソート）。",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -4583,7 +4584,7 @@
       "choose": 1,
       "note": "Bank pt · chương 15",
       "alt": null,
-      "explanation": "✓ Chọn A — たいいきはば.",
+      "explanation": "帯域幅＝たいいきはば＝bandwidth / chiều rộng dải tần。",
       "source": "slides",
       "exam": "JIT401_SLIDES_CH15"
     },
@@ -11825,6 +11826,25 @@
       "explanation": "Ch.20 «ヒューマンインタフェースの設計»: 新たなプログラムを作成するときに， 効率的な内部処理とともに考慮しなければならない重要な要素はヒューマンインタフェースです。…",
       "source": "slides",
       "exam": "JIT401_SLIDES_CH20"
+    },
+    {
+      "id": 623,
+      "question": "故障以外で問題なのは、（ ）による不具合です。",
+      "options": {
+        "A": "ウイルス",
+        "B": "プログラム",
+        "C": "プログラムミス",
+        "D": "OS"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ albazzz/FPT (sample)",
+      "alt": null,
+      "explanation": "ハードウェア故障以外で問題になるのはプログラムミスによる不具合です（§9.1）。",
+      "source": "albazzz",
+      "exam": "JIT401_ALBAZZZ_SAMPLE"
     }
   ]
 }
