@@ -2,6 +2,9 @@
 (() => {
   "use strict";
 
+  /** Bump on every bank deploy so Safari/iPad cannot reuse stale JSON (GH Pages max-age=600). */
+  const DATA_VER = "20260721c";
+
   const SUBJECTS = {
     mln122: { file: "data/mln122.json", label: "MLN122" },
     prm393: { file: "data/prm393.json", label: "PRM393" },
@@ -1052,7 +1055,9 @@
     let lastErr = null;
     for (const file of tryFiles) {
       try {
-        const res = await fetch(file);
+        // cache-bust + no-store: iPad Safari often keeps old GH Pages JSON for a long time
+        const url = file + (file.includes("?") ? "&" : "?") + "v=" + DATA_VER;
+        const res = await fetch(url, { cache: "no-store" });
         if (!res.ok) throw new Error("HTTP " + res.status + " " + file);
         data = await res.json();
         all = data.questions || [];
