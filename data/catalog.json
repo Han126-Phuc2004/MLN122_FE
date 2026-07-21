@@ -28,9 +28,9 @@
     {
       "id": "jit401",
       "code": "JIT401",
-      "name": "日本語 IT (FE · 60 câu)",
+      "name": "日本語 IT (FE + slide)",
       "file": "data/jit401.json",
-      "total": 60,
+      "total": 622,
       "color": "#dc2626"
     }
   ],

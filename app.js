@@ -653,9 +653,19 @@
   function updateSourceFilterVisibility() {
     const el = document.getElementById("sourceFilters");
     if (!el) return;
-    const show = subjectId === "prm393";
+    // multi-source banks: PRM393 (2 FE + slides), JIT401 (1 FE + slides)
+    const show = subjectId === "prm393" || subjectId === "jit401";
     el.hidden = !show;
     if (!show) sourceFilter = "all";
+    // update labels
+    const examChip = el.querySelector('[data-source="exam"]');
+    const slideChip = el.querySelector('[data-source="slides"]');
+    if (examChip) {
+      examChip.textContent = subjectId === "jit401" ? "1 đề FE" : "2 đề FE";
+    }
+    if (slideChip) {
+      slideChip.textContent = "Slide ôn";
+    }
   }
 
   document.querySelectorAll("#sourceFilters .chip").forEach((chip) => {
