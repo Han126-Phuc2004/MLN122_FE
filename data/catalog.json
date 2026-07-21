@@ -20,9 +20,9 @@
     {
       "id": "jfe301",
       "code": "JFE301",
-      "name": "IT Fundamentals (FE · 54 câu)",
+      "name": "IT Fundamentals (FE + textbook)",
       "file": "data/jfe301.json",
-      "total": 54,
+      "total": 160,
       "color": "#059669"
     },
     {

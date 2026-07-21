@@ -147,6 +147,26 @@
     return true;
   }
 
+  function matchesSourceFilter(q) {
+    if (sourceFilter === "all") return true;
+    const src = q.source || "";
+    const exam = String(q.exam || "");
+    if (sourceFilter === "exam") {
+      if (src === "slides" || src === "books") return false;
+      if (exam.includes("SLIDES") || exam.includes("BOOK_")) return false;
+      return true;
+    }
+    if (sourceFilter === "slides") {
+      return (
+        src === "slides" ||
+        src === "books" ||
+        exam.includes("SLIDES") ||
+        exam.includes("BOOK_")
+      );
+    }
+    return true;
+  }
+
   function rebuildQueue(opts = {}) {
     const hasKeep = Object.prototype.hasOwnProperty.call(opts, "keepId");
     const keepId = hasKeep ? opts.keepId : getQ()?.id ?? null;
@@ -159,16 +179,7 @@
       if (filter === "wrong" && p.result !== "bad") continue;
       if (filter === "unseen" && p.result) continue;
       if (filter === "star" && !p.star) continue;
-      if (sourceFilter === "exam") {
-        const src = q.source || "";
-        const exam = q.exam || "";
-        if (src === "slides" || String(exam).includes("SLIDES")) continue;
-      }
-      if (sourceFilter === "slides") {
-        const src = q.source || "";
-        const exam = q.exam || "";
-        if (!(src === "slides" || String(exam).includes("SLIDES"))) continue;
-      }
+      if (!matchesSourceFilter(q)) continue;
       indices.push(i);
     }
 
@@ -653,18 +664,24 @@
   function updateSourceFilterVisibility() {
     const el = document.getElementById("sourceFilters");
     if (!el) return;
-    // multi-source banks: PRM393 (2 FE + slides), JIT401 (1 FE + slides)
-    const show = subjectId === "prm393" || subjectId === "jit401";
+    // multi-source: PRM (FE+slides), JIT (FE+slides), JFE (FE+textbooks)
+    const show =
+      subjectId === "prm393" || subjectId === "jit401" || subjectId === "jfe301";
     el.hidden = !show;
     if (!show) sourceFilter = "all";
-    // update labels
     const examChip = el.querySelector('[data-source="exam"]');
     const slideChip = el.querySelector('[data-source="slides"]');
     if (examChip) {
-      examChip.textContent = subjectId === "jit401" ? "1 đề FE" : "2 đề FE";
+      examChip.textContent =
+        subjectId === "prm393"
+          ? "2 đề FE"
+          : subjectId === "jit401"
+            ? "1 đề FE"
+            : "1 đề FE";
     }
     if (slideChip) {
-      slideChip.textContent = "Slide ôn";
+      slideChip.textContent =
+        subjectId === "jfe301" ? "2 textbook" : "Slide ôn";
     }
   }
 

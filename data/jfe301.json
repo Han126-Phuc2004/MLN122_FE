@@ -1,8 +1,12 @@
 {
-  "title": "JFE301 – Ôn tập FE (IT Fundamentals)",
-  "code": "JFE301_SP26_FE",
+  "title": "JFE301 – FE đề + ôn 2 textbook (160 câu)",
+  "code": "JFE301_ALL",
   "subject": "JFE301",
-  "total": 54,
+  "total": 160,
+  "breakdown": {
+    "FE": 54,
+    "books": 106
+  },
   "questions": [
     {
       "id": 1,
@@ -1026,6 +1030,2020 @@
       "explanation": "Availability 1 thiết bị = 45/(45+5)=0.9. Series 2 thiết bị: 0.9×0.9=0.81.",
       "source": "fuexam",
       "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 55,
+      "question": "Which of the following is a role of the program counter (program register) of the CPU?",
+      "options": {
+        "A": "It stores the instruction that has just finished executing permanently.",
+        "B": "It holds the address of the next instruction to be fetched.",
+        "C": "It always stores only the result of the last I/O operation.",
+        "D": "It replaces main memory for all data."
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH1)",
+      "alt": null,
+      "explanation": "Vol.1 Hardware: PC = địa chỉ lệnh tiếp theo.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH1"
+    },
+    {
+      "id": 56,
+      "question": "Which memory type is typically the fastest for the CPU to access?",
+      "options": {
+        "A": "Registers / cache (closest to CPU)",
+        "B": "Magnetic tape only",
+        "C": "Optical disc only",
+        "D": "USB flash as primary cache"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH1)",
+      "alt": null,
+      "explanation": "Hierarchy: registers/cache nhanh nhất.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH1"
+    },
+    {
+      "id": 57,
+      "question": "In RAID with parity, which operation is commonly used to reconstruct lost data?",
+      "options": {
+        "A": "AND only",
+        "B": "OR only",
+        "C": "Exclusive OR (XOR)",
+        "D": "NAND only always"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH1)",
+      "alt": null,
+      "explanation": "Vol.1 RAID: parity thường XOR.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH1"
+    },
+    {
+      "id": 58,
+      "question": "What does MTBF stand for in reliability discussions?",
+      "options": {
+        "A": "Mean Time Before Formatting",
+        "B": "Mean Time Between Failures",
+        "C": "Maximum Transfer Buffer Factor",
+        "D": "Minimum Throughput By Frame"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH1)",
+      "alt": null,
+      "explanation": "MTBF = mean time between failures.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH1"
+    },
+    {
+      "id": 59,
+      "question": "Availability of a single device is commonly approximated by which formula?",
+      "options": {
+        "A": "MTBF / (MTBF + MTTR)",
+        "B": "MTTR / MTBF only",
+        "C": "MTBF × MTTR",
+        "D": "MTTR − MTBF"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH1)",
+      "alt": null,
+      "explanation": "Availability ≈ MTBF/(MTBF+MTTR).",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH1"
+    },
+    {
+      "id": 60,
+      "question": "Two identical devices each have availability 0.9. What is the availability if connected in series?",
+      "options": {
+        "A": "0.9",
+        "B": "0.99",
+        "C": "0.81",
+        "D": "1.8"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH1)",
+      "alt": null,
+      "explanation": "Series: 0.9×0.9=0.81.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH1"
+    },
+    {
+      "id": 61,
+      "question": "Which combination of inks is typical for full-color printing (CMYK)?",
+      "options": {
+        "A": "Red, Green, Blue, White",
+        "B": "Cyan, Magenta, Yellow, Black",
+        "C": "Orange, Purple, Brown, Gray",
+        "D": "Only RGB without black"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH1)",
+      "alt": null,
+      "explanation": "CMYK: Cyan Magenta Yellow Black.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH1"
+    },
+    {
+      "id": 62,
+      "question": "An arithmetic right shift of a negative number in 2's complement representation:",
+      "options": {
+        "A": "Preserves the sign bit (sign extension)",
+        "B": "Always fills zeros from the left",
+        "C": "Converts the value to floating point",
+        "D": "Deletes the sign bit"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH1)",
+      "alt": null,
+      "explanation": "Arithmetic shift: sign-extend.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH1"
+    },
+    {
+      "id": 63,
+      "question": "Which statement about IC cards vs magnetic cards is appropriate?",
+      "options": {
+        "A": "Magnetic cards always encrypt data better than IC chips.",
+        "B": "IC cards can store/process data in a chip and are more resistant to simple skimming.",
+        "C": "IC cards cannot store any data.",
+        "D": "Magnetic stripes use public-key cryptography by default."
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH1)",
+      "alt": null,
+      "explanation": "IC card: chip storage/crypto; robust more than magnetic stripe.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH1"
+    },
+    {
+      "id": 64,
+      "question": "Spooling primarily improves system efficiency by:",
+      "options": {
+        "A": "Removing the need for any secondary storage",
+        "B": "Executing only one job forever without OS",
+        "C": "Buffering I/O via intermediate storage so CPU and slow devices overlap better",
+        "D": "Disabling multiprogramming"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH1)",
+      "alt": null,
+      "explanation": "Spooling: đệm I/O qua secondary storage.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH1"
+    },
+    {
+      "id": 65,
+      "question": "Which of the following best describes multiprogramming?",
+      "options": {
+        "A": "Running no programs at all",
+        "B": "Keeping multiple programs in memory so the CPU can switch when one waits for I/O",
+        "C": "Using only batch punch cards without OS",
+        "D": "Disabling interrupts"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH2)",
+      "alt": null,
+      "explanation": "Multiprogramming: overlap CPU with I/O waits.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH2"
+    },
+    {
+      "id": 66,
+      "question": "A system with two devices in parallel fails only if both fail. Compared with series connection, parallel generally:",
+      "options": {
+        "A": "Improves availability",
+        "B": "Always halves MTBF",
+        "C": "Removes need for MTTR",
+        "D": "Makes availability zero"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH2)",
+      "alt": null,
+      "explanation": "Parallel redundancy tăng availability.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH2"
+    },
+    {
+      "id": 67,
+      "question": "Which is an appropriate purpose of a system performance indicator such as throughput?",
+      "options": {
+        "A": "Only the color of the GUI",
+        "B": "Only the company logo size",
+        "C": "Amount of work completed per unit time",
+        "D": "Number of unused fonts"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH2)",
+      "alt": null,
+      "explanation": "Throughput = work per time.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH2"
+    },
+    {
+      "id": 68,
+      "question": "Client/server architecture typically separates:",
+      "options": {
+        "A": "CPU and ALU permanently",
+        "B": "Service providers (servers) and service consumers (clients)",
+        "C": "Only paper and ink",
+        "D": "Only backup and restore without network"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH2)",
+      "alt": null,
+      "explanation": "Client/server: roles client vs server.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH2"
+    },
+    {
+      "id": 69,
+      "question": "Which is a primary role of an operating system?",
+      "options": {
+        "A": "Manage hardware resources and provide services for applications",
+        "B": "Replace all application software permanently",
+        "C": "Only draw icons without process management",
+        "D": "Only print invoices"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH3)",
+      "alt": null,
+      "explanation": "OS: resource management + services.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH3"
+    },
+    {
+      "id": 70,
+      "question": "Middleware is best described as:",
+      "options": {
+        "A": "Hardware only",
+        "B": "Software layer between OS and applications providing common services",
+        "C": "Only the physical network cable",
+        "D": "A type of printer toner"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH3)",
+      "alt": null,
+      "explanation": "Middleware sits between OS and apps.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH3"
+    },
+    {
+      "id": 71,
+      "question": "Open source software generally means:",
+      "options": {
+        "A": "Source is always secret forever",
+        "B": "No one may use it commercially under any license",
+        "C": "Source code is available under a license allowing study/modification (with conditions)",
+        "D": "It cannot be distributed"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH3)",
+      "alt": null,
+      "explanation": "OSS: source available under license terms.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH3"
+    },
+    {
+      "id": 72,
+      "question": "A compiler typically:",
+      "options": {
+        "A": "Translates source code into machine/object code before execution",
+        "B": "Only runs source line-by-line without generating object code (always)",
+        "C": "Is identical to a text editor",
+        "D": "Only manages user passwords"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH3)",
+      "alt": null,
+      "explanation": "Compiler → object/machine code.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH3"
+    },
+    {
+      "id": 73,
+      "question": "Which of the following is the appropriate flow of SQL statement processing?",
+      "options": {
+        "A": "Execution → Optimization → Decomposition → Code generation",
+        "B": "Decomposition (parse) → Optimization → Code generation → Execution",
+        "C": "Code generation → Decomposition → Optimization → Execution",
+        "D": "Optimization → Execution → Decomposition → Code generation"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH4)",
+      "alt": null,
+      "explanation": "Parse → optimize → generate → execute.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH4"
+    },
+    {
+      "id": 74,
+      "question": "Why is exclusive control (locking) needed in a DBMS?",
+      "options": {
+        "A": "To prevent concurrent updates from corrupting shared data",
+        "B": "To make queries always slower intentionally with no benefit",
+        "C": "To delete indexes automatically every second",
+        "D": "To disable transactions"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH4)",
+      "alt": null,
+      "explanation": "Locks protect concurrent updates.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH4"
+    },
+    {
+      "id": 75,
+      "question": "Normalization in relational databases mainly aims to:",
+      "options": {
+        "A": "Increase redundant copies of the same fact everywhere",
+        "B": "Remove all primary keys",
+        "C": "Reduce redundancy and update anomalies",
+        "D": "Forbid SELECT statements"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH4)",
+      "alt": null,
+      "explanation": "Normalization reduces redundancy/anomalies.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH4"
+    },
+    {
+      "id": 76,
+      "question": "A primary key must:",
+      "options": {
+        "A": "Allow many identical NULL rows without identification",
+        "B": "Uniquely identify each row (entity instance)",
+        "C": "Always be a floating-point column only",
+        "D": "Never be referenced by foreign keys"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH4)",
+      "alt": null,
+      "explanation": "PK uniquely identifies tuples.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH4"
+    },
+    {
+      "id": 77,
+      "question": "ACID properties of transactions include:",
+      "options": {
+        "A": "Atomicity, Consistency, Isolation, Durability",
+        "B": "Array, Class, Interface, Delegate only",
+        "C": "Add, Copy, Insert, Drop only",
+        "D": "Only Availability"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH4)",
+      "alt": null,
+      "explanation": "ACID: Atomicity Consistency Isolation Durability.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH4"
+    },
+    {
+      "id": 78,
+      "question": "IPv4 address 216.58.221.78 belongs to which class (classful model) and default mask?",
+      "options": {
+        "A": "Class C, 255.255.255.0",
+        "B": "Class A, 255.0.0.0",
+        "C": "Class B, 255.255.0.0",
+        "D": "It is not an IP address"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH5)",
+      "alt": null,
+      "explanation": "192–223 → Class C; default /24 mask.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH5"
+    },
+    {
+      "id": 79,
+      "question": "Which protocol allows a mail client to access messages on a server while typically leaving mail on the server?",
+      "options": {
+        "A": "SMTP only",
+        "B": "FTP only",
+        "C": "IMAP",
+        "D": "ARP only"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH5)",
+      "alt": null,
+      "explanation": "IMAP: access mailbox on server.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH5"
+    },
+    {
+      "id": 80,
+      "question": "SMTP is primarily used to:",
+      "options": {
+        "A": "Resolve domain names to IP addresses",
+        "B": "Transfer/send email between servers/clients",
+        "C": "Encrypt disks at rest only",
+        "D": "Assign MAC addresses"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH5)",
+      "alt": null,
+      "explanation": "SMTP = send/transfer mail.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH5"
+    },
+    {
+      "id": 81,
+      "question": "TCP is best characterized as:",
+      "options": {
+        "A": "Connection-oriented, reliable byte-stream transport",
+        "B": "Connectionless, unreliable datagrams only (always)",
+        "C": "A physical layer cable type",
+        "D": "An email content type only"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH5)",
+      "alt": null,
+      "explanation": "TCP: reliable, connection-oriented.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH5"
+    },
+    {
+      "id": 82,
+      "question": "DNS is used to:",
+      "options": {
+        "A": "Encrypt HTTPS payloads only",
+        "B": "Route packets using only MAC addresses",
+        "C": "Compress images",
+        "D": "Resolve hostnames to IP addresses"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH5)",
+      "alt": null,
+      "explanation": "DNS: name → IP.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH5"
+    },
+    {
+      "id": 83,
+      "question": "HDLC stands for:",
+      "options": {
+        "A": "High-Density Link Control",
+        "B": "High-level Data Link Control",
+        "C": "Hypertext Document Link Code",
+        "D": "Hardware Device List Catalog"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH5)",
+      "alt": null,
+      "explanation": "HDLC = High-level Data Link Control.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH5"
+    },
+    {
+      "id": 84,
+      "question": "Which OSI layer is primarily associated with end-to-end reliable transport (TCP)?",
+      "options": {
+        "A": "Physical",
+        "B": "Data link only",
+        "C": "Transport",
+        "D": "Presentation only"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH5)",
+      "alt": null,
+      "explanation": "Transport layer: TCP/UDP.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH5"
+    },
+    {
+      "id": 85,
+      "question": "Online scams that lure users to fake sites to steal credentials are called:",
+      "options": {
+        "A": "Only SQL injection",
+        "B": "Only DDoS",
+        "C": "Only ARP spoofing without social engineering",
+        "D": "Phishing"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH6)",
+      "alt": null,
+      "explanation": "Phishing: fake sites/emails to steal data.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH6"
+    },
+    {
+      "id": 86,
+      "question": "What can SSL/TLS primarily achieve?",
+      "options": {
+        "A": "Always speed up every query 100×",
+        "B": "Encrypt communication between client and server",
+        "C": "Replace SMTP for all mail delivery",
+        "D": "Remove the need for authentication forever"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH6)",
+      "alt": null,
+      "explanation": "SSL/TLS: encrypted channel.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH6"
+    },
+    {
+      "id": 87,
+      "question": "The main purpose of a penetration test is to:",
+      "options": {
+        "A": "Measure only printer DPI",
+        "B": "Confirm marketing slogans",
+        "C": "Find security holes/misconfigurations by simulating attacks",
+        "D": "Increase MTTR intentionally"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH6)",
+      "alt": null,
+      "explanation": "Pentest: discover vulnerabilities.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH6"
+    },
+    {
+      "id": 88,
+      "question": "Public-key cryptography typically uses:",
+      "options": {
+        "A": "A key pair (public and private)",
+        "B": "Only one shared password for the whole Internet",
+        "C": "No keys at all",
+        "D": "Only MAC addresses as keys"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH6)",
+      "alt": null,
+      "explanation": "Asymmetric crypto: public/private pair.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH6"
+    },
+    {
+      "id": 89,
+      "question": "A firewall is mainly used to:",
+      "options": {
+        "A": "Compile Java",
+        "B": "Filter network traffic according to policy",
+        "C": "Replace antivirus signature databases forever",
+        "D": "Format hard disks nightly"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH6)",
+      "alt": null,
+      "explanation": "Firewall filters traffic.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH6"
+    },
+    {
+      "id": 90,
+      "question": "Which is an appropriate security practice for passwords?",
+      "options": {
+        "A": "Share one admin password on a sticky note publicly",
+        "B": "Reuse the same weak password everywhere",
+        "C": "Use strong unique passwords and protect credentials",
+        "D": "Disable all authentication"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH6)",
+      "alt": null,
+      "explanation": "Strong unique passwords + protection.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH6"
+    },
+    {
+      "id": 91,
+      "question": "Which technique implements a queue?",
+      "options": {
+        "A": "FIFO",
+        "B": "LIFO only",
+        "C": "LFU only",
+        "D": "Random eviction only"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH7)",
+      "alt": null,
+      "explanation": "Queue = FIFO.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH7"
+    },
+    {
+      "id": 92,
+      "question": "A stack uses which discipline?",
+      "options": {
+        "A": "FIFO",
+        "B": "LIFO",
+        "C": "Round-robin only",
+        "D": "Shortest-job-first only"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH7)",
+      "alt": null,
+      "explanation": "Stack = LIFO.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH7"
+    },
+    {
+      "id": 93,
+      "question": "After push 5, push 10, push 5, pop, push 10, push 10, push 5, pop, pop (empty start), remaining bottom→top is:",
+      "options": {
+        "A": "10, 10, 5",
+        "B": "5, 5, 10",
+        "C": "5, 10, 10",
+        "D": "10, 5, 10"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH7)",
+      "alt": null,
+      "explanation": "Trace stack → 5,10,10.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH7"
+    },
+    {
+      "id": 94,
+      "question": "Binary trees can be stored in an array where children of index i are typically at:",
+      "options": {
+        "A": "2i and 2i+1 (1-based heap indexing)",
+        "B": "i/2 and i/3 only",
+        "C": "Always index 0 only",
+        "D": "Negative indexes only"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH7)",
+      "alt": null,
+      "explanation": "Heap/array tree: 2i, 2i+1.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH7"
+    },
+    {
+      "id": 95,
+      "question": "Prefix (Polish) notation places operators:",
+      "options": {
+        "A": "Always between operands only",
+        "B": "Before their operands",
+        "C": "Only after both operands (postfix always)",
+        "D": "Inside string quotes only"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH7)",
+      "alt": null,
+      "explanation": "Prefix: operator first.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH7"
+    },
+    {
+      "id": 96,
+      "question": "Which is a fundamental set of OOP concepts?",
+      "options": {
+        "A": "Normalization, fragmentation, paging only",
+        "B": "SMTP, POP, IMAP only",
+        "C": "Abstraction, encapsulation, inheritance, polymorphism",
+        "D": "MTBF, MTTR, MTTF only"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH7)",
+      "alt": null,
+      "explanation": "OOP four pillars.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH7"
+    },
+    {
+      "id": 97,
+      "question": "Big-O notation is used to:",
+      "options": {
+        "A": "Describe asymptotic complexity of algorithms",
+        "B": "Measure only disk color",
+        "C": "Name IP classes only",
+        "D": "Replace unit testing"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CH7)",
+      "alt": null,
+      "explanation": "Big-O: complexity.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CH7"
+    },
+    {
+      "id": 98,
+      "question": "Intellectual property rights generally protect:",
+      "options": {
+        "A": "Only physical land ownership",
+        "B": "Creations of the mind (e.g., copyrights, patents, trademarks)",
+        "C": "Only MAC addresses",
+        "D": "Only RAM modules"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH1)",
+      "alt": null,
+      "explanation": "IP: copyright, patent, trademark, etc.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH1"
+    },
+    {
+      "id": 99,
+      "question": "A license agreement for software typically:",
+      "options": {
+        "A": "Defines permitted use rights and restrictions",
+        "B": "Always transfers full ownership of source forever without terms",
+        "C": "Is identical to a hardware warranty only",
+        "D": "Replaces criminal law"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH1)",
+      "alt": null,
+      "explanation": "License = terms of use.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH1"
+    },
+    {
+      "id": 100,
+      "question": "Personal data protection laws mainly aim to:",
+      "options": {
+        "A": "Force all data to be public",
+        "B": "Ban all databases",
+        "C": "Regulate collection/use of personal information and protect privacy",
+        "D": "Only set CPU clock rates"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH1)",
+      "alt": null,
+      "explanation": "Privacy / personal data protection.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH1"
+    },
+    {
+      "id": 101,
+      "question": "Compliance in corporate IT means:",
+      "options": {
+        "A": "Ignoring regulations to ship faster always",
+        "B": "Conforming to laws, standards, and internal policies",
+        "C": "Only maximizing GUI animations",
+        "D": "Deleting audit logs daily as policy"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH1)",
+      "alt": null,
+      "explanation": "Compliance = follow rules/standards.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH1"
+    },
+    {
+      "id": 102,
+      "question": "A SWOT analysis examines:",
+      "options": {
+        "A": "Strengths, Weaknesses, Opportunities, Threats",
+        "B": "SMTP, WWW, OSI, TCP only",
+        "C": "Stack, Queue, Tree, Graph only",
+        "D": "Only server uptime"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH2)",
+      "alt": null,
+      "explanation": "SWOT framework.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH2"
+    },
+    {
+      "id": 103,
+      "question": "ABC analysis for inventory prioritizes items by:",
+      "options": {
+        "A": "Random lottery only",
+        "B": "Relative importance/value contribution (e.g., annual usage value)",
+        "C": "Only color of packaging",
+        "D": "Only warehouse aisle number ignoring value"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH2)",
+      "alt": null,
+      "explanation": "ABC: value/importance ranking.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH2"
+    },
+    {
+      "id": 104,
+      "question": "Break-even point analysis is used to find:",
+      "options": {
+        "A": "Only DNS TTL",
+        "B": "Only MTU size",
+        "C": "Sales level where total revenue equals total cost",
+        "D": "Only the size of the logo"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH2)",
+      "alt": null,
+      "explanation": "BEP: revenue = total cost.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH2"
+    },
+    {
+      "id": 105,
+      "question": "Which formula form is related to break-even (contribution approach)?",
+      "options": {
+        "A": "Fixed cost / contribution per unit (or contribution ratio)",
+        "B": "Quantity sold × variable cost only as the definition of BEP",
+        "C": "MTBF + MTTR",
+        "D": "IP AND mask only"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH2)",
+      "alt": null,
+      "explanation": "BEP uses fixed cost / contribution.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH2"
+    },
+    {
+      "id": 106,
+      "question": "Product life cycle stages typically include:",
+      "options": {
+        "A": "Only compile and link",
+        "B": "Introduction, growth, maturity, decline",
+        "C": "Only push and pop",
+        "D": "Only SYN and ACK"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH2)",
+      "alt": null,
+      "explanation": "PLC stages.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH2"
+    },
+    {
+      "id": 107,
+      "question": "SFA (Sales Force Automation) is best described as:",
+      "options": {
+        "A": "Only factory robot welding",
+        "B": "Only OS kernel scheduling",
+        "C": "Using IT to improve efficiency/quality of sales activities",
+        "D": "A RAID level name"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH2)",
+      "alt": null,
+      "explanation": "SFA: IT for sales force.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH2"
+    },
+    {
+      "id": 108,
+      "question": "CRM systems focus on:",
+      "options": {
+        "A": "Managing customer relationships and interactions",
+        "B": "Only CPU microcode",
+        "C": "Only physical building security guards",
+        "D": "Only printer toner inventory without customers"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH2)",
+      "alt": null,
+      "explanation": "CRM: customer relationship management.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH2"
+    },
+    {
+      "id": 109,
+      "question": "An information systems strategy should primarily align with:",
+      "options": {
+        "A": "Random hobby projects only",
+        "B": "Business goals and corporate strategy",
+        "C": "Only the preference of a single vendor logo",
+        "D": "Ignoring stakeholders"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH3)",
+      "alt": null,
+      "explanation": "IS strategy ↔ business strategy.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH3"
+    },
+    {
+      "id": 110,
+      "question": "Outsourcing IT services means:",
+      "options": {
+        "A": "Contracting external providers for some IT functions",
+        "B": "Banning all external contracts forever",
+        "C": "Only using handwritten ledgers",
+        "D": "Removing networks"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH3)",
+      "alt": null,
+      "explanation": "Outsourcing: external providers.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH3"
+    },
+    {
+      "id": 111,
+      "question": "A common risk of outsourcing is:",
+      "options": {
+        "A": "Perfect control with zero coordination cost always",
+        "B": "No need for SLAs ever",
+        "C": "Vendor lock-in / dependency and governance challenges",
+        "D": "Automatic 100% security without contracts"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH3)",
+      "alt": null,
+      "explanation": "Risks: dependency, lock-in, control.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH3"
+    },
+    {
+      "id": 112,
+      "question": "Cloud computing is characterized by:",
+      "options": {
+        "A": "Only on-prem bare metal forever",
+        "B": "On-demand network access to shared configurable resources",
+        "C": "No multi-tenancy ever",
+        "D": "Disabling elasticity"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH3)",
+      "alt": null,
+      "explanation": "Cloud: on-demand shared resources.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH3"
+    },
+    {
+      "id": 113,
+      "question": "Which activity belongs to external design?",
+      "options": {
+        "A": "Only writing machine code",
+        "B": "Only physical DB page layout always",
+        "C": "Only unit testing private methods",
+        "D": "Designing screens and form layouts (user-facing)"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH4)",
+      "alt": null,
+      "explanation": "External design: screens/forms/UI specs.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH4"
+    },
+    {
+      "id": 114,
+      "question": "A use case diagram in UML is used to:",
+      "options": {
+        "A": "Show only memory bit layouts",
+        "B": "Show system functions for actors from a user perspective",
+        "C": "Replace all sequence diagrams forever",
+        "D": "Measure MTBF"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH4)",
+      "alt": null,
+      "explanation": "Use case: actors ↔ functions.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH4"
+    },
+    {
+      "id": 115,
+      "question": "DFD (Data Flow Diagram) is useful to show:",
+      "options": {
+        "A": "Flows of data among processes and stores",
+        "B": "Only class inheritance trees",
+        "C": "Only IP subnetting",
+        "D": "Only Gantt bars without data"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH4)",
+      "alt": null,
+      "explanation": "DFD: data flows.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH4"
+    },
+    {
+      "id": 116,
+      "question": "Function point analysis estimates software size based mainly on:",
+      "options": {
+        "A": "Only lines of blank comments",
+        "B": "Only CPU GHz",
+        "C": "Functional user requirements (inputs, outputs, files, interfaces…)",
+        "D": "Only monitor resolution"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH4)",
+      "alt": null,
+      "explanation": "FP: functional size.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH4"
+    },
+    {
+      "id": 117,
+      "question": "Unit testing focuses on:",
+      "options": {
+        "A": "Entire production business operations only",
+        "B": "Individual modules/functions in isolation",
+        "C": "Only marketing brochures",
+        "D": "Only legal contracts"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH4)",
+      "alt": null,
+      "explanation": "Unit = smallest pieces.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH4"
+    },
+    {
+      "id": 118,
+      "question": "System testing focuses on:",
+      "options": {
+        "A": "Behavior of the integrated system against requirements/environment",
+        "B": "Only one private helper method always",
+        "C": "Only hardware manufacturing",
+        "D": "Only font installation"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH4)",
+      "alt": null,
+      "explanation": "System test: whole system behavior.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH4"
+    },
+    {
+      "id": 119,
+      "question": "An appropriate environment to test a changed program without affecting live operations is:",
+      "options": {
+        "A": "Production only with real customers as guinea pigs always",
+        "B": "No testing environment at all",
+        "C": "A test environment equivalent to production",
+        "D": "Only the CEO laptop without isolation"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH4)",
+      "alt": null,
+      "explanation": "Test env ≈ production, isolated.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH4"
+    },
+    {
+      "id": 120,
+      "question": "When software is delivered from a vendor, a key check is:",
+      "options": {
+        "A": "Ignore the specification",
+        "B": "Functions described in specifications are implemented",
+        "C": "Only check the box color",
+        "D": "Skip acceptance entirely"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH4)",
+      "alt": null,
+      "explanation": "Acceptance vs specification.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH4"
+    },
+    {
+      "id": 121,
+      "question": "Waterfall model is characterized by:",
+      "options": {
+        "A": "Sequential phases with limited overlap",
+        "B": "No documentation ever",
+        "C": "Only continuous production deploys every minute without phases",
+        "D": "Ignoring requirements"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH4)",
+      "alt": null,
+      "explanation": "Waterfall: sequential phases.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH4"
+    },
+    {
+      "id": 122,
+      "question": "Agile development emphasizes:",
+      "options": {
+        "A": "No customer feedback",
+        "B": "One big release after 10 years only",
+        "C": "Iterative delivery and responding to change",
+        "D": "Banning stand-ups and reviews"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH4)",
+      "alt": null,
+      "explanation": "Agile: iterative, change-friendly.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH4"
+    },
+    {
+      "id": 123,
+      "question": "On the critical path in PERT/CPM:",
+      "options": {
+        "A": "All activities have large slack always",
+        "B": "Delays never affect the project end date",
+        "C": "The path can always be ignored if resources exist",
+        "D": "Delays in critical activities delay the entire project"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH5)",
+      "alt": null,
+      "explanation": "Critical path: zero slack; delays project.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH5"
+    },
+    {
+      "id": 124,
+      "question": "Number of one-to-one communication paths among n people is:",
+      "options": {
+        "A": "n(n-1)/2",
+        "B": "n",
+        "C": "2n",
+        "D": "n² + n + 1 only always"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH5)",
+      "alt": null,
+      "explanation": "Paths = n(n-1)/2.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH5"
+    },
+    {
+      "id": 125,
+      "question": "For 6 people needing one-to-one communication, minimum paths are:",
+      "options": {
+        "A": "6",
+        "B": "15",
+        "C": "30",
+        "D": "9"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH5)",
+      "alt": null,
+      "explanation": "6×5/2=15.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH5"
+    },
+    {
+      "id": 126,
+      "question": "WBS (Work Breakdown Structure) is used to:",
+      "options": {
+        "A": "Encrypt passwords",
+        "B": "Assign IP addresses",
+        "C": "Decompose project work into manageable packages",
+        "D": "Replace risk management entirely"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH5)",
+      "alt": null,
+      "explanation": "WBS decomposes work.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH5"
+    },
+    {
+      "id": 127,
+      "question": "Project risk management includes:",
+      "options": {
+        "A": "Identifying, analyzing, and responding to risks",
+        "B": "Ignoring uncertainty always",
+        "C": "Only celebrating success",
+        "D": "Deleting the schedule"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH5)",
+      "alt": null,
+      "explanation": "Risk identify-analyze-respond.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH5"
+    },
+    {
+      "id": 128,
+      "question": "A Gantt chart mainly shows:",
+      "options": {
+        "A": "Only class diagrams",
+        "B": "Schedule of tasks over time",
+        "C": "Only network MAC tables",
+        "D": "Only SQL EXPLAIN plans"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH5)",
+      "alt": null,
+      "explanation": "Gantt: schedule timeline.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH5"
+    },
+    {
+      "id": 129,
+      "question": "An appropriate quality-related indicator in development is:",
+      "options": {
+        "A": "Only number of coffee cups",
+        "B": "Only font size of the logo",
+        "C": "Adequacy/time of reviews of deliverables (quality process)",
+        "D": "Only marketing spend"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH5)",
+      "alt": null,
+      "explanation": "Review quality of deliverables.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH5"
+    },
+    {
+      "id": 130,
+      "question": "Service level management is about:",
+      "options": {
+        "A": "Only painting the data center walls",
+        "B": "Only CPU microcode updates",
+        "C": "Ignoring customer agreements",
+        "D": "Defining, agreeing, recording, and managing service levels (e.g., SLAs)"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH6)",
+      "alt": null,
+      "explanation": "SLM / SLA management.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH6"
+    },
+    {
+      "id": 131,
+      "question": "The main task of a service desk is:",
+      "options": {
+        "A": "Writing compiler optimizers only",
+        "B": "Manufacturing servers",
+        "C": "Responding to user inquiries/incidents as a single point of contact",
+        "D": "Setting national tax rates"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH6)",
+      "alt": null,
+      "explanation": "Service desk / SPOC for users.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH6"
+    },
+    {
+      "id": 132,
+      "question": "ITIL-style incident management aims to:",
+      "options": {
+        "A": "Restore service as quickly as possible",
+        "B": "Ignore user reports",
+        "C": "Only redesign products yearly",
+        "D": "Ban monitoring"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH6)",
+      "alt": null,
+      "explanation": "Incidents: restore service fast.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH6"
+    },
+    {
+      "id": 133,
+      "question": "A problem in ITSM typically means:",
+      "options": {
+        "A": "A successful change with no issues",
+        "B": "The underlying cause of one or more incidents",
+        "C": "Only a new marketing campaign",
+        "D": "A type of keyboard"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH6)",
+      "alt": null,
+      "explanation": "Problem = root cause of incidents.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH6"
+    },
+    {
+      "id": 134,
+      "question": "Change management is intended to:",
+      "options": {
+        "A": "Apply all changes to production without review always",
+        "B": "Forbid all changes forever",
+        "C": "Control changes to minimize risk and disruption",
+        "D": "Delete CMDB permanently"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH6)",
+      "alt": null,
+      "explanation": "Change control reduces risk.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH6"
+    },
+    {
+      "id": 135,
+      "question": "Configuration management (CMDB) helps by:",
+      "options": {
+        "A": "Tracking configuration items and relationships",
+        "B": "Only playing media files",
+        "C": "Replacing all networks with USB sticks",
+        "D": "Ignoring assets"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH6)",
+      "alt": null,
+      "explanation": "CMDB tracks CIs.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH6"
+    },
+    {
+      "id": 136,
+      "question": "The purpose of a system audit includes:",
+      "options": {
+        "A": "Ignoring controls",
+        "B": "Independent evaluation of IT controls and compliance",
+        "C": "Writing application features only",
+        "D": "Setting marketing prices"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH7)",
+      "alt": null,
+      "explanation": "Audit: independent evaluation.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH7"
+    },
+    {
+      "id": 137,
+      "question": "Internal control aims to:",
+      "options": {
+        "A": "Provide reasonable assurance regarding operations, reporting, and compliance",
+        "B": "Guarantee zero risk forever",
+        "C": "Remove all approvals",
+        "D": "Ban segregation of duties"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH7)",
+      "alt": null,
+      "explanation": "Internal control: reasonable assurance.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH7"
+    },
+    {
+      "id": 138,
+      "question": "Segregation of duties helps to:",
+      "options": {
+        "A": "Concentrate all powers in one person always",
+        "B": "Increase fraud opportunity",
+        "C": "Reduce fraud risk by splitting incompatible responsibilities",
+        "D": "Disable logging"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH7)",
+      "alt": null,
+      "explanation": "SoD reduces fraud/error risk.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH7"
+    },
+    {
+      "id": 139,
+      "question": "An audit trail is useful because it:",
+      "options": {
+        "A": "Hides who did what",
+        "B": "Records who did what and when for accountability",
+        "C": "Deletes logs automatically without policy",
+        "D": "Replaces backups"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH7)",
+      "alt": null,
+      "explanation": "Audit trail: accountability.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH7"
+    },
+    {
+      "id": 140,
+      "question": "CMMI maturity levels describe:",
+      "options": {
+        "A": "Process maturity from ad hoc to continuously improving",
+        "B": "Only RAID disk numbers",
+        "C": "Only IP address classes",
+        "D": "Only GUI color themes"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CH7)",
+      "alt": null,
+      "explanation": "CMMI: process maturity stages.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CH7"
+    },
+    {
+      "id": 141,
+      "question": "A check digit for abcd is mod((a*4+b*3+c*2+d*1),10)=6 for 7b42. What is b?",
+      "options": {
+        "A": "7",
+        "B": "6",
+        "C": "5",
+        "D": "8"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CALC)",
+      "alt": null,
+      "explanation": "28+3b+8+2 ≡ 6 (mod 10) → 3b≡8 → b=6.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CALC"
+    },
+    {
+      "id": 142,
+      "question": "What is 753₈ − A6₁₆ in decimal?",
+      "options": {
+        "A": "101001101₂ only as the only correct form",
+        "B": "501₈",
+        "C": "325₁₀",
+        "D": "135₁₆"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CALC)",
+      "alt": null,
+      "explanation": "753₈=491; A6₁₆=166; 491−166=325.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CALC"
+    },
+    {
+      "id": 143,
+      "question": "Four cameras 30 fps, 640×480, 16-bit color, 60 seconds. Approx storage? (1MB=10⁶ B)",
+      "options": {
+        "A": "74 MB",
+        "B": "4.5 GB",
+        "C": "19 MB",
+        "D": "1.2 GB"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_CALC)",
+      "alt": null,
+      "explanation": "4×30×640×480×2×60 ≈ 4.42×10⁹ B ≈ 4.5 GB.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_CALC"
+    },
+    {
+      "id": 144,
+      "question": "100 students: E40 F30 S25; EF8 ES6 FS5; none 22. How many study all three?",
+      "options": {
+        "A": "1",
+        "B": "3",
+        "C": "2",
+        "D": "4"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_CALC)",
+      "alt": null,
+      "explanation": "|E∪F∪S|=78 → 40+30+25−8−6−5+x=78 → x=2.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_CALC"
+    },
+    {
+      "id": 145,
+      "question": "Pareto charts in quality control are used to:",
+      "options": {
+        "A": "Show only random noise",
+        "B": "Rank issues by frequency/impact (vital few)",
+        "C": "Encrypt databases",
+        "D": "Assign IP addresses"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_MGMT)",
+      "alt": null,
+      "explanation": "Pareto: 80/20 ranking.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_MGMT"
+    },
+    {
+      "id": 146,
+      "question": "A control chart is typically used to:",
+      "options": {
+        "A": "Monitor process variation over time against control limits",
+        "B": "Only design logos",
+        "C": "Only write user stories",
+        "D": "Only measure desk height"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_MGMT)",
+      "alt": null,
+      "explanation": "Control chart: process stability.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_MGMT"
+    },
+    {
+      "id": 147,
+      "question": "MIME is used in email to:",
+      "options": {
+        "A": "Route IP packets",
+        "B": "Assign hostnames",
+        "C": "Extend email to carry non-text data (images, audio) via headers/encoding",
+        "D": "Replace TCP"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_SEC)",
+      "alt": null,
+      "explanation": "MIME: multimedia email.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_SEC"
+    },
+    {
+      "id": 148,
+      "question": "POP3 typically:",
+      "options": {
+        "A": "Is used only for encrypted file systems",
+        "B": "Retrieves email from a server (often downloading to client)",
+        "C": "Is a routing protocol like OSPF",
+        "D": "Is a CPU scheduling algorithm"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_NET)",
+      "alt": null,
+      "explanation": "POP3: retrieve mail.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_NET"
+    },
+    {
+      "id": 149,
+      "question": "ER diagrams model:",
+      "options": {
+        "A": "Entities and relationships in data design",
+        "B": "Only network topologies with cables",
+        "C": "Only Gantt schedules",
+        "D": "Only CPU pipelines"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_DEV)",
+      "alt": null,
+      "explanation": "ERD: data modeling.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_DEV"
+    },
+    {
+      "id": 150,
+      "question": "Black-box testing focuses on:",
+      "options": {
+        "A": "Internal code structure only",
+        "B": "Inputs/outputs without viewing internal structure",
+        "C": "Only compiler internals",
+        "D": "Only hardware soldering"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_DEV)",
+      "alt": null,
+      "explanation": "Black-box: external behavior.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_DEV"
+    },
+    {
+      "id": 151,
+      "question": "Virtual memory allows:",
+      "options": {
+        "A": "Processes to use more address space than physical RAM via secondary storage",
+        "B": "Removing disks forever",
+        "C": "Disabling page faults by law",
+        "D": "Only increasing CPU cores"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_OS)",
+      "alt": null,
+      "explanation": "Virtual memory: RAM + disk abstraction.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_OS"
+    },
+    {
+      "id": 152,
+      "question": "A deadlock occurs when:",
+      "options": {
+        "A": "All resources are free and processes finish",
+        "B": "Only one process exists",
+        "C": "Processes wait circularly for resources held by each other",
+        "D": "CPU is idle"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_OS)",
+      "alt": null,
+      "explanation": "Deadlock: circular wait for resources.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_OS"
+    },
+    {
+      "id": 153,
+      "question": "Benchmarking in business strategy often means:",
+      "options": {
+        "A": "Ignoring competitors",
+        "B": "Comparing performance against best practices/competitors",
+        "C": "Only formatting disks",
+        "D": "Only choosing cable colors"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_BIZ)",
+      "alt": null,
+      "explanation": "Benchmarking: compare to best.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_BIZ"
+    },
+    {
+      "id": 154,
+      "question": "A foreign key references:",
+      "options": {
+        "A": "A primary key (or unique key) in another (or same) table",
+        "B": "Only a random string with no relation",
+        "C": "Only the OS kernel version",
+        "D": "Only a MAC address"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_DB)",
+      "alt": null,
+      "explanation": "FK references PK/unique.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_DB"
+    },
+    {
+      "id": 155,
+      "question": "HTTPS is essentially:",
+      "options": {
+        "A": "HTTP over UDP only always",
+        "B": "FTP renamed",
+        "C": "HTTP over TLS/SSL",
+        "D": "SMTP with no security"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_NET)",
+      "alt": null,
+      "explanation": "HTTPS = HTTP + TLS.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_NET"
+    },
+    {
+      "id": 156,
+      "question": "An SLA typically defines:",
+      "options": {
+        "A": "Agreed service levels, responsibilities, and metrics between provider and customer",
+        "B": "Only the office plant watering schedule",
+        "C": "CPU microarchitecture",
+        "D": "Only font licenses"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_SVC)",
+      "alt": null,
+      "explanation": "SLA: service level agreement.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_SVC"
+    },
+    {
+      "id": 157,
+      "question": "Cache memory is used to:",
+      "options": {
+        "A": "Slow down the CPU intentionally",
+        "B": "Hold frequently used data closer to the CPU",
+        "C": "Replace the Internet",
+        "D": "Store only permanent cold archives"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_HW)",
+      "alt": null,
+      "explanation": "Cache: locality, faster access.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_HW"
+    },
+    {
+      "id": 158,
+      "question": "Earned value management (EVM) is used to:",
+      "options": {
+        "A": "Only design UML actors",
+        "B": "Only configure VLANs",
+        "C": "Measure project performance (cost/schedule vs plan)",
+        "D": "Compile C code"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_PM)",
+      "alt": null,
+      "explanation": "EVM: project performance metrics.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_PM"
+    },
+    {
+      "id": 159,
+      "question": "A digital signature provides:",
+      "options": {
+        "A": "Integrity and non-repudiation (with authentication of signer)",
+        "B": "Only compression",
+        "C": "Only faster scrolling",
+        "D": "Only MAC flooding"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V1_SEC)",
+      "alt": null,
+      "explanation": "Digital signature: integrity + non-repudiation.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V1_SEC"
+    },
+    {
+      "id": 160,
+      "question": "Regression testing is performed to:",
+      "options": {
+        "A": "Ignore previous features",
+        "B": "Ensure changes did not break existing functionality",
+        "C": "Only test brand-new code paths with no old features",
+        "D": "Only measure room temperature"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Ôn từ FE Textbook (V2_DEV)",
+      "alt": null,
+      "explanation": "Regression: protect existing behavior.",
+      "source": "books",
+      "exam": "JFE301_BOOK_V2_DEV"
     }
   ]
 }
