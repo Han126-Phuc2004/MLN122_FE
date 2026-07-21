@@ -3,7 +3,8 @@
   "use strict";
 
   /** Bump on every bank deploy so Safari/iPad cannot reuse stale JSON (GH Pages max-age=600). */
-  const DATA_VER = "20260721c";
+  const DATA_VER = "20260721d";
+  const THEME_KEY = "fe_learn_theme_v1";
 
   const SUBJECTS = {
     mln122: { file: "data/mln122.json", label: "MLN122" },
@@ -1333,7 +1334,65 @@
     }
   });
 
+  function systemPrefersDark() {
+    try {
+      return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+    } catch {
+      return false;
+    }
+  }
+
+  function getStoredTheme() {
+    try {
+      const t = localStorage.getItem(THEME_KEY);
+      if (t === "light" || t === "dark") return t;
+    } catch {
+      /* ignore */
+    }
+    return null;
+  }
+
+  function resolveTheme() {
+    return getStoredTheme() || (systemPrefersDark() ? "dark" : "light");
+  }
+
+  function applyTheme(theme) {
+    const dark = theme === "dark";
+    document.documentElement.classList.toggle("dark", dark);
+    const btn = document.getElementById("btnTheme");
+    if (btn) {
+      btn.textContent = dark ? "☀️" : "🌙";
+      btn.title = dark ? "Chuyển sang sáng" : "Chuyển sang tối";
+      btn.setAttribute("aria-label", dark ? "Chuyển sang sáng" : "Chuyển sang tối");
+      btn.setAttribute("aria-pressed", dark ? "true" : "false");
+    }
+  }
+
+  function setTheme(theme) {
+    try {
+      localStorage.setItem(THEME_KEY, theme);
+    } catch {
+      /* ignore */
+    }
+    applyTheme(theme);
+  }
+
+  function toggleTheme() {
+    setTheme(resolveTheme() === "dark" ? "light" : "dark");
+  }
+
+  document.getElementById("btnTheme")?.addEventListener("click", toggleTheme);
+
+  try {
+    window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => {
+      if (!getStoredTheme()) applyTheme(resolveTheme());
+    });
+  } catch {
+    /* ignore */
+  }
+
   (async function init() {
+    applyTheme(resolveTheme());
     updateSyncUi();
     const synced = await bootstrapSyncFromUrl();
     if (!synced) {

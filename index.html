@@ -6,7 +6,24 @@
   <title>Ôn tập FE – MLN122 · PRM393 · JFE301 · JIT401</title>
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
-  <link rel="stylesheet" href="style.css?v=20260721c" />
+  <meta name="color-scheme" content="light dark" />
+  <script>
+    /* Apply theme before paint to avoid flash */
+    (function () {
+      try {
+        var k = "fe_learn_theme_v1";
+        var t = localStorage.getItem(k);
+        if (t !== "light" && t !== "dark") {
+          t = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light";
+        }
+        if (t === "dark") document.documentElement.classList.add("dark");
+        else document.documentElement.classList.remove("dark");
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="style.css?v=20260721d" />
 </head>
 <body>
   <div class="app">
@@ -22,6 +39,7 @@
         <button type="button" class="sub-tab" data-subject="jit401">JIT401</button>
       </nav>
       <div class="top-actions">
+        <button type="button" class="btn ghost" id="btnTheme" title="Sáng / Tối" aria-label="Đổi giao diện sáng tối">🌙</button>
         <button type="button" class="btn ghost" id="btnSync" title="Đồng bộ">☁</button>
         <button type="button" class="btn ghost" id="btnMode" title="Chế độ">Lần lượt</button>
         <button type="button" class="btn ghost" id="btnShuffle" title="Xáo trộn">🔀</button>
@@ -139,6 +157,6 @@
     </div>
   </div>
 
-  <script src="app.js?v=20260721c"></script>
+  <script src="app.js?v=20260721d"></script>
 </body>
 </html>
