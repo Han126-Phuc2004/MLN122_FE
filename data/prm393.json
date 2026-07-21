@@ -1,0 +1,1870 @@
+{
+  "title": "PRM393 – Ôn tập FE (2 đề: B5 FE + SP26 FE)",
+  "code": "PRM393_ALL",
+  "subject": "PRM393",
+  "total": 98,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which widget pattern protects authenticated routes?",
+      "options": {
+        "A": "Navigator",
+        "B": "Guard",
+        "C": "Route protection",
+        "D": "Middleware"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Mẫu Guard (route guard) chặn/cho phép vào route đã xác thực. Navigator chỉ điều hướng; Middleware là khái niệm web/server, không phải widget pattern Flutter chuẩn.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 2,
+      "question": "Why are tests important for refactoring?",
+      "options": {
+        "A": "Reduce UI work",
+        "B": "Ensure changes don't break functionality",
+        "C": "Improve animations",
+        "D": "Change layout"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Test đảm bảo khi refactor, hành vi app không bị hỏng. Không liên quan giảm UI work hay animation.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 3,
+      "question": "What is the role of BuildContext in Flutter?",
+      "options": {
+        "A": "Store application data",
+        "B": "Locate widgets in the widget tree",
+        "C": "Manage navigation history",
+        "D": "Render UI pixels"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "BuildContext dùng để định vị widget trong cây, tìm ancestor (Theme, Navigator, MediaQuery…). Không lưu data app hay vẽ pixel.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 4,
+      "question": "What role does the Flutter framework play in application development?",
+      "options": {
+        "A": "It manages database servers",
+        "B": "It provides UI components and rendering logic",
+        "C": "It replaces the operating system",
+        "D": "It runs backend business logic"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Flutter cung cấp UI components + engine render. Không thay OS, không chạy backend/DB server.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 5,
+      "question": "How is the Flutter UI constructed internally?",
+      "options": {
+        "A": "Using XML layout files",
+        "B": "Using HTML and CSS",
+        "C": "Using a hierarchical widget tree",
+        "D": "Using native UI components only"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "UI Flutter được mô tả bằng cây widget phân cấp (widget tree). Không dùng XML/HTML/CSS layout như Android/web cổ điển.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 6,
+      "question": "Which widget enables custom scroll effects in Flutter?",
+      "options": {
+        "A": "ListView",
+        "B": "SingleChildScrollView",
+        "C": "CustomScrollView",
+        "D": "Column"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "CustomScrollView cho phép sliver + hiệu ứng scroll tùy biến. ListView/SingleChildScrollView đơn giản hơn; Column không scroll.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 7,
+      "question": "Which practice improves rendering performance?",
+      "options": {
+        "A": "Large widget trees",
+        "B": "Splitting widgets",
+        "C": "Global state",
+        "D": "Frequent rebuilds"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Tách nhỏ widget giảm rebuild không cần thiết, cải thiện performance. Cây lớn, global state, rebuild liên tục làm chậm.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 8,
+      "question": "What does an integration test verify?",
+      "options": {
+        "A": "Single function",
+        "B": "Widget rendering",
+        "C": "End-to-end app behavior",
+        "D": "Theme consistency"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Integration test kiểm tra tương tác nhiều phần / hành vi app end-to-end. Unit test = hàm đơn; widget test = render widget.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 9,
+      "question": "Why is separating UI and state logic recommended?",
+      "options": {
+        "A": "Reduce code size",
+        "B": "Improve maintainability",
+        "C": "Faster execution",
+        "D": "Better animations"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Tách UI và state logic giúp bảo trì, test dễ, giảm coupling. Không chủ yếu vì animation hay tốc độ thuần.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 10,
+      "question": "When does Flutter rebuild the widget tree?",
+      "options": {
+        "A": "On every frame",
+        "B": "When state changes",
+        "C": "Only when app restarts",
+        "D": "Only during hot restart"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Flutter rebuild khi state thay đổi (setState, notifyListeners, emit state…). Không rebuild mỗi frame trừ khi animation/ticker yêu cầu.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 11,
+      "question": "Which concept does BLoC heavily rely on?",
+      "options": {
+        "A": "Future",
+        "B": "Stream",
+        "C": "Animation",
+        "D": "Theme"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "BLoC dựa mạnh trên Stream (event in → state out). Future dùng một lần; không phải Theme/Animation.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 12,
+      "question": "Why is version control critical?",
+      "options": {
+        "A": "UI changes",
+        "B": "Track and manage code changes",
+        "C": "Improve animations",
+        "D": "Store data"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Version control theo dõi và quản lý thay đổi mã nguồn, cộng tác, rollback.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 13,
+      "question": "Why is immutability important in BLoC states?",
+      "options": {
+        "A": "UI speed",
+        "B": "Predictable state changes",
+        "C": "Memory usage",
+        "D": "Theme control"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "State bất biến giúp thay đổi state có thể dự đoán, so sánh dễ, tránh side-effect khi mutate.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 14,
+      "question": "Which Flutter plugin provides SQLite support?",
+      "options": {
+        "A": "hive",
+        "B": "moor",
+        "C": "sqflite",
+        "D": "shared_preferences"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "sqflite là plugin SQLite phổ biến trên Flutter. Hive = NoSQL local; shared_preferences = key-value đơn giản.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 15,
+      "question": "What is the main benefit of using Maps in Dart?",
+      "options": {
+        "A": "Storing values without keys",
+        "B": "Storing key-value pairs",
+        "C": "Rendering UI components",
+        "D": "Managing asynchronous tasks"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Map trong Dart lưu cặp key-value.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 16,
+      "question": "Which tool helps analyze UI performance in Flutter?",
+      "options": {
+        "A": "Inspector",
+        "B": "DevTools",
+        "C": "Emulator",
+        "D": "Hot reload"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Flutter DevTools phân tích performance UI, timeline, memory. Inspector chủ yếu cây widget.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 17,
+      "question": "What does a Dart class primarily represent?",
+      "options": {
+        "A": "A UI widget only",
+        "B": "A blueprint for creating objects",
+        "C": "A database table",
+        "D": "A network request"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Class là bản thiết kế (blueprint) để tạo object — OOP cơ bản.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 18,
+      "question": "What is the purpose of SliverAppBar?",
+      "options": {
+        "A": "Static app bar",
+        "B": "Scrollable flexible app bar",
+        "C": "Bottom navigation",
+        "D": "Drawer control"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "SliverAppBar là app bar linh hoạt, co giãn theo scroll trong CustomScrollView.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 19,
+      "question": "What is Hive mainly used for?",
+      "options": {
+        "A": "Remote database",
+        "B": "Lightweight local NoSQL storage",
+        "C": "State management",
+        "D": "Routing"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Hive: lưu trữ NoSQL local nhẹ, nhanh, không cần native SQL bridge nặng.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 20,
+      "question": "Which HTTP header is commonly used for authorization?",
+      "options": {
+        "A": "Content-Type",
+        "B": "Accept",
+        "C": "Authorization",
+        "D": "Cache-Control"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Header Authorization mang token/credentials. Content-Type mô tả body; Accept chọn response type.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 21,
+      "question": "What does TextEditingController manage?",
+      "options": {
+        "A": "Theme",
+        "B": "Text input value",
+        "C": "Validation rules",
+        "D": "Layout constraints"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "TextEditingController quản lý giá trị và selection của ô text input.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 22,
+      "question": "Why is Dart considered suitable for Flutter development?",
+      "options": {
+        "A": "It is only used for backend systems",
+        "B": "It supports both UI and application logic efficiently",
+        "C": "It replaces native languages",
+        "D": "It does not support asynchronous programming"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Dart hỗ trợ cả logic app và UI (null-safety, async, hot reload) nên phù hợp Flutter.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 23,
+      "question": "What does the build() method return in a widget?",
+      "options": {
+        "A": "A screen",
+        "B": "A widget tree describing the UI",
+        "C": "Application state",
+        "D": "Rendered pixels"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "build() trả về widget tree mô tả UI cần render, không trả pixel hay state.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 24,
+      "question": "What represents the output of a BLoC?",
+      "options": {
+        "A": "Events",
+        "B": "Widgets",
+        "C": "States",
+        "D": "Controllers"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "BLoC nhận Events, phát States. Output chính là States.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 25,
+      "question": "What is Cubit in BLoC?",
+      "options": {
+        "A": "UI widget",
+        "B": "Simplified BLoC without events",
+        "C": "Database layer",
+        "D": "Animation helper"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Cubit là BLoC đơn giản hơn: emit state trực tiếp, không cần Event class.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 26,
+      "question": "Which activity is typically performed after creating a new Flutter project?",
+      "options": {
+        "A": "Deploying to app stores",
+        "B": "Running the default app on a device",
+        "C": "Configuring authentication",
+        "D": "Optimizing database queries"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Sau khi tạo project, bước điển hình là chạy app mặc định trên device/emulator để kiểm tra môi trường.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 27,
+      "question": "Which practice improves deployment security?",
+      "options": {
+        "A": "Debug builds",
+        "B": "Secure signing keys",
+        "C": "Hardcoding secrets",
+        "D": "Skipping validation"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Bảo mật deploy: bảo vệ signing keys, không hardcode secret, dùng release build đã ký.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 28,
+      "question": "Why is Chapter 14 considered optional (Plus)?",
+      "options": {
+        "A": "Deployment is UI logic",
+        "B": "Apps can be tested without publishing",
+        "C": "It replaces authentication",
+        "D": "It handles APIs"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Chương deploy thường optional vì có thể test app đầy đủ mà chưa publish store.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 29,
+      "question": "What is the primary purpose of ThemeData in Flutter?",
+      "options": {
+        "A": "Manage navigation",
+        "B": "Define application-wide visual styles",
+        "C": "Handle state changes",
+        "D": "Control animations"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "ThemeData định nghĩa style toàn app (màu, font, component theme).",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 30,
+      "question": "Which method is used to update the UI when state changes?",
+      "options": {
+        "A": "build()",
+        "B": "setState()",
+        "C": "initState()",
+        "D": "dispose()"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "setState() đánh dấu StatefulWidget cần rebuild UI khi state đổi. build() được gọi lại; initState/dispose là lifecycle.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 31,
+      "question": "Which Flutter package is commonly used for simple key-value storage?",
+      "options": {
+        "A": "sqflite",
+        "B": "shared_preferences",
+        "C": "provider",
+        "D": "http"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "shared_preferences lưu key-value đơn giản (bool/int/string). sqflite cho quan hệ; provider là state management.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 32,
+      "question": "Why should architecture be decided early?",
+      "options": {
+        "A": "Avoid UI work",
+        "B": "Reduce refactoring cost",
+        "C": "Improve animations",
+        "D": "Change theme"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Chọn architecture sớm giảm chi phí refactor sau này khi app lớn.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 33,
+      "question": "What is pagination used for?",
+      "options": {
+        "A": "UI animation",
+        "B": "Handling large datasets efficiently",
+        "C": "Theme management",
+        "D": "Authentication"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Pagination tải dữ liệu theo trang, xử lý dataset lớn hiệu quả, giảm memory/network.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 34,
+      "question": "Which widget helps avoid rebuilding unchanged UI parts?",
+      "options": {
+        "A": "Container",
+        "B": "RepaintBoundary",
+        "C": "Column",
+        "D": "FutureBuilder"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "RepaintBoundary cô lập vùng repaint, tránh vẽ lại phần UI không đổi.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 35,
+      "question": "Which widget is used to handle asynchronous API responses in UI?",
+      "options": {
+        "A": "FutureBuilder",
+        "B": "ListView",
+        "C": "Provider",
+        "D": "Form"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "FutureBuilder lắng nghe Future (API) và rebuild UI theo ConnectionState/data/error.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 36,
+      "question": "Which Dart feature helps organize code into reusable libraries?",
+      "options": {
+        "A": "Widgets",
+        "B": "Packages and imports",
+        "C": "Hot reload",
+        "D": "Layout constraints"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "package + import tổ chức code thành thư viện tái sử dụng.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 37,
+      "question": "What is refresh token used for?",
+      "options": {
+        "A": "UI refresh",
+        "B": "Extend session without re-login",
+        "C": "Theme update",
+        "D": "Navigation reset"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Refresh token dùng để lấy access token mới, kéo dài phiên mà không login lại.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 38,
+      "question": "What is rebuild scope optimization in Flutter?",
+      "options": {
+        "A": "Reducing widget tree depth",
+        "B": "Limiting rebuild to affected widgets",
+        "C": "Caching API responses",
+        "D": "Using global state"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Rebuild scope optimization: chỉ rebuild widget bị ảnh hưởng, không rebuild cả cây.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 39,
+      "question": "Why is BLoC suitable for large teams?",
+      "options": {
+        "A": "Less code",
+        "B": "Standardized architecture",
+        "C": "Faster builds",
+        "D": "UI reuse"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "BLoC chuẩn hóa luồng event/state, dễ phân chia việc trong team lớn.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 40,
+      "question": "Which widget reacts to async data from local storage?",
+      "options": {
+        "A": "FutureBuilder",
+        "B": "StreamBuilder",
+        "C": "ListView",
+        "D": "Provider"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "FutureBuilder phù hợp data async one-shot từ local storage (Future). StreamBuilder cho stream liên tục.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 41,
+      "question": "What is a token in authentication systems?",
+      "options": {
+        "A": "UI key",
+        "B": "Temporary access credential",
+        "C": "Database ID",
+        "D": "Theme value"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Token là credential tạm thời chứng minh đã xác thực (JWT, bearer…).",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 42,
+      "question": "What does a Tween define?",
+      "options": {
+        "A": "Animation speed",
+        "B": "Value range for animation",
+        "C": "UI layout",
+        "D": "State logic"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Tween định nghĩa khoảng giá trị bắt đầu–kết thúc cho animation.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 43,
+      "question": "Which Dart feature allows defining reusable, type-safe components?",
+      "options": {
+        "A": "Mixins",
+        "B": "Generics",
+        "C": "Futures",
+        "D": "Streams"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Generics cho component/type-safe tái sử dụng (List<T>, class Box<T>).",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 44,
+      "question": "Which widget animates between two widgets?",
+      "options": {
+        "A": "AnimatedSwitcher",
+        "B": "AnimatedOpacity",
+        "C": "AnimatedAlign",
+        "D": "AnimatedSize"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "AnimatedSwitcher chuyển động giữa hai child widget khác nhau. Các Animated* khác animate một property.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 45,
+      "question": "Why should setState() be called sparingly?",
+      "options": {
+        "A": "It increases app size",
+        "B": "It may trigger unnecessary rebuilds",
+        "C": "It blocks UI thread",
+        "D": "It causes memory leaks"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "setState() gọi nhiều/không cần thiết gây rebuild thừa → giảm performance.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 46,
+      "question": "What is test isolation?",
+      "options": {
+        "A": "Running all tests together",
+        "B": "Independence of test cases",
+        "C": "UI separation",
+        "D": "Mocking only"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Test isolation: mỗi test case độc lập, không phụ thuộc thứ tự/state test khác.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 47,
+      "question": "What does crossAxisAlignment control?",
+      "options": {
+        "A": "Vertical alignment in Column",
+        "B": "Horizontal alignment in Column",
+        "C": "Child order",
+        "D": "Widget size"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Trong Column (trục chính dọc), crossAxisAlignment điều khiển căn ngang. (Trong Row thì ngược lại.)",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 48,
+      "question": "Which tool is commonly used for version control?",
+      "options": {
+        "A": "SVN",
+        "B": "Git",
+        "C": "FTP",
+        "D": "ZIP"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Git là công cụ version control phổ biến nhất hiện nay.",
+      "source": "fuexam",
+      "exam": "PRM393_SP26_B5_FE"
+    },
+    {
+      "id": 49,
+      "question": "Why is clean architecture beneficial?",
+      "options": {
+        "A": "Fewer files",
+        "B": "Easier maintenance and testing",
+        "C": "Better UI",
+        "D": "Faster builds"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Clean architecture tách layer → dễ bảo trì và kiểm thử. Không chủ yếu vì UI/build nhanh.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 50,
+      "question": "What is Dart primarily designed for?",
+      "options": {
+        "A": "Database management",
+        "B": "User interface development",
+        "C": "General-purpose programming with UI focus",
+        "D": "Network security"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Dart là ngôn ngữ đa mục đích, được tối ưu cho UI client (Flutter).",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 51,
+      "question": "Why is secure authentication critical in mobile apps?",
+      "options": {
+        "A": "UI quality",
+        "B": "Protect user data",
+        "C": "Reduce code",
+        "D": "Improve speed"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Xác thực bảo mật nhằm bảo vệ dữ liệu người dùng.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 52,
+      "question": "Which HTTP method is typically used to retrieve data?",
+      "options": {
+        "A": "POST",
+        "B": "PUT",
+        "C": "GET",
+        "D": "DELETE"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "GET dùng để lấy/retrieve dữ liệu.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 53,
+      "question": "What happens if a non-nullable variable is not initialized in Dart?",
+      "options": {
+        "A": "The app runs normally",
+        "B": "A runtime exception occurs",
+        "C": "A compile-time error occurs",
+        "D": "The value becomes null automatically"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Biến non-nullable không khởi tạo → lỗi compile-time (null safety).",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 54,
+      "question": "Which command builds a release APK?",
+      "options": {
+        "A": "flutter run",
+        "B": "flutter build apk",
+        "C": "flutter doctor",
+        "D": "flutter clean"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "flutter build apk tạo file APK release.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 55,
+      "question": "Which widget allows overlapping of its child widgets?",
+      "options": {
+        "A": "Column",
+        "B": "Row",
+        "C": "Stack",
+        "D": "Expanded"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Stack xếp chồng / cho phép overlap child.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 56,
+      "question": "Which platforms can Flutter applications target using a single codebase?",
+      "options": {
+        "A": "Android only",
+        "B": "iOS only",
+        "C": "Android, iOS, web, and desktop",
+        "D": "Web servers only"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Flutter multi-platform: mobile + web + desktop từ một codebase.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 57,
+      "question": "What is the main risk of improper state management?",
+      "options": {
+        "A": "UI inconsistency",
+        "B": "Longer compile time",
+        "C": "Package conflicts",
+        "D": "Build errors"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "State sai → UI không nhất quán / bug hiển thị.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 58,
+      "question": "What does Curves/Animation provide?",
+      "options": {
+        "A": "Layout control",
+        "B": "Animation curve behavior",
+        "C": "State updates",
+        "D": "Navigation"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Curves định nghĩa đường cong/hành vi animation (easing).",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 59,
+      "question": "How can data be passed to a new screen?",
+      "options": {
+        "A": "Using global variables",
+        "B": "Via constructor arguments",
+        "C": "Using ThemeData",
+        "D": "Using Scaffold"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Cách chuẩn: truyền qua constructor của màn hình mới (hoặc route arguments).",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 60,
+      "question": "What is the purpose of parsing JSON?",
+      "options": {
+        "A": "Encrypt data",
+        "B": "Convert JSON into Dart objects",
+        "C": "Send requests",
+        "D": "Cache responses"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Parse JSON → object/map Dart để dùng trong app.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 61,
+      "question": "Which phase involves gathering requirements?",
+      "options": {
+        "A": "Implementation",
+        "B": "Design",
+        "C": "Analysis",
+        "D": "Testing"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Thu thập yêu cầu thuộc giai đoạn Analysis.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 62,
+      "question": "Which Flutter tool helps debug network requests?",
+      "options": {
+        "A": "DevTools",
+        "B": "Inspector",
+        "C": "Emulator",
+        "D": "Hot reload"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Flutter DevTools hỗ trợ debug network, performance, v.v.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 63,
+      "question": "Which Dart feature supports object-oriented programming?",
+      "options": {
+        "A": "Widgets",
+        "B": "Classes and objects",
+        "C": "Hot reload",
+        "D": "Layout builders"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "OOP trong Dart dựa trên class và object.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 64,
+      "question": "Which approach helps reduce unnecessary widget rebuilds?",
+      "options": {
+        "A": "Using global variables",
+        "B": "Fine-grained state updates",
+        "C": "Hot restart",
+        "D": "Large widgets"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Cập nhật state hẹp (fine-grained) giảm rebuild thừa.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 65,
+      "question": "Which action best demonstrates Flutter's reactive UI model?",
+      "options": {
+        "A": "Manually updating UI elements",
+        "B": "Rebuilding UI in response to state changes",
+        "C": "Using layout XML",
+        "D": "Calling native APIs"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "UI reactive: state đổi → rebuild UI.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 66,
+      "question": "Why are const widgets recommended?",
+      "options": {
+        "A": "They improve readability",
+        "B": "They reduce rebuild cost",
+        "C": "They add state",
+        "D": "They handle navigation"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "const widget tái sử dụng instance, giảm chi phí rebuild.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 67,
+      "question": "Why should animations be disposed properly?",
+      "options": {
+        "A": "Improve UX",
+        "B": "Prevent memory leaks",
+        "C": "Speed up builds",
+        "D": "Fix layout"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "AnimationController/ticker cần dispose để tránh rò memory.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 68,
+      "question": "Which Flutter test focuses on UI components?",
+      "options": {
+        "A": "Unit test",
+        "B": "Widget test",
+        "C": "Integration test",
+        "D": "Load test"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Widget test kiểm tra UI components Flutter.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 69,
+      "question": "Why should database operations be asynchronous?",
+      "options": {
+        "A": "Simplify syntax",
+        "B": "Avoid blocking UI thread",
+        "C": "Reduce code",
+        "D": "Improve theme"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "DB async để không chặn UI thread.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 70,
+      "question": "Why is Chapter 13 considered optional (Plus)?",
+      "options": {
+        "A": "It replaces core concepts",
+        "B": "Apps can work without deep optimization",
+        "C": "It manages navigation",
+        "D": "It handles authentication"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Tối ưu sâu (plus) không bắt buộc để app chạy được.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 71,
+      "question": "Which widget applies a Theme to an entire Flutter application?",
+      "options": {
+        "A": "Scaffold",
+        "B": "Theme",
+        "C": "MaterialApp",
+        "D": "Container"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "MaterialApp (theme:) áp theme toàn app.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 72,
+      "question": "What is the purpose of SliverAppBar?",
+      "options": {
+        "A": "Static app bar",
+        "B": "Scrollable flexible app bar",
+        "C": "Bottom navigation",
+        "D": "Drawer control"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "SliverAppBar: app bar co giãn theo scroll.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 73,
+      "question": "Which widget is best used to add fixed empty space?",
+      "options": {
+        "A": "Padding",
+        "B": "Expanded",
+        "C": "SizedBox",
+        "D": "Container"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "SizedBox tạo khoảng trống kích thước cố định.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 74,
+      "question": "Which package supports BLoC architecture?",
+      "options": {
+        "A": "provider",
+        "B": "flutter_bloc",
+        "C": "sqflite",
+        "D": "http"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Package flutter_bloc hỗ trợ BLoC/Cubit.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 75,
+      "question": "Which Flutter widget reacts to authentication state changes?",
+      "options": {
+        "A": "FutureBuilder",
+        "B": "StreamBuilder",
+        "C": "ListView",
+        "D": "Form"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Auth state dạng stream → StreamBuilder (FutureBuilder cho one-shot).",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 76,
+      "question": "What is technical debt?",
+      "options": {
+        "A": "UI bug",
+        "B": "Future cost of poor design decisions",
+        "C": "Memory usage",
+        "D": "API limit"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Technical debt: chi phí tương lai do quyết định thiết kế kém.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 77,
+      "question": "What is implicit animation?",
+      "options": {
+        "A": "Manual animation control",
+        "B": "Animation without controller",
+        "C": "API animation",
+        "D": "Navigation animation"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Implicit animation (AnimatedOpacity…) không cần AnimationController.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 78,
+      "question": "Which Dart data structure is best suited for storing an ordered collection of items?",
+      "options": {
+        "A": "Set",
+        "B": "Map",
+        "C": "List",
+        "D": "Queue"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "List: tập hợp có thứ tự.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 79,
+      "question": "Which Flutter concept supports reactive UI updates?",
+      "options": {
+        "A": "Manual refresh",
+        "B": "Widget rebuilding",
+        "C": "Hot restart",
+        "D": "Native callbacks"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Reactive UI dựa trên rebuild widget khi state đổi.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 80,
+      "question": "Which type of test checks individual functions or classes?",
+      "options": {
+        "A": "Widget test",
+        "B": "Integration test",
+        "C": "Unit test",
+        "D": "System test"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Unit test kiểm tra hàm/class đơn lẻ.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 81,
+      "question": "What is the role of events in BLoC?",
+      "options": {
+        "A": "Store UI",
+        "B": "Trigger state changes",
+        "C": "Render widgets",
+        "D": "Handle layout"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Events kích hoạt xử lý → emit state mới.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 82,
+      "question": "What is the main purpose of hot reload in Flutter?",
+      "options": {
+        "A": "Improve runtime performance",
+        "B": "Instantly reflect code changes in UI",
+        "C": "Publish apps faster",
+        "D": "Reduce memory usage"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Hot reload áp code change lên UI gần như ngay, giữ state.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 83,
+      "question": "Why are forms important in mobile applications?",
+      "options": {
+        "A": "UI decoration",
+        "B": "User data collection",
+        "C": "State management",
+        "D": "Navigation"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Form dùng thu thập dữ liệu người dùng.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 84,
+      "question": "Which method retrieves data from SharedPreferences?",
+      "options": {
+        "A": "get()",
+        "B": "read()",
+        "C": "fetch()",
+        "D": "load()"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "SharedPreferences dùng getString/getInt… (get).",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 85,
+      "question": "What is the main benefit of Flutter's widget-based architecture?",
+      "options": {
+        "A": "Widgets are only used for visual design",
+        "B": "Widgets allow code reuse across platforms",
+        "C": "Widgets automatically manage databases",
+        "D": "Widgets replace backend services"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Widget tree + một codebase tái sử dụng qua nền tảng.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 86,
+      "question": "Why are widgets lightweight in Flutter?",
+      "options": {
+        "A": "They manage system resources",
+        "B": "They are immutable descriptions",
+        "C": "They store UI state",
+        "D": "They handle rendering directly"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Widget là mô tả bất biến, nhẹ; Element/RenderObject làm việc nặng.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 87,
+      "question": "Why should authentication state be centralized?",
+      "options": {
+        "A": "Reduce UI code",
+        "B": "Ensure consistent access control",
+        "C": "Improve animations",
+        "D": "Simplify layout"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Auth tập trung → kiểm soát truy cập nhất quán toàn app.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 88,
+      "question": "Which widget can hide user input text when configured for password entry?",
+      "options": {
+        "A": "TextField",
+        "B": "ObscureText",
+        "C": "SecureInput",
+        "D": "PasswordField"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "TextField với obscureText: true ẩn mật khẩu (ObscureText không phải widget).",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 89,
+      "question": "What is Flutter primarily used for?",
+      "options": {
+        "A": "Designing databases for mobile apps",
+        "B": "Creating native applications from a single codebase",
+        "C": "Developing server-side applications only",
+        "D": "Building operating systems for mobile devices"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Flutter: app native-like đa nền tảng từ một codebase.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 90,
+      "question": "Which method resets all form fields?",
+      "options": {
+        "A": "clear()",
+        "B": "reset()",
+        "C": "dispose()",
+        "D": "remove()"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "FormState.reset() xóa/reset các field.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 91,
+      "question": "Which Dart keyword is used to define a constant value at compile time?",
+      "options": {
+        "A": "final",
+        "B": "static",
+        "C": "const",
+        "D": "var"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "const = hằng compile-time; final = gán 1 lần runtime.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 92,
+      "question": "What happens after successful login?",
+      "options": {
+        "A": "App closes",
+        "B": "User session starts",
+        "C": "Theme changes",
+        "D": "Navigation resets"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Login thành công → bắt đầu phiên người dùng (session/token).",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 93,
+      "question": "Which step is required before running a Flutter app for the first time?",
+      "options": {
+        "A": "Publishing the app",
+        "B": "Setting up the Flutter SDK",
+        "C": "Configuring a database",
+        "D": "Writing backend APIs"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Cần cài/setup Flutter SDK trước khi run app.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 94,
+      "question": "Which widget reacts to async data from local storage?",
+      "options": {
+        "A": "FutureBuilder",
+        "B": "StreamBuilder",
+        "C": "ListView",
+        "D": "Provider"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Local storage thường trả Future → FutureBuilder.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 95,
+      "question": "What does golden testing verify?",
+      "options": {
+        "A": "API responses",
+        "B": "UI appearance consistency",
+        "C": "Database state",
+        "D": "Authentication"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Golden test so sánh snapshot giao diện.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 96,
+      "question": "Why should state be kept as local as possible?",
+      "options": {
+        "A": "Better animations",
+        "B": "Reduce unnecessary rebuilds",
+        "C": "Simplify UI",
+        "D": "Improve navigation"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "State càng local càng ít widget bị rebuild oan.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 97,
+      "question": "What is the benefit of composing widgets in Flutter?",
+      "options": {
+        "A": "Faster compilation",
+        "B": "Better code reuse and UI consistency",
+        "C": "Reduced memory usage",
+        "D": "Automatic navigation"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Ghép widget nhỏ → tái sử dụng và UI đồng nhất.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    },
+    {
+      "id": 98,
+      "question": "Which status code indicates server error?",
+      "options": {
+        "A": "200",
+        "B": "301",
+        "C": "404",
+        "D": "500"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "5xx = lỗi server; 500 Internal Server Error.",
+      "source": "fuexam_image",
+      "exam": "PRM393_SP26_FE"
+    }
+  ]
+}

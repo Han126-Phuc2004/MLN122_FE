@@ -1,0 +1,1031 @@
+{
+  "title": "JFE301 – Ôn tập FE (IT Fundamentals)",
+  "code": "JFE301_SP26_FE",
+  "subject": "JFE301",
+  "total": 54,
+  "questions": [
+    {
+      "id": 1,
+      "question": "A check digit for a 4-digit number abcd can be calculated as follows: mod((a*4+b*3+c*2+d*1), 10). When the check digit for the 4-digit number “7b42” is equal to 6, which of the following is the correct number to be put in b? Here, mod (x, y) returns the remainder after “x” is divided by “y”",
+      "options": {
+        "A": "7",
+        "B": "6",
+        "C": "5",
+        "D": "8"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "mod((7*4 + b*3 + 4*2 + 2*1), 10) = 6 → (28+3b+8+2)=6 (mod 10) → 38+3b ≡ 6 (mod 10) → 3b ≡ 8 (mod 10). b=6: 18≡8. Đáp án 6.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is an appropriate explanation of the spooling function?",
+      "options": {
+        "A": "The overall processing power of a system is enhanced by performing data transfer between the main storage and low-speed input/output devices via auxiliary storage devices.",
+        "B": "Execution of the programs is temporarily suspended, and control is transferred to the control program.",
+        "C": "If a CPU becomes idle because of the execution of input/output instructions while executing a certain task, the CPU is assigned to another task.",
+        "D": "The access time to auxiliary storage devices is reduced by providing a buffer pool consisting of multiple buffers and by increasing the probability of accessing buffers located in the main storage."
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Spooling: đệm I/O chậm qua bộ nhớ phụ (disk) để tăng hiệu năng hệ thống. C là multiprogramming/CPU idle switch; D gần buffer cache; B là interrupt/trap.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is a service delivery process that is defined, agreed, recorded, and managed in IT service management?",
+      "options": {
+        "A": "Schedule management",
+        "B": "Risk management",
+        "C": "Quality management",
+        "D": "Service level management"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Service Level Management định nghĩa, thỏa thuận, ghi nhận và quản lý mức dịch vụ (SLA). Các mục còn lại không phải quy trình delivery SLA.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is an appropriate description concerning the maturity level in the staged representation of CMMI?",
+      "options": {
+        "A": "At the “initial” level, processes are characterized for projects and are often reactive.",
+        "B": "At the “defined” level, processes are statistically measured and controlled.",
+        "C": "At the “managed” level, processes are documented and followed.",
+        "D": "At the “quantitatively managed” level, processes are continually improved."
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "CMMI staged: Initial=ad-hoc; Managed=theo dự án, có kiểm soát; Defined=chuẩn tổ chức; Quantitatively Managed=đo lường thống kê; Optimizing=cải tiến liên tục. A gán nhầm mô tả Managed cho Initial; B/D nhầm level. C gần đúng nhất cho Managed.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is equivalent to the result of the arithmetic expression “753₈ – A6₁₆”? Here, each number is written in radix notation; that is, the radix is represented by a subscript following the number.",
+      "options": {
+        "A": "101001101₂",
+        "B": "501₈",
+        "C": "325₁₀",
+        "D": "135₁₆"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "753₈=7*64+5*8+3=491₁₀; A6₁₆=10*16+6=166₁₀; 491−166=325₁₀. Khớp phương án C.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 6,
+      "question": "Which of following statement is INCORRECT of cloud computing?",
+      "options": {
+        "A": "Companies can scale up to massive capacities in an instant without having to invest in new infrastructure, train new personnel, or license new software.",
+        "B": "Amazon Web Services (AWS) EC2 is a sample of cloud computing.",
+        "C": "One concern is if one piece of the software on a node fails, other pieces of the software on other nodes may fail.",
+        "D": "It evolves from grid computing and provides on-demand resource provisioning.",
+        "E": "It relies on sharing of resources to achieve coherence and economies of scale, similar to a utility (like the electricity grid) over a network."
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Phát biểu C không đúng đặc trưng cloud (các node/dịch vụ thường cô lập, fail một phần không đồng nghĩa fail dây chuyền toàn hệ như mô tả). A/B/D/E là đặc điểm/đúng về cloud.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 7,
+      "question": "Which of the following statements is TRUE about the critical path in PERT?",
+      "options": {
+        "A": "Activities on the critical path have slack time",
+        "B": "Critical path always has the least number of tasks",
+        "C": "Critical path can be ignored if resources are sufficient",
+        "D": "Delays in critical path activities will delay the entire project"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Critical path: đường dài nhất; trễ activity trên critical path → trễ cả dự án. Slack=0 trên critical path.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is the most appropriate indicator that is directly helpful in managing software quality in a system development project?",
+      "options": {
+        "A": "Number of completed work packages that compose a WBS",
+        "B": "Productivity of individual programming",
+        "C": "Program version and modification level",
+        "D": "Period of time required to adequately review each deliverable"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Chỉ số hỗ trợ quản lý chất lượng phần mềm: thời gian/adequacy review từng deliverable. WBS completed ≠ chất lượng; productivity/version không đo chất lượng trực tiếp.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 9,
+      "question": "The following statement is true/ false about CRM? Customer Relationship Management (CRM) is a cross-functional enterprise system driven by an integrated suite of software modules that supports the basic internal business processes of a company. CRM gives a company an integrated real-time view of its core business processes such as production, order processing, and inventory management, tied together by CRM applications software and a common database maintained by a database management system. CRM systems track business resources (such as cash, raw materials, and production capacity) and the status of commitments made by the business (such as customer orders, purchase orders, and employee payroll), no matter which department (manufacturing, purchasing, sales, accounting, and so on) has entered the data into the system. CRM facilitates information flow between all business functions inside the organization, and manages connections to outside stakeholders.",
+      "options": {
+        "A": "False",
+        "B": "True"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Đoạn mô tả thiên về ERP (tài nguyên, sản xuất, inventory cross-function), không phải CRM (quan hệ khách hàng, sales/marketing/service). → False.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 10,
+      "question": "Given the following inventory data: Item Annual Value ($) P 4000 Q 2500 R 1500 S 800 T 200 Which statement is correct according to ABC analysis?",
+      "options": {
+        "A": "Items P, Q, R are Class A",
+        "B": "All items are equally important",
+        "C": "Items P and Q are Class A",
+        "D": "Item P alone is Class A"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "ABC analysis: giá trị cao chiếm ít item. P=4000, Q=2500 (~72% tổng 9000) là Class A điển hình. R/S/T thấp hơn.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 11,
+      "question": "Which of the following is a role of the program register (i.e., program counter) of the CPU?",
+      "options": {
+        "A": "In order to read out an instruction, it contains the address where the next instruction is stored.",
+        "B": "In order to perform an arithmetic or logical operation, it contains data that is read out from the memory.",
+        "C": "In order to execute a conditional branch instruction, it contains the state of operation results.",
+        "D": "In order to decode an instruction, it contains the instruction that is read out from the memory."
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Program Counter (PC) giữ địa chỉ lệnh tiếp theo cần fetch.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 12,
+      "question": "What is the function point value of a program that has the functions and characteristics shown in the table below? Here, the correction coefficient of complexity is 0.75.",
+      "options": {
+        "A": "18",
+        "B": "24",
+        "C": "30",
+        "D": "32"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Function point = (unadjusted FP) × complexity. Với hệ số 0.75, kết quả thường là số nhỏ hơn UFP; theo bảng đề (ảnh) đáp án phổ biến trong bộ này là 18. (Nếu có ảnh bảng chức năng, nhân hệ số 0.75 để kiểm tra lại.)",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 13,
+      "question": "Which of the following is an appropriate technique that is used for implementing a queue as a data structure?",
+      "options": {
+        "A": "FIFO",
+        "B": "LIFO",
+        "C": "LFU",
+        "D": "LRU"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Queue = FIFO (First In First Out). LIFO là stack; LFU/LRU là chính sách cache.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 14,
+      "question": "There is a digital video recording system installed with four security cameras. In this system, the video data from each camera is captured at 30 frames per second with a resolution of 640 × 480 pixels and a color depth of 16 bits per pixel, and then it is stored in the hard disk drive. Which of the following is the approximate storage capacity that is required for recording all video data for one minute? Here, 1 MB is 10^6 bytes, and 1 GB is 10^9 bytes.",
+      "options": {
+        "A": "74 MB",
+        "B": "4.5 GB",
+        "C": "19 MB",
+        "D": "1.2 GB"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "4 camera × 30 fps × 640×480 × 16 bit × 60s. Bytes/frame = 640*480*2 = 614400. 1 cam/s = 30*614400≈18.4MB; 4 cam/s≈73.7MB; ×60s ≈ 4.42GB ≈ 4.5GB.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 15,
+      "question": "Which of the following is an appropriate combination of the fundamental object-oriented programming concepts?",
+      "options": {
+        "A": "Abstraction, encapsulation, inheritance, polymorphism",
+        "B": "Virtualization, structuring, projection, class",
+        "C": "Materialization, structuring, continuity, class",
+        "D": "Normalization, encapsulation, division, class"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Bốn trụ OOP: abstraction, encapsulation, inheritance, polymorphism.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 16,
+      "question": "A systems design is represented using several diagrams. When a system analyst wants to confirm the design information such as the relationships among functions and the interface among modules in a hierarchical manner, which of the following is the most appropriate diagram that should be inspected by the analyst?",
+      "options": {
+        "A": "WBS diagram",
+        "B": "Data flow diagram",
+        "C": "Entity-relationship diagram",
+        "D": "State transition diagram"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "DFD thể hiện luồng dữ liệu/quan hệ chức năng và interface giữa process theo phân cấp. WBS=công việc; ERD=dữ liệu; State=hành vi trạng thái.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 17,
+      "question": "Which of the following is a protocol for e-mail on the Internet that allows an e-mail client to access e-mail on a remote mail server?",
+      "options": {
+        "A": "MIME",
+        "B": "SMTP",
+        "C": "POP3",
+        "D": "IMAP"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "IMAP cho phép client truy cập/thao tác mail trên server từ xa (thư vẫn trên server). POP3 tải về local; SMTP gửi mail; MIME định dạng nội dung.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 18,
+      "question": "Determine which type of network class and default subnet mask of this IP address belong to? IP version 4 = 216.58.221.78",
+      "options": {
+        "A": "Class C, and default subnet mask is 255.255.255.0",
+        "B": "Class A, and default subnet mask is 255.0.0.0",
+        "C": "It's an incorrect IP address",
+        "D": "Class B, and default subnet mask is 255.255.0.0"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "216.x.x.x thuộc Class C (192–223). Default mask Class C: 255.255.255.0.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 19,
+      "question": "In a certain project, each of the 6 employee members needs to communicate on a one-to-one basis. What is the minimum number of paths needed to communicate in such a way?",
+      "options": {
+        "A": "15",
+        "B": "9",
+        "C": "6",
+        "D": "30"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Số đường giao tiếp 1-1 giữa n người: n(n-1)/2 = 6*5/2 = 15.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 20,
+      "question": "The syntax rules of the field identifier \"field ID\" are represented in BNF notation as shown below. When each ID is defined as an arbitrary sequence of letters and/or digits, which of the following should be inserted into the blank A? <field ID>::= <ID> | <field ID>.<ID> <ID>::= A <letter>::= a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z <digit>::= 0|1|2|3|4|5|6|7|8|9 a) <ID>.<letter>|<ID>.<digit> b) <ID><letter>|<ID><digit>|<ID>.<ID> c) <letter>|<digit>|<ID><letter>|<ID><digit> d) <letter><ID>|<digit><ID>",
+      "options": {
+        "A": "Choose b",
+        "B": "Choose c",
+        "C": "Choose d",
+        "D": "Choose a"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "ID là chuỗi letter/digit tùy ý: <ID>::= <letter>|<digit>|<ID><letter>|<ID><digit> (quy tắc đệ quy BNF chuẩn). → Choose c.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 21,
+      "question": "A GUI screen contains a candidate list from which a user can select an item. Which of the following is an appropriate case to adopt this data entry method?",
+      "options": {
+        "A": "Input data needs to be edited.",
+        "B": "Candidates consist of many different values.",
+        "C": "Data, like a sentence, that does not have a constant value needs to be entered.",
+        "D": "Candidates consist of only a few predetermined values."
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Danh sách chọn phù hợp khi chỉ có ít giá trị định sẵn. Nhiều giá trị/tự do nhập text thì không hợp lý.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 22,
+      "question": "When the binary tree shown in the figure below is stored in a one-dimensional array A under the following conditions, what is the array index of the node \"T\"?",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "3",
+        "D": "10"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Cây nhị phân mảng: root index 1 (hoặc 0 tùy đề). Con trái 2i, phải 2i+1. Theo hình đề FE phổ biến, node T thường ở index 7. (Đối chiếu ảnh nếu có.)",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 23,
+      "question": "Which of the following is the appropriate combination of 4 color inks or toners for a full-color printer?",
+      "options": {
+        "A": "Cyan, Magenta, Yellow, and Black",
+        "B": "Aqua, Orange, Brown, and Black",
+        "C": "Red, Green, Blue, and Black",
+        "D": "Red, Green, Blue, and Gray"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Máy in màu full-color thường CMYK: Cyan, Magenta, Yellow, Black.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 24,
+      "question": "Which of the following is a chart or a diagram that is often used in quality control to rank issues or problems in descending order of frequency?",
+      "options": {
+        "A": "Pareto chart",
+        "B": "Cause-and-effect diagram",
+        "C": "Control chart",
+        "D": "Scatter diagram"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Pareto chart xếp hạng vấn đề theo tần suất giảm dần (80/20).",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 25,
+      "question": "Which of the following is the appropriate flow of execution of SQL statements?",
+      "options": {
+        "A": "Code generation => Optimization => Decomposition => Execution",
+        "B": "Decomposition => Optimization => Code generation => Execution",
+        "C": "Optimization => Decomposition => Code generation => Execution",
+        "D": "Decomposition => Code generation => Optimization => Execution"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Luồng SQL engine: parse/decomposition → optimization → code generation → execution.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 26,
+      "question": "When the expression (A - 2 x (B + C) - D x E) x F in conventional infix notation is converted to the prefix expression, which of the following represents the resulting expression?",
+      "options": {
+        "A": "A2BC + x - DE x - F x",
+        "B": "A2BC + x - DE x F - x",
+        "C": "x - - A x 2 x B + CDEF",
+        "D": "x - - A x 2 + BC x DEF"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Prefix (Polish): toán tử trước toán hạng. (A − 2×(B+C) − D×E)×F → × − − A × 2 + B C × D E F. Khớp D.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 27,
+      "question": "Multiple directories having the names A and B are managed in the structure shown below. When the current directory is changed in order of \\BA ->..\\B -> \\A, which of the following is the resulting current directory? Here, directories are specified as follows: [Methods to specify directories] (1) A directory is referenced as \\directory name\\directory name, where the directories on the path are listed and separated with \\ (backslash) in sequence, followed by \\ and the directory name. (2) The current directory is represented by. (one period). (3) The directory one level above is represented by.. (two periods). (4) When a reference begins with \\, it is assumed that the root directory is omitted from the beginning of the reference. (5) When a reference does not start with \\,.., or., it is assumed that \\, which means that the reference is under the current directory, is omitted from the beginning of the reference.",
+      "options": {
+        "A": "A",
+        "B": "\\A",
+        "C": "\\B\\A",
+        "D": "\\BA"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Bắt đầu \\BA; ..\\B lên parent rồi vào B; \\A là absolute từ root → \\A.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 28,
+      "question": "Which of the following is an appropriate description in comparison of how to safeguard IC cards and magnetic cards against forgery?",
+      "options": {
+        "A": "A magnetic card is more robust against forgery than an IC card because the magnetic card uses a bar code for information recording.",
+        "B": "An IC card is more robust against forgery than a magnetic card because the IC card uses a two-dimensional code for information recording.",
+        "C": "A magnetic card is more robust against forgery than an IC card because the magnetic card stores information on a magnetic stripe and has a more complicated data protection mechanism.",
+        "D": "An IC card is more robust against forgery than a magnetic card because the IC card provides the features of storing and encrypting information in the IC chip."
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "IC card lưu & mã hóa trong chip → chống giả tốt hơn thẻ từ (magnetic stripe dễ copy).",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 29,
+      "question": "Which of the following is an appropriate description concerning a use case diagram in UML?",
+      "options": {
+        "A": "It is used to represent mutual actions by means of messages sent and received between objects.",
+        "B": "It is used to model the functional, informational, behavioral, and organizational workflow perspectives.",
+        "C": "It is used to describe the sequence of states that an object goes through in response to external events.",
+        "D": "It is used to show what system functions are performed for which actor, from the user's perspective."
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Use case diagram: chức năng hệ thống với actor từ góc nhìn người dùng. Sequence=message; state=trạng thái object.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 30,
+      "question": "A part of a program was changed to add a new function to a system in operation. Which of the following is the most appropriate environment that is used for testing the new program without affecting the system in operation, in order to determine whether or not the system can be brought into full operation?",
+      "options": {
+        "A": "Test environment for other systems",
+        "B": "Test environment equivalent to production",
+        "C": "Production environment",
+        "D": "Programming environment"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Test trên môi trường tương đương production, tách production thật, để quyết định go-live an toàn.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 31,
+      "question": "Which of the following is an explanation of the use case diagram shown below?",
+      "options": {
+        "A": "There are four use cases, and the names of those use cases are order management system, order processing, order change processing, and order cancellation processing.",
+        "B": "The order management system is inside the system boundary, while the ordering staff and the inventory management system are outside the system boundary.",
+        "C": "The ordering staff is the only actor, because the inventory management system is not a person.",
+        "D": "The scope of system development includes both the order management system and the inventory management system."
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Hệ thống trong boundary: order management; actor ngoài: ordering staff & inventory system. Use case không lấy tên system boundary làm use case.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 32,
+      "question": "Which of the following refers to online scams where thieves attempt to entice e-mail recipients into clicking on a link that takes them to a bogus website, and the website may prompt the recipient to provide personal information such as social security number, bank account number, and credit card number, and/or it may download malicious software onto the recipient's computer?",
+      "options": {
+        "A": "DoS attack",
+        "B": "Trojan horse",
+        "C": "Cross site scripting",
+        "D": "Phishing"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Phishing: lừa click link giả, thu thập thông tin cá nhân/cài malware. DoS=tấn công từ chối dịch vụ; XSS=chèn script.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 33,
+      "question": "Which of the following is the appropriate item to be checked when the ordered software is delivered?",
+      "options": {
+        "A": "The functions described in the specifications are implemented.",
+        "B": "A quality management plan is provided.",
+        "C": "The details of the cost estimation submitted by the supplier are reasonable.",
+        "D": "The activity report indicates that there is no delay in making progress on activities."
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Khi nhận bàn giao phần mềm: kiểm tra chức năng theo specification đã implement. Kế hoạch/cost/progress là giai đoạn khác.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 34,
+      "question": "Which of the following helps improve availability?",
+      "options": {
+        "A": "Doubling both MTBF and MTTR",
+        "B": "Reducing MTBF to half and doubling MTTR",
+        "C": "Reducing both MTBF and MTTR to half",
+        "D": "Doubling MTBF and reducing MTTR to half"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Availability ≈ MTBF/(MTBF+MTTR). Tăng MTBF và giảm MTTR → availability tăng.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 35,
+      "question": "Which of the following is the main purpose of a penetration test?",
+      "options": {
+        "A": "To confirm that the outputs resulting from various inputs to the target program are identical with the outputs defined in the specifications",
+        "B": "To confirm the strength of the in-use encryption method",
+        "C": "To confirm that there is neither a security hole nor a setup error on the firewall and public servers",
+        "D": "To confirm the number of sessions that the firewall can process per unit time"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Penetration test: tìm lỗ hổng/cấu hình sai trên firewall, server công khai, v.v.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 36,
+      "question": "View the picture and choose right answer. As shown in the figure below, all the lines show signs of leveling off in the control chart of a program test. Which of the following can be inferred from this condition?",
+      "options": {
+        "A": "a) Numerous bugs have occurred, and the number of completed test items has stopped rising.",
+        "B": "b) The bug occurrence and test item completion rates match, and there are no more unresolved bugs.",
+        "C": "c) The number of completed test items has risen, and bugs have stopped occurring.",
+        "D": "d) The process is facing some bugs that are difficult to resolve, and subsequent tests are not proceeding."
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Các đường control chart “leveling off”: test không tiến, bug khó resolve còn treo → D.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 37,
+      "question": "Which of the following means product improvement, and product disposal are planned according to each stage of introduction, growth, maturity, and decline?",
+      "options": {
+        "A": "Business continuity plan",
+        "B": "Product life cycle strategy"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Product life cycle strategy: intro/growth/maturity/decline — cải tiến/loại bỏ sản phẩm theo giai đoạn.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 38,
+      "question": "What is the data remaining on the stack after doing the following operations, assume that from start, stack is empty? push 5 => push 10 => push 5 => pop => push 10 => push 10 => push 5 => pop => pop. Assume that stack is empty at first and sequence format 5, 8, 10 mean that 5 is at bottom of stack and 10 is at top of stack.",
+      "options": {
+        "A": "5, 10, 10",
+        "B": "10, 10, 5",
+        "C": "10, 5, 10",
+        "D": "5, 5, 10"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "push5,10,5 → pop(5) → [5,10]; push10,10,5 → pop(5),pop(10) → còn [5,10,10]. Bottom→top: 5,10,10.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 39,
+      "question": "When ABC analysis is used to categorize product items in the table below, which of the following is the combination of the product numbers for the items that are categorized into the group \"A\"?",
+      "options": {
+        "A": "1 and 2",
+        "B": "2 and 5",
+        "C": "4 and 8",
+        "D": "2 and 6"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "ABC group A = item giá trị tích lũy cao nhất. Theo bảng đề FE phổ biến: sản phẩm 1 và 2. (Đối chiếu cột amount trên ảnh.)",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 40,
+      "question": "Which of the following is the main task of a service desk?",
+      "options": {
+        "A": "Conducting interviews to collect computerization needs for future system planning",
+        "B": "Investigating and analyzing system utilization to evaluate the IT service level",
+        "C": "Responding to inquiries, such as system failures, for enhanced user convenience",
+        "D": "Investigating the cause of bugs to improve the quality of application software"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Service desk: tiếp nhận/phản hồi sự cố, yêu cầu hỗ trợ, tăng tiện ích cho user (SPOC).",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 41,
+      "question": "There is a standard that can represent data in a hierarchical structure by enclosing data that corresponds to nesting with tags <N>, which means the start, and </N>, which means the end, and then linking the nesting these tags. Company A decides to comply with this standard and create a paper by using the structural rules: Structural rules A paper is composed of a header and a body text. The header is composed of a title and author information. Author information is composed of a name and a department. Which of the following is the appropriate header of a paper named “New Document Management” that is created by Jack Smith of the Information Systems Department (I/S Department) in accordance with this standard and these structural rules?",
+      "options": {
+        "A": "B. <header><author info><title>New Document Management<name>Jack Smith</name><dept>I/S Department</dept></author info></header>",
+        "B": "D. <header><title>New Document Management</title><author info><name>Jack Smith</name></author info><dept>I/S Department</dept></header>",
+        "C": "F. <header><title>New Document Management</title><author info> <name>Jack Smith</name> <dept>I/S Department</dept></author info></header>",
+        "D": "H. <header><title>New Document Management</title><name>Jack Smithauthor info><dept>I/S Department</dept></author info></name></header>"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Header = title + author_info; author_info = name + dept. Cấu trúc lồng tag đúng: <header><title>…</title><author info><name>…</name><dept>…</dept></author info></header>.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 42,
+      "question": "In the RAID3 system shown below, three disks (Disks 0 through 2) for byte-striped data and one dedicated parity disk (Disk 3) are used as one volume. Parity byte Ap is generated by calculating the \"exclusive OR\" (⊕) of three bytes in Disks 0 through 2. For example, Ap(1-3) = A1 ⊕ A2 ⊕ A3. In the event of a disk failure, data recovery can be accomplished by using the information recorded on the remaining three error-free disks. Which of the following operations should be executed for this data recovery?",
+      "options": {
+        "A": "AND",
+        "B": "Exclusive NOR",
+        "C": "Exclusive OR",
+        "D": "OR"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "RAID parity XOR: phục hồi đĩa hỏng bằng Exclusive OR các đĩa còn lại (kể cả parity).",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 43,
+      "question": "Which of the following is the most appropriate description concerning the exclusive control of a DBMS?",
+      "options": {
+        "A": "Exclusive control is necessary for data that might be updated simultaneously by several people.",
+        "B": "Exclusive control is necessary for improving the processing speed of data that is frequently accessed.",
+        "C": "Exclusive control is necessary for preventing the occurrence of a deadlock when data is accessed.",
+        "D": "In order to improve the processing speed, the range of the data on which exclusive control is performed must be made as wide as possible."
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Exclusive control (locking) cần khi nhiều người có thể update cùng dữ liệu đồng thời, tránh mất cập nhật.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 44,
+      "question": "Which of the following is a protocol for e-mail on the Internet that supports not only text but other data such as audio and images through message header extension?",
+      "options": {
+        "A": "HTML",
+        "B": "SMTP",
+        "C": "MIME",
+        "D": "MHS"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "MIME mở rộng email header để gửi audio/image/binary, không chỉ text thuần.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 45,
+      "question": "There is an 8-bit register where integers are represented in binary by using 2's complement for negative numbers. When the decimal integer \"-24\" is stored in the register and then arithmetically shifted 2 bits right, what is the resulting value in decimal? Here, the leftmost bit of the register is used as a sign bit.",
+      "options": {
+        "A": "58",
+        "B": "-6",
+        "C": "-96",
+        "D": "-102"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "−24 trong 8-bit 2's complement, arithmetic shift right 2 bit = chia 4 làm tròn về −6 (giữ sign bit).",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 46,
+      "question": "Which of the following is an activity performed during the external design phase of system development?",
+      "options": {
+        "A": "Designing the physical data",
+        "B": "Finalizing the performance requirements",
+        "C": "Designing the programs",
+        "D": "Designing the screens and form layouts"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "External design: thiết kế màn hình, form, giao diện user-facing. Physical data/program = internal/detail design.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 47,
+      "question": "According to a survey of 100 students, there are 40 students studying English, 30 studying French, and 25 studying Spanish. In addition, 8 students are studying English and French, 6 are studying English and Spanish, 5 are studying French and Spanish, and 22 are not studying any of the three languages. Which of the following is the number of students studying all three languages?",
+      "options": {
+        "A": "1",
+        "B": "3",
+        "C": "2",
+        "D": "4"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Inclusion-exclusion: |E∪F∪S| = 100−22=78. 40+30+25 −8−6−5 +x =78 → 95−19+x=78 → 76+x=78 → x=2.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 48,
+      "question": "When CPU processing and printing are performed for four jobs under the conditions below, how many minutes does it take to complete them from the start of the first CPU processing until the end of the last printing? [Conditions] (1) The multiplicity of jobs is 1 during execution. (2) The CPU processing time of each job is 20 minutes. (3) 400 Mbytes of printing data are spooled for each job when the CPU processing ends. The printing function of the OS operates after spooling is completed, and printing is performed by the printer. (4) One printer is available, and the printing speed is 10 minutes per 100 Mbytes. (5) The functions of CPU processing and printing can operate in parallel, and do not affect each other. (6) The time period that is not mentioned in the conditions, such as the time required for spooling, can be ignored.",
+      "options": {
+        "A": "160",
+        "B": "120",
+        "C": "180",
+        "D": "240"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Mỗi job: CPU 20' + print 400MB/(100MB/10')=40'. 4 job: CPU song song print. Timeline: job1 CPU 0–20, print 20–60; job2 CPU 20–40, print 60–100; job3 40–60 / 100–140; job4 60–80 / 140–180. Tổng 180 phút.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 49,
+      "question": "It focuses on system implementation behavior and is preferred over verification for the following reasons: - It facilitates the consideration of environmental factors that influence system behavior. - It allows feature interaction. A key its feature is error detection, which ensures correct functional implementation. What is kind of testing?",
+      "options": {
+        "A": "Integration test",
+        "B": "System test",
+        "C": "Operational test",
+        "D": "Unit test"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Mô tả thiên về system test (hành vi hệ thống, môi trường, feature interaction, error detection mức hệ thống) hơn unit/integration.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 50,
+      "question": "Which of the following is INCORRECT formular to determine break-event point?",
+      "options": {
+        "A": "Break-event point = fixed_cost / (sales-variable_cost)",
+        "B": "Break-event point = quantity_sold * variable_cost",
+        "C": "Break-event point = fixed_cost / (1-variable_cost/sales)",
+        "D": "Break-event point = fixed_cost / (1-variable_cost_ratio)"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Công thức BEP đúng liên quan fixed_cost / contribution. quantity_sold * variable_cost không phải break-even point → INCORRECT.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 51,
+      "question": "Which of the following is an explanation of SFA (Sales Force Automation)?",
+      "options": {
+        "A": "It is a method or a concept to improve business efficiency by planning and managing company-wide business resources effectively and comprehensively.",
+        "B": "It is a method to improve sales efficiency and quality and to increase sales and profits by utilizing IT in sales activities.",
+        "C": "It is to perform commercial transactions with consumers or between businesses by utilizing an electronic network such as the Internet.",
+        "D": "It is a system to support the business activities of retail stores by increasing their sales and profits, thereby increasing their business transactions with wholesalers or manufacturers."
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "SFA: dùng IT hỗ trợ hoạt động bán hàng, nâng hiệu quả/chất lượng sales. A≈ERP; C≈EC; D≈hỗ trợ bán lẻ/POS khác.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 52,
+      "question": "What is HDLC protocol stands for?",
+      "options": {
+        "A": "High-level Data Link Control",
+        "B": "High-level Data Link Commission",
+        "C": "Highlevel Data Link Communication",
+        "D": "High-Density Link Control"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "HDLC = High-level Data Link Control (giao thức tầng data link).",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 53,
+      "question": "Which of the following can be achieved by using SSL/TLS?",
+      "options": {
+        "A": "Processing time is shortened in communication between clients and servers.",
+        "B": "Communication between clients and servers is encrypted.",
+        "C": "The SMTP connection from mail software to a Web server is enabled.",
+        "D": "The trails of communication between browsers and Web servers are secured."
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "SSL/TLS mã hóa kênh client–server (HTTPS). Không rút ngắn thời gian xử lý hay thay SMTP.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    },
+    {
+      "id": 54,
+      "question": "There exist the same two devices, each with an MTBF of 45 hours and an MTTR of 5 hours. What is the availability of a system that connects these TWO devices in series?",
+      "options": {
+        "A": "0.76",
+        "B": "0.95",
+        "C": "0.99",
+        "D": "0.81"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": null,
+      "alt": null,
+      "explanation": "Availability 1 thiết bị = 45/(45+5)=0.9. Series 2 thiết bị: 0.9×0.9=0.81.",
+      "source": "fuexam",
+      "exam": "JFE301_SP26_FE"
+    }
+  ]
+}

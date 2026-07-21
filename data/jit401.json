@@ -1,0 +1,1148 @@
+{
+  "title": "JIT401 – Ôn tập FE (日本語 IT · 60 câu)",
+  "code": "JIT401_SP26_FE",
+  "subject": "JIT401",
+  "total": 60,
+  "questions": [
+    {
+      "id": 1,
+      "question": "スカベンジングといって、残された個人情報を ( ) する犯罪もあります。",
+      "options": {
+        "A": "不正利用（盗用）",
+        "B": "暗号化",
+        "C": "バックアップ",
+        "D": "圧縮"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Scavenging: lạm dụng/trộm thông tin cá nhân còn sót lại.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 2,
+      "question": "( ) は、データのアクセス速度が最も高速です。",
+      "options": {
+        "A": "レジスタ",
+        "B": "主記憶（RAM）",
+        "C": "SSD",
+        "D": "HDD"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Thanh ghi CPU truy cập nhanh nhất trong hệ thống nhớ.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 3,
+      "question": "アルファベット1文字の情報量はどうなりますか。",
+      "options": {
+        "A": "約4.7ビット（26文字の場合 log₂26）",
+        "B": "1ビット",
+        "C": "8バイト",
+        "D": "32ビット固定のみ"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Lượng tin ~log₂(số ký hiệu). Alphabet 26 chữ ≈ 4.7 bit.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 4,
+      "question": "【専門用語】次のベトナム語の用語を日本語に直しなさい。 Điện lưu",
+      "options": {
+        "A": "電流",
+        "B": "電圧",
+        "C": "電力",
+        "D": "抵抗"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Điện lưu = 電流 (dòng điện).",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 5,
+      "question": "使われる論理素子によって何世代に分けられるか。",
+      "options": {
+        "A": "4世代（〜5世代）",
+        "B": "2世代",
+        "C": "10世代",
+        "D": "1世代のみ"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Máy tính chia thế hệ theo linh kiện logic (thường 4, có kể 5).",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 6,
+      "question": "データベースの表現法には「データを親、子、孫のような階層構造に並べ、最上位の親からたどることによって検索する表現法です。」とかいてあるものはどんな表現ですか。",
+      "options": {
+        "A": "階層型（ツリー型）",
+        "B": "リレーショナル型",
+        "C": "ネットワーク型",
+        "D": "オブジェクト型"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Cấu trúc cha–con–cháu = mô hình phân cấp (hierarchical).",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 7,
+      "question": "大量のデータを扱うために、何が重要ですか。",
+      "options": {
+        "A": "データベース管理",
+        "B": "手作業の転記のみ",
+        "C": "紙の台帳のみ",
+        "D": "単一固定長ファイルのみ"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Dữ liệu lớn cần quản lý bằng DBMS.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 8,
+      "question": "「.com」のように種別だけで国名がないのはどの国のドメイン名ですか。",
+      "options": {
+        "A": "アメリカ（米国）",
+        "B": "日本",
+        "C": "イギリス",
+        "D": "ベトナム"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "gTLD .com gắn với Mỹ / không có mã quốc gia.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 9,
+      "question": "「HTMLとは; Hyper Text Markup Languageの略で、文字の ( )、音、ファイルへのリンクなどが記述できます。」",
+      "options": {
+        "A": "装飾（レイアウト）・画像",
+        "B": "コンパイル",
+        "C": "機械語変換",
+        "D": "電力制御"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "HTML mô tả trang: chữ/trang trí, ảnh, link…",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 10,
+      "question": "Web2.0とは何ですか",
+      "options": {
+        "A": "利用者参加型・双方向のWeb",
+        "B": "静的HTMLのみのWeb",
+        "C": "専用端末だけの通信",
+        "D": "オフライン専用システム"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Web 2.0: tương tác, UGC, SNS.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 11,
+      "question": "「マウスやキーボードの操作の仕方、ウィンドウの見え方、ファイルの扱い方などを決定します。」はOS機能の何の内容を指しますか。",
+      "options": {
+        "A": "ユーザインタフェース管理",
+        "B": "メモリ管理のみ",
+        "C": "ジョブスケジューリングのみ",
+        "D": "デバイスドライバ言語"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Mô tả chức năng quản lý giao diện người dùng của OS.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 12,
+      "question": "CPUの動作原理は何に基づいていますか。",
+      "options": {
+        "A": "ノイマン型（プログラム内蔵方式）",
+        "B": "量子もつれ専用",
+        "C": "アナログ連続信号のみ",
+        "D": "人手計算のみ"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Kiến trúc von Neumann / stored-program.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 13,
+      "question": "【専門用語】次のベトナム語の用語をベトナム語に直しなさい。 分散処理システム",
+      "options": {
+        "A": "Hệ thống xử lý phân tán",
+        "B": "Hệ thống tập trung",
+        "C": "Mạng chỉ có 1 máy",
+        "D": "Hệ điều hành đơn nhiệm"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "分散処理システム = hệ thống xử lý phân tán.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 14,
+      "question": "( ) を圧縮するには、音の波としての性質を使います。",
+      "options": {
+        "A": "音声",
+        "B": "テキストのみ",
+        "C": "電源",
+        "D": "ケーブル"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Nén âm thanh dựa tính chất sóng âm.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 15,
+      "question": "光ファイバを使って家庭まで高速通信を行うことは何でしょう。",
+      "options": {
+        "A": "FTTH",
+        "B": "ダイヤルアップ",
+        "C": "ISDNのみ",
+        "D": "紙の郵便"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "FTTH: fiber to the home.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 16,
+      "question": "ランレングス圧縮について正しくないものをえらんでください。",
+      "options": {
+        "A": "どんなデータでも必ず元より小さくなる",
+        "B": "同じ記号の連続をまとめて符号化できる",
+        "C": "単純な反復データに有効",
+        "D": "可逆圧縮の一種として使われる"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "RLE không luôn làm nhỏ mọi dữ liệu (dữ liệu ngẫu nhiên có thể phình).",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 17,
+      "question": "音声の波をそのまま電波の波に置き換えて送受信するアナログ通信を特徴としているのは第何世代の携帯電話ですか。",
+      "options": {
+        "A": "第1世代（1G）",
+        "B": "第4世代（4G）",
+        "C": "第5世代（5G）",
+        "D": "第3世代（3G）"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "1G: analog; 2G+ digital.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 18,
+      "question": "EOSについて正しいものはどれですか。",
+      "options": {
+        "A": "店舗の販売時点情報管理（Point of Saleに関連）",
+        "B": "CPUの内部レジスタ名",
+        "C": "OSのカーネル名",
+        "D": "画像圧縮規格名"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "EOS (Electronic Ordering System) / liên quan POS bán lẻ.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 19,
+      "question": "故障以外で問題なのは、( ) による不具合です。",
+      "options": {
+        "A": "人為ミス（ヒューマンエラー）",
+        "B": "正しいバックアップ",
+        "C": "正常な冗長化",
+        "D": "適切な監視"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Ngoài hỏng hóc: lỗi do con người.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 20,
+      "question": "MIDI命令はデータ量としては何ビットとなりますか。",
+      "options": {
+        "A": "通常1〜3バイト程度のメッセージ",
+        "B": "必ず1ギガビット",
+        "C": "必ず1024ビット固定",
+        "D": "0ビット"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "MIDI message thường vài byte (status + data).",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 21,
+      "question": "Web2.0の大きな特徴は何ですか。",
+      "options": {
+        "A": "双方向性・利用者の参加",
+        "B": "一方向の静的配信のみ",
+        "C": "電話回線専用",
+        "D": "紙媒体必須"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Đặc trưng lớn: tương tác và tham gia người dùng.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 22,
+      "question": "【専門用語】次のベトナム語の用語を日本語に直しなさい。 Cấu trúc hình cây",
+      "options": {
+        "A": "木構造（ツリー構造）",
+        "B": "線形リストのみ",
+        "C": "ハッシュのみ",
+        "D": "グラフ無向のみ"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Cấu trúc hình cây = 木構造.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 23,
+      "question": "ユーザからの入力は何から行えますか。正しいものをえらんでください。",
+      "options": {
+        "A": "キーボードやマウスなどの入力装置",
+        "B": "プリンタのみ",
+        "C": "スピーカのみ",
+        "D": "ディスプレイ出力のみ"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Input: bàn phím, chuột…",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 24,
+      "question": "「ヒューマンインタフェースの設計は; ( ) 検討時では十分に行えないことが多く 試作プログラムを作ってみて問題点を修正していくというやり方になります。」",
+      "options": {
+        "A": "机上（仕様）",
+        "B": "完成後のみ",
+        "C": "出荷後のみ",
+        "D": "ハードウェア製造後のみ"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Thiết kế UI khó đủ trên giấy → prototype rồi sửa.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 25,
+      "question": "転置式の暗号化について正しいものをえらんでください。",
+      "options": {
+        "A": "文字の並び順を入れ替えて暗号化する",
+        "B": "文字を別の文字に必ず1対1で置換しない方式のみ",
+        "C": "公開鍵のみを使う方式の別名",
+        "D": "圧縮と同義"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "転置: transposition cipher — hoán vị thứ tự ký tự.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 26,
+      "question": "電子式計算機はいつ開発されましたか。",
+      "options": {
+        "A": "20世紀（ENIACなど1940年代頃）",
+        "B": "18世紀",
+        "C": "紀元前",
+        "D": "22世紀"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Máy tính điện tử khoảng thập niên 1940 (ENIAC…).",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 27,
+      "question": "【専門用語】次のベトナム語の用語を日本語に直しなさい。 Thứ tự tăng dần",
+      "options": {
+        "A": "昇順",
+        "B": "降順",
+        "C": "乱順",
+        "D": "不順"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Thứ tự tăng dần = 昇順.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 28,
+      "question": "低級言語について正しくないものをえらんでください。",
+      "options": {
+        "A": "人間にとって最も読みやすく移植性が高い",
+        "B": "機械語やアセンブリ言語が含まれる",
+        "C": "ハードウェアに近い",
+        "D": "実行効率を意識しやすい"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Sai: low-level không dễ đọc/portable nhất (đó là high-level).",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 29,
+      "question": "長さ、重さ、時間など身の回りの多くの物理量は何ですか。",
+      "options": {
+        "A": "アナログ量",
+        "B": "デジタル量のみ",
+        "C": "論理値のみ",
+        "D": "整数のみ"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Đại lượng vật lý liên tục = analog.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 30,
+      "question": "IPアドレスについて正しくないものをえらんでください。",
+      "options": {
+        "A": "世界中で全く同じIPが同時に公に重複して問題ない",
+        "B": "ネットワーク上の機器を識別する",
+        "C": "IPv4とIPv6がある",
+        "D": "プライベートIPとグローバルIPがある"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Sai: IP public trùng toàn cầu gây xung đột (trừ private range).",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 31,
+      "question": "電気機械式はいつ誕生されましたか。",
+      "options": {
+        "A": "19〜20世紀初頭の計算機の一形態",
+        "B": "21世紀のみ",
+        "C": "石器時代",
+        "D": "まだ存在しない"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Electromechanical computers / tabulators đầu thế kỷ 20.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 32,
+      "question": "オブジェクト指向について正しいものをえらんでください。",
+      "options": {
+        "A": "カプセル化・継承・多態性などの概念を用いる",
+        "B": "gotoのみで構成する",
+        "C": "GUIが使えない",
+        "D": "データと処理を必ず分離できない"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "OOP: encapsulation, inheritance, polymorphism…",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 33,
+      "question": "暗号化について正しいものを選びなさい。",
+      "options": {
+        "A": "第三者に内容を読み取られにくくする技術",
+        "B": "必ずファイルを削除する技術",
+        "C": "圧縮と同義",
+        "D": "画面の解像度を上げる技術"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Mã hóa: làm khó đọc nội dung nếu không có khóa.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 34,
+      "question": "PCのOSに関する記述のうち、適切なものはどれか。",
+      "options": {
+        "A": "ハードウェアとアプリケーションの仲介・資源管理を行う",
+        "B": "プリンタ単体の名称である",
+        "C": "CPUの物理コア数そのもの",
+        "D": "ディスプレイの解像度規格"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "OS quản lý tài nguyên, trung gian HW–app.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 35,
+      "question": "コンピュータのデータは何の並びで表現された数字ですか。",
+      "options": {
+        "A": "0と1（ビット）",
+        "B": "10進のみ固定",
+        "C": "文字Aのみ",
+        "D": "色名のみ"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Dữ liệu máy tính: chuỗi bit 0/1.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 36,
+      "question": "JRのSuicaなどで使われているのは何ですか。",
+      "options": {
+        "A": "ICカード（非接触IC）",
+        "B": "紙の回数券のみ",
+        "C": "磁気テープのみ必須",
+        "D": "CD-ROM乗車券"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Suica: thẻ IC không tiếp xúc.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 37,
+      "question": "工業所有権はどんな権ですか。",
+      "options": {
+        "A": "特許・実用新案・意匠・商標などの産業財産権",
+        "B": "選挙権",
+        "C": "親権",
+        "D": "著作権のみの別名"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "工業所有権 ≈ 産業財産権 (patent, trademark…).",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 38,
+      "question": "携帯電話、パソコン、カーナビ、マウス、キーボード、ヘッドホンなどに搭載されている通信規格は何ですか。",
+      "options": {
+        "A": "Bluetooth",
+        "B": "HDMI音声のみ",
+        "C": "VGA専用",
+        "D": "RS-232のみ必須"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Bluetooth phổ biến trên các thiết bị đó.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 39,
+      "question": "CPUについて正しいものを選びなさい。",
+      "options": {
+        "A": "演算・制御を行う中心処理装置",
+        "B": "外部記憶装置の別名",
+        "C": "入力専用装置",
+        "D": "OSの別名"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "CPU: central processing — tính toán & điều khiển.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 40,
+      "question": "着信メロディについて正しくないものを選びなさい",
+      "options": {
+        "A": "必ず非圧縮の生波形でしか配信できない",
+        "B": "MIDIや圧縮音源が使われることがある",
+        "C": "着信音として利用される",
+        "D": "著作権に注意が必要な場合がある"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Sai: không bắt buộc raw waveform; có MIDI/nén.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 41,
+      "question": "ロングテールの考え方を活用したインターネットにおけるビジネスの説明として、適切なものはどれか",
+      "options": {
+        "A": "少数のヒット商品だけでなく多品種少量のニッチ商品も売上げに寄与する",
+        "B": "ヒット商品だけを扱う",
+        "C": "店舗面積を必ず拡大する",
+        "D": "在庫を一切持たないことが必須条件で唯一の定義"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Long tail: nhiều mặt hàng niche cộng lại tạo doanh thu.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 42,
+      "question": "日本語でのコードについて正しくないものをえらんでください。",
+      "options": {
+        "A": "日本語はASCII 7ビットだけで完全に表現できる",
+        "B": "UTF-8などで多言語を扱える",
+        "C": "Shift_JISなどの符号化がある",
+        "D": "Unicodeが広く使われる"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Sai: tiếng Nhật không gói trọn trong ASCII 7-bit.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 43,
+      "question": "コンピューターが逢(あ)える事故は何ですか。",
+      "options": {
+        "A": "障害・故障・セキュリティ事故など",
+        "B": "正常終了のみ",
+        "C": "正しいバックアップ",
+        "D": "計画通りの更新"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Sự cố máy tính: hỏng hóc, lỗi, sự cố bảo mật…",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 44,
+      "question": "高級言語について正しいものをえらんでください。",
+      "options": {
+        "A": "人間が理解しやすい文法でプログラムを記述できる",
+        "B": "必ず機械語そのものを手書きする",
+        "C": "CPU命令を1対1で書くことのみ",
+        "D": "GUIが絶対に書けない"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "High-level: gần ngôn ngữ người, dễ viết.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 45,
+      "question": "OSの機能は何ですか。",
+      "options": {
+        "A": "プロセス・メモリ・ファイル・入出力などの管理",
+        "B": "紙の印刷のみ",
+        "C": "電源コードの製造",
+        "D": "CPUの物理製造"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "OS: quản lý process, memory, file, I/O…",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 46,
+      "question": "インターネットについて正しいものはどれですか。",
+      "options": {
+        "A": "世界規模のコンピュータネットワーク",
+        "B": "1台のPCの内部バス",
+        "C": "単一企業のLANの別名のみ",
+        "D": "プリンタの型番"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Internet: mạng máy tính toàn cầu.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 47,
+      "question": "「取引プロセスとは、( ) 以外にも商品案内や配送などの処理、さらには商品開発まで含めます。」",
+      "options": {
+        "A": "決済（支払い）",
+        "B": "画面解像度",
+        "C": "フォント名",
+        "D": "壁紙"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Quy trình giao dịch: ngoài thanh toán còn catalog, giao hàng, R&D…",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 48,
+      "question": "メール利用の注意について正しくないものはどれですか。",
+      "options": {
+        "A": "未知の添付ファイルを無条件に開いてよい",
+        "B": "フィッシングに注意する",
+        "C": "個人情報の取り扱いに注意する",
+        "D": "不審なリンクに注意する"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Sai: không được mở tùy tiện file đính kèm lạ.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 49,
+      "question": "映画では1秒に何回の書き換えを行っていますか。",
+      "options": {
+        "A": "約24フレーム（24fps）",
+        "B": "1フレーム",
+        "C": "1000フレーム固定",
+        "D": "0フレーム"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Phim điện ảnh cổ điển ~24 fps.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 50,
+      "question": "「射影の結果を並べ替えるには ( ) という単語を使います。」",
+      "options": {
+        "A": "ソート（ORDER BY）",
+        "B": "ジョインのみ",
+        "C": "インデックス削除",
+        "D": "ドロップ"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Sắp xếp kết quả chiếu: sort / ORDER BY.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 51,
+      "question": "共通方式について正しいものをえらんでください。",
+      "options": {
+        "A": "暗号化と復号に同じ鍵を使う共通鍵暗号",
+        "B": "公開鍵と秘密鍵が必ず同一文字列",
+        "C": "鍵が不要な暗号",
+        "D": "圧縮の別名"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "共通鍵 = symmetric encryption, cùng khóa mã/giải.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 52,
+      "question": "「小さいものから順に または逆に大きいものから順にデータを並べ替えること」は何を指しますか。",
+      "options": {
+        "A": "ソート（整列）",
+        "B": "ハッシュ衝突",
+        "C": "正規化",
+        "D": "デッドロック"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Sắp xếp tăng/giảm = sort.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 53,
+      "question": "クッキー(cookie)に関する記述a~cのうち、適切なものだけをすべて挙げたものはどれか。",
+      "options": {
+        "A": "Webサーバがブラウザに保存させる小さなデータで状態管理等に使う（適切な説明の組合せ）",
+        "B": "CPUの温度センサの別名",
+        "C": "OSカーネルそのもの",
+        "D": "必ずウイルスである"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Cookie: dữ liệu nhỏ server gửi browser để quản lý trạng thái.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 54,
+      "question": "【専門用語】次のベトナム語の用語を日本語に直しなさい。 Thiết bị tính toán",
+      "options": {
+        "A": "計算機（コンピュータ）",
+        "B": "プリンタ",
+        "C": "スピーカ",
+        "D": "マウス"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Thiết bị tính toán = 計算機.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 55,
+      "question": "フォルダとは何ですか",
+      "options": {
+        "A": "ファイルを整理して格納する入れ物（ディレクトリ）",
+        "B": "CPUのレジスタ",
+        "C": "電源ユニット",
+        "D": "画面の解像度"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Folder/directory chứa file.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 56,
+      "question": "「電子機器には、コンピュータ、携帯電話、( ) を始めとして、ポータブルオーディオやゲーム機などの家電製品など多くのものがあり、ネットワークは成長し続けています。」",
+      "options": {
+        "A": "情報家電・家電製品",
+        "B": "化石燃料",
+        "C": "石板",
+        "D": "羊皮紙"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Chỗ trống: 家電 / 情報家電.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 57,
+      "question": "網的表現について正しいものを選びなさい。",
+      "options": {
+        "A": "ネットワーク型データモデルなど網状の関係を表す表現",
+        "B": "必ず木構造のみ",
+        "C": "1対1関係しか表せない",
+        "D": "画像の解像度規格"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "網的表現: mô hình mạng (network data model).",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 58,
+      "question": "出力用ハードウェアは何ですか。",
+      "options": {
+        "A": "ディスプレイ・プリンタなど",
+        "B": "キーボード",
+        "C": "マウス",
+        "D": "マイク（入力）"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Output HW: màn hình, máy in…",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 59,
+      "question": "新たなプログラムを作成するときに、効率的な内部処理とともに考慮しなければならない重要な要素は何ですか。",
+      "options": {
+        "A": "保守性・可読性・拡張性",
+        "B": "意図的な難読化のみ",
+        "C": "文書を一切残さないこと",
+        "D": "テストを省略すること"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Ngoài hiệu năng: khả năng bảo trì, đọc hiểu, mở rộng.",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    },
+    {
+      "id": 60,
+      "question": "動画像情報圧縮では、何がよく用いられますか。",
+      "options": {
+        "A": "MPEGなどの動画像圧縮方式",
+        "B": "非圧縮RAW必須のみ",
+        "C": "音声WAV固定のみ",
+        "D": "テキストCSVのみ"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Options gốc trên FuExam là ảnh trang đề; phương án dưới đây dựng lại để ôn.",
+      "alt": null,
+      "explanation": "Nén video thường dùng MPEG (và họ codec liên quan).",
+      "source": "fuexam",
+      "exam": "JIT401_SP26_FE"
+    }
+  ]
+}

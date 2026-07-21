@@ -1,18 +1,28 @@
-/* MLN122 learn app — exam-card UI */
+/* Multi-subject FE learn app — exam-card UI + explanations */
 (() => {
   "use strict";
 
-  const STORAGE_KEY = "mln122_learn_v1";
-  const LAST_Q_KEY = "mln122_learn_last_q"; // legacy single cursor
-  const CURSORS_KEY = "mln122_learn_cursors_v1"; // per-filter cursors
+  const SUBJECTS = {
+    mln122: { file: "data/mln122.json", label: "MLN122" },
+    prm393: { file: "data/prm393.json", label: "PRM393" },
+    jfe301: { file: "data/jfe301.json", label: "JFE301" },
+    jit401: { file: "data/jit401.json", label: "JIT401" },
+  };
+
+  const SUBJECT_KEY = "fe_learn_subject_v1";
+  const LAST_Q_KEY = "mln122_learn_last_q"; // legacy
+  const CURSORS_KEY = "fe_learn_cursors_v2";
 
   const els = {
+    brandCode: document.getElementById("brandCode"),
+    brandSub: document.getElementById("brandSub"),
     cardCode: document.getElementById("cardCode"),
     cardQnum: document.getElementById("cardQnum"),
     cardChoose: document.getElementById("cardChoose"),
     cardQuestion: document.getElementById("cardQuestion"),
     cardOptions: document.getElementById("cardOptions"),
     cardFeedback: document.getElementById("cardFeedback"),
+    cardExplain: document.getElementById("cardExplain"),
     cardNote: document.getElementById("cardNote"),
     cardAlt: document.getElementById("cardAlt"),
     examCard: document.getElementById("examCard"),
@@ -33,35 +43,52 @@
     progressBar: document.getElementById("progressBar"),
   };
 
-  /** @type {{title:string,code:string,total:number,questions:Array}} */
+  let subjectId = loadSubject();
+  /** @type {{title:string,code:string,total:number,questions:Array,subject?:string}} */
   let data = null;
-  /** @type {Array} full question list */
   let all = [];
-  /** @type {number[]} order of indices into `all` for current queue */
   let queue = [];
-  /** position in queue */
   let pos = 0;
-  /** selected letters for current question */
   let selected = new Set();
-  /** whether current question has been checked */
   let checked = false;
-  /** 'seq' | 'random' */
   let mode = "seq";
-  /** 'all' | 'wrong' | 'unseen' | 'star' */
   let filter = "all";
-
-  /**
-   * Cursor (question id) per filter — reviewing "wrong" must NOT overwrite "all".
-   * e.g. { all: 32, wrong: 14, unseen: null, star: null }
-   */
   let cursors = loadCursors();
-
-  /** progress: { [id]: { result: 'ok'|'bad', star: bool, lastAt: number } } */
   let progress = loadProgress();
+
+  function storageKey() {
+    return `fe_learn_progress_${subjectId}_v1`;
+  }
+
+  function loadSubject() {
+    try {
+      const s = localStorage.getItem(SUBJECT_KEY);
+      if (s && SUBJECTS[s]) return s;
+    } catch {
+      /* ignore */
+    }
+    return "mln122";
+  }
+
+  function saveSubject() {
+    try {
+      localStorage.setItem(SUBJECT_KEY, subjectId);
+    } catch {
+      /* ignore */
+    }
+  }
 
   function loadProgress() {
     try {
-      const raw = localStorage.getItem(STORAGE_KEY);
+      // migrate legacy MLN key once
+      if (subjectId === "mln122") {
+        const legacy = localStorage.getItem("mln122_learn_v1");
+        const cur = localStorage.getItem(storageKey());
+        if (!cur && legacy) {
+          localStorage.setItem(storageKey(), legacy);
+        }
+      }
+      const raw = localStorage.getItem(storageKey());
       return raw ? JSON.parse(raw) : {};
     } catch {
       return {};
@@ -69,7 +96,33 @@
   }
 
   function saveProgress() {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+    localStorage.setItem(storageKey(), JSON.stringify(progress));
+  }
+
+  function loadCursors() {
+    try {
+      const raw = localStorage.getItem(CURSORS_KEY);
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        if (parsed && typeof parsed === "object") return parsed;
+      }
+    } catch {
+      /* ignore */
+    }
+    return {};
+  }
+
+  function saveCursors() {
+    try {
+      localStorage.setItem(CURSORS_KEY, JSON.stringify(cursors));
+    } catch {
+      /* ignore */
+    }
+  }
+
+  function cursorBucket() {
+    if (!cursors[subjectId]) cursors[subjectId] = {};
+    return cursors[subjectId];
   }
 
   function getQ() {
@@ -92,13 +145,6 @@
     return true;
   }
 
-  /**
-   * Rebuild the question queue for current filter/mode.
-   * @param {{ keepId?: number|null, shuffle?: boolean }} opts
-   *   keepId — if provided (even null), use it; null = start of list.
-   *            if omitted, try to keep currently visible question.
-   *   shuffle — reshuffle when mode is random
-   */
   function rebuildQueue(opts = {}) {
     const hasKeep = Object.prototype.hasOwnProperty.call(opts, "keepId");
     const keepId = hasKeep ? opts.keepId : getQ()?.id ?? null;
@@ -123,7 +169,6 @@
 
     queue = indices;
 
-    // Restore position to same question when possible
     if (keepId != null) {
       const allIdx = all.findIndex((q) => q.id === keepId);
       const qi = queue.indexOf(allIdx);
@@ -131,7 +176,6 @@
         pos = qi;
         return;
       }
-      // Not in this filter list: nearest later by id, else last
       let nearest = -1;
       for (let i = 0; i < queue.length; i++) {
         if (all[queue[i]].id >= keepId) {
@@ -145,38 +189,13 @@
     pos = 0;
   }
 
-  function loadCursors() {
-    try {
-      const raw = localStorage.getItem(CURSORS_KEY);
-      if (raw) {
-        const parsed = JSON.parse(raw);
-        if (parsed && typeof parsed === "object") return parsed;
-      }
-      // migrate legacy single last_q → all
-      const legacy = parseInt(localStorage.getItem(LAST_Q_KEY) || "", 10);
-      if (Number.isFinite(legacy)) return { all: legacy };
-    } catch {
-      /* ignore */
-    }
-    return {};
-  }
-
-  function saveCursors() {
-    try {
-      localStorage.setItem(CURSORS_KEY, JSON.stringify(cursors));
-    } catch {
-      /* ignore */
-    }
-  }
-
-  /** Save current question as cursor for the ACTIVE filter only */
   function rememberCurrent() {
     const q = getQ();
     if (!q) return;
-    cursors[filter] = q.id;
+    const bucket = cursorBucket();
+    bucket[filter] = q.id;
     saveCursors();
-    // keep legacy key as "all" progress for older code paths
-    if (filter === "all") {
+    if (filter === "all" && subjectId === "mln122") {
       try {
         localStorage.setItem(LAST_Q_KEY, String(q.id));
       } catch {
@@ -186,12 +205,8 @@
   }
 
   function getCursor(forFilter) {
-    const id = cursors[forFilter];
+    const id = cursorBucket()[forFilter];
     return Number.isFinite(id) ? id : null;
-  }
-
-  function loadLastQuestionId() {
-    return getCursor("all") ?? getCursor(filter);
   }
 
   function updateStats() {
@@ -213,12 +228,32 @@
     els.progressBar.style.width = `${((done / total) * 100).toFixed(1)}%`;
   }
 
+  function showExplain(q) {
+    if (!els.cardExplain) return;
+    const text = q.explanation || "";
+    if (!text) {
+      els.cardExplain.hidden = true;
+      els.cardExplain.textContent = "";
+      return;
+    }
+    els.cardExplain.hidden = false;
+    els.cardExplain.innerHTML =
+      `<strong>Giải thích</strong><span>${escapeHtml(text)}</span>`;
+  }
+
   function render() {
     const q = getQ();
     updateStats();
 
+    if (els.brandCode) {
+      els.brandCode.textContent = data?.subject || data?.code || subjectId.toUpperCase();
+    }
+    if (els.brandSub) {
+      els.brandSub.textContent = `${data?.title || "Ôn tập"} · ${all.length} câu`;
+    }
+
     if (!q) {
-      els.cardCode.textContent = data?.code || "MLN122_SP26_B5FE";
+      els.cardCode.textContent = data?.code || "—";
       els.cardQnum.textContent = "—";
       els.cardChoose.textContent = "";
       els.cardQuestion.textContent =
@@ -227,9 +262,9 @@
           : "Không có câu nào trong bộ lọc này. Đổi filter hoặc làm thêm câu.";
       els.cardOptions.innerHTML = "";
       els.cardFeedback.hidden = true;
+      if (els.cardExplain) els.cardExplain.hidden = true;
       els.cardNote.hidden = true;
       els.cardAlt.hidden = true;
-      els.btnCheck.disabled = true;
       els.btnReveal.disabled = true;
       els.btnStar.disabled = true;
       return;
@@ -239,23 +274,24 @@
     const n = q.choose || q.answers?.length || 1;
     const displayIdx = pos + 1;
     const queueTotal = queue.length;
+    const examCode = q.exam || data?.code || subjectId.toUpperCase();
 
-    els.cardCode.textContent = data?.code || "MLN122_SP26_B5FE";
+    els.cardCode.textContent = examCode;
     els.cardQnum.textContent = `Multiple Choice Question ${q.id}`;
     els.cardChoose.textContent = chooseLabel(n);
     els.cardQuestion.textContent = q.question;
     els.jumpInput.value = String(q.id);
     els.jumpInput.max = String(all.length);
 
-    // Star
     els.btnStar.disabled = false;
     els.btnStar.classList.toggle("starred", !!p.star);
     els.btnStar.textContent = p.star ? "★" : "☆";
     els.btnStar.title = p.star ? "Bỏ đánh dấu" : "Đánh dấu";
 
-    // Options
     els.cardOptions.innerHTML = "";
     const letters = optionLetters(q);
+    const hasAnswers = Array.isArray(q.answers) && q.answers.length > 0;
+
     for (const L of letters) {
       const btn = document.createElement("button");
       btn.type = "button";
@@ -268,11 +304,13 @@
 
       if (checked) {
         btn.disabled = true;
-        const isAns = q.answers.includes(L);
-        const isSel = selected.has(L);
-        if (isAns && isSel) btn.classList.add("correct");
-        else if (isSel && !isAns) btn.classList.add("wrong");
-        else if (isAns && !isSel) btn.classList.add("missed");
+        if (hasAnswers) {
+          const isAns = q.answers.includes(L);
+          const isSel = selected.has(L);
+          if (isAns && isSel) btn.classList.add("correct");
+          else if (isSel && !isAns) btn.classList.add("wrong");
+          else if (isAns && !isSel) btn.classList.add("missed");
+        }
       } else {
         btn.addEventListener("click", () => toggleOption(L));
       }
@@ -280,18 +318,25 @@
       els.cardOptions.appendChild(btn);
     }
 
-    // Feedback / note / alt
     els.cardFeedback.hidden = true;
+    if (els.cardExplain) els.cardExplain.hidden = true;
     els.cardNote.hidden = true;
     els.cardAlt.hidden = true;
 
     if (checked) {
-      const correct = setsEqual(selected, new Set(q.answers));
-      els.cardFeedback.hidden = false;
-      els.cardFeedback.className = "card-feedback " + (correct ? "ok" : "bad");
-      els.cardFeedback.textContent = correct
-        ? `✓ Đúng! Đáp án: ${q.answers.join("")}`
-        : `✗ Sai. Đáp án đúng: ${q.answers.join("")}`;
+      if (hasAnswers) {
+        const correct = setsEqual(selected, new Set(q.answers));
+        els.cardFeedback.hidden = false;
+        els.cardFeedback.className = "card-feedback " + (correct ? "ok" : "bad");
+        els.cardFeedback.textContent = correct
+          ? `✓ Đúng! Đáp án: ${q.answers.join("")}`
+          : `✗ Sai. Đáp án đúng: ${q.answers.join("")}`;
+      } else {
+        els.cardFeedback.hidden = false;
+        els.cardFeedback.className = "card-feedback";
+        els.cardFeedback.textContent = "Chưa có đáp án chính thức cho câu này.";
+      }
+      showExplain(q);
     }
 
     if (q.note && checked) {
@@ -304,7 +349,9 @@
       let html = `<strong>Kiểu hỏi khác</strong>${escapeHtml(q.alt.question || "")}`;
       const altLetters = Object.keys(q.alt.options || {}).sort();
       if (altLetters.length) {
-        html += "<br><br>" + altLetters.map((L) => `${L}. ${escapeHtml(q.alt.options[L])}`).join("<br>");
+        html +=
+          "<br><br>" +
+          altLetters.map((L) => `${L}. ${escapeHtml(q.alt.options[L])}`).join("<br>");
       }
       els.cardAlt.innerHTML = html;
     }
@@ -312,17 +359,12 @@
     if (els.btnCheck) els.btnCheck.disabled = true;
     els.btnReveal.disabled = checked;
     els.btnPrev.disabled = pos <= 0;
-    els.btnNext.disabled = pos >= queue.length - 1 && checked;
-    // Always allow next to wrap / go if more
     els.btnNext.disabled = queue.length === 0;
 
-    // Mode label
-    const modeLabel =
-      mode === "random" ? "Ngẫu nhiên" : "Lần lượt";
-    els.btnMode.textContent = modeLabel;
+    els.btnMode.textContent = mode === "random" ? "Ngẫu nhiên" : "Lần lượt";
 
-    // Subtitle progress in brand
-    document.title = `MLN122 · Câu ${q.id} (${displayIdx}/${queueTotal})`;
+    const sub = data?.subject || subjectId.toUpperCase();
+    document.title = `${sub} · Câu ${q.id} (${displayIdx}/${queueTotal})`;
   }
 
   function escapeHtml(s) {
@@ -340,18 +382,13 @@
     const max = q.choose || q.answers?.length || 1;
 
     if (max <= 1) {
-      // Single choice: select → instant feedback
       selected = new Set([letter]);
       checkAnswer();
       return;
     }
 
-    // Multi choice: toggle until enough answers selected, then auto-check
-    if (selected.has(letter)) {
-      selected.delete(letter);
-    } else {
-      selected.add(letter);
-    }
+    if (selected.has(letter)) selected.delete(letter);
+    else selected.add(letter);
 
     if (selected.size >= max) {
       checkAnswer();
@@ -364,14 +401,17 @@
     const q = getQ();
     if (!q || checked || selected.size === 0) return;
     checked = true;
-    const correct = setsEqual(selected, new Set(q.answers));
-    const prev = progress[q.id] || {};
-    progress[q.id] = {
-      ...prev,
-      result: correct ? "ok" : "bad",
-      lastAt: Date.now(),
-    };
-    saveProgress();
+    const hasAnswers = Array.isArray(q.answers) && q.answers.length > 0;
+    if (hasAnswers) {
+      const correct = setsEqual(selected, new Set(q.answers));
+      const prev = progress[q.id] || {};
+      progress[q.id] = {
+        ...prev,
+        result: correct ? "ok" : "bad",
+        lastAt: Date.now(),
+      };
+      saveProgress();
+    }
     rememberCurrent();
     render();
   }
@@ -379,16 +419,15 @@
   function revealAnswer() {
     const q = getQ();
     if (!q || checked) return;
-    selected = new Set(q.answers);
+    if (q.answers?.length) selected = new Set(q.answers);
     checked = true;
-    // Don't mark as done when only revealing — user can still "learn"
-    // Actually mark as seen but not score? Better: don't auto-score reveal.
-    // Only show UI state without writing result unless already has one.
     render();
-    // Override feedback for pure reveal
-    els.cardFeedback.hidden = false;
-    els.cardFeedback.className = "card-feedback ok";
-    els.cardFeedback.textContent = `Đáp án: ${q.answers.join("")}`;
+    if (q.answers?.length) {
+      els.cardFeedback.hidden = false;
+      els.cardFeedback.className = "card-feedback ok";
+      els.cardFeedback.textContent = `Đáp án: ${q.answers.join("")}`;
+    }
+    showExplain(q);
     if (q.note) {
       els.cardNote.hidden = false;
       els.cardNote.textContent = "Ghi chú: " + q.note;
@@ -398,17 +437,17 @@
       let html = `<strong>Kiểu hỏi khác</strong>${escapeHtml(q.alt.question || "")}`;
       const altLetters = Object.keys(q.alt.options || {}).sort();
       if (altLetters.length) {
-        html += "<br><br>" + altLetters.map((L) => `${L}. ${escapeHtml(q.alt.options[L])}`).join("<br>");
+        html +=
+          "<br><br>" +
+          altLetters.map((L) => `${L}. ${escapeHtml(q.alt.options[L])}`).join("<br>");
       }
       els.cardAlt.innerHTML = html;
     }
-    // Disable options visual
     for (const btn of els.cardOptions.querySelectorAll(".opt")) {
       btn.disabled = true;
       const L = btn.dataset.letter;
-      if (q.answers.includes(L)) btn.classList.add("correct");
+      if (q.answers?.includes(L)) btn.classList.add("correct");
     }
-    els.btnCheck.disabled = true;
     els.btnReveal.disabled = true;
   }
 
@@ -427,7 +466,6 @@
   function jumpToId(id) {
     const idxInAll = all.findIndex((q) => q.id === id);
     if (idxInAll < 0) return;
-    // If filtered out, temporarily switch to all but keep this id
     let qi = queue.indexOf(idxInAll);
     if (qi < 0) {
       filter = "all";
@@ -454,11 +492,57 @@
     render();
   }
 
+  async function loadSubjectData(id) {
+    subjectId = id;
+    saveSubject();
+    progress = loadProgress();
+    selected = new Set();
+    checked = false;
+    filter = "all";
+    mode = "seq";
+    document.querySelectorAll(".chip").forEach((c) => {
+      c.classList.toggle("active", c.dataset.filter === "all");
+    });
+    document.querySelectorAll(".sub-tab").forEach((t) => {
+      t.classList.toggle("active", t.dataset.subject === id);
+    });
+
+    const meta = SUBJECTS[id];
+    const tryFiles = [meta.file, id === "mln122" ? "questions.json" : null].filter(Boolean);
+
+    let lastErr = null;
+    for (const file of tryFiles) {
+      try {
+        const res = await fetch(file);
+        if (!res.ok) throw new Error("HTTP " + res.status + " " + file);
+        data = await res.json();
+        all = data.questions || [];
+        lastErr = null;
+        break;
+      } catch (e) {
+        lastErr = e;
+      }
+    }
+    if (lastErr) {
+      els.cardQuestion.textContent =
+        "Không tải được dữ liệu môn " + id + ". Chạy local server và kiểm tra file data/.";
+      console.error(lastErr);
+      all = [];
+      data = null;
+      render();
+      return;
+    }
+
+    let lastId = getCursor("all");
+    rebuildQueue({ keepId: lastId, shuffle: false });
+    if (lastId != null) jumpToId(lastId);
+    else render();
+  }
+
   // Events
   els.btnPrev.addEventListener("click", () => go(-1));
   els.btnNext.addEventListener("click", () => {
     if (pos >= queue.length - 1) {
-      // wrap to start
       selected = new Set();
       checked = false;
       pos = 0;
@@ -468,13 +552,12 @@
     }
     go(1);
   });
-  els.btnCheck.addEventListener("click", checkAnswer);
+  if (els.btnCheck) els.btnCheck.addEventListener("click", checkAnswer);
   els.btnReveal.addEventListener("click", revealAnswer);
   els.btnStar.addEventListener("click", toggleStar);
   els.btnJump.addEventListener("click", () => {
     const n = parseInt(els.jumpInput.value, 10);
-    if (!Number.isFinite(n)) return;
-    jumpToId(n);
+    if (Number.isFinite(n)) jumpToId(n);
   });
   els.jumpInput.addEventListener("keydown", (e) => {
     if (e.key === "Enter") {
@@ -487,7 +570,6 @@
   els.btnMode.addEventListener("click", () => {
     mode = mode === "seq" ? "random" : "seq";
     const curId = getQ()?.id ?? null;
-    // Switching to random reshuffles; to seq restores natural order but keeps question
     rebuildQueue({ keepId: curId, shuffle: mode === "random" });
     selected = new Set();
     checked = false;
@@ -506,16 +588,12 @@
   });
 
   els.btnReset.addEventListener("click", () => {
-    if (!confirm("Xóa toàn bộ tiến độ ôn tập (đúng/sai/đánh dấu)?")) return;
+    if (!confirm("Xóa toàn bộ tiến độ ôn tập của môn " + subjectId.toUpperCase() + "?")) return;
     progress = {};
     saveProgress();
-    cursors = {};
-    try {
-      localStorage.removeItem(LAST_Q_KEY);
-      localStorage.removeItem(CURSORS_KEY);
-    } catch {
-      /* ignore */
-    }
+    cursorBucket();
+    cursors[subjectId] = {};
+    saveCursors();
     selected = new Set();
     checked = false;
     rebuildQueue({ keepId: null });
@@ -527,30 +605,31 @@
     chip.addEventListener("click", () => {
       const nextFilter = chip.dataset.filter;
       if (nextFilter === filter) return;
-
-      // Save cursor for filter you are LEAVING (e.g. all=32), not overwrite with review
       const leaving = getQ();
       if (leaving) {
-        cursors[filter] = leaving.id;
+        cursorBucket()[filter] = leaving.id;
         saveCursors();
       }
-
       filter = nextFilter;
       document.querySelectorAll(".chip").forEach((c) => c.classList.remove("active"));
       chip.classList.add("active");
-
-      // Restore cursor for filter you ENTER (e.g. back to all → 32, not wrong's 14)
-      const enterId = getCursor(filter); // may be null → first item of that list
+      const enterId = getCursor(filter);
       rebuildQueue({ keepId: enterId, shuffle: false });
-
       selected = new Set();
       checked = false;
-      // Update only this filter's cursor to where we landed
       if (getQ()) {
-        cursors[filter] = getQ().id;
+        cursorBucket()[filter] = getQ().id;
         saveCursors();
       }
       render();
+    });
+  });
+
+  document.querySelectorAll(".sub-tab").forEach((tab) => {
+    tab.addEventListener("click", () => {
+      const id = tab.dataset.subject;
+      if (!id || id === subjectId) return;
+      loadSubjectData(id);
     });
   });
 
@@ -562,14 +641,17 @@
       toggleOption(key.toUpperCase());
       return;
     }
-    if (key === "enter") {
+    if (key === "enter" || key === "arrowright" || key === "n") {
       e.preventDefault();
-      go(1);
-      return;
-    }
-    if (key === "arrowright" || key === "n") {
-      e.preventDefault();
-      go(1);
+      if (key === "enter" || key === "arrowright" || key === "n") {
+        if (pos >= queue.length - 1) {
+          selected = new Set();
+          checked = false;
+          pos = 0;
+          rememberCurrent();
+          render();
+        } else go(1);
+      }
       return;
     }
     if (key === "arrowleft" || key === "p") {
@@ -588,35 +670,5 @@
     }
   });
 
-  // Init
-  async function init() {
-    try {
-      const res = await fetch("questions.json");
-      if (!res.ok) throw new Error("HTTP " + res.status);
-      data = await res.json();
-      all = data.questions || [];
-
-      // Resume "all" study position (not last reviewed-wrong question)
-      let lastId = getCursor("all");
-      if (lastId == null) {
-        let lastAt = 0;
-        for (const [id, p] of Object.entries(progress)) {
-          if (p.lastAt && p.lastAt > lastAt) {
-            lastAt = p.lastAt;
-            lastId = Number(id);
-          }
-        }
-      }
-
-      rebuildQueue({ keepId: lastId, shuffle: false });
-      if (lastId != null) jumpToId(lastId);
-      else render();
-    } catch (err) {
-      els.cardQuestion.textContent =
-        "Không tải được questions.json. Hãy mở bằng local server (xem README).";
-      console.error(err);
-    }
-  }
-
-  init();
+  loadSubjectData(subjectId);
 })();

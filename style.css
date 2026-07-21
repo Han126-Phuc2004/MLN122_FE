@@ -76,6 +76,52 @@ input {
   gap: 6px;
 }
 
+/* ===== Subject tabs ===== */
+.subjects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.sub-tab {
+  border: 1px solid var(--line);
+  background: #fff;
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--muted);
+  transition: 0.15s ease;
+}
+
+.sub-tab:hover {
+  border-color: #94a3b8;
+  color: var(--text);
+}
+
+.sub-tab.active {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #fff;
+}
+
+.sub-tab[data-subject="prm393"].active {
+  background: #7c3aed;
+  border-color: #7c3aed;
+}
+
+.sub-tab[data-subject="jfe301"].active {
+  background: #059669;
+  border-color: #059669;
+}
+
+.sub-tab[data-subject="jit401"].active {
+  background: #dc2626;
+  border-color: #dc2626;
+}
+
 /* ===== Buttons ===== */
 .btn {
   border: 1px solid var(--line);
@@ -369,6 +415,31 @@ input {
 .card-feedback.bad {
   background: var(--bad-bg);
   color: var(--bad);
+}
+
+.card-explain {
+  margin-top: 12px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  background: #f0f9ff;
+  border: 1px solid #bae6fd;
+  font-size: 0.9rem;
+  color: #0c4a6e;
+  line-height: 1.55;
+}
+
+.card-explain strong {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #0369a1;
+}
+
+.card-explain span {
+  display: block;
+  white-space: pre-wrap;
 }
 
 .card-note {
