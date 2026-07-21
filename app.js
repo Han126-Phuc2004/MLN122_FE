@@ -499,6 +499,11 @@
     return cursors[subjectId];
   }
 
+  /** Cursor key = progress filter + source filter (exam/slides/all) — independent positions */
+  function cursorKey(forFilter = filter, forSource = sourceFilter) {
+    return `${forFilter}::${forSource}`;
+  }
+
   function getQ() {
     if (!queue.length) return null;
     return all[queue[pos]];
@@ -571,14 +576,8 @@
         pos = qi;
         return;
       }
-      let nearest = -1;
-      for (let i = 0; i < queue.length; i++) {
-        if (all[queue[i]].id >= keepId) {
-          nearest = i;
-          break;
-        }
-      }
-      pos = nearest >= 0 ? nearest : Math.max(0, queue.length - 1);
+      // keepId not in this list (e.g. slide id while viewing exams) → do NOT jump to "nearest" last id
+      pos = 0;
       return;
     }
     pos = 0;
@@ -588,9 +587,12 @@
     const q = getQ();
     if (!q) return;
     const bucket = cursorBucket();
+    // Per source-filter position (exam vs slides vs all)
+    bucket[cursorKey()] = q.id;
+    // Legacy key for older code paths
     bucket[filter] = q.id;
     saveCursors();
-    if (filter === "all" && subjectId === "mln122") {
+    if (filter === "all" && sourceFilter === "all" && subjectId === "mln122") {
       try {
         localStorage.setItem(LAST_Q_KEY, String(q.id));
       } catch {
@@ -599,9 +601,17 @@
     }
   }
 
-  function getCursor(forFilter) {
-    const id = cursorBucket()[forFilter];
-    return Number.isFinite(id) ? id : null;
+  function getCursor(forFilter, forSource) {
+    const bucket = cursorBucket();
+    const src = forSource !== undefined ? forSource : sourceFilter;
+    const keyed = bucket[cursorKey(forFilter, src)];
+    if (Number.isFinite(keyed)) return keyed;
+    // fallback legacy (only when source is "all")
+    if (src === "all") {
+      const id = bucket[forFilter];
+      return Number.isFinite(id) ? id : null;
+    }
+    return null;
   }
 
   function updateStats() {
@@ -1021,13 +1031,16 @@
         saveCursors();
       }
       filter = nextFilter;
-      document.querySelectorAll(".chip").forEach((c) => c.classList.remove("active"));
+      document.querySelectorAll(".filters:not(.source-filters) .chip").forEach((c) =>
+        c.classList.remove("active")
+      );
       chip.classList.add("active");
-      const enterId = getCursor(filter);
+      const enterId = getCursor(filter, sourceFilter);
       rebuildQueue({ keepId: enterId, shuffle: false });
       selected = new Set();
       checked = false;
       if (getQ()) {
+        cursorBucket()[cursorKey()] = getQ().id;
         cursorBucket()[filter] = getQ().id;
         saveCursors();
       }
@@ -1071,15 +1084,30 @@
     chip.addEventListener("click", () => {
       const next = chip.dataset.source;
       if (!next || next === sourceFilter) return;
+
+      // Save position for the source filter we are LEAVING (e.g. exam → câu 9)
+      const leaving = getQ();
+      if (leaving) {
+        cursorBucket()[cursorKey(filter, sourceFilter)] = leaving.id;
+        // also keep progress-filter legacy when on "all" sources
+        if (sourceFilter === "all") cursorBucket()[filter] = leaving.id;
+        saveCursors();
+      }
+
       sourceFilter = next;
       document.querySelectorAll("#sourceFilters .chip").forEach((c) => {
         c.classList.toggle("active", c.dataset.source === sourceFilter);
       });
-      const curId = getQ()?.id ?? null;
-      rebuildQueue({ keepId: curId, shuffle: false });
+
+      // Restore position for the source filter we ENTER (e.g. back to exam → 9, not slide 99)
+      const enterId = getCursor(filter, sourceFilter);
+      rebuildQueue({ keepId: enterId, shuffle: false });
       selected = new Set();
       checked = false;
-      rememberCurrent();
+      if (getQ()) {
+        cursorBucket()[cursorKey()] = getQ().id;
+        saveCursors();
+      }
       render();
     });
   });
