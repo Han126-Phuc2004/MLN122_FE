@@ -3,7 +3,7 @@
   "use strict";
 
   /** Bump on every bank deploy so Safari/iPad cannot reuse stale JSON (GH Pages max-age=600). */
-  const DATA_VER = "20260722b";
+  const DATA_VER = "20260722c";
   const THEME_KEY = "fe_learn_theme_v1";
 
   const SUBJECTS = {
@@ -20,14 +20,14 @@
   const SYNC_AUTO_KEY = "fe_learn_sync_auto_v1";
   /**
    * JSONBlob free store (no account). Very strict rate limits (~3–4 writes then 429).
-   * Client enforces min write interval + exponential backoff on 429.
+   * Prefer offline Copy/Paste progress when cloud is blocked.
    */
   const SYNC_API = "https://jsonblob.com/api/jsonBlob";
-  const SYNC_DEBOUNCE_MS = 8000; // wait after last edit before auto-push
-  const SYNC_MIN_WRITE_MS = 12000; // min gap between POST/PUT (avoids free-tier 429)
-  const SYNC_429_BASE_MS = 20000;
-  const SYNC_429_MAX_MS = 120000;
-  const SYNC_MAX_RETRIES = 6;
+  const SYNC_DEBOUNCE_MS = 15000;
+  const SYNC_MIN_WRITE_MS = 20000; // longer gap — free tier is harsh
+  const SYNC_429_BASE_MS = 15000;
+  const SYNC_429_MAX_MS = 25000; // never wait 40–80s in a loop
+  const SYNC_MAX_RETRIES = 2; // then stop auto-retry; use offline export
 
   const els = {
     brandCode: document.getElementById("brandCode"),
@@ -202,12 +202,28 @@
     return Math.max(cool, back);
   }
 
+  function cloudBlockedHint() {
+    return "Cloud free đang chặn (429). Dùng «Copy tiến độ» / «Dán tiến độ» hoặc Xuất/Nhập JSON — không cần mạng server.";
+  }
+
   function scheduleWriteRetry(delayMs, reason) {
     clearSyncRetry();
-    const wait = Math.max(500, delayMs | 0);
+    if (syncRetryCount >= SYNC_MAX_RETRIES) {
+      syncBackoffUntil = Date.now() + 180000; // cool IP for 3 min; no auto spam
+      setSyncStatus(cloudBlockedHint(), "err");
+      return;
+    }
+    const wait = Math.min(SYNC_429_MAX_MS, Math.max(500, delayMs | 0));
     const sec = Math.ceil(wait / 1000);
     setSyncStatus(
-      (reason || "Đợi máy chủ") + " · tự thử lại sau " + sec + "s…",
+      (reason || "Đợi máy chủ") +
+        " · thử lại sau " +
+        sec +
+        "s (lần " +
+        (syncRetryCount + 1) +
+        "/" +
+        SYNC_MAX_RETRIES +
+        "). Hoặc «Copy tiến độ» ngay.",
       "busy"
     );
     syncRetryTimer = setTimeout(() => {
@@ -226,17 +242,86 @@
   function noteWriteRateLimited(retryAfterHeader) {
     lastSyncWriteAt = Date.now();
     syncRetryCount += 1;
-    let wait = SYNC_429_BASE_MS * Math.pow(2, Math.min(syncRetryCount - 1, 3));
-    wait = Math.min(SYNC_429_MAX_MS, wait);
+    // flat-ish backoff: 15s then 25s max — never 80s/120s
+    let wait = Math.min(
+      SYNC_429_MAX_MS,
+      SYNC_429_BASE_MS + (syncRetryCount - 1) * 10000
+    );
     if (retryAfterHeader) {
       const ra = Number(retryAfterHeader);
       if (Number.isFinite(ra) && ra > 0) {
-        // header may be seconds
-        wait = Math.max(wait, ra < 1000 ? ra * 1000 : ra);
+        const hdrMs = ra < 1000 ? ra * 1000 : ra;
+        // ignore insane Retry-After from free hosts (cap)
+        wait = Math.max(wait, Math.min(SYNC_429_MAX_MS, hdrMs));
       }
     }
     syncBackoffUntil = Date.now() + wait;
     return wait;
+  }
+
+  function encodeProgressPayload() {
+    const json = JSON.stringify(collectSyncState());
+    // unicode-safe base64
+    const b64 = btoa(unescape(encodeURIComponent(json)));
+    return "FELEARN1:" + b64;
+  }
+
+  function decodeProgressPayload(raw) {
+    let s = String(raw || "").trim();
+    if (!s) throw new Error("Trống");
+    if (s.startsWith("FELEARN1:")) s = s.slice("FELEARN1:".length).trim();
+    // allow raw JSON paste too
+    if (s.startsWith("{")) return JSON.parse(s);
+    const json = decodeURIComponent(escape(atob(s)));
+    return JSON.parse(json);
+  }
+
+  async function copyProgressPayload() {
+    const text = encodeProgressPayload();
+    try {
+      await navigator.clipboard.writeText(text);
+      setSyncStatus(
+        "Đã copy tiến độ (" +
+          Math.round(text.length / 1024) +
+          " KB). Máy kia: dán vào ô dưới → «Dán tiến độ».",
+        "ok"
+      );
+    } catch {
+      const ta = document.getElementById("syncPasteBox");
+      if (ta) {
+        ta.value = text;
+        ta.focus();
+        ta.select();
+      }
+      setSyncStatus("Clipboard bị chặn — đã hiện text trong ô, hãy copy thủ công.", "busy");
+    }
+  }
+
+  async function pasteProgressPayload() {
+    const ta = document.getElementById("syncPasteBox");
+    let raw = (ta?.value || "").trim();
+    if (!raw) {
+      try {
+        raw = (await navigator.clipboard.readText()) || "";
+      } catch {
+        /* ignore */
+      }
+    }
+    if (!raw.trim()) {
+      setSyncStatus("Dán chuỗi FELEARN1:… (hoặc JSON) vào ô rồi bấm lại.", "err");
+      return;
+    }
+    try {
+      const state = decodeProgressPayload(raw);
+      applySyncState(state);
+      const sub = state.subject && SUBJECTS[state.subject] ? state.subject : subjectId;
+      await loadSubjectData(sub);
+      if (ta) ta.value = "";
+      setSyncStatus("Đã dán/áp dụng tiến độ thành công (offline).", "ok");
+    } catch (e) {
+      console.error(e);
+      setSyncStatus("Chuỗi/JSON không hợp lệ — copy lại từ máy nguồn.", "err");
+    }
   }
 
   function readProgressFor(sub) {
@@ -445,13 +530,11 @@
       if (res.status === 429) {
         const delay = noteWriteRateLimited(res.headers.get("Retry-After"));
         syncDirty = true;
-        if (syncRetryCount <= SYNC_MAX_RETRIES) {
+        if (syncRetryCount < SYNC_MAX_RETRIES) {
           scheduleWriteRetry(delay, "Tạo mã bị chặn tạm (429)");
         } else {
-          setSyncStatus(
-            "Tạo mã thất bại: máy chủ chặn quá nhiều lần. Đợi 1–2 phút hoặc dùng Xuất/Nhập JSON.",
-            "err"
-          );
+          clearSyncRetry();
+          setSyncStatus(cloudBlockedHint(), "err");
         }
         return null;
       }
@@ -547,13 +630,11 @@
       if (res.status === 429) {
         const delay = noteWriteRateLimited(res.headers.get("Retry-After"));
         syncDirty = true;
-        if (syncRetryCount <= SYNC_MAX_RETRIES) {
+        if (syncRetryCount < SYNC_MAX_RETRIES) {
           scheduleWriteRetry(delay, "Máy chủ tạm chặn (HTTP 429)");
         } else {
-          setSyncStatus(
-            "Đẩy lên thất bại: 429 quá nhiều lần. Đợi 1–2 phút rồi bấm «Đẩy lên» lại, hoặc Xuất JSON.",
-            "err"
-          );
+          clearSyncRetry();
+          setSyncStatus(cloudBlockedHint(), "err");
         }
         return;
       }
@@ -585,10 +666,13 @@
       const msg = String(e.message || e);
       if (/429|Too Many|Failed to fetch|NetworkError|Load failed/i.test(msg)) {
         const delay = noteWriteRateLimited(null);
-        if (syncRetryCount <= SYNC_MAX_RETRIES) {
+        if (syncRetryCount < SYNC_MAX_RETRIES) {
           scheduleWriteRetry(delay, "Lỗi mạng/rate-limit");
           return;
         }
+        clearSyncRetry();
+        setSyncStatus(cloudBlockedHint(), "err");
+        return;
       }
       if (/404/.test(msg)) {
         setSyncId("");
@@ -1517,8 +1601,19 @@
       if (e.target === syncModal) closeSyncModal();
     });
   }
-  document.getElementById("btnSyncCreate")?.addEventListener("click", () => syncCreate());
-  document.getElementById("btnSyncPush")?.addEventListener("click", () => syncPush({ manual: true }));
+  document.getElementById("btnSyncCopyProgress")?.addEventListener("click", () => copyProgressPayload());
+  document.getElementById("btnSyncPasteProgress")?.addEventListener("click", () => pasteProgressPayload());
+  document.getElementById("btnSyncCreate")?.addEventListener("click", () => {
+    clearSyncRetry();
+    // manual create: allow one attempt even after soft stop (still respects min gap)
+    if (syncRetryCount >= SYNC_MAX_RETRIES) syncRetryCount = SYNC_MAX_RETRIES - 1;
+    syncCreate({ fromRetry: false });
+  });
+  document.getElementById("btnSyncPush")?.addEventListener("click", () => {
+    clearSyncRetry();
+    if (syncRetryCount >= SYNC_MAX_RETRIES) syncRetryCount = SYNC_MAX_RETRIES - 1;
+    syncPush({ manual: true });
+  });
   document.getElementById("btnSyncPull")?.addEventListener("click", () => syncPull({ silent: false }));
   document.getElementById("btnSyncCopy")?.addEventListener("click", async () => {
     const input = document.getElementById("syncCodeInput");

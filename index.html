@@ -126,24 +126,34 @@
         <h2 id="syncTitle">Đồng bộ</h2>
         <button type="button" class="btn ghost" id="btnSyncClose">✕</button>
       </header>
-      <p class="modal-lead">Cùng mã trên laptop &amp; iPad. Mã free hết hạn ~1 ngày (404 = hết hạn → «Đẩy lên» sẽ tự tạo mã mới). Ưu tiên đẩy tay, tránh spam.</p>
+      <p class="modal-lead"><strong>Khuyên dùng offline:</strong> Copy tiến độ → dán máy kia. Cloud free hay bị 429/404 — chỉ dùng khi rảnh.</p>
+      <div class="sync-actions">
+        <button type="button" class="btn primary" id="btnSyncCopyProgress">Copy tiến độ</button>
+        <button type="button" class="btn" id="btnSyncPasteProgress">Dán tiến độ</button>
+      </div>
+      <label class="sync-field">
+        Dán chuỗi / JSON tại đây (máy nhận)
+        <textarea id="syncPasteBox" rows="3" placeholder="FELEARN1:… hoặc nội dung file JSON" spellcheck="false"></textarea>
+      </label>
+      <p class="sync-status" id="syncStatus">Chưa kết nối.</p>
+      <hr class="modal-hr" />
+      <p class="modal-lead" style="margin:0 0 0.5rem">Cloud (hay lỗi 429) — tùy chọn</p>
       <label class="sync-field">
         Mã
         <div class="sync-row">
-          <input type="text" id="syncCodeInput" placeholder="Mã đồng bộ" autocomplete="off" spellcheck="false" />
+          <input type="text" id="syncCodeInput" placeholder="Mã đồng bộ cloud" autocomplete="off" spellcheck="false" />
           <button type="button" class="btn small" id="btnSyncCopy">Copy</button>
         </div>
       </label>
       <div class="sync-actions">
-        <button type="button" class="btn primary" id="btnSyncCreate">Tạo mã</button>
+        <button type="button" class="btn" id="btnSyncCreate">Tạo mã</button>
         <button type="button" class="btn" id="btnSyncPush">Đẩy lên</button>
         <button type="button" class="btn" id="btnSyncPull">Kéo về</button>
       </div>
       <label class="sync-check">
         <input type="checkbox" id="syncAuto" />
-        Tự đồng bộ (chậm, tránh 429)
+        Tự đồng bộ cloud (không khuyến nghị)
       </label>
-      <p class="sync-status" id="syncStatus">Chưa kết nối.</p>
       <div class="sync-link-box" id="syncLinkBox" hidden>
         <a id="syncLink" href="#" target="_blank" rel="noopener"></a>
         <button type="button" class="btn small" id="btnSyncCopyLink">Copy link</button>
@@ -157,6 +167,6 @@
     </div>
   </div>
 
-  <script src="app.js?v=20260722b"></script>
+  <script src="app.js?v=20260722c"></script>
 </body>
 </html>
