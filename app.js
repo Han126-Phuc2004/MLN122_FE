@@ -3,7 +3,7 @@
   "use strict";
 
   /** Bump on every bank deploy so Safari/iPad cannot reuse stale JSON (GH Pages max-age=600). */
-  const DATA_VER = "20260721d";
+  const DATA_VER = "20260722a";
   const THEME_KEY = "fe_learn_theme_v1";
 
   const SUBJECTS = {
@@ -18,8 +18,16 @@
   const CURSORS_KEY = "fe_learn_cursors_v2";
   const SYNC_ID_KEY = "fe_learn_sync_id_v1";
   const SYNC_AUTO_KEY = "fe_learn_sync_auto_v1";
-  /** JSONBlob free store (no account) — used as cross-device sync backend */
+  /**
+   * JSONBlob free store (no account). Very strict rate limits (~3–4 writes then 429).
+   * Client enforces min write interval + exponential backoff on 429.
+   */
   const SYNC_API = "https://jsonblob.com/api/jsonBlob";
+  const SYNC_DEBOUNCE_MS = 8000; // wait after last edit before auto-push
+  const SYNC_MIN_WRITE_MS = 12000; // min gap between POST/PUT (avoids free-tier 429)
+  const SYNC_429_BASE_MS = 20000;
+  const SYNC_429_MAX_MS = 120000;
+  const SYNC_MAX_RETRIES = 6;
 
   const els = {
     brandCode: document.getElementById("brandCode"),
@@ -135,7 +143,13 @@
 
   // ========== Cross-device sync ==========
   let syncPushTimer = null;
+  let syncRetryTimer = null;
   let syncBusy = false;
+  let syncDirty = false; // local changes waiting to upload
+  let lastSyncWriteAt = 0;
+  /** epoch ms — do not write until this time (429 cooldown) */
+  let syncBackoffUntil = 0;
+  let syncRetryCount = 0;
 
   function getSyncId() {
     try {
@@ -158,9 +172,10 @@
   function isSyncAuto() {
     try {
       const v = localStorage.getItem(SYNC_AUTO_KEY);
-      return v === null ? true : v === "1";
+      // Default OFF — JSONBlob free tier rate-limits aggressive auto-push
+      return v === "1";
     } catch {
-      return true;
+      return false;
     }
   }
 
@@ -170,6 +185,57 @@
     } catch {
       /* ignore */
     }
+  }
+
+  function clearSyncRetry() {
+    if (syncRetryTimer) {
+      clearTimeout(syncRetryTimer);
+      syncRetryTimer = null;
+    }
+  }
+
+  function msUntilWriteAllowed() {
+    const now = Date.now();
+    const cool = Math.max(0, lastSyncWriteAt + SYNC_MIN_WRITE_MS - now);
+    const back = Math.max(0, syncBackoffUntil - now);
+    return Math.max(cool, back);
+  }
+
+  function scheduleWriteRetry(delayMs, reason) {
+    clearSyncRetry();
+    const wait = Math.max(500, delayMs | 0);
+    const sec = Math.ceil(wait / 1000);
+    setSyncStatus(
+      (reason || "Đợi máy chủ") + " · tự thử lại sau " + sec + "s…",
+      "busy"
+    );
+    syncRetryTimer = setTimeout(() => {
+      syncRetryTimer = null;
+      syncPush({ manual: false, fromRetry: true });
+    }, wait);
+  }
+
+  function noteWriteSuccess() {
+    lastSyncWriteAt = Date.now();
+    syncBackoffUntil = 0;
+    syncRetryCount = 0;
+    clearSyncRetry();
+  }
+
+  function noteWriteRateLimited(retryAfterHeader) {
+    lastSyncWriteAt = Date.now();
+    syncRetryCount += 1;
+    let wait = SYNC_429_BASE_MS * Math.pow(2, Math.min(syncRetryCount - 1, 3));
+    wait = Math.min(SYNC_429_MAX_MS, wait);
+    if (retryAfterHeader) {
+      const ra = Number(retryAfterHeader);
+      if (Number.isFinite(ra) && ra > 0) {
+        // header may be seconds
+        wait = Math.max(wait, ra < 1000 ? ra * 1000 : ra);
+      }
+    }
+    syncBackoffUntil = Date.now() + wait;
+    return wait;
   }
 
   function readProgressFor(sub) {
@@ -305,8 +371,17 @@
     return `${SYNC_API}/${encodeURIComponent(id)}`;
   }
 
-  async function syncCreate() {
-    if (syncBusy) return;
+  async function syncCreate({ fromRetry = false } = {}) {
+    if (syncBusy) {
+      syncDirty = true;
+      return null;
+    }
+    const wait = msUntilWriteAllowed();
+    if (wait > 0) {
+      syncDirty = true;
+      scheduleWriteRetry(wait, "Máy chủ đang hạn chế ghi (tránh 429)");
+      return null;
+    }
     syncBusy = true;
     setSyncStatus("Đang tạo mã đồng bộ…", "busy");
     try {
@@ -319,14 +394,27 @@
         },
         body,
       });
+      if (res.status === 429) {
+        const delay = noteWriteRateLimited(res.headers.get("Retry-After"));
+        syncDirty = true;
+        if (syncRetryCount <= SYNC_MAX_RETRIES) {
+          scheduleWriteRetry(delay, "Tạo mã bị chặn tạm (429)");
+        } else {
+          setSyncStatus(
+            "Tạo mã thất bại: máy chủ chặn quá nhiều lần. Đợi 1–2 phút hoặc dùng Xuất/Nhập JSON.",
+            "err"
+          );
+        }
+        return null;
+      }
       if (!res.ok) throw new Error("HTTP " + res.status);
+      noteWriteSuccess();
       // Location: https://jsonblob.com/api/jsonBlob/<id>
       const loc = res.headers.get("Location") || res.headers.get("location") || "";
       let id = "";
       const m = loc.match(/jsonBlob\/([^/?#]+)/i);
       if (m) id = m[1];
       if (!id) {
-        // some environments expose id in body
         try {
           const j = await res.json();
           id = j.id || j.blobId || "";
@@ -336,26 +424,54 @@
       }
       if (!id) throw new Error("Không nhận được mã từ máy chủ đồng bộ");
       setSyncId(id);
-      setSyncStatus("Đã tạo mã. Copy mã/link sang iPad rồi bấm «Kéo về» (hoặc mở link).", "ok");
+      syncDirty = false;
+      setSyncStatus(
+        "Đã tạo mã. Copy mã/link sang máy kia rồi bấm «Kéo về». (Đẩy tay, tránh spam để khỏi 429)",
+        "ok"
+      );
       updateSyncUi();
+      return id;
     } catch (e) {
       console.error(e);
       setSyncStatus(
-        "Tạo mã thất bại (" + (e.message || e) + "). Thử lại hoặc dùng Xuất/Nhập JSON.",
+        "Tạo mã thất bại (" + (e.message || e) + "). Thử lại sau vài giây hoặc dùng Xuất/Nhập JSON.",
         "err"
       );
+      return null;
     } finally {
       syncBusy = false;
+      if (syncDirty && !syncRetryTimer && isSyncAuto()) {
+        scheduleSyncPush();
+      }
     }
   }
 
-  async function syncPush() {
+  /**
+   * @param {{ manual?: boolean, fromRetry?: boolean }} [opts]
+   */
+  async function syncPush(opts = {}) {
+    const manual = !!opts.manual;
     let id = getSyncId() || (document.getElementById("syncCodeInput")?.value || "").trim();
     if (!id) {
-      await syncCreate();
+      await syncCreate({ fromRetry: !!opts.fromRetry });
       return;
     }
-    if (syncBusy) return;
+    if (syncBusy) {
+      syncDirty = true;
+      if (manual) setSyncStatus("Đang có request đồng bộ — sẽ đẩy tiếp khi xong.", "busy");
+      return;
+    }
+
+    const wait = msUntilWriteAllowed();
+    if (wait > 0) {
+      syncDirty = true;
+      scheduleWriteRetry(
+        wait,
+        manual ? "Vừa ghi gần đây — chờ để tránh 429" : "Chờ khoảng cách ghi an toàn"
+      );
+      return;
+    }
+
     syncBusy = true;
     setSyncStatus("Đang đẩy tiến độ lên mây…", "busy");
     try {
@@ -369,14 +485,47 @@
         },
         body,
       });
+      if (res.status === 429) {
+        const delay = noteWriteRateLimited(res.headers.get("Retry-After"));
+        syncDirty = true;
+        if (syncRetryCount <= SYNC_MAX_RETRIES) {
+          scheduleWriteRetry(delay, "Máy chủ tạm chặn (HTTP 429)");
+        } else {
+          setSyncStatus(
+            "Đẩy lên thất bại: 429 quá nhiều lần. Đợi 1–2 phút rồi bấm «Đẩy lên» lại, hoặc Xuất JSON.",
+            "err"
+          );
+        }
+        return;
+      }
       if (!res.ok) throw new Error("HTTP " + res.status);
+      noteWriteSuccess();
+      syncDirty = false;
       setSyncStatus("Đã lưu lên mây · " + new Date().toLocaleTimeString("vi-VN"), "ok");
       updateSyncUi();
     } catch (e) {
       console.error(e);
-      setSyncStatus("Đẩy lên thất bại: " + (e.message || e), "err");
+      syncDirty = true;
+      const msg = String(e.message || e);
+      if (/429|Too Many|Failed to fetch|NetworkError|Load failed/i.test(msg)) {
+        const delay = noteWriteRateLimited(null);
+        if (syncRetryCount <= SYNC_MAX_RETRIES) {
+          scheduleWriteRetry(delay, "Lỗi mạng/rate-limit");
+          return;
+        }
+      }
+      setSyncStatus("Đẩy lên thất bại: " + msg + " — thử lại sau hoặc Xuất JSON.", "err");
     } finally {
       syncBusy = false;
+      // if more edits arrived while busy, schedule another safe push
+      if (syncDirty && !syncRetryTimer) {
+        const cool = msUntilWriteAllowed();
+        if (cool > 0) scheduleWriteRetry(cool, "Còn thay đổi chưa đẩy");
+        else if (isSyncAuto() || manual) {
+          // small gap so we never double-fire instantly
+          scheduleWriteRetry(SYNC_MIN_WRITE_MS, "Đẩy phần còn lại");
+        }
+      }
     }
   }
 
@@ -386,14 +535,27 @@
       if (!silent) setSyncStatus("Nhập hoặc tạo mã đồng bộ trước.", "err");
       return false;
     }
-    if (syncBusy) return false;
+    if (syncBusy) {
+      if (!silent) setSyncStatus("Đang bận request khác — thử Kéo về lại sau vài giây.", "busy");
+      return false;
+    }
     syncBusy = true;
     if (!silent) setSyncStatus("Đang kéo tiến độ từ mây…", "busy");
     try {
       const res = await fetch(blobUrl(id), {
         method: "GET",
         headers: { Accept: "application/json" },
+        cache: "no-store",
       });
+      if (res.status === 429) {
+        if (!silent) {
+          setSyncStatus(
+            "Kéo về bị chặn tạm (429). Đợi ~20s rồi bấm «Kéo về» lại.",
+            "err"
+          );
+        }
+        return false;
+      }
       if (!res.ok) throw new Error("HTTP " + res.status + " — kiểm tra mã");
       const state = await res.json();
       setSyncId(id);
@@ -424,12 +586,13 @@
   }
 
   function scheduleSyncPush() {
+    syncDirty = true;
     if (!isSyncAuto() || !getSyncId()) return;
     if (syncPushTimer) clearTimeout(syncPushTimer);
     syncPushTimer = setTimeout(() => {
       syncPushTimer = null;
-      syncPush();
-    }, 1200);
+      syncPush({ manual: false });
+    }, SYNC_DEBOUNCE_MS);
   }
 
   function openSyncModal() {
@@ -437,8 +600,16 @@
     if (!m) return;
     m.hidden = false;
     updateSyncUi();
-    if (getSyncId()) setSyncStatus("Đã gắn mã. Bấm Đẩy lên / Kéo về khi cần.", "ok");
-    else setSyncStatus("Chưa có mã — bấm «Tạo mã mới» trên máy này, rồi mở link/mã trên máy kia.", "");
+    if (getSyncId()) {
+      setSyncStatus(
+        syncDirty
+          ? "Có thay đổi chưa đẩy — bấm «Đẩy lên» (hoặc đợi tự thử lại)."
+          : "Đã gắn mã. Ôn xong bấm «Đẩy lên» một lần; máy kia «Kéo về».",
+        syncDirty ? "busy" : "ok"
+      );
+    } else {
+      setSyncStatus("Chưa có mã — bấm «Tạo mã» trên máy này, rồi mở link/mã trên máy kia.", "");
+    }
   }
 
   function closeSyncModal() {
@@ -1254,7 +1425,7 @@
     });
   }
   document.getElementById("btnSyncCreate")?.addEventListener("click", () => syncCreate());
-  document.getElementById("btnSyncPush")?.addEventListener("click", () => syncPush());
+  document.getElementById("btnSyncPush")?.addEventListener("click", () => syncPush({ manual: true }));
   document.getElementById("btnSyncPull")?.addEventListener("click", () => syncPull({ silent: false }));
   document.getElementById("btnSyncCopy")?.addEventListener("click", async () => {
     const input = document.getElementById("syncCodeInput");
