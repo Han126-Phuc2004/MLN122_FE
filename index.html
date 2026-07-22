@@ -126,14 +126,14 @@
         <h2 id="syncTitle">Đồng bộ</h2>
         <button type="button" class="btn ghost" id="btnSyncClose">✕</button>
       </header>
-      <p class="modal-lead"><strong>Khuyên dùng offline:</strong> Copy tiến độ → dán máy kia. Cloud free hay bị 429/404 — chỉ dùng khi rảnh.</p>
+      <p class="modal-lead"><strong>Offline (khuyên dùng):</strong> «Copy tiến độ» tạo mã <code>F2:</code> đã nén — ngắn, dán máy kia. Cloud free hay 429.</p>
       <div class="sync-actions">
         <button type="button" class="btn primary" id="btnSyncCopyProgress">Copy tiến độ</button>
         <button type="button" class="btn" id="btnSyncPasteProgress">Dán tiến độ</button>
       </div>
       <label class="sync-field">
-        Dán chuỗi / JSON tại đây (máy nhận)
-        <textarea id="syncPasteBox" rows="3" placeholder="FELEARN1:… hoặc nội dung file JSON" spellcheck="false"></textarea>
+        Dán mã nén tại đây (máy nhận)
+        <textarea id="syncPasteBox" rows="2" placeholder="F2:… (mã nén ngắn) hoặc JSON" spellcheck="false"></textarea>
       </label>
       <p class="sync-status" id="syncStatus">Chưa kết nối.</p>
       <hr class="modal-hr" />
@@ -167,6 +167,6 @@
     </div>
   </div>
 
-  <script src="app.js?v=20260722c"></script>
+  <script src="app.js?v=20260722d"></script>
 </body>
 </html>

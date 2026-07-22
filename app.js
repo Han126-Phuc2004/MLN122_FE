@@ -3,7 +3,7 @@
   "use strict";
 
   /** Bump on every bank deploy so Safari/iPad cannot reuse stale JSON (GH Pages max-age=600). */
-  const DATA_VER = "20260722c";
+  const DATA_VER = "20260722d";
   const THEME_KEY = "fe_learn_theme_v1";
 
   const SUBJECTS = {
@@ -259,31 +259,203 @@
     return wait;
   }
 
-  function encodeProgressPayload() {
-    const json = JSON.stringify(collectSyncState());
-    // unicode-safe base64
-    const b64 = btoa(unescape(encodeURIComponent(json)));
-    return "FELEARN1:" + b64;
+  function bytesToBase64Url(u8) {
+    let bin = "";
+    const chunk = 0x8000;
+    for (let i = 0; i < u8.length; i += chunk) {
+      bin += String.fromCharCode.apply(null, u8.subarray(i, i + chunk));
+    }
+    return btoa(bin).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/g, "");
   }
 
-  function decodeProgressPayload(raw) {
+  function base64UrlToBytes(b64url) {
+    let b64 = String(b64url || "").replace(/-/g, "+").replace(/_/g, "/");
+    while (b64.length % 4) b64 += "=";
+    const bin = atob(b64);
+    const u8 = new Uint8Array(bin.length);
+    for (let i = 0; i < bin.length; i++) u8[i] = bin.charCodeAt(i);
+    return u8;
+  }
+
+  async function gzipBytes(u8) {
+    if (typeof CompressionStream === "function") {
+      const stream = new Blob([u8]).stream().pipeThrough(new CompressionStream("gzip"));
+      return new Uint8Array(await new Response(stream).arrayBuffer());
+    }
+    // no CompressionStream — return raw UTF-8 marker handled by caller
+    return null;
+  }
+
+  async function gunzipBytes(u8) {
+    if (typeof DecompressionStream === "function") {
+      const stream = new Blob([u8]).stream().pipeThrough(new DecompressionStream("gzip"));
+      return new Uint8Array(await new Response(stream).arrayBuffer());
+    }
+    throw new Error("Trình duyệt không giải nén được");
+  }
+
+  /** Compact only answered/starred questions — much shorter than full maps. */
+  function packStateForShare(state) {
+    const p = {};
+    let n = 0;
+    for (const [sub, map] of Object.entries(state.progress || {})) {
+      const parts = [];
+      for (const [id, rec] of Object.entries(map || {})) {
+        if (!rec || (!rec.result && !rec.star)) continue;
+        let t = String(id);
+        if (rec.result === "ok") t += "+";
+        else if (rec.result === "bad") t += "-";
+        if (rec.star) t += "*";
+        // relative time base36 (seconds) keeps merge order without huge timestamps
+        if (rec.lastAt) {
+          const sec = Math.max(0, Math.floor(Number(rec.lastAt) / 1000));
+          t += "." + sec.toString(36);
+        }
+        parts.push(t);
+        n++;
+      }
+      if (parts.length) p[sub] = parts.join(" ");
+    }
+    // slim cursors: drop empty
+    const c = {};
+    for (const [sub, bucket] of Object.entries(state.cursors || {})) {
+      if (bucket && typeof bucket === "object" && Object.keys(bucket).length) {
+        c[sub] = bucket;
+      }
+    }
+    return {
+      v: 2,
+      t: state.updatedAt || Date.now(),
+      s: state.subject || subjectId,
+      n,
+      p,
+      c,
+    };
+  }
+
+  function unpackSharedState(packed) {
+    if (!packed || typeof packed !== "object") throw new Error("Gói rỗng");
+    // v1 full state already
+    if (packed.progress && typeof packed.progress === "object" && packed.v !== 2) {
+      return packed;
+    }
+    if (packed.v === 2 || packed.p) {
+      const progress = {};
+      for (const sub of Object.keys(SUBJECTS)) progress[sub] = {};
+      for (const [sub, blob] of Object.entries(packed.p || {})) {
+        if (!SUBJECTS[sub]) continue;
+        const map = {};
+        const tokens = String(blob || "")
+          .trim()
+          .split(/\s+/)
+          .filter(Boolean);
+        for (const tok of tokens) {
+          // id(+|-)?(*)?(.<base36sec>)?
+          const m = tok.match(/^([A-Za-z0-9_-]+)([+-])?(\*)?(?:\.([0-9a-z]+))?$/i);
+          if (!m) continue;
+          let id = m[1];
+          // numeric ids stored as numbers in app
+          if (/^\d+$/.test(id)) id = Number(id);
+          const rec = {};
+          if (m[2] === "+") rec.result = "ok";
+          else if (m[2] === "-") rec.result = "bad";
+          if (m[3]) rec.star = true;
+          if (m[4]) rec.lastAt = parseInt(m[4], 36) * 1000;
+          else rec.lastAt = packed.t || Date.now();
+          map[id] = rec;
+        }
+        progress[sub] = map;
+      }
+      return {
+        v: 1,
+        updatedAt: packed.t || Date.now(),
+        subject: packed.s || subjectId,
+        progress,
+        cursors: packed.c || {},
+      };
+    }
+    // plain v1
+    if (packed.v === 1 || packed.progress) return packed;
+    throw new Error("Định dạng không hỗ trợ");
+  }
+
+  async function encodeProgressPayload() {
+    const full = collectSyncState();
+    const packed = packStateForShare(full);
+    const json = JSON.stringify(packed);
+    const raw = new TextEncoder().encode(json);
+    const gz = await gzipBytes(raw);
+    if (gz && gz.length < raw.length) {
+      return "F2:" + bytesToBase64Url(gz);
+    }
+    // fallback uncompressed compact (still much shorter than FELEARN1 full)
+    return "F2u:" + bytesToBase64Url(raw);
+  }
+
+  async function decodeProgressPayload(raw) {
     let s = String(raw || "").trim();
     if (!s) throw new Error("Trống");
-    if (s.startsWith("FELEARN1:")) s = s.slice("FELEARN1:".length).trim();
-    // allow raw JSON paste too
-    if (s.startsWith("{")) return JSON.parse(s);
-    const json = decodeURIComponent(escape(atob(s)));
-    return JSON.parse(json);
+    // strip accidental wrapping quotes / whitespace / zero-width
+    s = s.replace(/^["'\s\u200b]+|["'\s\u200b]+$/g, "");
+
+    if (s.startsWith("{")) {
+      return unpackSharedState(JSON.parse(s));
+    }
+
+    // F2: gzip compact | F2u: plain compact | FELEARN1: legacy full base64
+    if (s.startsWith("F2:")) {
+      const u8 = base64UrlToBytes(s.slice(3));
+      const plain = await gunzipBytes(u8);
+      const json = new TextDecoder().decode(plain);
+      return unpackSharedState(JSON.parse(json));
+    }
+    if (s.startsWith("F2u:")) {
+      const u8 = base64UrlToBytes(s.slice(4));
+      const json = new TextDecoder().decode(u8);
+      return unpackSharedState(JSON.parse(json));
+    }
+    if (s.startsWith("FELEARN1:")) {
+      const b64 = s.slice("FELEARN1:".length).trim();
+      const json = decodeURIComponent(escape(atob(b64)));
+      return unpackSharedState(JSON.parse(json));
+    }
+    // bare base64url maybe F2 without prefix? try gzip then plain
+    try {
+      const u8 = base64UrlToBytes(s);
+      try {
+        const plain = await gunzipBytes(u8);
+        return unpackSharedState(JSON.parse(new TextDecoder().decode(plain)));
+      } catch {
+        return unpackSharedState(JSON.parse(new TextDecoder().decode(u8)));
+      }
+    } catch {
+      /* fall through */
+    }
+    throw new Error("Không đọc được chuỗi");
+  }
+
+  function formatShareSize(len) {
+    if (len < 1000) return len + " ký tự";
+    if (len < 10000) return (len / 1000).toFixed(1) + "k ký tự";
+    return Math.round(len / 1024) + " KB";
   }
 
   async function copyProgressPayload() {
-    const text = encodeProgressPayload();
+    setSyncStatus("Đang nén tiến độ…", "busy");
+    let text;
+    try {
+      text = await encodeProgressPayload();
+    } catch (e) {
+      console.error(e);
+      setSyncStatus("Nén thất bại — dùng Xuất JSON.", "err");
+      return;
+    }
     try {
       await navigator.clipboard.writeText(text);
       setSyncStatus(
-        "Đã copy tiến độ (" +
-          Math.round(text.length / 1024) +
-          " KB). Máy kia: dán vào ô dưới → «Dán tiến độ».",
+        "Đã copy mã nén (" +
+          formatShareSize(text.length) +
+          "). Máy kia: dán ô → «Dán tiến độ».",
         "ok"
       );
     } catch {
@@ -293,7 +465,10 @@
         ta.focus();
         ta.select();
       }
-      setSyncStatus("Clipboard bị chặn — đã hiện text trong ô, hãy copy thủ công.", "busy");
+      setSyncStatus(
+        "Clipboard bị chặn — mã nén (" + formatShareSize(text.length) + ") đã hiện trong ô, copy tay.",
+        "busy"
+      );
     }
   }
 
@@ -308,11 +483,12 @@
       }
     }
     if (!raw.trim()) {
-      setSyncStatus("Dán chuỗi FELEARN1:… (hoặc JSON) vào ô rồi bấm lại.", "err");
+      setSyncStatus("Dán mã F2:… (hoặc JSON) vào ô rồi bấm lại.", "err");
       return;
     }
     try {
-      const state = decodeProgressPayload(raw);
+      setSyncStatus("Đang áp dụng…", "busy");
+      const state = await decodeProgressPayload(raw);
       applySyncState(state);
       const sub = state.subject && SUBJECTS[state.subject] ? state.subject : subjectId;
       await loadSubjectData(sub);
@@ -320,7 +496,7 @@
       setSyncStatus("Đã dán/áp dụng tiến độ thành công (offline).", "ok");
     } catch (e) {
       console.error(e);
-      setSyncStatus("Chuỗi/JSON không hợp lệ — copy lại từ máy nguồn.", "err");
+      setSyncStatus("Chuỗi không hợp lệ — copy lại «Copy tiến độ» từ máy nguồn.", "err");
     }
   }
 
