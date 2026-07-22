@@ -126,47 +126,44 @@
         <h2 id="syncTitle">Đồng bộ</h2>
         <button type="button" class="btn ghost" id="btnSyncClose">✕</button>
       </header>
-      <p class="modal-lead"><strong>Offline (khuyên dùng):</strong> «Copy tiến độ» tạo mã <code>F2:</code> đã nén — ngắn, dán máy kia. Cloud free hay 429.</p>
-      <div class="sync-actions">
-        <button type="button" class="btn primary" id="btnSyncCopyProgress">Copy tiến độ</button>
-        <button type="button" class="btn" id="btnSyncPasteProgress">Dán tiến độ</button>
-      </div>
+      <p class="modal-lead"><strong>Mã ngắn:</strong> «Tạo mã» → copy ~9 ký tự (vd. <code>6DELWTL9X</code>) sang máy kia → «Kéo về». Mỗi lần «Đẩy lên» có thể ra mã mới.</p>
       <label class="sync-field">
-        Dán mã nén tại đây (máy nhận)
-        <textarea id="syncPasteBox" rows="2" placeholder="F2:… (mã nén ngắn) hoặc JSON" spellcheck="false"></textarea>
-      </label>
-      <p class="sync-status" id="syncStatus">Chưa kết nối.</p>
-      <hr class="modal-hr" />
-      <p class="modal-lead" style="margin:0 0 0.5rem">Cloud (hay lỗi 429) — tùy chọn</p>
-      <label class="sync-field">
-        Mã
+        Mã ngắn
         <div class="sync-row">
-          <input type="text" id="syncCodeInput" placeholder="Mã đồng bộ cloud" autocomplete="off" spellcheck="false" />
+          <input type="text" id="syncCodeInput" placeholder="vd. 6DELWTL9X" autocomplete="off" spellcheck="false" />
           <button type="button" class="btn small" id="btnSyncCopy">Copy</button>
         </div>
       </label>
       <div class="sync-actions">
-        <button type="button" class="btn" id="btnSyncCreate">Tạo mã</button>
+        <button type="button" class="btn primary" id="btnSyncCreate">Tạo mã</button>
         <button type="button" class="btn" id="btnSyncPush">Đẩy lên</button>
         <button type="button" class="btn" id="btnSyncPull">Kéo về</button>
       </div>
       <label class="sync-check">
         <input type="checkbox" id="syncAuto" />
-        Tự đồng bộ cloud (không khuyến nghị)
+        Tự đồng bộ (không khuyến nghị)
       </label>
+      <p class="sync-status" id="syncStatus">Chưa kết nối.</p>
       <div class="sync-link-box" id="syncLinkBox" hidden>
         <a id="syncLink" href="#" target="_blank" rel="noopener"></a>
         <button type="button" class="btn small" id="btnSyncCopyLink">Copy link</button>
       </div>
       <hr class="modal-hr" />
+      <p class="modal-lead" style="margin:0 0 0.5rem">Dự phòng offline (không cần server)</p>
       <div class="sync-actions">
+        <button type="button" class="btn small" id="btnSyncCopyProgress">Copy tiến độ</button>
+        <button type="button" class="btn small" id="btnSyncPasteProgress">Dán tiến độ</button>
         <button type="button" class="btn small" id="btnSyncExport">Xuất JSON</button>
         <button type="button" class="btn small" id="btnSyncImport">Nhập JSON</button>
         <input type="file" id="syncImportFile" accept="application/json,.json" hidden />
       </div>
+      <label class="sync-field">
+        Dán mã nén F2:… (offline)
+        <textarea id="syncPasteBox" rows="2" placeholder="Chỉ khi không dùng được mã ngắn" spellcheck="false"></textarea>
+      </label>
     </div>
   </div>
 
-  <script src="app.js?v=20260722d"></script>
+  <script src="app.js?v=20260722e"></script>
 </body>
 </html>
