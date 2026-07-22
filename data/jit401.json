@@ -24,7 +24,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Scavenging: lạm dụng/trộm thông tin cá nhân còn sót lại.",
+      "explanation": "📝 Dịch câu hỏi\nCòn có tội phạm gọi là scavenging: ( ) thông tin cá nhân bị để sót lại.\n\n✅ Đáp án: A — 不正利用（盗用） = lạm dụng / trộm dùng\nScavenging = «lục rác» thông tin: lấy thông tin cá nhân còn sót (giấy in, thẻ, máy bỏ…) rồi dùng trái phép. Chỗ trống cần nghĩa «lạm dụng/trộm dùng» → A.\n\n❌ Các đáp án khác\nB mã hóa, C sao lưu, D nén — đều là kỹ thuật xử lý dữ liệu, không phải hành vi phạm tội scavenging.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -43,7 +43,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Thanh ghi CPU truy cập nhanh nhất trong hệ thống nhớ.",
+      "explanation": "📝 Dịch câu hỏi\n( ) là nơi tốc độ truy cập dữ liệu nhanh nhất.\n\n✅ Đáp án: A — レジスタ (thanh ghi CPU)\nThứ tự tốc độ (nhanh → chậm): Register → Cache → RAM → SSD → HDD. Thanh ghi nằm trong CPU, gần mạch tính nhất → nhanh nhất.\n\n❌ Các đáp án khác\nB RAM nhanh nhưng chậm hơn register. C/D là bộ nhớ ngoài, chậm hơn nhiều.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -62,7 +62,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Lượng tin ~log₂(số ký hiệu). Alphabet 26 chữ ≈ 4.7 bit.",
+      "explanation": "📝 Dịch câu hỏi\nLượng thông tin của 1 chữ cái alphabet là bao nhiêu?\n\n✅ Đáp án: A — khoảng 4.7 bit (log₂ 26)\nCông thức lượng tin (khi các ký hiệu đều khả năng): log₂(số ký hiệu). Alphabet 26 chữ → log₂26 ≈ 4.7 bit/chữ. Không phải lúc nào cũng 8 bit (1 byte).\n\n❌ Các đáp án khác\nB 1 bit chỉ phân biệt 2 trạng thái. C 8 byte quá lớn. D 32 bit cố định không đúng cho 26 chữ cái.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -81,7 +81,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Điện lưu = 電流 (dòng điện).",
+      "explanation": "📝 Dịch câu hỏi\n【Thuật ngữ chuyên môn】Hãy dịch sang tiếng Nhật: Điện lưu\n\n✅ Đáp án: A — 電流 (dòng điện)\nĐiện lưu = dòng điện = 電流 (ampe). Đây là câu từ vựng IT/điện tử cơ bản.\n\n❌ Các đáp án khác\nB 電圧 = điện áp (volt). C 電力 = công suất điện (watt). D 抵抗 = điện trở (ohm).",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -100,7 +100,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Máy tính chia thế hệ theo linh kiện logic (thường 4, có kể 5).",
+      "explanation": "📝 Dịch câu hỏi\nMáy tính được chia thành mấy thế hệ theo linh kiện logic dùng trong máy?\n\n✅ Đáp án: A — 4 thế hệ (có thể kể ~5)\nPhân loại kinh điển theo phần tử logic: 1) đèn điện tử, 2) transistor, 3) IC, 4) LSI/VLSI; đôi khi kể thêm 5 (AI, song song…). Số phổ biến trong giáo trình FE là 4 (~5).\n\n❌ Các đáp án khác\nB/C/D không khớp cách chia chuẩn theo linh kiện logic.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -119,7 +119,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Cấu trúc cha–con–cháu = mô hình phân cấp (hierarchical).",
+      "explanation": "📝 Dịch câu hỏi\nTrong cách biểu diễn CSDL, mô tả «xếp dữ liệu kiểu cha–con–cháu, tìm từ nút gốc xuống» là kiểu nào?\n\n✅ Đáp án: A — 階層型 / ツリー型 (mô hình phân cấp / cây)\nCha → con → cháu, chỉ một đường từ gốc = cấu trúc cây (hierarchical / tree). Đây là định nghĩa mô hình phân cấp.\n\n❌ Các đáp án khác\nB quan hệ (bảng). C mạng (nhiều quan hệ chéo). D hướng đối tượng.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -138,7 +138,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Dữ liệu lớn cần quản lý bằng DBMS.",
+      "explanation": "📝 Dịch câu hỏi\nĐể xử lý lượng dữ liệu lớn, điều gì quan trọng?\n\n✅ Đáp án: A — Quản lý cơ sở dữ liệu (DBMS)\nDữ liệu lớn cần tổ chức, truy vấn, bảo vệ, đồng thời… → hệ quản trị CSDL (database management), không thể chỉ ghi tay hay sổ giấy.\n\n❌ Các đáp án khác\nB/C/D đều thủ công hoặc quá hạn chế, không đủ cho big data / dữ liệu nghiệp vụ lớn.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -157,7 +157,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "gTLD .com gắn với Mỹ / không có mã quốc gia.",
+      "explanation": "📝 Dịch câu hỏi\nTên miền kiểu «.com» (chỉ loại hình, không có mã quốc gia) gắn với nước nào?\n\n✅ Đáp án: A — Mỹ (米国)\n.com, .org, .net… là gTLD xuất phát/quản lý gắn Mỹ; không có mã quốc gia (khác .jp, .uk, .vn).\n\n❌ Các đáp án khác\nB Nhật → .jp. C Anh → .uk. D Việt Nam → .vn.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -176,7 +176,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "HTML mô tả trang: chữ/trang trí, ảnh, link…",
+      "explanation": "📝 Dịch câu hỏi\n«HTML là viết tắt của Hyper Text Markup Language, có thể mô tả ( ) chữ, âm thanh, liên kết tới file…»\n\n✅ Đáp án: A — trang trí/layout · ảnh\nHTML đánh dấu nội dung trang web: chữ + định dạng/trang trí, ảnh, âm thanh, link… Chỗ trống cần ý «trang trí/layout, hình ảnh».\n\n❌ Các đáp án khác\nB biên dịch, C chuyển máy, D điều khiển điện — không phải việc của HTML.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -195,7 +195,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Web 2.0: tương tác, UGC, SNS.",
+      "explanation": "📝 Dịch câu hỏi\nWeb 2.0 là gì?\n\n✅ Đáp án: A — Web có sự tham gia người dùng · hai chiều\nWeb 2.0 = người dùng tạo nội dung, tương tác (blog, SNS, wiki, comment…). Không còn chỉ đọc trang tĩnh một chiều.\n\n❌ Các đáp án khác\nB là Web 1.0 (tĩnh). C/D không đúng định nghĩa Web 2.0.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -214,7 +214,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Mô tả chức năng quản lý giao diện người dùng của OS.",
+      "explanation": "📝 Dịch câu hỏi\n«Quyết định cách dùng chuột/bàn phím, cách hiện cửa sổ, cách xử lý file…» thuộc chức năng nào của OS?\n\n✅ Đáp án: A — Quản lý giao diện người dùng (UI)\nĐoạn văn mô tả trải nghiệm người dùng với máy (chuột, phím, cửa sổ, file) → quản lý user interface của OS.\n\n❌ Các đáp án khác\nB chỉ bộ nhớ. C chỉ lập lịch job. D không phải «ngôn ngữ driver».",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -233,7 +233,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Kiến trúc von Neumann / stored-program.",
+      "explanation": "📝 Dịch câu hỏi\nNguyên lý hoạt động của CPU dựa trên cái gì?\n\n✅ Đáp án: A — Kiến trúc von Neumann (chương trình lưu trong bộ nhớ)\nMáy tính hiện đại (gần như) theo von Neumann: lệnh + dữ liệu cùng trong bộ nhớ, CPU lấy lệnh–thực thi tuần tự (stored-program).\n\n❌ Các đáp án khác\nB/C/D không phải nguyên lý CPU phổ thông trong giáo trình FE.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -252,7 +252,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "分散処理システム = hệ thống xử lý phân tán.",
+      "explanation": "📝 Dịch câu hỏi\n【Thuật ngữ】Hãy dịch (sang tiếng Việt): 分散処理システム\n\n✅ Đáp án: A — Hệ thống xử lý phân tán\n分散 = phân tán, 処理 = xử lý, システム = hệ thống → hệ thống xử lý phân tán (nhiều máy cùng xử lý).\n\n❌ Các đáp án khác\nB tập trung = 集中. C/D sai nghĩa.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -271,7 +271,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Nén âm thanh dựa tính chất sóng âm.",
+      "explanation": "📝 Dịch câu hỏi\nĐể nén ( ), người ta dùng tính chất của sóng âm.\n\n✅ Đáp án: A — 音声 (âm thanh / voice)\nNén audio dựa tính chất sóng âm (tần số nghe được, che giấu tâm lý thính giác…). Chỗ trống = âm thanh.\n\n❌ Các đáp án khác\nB text không dùng «sóng âm». C nguồn điện, D cáp — không phải đối tượng nén kiểu đó.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -290,7 +290,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "FTTH: fiber to the home.",
+      "explanation": "📝 Dịch câu hỏi\nDùng cáp quang để truyền thông tốc độ cao tới tận nhà gọi là gì?\n\n✅ Đáp án: A — FTTH (Fiber To The Home)\nFTTH = cáp quang tới nhà. Khớp đúng mô tả «光ファイバ…家庭まで».\n\n❌ Các đáp án khác\nB dial-up (modem điện thoại, chậm). C ISDN cũ. D bưu điện giấy.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -309,7 +309,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "RLE không luôn làm nhỏ mọi dữ liệu (dữ liệu ngẫu nhiên có thể phình).",
+      "explanation": "📝 Dịch câu hỏi\nVề nén Run-Length Encoding (RLE), hãy chọn câu SAI.\n\n✅ Đáp án: A — «Mọi dữ liệu đều chắc chắn nhỏ hơn bản gốc» (SAI)\nRLE gộp chuỗi ký tự lặp (AAABB → A3B2). Hữu ích khi lặp nhiều, thường lossless. Nhưng dữ liệu ngẫu nhiên/không lặp có thể phình to → không «luôn nhỏ hơn» → A là câu sai (đúng đáp án cần chọn).\n\n❌ Các đáp án khác\nB/C/D đều đúng về RLE.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -328,7 +328,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "1G: analog; 2G+ digital.",
+      "explanation": "📝 Dịch câu hỏi\nThế hệ điện thoại di động nào đặc trưng truyền thông analog: sóng âm thay bằng sóng vô tuyến gửi/nhận nguyên dạng?\n\n✅ Đáp án: A — Thế hệ 1 (1G)\n1G = analog. Từ 2G trở đi chủ yếu digital (số).\n\n❌ Các đáp án khác\nB 4G, C 5G, D 3G đều thuộc thời đại số / gói dữ liệu.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -347,7 +347,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "EOS (Electronic Ordering System) / liên quan POS bán lẻ.",
+      "explanation": "📝 Dịch câu hỏi\nVề EOS, câu nào đúng?\n\n✅ Đáp án: A — Quản lý thông tin tại điểm bán / liên quan POS\nTrong IT bán lẻ Nhật, EOS (Electronic Ordering System) gắn chuỗi cung ứng cửa hàng; gần khái niệm quản lý bán tại quầy (POS). Đáp án A khớp ngữ cảnh kinh doanh–IT.\n\n❌ Các đáp án khác\nB/C/D không phải nghĩa EOS chuẩn trong giáo trình này.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -366,7 +366,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Ngoài hỏng hóc: lỗi do con người.",
+      "explanation": "📝 Dịch câu hỏi\nNgoài hỏng hóc thiết bị, vấn đề còn đến từ sự cố do ( ).\n\n✅ Đáp án: A — Lỗi con người (human error)\nSự cố hệ thống: hỏng máy + lỗi người (sai thao tác, sai cấu hình, bug do code…). Chỗ trống = lỗi con người.\n\n❌ Các đáp án khác\nB/C/D là biện pháp tốt, không gây «sự cố».",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -385,7 +385,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "MIDI message thường vài byte (status + data).",
+      "explanation": "📝 Dịch câu hỏi\nLệnh MIDI có lượng dữ liệu khoảng bao nhiêu bit/byte?\n\n✅ Đáp án: A — Thường message khoảng 1–3 byte\nMIDI gửi lệnh nhạc (note on/off…) rất nhỏ: status + data, thường 1–3 byte, không phải gigabit.\n\n❌ Các đáp án khác\nB/C quá lớn/cố định sai. D 0 bit vô nghĩa.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -404,7 +404,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Đặc trưng lớn: tương tác và tham gia người dùng.",
+      "explanation": "📝 Dịch câu hỏi\nĐặc trưng lớn của Web 2.0 là gì?\n\n✅ Đáp án: A — Tính hai chiều · sự tham gia người dùng\nGiống câu 10: Web 2.0 nhấn mạnh tương tác, UGC, cộng đồng.\n\n❌ Các đáp án khác\nB là Web cũ một chiều. C/D không liên quan định nghĩa.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -423,7 +423,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Cấu trúc hình cây（カウ・チュック・ヒン・カイ）は階層構造（木構造）（かいそうこうぞう）です（§17.2）。",
+      "explanation": "📝 Dịch câu hỏi\n【Thuật ngữ】Dịch sang tiếng Nhật: Cấu trúc hình cây\n\n✅ Đáp án: A — 木構造 / ツリー構造\nCây = 木 / tree. Cấu trúc hình cây = 木構造（ツリー構造）.\n\n❌ Các đáp án khác\nB list tuyến tính. C hash. D chỉ đồ thị vô hướng — không đúng nghĩa «cây».",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -442,7 +442,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Input: bàn phím, chuột…",
+      "explanation": "📝 Dịch câu hỏi\nNgười dùng nhập liệu từ đâu? Chọn câu đúng.\n\n✅ Đáp án: A — Thiết bị nhập: bàn phím, chuột…\nInput device = keyboard, mouse, mic, scanner…\n\n❌ Các đáp án khác\nB máy in = output. C loa = output. D màn hình = output.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -461,7 +461,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Thiết kế UI khó đủ trên giấy → prototype rồi sửa.",
+      "explanation": "📝 Dịch câu hỏi\n«Thiết kế giao diện người–máy thường không đủ khi chỉ xem xét trên ( ); hay làm prototype rồi sửa dần.»\n\n✅ Đáp án: A — Trên giấy / đặc tả (机上・仕様)\nUI khó «đoán» chỉ bằng tài liệu → làm chương trình thử (prototype), thử người dùng, sửa. Chỗ trống = 机上 (trên bàn/giấy/spec).\n\n❌ Các đáp án khác\nB/C/D là sau khi xong — không khớp «thường không đủ khi…».",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -480,7 +480,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "転置: transposition cipher — hoán vị thứ tự ký tự.",
+      "explanation": "📝 Dịch câu hỏi\nVề mã hóa kiểu transposition (転置), câu nào đúng?\n\n✅ Đáp án: A — Đổi thứ tự sắp xếp ký tự để mã hóa\n転置暗号 = transposition: giữ ký tự, xáo thứ tự (vd. viết theo cột). Khác 置換 (substitution: thay chữ bằng chữ khác).\n\n❌ Các đáp án khác\nB mô tả mơ hồ/sai. C là mật mã khóa công khai. D nén ≠ mã hóa.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -499,7 +499,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Máy tính điện tử khoảng thập niên 1940 (ENIAC…).",
+      "explanation": "📝 Dịch câu hỏi\nMáy tính điện tử được phát triển khoảng khi nào?\n\n✅ Đáp án: A — Thế kỷ 20 (ENIAC ~ thập niên 1940)\nMáy tính điện tử số xuất hiện giữa thế kỷ 20 (ENIAC 1946…).\n\n❌ Các đáp án khác\nB/C quá sớm. D tương lai.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -518,7 +518,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Thứ tự tăng dần（トゥー・トゥー・タン・ダン）は昇順（しょうじゅん）です（§ソート）。",
+      "explanation": "📝 Dịch câu hỏi\n【Thuật ngữ】Dịch sang tiếng Nhật: Thứ tự tăng dần\n\n✅ Đáp án: A — 昇順 (shōjun)\nTăng dần = ascending = 昇順. Giảm dần = 降順.\n\n❌ Các đáp án khác\nB giảm dần. C/D không phải thuật ngữ sort chuẩn.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -537,7 +537,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Sai: low-level không dễ đọc/portable nhất (đó là high-level).",
+      "explanation": "📝 Dịch câu hỏi\nVề ngôn ngữ cấp thấp, hãy chọn câu SAI.\n\n✅ Đáp án: A — «Dễ đọc nhất với người và tính di động cao» (SAI)\nLow-level (máy, assembly) gần phần cứng, hiệu năng tốt, nhưng khó đọc và kém portable. Câu «dễ đọc + portable nhất» là đặc điểm high-level → A sai → chọn A.\n\n❌ Các đáp án khác\nB/C/D đúng với low-level.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -556,7 +556,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Đại lượng vật lý liên tục = analog.",
+      "explanation": "📝 Dịch câu hỏi\nChiều dài, trọng lượng, thời gian… phần lớn đại lượng vật lý quanh ta là gì?\n\n✅ Đáp án: A — Đại lượng analog (liên tục)\nThế giới vật lý thường liên tục (analog). Máy tính số hóa (digital) bằng lấy mẫu/lượng tử hóa.\n\n❌ Các đáp án khác\nB/C/D chỉ là dạng đã số hóa hoặc logic, không phải bản chất «nhiều đại lượng quanh ta».",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -575,7 +575,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Sai: IP public trùng toàn cầu gây xung đột (trừ private range).",
+      "explanation": "📝 Dịch câu hỏi\nVề địa chỉ IP, hãy chọn câu SAI.\n\n✅ Đáp án: A — «IP giống hệt nhau công khai trên toàn cầu cùng lúc cũng không sao» (SAI)\nIP public phải duy nhất trên Internet (trừ dải private NAT). Trùng public → xung đột định tuyến. → A sai.\n\n❌ Các đáp án khác\nB/C/D đều đúng kiến thức mạng cơ bản.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -594,7 +594,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Electromechanical computers / tabulators đầu thế kỷ 20.",
+      "explanation": "📝 Dịch câu hỏi\nMáy tính kiểu điện–cơ (electromechanical) ra đời khoảng khi nào?\n\n✅ Đáp án: A — Cuối thế kỷ 19 – đầu thế kỷ 20 (một dạng máy tính)\nTrước máy điện tử thuần: tabulator, relay computer… thuộc electromechanical, khoảng giao thế kỷ 19–20.\n\n❌ Các đáp án khác\nB quá muộn. C quá sớm. D sai vì đã tồn tại trong lịch sử.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -613,7 +613,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "OOP: encapsulation, inheritance, polymorphism…",
+      "explanation": "📝 Dịch câu hỏi\nVề lập trình hướng đối tượng (OOP), câu nào đúng?\n\n✅ Đáp án: A — Dùng các khái niệm đóng gói · kế thừa · đa hình…\nOOP: encapsulation, inheritance, polymorphism (và abstraction). Đây là định nghĩa chuẩn.\n\n❌ Các đáp án khác\nB goto là kiểu cũ/cấu trúc. C OOP hoàn toàn làm được GUI. D OOP gắn data + method trong object.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -632,7 +632,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Mã hóa: làm khó đọc nội dung nếu không có khóa.",
+      "explanation": "📝 Dịch câu hỏi\nVề mã hóa (encryption), câu nào đúng?\n\n✅ Đáp án: A — Kỹ thuật làm bên thứ ba khó đọc được nội dung\nMã hóa bảo vệ tính bí mật: không có khóa thì khó đọc. Không xóa file, không phải nén, không liên quan độ phân giải.\n\n❌ Các đáp án khác\nB xóa file. C nén ≠ mã hóa. D độ phân giải màn hình.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -651,7 +651,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "OS quản lý tài nguyên, trung gian HW–app.",
+      "explanation": "📝 Dịch câu hỏi\nVề OS trên PC, mô tả nào thích hợp?\n\n✅ Đáp án: A — Trung gian HW–ứng dụng và quản lý tài nguyên\nOS = hệ điều hành: quản lý CPU/RAM/file/I/O, cho app chạy trên phần cứng.\n\n❌ Các đáp án khác\nB/C/D nhầm OS với thiết bị hay thông số phần cứng.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -670,7 +670,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Dữ liệu máy tính: chuỗi bit 0/1.",
+      "explanation": "📝 Dịch câu hỏi\nDữ liệu máy tính là dãy số biểu diễn bằng gì?\n\n✅ Đáp án: A — 0 và 1 (bit)\nMáy tính số dùng hệ nhị phân: mọi dữ liệu quy về bit 0/1.\n\n❌ Các đáp án khác\nB thập phân là cách người đọc. C/D không đủ biểu diễn mọi dữ liệu.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -689,7 +689,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Suica: thẻ IC không tiếp xúc.",
+      "explanation": "📝 Dịch câu hỏi\nSuica của JR… dùng công nghệ gì?\n\n✅ Đáp án: A — Thẻ IC (không tiếp xúc)\nSuica = thẻ IC/NFC không chạm (FeliCa). Thanh toán/đi tàu bằng chạm thẻ.\n\n❌ Các đáp án khác\nB vé giấy. C băng từ. D CD-ROM — không phải Suica.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -708,7 +708,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "工業所有権 ≈ 産業財産権 (patent, trademark…).",
+      "explanation": "📝 Dịch câu hỏi\n工業所有権 là loại quyền gì?\n\n✅ Đáp án: A — Quyền sở hữu công nghiệp: patent, utility model, design, trademark…\n工業所有権 ≈ 産業財産権: sáng chế, kiểu dáng, nhãn hiệu… (khác 著作権 bản quyền tác giả).\n\n❌ Các đáp án khác\nB quyền bầu cử. C quyền nuôi con. D chỉ bản quyền — không đủ/không đúng tên.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -727,7 +727,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Bluetooth phổ biến trên các thiết bị đó.",
+      "explanation": "📝 Dịch câu hỏi\nChuẩn truyền thông gắn trên điện thoại, PC, định vị xe, chuột, bàn phím, tai nghe… là gì?\n\n✅ Đáp án: A — Bluetooth\nBluetooth phổ biến không dây tầm ngắn trên đúng các thiết bị liệt kê.\n\n❌ Các đáp án khác\nB HDMI (cáp AV). C VGA (màn hình). D RS-232 (serial cổ) — không «gắn sẵn» kiểu đó trên mọi thiết bị trên.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -746,7 +746,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "CPU: central processing — tính toán & điều khiển.",
+      "explanation": "📝 Dịch câu hỏi\nVề CPU, câu nào đúng?\n\n✅ Đáp án: A — Bộ xử lý trung tâm: thực hiện tính toán và điều khiển\nCPU = Central Processing Unit: ALU + control, «bộ não» máy tính.\n\n❌ Các đáp án khác\nB bộ nhớ ngoài (HDD/SSD). C thiết bị nhập. D hệ điều hành.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -765,7 +765,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Sai: không bắt buộc raw waveform; có MIDI/nén.",
+      "explanation": "📝 Dịch câu hỏi\nVề nhạc chuông (着信メロディ), hãy chọn câu SAI.\n\n✅ Đáp án: A — «Chỉ được phân phối dạng sóng thô không nén» (SAI)\nNhạc chuông có thể MIDI, âm thanh nén (AAC, MP3…), không bắt buộc raw waveform. → A sai.\n\n❌ Các đáp án khác\nB/C/D đúng thực tế.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -784,7 +784,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Long tail: nhiều mặt hàng niche cộng lại tạo doanh thu.",
+      "explanation": "📝 Dịch câu hỏi\nGiải thích kinh doanh Internet theo tư duy long tail, câu nào phù hợp?\n\n✅ Đáp án: A — Không chỉ vài hit; nhiều mặt hàng niche số lượng ít cũng góp doanh thu\nLong tail: đuôi dài — rất nhiều sản phẩm bán ít, cộng lại đáng kể (Amazon, iTunes…). Web giảm chi phí kệ hàng.\n\n❌ Các đáp án khác\nB chỉ hit = ngược long tail. C mở rộng cửa vật lý không bắt buộc. D zero inventory không phải định nghĩa duy nhất.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -803,7 +803,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Sai: tiếng Nhật không gói trọn trong ASCII 7-bit.",
+      "explanation": "📝 Dịch câu hỏi\nVề mã hóa tiếng Nhật, hãy chọn câu SAI.\n\n✅ Đáp án: A — «Chỉ ASCII 7-bit là đủ biểu diễn hết tiếng Nhật» (SAI)\nASCII chỉ Latin cơ bản. Tiếng Nhật cần Shift_JIS, EUC-JP, UTF-8/Unicode… → A sai.\n\n❌ Các đáp án khác\nB/C/D đúng.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -822,7 +822,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Sự cố máy tính: hỏng hóc, lỗi, sự cố bảo mật…",
+      "explanation": "📝 Dịch câu hỏi\n«Tai nạn/sự cố» máy tính có thể gặp là gì?\n\n✅ Đáp án: A — Sự cố, hỏng hóc, sự cố bảo mật…\nTrong ngữ cảnh IT: 事故/障害 = incident, failure, security breach…\n\n❌ Các đáp án khác\nB/C/D là trạng thái/hành vi bình thường, không gọi là tai nạn.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -841,7 +841,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "High-level: gần ngôn ngữ người, dễ viết.",
+      "explanation": "📝 Dịch câu hỏi\nVề ngôn ngữ cấp cao, câu nào đúng?\n\n✅ Đáp án: A — Viết chương trình bằng ngữ pháp dễ người hiểu\nHigh-level (Python, Java, C…): gần ngôn ngữ người, cần biên dịch/phiên dịch ra máy.\n\n❌ Các đáp án khác\nB/C là machine/assembly (cấp thấp). D high-level viết GUI rất tốt.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -860,7 +860,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "OS: quản lý process, memory, file, I/O…",
+      "explanation": "📝 Dịch câu hỏi\nChức năng của OS là gì?\n\n✅ Đáp án: A — Quản lý process, bộ nhớ, file, vào/ra…\nCác chức năng cốt lõi OS: process/CPU scheduling, memory, file system, I/O, UI…\n\n❌ Các đáp án khác\nB/C/D không phải vai trò phần mềm OS.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -879,7 +879,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Internet: mạng máy tính toàn cầu.",
+      "explanation": "📝 Dịch câu hỏi\nVề Internet, câu nào đúng?\n\n✅ Đáp án: A — Mạng máy tính quy mô toàn cầu\nInternet = mạng các mạng toàn thế giới (TCP/IP).\n\n❌ Các đáp án khác\nB bus trong 1 PC. C LAN một công ty. D model máy in.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -898,7 +898,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Quy trình giao dịch: ngoài thanh toán còn catalog, giao hàng, R&D…",
+      "explanation": "📝 Dịch câu hỏi\n«Quy trình giao dịch gồm cả giới thiệu hàng, giao hàng, thậm chí phát triển sản phẩm — ngoài ( ).»\n\n✅ Đáp án: A — Thanh toán (決済)\nTransaction process rộng hơn chỉ trả tiền: catalog, logistics, R&D… Chỗ trống = thanh toán (phần «ngoài ra còn…»).\n\n❌ Các đáp án khác\nB/C/D chi tiết giao diện, không thuộc quy trình giao dịch thương mại.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -917,7 +917,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Sai: không được mở tùy tiện file đính kèm lạ.",
+      "explanation": "📝 Dịch câu hỏi\nVề lưu ý khi dùng email, câu nào SAI?\n\n✅ Đáp án: A — «File đính kèm lạ cứ mở thoải mái» (SAI)\nKhông được mở tùy tiện attachment lạ (malware). Phải cẩn phishing, PII, link lạ. → A là câu sai cần chọn.\n\n❌ Các đáp án khác\nB/C/D là lời khuyên đúng.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -936,7 +936,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Phim điện ảnh cổ điển ~24 fps.",
+      "explanation": "📝 Dịch câu hỏi\nPhim điện ảnh mỗi giây «vẽ lại» bao nhiêu lần (frame)?\n\n✅ Đáp án: A — Khoảng 24 frame/giây (24 fps)\nChuẩn điện ảnh cổ điển ~24 fps. (TV hay 30/60; ở đây theo giáo trình phim ≈ 24.)\n\n❌ Các đáp án khác\nB quá ít. C 1000 không chuẩn phim. D 0 = không chuyển động.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -955,7 +955,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Sắp xếp kết quả chiếu: sort / ORDER BY.",
+      "explanation": "📝 Dịch câu hỏi\n«Để sắp xếp kết quả phép chiếu (projection), dùng từ ( ).»\n\n✅ Đáp án: A — Sort / ORDER BY\nTrong quan hệ/SQL: chiếu (SELECT cột) xong sắp xếp = SORT / ORDER BY.\n\n❌ Các đáp án khác\nB join = nối bảng. C xóa index. D DROP = xóa đối tượng DB.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -974,7 +974,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "共通鍵 = symmetric encryption, cùng khóa mã/giải.",
+      "explanation": "📝 Dịch câu hỏi\nVề «cách thức chung / 共通方式» (mật mã khóa đối xứng), câu nào đúng?\n\n✅ Đáp án: A — Mã hóa và giải mã dùng cùng một khóa (共通鍵)\n共通鍵暗号 = symmetric: cùng secret key hai chiều (AES, DES…). Khác 公開鍵 (cặp public/private).\n\n❌ Các đáp án khác\nB nhầm với mô tả sai public-key. C không khóa thì không phải mật mã khóa. D nén.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -993,7 +993,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Sắp xếp tăng/giảm = sort.",
+      "explanation": "📝 Dịch câu hỏi\n«Sắp xếp dữ liệu từ nhỏ→lớn hoặc ngược lại» gọi là gì?\n\n✅ Đáp án: A — Sort / 整列 (sắp xếp)\nĐúng định nghĩa sorting (ascending/descending).\n\n❌ Các đáp án khác\nB hash collision. C chuẩn hóa DB. D deadlock.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -1012,7 +1012,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Cookie: dữ liệu nhỏ server gửi browser để quản lý trạng thái.",
+      "explanation": "📝 Dịch câu hỏi\nVề cookie, tổ hợp mô tả đúng là gì? (dạng chọn tổ hợp a–c trên đề gốc)\n\n✅ Đáp án: A — Dữ liệu nhỏ server cho browser lưu, dùng quản lý trạng thái…\nCookie: server gửi → browser lưu → gửi lại request sau (session, login, tracking…). Không phải virus bắt buộc, không phải cảm biến/CPU/kernel.\n\n❌ Các đáp án khác\nB/C/D sai hoàn toàn.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -1031,7 +1031,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Thiết bị tính toán = 計算機.",
+      "explanation": "📝 Dịch câu hỏi\n【Thuật ngữ】Dịch sang tiếng Nhật: Thiết bị tính toán\n\n✅ Đáp án: A — 計算機 / コンピュータ\nThiết bị tính toán = computer = 計算機（コンピュータ）.\n\n❌ Các đáp án khác\nB máy in. C loa. D chuột.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -1050,7 +1050,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Folder/directory chứa file.",
+      "explanation": "📝 Dịch câu hỏi\nFolder là gì?\n\n✅ Đáp án: A — «Hộp» chứa/sắp xếp file (directory)\nFolder = thư mục: tổ chức file trên đĩa.\n\n❌ Các đáp án khác\nB thanh ghi. C PSU. D độ phân giải.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -1069,7 +1069,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Chỗ trống: 家電 / 情報家電.",
+      "explanation": "📝 Dịch câu hỏi\n«Thiết bị điện tử gồm máy tính, điện thoại, ( ) … audio xách tay, máy game và nhiều đồ gia dụng; mạng vẫn phát triển.»\n\n✅ Đáp án: A — Đồ điện tử thông tin / đồ gia dụng (情報家電・家電)\nNgữ cảnh liệt kê thiết bị số & gia dụng → chỗ trống là thông tin–gia dụng (情報家電).\n\n❌ Các đáp án khác\nB nhiên liệu hóa thạch. C bia đá. D da cừu — không khớp câu.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -1088,7 +1088,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "網的表現: mô hình mạng (network data model).",
+      "explanation": "📝 Dịch câu hỏi\nVề biểu diễn kiểu lưới/mạng (網的表現), câu nào đúng?\n\n✅ Đáp án: A — Biểu diễn quan hệ dạng lưới, ví dụ mô hình dữ liệu network\n網的 = dạng mạng (nhiều liên kết chéo), khác cây (một cha). Network data model là ví dụ.\n\n❌ Các đáp án khác\nB chỉ cây = hierarchical. C chỉ 1-1 quá hẹp. D độ phân giải ảnh.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -1107,7 +1107,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Output HW: màn hình, máy in…",
+      "explanation": "📝 Dịch câu hỏi\nPhần cứng xuất (output) là gì?\n\n✅ Đáp án: A — Màn hình, máy in…\nOutput: display, printer, speaker… Đưa thông tin ra ngoài cho người.\n\n❌ Các đáp án khác\nB/C/D đều là input (nhập).",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -1126,7 +1126,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Ngoài hiệu năng: khả năng bảo trì, đọc hiểu, mở rộng.",
+      "explanation": "📝 Dịch câu hỏi\nKhi viết chương trình mới, ngoài xử lý nội bộ hiệu quả, yếu tố quan trọng cần cân nhắc là gì?\n\n✅ Đáp án: A — Khả năng bảo trì · dễ đọc · dễ mở rộng\nCode tốt: không chỉ chạy nhanh mà còn maintainability, readability, extensibility (sửa, đọc, thêm tính năng sau này).\n\n❌ Các đáp án khác\nB cố tình làm khó đọc. C không tài liệu. D bỏ test — đều là thói xấu.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
@@ -1145,7 +1145,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
       "alt": null,
-      "explanation": "Nén video thường dùng MPEG (và họ codec liên quan).",
+      "explanation": "📝 Dịch câu hỏi\nKhi nén thông tin ảnh động (video), người ta thường dùng gì?\n\n✅ Đáp án: A — Các chuẩn nén video như MPEG…\nVideo: MPEG-2/4, H.264/AVC, H.265… (họ MPEG/codec động). Không bắt buộc raw.\n\n❌ Các đáp án khác\nB raw không nén. C WAV là audio. D CSV là text bảng.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE"
     },
