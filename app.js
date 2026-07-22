@@ -3,7 +3,7 @@
   "use strict";
 
   /** Bump on every bank deploy so Safari/iPad cannot reuse stale JSON (GH Pages max-age=600). */
-  const DATA_VER = "20260722a";
+  const DATA_VER = "20260722b";
   const THEME_KEY = "fe_learn_theme_v1";
 
   const SUBJECTS = {
@@ -160,8 +160,9 @@
   }
 
   function setSyncId(id) {
+    const clean = id ? normalizeSyncId(id) : "";
     try {
-      if (id) localStorage.setItem(SYNC_ID_KEY, id);
+      if (clean) localStorage.setItem(SYNC_ID_KEY, clean);
       else localStorage.removeItem(SYNC_ID_KEY);
     } catch {
       /* ignore */
@@ -371,7 +372,51 @@
     return `${SYNC_API}/${encodeURIComponent(id)}`;
   }
 
-  async function syncCreate({ fromRetry = false } = {}) {
+  /** Accept raw id, full jsonblob URL, or ?sync= link. */
+  function normalizeSyncId(raw) {
+    let s = String(raw || "").trim();
+    if (!s) return "";
+    // full page URL with ?sync=
+    try {
+      if (/^https?:\/\//i.test(s)) {
+        const u = new URL(s);
+        const q = (u.searchParams.get("sync") || "").trim();
+        if (q) s = q;
+        else {
+          const path = u.pathname || "";
+          const m = path.match(/jsonBlob\/([^/?#]+)/i) || path.match(/\/([0-9a-f-]{20,})\/?$/i);
+          if (m) s = m[1];
+        }
+      }
+    } catch {
+      /* keep s */
+    }
+    const m2 = s.match(/jsonBlob\/([^/?#]+)/i);
+    if (m2) s = m2[1];
+    s = s.replace(/^#+/, "").trim();
+    return s;
+  }
+
+  function extractBlobIdFromResponse(res) {
+    const hdr =
+      res.headers.get("X-jsonblob-id") ||
+      res.headers.get("x-jsonblob-id") ||
+      "";
+    if (hdr && hdr.trim()) return hdr.trim();
+    const loc = res.headers.get("Location") || res.headers.get("location") || "";
+    const m = loc.match(/jsonBlob\/([^/?#]+)/i);
+    if (m) return m[1];
+    // relative Location: /api/jsonBlob/<id>
+    const m2 = loc.match(/\/([0-9a-f]{8}-[0-9a-f-]{20,})\/?$/i);
+    if (m2) return m2[1];
+    return "";
+  }
+
+  /**
+   * POST a new blob. Caller must not hold syncBusy (we set it).
+   * @returns {Promise<string|null>} new id
+   */
+  async function syncCreate({ fromRetry = false, replaceExpired = false } = {}) {
     if (syncBusy) {
       syncDirty = true;
       return null;
@@ -383,7 +428,10 @@
       return null;
     }
     syncBusy = true;
-    setSyncStatus("Đang tạo mã đồng bộ…", "busy");
+    setSyncStatus(
+      replaceExpired ? "Mã cũ hết hạn — đang tạo mã mới và đẩy tiến độ…" : "Đang tạo mã đồng bộ…",
+      "busy"
+    );
     try {
       const body = JSON.stringify(collectSyncState());
       const res = await fetch(SYNC_API, {
@@ -409,11 +457,7 @@
       }
       if (!res.ok) throw new Error("HTTP " + res.status);
       noteWriteSuccess();
-      // Location: https://jsonblob.com/api/jsonBlob/<id>
-      const loc = res.headers.get("Location") || res.headers.get("location") || "";
-      let id = "";
-      const m = loc.match(/jsonBlob\/([^/?#]+)/i);
-      if (m) id = m[1];
+      let id = extractBlobIdFromResponse(res);
       if (!id) {
         try {
           const j = await res.json();
@@ -425,8 +469,21 @@
       if (!id) throw new Error("Không nhận được mã từ máy chủ đồng bộ");
       setSyncId(id);
       syncDirty = false;
+      const exp = res.headers.get("X-jsonblob-expires-at") || "";
+      let expNote = "";
+      if (exp) {
+        try {
+          expNote = " · mã free hết hạn ~" + new Date(exp).toLocaleString("vi-VN");
+        } catch {
+          /* ignore */
+        }
+      } else {
+        expNote = " · lưu ý: mã free JSONBlob thường hết hạn sau ~1 ngày";
+      }
       setSyncStatus(
-        "Đã tạo mã. Copy mã/link sang máy kia rồi bấm «Kéo về». (Đẩy tay, tránh spam để khỏi 429)",
+        (replaceExpired
+          ? "Mã cũ đã mất — đã tạo mã MỚI và lưu tiến độ. Copy mã/link sang máy kia rồi «Kéo về»."
+          : "Đã tạo mã + lưu tiến độ. Copy mã/link sang máy kia rồi «Kéo về».") + expNote,
         "ok"
       );
       updateSyncUi();
@@ -451,7 +508,9 @@
    */
   async function syncPush(opts = {}) {
     const manual = !!opts.manual;
-    let id = getSyncId() || (document.getElementById("syncCodeInput")?.value || "").trim();
+    let id = normalizeSyncId(
+      getSyncId() || (document.getElementById("syncCodeInput")?.value || "")
+    );
     if (!id) {
       await syncCreate({ fromRetry: !!opts.fromRetry });
       return;
@@ -498,6 +557,23 @@
         }
         return;
       }
+      // Free blobs expire (~24h). Recreate + re-upload so push still works.
+      if (res.status === 404) {
+        setSyncId(""); // drop dead id
+        syncBusy = false;
+        noteWriteSuccess(); // allow immediate POST (404 is not a rate limit)
+        // small gap only if we just wrote; 404 means no successful write
+        lastSyncWriteAt = 0;
+        const newId = await syncCreate({ replaceExpired: true });
+        if (!newId) {
+          syncDirty = true;
+          setSyncStatus(
+            "Mã cũ hết hạn (404) và tạo mã mới thất bại. Bấm «Tạo mã» hoặc Xuất JSON.",
+            "err"
+          );
+        }
+        return;
+      }
       if (!res.ok) throw new Error("HTTP " + res.status);
       noteWriteSuccess();
       syncDirty = false;
@@ -514,15 +590,21 @@
           return;
         }
       }
+      if (/404/.test(msg)) {
+        setSyncId("");
+        syncBusy = false;
+        lastSyncWriteAt = 0;
+        await syncCreate({ replaceExpired: true });
+        return;
+      }
       setSyncStatus("Đẩy lên thất bại: " + msg + " — thử lại sau hoặc Xuất JSON.", "err");
     } finally {
-      syncBusy = false;
-      // if more edits arrived while busy, schedule another safe push
+      // if we already released busy for 404→create path, skip double-finally side effects carefully
+      if (syncBusy) syncBusy = false;
       if (syncDirty && !syncRetryTimer) {
         const cool = msUntilWriteAllowed();
         if (cool > 0) scheduleWriteRetry(cool, "Còn thay đổi chưa đẩy");
         else if (isSyncAuto() || manual) {
-          // small gap so we never double-fire instantly
           scheduleWriteRetry(SYNC_MIN_WRITE_MS, "Đẩy phần còn lại");
         }
       }
@@ -530,7 +612,9 @@
   }
 
   async function syncPull({ silent = false, thenLoadSubject = true } = {}) {
-    let id = (document.getElementById("syncCodeInput")?.value || "").trim() || getSyncId();
+    let id = normalizeSyncId(
+      (document.getElementById("syncCodeInput")?.value || "") || getSyncId()
+    );
     if (!id) {
       if (!silent) setSyncStatus("Nhập hoặc tạo mã đồng bộ trước.", "err");
       return false;
@@ -551,6 +635,15 @@
         if (!silent) {
           setSyncStatus(
             "Kéo về bị chặn tạm (429). Đợi ~20s rồi bấm «Kéo về» lại.",
+            "err"
+          );
+        }
+        return false;
+      }
+      if (res.status === 404) {
+        if (!silent) {
+          setSyncStatus(
+            "Mã không tồn tại / đã hết hạn (~1 ngày với free). Trên máy có tiến độ: bấm «Tạo mã» hoặc «Đẩy lên» để lấy mã mới, rồi gửi sang máy này.",
             "err"
           );
         }
