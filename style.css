@@ -590,7 +590,7 @@ html.dark .source-filters .chip-zip {
 }
 
 .card-feedback {
-  margin-top: 14px;
+  margin-top: 12px;
   padding: 10px 12px;
   border-radius: 9px;
   font-size: 0.92rem;
@@ -667,12 +667,31 @@ html.dark .source-filters .chip-zip {
   color: var(--muted);
 }
 
-/* Controls */
-.controls {
+/* Nav ngay sau đáp án — feedback/giải thích nằm dưới, không che nút Tiếp */
+.card-nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 8px;
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+  position: sticky;
+  bottom: 8px;
+  z-index: 15;
+  background: var(--card);
+  /* soft edge when sticky over content */
+  box-shadow: 0 -10px 16px -8px rgba(15, 23, 42, 0.08);
+  border-radius: 0 0 8px 8px;
+}
+
+html.dark .card-nav {
+  box-shadow: 0 -10px 16px -8px rgba(0, 0, 0, 0.4);
+}
+
+.card-nav #btnNext {
+  min-width: 7.5rem;
+  font-weight: 700;
 }
 
 #btnStar.starred {
@@ -1040,7 +1059,7 @@ html.dark .source-filters .chip-zip {
     align-items: stretch;
   }
 
-  .controls .btn {
+  .card-nav .btn {
     flex: 1 1 auto;
   }
 }

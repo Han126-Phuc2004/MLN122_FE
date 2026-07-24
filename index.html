@@ -23,7 +23,7 @@
       } catch (e) {}
     })();
   </script>
-  <link rel="stylesheet" href="style.css?v=20260724i" />
+  <link rel="stylesheet" href="style.css?v=20260724j" />
 </head>
 <body>
   <div class="app">
@@ -94,19 +94,19 @@
           <p class="card-choose" id="cardChoose"></p>
           <h1 class="card-question" id="cardQuestion">Đang tải…</h1>
           <div class="card-options" id="cardOptions"></div>
+          <!-- Nav ngay sau đáp án: không phải lướt qua feedback/giải thích mới bấm Tiếp -->
+          <div class="card-nav" id="cardNav">
+            <button type="button" class="btn" id="btnPrev">← Trước</button>
+            <button type="button" class="btn" id="btnStar" title="Đánh dấu">☆</button>
+            <button type="button" class="btn" id="btnCheck" hidden aria-hidden="true">Kiểm tra</button>
+            <button type="button" class="btn" id="btnReveal">Hiện ĐA</button>
+            <button type="button" class="btn primary" id="btnNext">Tiếp →</button>
+          </div>
           <div class="card-feedback" id="cardFeedback" hidden></div>
           <div class="card-explain" id="cardExplain" hidden></div>
           <div class="card-note" id="cardNote" hidden></div>
           <div class="card-alt" id="cardAlt" hidden></div>
         </article>
-
-        <footer class="controls">
-          <button type="button" class="btn" id="btnPrev">← Trước</button>
-          <button type="button" class="btn" id="btnStar" title="Đánh dấu">☆</button>
-          <button type="button" class="btn" id="btnCheck" hidden aria-hidden="true">Kiểm tra</button>
-          <button type="button" class="btn" id="btnReveal">Hiện ĐA</button>
-          <button type="button" class="btn primary" id="btnNext">Tiếp →</button>
-        </footer>
       </main>
 
       <aside class="side-map" aria-label="Bản đồ câu">
@@ -188,6 +188,6 @@
     </div>
   </div>
 
-  <script src="app.js?v=20260724i"></script>
+  <script src="app.js?v=20260724j"></script>
 </body>
 </html>
