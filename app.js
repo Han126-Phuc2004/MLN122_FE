@@ -3,7 +3,7 @@
   "use strict";
 
   /** Bump on every bank deploy so Safari/iPad cannot reuse stale JSON (GH Pages max-age=600). */
-  const DATA_VER = "20260724c";
+  const DATA_VER = "20260724d";
   const THEME_KEY = "fe_learn_theme_v1";
 
   const SUBJECTS = {
@@ -981,18 +981,13 @@
     return true;
   }
 
+  /** Only items tagged from albazzz Quiz PT (task=pt, 109 câu) — not loose note match. */
   function isQuizPt(q) {
     if (!q) return false;
     const sets = q.sets;
     if (Array.isArray(sets) && sets.includes("quiz_pt")) return true;
     if (q.source === "quiz_pt") return true;
-    const exam = String(q.exam || "");
-    if (exam.includes("QUIZ_PT") || exam.includes("ALBAZZZ_PT")) return true;
-    // note field used by import: "Quiz PT — albazzz..." or "Bank pt ·"
-    const note = String(q.note || "").toLowerCase();
-    if (note.includes("quiz pt") || /\bbank pt\b/.test(note) || note.includes("bank pt"))
-      return true;
-    return false;
+    return String(q.exam || "").includes("QUIZ_PT");
   }
 
   function isExamSource(q) {
