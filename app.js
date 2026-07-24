@@ -3,7 +3,7 @@
   "use strict";
 
   /** Bump on every bank deploy so Safari/iPad cannot reuse stale JSON (GH Pages max-age=600). */
-  const DATA_VER = "20260724d";
+  const DATA_VER = "20260724e";
   const THEME_KEY = "fe_learn_theme_v1";
 
   const SUBJECTS = {
@@ -990,27 +990,40 @@
     return String(q.exam || "").includes("QUIZ_PT");
   }
 
+  /** Photos zip 240 (unique stems tagged zip240). */
+  function isZip240(q) {
+    if (!q) return false;
+    const sets = q.sets;
+    if (Array.isArray(sets) && sets.includes("zip240")) return true;
+    if (q.source === "zip240") return true;
+    return String(q.exam || "").includes("ZIP240");
+  }
+
   function isExamSource(q) {
     const src = q.source || "";
     const exam = String(q.exam || "");
-    if (src === "slides" || src === "books" || src === "albazzz" || src === "quiz_pt")
+    if (
+      src === "slides" ||
+      src === "books" ||
+      src === "albazzz" ||
+      src === "quiz_pt" ||
+      src === "zip240"
+    )
       return false;
     if (
       exam.includes("SLIDES") ||
       exam.includes("BOOK_") ||
       exam.includes("ALBAZZZ") ||
-      exam.includes("QUIZ_PT")
+      exam.includes("QUIZ_PT") ||
+      exam.includes("ZIP240")
     )
       return false;
     return true;
   }
 
   function isSlideSource(q) {
-    // Slide / textbook bank only — Quiz PT has its own column
-    if (isQuizPt(q) && (q.source === "quiz_pt" || String(q.exam || "").includes("QUIZ_PT"))) {
-      // pure Quiz PT items (not dual-tagged slides) stay out of slide column
-      if (q.source === "quiz_pt") return false;
-    }
+    // Slide / textbook bank only — Quiz PT / Zip240 have own columns
+    if (q.source === "quiz_pt" || q.source === "zip240") return false;
     const src = q.source || "";
     const exam = String(q.exam || "");
     return (
@@ -1026,6 +1039,7 @@
   function matchesSourceFilter(q) {
     if (sourceFilter === "all") return true;
     if (sourceFilter === "quiz_pt") return isQuizPt(q);
+    if (sourceFilter === "zip240") return isZip240(q);
     if (sourceFilter === "exam") return isExamSource(q);
     if (sourceFilter === "slides") return isSlideSource(q);
     return true;
@@ -1678,15 +1692,22 @@
     const ptChip =
       document.getElementById("chipQuizPt") ||
       el.querySelector('[data-source="quiz_pt"]');
+    const zipChip =
+      document.getElementById("chipZip240") ||
+      el.querySelector('[data-source="zip240"]');
     const bank = Array.isArray(all) ? all : [];
 
     const nAll = bank.length;
     const nExam = bank.filter((q) => isExamSource(q)).length;
     const nSlide = bank.filter((q) => isSlideSource(q)).length;
     let nPt = bank.filter((q) => isQuizPt(q)).length;
+    let nZip = bank.filter((q) => isZip240(q)).length;
     // fallback: breakdown from JSON if sets field missing (old cache)
     if (!nPt && data && data.breakdown && data.breakdown.quiz_pt) {
       nPt = Number(data.breakdown.quiz_pt) || 0;
+    }
+    if (!nZip && data && data.breakdown && data.breakdown.zip240) {
+      nZip = Number(data.breakdown.zip240) || 0;
     }
 
     if (allChip) {
@@ -1713,7 +1734,7 @@
       }
     }
 
-    // Quiz PT column — always visible for JIT401 (full-width source bar)
+    // Quiz PT + Zip240 columns — JIT401 only
     if (ptChip) {
       const showPt = subjectId === "jit401";
       ptChip.hidden = !showPt;
@@ -1723,6 +1744,24 @@
         ptChip.setAttribute("title", nPt > 0 ? `${nPt} câu Quiz PT` : "Quiz PT JIT401");
       }
       if (!showPt && sourceFilter === "quiz_pt") {
+        sourceFilter = "all";
+        el.querySelectorAll(".chip[data-source]").forEach((c) => {
+          c.classList.toggle("active", c.dataset.source === "all");
+        });
+      }
+    }
+    if (zipChip) {
+      const showZip = subjectId === "jit401";
+      zipChip.hidden = !showZip;
+      zipChip.style.display = showZip ? "" : "none";
+      if (showZip) {
+        zipChip.textContent = nZip > 0 ? `Zip 240 (${nZip})` : "Zip 240";
+        zipChip.setAttribute(
+          "title",
+          nZip > 0 ? `${nZip} câu unique từ 240 ảnh zip` : "Ảnh zip 240"
+        );
+      }
+      if (!showZip && sourceFilter === "zip240") {
         sourceFilter = "all";
         el.querySelectorAll(".chip[data-source]").forEach((c) => {
           c.classList.toggle("active", c.dataset.source === "all");

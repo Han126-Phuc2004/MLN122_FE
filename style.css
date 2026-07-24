@@ -386,6 +386,28 @@ html.dark .source-filters .chip-pt {
   color: #fff;
 }
 
+/* Zip 240 column — amber */
+.source-filters .chip-zip {
+  border-color: #f59e0b;
+  color: #b45309;
+  font-weight: 700;
+}
+
+html.dark .source-filters .chip-zip {
+  border-color: #fbbf24;
+  color: #fcd34d;
+}
+
+.source-filters .chip-zip:not(.active):hover {
+  background: rgba(245, 158, 11, 0.12);
+}
+
+.source-filters .chip-zip.active {
+  background: #d97706;
+  border-color: #d97706;
+  color: #fff;
+}
+
 /* Buttons */
 .btn {
   border: 1px solid var(--line);

@@ -1,13 +1,14 @@
 {
-  "title": "JIT401 – FE + slide + Quiz PT (627 câu)",
+  "title": "JIT401 – FE + slide + Quiz PT + Zip240 (753 câu)",
   "code": "JIT401_ALL",
   "subject": "JIT401",
-  "total": 627,
+  "total": 753,
   "breakdown": {
     "FE": 60,
     "slides": 562,
     "albazzz": 1,
-    "quiz_pt": 109
+    "quiz_pt": 109,
+    "zip240": 183
   },
   "questions": [
     {
@@ -141,7 +142,10 @@
       "alt": null,
       "explanation": "📝 Dịch câu hỏi\nĐể xử lý lượng dữ liệu lớn, điều gì quan trọng?\n\n✅ Đáp án: A — Quản lý cơ sở dữ liệu (DBMS)\nDữ liệu lớn cần tổ chức, truy vấn, bảo vệ, đồng thời… → hệ quản trị CSDL (database management), không thể chỉ ghi tay hay sổ giấy.\n\n❌ Các đáp án khác\nB/C/D đều thủ công hoặc quá hạn chế, không đủ cho big data / dữ liệu nghiệp vụ lớn.",
       "source": "fuexam",
-      "exam": "JIT401_SP26_FE"
+      "exam": "JIT401_SP26_FE",
+      "sets": [
+        "zip240"
+      ]
     },
     {
       "id": 8,
@@ -388,7 +392,10 @@
       "alt": null,
       "explanation": "📝 Dịch câu hỏi\nLệnh MIDI có lượng dữ liệu khoảng bao nhiêu bit/byte?\n\n✅ Đáp án: A — Thường message khoảng 1–3 byte\nMIDI gửi lệnh nhạc (note on/off…) rất nhỏ: status + data, thường 1–3 byte, không phải gigabit.\n\n❌ Các đáp án khác\nB/C quá lớn/cố định sai. D 0 bit vô nghĩa.",
       "source": "fuexam",
-      "exam": "JIT401_SP26_FE"
+      "exam": "JIT401_SP26_FE",
+      "sets": [
+        "zip240"
+      ]
     },
     {
       "id": 21,
@@ -654,7 +661,10 @@
       "alt": null,
       "explanation": "📝 Dịch câu hỏi\nVề OS trên PC, mô tả nào thích hợp?\n\n✅ Đáp án: A — Trung gian HW–ứng dụng và quản lý tài nguyên\nOS = hệ điều hành: quản lý CPU/RAM/file/I/O, cho app chạy trên phần cứng.\n\n❌ Các đáp án khác\nB/C/D nhầm OS với thiết bị hay thông số phần cứng.",
       "source": "fuexam",
-      "exam": "JIT401_SP26_FE"
+      "exam": "JIT401_SP26_FE",
+      "sets": [
+        "zip240"
+      ]
     },
     {
       "id": 35,
@@ -673,7 +683,10 @@
       "alt": null,
       "explanation": "📝 Dịch câu hỏi\nDữ liệu máy tính là dãy số biểu diễn bằng gì?\n\n✅ Đáp án: A — 0 và 1 (bit)\nMáy tính số dùng hệ nhị phân: mọi dữ liệu quy về bit 0/1.\n\n❌ Các đáp án khác\nB thập phân là cách người đọc. C/D không đủ biểu diễn mọi dữ liệu.",
       "source": "fuexam",
-      "exam": "JIT401_SP26_FE"
+      "exam": "JIT401_SP26_FE",
+      "sets": [
+        "zip240"
+      ]
     },
     {
       "id": 36,
@@ -806,7 +819,10 @@
       "alt": null,
       "explanation": "📝 Dịch câu hỏi\nVề mã hóa tiếng Nhật, hãy chọn câu SAI.\n\n✅ Đáp án: A — «Chỉ ASCII 7-bit là đủ biểu diễn hết tiếng Nhật» (SAI)\nASCII chỉ Latin cơ bản. Tiếng Nhật cần Shift_JIS, EUC-JP, UTF-8/Unicode… → A sai.\n\n❌ Các đáp án khác\nB/C/D đúng.",
       "source": "fuexam",
-      "exam": "JIT401_SP26_FE"
+      "exam": "JIT401_SP26_FE",
+      "sets": [
+        "zip240"
+      ]
     },
     {
       "id": 43,
@@ -844,7 +860,10 @@
       "alt": null,
       "explanation": "📝 Dịch câu hỏi\nVề ngôn ngữ cấp cao, câu nào đúng?\n\n✅ Đáp án: A — Viết chương trình bằng ngữ pháp dễ người hiểu\nHigh-level (Python, Java, C…): gần ngôn ngữ người, cần biên dịch/phiên dịch ra máy.\n\n❌ Các đáp án khác\nB/C là machine/assembly (cấp thấp). D high-level viết GUI rất tốt.",
       "source": "fuexam",
-      "exam": "JIT401_SP26_FE"
+      "exam": "JIT401_SP26_FE",
+      "sets": [
+        "zip240"
+      ]
     },
     {
       "id": 45,
@@ -1851,7 +1870,10 @@
       "alt": null,
       "explanation": "📝 Dịch câu hỏi\nHãy chọn phát biểu ĐÚNG.\n\n✅ Đáp án: B — 赤外線を使った通信規格で、遮蔽物があると通信できない = Nó là một tiêu chuẩn giao tiếp sử dụng tia hồng ngoại, và nó không thể giao tiếp nếu có một lá chắn.\nIrDA là một tiêu chuẩn liên lạc sử dụng tia hồng ngoại và không thể liên lạc nếu có tấm chắn giữa máy phát và máy thu (§4.2).\n\n❌ Các đáp án khác\nA: Tiêu chuẩn liên lạc bằng sóng vô tuyến — không khớp định nghĩa/yêu cầu câu hỏi.\nC: Tốc độ giao tiếp chuẩn 54Mbps — không khớp định nghĩa/yêu cầu câu hỏi.\nD: Nó có thể giao tiếp trong phạm vi từ 10m trở lên — không khớp định nghĩa/yêu cầu câu hỏi.",
       "source": "slides",
-      "exam": "JIT401_SLIDES_M5"
+      "exam": "JIT401_SLIDES_M5",
+      "sets": [
+        "zip240"
+      ]
     },
     {
       "id": 98,
@@ -3623,7 +3645,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH13",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -3667,7 +3690,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH13",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -3689,7 +3713,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH3",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -3711,7 +3736,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH12",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -3755,7 +3781,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH3",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -3799,7 +3826,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH13",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -3821,7 +3849,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH3",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -3887,7 +3916,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH13",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -3953,7 +3983,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH18",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -4019,7 +4050,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH5",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -4063,7 +4095,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH3",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -4129,7 +4162,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH2",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -4195,7 +4229,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH8",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -4217,7 +4252,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_M4",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -4283,7 +4319,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -4305,7 +4342,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH14",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -4371,7 +4409,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH12",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -4481,7 +4520,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH13",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -4503,7 +4543,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH8",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -4525,7 +4566,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH12",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -4569,7 +4611,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_M4",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -4591,7 +4634,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH3",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -4613,7 +4657,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -4635,7 +4680,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH11",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -4657,7 +4703,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -4679,7 +4726,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH14",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -4701,7 +4749,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH13",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -4723,7 +4772,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_M2",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -4745,7 +4795,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH15",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -4789,7 +4840,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH4",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -4855,7 +4907,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH2",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -4877,7 +4930,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_M4",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -4899,7 +4953,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH11",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -4965,7 +5020,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH3",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -4987,7 +5043,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -5031,7 +5088,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH16",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -5383,7 +5441,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH2",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -5449,7 +5508,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH5",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -5534,7 +5594,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH9",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -5556,7 +5617,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH8",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -5578,7 +5640,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH14",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -5622,7 +5685,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH12",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -5710,7 +5774,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH9",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -5732,7 +5797,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH3",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -5776,7 +5842,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH3",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -5842,7 +5909,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH3",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -5908,7 +5976,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_M2",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -12181,7 +12250,8 @@
       "source": "quiz_pt",
       "exam": "JIT401_QUIZ_PT",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -12225,7 +12295,8 @@
       "source": "quiz_pt",
       "exam": "JIT401_QUIZ_PT",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
       ]
     },
     {
@@ -12247,7 +12318,2776 @@
       "source": "quiz_pt",
       "exam": "JIT401_QUIZ_PT",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "zip240"
+      ]
+    },
+    {
+      "id": 628,
+      "question": "FTTHはADSLと何が違いますか。",
+      "options": {
+        "A": "専用線を利用しない",
+        "B": "専用の光ファイバなのでノイズの影響を受けやすい",
+        "C": "専用の光ファイバなのでノイズの影響を受けにくい",
+        "D": "安定に高速な通信が実現できません"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 1 · img 071",
+      "alt": null,
+      "explanation": "Đáp án theo kiến thức JIT (khớp phương án «光ファイバ»).",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 629,
+      "question": "'%A'の「%」はSQLで何と呼ばれますか。",
+      "options": {
+        "A": "ワイルドカード",
+        "B": "ミドルウェア",
+        "C": "フィールド",
+        "D": "メソッド"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 1 · img 238",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 238 · CÂU HỎI 1",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 630,
+      "question": "MIDI形式の楽曲データにおいて、1拍（四分音符）が4バイト、同時発音数が最大16、テンポが120分である場合、1GBのSDカードに何時間の楽曲を保存できるか。ただし、1Gバイト=10^9バイトとする。",
+      "options": {
+        "A": "約 2,071 時間",
+        "B": "約 828 時間",
+        "C": "約 1,548 時間",
+        "D": "約 1,036 時間"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 2 · img 022",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 022 · CÂU HỎI 2",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 631,
+      "question": "プログラミングにおける四則演算について、正しい説明をしているものはどれですか。",
+      "options": {
+        "A": "括弧（）は演算の優先順位を明示的に変更することができ、括弧内の計算は最も優先して実行される。",
+        "B": "整数同士の除算（例: 7 / 2）を実行した場合、ほとんどのプログラミング言語では、自動的に小数部が丸められた整数（この場合、3）が結果として得られる。",
+        "C": "剰余演算（%）は四則演算には含まれないため、加算（+）や乗算（*）と同じ優先順位では扱われない。",
+        "D": "プログラミングでは、数学と同じで乗算（*）と除算（/）より加算（+）と減算（-）の優先順位が高いため、常に計算順序を意識する必要はない。"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 2 · img 041",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 041 · CÂU HỎI 2",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 632,
+      "question": "Từ \"thiết bị đầu cuối\" trong tiếng Nhật là gì?",
+      "options": {
+        "A": "情報週末",
+        "B": "情報端末",
+        "C": "情報流出",
+        "D": "情報隠蔽"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 3 · img 113",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 113 · CÂU HỎI 3",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 633,
+      "question": "「スケジューリング」はベトナム語で何ですか。",
+      "options": {
+        "A": "chương trình được lập sẵn",
+        "B": "lập lịch trình",
+        "C": "thời khóa biểu",
+        "D": "lập chương trình"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 3 · img 231",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 231 · CÂU HỎI 3",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 634,
+      "question": "動画像では、1つ前の画像との違っている部分だけを記録して情報量を減らす方式を何と言いますか。",
+      "options": {
+        "A": "フーリエ変換",
+        "B": "差分記録",
+        "C": "標本化",
+        "D": "量子化"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 4 · img 018",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nTrong video, phương pháp chỉ ghi phần khác biệt so với khung hình trước để tăng tỷ lệ nén gọi là gì?\n\n✅ Đáp án: B — 差分記録 = Ghi chênh lệch (差分記録)\nTrong hình ảnh video, hầu như không có sự khác biệt giữa khung hình trước và khung hình sau, do đó tốc độ nén được tăng lên bằng cách chỉ ghi các phần khác nhau (được sử dụng trong MPEG).\n\n❌ Các đáp án khác\nA: Nén run-length — không đúng với nội dung câu hỏi.\nC: Biến đổi Fourier — không đúng với nội dung câu hỏi.\nD: Lượng tử hóa — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 635,
+      "question": "「集合演算」はどのように読みますか。",
+      "options": {
+        "A": "しゅうごうえんさん",
+        "B": "しゅうごうえんざん",
+        "C": "しゅごうえんさん",
+        "D": "しゅうごえんざん"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 4 · img 120",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 120 · CÂU HỎI 4",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 636,
+      "question": "「プロキシサーバ」はベトナム語で何ですか。",
+      "options": {
+        "A": "máy chủ trung gian",
+        "B": "máy chủ tên miền",
+        "C": "máy chủ cuối cùng",
+        "D": "máy chủ khách"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 4 · img 130",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nProxy server tiếng Việt là gì?\n\n✅ Đáp án: D — Máy chủ trung gian\nProxy = Tiếp sức/Phó → máy chủ trung gian.\n\n❌ Các đáp án khác\nA: Web server — không đúng với nội dung câu hỏi.\nB: Mail server — không đúng với nội dung câu hỏi.\nC: DNS server — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 637,
+      "question": "動画像では、1つ前の画像との違っている部分だけを記録して圧縮率を高める方法を何といいますか。",
+      "options": {
+        "A": "フーリエ変換",
+        "B": "差分記録",
+        "C": "標本化",
+        "D": "量子化"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 4 · img 210",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nTrong video, phương pháp chỉ ghi phần khác biệt so với khung hình trước để tăng tỷ lệ nén gọi là gì?\n\n✅ Đáp án: B — 差分記録 = Ghi chênh lệch (差分記録)\nTrong hình ảnh video, hầu như không có sự khác biệt giữa khung hình trước và khung hình sau, do đó tốc độ nén được tăng lên bằng cách chỉ ghi các phần khác nhau (được sử dụng trong MPEG).\n\n❌ Các đáp án khác\nA: Nén run-length — không đúng với nội dung câu hỏi.\nC: Biến đổi Fourier — không đúng với nội dung câu hỏi.\nD: Lượng tử hóa — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 638,
+      "question": "JISコードは、日本工業規格 JIS が定めたもので、（　　）を組み合わせて表します。",
+      "options": {
+        "A": "16-8",
+        "B": "32-16",
+        "C": "12-16",
+        "D": "8-12"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 5 · img 013",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nMã JIS biểu diễn số ( ) bit, chia từng cụm ( ) bit.\n\n✅ Đáp án: B — 16 - 8\nMã JIS xử lý 16 bit được chia thành 8 bit mỗi bit.\n\n❌ Các đáp án khác\nA: 8 - 4 — không đúng với nội dung câu hỏi.\nC: 32 - 16 — không đúng với nội dung câu hỏi.\nD: 16 - 4 — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 639,
+      "question": "JISコードは、日本工業規格 JIS が定めたもので、（　　）を使って表します。",
+      "options": {
+        "A": "16-8",
+        "B": "32-16",
+        "C": "12-16",
+        "D": "8-12"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 5 · img 038",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nMã JIS biểu diễn số ( ) bit, chia từng cụm ( ) bit.\n\n✅ Đáp án: B — 16 - 8\nMã JIS xử lý 16 bit được chia thành 8 bit mỗi bit.\n\n❌ Các đáp án khác\nA: 8 - 4 — không đúng với nội dung câu hỏi.\nC: 32 - 16 — không đúng với nội dung câu hỏi.\nD: 16 - 4 — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 640,
+      "question": "CDでは、傷や手の脂、埃などによってデータが正しく読み取れない場合があり、このような誤りを検出・訂正するための仕組みを何と言いますか。",
+      "options": {
+        "A": "パリティビット",
+        "B": "誤り検出・訂正機構",
+        "C": "フーリエ変換",
+        "D": "差分記録"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 5 · img 174",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nCơ chế phát hiện/sửa lỗi khi CD bị xước, bụi… gọi là gì?\n\n✅ Đáp án: B — 誤り検出・訂正機構 = Cơ chế phát hiện·sửa lỗi\nCơ chế phát hiện và sửa lỗi (ví dụ CIRC) được sử dụng trong đĩa CD và các loại tương tự.\n\n❌ Các đáp án khác\nA: Parity check — không đúng với nội dung câu hỏi.\nC: Firewall — không đúng với nội dung câu hỏi.\nD: Run-length — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 641,
+      "question": "「添字」はベトナム語で何ですか。",
+      "options": {
+        "A": "chỉ số trên",
+        "B": "chỉ số gắn",
+        "C": "chỉ số dưới",
+        "D": "chỉ số cố định"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 5 · img 180",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 180 · CÂU HỎI 5",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 642,
+      "question": "A3サイズの用紙（29.7 cm × 42.0 cm）に、解像度 300 dpi のプリンタで印刷する場合、必要なデジタルカメラの画素数は約何メガピクセルか。",
+      "options": {
+        "A": "約 22.0 メガピクセル",
+        "B": "約 8.7 メガピクセル",
+        "C": "約 30.5 メガピクセル",
+        "D": "約 14.3 メガピクセル"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 6 · img 066",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 066 · CÂU HỎI 6",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 643,
+      "question": "IPアドレスについて、正しいものはどれですか。",
+      "options": {
+        "A": "IPv6の導入により、IPアドレスは従来の2進数32桁から128桁に増え、アドレス不足の問題が解消される。",
+        "B": "IPアドレスは「daigaku.ac.jp」のようなアルファベットの組み合わせで表現され、DNSサーバによって管理されている。",
+        "C": "サブネットマスクは、LAN内部でIPアドレスの数を減らすために使用される。",
+        "D": "IPアドレスはトランスポート層のプロトコルに従って割り当てられる、コンピュータの住所にあたる名前である。"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 6 · img 110",
+      "alt": null,
+      "explanation": "Đáp án theo kiến thức JIT (khớp phương án «32»).",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 644,
+      "question": "JavaやC++では「a >= b」の条件は何を表していますか。",
+      "options": {
+        "A": "aがbより大きい",
+        "B": "aがbより小さい",
+        "C": "aがb以上",
+        "D": "aがb以下"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 6 · img 178",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 178 · CÂU HỎI 6",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 645,
+      "question": "上りのことについては正しいものをえらんでください。",
+      "options": {
+        "A": "上流から下流の方向",
+        "B": "ホームページを見る",
+        "C": "下流から上流の方向",
+        "D": "ファイルを取ってくる"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 7 · img 094",
+      "alt": null,
+      "explanation": "✅ Đáp án: A. 上流から下流の方向\nNguồn ảnh zip 240 (CÂU HỎI 7 · img 094).\nĐáp án theo kiến thức JIT (bank stem).",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 646,
+      "question": "「手続型言語」について最も正しいものはどれですか。",
+      "options": {
+        "A": "手続きや関数の呼び出しによって処理の流れを制御する言語",
+        "B": "主流なのがオブジェクト指向言語",
+        "C": "変数の値の変更を頻繁に行うことで状態を管理する言語",
+        "D": "問題解決のための処理過程を記述するプログラミング言語"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 7 · img 170",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 170 · CÂU HỎI 7",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 647,
+      "question": "ネットワークの形態について、正しいものはどれですか。",
+      "options": {
+        "A": "バス型は、通信ケーブルが環状（ループ）になっており、データの衝突が全く発生しない。",
+        "B": "バス型は、ハブを中心にコンピュータを接続する方式であり、現在最もよく使われている。",
+        "C": "リング型は、データが隣接するコンピュータへ順次転送され、一部のコンピュータが故障すると通信に支障が出る可能性がある。",
+        "D": "スター型では、ハブをカスケード状に接続してコンピュータ台数を増やすことができない。"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 8 · img 002",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nPhát biểu nào ĐÚNG về hình thái mạng?\n\n✅ Đáp án: A — リング型は、データが隣接するノードを順次伝送され、一部のコンピュータが故障すると通信に支障が出る可能性がある = Ring: truyền tuần tự; 1 máy hỏng có thể ảnh hưởng\nVì loại vòng truyền dữ liệu tuần tự đến các đơn vị lân cận nên dễ bị lỗi hơn.\n\n❌ Các đáp án khác\nB: Star = 1 cáp chung — không đúng với nội dung câu hỏi.\nC: Bus = hub trung tâm — không đúng với nội dung câu hỏi.\nD: Ring ít bị ảnh hưởng hỏng hóc nhất — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 648,
+      "question": "ドメイン名とDNSサーバに関する説明として、正しいものはどれですか。",
+      "options": {
+        "A": "ドメイン名は数字の羅列であるIPアドレスよりも覚えやすく、入力間違いが少ないため、一般的に利用されている。",
+        "B": "「.com」は日本の企業を表すドメイン名であり、DNSサーバはこのドメイン名をIPアドレスに変換する。",
+        "C": "DNSサーバは、メールの送受信やホームページのアクセス先を正しく指定するために、ドメイン名をIPアドレスに変換する役割を担う。",
+        "D": "ドメイン名紛争は解決したため、現在ではSEOやSEMよりもドメイン名そのものが重視されている。"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 9 · img 016",
+      "alt": null,
+      "explanation": "Đáp án theo kiến thức JIT (khớp phương án «DNS»).",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 649,
+      "question": "以下の言語のうち、「非手続き型言語」として最も典型的なものはどれですか。",
+      "options": {
+        "A": "Pascal",
+        "B": "Python",
+        "C": "SQL",
+        "D": "C言語"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 9 · img 036",
+      "alt": null,
+      "explanation": "Đáp án theo kiến thức JIT (khớp phương án «SQL»).",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 650,
+      "question": "SQLでは、以下の条件があります。\nSELECT Mid, TenBN\nFROM bannhac\nWHERE Aid =1 ;\n正しい説明をしているものはどれですか。",
+      "options": {
+        "A": "bannhac テーブルにある、すべての Mid と TenBN を抽出する。",
+        "B": "bannhac テーブルから、Aid が1であるすべての行の Mid と TenBN を抽出する。",
+        "C": "bannhac テーブルから、Aid が1である行の Aid と TenBN を抽出する。",
+        "D": "bannhac テーブルから、Aid が1である行の Mid と Aid を抽出する。"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 10 · img 007",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 007 · CÂU HỎI 10",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 651,
+      "question": "アナログとは何ですか。",
+      "options": {
+        "A": "連続的なこと",
+        "B": "数値化されたこと",
+        "C": "連続的な量のこと",
+        "D": "数値化された量のこと"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 10 · img 199",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 199 · CÂU HỎI 10",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 652,
+      "question": "Chọn cách gọi tên đúng của hệ thống trong hình（装置A→装置B）",
+      "options": {
+        "A": "並列システム",
+        "B": "直列システム",
+        "C": "集中システム",
+        "D": "分散システム"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 11 · img 023",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nChọn cách gọi tên đúng của hệ thống trong hình\n\n✅ Đáp án: B — 並列システム\nĐáp án đúng là B. Hệ song song\n\n❌ Các đáp án khác\nA: hệ thống loạt — không đúng với nội dung câu hỏi.\nC: hệ thống tập trung — không đúng với nội dung câu hỏi.\nD: hệ thống phân tán — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 653,
+      "question": "（　　）に入れるものはどれですか。情報量の（　　）単位のことをビット(bit)といいます。",
+      "options": {
+        "A": "基本",
+        "B": "最大",
+        "C": "最小",
+        "D": "中間"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 11 · img 043",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nĐơn vị ( ) của lượng tin gọi là bit?\n\n✅ Đáp án: C — 最小 = nhỏ nhất\nBit là đơn vị nhỏ nhất (cũng là đơn vị cơ bản) của thông tin.\n\n❌ Các đáp án khác\nA: lớn nhất — không đúng với nội dung câu hỏi.\nB: trung bình — không đúng với nội dung câu hỏi.\nD: thay đổi — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 654,
+      "question": "データベースのデータ操作には、ORは何を表しますか。",
+      "options": {
+        "A": "合併",
+        "B": "直積",
+        "C": "差",
+        "D": "共通部分"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 11 · img 134",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 134 · CÂU HỎI 11",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 655,
+      "question": "（______）に入れるのにもっとも適当なものを1つ選んでください。\nサーバとなっているコンピュータには、（______）が記録されています",
+      "options": {
+        "A": "重要なサービス",
+        "B": "重要な情報",
+        "C": "重要なアプリケーション",
+        "D": "重要な情報端末"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 11 · img 175",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 175 · CÂU HỎI 11",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 656,
+      "question": "映像データや音声データの圧縮方式はどれか。",
+      "options": {
+        "A": "GIF",
+        "B": "JPEG",
+        "C": "MPEG",
+        "D": "BMP"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 12 · img 034",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nNén video/âm thanh tiêu biểu là?\n\n✅ Đáp án: C — MPEG\nMPEG là điển hình cho hình ảnh và âm thanh chuyển động. JPEG/GIF chủ yếu là ảnh tĩnh.\n\n❌ Các đáp án khác\nA: JPEG — không đúng với nội dung câu hỏi.\nB: GIF — không đúng với nội dung câu hỏi.\nD: BMP — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 657,
+      "question": "IPアドレスに関する説明として、正しいものはどれですか。",
+      "options": {
+        "A": "サーバに対するセキュリティを保つ構成",
+        "B": "コンピュータが従うべきデータ転送規約のこと",
+        "C": "ネットワーク層のIPプロトコルに従って番号が割り当てられています",
+        "D": "ホームページアドレスやメールアドレスとして使われます"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 12 · img 084",
+      "alt": null,
+      "explanation": "✅ Đáp án: A. サーバに対するセキュリティを保つ構成\nNguồn ảnh zip 240 (CÂU HỎI 12 · img 084).\nĐáp án theo kiến thức JIT (bank stem).",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 658,
+      "question": "札幌にある日本料理の店と函館にある日本料理の店をまとめて検索したい。検索条件を表す論理式はどれか。",
+      "options": {
+        "A": "(\"札幌\"AND\"函館\")AND\"日本料理\"",
+        "B": "(\"札幌\"AND\"函館\")OR\"日本料理\"",
+        "C": "(\"札幌\"OR\"函館\")OR\"日本料理\"",
+        "D": "(\"札幌\"OR\"函館\")AND\"日本料理\""
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 12 · img 106",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 106 · CÂU HỎI 12",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 659,
+      "question": "A～Zの26種類の文字を表現する[…]",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "4",
+        "D": "5"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 12 · img 160",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nBiểu diễn 26 chữ A–Z cần tối thiểu mấy bit?\n\n✅ Đáp án: C — 5\n2⁴=16 thiếu hụt, 2⁵=32 có thể thể hiện 26 hoặc nhiều hơn.\n\n❌ Các đáp án khác\nA: 3 — không đúng với nội dung câu hỏi.\nB: 4 — không đúng với nội dung câu hỏi.\nD: 8 — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 660,
+      "question": "イラストなどに使われている、最大表示色が256色である静止画圧縮ファイル形式はどれか。",
+      "options": {
+        "A": "MPEG",
+        "B": "JPEG",
+        "C": "MIDI",
+        "D": "GIF"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 13 · img 193",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nNén video/âm thanh tiêu biểu là?\n\n✅ Đáp án: C — MPEG\nMPEG là điển hình cho hình ảnh và âm thanh chuyển động. JPEG/GIF chủ yếu là ảnh tĩnh.\n\n❌ Các đáp án khác\nA: JPEG — không đúng với nội dung câu hỏi.\nB: GIF — không đúng với nội dung câu hỏi.\nD: BMP — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 661,
+      "question": "測定する高さもデジタル化します。波の高さの最大値をいくつの段階にして表すかを決めるのが何か。",
+      "options": {
+        "A": "解像度",
+        "B": "量子化数",
+        "C": "サンプリング周波数",
+        "D": "ビットレート"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 14 · img 004",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nChia biên độ sóng thành bao nhiêu mức gọi là?\n\n✅ Đáp án: B — 量子化数 = Số lượng tử hóa\nSố giai đoạn biên độ = số lượng tử hóa.\n\n❌ Các đáp án khác\nA: Tần số lấy mẫu — không đúng với nội dung câu hỏi.\nC: Frame rate — không đúng với nội dung câu hỏi.\nD: Bitrate — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 662,
+      "question": "イラストなどに使われている最大表示色が256色である静止画圧縮のファイル形式はどれか。",
+      "options": {
+        "A": "MIDI",
+        "B": "GIF",
+        "C": "MPEG",
+        "D": "JPEG"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 14 · img 127",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nNén video/âm thanh tiêu biểu là?\n\n✅ Đáp án: C — MPEG\nMPEG là điển hình cho hình ảnh và âm thanh chuyển động. JPEG/GIF chủ yếu là ảnh tĩnh.\n\n❌ Các đáp án khác\nA: JPEG — không đúng với nội dung câu hỏi.\nB: GIF — không đúng với nội dung câu hỏi.\nD: BMP — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 663,
+      "question": "測定する高さもデジタル化します。波の高さの最大値をいくつの[…]か。",
+      "options": {
+        "A": "解像度",
+        "B": "量子化数",
+        "C": "サンプリング周波数",
+        "D": "ビットレート"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 14 · img 146",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\n[Thuật ngữ] Hãy chuyển sang tiếng Nhật: Tần số lấy mẫu\n\n✅ Đáp án: C — サンプリング周波数 = tần số lấy mẫu\nTần số lấy mẫu là tần số lấy mẫu (§14.2).\n\n❌ Các đáp án khác\nA: số mức lượng tử hóa — không khớp định nghĩa/yêu cầu câu hỏi.\nB: Tốc độ bit — không khớp định nghĩa/yêu cầu câu hỏi.\nD: độ phân giải — không khớp định nghĩa/yêu cầu câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 664,
+      "question": "\"cấu trúc hình cây\" は 日本語で なんですか。",
+      "options": {
+        "A": "木システム",
+        "B": "階層構造",
+        "C": "木構造",
+        "D": "階層システム"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 15 · img 125",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\n【Thuật ngữ】Dịch sang tiếng Nhật: Cấu trúc hình cây\n\n✅ Đáp án: A — 木構造 / ツリー構造\nCây = 木 / tree. Cấu trúc hình cây = 木構造（ツリー構造）.\n\n❌ Các đáp án khác\nB list tuyến tính. C hash. D chỉ đồ thị vô hướng — không đúng nghĩa «cây».",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 665,
+      "question": "図を画素で表す手法を考える。画像の画素を左上から1行ずつ右方向へ[…]黒ならB、白ならWと書く。例えば、4×4画素の図を[…]と表す。次に、BやWがn文字連続する場合を\"Bn\"、\"Wn\"と表す（nは2以上の整数）と、この図を\"B1W2B1\"を1行として4行分繰り返すが、[…]表現でき、圧縮率を24÷16=150%とする（圧縮率が100%を超える場合は[…]）。では、4×4画素の図が\"BBWW WWBB BBWW WWBB\"で表されるとき、同じ手法で表した圧縮率は何%か。",
+      "options": {
+        "A": "75%",
+        "B": "125%",
+        "C": "150%",
+        "D": "100%"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 15 · img 137",
+      "alt": null,
+      "explanation": "✅ Đáp án: A. 75%\nNguồn ảnh zip 240 (CÂU HỎI 15 · img 137).\nĐáp án theo kiến thức JIT (bank stem).",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 666,
+      "question": "図を画素で表す手法を考える。画像の画素を左上から1行ずつ右方向へ1画素ずつ順に、黒い画素ならB、白ならWと書く。例えば、4×4画素の図を…。次に、BやWがn文字連続する場合を\"Bn\"、\"Wn\"と表す。この表現で\"B1W2B1\"を1行として4行分繰り返すが、全体を…で表現でき、圧縮率を24÷16=150%とする（圧縮率が100%を超える場合は…）。では、4×4画素の図が\"BBWW WWBB BBWW WWBB\"で表されるとき、同じ手法で圧縮したときの圧縮率は何%か。",
+      "options": {
+        "A": "75%",
+        "B": "125%",
+        "C": "150%",
+        "D": "100%"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 15 · img 203",
+      "alt": null,
+      "explanation": "✅ Đáp án: A. 75%\nNguồn ảnh zip 240 (CÂU HỎI 15 · img 203).\nĐáp án theo kiến thức JIT (bank stem).",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 667,
+      "question": "「商品カテゴリコード」「商品カテゴリ名」のフィールドを持つ商品カテゴリ表と、「仕入先コード」「仕入先名」のフィールドを持つ仕入先表、および「商品コード」「商品名」「単価」「商品カテゴリコード」「仕入先コード」のフィールドを持つ商品表の3つの表を作成した。結合した\"商品\"表はどれか。",
+      "options": {
+        "A": "「商品コード」「商品名」[単価]",
+        "B": "「商品コード」「商品名」[単価]「仕入先コード」",
+        "C": "「商品コード」「商品名」[単価]「商品カテゴリコード」",
+        "D": "「商品コード」「商品名」[単価]「商品カテゴリコード」「仕入先コード」"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 15 · img 228",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 228 · CÂU HỎI 15",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 668,
+      "question": "ネットワークの形態については何がもっともよく使われますか。",
+      "options": {
+        "A": "リング型",
+        "B": "バス型",
+        "C": "スター型"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 17 · img 061",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nNhững định dạng kết nối mạng nào được sử dụng phổ biến nhất?\n\n✅ Đáp án: B — スター型 = Sao\nLoại sao là cấu hình được sử dụng phổ biến nhất để kết nối các hub và switch (§5.3).\n\n❌ Các đáp án khác\nA: Loại xe buýt — không khớp định nghĩa/yêu cầu câu hỏi.\nC: Loại vòng — không khớp định nghĩa/yêu cầu câu hỏi.\nD: Lưới — không khớp định nghĩa/yêu cầu câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 669,
+      "question": "MIDI命令は、音の高さ、長さなどの命令が表せるようになっており、[…]いくつですか。",
+      "options": {
+        "A": "1024",
+        "B": "512",
+        "C": "128",
+        "D": "256"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 18 · img 152",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 152 · CÂU HỎI 18",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 670,
+      "question": "「ノード」は英語で何ですか",
+      "options": {
+        "A": "nodle",
+        "B": "node",
+        "C": "noodle",
+        "D": "noode"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 19 · img 026",
+      "alt": null,
+      "explanation": "Đáp án theo kiến thức JIT (khớp phương án «node»).",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 671,
+      "question": "プログラム言語に関する次の記述a〜cのうち適切なものだけをすべて挙げたものはどれか。\na 機械語やアセンブリ言語で作成されたプログラムは特定のCPUに依存することなく実行できる\nb コンパイラで変換されるプログラムは最終的に[…]から実行される\nc 人間の言葉に近い規則をもったプログラム言語（高水準言語）を活用すれば、機械語では[…]複雑な演算が実行できるプログラムが開発できる",
+      "options": {
+        "A": "b,c",
+        "B": "a",
+        "C": "a,c",
+        "D": "b"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 19 · img 126",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 126 · CÂU HỎI 19",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 672,
+      "question": "歯車を組み合わせた機械式の計算機はいつ開発されましたか。",
+      "options": {
+        "A": "17世紀",
+        "B": "1930年代",
+        "C": "紀元前",
+        "D": "1946年"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 20 · img 208",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 208 · CÂU HỎI 20",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 673,
+      "question": "第2世代携帯電話の改善点は何ですか。",
+      "options": {
+        "A": "携帯電話でさまざまなアプリケーションをストレスなく利用することができます",
+        "B": "管理し，ユーザ端末は入出力のみを行う",
+        "C": "音質が向上し，秘話性能も考慮されるようになりました",
+        "D": "データ通信が高速になりました"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 21 · img 182",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 182 · CÂU HỎI 21",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 674,
+      "question": "「意匠権」とは何ですか。",
+      "options": {
+        "A": "著作者の人格を保護する権利",
+        "B": "製品のデザインに関する権利",
+        "C": "著作物の制作に携わった人を保護する権利",
+        "D": "新規の技術に関する権利"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 22 · img 217",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 217 · CÂU HỎI 22",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 675,
+      "question": "ADSLの特徴について、最も適切なものはどれですか。",
+      "options": {
+        "A": "音声通話をデジタルデータとして送受信するIP電話を利用する場合は、下り速度よりも上り速度の高速性が決定的に重要である。",
+        "B": "上り（アップロード）方向の通信速度が下り（ダウンロード）方向よりも高速に設定されている。",
+        "C": "専用線を利用するため、一般の電話線を使用する場合と比べてノイズの影響を受けにくい。",
+        "D": "電話局から家庭までの距離が長くなるほど、ノイズの影響を受けて通信速度が低下しやすくなる。"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 23 · img 092",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 092 · CÂU HỎI 23",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 676,
+      "question": "ある音をコンピュータのファイルに記録する。符号化ビット数を16ビットから8ビットに変更して適切なものはどれか。",
+      "options": {
+        "A": "記録できる周波数の上限が上がる。",
+        "B": "記録時間が同じ場合データ量は小さくなる。",
+        "C": "記録したデータの加工に必要なCPUの負担は減る。",
+        "D": "音の振幅をより細かく記録できる。"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 24 · img 028",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nTăng số bit lượng tử hóa khi ghi âm thì?\n\n✅ Đáp án: B — 音の振幅をより細かく記録できる = Ghi biên độ chi tiết hơn\nSố lượng bit lượng tử hóa càng lớn thì biên độ có thể được ghi lại càng tinh vi.\n\n❌ Các đáp án khác\nA: Chỉ tăng tần số lấy mẫu — không đúng với nội dung câu hỏi.\nC: File luôn nhỏ hơn — không đúng với nội dung câu hỏi.\nD: Chỉ đổi cao độ — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 677,
+      "question": "「ユビキタス」は英語で何ですか。",
+      "options": {
+        "A": "uquibitous",
+        "B": "ubiquitos",
+        "C": "uqibitos",
+        "D": "ubiquitous"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 24 · img 085",
+      "alt": null,
+      "explanation": "Đáp án theo kiến thức JIT (khớp phương án «ubiquitous»).",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 678,
+      "question": "日本語1文字を表す情報量はどうなりますか。",
+      "options": {
+        "A": "16 bitになります",
+        "B": "32 bitになります",
+        "C": "24 bitになります",
+        "D": "8 bitになります"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 25 · img 027",
+      "alt": null,
+      "explanation": "Đáp án theo kiến thức JIT (khớp phương án «16»).",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 679,
+      "question": "ポータルサイトとはなんですか。",
+      "options": {
+        "A": "ホームページのアドレス",
+        "B": "コンピューターのアドレス",
+        "C": "出口となるサイト",
+        "D": "入り口となるサイト"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 26 · img 044",
+      "alt": null,
+      "explanation": "✅ Đáp án: A. ホームページのアドレス\nNguồn ảnh zip 240 (CÂU HỎI 26 · img 044).\nĐáp án theo kiến thức JIT (bank stem).",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 680,
+      "question": "Chọn đáp án thích hợp để trả lời câu hỏi sau。\nAND回路について正しいものをえらんでください。",
+      "options": {
+        "A": "AND回路の演算のことを論理和と言います",
+        "B": "スイッチが直列に並んだ回路としてモデル化されます",
+        "C": "AND回路は1つのダイオードを使って実現できます",
+        "D": "スイッチが並列に並んだ回路としてモデル化されます"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 26 · img 047",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nPhát biểu đúng về mạch AND?\n\n✅ Đáp án: B — スイッチが直列に並んだ回路としてモデル化される = Mô hình công tắc nối tiếp\nAND là một công tắc nối tiếp. Đầu ra BẬT khi cả hai đều BẬT.\n\n❌ Các đáp án khác\nA: Công tắc song song — không đúng với nội dung câu hỏi.\nC: Một ON là ra ON — không đúng với nội dung câu hỏi.\nD: Đảo input — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 681,
+      "question": "集中処理システムと分散処理システムについて、正しくないものはどれですか。",
+      "options": {
+        "A": "集中処理システムでは、プログラムやデータを一か所で管理するため、保守性が向上する。",
+        "B": "分散処理システムでは、1台のコンピュータが故障しても他のサービスは実行できるため、システム全体の信頼性が向上する。",
+        "C": "ピアツーピア(P2P)接続は、サービスを提供するサーバとサービスを受けるクライアントを明確に分けた構成である。",
+        "D": "クライアントサーバシステムでは、1台のコンピュータが複数種類のサーバ機能を兼ねる場合もある。"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 27 · img 030",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nHãy chọn phát biểu ĐÚNG về “hệ thống xử lý phân tán”.\n\n✅ Đáp án: B — 処理を複数のコンピュータで分散して管理する = Phân phối và quản lý xử lý trên nhiều máy tính\nHệ thống xử lý phân tán chia sẻ việc xử lý giữa nhiều máy tính. Điều này cũng bao gồm P2P (§5.4).\n\n❌ Các đáp án khác\nA: Máy tính trung tâm quản lý tất cả quá trình xử lý — không khớp định nghĩa/yêu cầu câu hỏi.\nC: 1 máy tính đang hoạt động — không khớp định nghĩa/yêu cầu câu hỏi.\nD: Hệ thống chuyên dụng trên Internet — không khớp định nghĩa/yêu cầu câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 682,
+      "question": "0と1の並びを、どの文字に対応させるかは、文字コードと呼ばれます。",
+      "options": {
+        "A": "Unicode",
+        "B": "JPEG",
+        "C": "ASCII",
+        "D": "MIDI"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 27 · img 101",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 101 · CÂU HỎI 27",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 683,
+      "question": "0と1の並びを、どの文字に対応させるかは、[…]ます。",
+      "options": {
+        "A": "Unicode",
+        "B": "JPEG",
+        "C": "ASCII",
+        "D": "MIDI"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 27 · img 123",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 123 · CÂU HỎI 27",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 684,
+      "question": "「電子式計算機 ENIAC」はいつ開発されましたか。",
+      "options": {
+        "A": "1939年",
+        "B": "1949年",
+        "C": "1946年",
+        "D": "1930年"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 27 · img 172",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nMáy tính điện tử ENIAC được phát triển năm nào?\n\n✅ Đáp án: C — 1946年 = năm 1946\nENIAC là máy tính điện tử được phát triển vào năm 1946.\n\n❌ Các đáp án khác\nA: năm 1930 — không khớp định nghĩa/yêu cầu câu hỏi.\nB: năm 1939 — không khớp định nghĩa/yêu cầu câu hỏi.\nD: năm 1949 — không khớp định nghĩa/yêu cầu câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 685,
+      "question": "10進数のマイナス5を、2の補数で表すといくつになるか。",
+      "options": {
+        "A": "11111011",
+        "B": "11111010",
+        "C": "00000101",
+        "D": "10000101"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 28 · img 031",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\n−5 ở hệ 10, bù 2 8-bit là?\n\n✅ Đáp án: A — 11111011\n+5=00000101 → Đảo ngược 11111010 → +1 thành 11111011.\n\n❌ Các đáp án khác\nB: 11111010 — không đúng với nội dung câu hỏi.\nC: 10000101 — không đúng với nội dung câu hỏi.\nD: 00000101 — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 686,
+      "question": "FTTH（Fiber To The Home）の概念について、正しいものはどれですか。",
+      "options": {
+        "A": "光ファイバーを利用して家庭まで高速な通信回線を引くことで、ラストワンマイル問題の解決を目指す技術である。",
+        "B": "基幹回線の高速化を実現する技術であり、電話局から先の通信速度には直接関与しない。",
+        "C": "企業や学校など業務用の高速ネットワークを構築することを主な目的とした技術である。",
+        "D": "アナログ電話線を利用するADSLと同様に、ノイズの影響を受けやすいという課題を抱えている。"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 28 · img 086",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 086 · CÂU HỎI 28",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 687,
+      "question": "「代入」はどのように読みますか。ベトナム語で何ですか。",
+      "options": {
+        "A": "たいにゅ - thay thế",
+        "B": "たいにゅ - gán",
+        "C": "たいにゅう - gán",
+        "D": "たいにゅう - thay thế"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 28 · img 155",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 155 · CÂU HỎI 28",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 688,
+      "question": "量子化数が大きいと情報量がどうなりますか。",
+      "options": {
+        "A": "広くなります",
+        "B": "小さくなります",
+        "C": "多くなります",
+        "D": "少なくなります"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 29 · img 088",
+      "alt": null,
+      "explanation": "✅ Đáp án: A. 広くなります\nNguồn ảnh zip 240 (CÂU HỎI 29 · img 088).\nĐáp án theo kiến thức JIT (bank stem).",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 689,
+      "question": "「sóng hình sin」は日本語の漢字でどのように書きますか。どちらに読みますか。",
+      "options": {
+        "A": "正玄派 - せいけんは",
+        "B": "征弦波 - せいげんば",
+        "C": "正弦波 - せいげんは",
+        "D": "征玄派 - せいけんば"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 29 · img 093",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nSóng sin viết/đọc kanji?\n\n✅ Đáp án: B — 正弦波 - seigenha\nSóng hình sin = sóng hình sin.\n\n❌ Các đáp án khác\nA: Sóng cosin — không đúng với nội dung câu hỏi.\nC: sóng sin-shougenha — không đúng với nội dung câu hỏi.\nD: Sóng Sâu Đích Thực — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 690,
+      "question": "スキャナやプリンタの性能の一つである解像度を表す単位はどれか。",
+      "options": {
+        "A": "dpi",
+        "B": "bps",
+        "C": "Hz",
+        "D": "fps"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 31 · img 005",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nĐơn vị độ phân giải máy in (số chấm) là gì?\n\n✅ Đáp án: B — dpi\nĐơn vị độ phân giải của máy in là dpi (dots per inch).\n\n❌ Các đáp án khác\nA: bps — không đúng với nội dung câu hỏi.\nC: Hz — không đúng với nội dung câu hỏi.\nD: fps — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 691,
+      "question": "「ユーザインターフェース」は英語で何ですか。",
+      "options": {
+        "A": "user interface",
+        "B": "user inteface",
+        "C": "usa inteface",
+        "D": "using intefesu"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 31 · img 012",
+      "alt": null,
+      "explanation": "Đáp án theo kiến thức JIT (khớp phương án «User Interface»).",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 692,
+      "question": "「RSS」はベトナム語で何ですか。",
+      "options": {
+        "A": "định dạng tập tin",
+        "B": "nhà cung cấp dịch vụ ứng dụng",
+        "C": "phần mềm dịch vụ",
+        "D": "định vị tài nguyên về mặt địa chỉ"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 31 · img 214",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 214 · CÂU HỎI 31",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 693,
+      "question": "「hàm số mũ」は日本語で何ですか。",
+      "options": {
+        "A": "対数関数",
+        "B": "奇数巻子",
+        "C": "三角関数",
+        "D": "指数関数"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 32 · img 020",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 020 · CÂU HỎI 32",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 694,
+      "question": "複数のユーザが1台のコンピュータを利用できる仕組みを何と言いますか。",
+      "options": {
+        "A": "マルチメディア",
+        "B": "マルチプロセス",
+        "C": "マルチタスク",
+        "D": "マルチユーザ"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 33 · img 050",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 050 · CÂU HỎI 33",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 695,
+      "question": "プロセス管理という機能について正しいものをえらんでください。",
+      "options": {
+        "A": "操作性を決めます",
+        "B": "ソフトウェアの処理を管理します",
+        "C": "CPUの機能",
+        "D": "ソフトウェアの作成を管理します"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 34 · img 115",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 115 · CÂU HỎI 34",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 696,
+      "question": "結合の操作はいくつの表を使いますか。",
+      "options": {
+        "A": "2つだけの表",
+        "B": "2つ以上の表",
+        "C": "1つ以上の表",
+        "D": "3つ以上の表"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 34 · img 140",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 140 · CÂU HỎI 34",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 697,
+      "question": "「拡張子」とは何ですか。",
+      "options": {
+        "A": "ハードディスクや光ディスクドライブ、USBメモリ等を指す・メインメモリと違って,CPUが直接アクセスすることはない。",
+        "B": "コンピュータのファイルの属性・内容を表すための文字列。ファイル名のピリオドで区切られた右側の部分。",
+        "C": "プログラムやデータの破壊に備え、予備の記憶装置にデータを複製しておくこと。",
+        "D": "ファイルの入れ物で、広義にはメモリのように一時的にデータを保持するもの。"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 34 · img 239",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 239 · CÂU HỎI 34",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 698,
+      "question": "プロセスとは何のことですか。",
+      "options": {
+        "A": "ハードディスクの容量",
+        "B": "ソフトウェアの処理",
+        "C": "ファイルの形式",
+        "D": "メモリの種類"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 35 · img 132",
+      "alt": null,
+      "explanation": "✅ Đáp án: A. ハードディスクの容量\nNguồn ảnh zip 240 (CÂU HỎI 35 · img 132).\nĐáp án theo kiến thức JIT (bank stem).",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 699,
+      "question": "ファイアウォールとDMZに関する説明として、正しいものはどれですか。",
+      "options": {
+        "A": "DMZに設置されたサーバには、組織にとって重要な情報を置かないように注意すべきである。",
+        "B": "Windowsに標準で搭載されているファイアウォール機能は、LAN内部からの攻撃も含めて完全に防御することができる。",
+        "C": "不特定多数のユーザーに公開するウェブサーバは、外部からのアクセスを容易にするため、ファイアウォールの内部ネットワークに設置する必要がある。",
+        "D": "ファイアウォールは、内部ネットワークとインターネットの間に設置されるが、適切に設定しなくてもある程度の安全性を自動的に確保できる。"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 35 · img 195",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 195 · CÂU HỎI 35",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 700,
+      "question": "画素数が多いほど画像がどうなりますか。",
+      "options": {
+        "A": "きれいになります",
+        "B": "ぎざぎざが大きくなります",
+        "C": "みにくくなります",
+        "D": "ぎざぎざが多くなります"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 35 · img 227",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 227 · CÂU HỎI 35",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 701,
+      "question": "\"chuỗi ký tự\"は日本語で何ですか。",
+      "options": {
+        "A": "文字例",
+        "B": "文子例",
+        "C": "文子列",
+        "D": "文字列"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 37 · img 218",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 218 · CÂU HỎI 37",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 702,
+      "question": "「giai thừa」は日本語の漢字でどのように書きますか。どのように読みますか。",
+      "options": {
+        "A": "階別-がいしょう",
+        "B": "階乗-かいじょう",
+        "C": "階刺-がいじょう",
+        "D": "楷乗-かいしょう"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 38 · img 135",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\n「Giai thừa」 viết/đọc kanji tiếng Nhật thế nào?\n\n✅ Đáp án: A — 階乗（かいじょう） = 階乗 (kaijou)\ngiai thừa = giai thừa.\n\n❌ Các đáp án khác\nB: 乗算 — không đúng với nội dung câu hỏi.\nC: 因数 — không đúng với nội dung câu hỏi.\nD: 累乗 — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 703,
+      "question": "\"quyền sáng chế\" trong tiếng Nhật là gì?",
+      "options": {
+        "A": "著作者人格権",
+        "B": "著作権",
+        "C": "著作隣接権",
+        "D": "特許権"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 39 · img 229",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 229 · CÂU HỎI 39",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 704,
+      "question": "有機ELディスプレイの特徴について、正しいものはどれですか。",
+      "options": {
+        "A": "液晶ディスプレイと比べて寿命が長く、現在ではこの点において液晶を完全に代替する技術となっている。",
+        "B": "有機物の発光体を用いて自ら光るため、液晶よりも消費電力が少なく、より明るい表示が可能である。",
+        "C": "SED（Surface-conduction Electron-emitter Display）と同様に、暗部の表現に課題が残されている。",
+        "D": "液晶ディスプレイと同様に、バックライトの光を透過・遮断することで表示を行うため、バックライトが必須である。"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 40 · img 121",
+      "alt": null,
+      "explanation": "Đáp án theo kiến thức JIT (khớp phương án «バックライト»).",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 705,
+      "question": "改行が何種のコードにあたるか[…]よってコードが違うため、[…]",
+      "options": {
+        "A": "情報",
+        "B": "改行",
+        "C": "文字",
+        "D": "制御"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 40 · img 142",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 142 · CÂU HỎI 40",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 706,
+      "question": "「định dạng trao đổi hình ảnh」",
+      "options": {
+        "A": "MPEG",
+        "B": "GIF",
+        "C": "JPEG",
+        "D": "PNG"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 40 · img 221",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nVideo dùng nén ảnh tĩnh + ghi chênh lệch → định dạng?\n\n✅ Đáp án: C — MPEG\nNén ảnh tĩnh + ghi vi sai = MPEG.\n\n❌ Các đáp án khác\nA: JPEG — không đúng với nội dung câu hỏi.\nB: GIF — không đúng với nội dung câu hỏi.\nD: PNG — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 707,
+      "question": "プログラミングにおいて、「//」の記号は一般的に何を表していますか。",
+      "options": {
+        "A": "注釈",
+        "B": "算術演算の除算",
+        "C": "文字列",
+        "D": "プログラムの実行パス"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 41 · img 157",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 157 · CÂU HỎI 41",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 708,
+      "question": "ソフトとハードの仲介という機能について正しいものをえらんでください",
+      "options": {
+        "A": "操作性を決めます",
+        "B": "マウスやキーボードの操作の仕方、ウィンドウの見え方、ファイルの扱い方などを決定します",
+        "C": "ハードウェアの相違を吸収します",
+        "D": "CPUの機能"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 42 · img 224",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 224 · CÂU HỎI 42",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 709,
+      "question": "100Mビット/秒の伝送速度の[…]およそ何秒か。ここで1Kバイト[…]",
+      "options": {
+        "A": "400",
+        "B": "5000",
+        "C": "50",
+        "D": "4"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 43 · img 129",
+      "alt": null,
+      "explanation": "✅ Đáp án: A. 400\nNguồn ảnh zip 240 (CÂU HỎI 43 · img 129).\nĐáp án theo kiến thức JIT (bank stem).",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 710,
+      "question": "100M ビット/秒の伝送速度のLAN[…]およそ何秒か。ここで1K バイト[…]",
+      "options": {
+        "A": "400",
+        "B": "5000",
+        "C": "50",
+        "D": "4"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 43 · img 144",
+      "alt": null,
+      "explanation": "✅ Đáp án: A. 400\nNguồn ảnh zip 240 (CÂU HỎI 43 · img 144).\nĐáp án theo kiến thức JIT (bank stem).",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 711,
+      "question": "電子商取引に関する説明として、正しいものはどれですか。",
+      "options": {
+        "A": "ネットワークを使った電子データ交換の標準化のことで、受発注、決済、配送などに用いられます",
+        "B": "オンラインの受発注システムのことを言います",
+        "C": "取引プロセスとは、受注、発注、決済以外にも商品案内や配送などの処理、さらには商品開発まで含めます。",
+        "D": "製造業における全製造過程(開発、製造、納入、保守)の電子化についての標準化のことを言います。"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 43 · img 200",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 200 · CÂU HỎI 43",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 712,
+      "question": "「định dạng trao đổi hình ảnh」は何ですか。",
+      "options": {
+        "A": "MPEG",
+        "B": "GIF",
+        "C": "JPEG",
+        "D": "PNG"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 44 · img 068",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nVideo dùng nén ảnh tĩnh + ghi chênh lệch → định dạng?\n\n✅ Đáp án: C — MPEG\nNén ảnh tĩnh + ghi vi sai = MPEG.\n\n❌ Các đáp án khác\nA: JPEG — không đúng với nội dung câu hỏi.\nB: GIF — không đúng với nội dung câu hỏi.\nD: PNG — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 713,
+      "question": "ユーザインタフェースについて正しくないものをえらんでください",
+      "options": {
+        "A": "マウスやキーボードの操作の仕方、ウィンドウの大きさや色の扱い方などを決定します",
+        "B": "OSの機能",
+        "C": "ハードウェアの相違を吸収します",
+        "D": "操作性を決めます"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 44 · img 201",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 201 · CÂU HỎI 44",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 714,
+      "question": "データ量の大小関係のうち正しいものをえらんでください",
+      "options": {
+        "A": "1kバイト < 1Tバイト < 1Mバイト < 1Gバイト",
+        "B": "1kバイト < 1Mバイト < 1Gバイト < 1Tバイト",
+        "C": "1kバイト < 1Mバイト < 1Tバイト < 1Gバイト",
+        "D": "1Tバイト < 1kバイト < 1Mバイト < 1Gバイト"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 44 · img 216",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nQuan hệ dung lượng đúng là?\n\n✅ Đáp án: B — 1kバイト < 1Mバイト < 1Gバイト < 1Tバイト = k < M < G < T\nThứ tự k < M < G < T.\n\n❌ Các đáp án khác\nA: G < M < k — không đúng với nội dung câu hỏi.\nC: T < G < M — không đúng với nội dung câu hỏi.\nD: M < k < G — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 715,
+      "question": "上りのことについて正しいものはどれか。",
+      "options": {
+        "A": "上流から下流の方向",
+        "B": "下流から上流の方向",
+        "C": "ホームページを見る",
+        "D": "ファイルを取ってくる"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 44 · img 230",
+      "alt": null,
+      "explanation": "✅ Đáp án: A. 上流から下流の方向\nNguồn ảnh zip 240 (CÂU HỎI 44 · img 230).\nĐáp án theo kiến thức JIT (bank stem).",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 716,
+      "question": "「通信制御」はどのように読みますか。ベトナム語でなんですか。",
+      "options": {
+        "A": "つうしんせいぎょう-hạn chế thông tin",
+        "B": "つうしんせいぎょ-điều khiển thông tin",
+        "C": "つうしんせきょ-hạn chế thông tin từ xa",
+        "D": "つうしんせいきょ-điều khiển từ xa"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 45 · img 065",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nBạn đọc “kiểm soát giao tiếp” như thế nào? Tiếng Việt là gì?\n\n✅ Đáp án: B — つうしんせいぎょ - điều khiển thông tin = Seigyo Tsushin - điưu khiưn thông tin\nĐáp án đúng là B. - điều khiển thông tin\n\n❌ Các đáp án khác\nA: Tsushin Seikyo - điưu khiưn tư xa — không đúng với nội dung câu hỏi.\nC: tsushinseigyo -hưn chē thông tin — không đúng với nội dung câu hỏi.\nD: Tsu Shin Seikyo - hưn chư thông tin tư xa — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 717,
+      "question": "「工業所有権」に属しているものはどの権利ですか。",
+      "options": {
+        "A": "意匠権、特許権、実用新案権",
+        "B": "著作隣接権、意匠権、商標権",
+        "C": "意匠権、著作者財産権、特許権",
+        "D": "著作隣接権、商標権、実用新案権"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 46 · img 001",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\n“Sở hữu công nghiệp” có những quyền gì?\n\n✅ Đáp án: B — 意匠権、特許権、実用新案権 = Quyền thiết kế, quyền sáng chế, quyền mô hình tiện ích\nĐáp án đúng là B. Quyền thiết kế, quyền sáng chế, quyền giải pháp hữu ích\n\n❌ Các đáp án khác\nA: Quyền lân cận, quyền thương hiệu, quyền mô hình tiện ích — không đúng với nội dung câu hỏi.\nC: Quyền láng giềng, quyền thiết kế và quyền nhãn hiệu — không đúng với nội dung câu hỏi.\nD: Quyền thiết kế, quyền sở hữu bản quyền, quyền sáng chế — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 718,
+      "question": "「giai thừa」は日本語の漢字でどう書きますか。",
+      "options": {
+        "A": "階乗 - かいじょう",
+        "B": "階刺 - がいしょう",
+        "C": "楷刺 - がいじょう",
+        "D": "楷乗 - かいしょう"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 46 · img 064",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\n「Giai thừa」 viết/đọc kanji tiếng Nhật thế nào?\n\n✅ Đáp án: A — 階乗（かいじょう） = 階乗 (kaijou)\ngiai thừa = giai thừa.\n\n❌ Các đáp án khác\nB: 乗算 — không đúng với nội dung câu hỏi.\nC: 因数 — không đúng với nội dung câu hỏi.\nD: 累乗 — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 719,
+      "question": "改行が何番のコードにあたるかなど、画面に直接表示できない記号は（　）コードと呼ばれます。",
+      "options": {
+        "A": "情報",
+        "B": "改行",
+        "C": "文字",
+        "D": "制御"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 46 · img 117",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nMã xuống dòng / ký hiệu không hiển thị gọi là gì?\n\n✅ Đáp án: A — 制御コード = Mã điều khiển\nCác ký hiệu không được hiển thị, chẳng hạn như ngắt dòng, là mã điều khiển.\n\n❌ Các đáp án khác\nB: Mã ký tự — không đúng với nội dung câu hỏi.\nC: Mã nén — không đúng với nội dung câu hỏi.\nD: Mã parity — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 720,
+      "question": "二つの2進数01011010と0110[…]トで表現するものとする。",
+      "options": {
+        "A": "10000100",
+        "B": "01111011",
+        "C": "00110001",
+        "D": "11000101"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 47 · img 054",
+      "alt": null,
+      "explanation": "Đáp án theo kiến thức JIT (khớp phương án «0»).",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 721,
+      "question": "デジタル画像は縦横に並んだ[…]はなんと言いますか。",
+      "options": {
+        "A": "ピクセル",
+        "B": "ビット",
+        "C": "コード",
+        "D": "データ"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 47 · img 124",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 124 · CÂU HỎI 47",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 722,
+      "question": "上りのことについて正しいもの[…]",
+      "options": {
+        "A": "上流から下流の方向",
+        "B": "下流から上流の方向",
+        "C": "ホームページを見る",
+        "D": "ファイルを取ってくる"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 48 · img 138",
+      "alt": null,
+      "explanation": "✅ Đáp án: A. 上流から下流の方向\nNguồn ảnh zip 240 (CÂU HỎI 48 · img 138).\nĐáp án theo kiến thức JIT (bank stem).",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 723,
+      "question": "「giai thừa」は日本語の漢字で[…]",
+      "options": {
+        "A": "階乗 - かいじょう",
+        "B": "階刺 - がいしょう",
+        "C": "楷刺 - がいじょう",
+        "D": "楷乗 - かいしょう"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 48 · img 159",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\n「Giai thừa」 viết/đọc kanji tiếng Nhật thế nào?\n\n✅ Đáp án: A — 階乗（かいじょう） = 階乗 (kaijou)\ngiai thừa = giai thừa.\n\n❌ Các đáp án khác\nB: 乗算 — không đúng với nội dung câu hỏi.\nC: 因数 — không đúng với nội dung câu hỏi.\nD: 累乗 — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 724,
+      "question": "一般に100 Kbps～1 Mbps以上の通信速度をもつものはどれか。",
+      "options": {
+        "A": "パケット",
+        "B": "ナローバンド",
+        "C": "ブロードバンド",
+        "D": "ビットレート"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 49 · img 040",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nTốc độ khoảng ≥100 Kbps–1 Mbps gọi là gì?\n\n✅ Đáp án: C — ブロードバンド = Broadband\nMọi tốc độ trên 100Kbps đến 1Mbps đều được gọi là băng thông rộng.\n\n❌ Các đáp án khác\nA: Narrowband — không đúng với nội dung câu hỏi.\nB: Dial-up — không đúng với nội dung câu hỏi.\nD: Serial — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 725,
+      "question": "Chọn đáp án thích hợp để trả lời câu hỏi sau。\nCPUについて正しくないものをえらんでください。",
+      "options": {
+        "A": "処理の中心となる部品",
+        "B": "演算装置と制御装置の機能が組み込まれている",
+        "C": "入力装置と出力装置の機能が組み込まれている",
+        "D": "コンピュータの頭脳"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 49 · img 055",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nChọn phát biểu SAI về CPU.\n\n✅ Đáp án: D. có input và output unit\ncó input và output unit\nĐáp án D: có input và output unit\n\n❌ Các đáp án khác\nA: 処理の中心となる部品 = linh kiện trung tâm xử lý (CPU) — Là gì? 処理の中心となる部品 (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «処理の中心となる部品» (A) không thỏa: khớp đáp án «入力装置と出力装置の機能が組み込まれている».\nB: 演算装置と制御装置の機能が組み込まれている = có ALU và control unit — Là gì? 演算装置と制御装置の機能が組み込まれている (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «演算装置と制御装置の機能が組み込まれている» (B) không thỏa: khớp đáp án «入力装置と出力装置の機能が組み込まれている».\nC: コンピュータの頭脳 = máy tính — Là gì? コンピュータの頭脳 (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «コンピュータの頭脳» (C) không thỏa: khớp đáp án «入力装置と出力装置の機能が組み込まれている».",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 726,
+      "question": "マウスやキーボードの操作方法[…]言いますか。",
+      "options": {
+        "A": "ファイルシステム",
+        "B": "マルチタスク",
+        "C": "ユーザインタフェース",
+        "D": "デバイスドライバ"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 49 · img 131",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nCách thao tác chuột/bàn phím, cách hiện cửa sổ… gọi là gì?\n\n✅ Đáp án: C — ユーザインタフェース = User interface\nGiao diện người dùng xác định cách mọi thứ được vận hành và hiển thị.\n\n❌ Các đáp án khác\nA: Device driver — không đúng với nội dung câu hỏi.\nB: Middleware — không đúng với nội dung câu hỏi.\nD: Firewall — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 727,
+      "question": "A〜Zの26種類の文字を表現する文字コードに最小限必要なビット数は幾つか。",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "4",
+        "D": "5"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 50 · img 112",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nBiểu diễn 26 chữ A–Z cần tối thiểu mấy bit?\n\n✅ Đáp án: C — 5\n2⁴=16 thiếu hụt, 2⁵=32 có thể thể hiện 26 hoặc nhiều hơn.\n\n❌ Các đáp án khác\nA: 3 — không đúng với nội dung câu hỏi.\nB: 4 — không đúng với nội dung câu hỏi.\nD: 8 — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 728,
+      "question": "ミドルウェアについて、最も正しいものはどれですか。",
+      "options": {
+        "A": "アプリケーションソフトとOSの中間的な位置付けである",
+        "B": "ブート時にOSをメモリに移動させる役割を担う",
+        "C": "アプリケーションソフトとハードウェアを直接仲介する",
+        "D": "Mac用のソフトウェアをWindowsで動作させるために使われる"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 51 · img 082",
+      "alt": null,
+      "explanation": "Đáp án theo kiến thức JIT (khớp phương án «中間»).",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 729,
+      "question": "「照会」はベトナム語で何ですか。",
+      "options": {
+        "A": "truy xuất",
+        "B": "tham chiếu",
+        "C": "chèn vào",
+        "D": "chỉ mục"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 52 · img 215",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 215 · CÂU HỎI 52",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 730,
+      "question": "測定する高さもデジタル化します。波の高さの最大値をいくつの段階として表すかを何と言いますか。",
+      "options": {
+        "A": "ビットレート",
+        "B": "サンプリング周波数",
+        "C": "量子化数",
+        "D": "解像度"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 54 · img 114",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nChia biên độ sóng thành bao nhiêu mức gọi là?\n\n✅ Đáp án: B — 量子化数 = Số lượng tử hóa\nSố giai đoạn biên độ = số lượng tử hóa.\n\n❌ Các đáp án khác\nA: Tần số lấy mẫu — không đúng với nội dung câu hỏi.\nC: Frame rate — không đúng với nội dung câu hỏi.\nD: Bitrate — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 731,
+      "question": "()とは、数値を扱う際に「基と…",
+      "options": {
+        "A": "基数",
+        "B": "真数",
+        "C": "進数",
+        "D": "奇数"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 54 · img 220",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 220 · CÂU HỎI 54",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 732,
+      "question": "音声を圧縮する際、すべての[…]",
+      "options": {
+        "A": "標本化",
+        "B": "符号化",
+        "C": "フーリエ変換",
+        "D": "量子化"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 57 · img 128",
+      "alt": null,
+      "explanation": "✅ Đáp án: A. 標本化\nNguồn ảnh zip 240 (CÂU HỎI 57 · img 128).\nĐáp án theo kiến thức JIT (bank stem).",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 733,
+      "question": "手続型プログラミング言語について正しいものをえらんでください。",
+      "options": {
+        "A": "管理の手順を与えます",
+        "B": "何をしたいか(What)を記述することで解を得る言語",
+        "C": "SQLなど目的の特化された定型的処理をする少数の言語が属します",
+        "D": "何をどうするか(How)を詳細に記述する言語"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 57 · img 143",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 143 · CÂU HỎI 57",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 734,
+      "question": "OSに「大きなメモリー空間を保護すること」は何ですか",
+      "options": {
+        "A": "プロセス",
+        "B": "ハードウェア",
+        "C": "仮想記憶",
+        "D": "メモリー"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 58 · img 235",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 235 · CÂU HỎI 58",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 735,
+      "question": "関係的表現について正しいものをえらんでください",
+      "options": {
+        "A": "複数の関係を表す表を元にデータを記述します",
+        "B": "個別の関係を表す表を元にデータを記述します",
+        "C": "表をたどって必要な情報を処理します",
+        "D": "図をたどって必要な情報を集めます"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 59 · img 206",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 206 · CÂU HỎI 59",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 736,
+      "question": "帯域が広いほどデータがどう流れますか。",
+      "options": {
+        "A": "低速に流れます",
+        "B": "きれいに流れます",
+        "C": "高速に流れます",
+        "D": "スムーズに流れます"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 60 · img 209",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 209 · CÂU HỎI 60",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 737,
+      "question": "「スワッピング」とは何ですか。",
+      "options": {
+        "A": "ハードディスクの中だけの交換",
+        "B": "メモリーとハードディスクのデータの交換",
+        "C": "仮想記憶とメモリーのデータの交換",
+        "D": "ハードディスクと仮想記憶の交換"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 61 · img 122",
+      "alt": null,
+      "explanation": "Đáp án theo kiến thức JIT (khớp phương án «ディスク»).",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 738,
+      "question": "SQLでは、射影の結果を並べ替えるには、どの条件を使いますか。",
+      "options": {
+        "A": "LIKE",
+        "B": "ORDER BY",
+        "C": "BETWEEN AND",
+        "D": "ASCEND"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 62 · img 079",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 079 · CÂU HỎI 62",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 739,
+      "question": "ハードディスクの仕組みと管理について、正しいものを選びなさい。",
+      "options": {
+        "A": "ハードディスクへの書き込み…向上に役立つ。",
+        "B": "ヘッドとディスク面は密に接触しており、これによってデータの読み書きの信頼性を高めている。",
+        "C": "同一トラック上にデータが配置されている場合、アームを動かさずに読み書きを行うことができる。"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 63 · img 039",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nPhát biểu đúng về HDD?\n\n✅ Đáp án: B — 同一トラック上にデータがあるとアームを動かす必要がなく高速に読み書きできる = Cùng track → không cần di chuyển arm, đọc/ghi nhanh\nNếu sử dụng cùng một rãnh thì không cần phải di chuyển cánh tay và tốc độ cao. Những cái đầu không chạm vào.\n\n❌ Các đáp án khác\nA: Head luôn chạm mặt đĩa — không đúng với nội dung câu hỏi.\nC: Không dùng sector — không đúng với nội dung câu hỏi.\nD: Defrag không cần — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 740,
+      "question": "「データを親子構造に並べ、この構造を順次たどることによって検索する表現法である」という表現はどの定義ですか。",
+      "options": {
+        "A": "関係的表現",
+        "B": "木構造",
+        "C": "階層的表現",
+        "D": "網的表現"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 63 · img 219",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\n【Kiến thức chuyên môn】Cụm từ nào \"tìm kiếm bằng cách sắp xếp dữ liệu vào một cấu trúc phân cấp như cha mẹ, con cái và cháu, và truy tìm dữ liệu từ cha mẹ hàng đầu\"?\n\n✅ Đáp án: C — 階層的表現 = biểu diễn phân cấp (cây)\nBiểu diễn phân cấp (cấu trúc cây) sắp xếp dữ liệu theo cấu trúc cha-con và tìm kiếm từ trên xuống (§17.2).\n\n❌ Các đáp án khác\nA: biểu diễn quan hệ (bảng) — không khớp định nghĩa/yêu cầu câu hỏi.\nB: biểu diễn dạng lưới — không khớp định nghĩa/yêu cầu câu hỏi.\nD: Trình bày đối tượng — không khớp định nghĩa/yêu cầu câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 741,
+      "question": "Java言語に関する記述として、適切なものはどれか。",
+      "options": {
+        "A": "科学技術向けに開発された言語である。",
+        "B": "事務処理向けに開発された言語である。",
+        "C": "コンピュータの機種やOSに依存しないソフトウェアが開発できる。オブジェクト指向言語である。",
+        "D": "Webページを記述するためのマークアップ言語である"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 65 · img 185",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 185 · CÂU HỎI 65",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 742,
+      "question": "ハードディスクの仕組みと管理[…]びなさい。",
+      "options": {
+        "A": "ハードディスクへの物理[…]向上に役立つ。",
+        "B": "ヘッドとディスク面は常に接しており、これによってデータの読み書き[…]",
+        "C": "同一トラック上にデータが配置されている場合、アームを[…]を行うことができる。"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI 67 · img 141",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nPhát biểu đúng về HDD?\n\n✅ Đáp án: B — 同一トラック上にデータがあるとアームを動かす必要がなく高速に読み書きできる = Cùng track → không cần di chuyển arm, đọc/ghi nhanh\nNếu sử dụng cùng một rãnh thì không cần phải di chuyển cánh tay và tốc độ cao. Những cái đầu không chạm vào.\n\n❌ Các đáp án khác\nA: Head luôn chạm mặt đĩa — không đúng với nội dung câu hỏi.\nC: Không dùng sector — không đúng với nội dung câu hỏi.\nD: Defrag không cần — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 743,
+      "question": "見かけ上の記憶容量を実際のメモリより大きく見せることで、大きなメモリ空間を確保する技術はどれか。",
+      "options": {
+        "A": "主記憶",
+        "B": "マルチタスク",
+        "C": "仮想記憶",
+        "D": "キャッシュメモリ"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI ? · img 008",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nLàm dung lượng nhớ “ảo” lớn hơn RAM thật gọi là gì?\n\n✅ Đáp án: C — Bộ nhớ ảo (仮想記憶)\nBộ nhớ ảo sử dụng ổ cứng HDD, v.v. để mở rộng bộ nhớ rõ ràng.\n\n❌ Các đáp án khác\nA: Cache — không đúng với nội dung câu hỏi.\nB: Chỉ swapping — không đúng với nội dung câu hỏi.\nD: Defrag — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 744,
+      "question": "10進数のマイナス5を、2の補数で表したものはどれになるか。",
+      "options": {
+        "A": "1111 1011",
+        "B": "11111010",
+        "C": "00000101",
+        "D": "10000101"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI ? · img 009",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\n−5 ở hệ 10, bù 2 8-bit là?\n\n✅ Đáp án: A — 11111011\n+5=00000101 → Đảo ngược 11111010 → +1 thành 11111011.\n\n❌ Các đáp án khác\nB: 11111010 — không đúng với nội dung câu hỏi.\nC: 10000101 — không đúng với nội dung câu hỏi.\nD: 00000101 — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 745,
+      "question": "デジタル画像は縦横に並んだ小さな点で構成されています。この点はなんと言いますか。",
+      "options": {
+        "A": "ピクセル",
+        "B": "ビット",
+        "C": "コード",
+        "D": "データ"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI ? · img 011",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 011 · CÂU HỎI None",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 746,
+      "question": "電源が切れないとき、データが",
+      "options": {
+        "A": "RAM",
+        "B": "GPU",
+        "C": "ROM",
+        "D": "IC"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI ? · img 021",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nTắt nguồn thì dữ liệu mất là loại nào?\n\n✅ Đáp án: D — RAM\nRAM không ổn định và dữ liệu sẽ biến mất khi tắt nguồn.\n\n❌ Các đáp án khác\nA: GPU — không đúng với nội dung câu hỏi.\nB: IC — không đúng với nội dung câu hỏi.\nC: ROM — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 747,
+      "question": "「biến điều」は英語で何ですか。",
+      "options": {
+        "A": "modulation",
+        "B": "moduleton",
+        "C": "moduraton",
+        "D": "moduletion"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI ? · img 056",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 056 · CÂU HỎI None",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 748,
+      "question": "マウスやキーボードの操作方法を何と言いますか。",
+      "options": {
+        "A": "ファイルシステム",
+        "B": "マルチタスク",
+        "C": "ユーザインタフェース",
+        "D": "デバイスドライバ"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI ? · img 161",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nCách thao tác chuột/bàn phím, cách hiện cửa sổ… gọi là gì?\n\n✅ Đáp án: C — ユーザインタフェース = User interface\nGiao diện người dùng xác định cách mọi thứ được vận hành và hiển thị.\n\n❌ Các đáp án khác\nA: Device driver — không đúng với nội dung câu hỏi.\nB: Middleware — không đúng với nội dung câu hỏi.\nD: Firewall — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 749,
+      "question": "ある音をコンピュータのファイルに記録する。符号化ビット数を16ビットにすると、正しい説明として適切なものはどれか。",
+      "options": {
+        "A": "記録できる周波数の上限が上がる。",
+        "B": "記録時間が同じ場合、データ量は少なくなる。",
+        "C": "記録したデータの加工に必要なCPUの負担は減る。",
+        "D": "音の振幅をより細かく記録できる。"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI ? · img 164",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nTăng số bit lượng tử hóa khi ghi âm thì?\n\n✅ Đáp án: B — 音の振幅をより細かく記録できる = Ghi biên độ chi tiết hơn\nSố lượng bit lượng tử hóa càng lớn thì biên độ có thể được ghi lại càng tinh vi.\n\n❌ Các đáp án khác\nA: Chỉ tăng tần số lấy mẫu — không đúng với nội dung câu hỏi.\nC: File luôn nhỏ hơn — không đúng với nội dung câu hỏi.\nD: Chỉ đổi cao độ — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 750,
+      "question": "プリンタの性能を表すとき、解像度は何といいますか。",
+      "options": {
+        "A": "bit",
+        "B": "dpi",
+        "C": "bps",
+        "D": "pixel"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI ? · img 169",
+      "alt": null,
+      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 169 · CÂU HỎI None",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 751,
+      "question": "ネットワークの形態について",
+      "options": {
+        "A": "バス型",
+        "B": "スター型",
+        "C": "リング型"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI ? · img 184",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nNhững định dạng kết nối mạng nào được sử dụng phổ biến nhất?\n\n✅ Đáp án: B — スター型 = Sao\nLoại sao là cấu hình được sử dụng phổ biến nhất để kết nối các hub và switch (§5.3).\n\n❌ Các đáp án khác\nA: Loại xe buýt — không khớp định nghĩa/yêu cầu câu hỏi.\nC: Loại vòng — không khớp định nghĩa/yêu cầu câu hỏi.\nD: Lưới — không khớp định nghĩa/yêu cầu câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 752,
+      "question": "音声を圧縮する際、すべての方式で必要でないものはどれか。",
+      "options": {
+        "A": "標本化",
+        "B": "符号化",
+        "C": "フーリエ変換",
+        "D": "量子化"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI ? · img 190",
+      "alt": null,
+      "explanation": "✅ Đáp án: A. 標本化\nNguồn ảnh zip 240 (CÂU HỎI ? · img 190).\nĐáp án theo kiến thức JIT (bank stem).",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
+      ]
+    },
+    {
+      "id": 753,
+      "question": "()とは、数値を扱う際に「基となる数」を何というか。",
+      "options": {
+        "A": "基数",
+        "B": "真数",
+        "C": "進数",
+        "D": "奇数"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Zip 240 ảnh · CÂU HỎI ? · img 197",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\n( ) là “số làm cơ sở” khi xử lý số?\n\n✅ Đáp án: A — 基数 = Cơ số (基数)\nSố cơ sở = số cơ sở (nhị phân, thập phân, v.v.).\n\n❌ Các đáp án khác\nB: Logarit — không đúng với nội dung câu hỏi.\nC: Số nguyên tố — không đúng với nội dung câu hỏi.\nD: Bội số — không đúng với nội dung câu hỏi.",
+      "source": "zip240",
+      "exam": "JIT401_ZIP240",
+      "sets": [
+        "zip240"
       ]
     }
   ]
