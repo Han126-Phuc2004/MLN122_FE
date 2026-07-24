@@ -3,7 +3,7 @@
   "use strict";
 
   /** Bump on every bank deploy so Safari/iPad cannot reuse stale JSON (GH Pages max-age=600). */
-  const DATA_VER = "20260722f";
+  const DATA_VER = "20260724c";
   const THEME_KEY = "fe_learn_theme_v1";
 
   const SUBJECTS = {
@@ -981,30 +981,58 @@
     return true;
   }
 
-  function matchesSourceFilter(q) {
-    if (sourceFilter === "all") return true;
+  function isQuizPt(q) {
+    if (!q) return false;
+    const sets = q.sets;
+    if (Array.isArray(sets) && sets.includes("quiz_pt")) return true;
+    if (q.source === "quiz_pt") return true;
+    const exam = String(q.exam || "");
+    if (exam.includes("QUIZ_PT") || exam.includes("ALBAZZZ_PT")) return true;
+    // note field used by import: "Quiz PT — albazzz..." or "Bank pt ·"
+    const note = String(q.note || "").toLowerCase();
+    if (note.includes("quiz pt") || /\bbank pt\b/.test(note) || note.includes("bank pt"))
+      return true;
+    return false;
+  }
+
+  function isExamSource(q) {
     const src = q.source || "";
     const exam = String(q.exam || "");
-    if (sourceFilter === "exam") {
-      if (src === "slides" || src === "books" || src === "albazzz") return false;
-      if (
-        exam.includes("SLIDES") ||
-        exam.includes("BOOK_") ||
-        exam.includes("ALBAZZZ")
-      )
-        return false;
-      return true;
+    if (src === "slides" || src === "books" || src === "albazzz" || src === "quiz_pt")
+      return false;
+    if (
+      exam.includes("SLIDES") ||
+      exam.includes("BOOK_") ||
+      exam.includes("ALBAZZZ") ||
+      exam.includes("QUIZ_PT")
+    )
+      return false;
+    return true;
+  }
+
+  function isSlideSource(q) {
+    // Slide / textbook bank only — Quiz PT has its own column
+    if (isQuizPt(q) && (q.source === "quiz_pt" || String(q.exam || "").includes("QUIZ_PT"))) {
+      // pure Quiz PT items (not dual-tagged slides) stay out of slide column
+      if (q.source === "quiz_pt") return false;
     }
-    if (sourceFilter === "slides") {
-      return (
-        src === "slides" ||
-        src === "books" ||
-        src === "albazzz" ||
-        exam.includes("SLIDES") ||
-        exam.includes("BOOK_") ||
-        exam.includes("ALBAZZZ")
-      );
-    }
+    const src = q.source || "";
+    const exam = String(q.exam || "");
+    return (
+      src === "slides" ||
+      src === "books" ||
+      src === "albazzz" ||
+      exam.includes("SLIDES") ||
+      exam.includes("BOOK_") ||
+      exam.includes("ALBAZZZ")
+    );
+  }
+
+  function matchesSourceFilter(q) {
+    if (sourceFilter === "all") return true;
+    if (sourceFilter === "quiz_pt") return isQuizPt(q);
+    if (sourceFilter === "exam") return isExamSource(q);
+    if (sourceFilter === "slides") return isSlideSource(q);
     return true;
   }
 
@@ -1527,9 +1555,13 @@
       console.error(lastErr);
       all = [];
       data = null;
+      updateSourceFilterVisibility();
       render();
       return;
     }
+
+    // Re-run after bank load so Quiz PT chip can count items
+    updateSourceFilterVisibility();
 
     let lastId = getCursor("all");
     rebuildQueue({ keepId: lastId, shuffle: false });
@@ -1638,28 +1670,69 @@
   function updateSourceFilterVisibility() {
     const el = document.getElementById("sourceFilters");
     if (!el) return;
-    // multi-source: PRM (FE+slides), JIT (FE+slides), JFE (FE+textbooks)
+    // multi-source: PRM (FE+slides), JIT (FE | Slide | Quiz PT), JFE (FE+textbooks)
     const show =
       subjectId === "prm393" || subjectId === "jit401" || subjectId === "jfe301";
     el.hidden = !show;
+    el.style.display = show ? "flex" : "none";
     if (!show) sourceFilter = "all";
+
+    const allChip = el.querySelector('[data-source="all"]');
     const examChip = el.querySelector('[data-source="exam"]');
     const slideChip = el.querySelector('[data-source="slides"]');
-    if (examChip) {
-      examChip.textContent =
-        subjectId === "prm393"
-          ? "2 đề FE"
-          : subjectId === "jit401"
-            ? "1 đề FE"
-            : "1 đề FE";
+    const ptChip =
+      document.getElementById("chipQuizPt") ||
+      el.querySelector('[data-source="quiz_pt"]');
+    const bank = Array.isArray(all) ? all : [];
+
+    const nAll = bank.length;
+    const nExam = bank.filter((q) => isExamSource(q)).length;
+    const nSlide = bank.filter((q) => isSlideSource(q)).length;
+    let nPt = bank.filter((q) => isQuizPt(q)).length;
+    // fallback: breakdown from JSON if sets field missing (old cache)
+    if (!nPt && data && data.breakdown && data.breakdown.quiz_pt) {
+      nPt = Number(data.breakdown.quiz_pt) || 0;
     }
+
+    if (allChip) {
+      allChip.textContent = nAll ? `Tất cả (${nAll})` : "Tất cả";
+    }
+
+    if (examChip) {
+      if (subjectId === "prm393") {
+        examChip.textContent = nExam ? `2 đề FE (${nExam})` : "2 đề FE";
+      } else {
+        examChip.textContent = nExam ? `Đề FE (${nExam})` : "Đề FE";
+      }
+    }
+
     if (slideChip) {
-      slideChip.textContent =
-        subjectId === "jfe301"
-          ? "Ôn thêm (textbook + bank)"
-          : subjectId === "jit401"
-            ? "Ôn thêm (slide + bank)"
-            : "Slide ôn";
+      if (subjectId === "jfe301") {
+        slideChip.textContent = nSlide
+          ? `Ôn thêm (${nSlide})`
+          : "Ôn thêm (textbook)";
+      } else if (subjectId === "jit401") {
+        slideChip.textContent = nSlide ? `Slide ôn (${nSlide})` : "Slide ôn";
+      } else {
+        slideChip.textContent = nSlide ? `Slide ôn (${nSlide})` : "Slide ôn";
+      }
+    }
+
+    // Quiz PT column — always visible for JIT401 (full-width source bar)
+    if (ptChip) {
+      const showPt = subjectId === "jit401";
+      ptChip.hidden = !showPt;
+      ptChip.style.display = showPt ? "" : "none";
+      if (showPt) {
+        ptChip.textContent = nPt > 0 ? `Quiz PT (${nPt})` : "Quiz PT";
+        ptChip.setAttribute("title", nPt > 0 ? `${nPt} câu Quiz PT` : "Quiz PT JIT401");
+      }
+      if (!showPt && sourceFilter === "quiz_pt") {
+        sourceFilter = "all";
+        el.querySelectorAll(".chip[data-source]").forEach((c) => {
+          c.classList.toggle("active", c.dataset.source === "all");
+        });
+      }
     }
   }
 

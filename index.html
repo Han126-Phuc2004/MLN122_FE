@@ -23,7 +23,7 @@
       } catch (e) {}
     })();
   </script>
-  <link rel="stylesheet" href="style.css?v=20260721d" />
+  <link rel="stylesheet" href="style.css?v=20260724c" />
 </head>
 <body>
   <div class="app">
@@ -71,12 +71,16 @@
               <button type="button" class="chip" data-filter="unseen">Chưa</button>
               <button type="button" class="chip" data-filter="star">★</button>
             </div>
-            <div class="filters source-filters" id="sourceFilters" hidden>
-              <button type="button" class="chip active" data-source="all">Tất cả</button>
-              <button type="button" class="chip" data-source="exam">Đề FE</button>
-              <button type="button" class="chip" data-source="slides">Ôn thêm</button>
-            </div>
           </div>
+        </div>
+
+        <!-- Hàng nguồn riêng (full width) — Quiz PT không bị chèn/ẩn trong toolbar -->
+        <div class="source-bar filters source-filters" id="sourceFilters" hidden>
+          <span class="source-label" id="sourceLabel">Nguồn</span>
+          <button type="button" class="chip active" data-source="all">Tất cả</button>
+          <button type="button" class="chip" data-source="exam">Đề FE</button>
+          <button type="button" class="chip" data-source="slides">Ôn thêm</button>
+          <button type="button" class="chip chip-pt" data-source="quiz_pt" id="chipQuizPt">Quiz PT</button>
         </div>
 
         <article class="exam-card" id="examCard">
@@ -164,6 +168,6 @@
     </div>
   </div>
 
-  <script src="app.js?v=20260722e"></script>
+  <script src="app.js?v=20260724c"></script>
 </body>
 </html>

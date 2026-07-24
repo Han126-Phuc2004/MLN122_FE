@@ -325,9 +325,65 @@ html.dark .chip.active {
   color: #0f172a;
 }
 
+/* Full-width source row under toolbar — always easy to see */
+.source-bar,
+.source-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--card);
+  margin: 0 0 10px;
+}
+
+.source-filters .source-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--muted);
+  padding: 0 4px 0 2px;
+  white-space: nowrap;
+}
+
+.source-filters .chip {
+  border-radius: 999px;
+  padding: 7px 14px;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
 .source-filters .chip.active {
   background: #7c3aed;
   border-color: #7c3aed;
+  color: #fff;
+}
+
+html.dark .source-filters .chip.active {
+  color: #fff;
+}
+
+/* Quiz PT column — teal so it stands apart */
+.source-filters .chip-pt {
+  border-color: #14b8a6;
+  color: #0f766e;
+  font-weight: 700;
+}
+
+html.dark .source-filters .chip-pt {
+  border-color: #2dd4bf;
+  color: #5eead4;
+}
+
+.source-filters .chip-pt:not(.active):hover {
+  background: rgba(13, 148, 136, 0.12);
+}
+
+.source-filters .chip-pt.active {
+  background: #0d9488;
+  border-color: #0d9488;
+  color: #fff;
 }
 
 /* Buttons */

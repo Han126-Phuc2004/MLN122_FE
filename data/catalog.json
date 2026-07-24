@@ -28,9 +28,9 @@
     {
       "id": "jit401",
       "code": "JIT401",
-      "name": "日本語 IT (FE + slide + ôn thêm)",
+      "name": "日本語 IT (FE + slide + Quiz PT)",
       "file": "data/jit401.json",
-      "total": 623,
+      "total": 627,
       "color": "#dc2626"
     }
   ],
