@@ -3669,7 +3669,7 @@
       "choose": 1,
       "note": "Bank pt · chương 13,17,20 · Thảo Nguyên 5 zip",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nKý hiệu 「#」 đọc như thế nào?\n\n✅ Đáp án: A — Sharp (シャープ)\nKý hiệu \"#\" thường được đọc là sắc nét trong tiếng Nhật.\n\n❌ Các đáp án khác\nB: Hash — không đúng với nội dung câu hỏi.\nC: Pound — không đúng với nội dung câu hỏi.\nD: Number — không đúng với nội dung câu hỏi.",
+      "explanation": "✅ Đáp án: B — シャープ\nKý hiệu # đọc là シャープ (sharp). Không phải $ (dollar), ! hay ~.",
       "source": "slides",
       "exam": "JIT401_SLIDES_CH13",
       "sets": [
@@ -3809,7 +3809,7 @@
       "choose": 1,
       "note": "Bank pt · chương 3,4,10,19 · Thảo Nguyên img 014",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nMô tả đúng về parity check dọc?\n\n✅ Đáp án: B — 1ビットの誤りを検出できる = Phát hiện được lỗi 1 bit\nTính chẵn lẻ đơn giản chủ yếu có thể phát hiện một số lỗi lẻ (thường là 1 bit).\n\n❌ Các đáp án khác\nA: Sửa được mọi bit lỗi — không đúng với nội dung câu hỏi.\nC: Luôn phát hiện lỗi 2 bit — không đúng với nội dung câu hỏi.\nD: Không phát hiện/sửa được — không đúng với nội dung câu hỏi.",
+      "explanation": "✅ Đáp án: C — 1ビットの誤りを検出できる\nParity dọc (vertical): phát hiện lỗi 1 bit (số bit lỗi lẻ). Không sửa lỗi; không chỉ odd/even một bên.",
       "source": "slides",
       "exam": "JIT401_SLIDES_CH3",
       "sets": [
@@ -4228,7 +4228,7 @@
       "choose": 1,
       "note": "Bank pt · chương 1 · Thảo Nguyên img 164",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nTăng số bit lượng tử hóa khi ghi âm thì?\n\n✅ Đáp án: B — 音の振幅をより細かく記録できる = Ghi biên độ chi tiết hơn\nSố lượng bit lượng tử hóa càng lớn thì biên độ có thể được ghi lại càng tinh vi.\n\n❌ Các đáp án khác\nA: Chỉ tăng tần số lấy mẫu — không đúng với nội dung câu hỏi.\nC: File luôn nhỏ hơn — không đúng với nội dung câu hỏi.\nD: Chỉ đổi cao độ — không đúng với nội dung câu hỏi.",
+      "explanation": "✅ Đáp án: C — 音の振幅をより細かく記録できる\nTăng bit lượng tử hóa (8→16) → ghi biên độ chi tiết hơn. Tần số max phụ thuộc sampling rate, không phụ thuộc bit depth.",
       "source": "slides",
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
@@ -4555,7 +4555,7 @@
       "choose": 1,
       "note": "Bank pt · chương 16 · Thảo Nguyên img 039",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nChia biên độ sóng thành bao nhiêu mức gọi là?\n\n✅ Đáp án: B — 量子化数 = Số lượng tử hóa\nSố giai đoạn biên độ = số lượng tử hóa.\n\n❌ Các đáp án khác\nA: Tần số lấy mẫu — không đúng với nội dung câu hỏi.\nC: Frame rate — không đúng với nội dung câu hỏi.\nD: Bitrate — không đúng với nội dung câu hỏi.",
+      "explanation": "✅ Đáp án: C — ①量子化数；②音質\nSố mức lượng tử hóa càng lớn → số hóa biên độ mịn hơn → chất lượng âm tốt hơn.",
       "source": "slides",
       "exam": "JIT401_SLIDES_CH16",
       "sets": [
@@ -4698,7 +4698,7 @@
       "choose": 1,
       "note": "Bank pt · chương 3 · Thảo Nguyên img 086",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nKhác biệt Freeware / Shareware — chọn đúng?\n\n✅ Đáp án: B — シェアウェアは無料で入手できるが、継続使用に登録と料金が必要な場合がある = Shareware tải miễn phí nhưng dùng lâu có thể cần đăng ký/trả phí\nPhần mềm chia sẻ có thể yêu cầu đăng ký và trả phí sau khi sử dụng thử.\n\n❌ Các đáp án khác\nA: Cả hai luôn trả phí — không đúng với nội dung câu hỏi.\nC: Freeware luôn open source — không đúng với nội dung câu hỏi.\nD: Shareware cấm thương mại theo định nghĩa — không đúng với nội dung câu hỏi.",
+      "explanation": "✅ Đáp án: C — シェアウェアは無料で入手できるが、継続使用に登録・料金が必要な場合がある\nShareware: dùng thử miễn phí, dùng lâu có thể phải trả. Freeware: miễn phí (không đảo ngược như A/B/D).",
       "source": "slides",
       "exam": "JIT401_SLIDES_CH3",
       "sets": [
@@ -4746,7 +4746,7 @@
       "choose": 1,
       "note": "Bank pt · chương 11 · Thảo Nguyên img 001",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nPhát biểu đúng về mạch AND?\n\n✅ Đáp án: B — スイッチが直列に並んだ回路としてモデル化される = Mô hình công tắc nối tiếp\nAND là một công tắc nối tiếp. Đầu ra BẬT khi cả hai đều BẬT.\n\n❌ Các đáp án khác\nA: Công tắc song song — không đúng với nội dung câu hỏi.\nC: Một ON là ra ON — không đúng với nội dung câu hỏi.\nD: Đảo input — không đúng với nội dung câu hỏi.",
+      "explanation": "✅ Đáp án: C — スイッチが直列に並んだ回路としてモデル化されます\nAND = công tắc nối tiếp (cả hai ON mới ra ON). Song song = OR; 論理和 = OR không phải AND.",
       "source": "slides",
       "exam": "JIT401_SLIDES_CH11",
       "sets": [
@@ -4962,7 +4962,7 @@
       "choose": 1,
       "note": "Bank pt · chương 1,9 · Thảo Nguyên img 195",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nĐể tránh nhiễm virus nên làm gì?\n\n✅ Đáp án: B — 常に最新版に更新されるブラウザを使う = Dùng browser luôn cập nhật\nCác biện pháp an toàn như luôn cập nhật trình duyệt của bạn là rất quan trọng. Không mở các phần mở rộng nguy hiểm.\n\n❌ Các đáp án khác\nA: Password chỉ tên/số — không đúng với nội dung câu hỏi.\nC: Giữ browser cũ — không đúng với nội dung câu hỏi.\nD: Mở ngay file .exe/.vbs… — không đúng với nội dung câu hỏi.",
+      "explanation": "✅ Đáp án: C — 常に最新版に更新されるブラウザを使います\nTránh virus: browser/OS cập nhật; không mở file đính kèm nguy hiểm; password không dùng từ dễ đoán.",
       "source": "slides",
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
@@ -12617,7 +12617,7 @@
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 4 · img 130",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nProxy server tiếng Việt là gì?\n\n✅ Đáp án: D — Máy chủ trung gian\nProxy = Tiếp sức/Phó → máy chủ trung gian.\n\n❌ Các đáp án khác\nA: Web server — không đúng với nội dung câu hỏi.\nB: Mail server — không đúng với nội dung câu hỏi.\nC: DNS server — không đúng với nội dung câu hỏi.",
+      "explanation": "✅ Đáp án: A — máy chủ trung gian\nProxy server = máy chủ trung gian (ủy quyền/relay).",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -12640,7 +12640,7 @@
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 5 · img 013",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nMã JIS biểu diễn số ( ) bit, chia từng cụm ( ) bit.\n\n✅ Đáp án: B — 16 - 8\nMã JIS xử lý 16 bit được chia thành 8 bit mỗi bit.\n\n❌ Các đáp án khác\nA: 8 - 4 — không đúng với nội dung câu hỏi.\nC: 32 - 16 — không đúng với nội dung câu hỏi.\nD: 16 - 4 — không đúng với nội dung câu hỏi.",
+      "explanation": "✅ Đáp án: A — 16-8\nJIS: biểu diễn 16 bit, thường tách mỗi 8 bit.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13031,7 +13031,7 @@
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 15 · img 125",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\n【Thuật ngữ】Dịch sang tiếng Nhật: Cấu trúc hình cây\n\n✅ Đáp án: A — 木構造 / ツリー構造\nCây = 木 / tree. Cấu trúc hình cây = 木構造（ツリー構造）.\n\n❌ Các đáp án khác\nB list tuyến tính. C hash. D chỉ đồ thị vô hướng — không đúng nghĩa «cây».",
+      "explanation": "✅ Đáp án: C — 木構造\ncấu trúc hình cây = 木構造 (tree structure).",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13399,7 +13399,7 @@
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 31 · img 005",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nĐơn vị độ phân giải máy in (số chấm) là gì?\n\n✅ Đáp án: B — dpi\nĐơn vị độ phân giải của máy in là dpi (dots per inch).\n\n❌ Các đáp án khác\nA: bps — không đúng với nội dung câu hỏi.\nC: Hz — không đúng với nội dung câu hỏi.\nD: fps — không đúng với nội dung câu hỏi.",
+      "explanation": "✅ Đáp án: A — dpi\nĐộ phân giải scanner/printer = dpi (dots per inch).",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13629,7 +13629,7 @@
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 38 · img 135 · Thảo Nguyên 5 zip",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\n「Giai thừa」 viết/đọc kanji tiếng Nhật thế nào?\n\n✅ Đáp án: A — 階乗（かいじょう） = 階乗 (kaijou)\ngiai thừa = giai thừa.\n\n❌ Các đáp án khác\nB: 乗算 — không đúng với nội dung câu hỏi.\nC: 因数 — không đúng với nội dung câu hỏi.\nD: 累乗 — không đúng với nội dung câu hỏi.",
+      "explanation": "✅ Đáp án: B — 階乗 - かいじょう\ngiai thừa = 階乗（かいじょう）.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13905,7 +13905,7 @@
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 50 · img 112",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nBiểu diễn 26 chữ A–Z cần tối thiểu mấy bit?\n\n✅ Đáp án: C — 5\n2⁴=16 thiếu hụt, 2⁵=32 có thể thể hiện 26 hoặc nhiều hơn.\n\n❌ Các đáp án khác\nA: 3 — không đúng với nội dung câu hỏi.\nB: 4 — không đúng với nội dung câu hỏi.\nD: 8 — không đúng với nội dung câu hỏi.",
+      "explanation": "✅ Đáp án: D — 5\n26 chữ cái: 2⁴=16 thiếu, 2⁵=32 đủ → tối thiểu 5 bit.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
