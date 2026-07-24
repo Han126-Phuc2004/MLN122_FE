@@ -484,10 +484,10 @@
       "id": 25,
       "question": "転置式の暗号化について正しいものをえらんでください。",
       "options": {
-        "A": "1秒あたりの波（音）の高さの測定回数を表します",
-        "B": "1 kHz=10,000Hz",
-        "C": "1分あたりの波（音）の高さの測定回数を表します",
-        "D": "1 kHz=100Hz"
+        "A": "文字の並び順を入れ替えて暗号化する方式である",
+        "B": "1秒あたりの波（音）の高さの測定回数を表す",
+        "C": "公開鍵と秘密鍵のペアを用いる現代暗号のみを指す",
+        "D": "データを圧縮してから必ず削除する方式である"
       },
       "answers": [
         "A"
@@ -495,7 +495,7 @@
       "choose": 1,
       "note": "Đề FE FuExam (options ảnh → dựng lại để ôn). · Thảo Nguyên 5 zip",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nVề mã hóa kiểu transposition (転置), câu nào đúng?\n\n✅ Đáp án: A — Đổi thứ tự sắp xếp ký tự để mã hóa\n転置暗号 = transposition: giữ ký tự, xáo thứ tự (vd. viết theo cột). Khác 置換 (substitution: thay chữ bằng chữ khác).\n\n❌ Các đáp án khác\nB mô tả mơ hồ/sai. C là mật mã khóa công khai. D nén ≠ mã hóa.",
+      "explanation": "✅ Đáp án: A — 文字の並び順を入れ替えて暗号化する方式\n転置式暗号 (transposition): giữ ký tự, đổi thứ tự sắp xếp.\nKhác 置換 (thay ký tự). B là định nghĩa sampling rate — không liên quan mã hóa.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE",
       "sets": [
@@ -2643,12 +2643,12 @@
         "D": "OR回路の演算のことを論理積と言います"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "choose": 1,
       "note": "Bank main · Thảo Nguyên 5 zip",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nCó được thông tin chính xác về mạch OR.\n\n✅ Đáp án: C — スイッチが並列に並んだ回路としてモデル化されます\nĐáp án đúng là C. Được mô hình hóa như một mạch điện có các công tắc được bố trí song song\n\n❌ Các đáp án khác\nA: mạch các công tắc nối tiếp — không khớp định nghĩa/yêu cầu câu hỏi.\nB: chỉ khi cả hai công tắc ON thì ngõ ra ON — không khớp định nghĩa/yêu cầu câu hỏi.\nD: Mạch đơn giản với một công tắc — không khớp định nghĩa/yêu cầu câu hỏi.",
+      "explanation": "✅ Đáp án: A — スイッチが並列に並んだ回路としてモデル化されます\nMạch OR mô hình hóa bằng công tắc song song (1 trong 2 ON → ra ON).\nMột diode không đủ cho OR 2 ngõ; 論理積 = AND (sai).",
       "source": "slides",
       "exam": "JIT401_SLIDES_M5",
       "sets": [
@@ -5071,7 +5071,7 @@
       "question": "「số nguyên tố」は日本語で何ですか。",
       "options": {
         "A": "かんすう",
-        "B": "そいんすう",
+        "B": "そすう",
         "C": "にんすう",
         "D": "らんすう"
       },
@@ -5081,7 +5081,7 @@
       "choose": 1,
       "note": "Bank pt",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nTừ tiếng Nhật cho \"sư nguyên tư\" là gì?\n\n✅ Đáp án: B — そいんすう = Sớm\nĐáp án đúng là B. Thông tin\n\n❌ Các đáp án khác\nA: Kansu — không đúng với nội dung câu hỏi.\nC: Ninsuu — không đúng với nội dung câu hỏi.\nD: RANSU — không đúng với nội dung câu hỏi.",
+      "explanation": "✅ Đáp án: B — そすう（素数）\n số nguyên tố = 素数 = そすう. 素因数(そいんすう) là thừa số nguyên tố — khác nghĩa.",
       "source": "slides",
       "exam": "JIT401_SLIDES_M4",
       "sets": [
@@ -12497,12 +12497,12 @@
         "D": "安定に高速な通信が実現できません"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 1 · img 071",
       "alt": null,
-      "explanation": "Đáp án theo kiến thức JIT (khớp phương án «光ファイバ»).",
+      "explanation": "✅ Đáp án: C — 専用の光ファイバなのでノイズの影響を受けにくい\nFTTH dùng cáp quang riêng → chịu nhiễu tốt hơn ADSL (cặp đồng).",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -12525,7 +12525,7 @@
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 1 · img 238",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 238 · CÂU HỎI 1",
+      "explanation": "✅ Đáp án: A — ワイルドカード\nTrong SQL, % là ký tự đại diện (wildcard) trong LIKE.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -12548,7 +12548,7 @@
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 2 · img 041",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 041 · CÂU HỎI 2",
+      "explanation": "✅ Đáp án: A — 括弧で優先順位を明示的に変更できる\nNgoặc có độ ưu tiên cao nhất. B: không phải mọi ngôn ngữ đều làm tròn 7/2→3. D: * / ưu tiên hơn + -.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -12566,12 +12566,12 @@
         "D": "情報隠蔽"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 3 · img 113",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 113 · CÂU HỎI 3",
+      "explanation": "✅ Đáp án: B — 情報端末\nthiết bị đầu cuối = terminal = 情報端末. 情報週末 là chữ sai/OCR.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -12589,12 +12589,12 @@
         "D": "しゅうごえんざん"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 4 · img 120",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 120 · CÂU HỎI 4",
+      "explanation": "✅ Đáp án: B — しゅうごうえんざん\n集合(しゅうごう) + 演算(えんざん). Không phải えんさん.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -12658,12 +12658,12 @@
         "D": "chỉ số cố định"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 5 · img 180",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 180 · CÂU HỎI 5",
+      "explanation": "✅ Đáp án: C — chỉ số dưới\n添字 = subscript (chỉ số dưới), không phải chỉ số trên.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -12704,12 +12704,12 @@
         "D": "aがb以下"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 6 · img 178",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 178 · CÂU HỎI 6",
+      "explanation": "✅ Đáp án: C — aがb以上\n>= là lớn hơn hoặc bằng (以上). より大きい chỉ là >.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -12727,12 +12727,12 @@
         "D": "問題解決のための処理過程を記述するプログラミング言語"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 7 · img 170",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 170 · CÂU HỎI 7",
+      "explanation": "✅ Đáp án: D — 問題解決のための処理過程を記述するプログラミング言語\nNgôn ngữ thủ tục mô tả quá trình (How) để giải quyết bài toán.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -12750,12 +12750,12 @@
         "D": "スター型では、ハブをカスケード状に接続してコンピュータ台数を増やすことができない。"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 8 · img 002",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nPhát biểu nào ĐÚNG về hình thái mạng?\n\n✅ Đáp án: A — リング型は、データが隣接するノードを順次伝送され、一部のコンピュータが故障すると通信に支障が出る可能性がある = Ring: truyền tuần tự; 1 máy hỏng có thể ảnh hưởng\nVì loại vòng truyền dữ liệu tuần tự đến các đơn vị lân cận nên dễ bị lỗi hơn.\n\n❌ Các đáp án khác\nB: Star = 1 cáp chung — không đúng với nội dung câu hỏi.\nC: Bus = hub trung tâm — không đúng với nội dung câu hỏi.\nD: Ring ít bị ảnh hưởng hỏng hóc nhất — không đúng với nội dung câu hỏi.",
+      "explanation": "✅ Đáp án: C — リング型は、データが隣接するコンピュータへ順次転送され…\nBus không phải vòng và vẫn có va chạm; star dùng hub; ring: tuần tự, 1 máy hỏng ảnh hưởng.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -12773,12 +12773,12 @@
         "D": "ドメイン名紛争は解決したため、現在ではSEOやSEMよりもドメイン名そのものが重視されている。"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 9 · img 016",
       "alt": null,
-      "explanation": "Đáp án theo kiến thức JIT (khớp phương án «DNS»).",
+      "explanation": "✅ Đáp án: A — ドメイン名はIPアドレスよりも覚えやすく…\nDomain dễ nhớ hơn IP. .com không phải domain Nhật (.jp). DNS cũng chuyển domain→IP (C cũng đúng về DNS) nhưng A là phát biểu chuẩn hay gặp.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -12796,12 +12796,12 @@
         "D": "bannhac テーブルから、Aid が1である行の Mid と Aid を抽出する。"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 10 · img 007",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 007 · CÂU HỎI 10",
+      "explanation": "✅ Đáp án: B — bannhac から Aid=1 の Mid と TenBN を抽出\nSELECT Mid, TenBN WHERE Aid=1 → chỉ các dòng Aid=1, cột Mid & TenBN.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -12819,12 +12819,12 @@
         "D": "数値化された量のこと"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 10 · img 199",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 199 · CÂU HỎI 10",
+      "explanation": "✅ Đáp án: C — 連続的な量のこと\nAnalog = đại lượng liên tục (連続的な量). 数値化 = digital.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -12870,7 +12870,7 @@
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 11 · img 134",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 134 · CÂU HỎI 11",
+      "explanation": "✅ Đáp án: A — 合併\nOR trong thao tác tập hợp/điều kiện DB ≈ hợp (合併/和).",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -12888,12 +12888,12 @@
         "D": "重要な情報端末"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 11 · img 175",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 175 · CÂU HỎI 11",
+      "explanation": "✅ Đáp án: B — 重要な情報\nMáy server lưu thông tin quan trọng (dữ liệu/dịch vụ cung cấp).",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -12934,12 +12934,12 @@
         "D": "ホームページアドレスやメールアドレスとして使われます"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 12 · img 084",
       "alt": null,
-      "explanation": "✅ Đáp án: A. サーバに対するセキュリティを保つ構成\nNguồn ảnh zip 240 (CÂU HỎI 12 · img 084).\nĐáp án theo kiến thức JIT (bank stem).",
+      "explanation": "✅ Đáp án: C — ネットワーク層のIPプロトコルに従って番号が割り当てられています\nIP là địa chỉ tầng mạng. Không phải firewall, không phải định nghĩa protocol chung, không phải URL/email.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -12957,12 +12957,12 @@
         "D": "(\"札幌\"OR\"函館\")AND\"日本料理\""
       },
       "answers": [
-        "A"
+        "D"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 12 · img 106",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 106 · CÂU HỎI 12",
+      "explanation": "✅ Đáp án: D — (\"札幌\"OR\"函館\")AND\"日本料理\"\nNhà hàng Nhật ở Sapporo hoặc Hakodate: OR hai thành phố, AND món Nhật.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13003,12 +13003,12 @@
         "D": "JPEG"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 14 · img 127",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nNén video/âm thanh tiêu biểu là?\n\n✅ Đáp án: C — MPEG\nMPEG là điển hình cho hình ảnh và âm thanh chuyển động. JPEG/GIF chủ yếu là ảnh tĩnh.\n\n❌ Các đáp án khác\nA: JPEG — không đúng với nội dung câu hỏi.\nB: GIF — không đúng với nội dung câu hỏi.\nD: BMP — không đúng với nội dung câu hỏi.",
+      "explanation": "✅ Đáp án: B — GIF\nẢnh tĩnh tối đa 256 màu: GIF. MPEG là video; JPEG nhiều màu; MIDI là nhạc.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13049,12 +13049,12 @@
         "D": "100%"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 15 · img 137",
       "alt": null,
-      "explanation": "✅ Đáp án: A. 75%\nNguồn ảnh zip 240 (CÂU HỎI 15 · img 137).\nĐáp án theo kiến thức JIT (bank stem).",
+      "explanation": "✅ Đáp án: D — 100%\nMỗi hàng BBWW→B2W2 (4 ký tự), WWBB→W2B2 (4). 4 hàng = 16 ký tự / 16 pixel gốc = 100%\n(theo cách tính ví dụ 24÷16=150% trong đề).",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13072,12 +13072,12 @@
         "D": "「商品コード」「商品名」[単価]「商品カテゴリコード」「仕入先コード」"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 15 · img 228",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 228 · CÂU HỎI 15",
+      "explanation": "✅ Đáp án: D — 商品コード・商品名・単価・商品カテゴリコード・仕入先コード\nBảng商品 đã có FK category + supplier; join giữ các khóa đó.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13123,7 +13123,7 @@
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 19 · img 126",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 126 · CÂU HỎI 19",
+      "explanation": "✅ Đáp án: A — b,c\na SAI: machine/assembly phụ thuộc CPU. b,c đúng về compiler & high-level language.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13146,7 +13146,7 @@
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 20 · img 208",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 208 · CÂU HỎI 20",
+      "explanation": "✅ Đáp án: A — 17世紀\nMáy tính cơ khí bánh răng (Pascal, Leibniz…) khoảng thế kỷ 17.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13164,12 +13164,12 @@
         "D": "データ通信が高速になりました"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 21 · img 182",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 182 · CÂU HỎI 21",
+      "explanation": "✅ Đáp án: C — 音質が向上し，秘話性能も考慮されるようになりました\n2G: số hóa, chất lượng thoại & bảo mật tốt hơn 1G. App mượt là 3G/smartphone.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13187,12 +13187,12 @@
         "D": "新規の技術に関する権利"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 22 · img 217",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 217 · CÂU HỎI 22",
+      "explanation": "✅ Đáp án: B — 製品のデザインに関する権利\n意匠権 = quyền kiểu dáng công nghiệp. A là quyền nhân thân tác giả (著作者人格権).",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13210,12 +13210,12 @@
         "D": "電話局から家庭までの距離が長くなるほど、ノイズの影響を受けて通信速度が低下しやすくなる。"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 23 · img 092",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 092 · CÂU HỎI 23",
+      "explanation": "✅ Đáp án: D — 電話局から家庭までの距離が長くなるほど…速度が低下\nADSL dùng đường điện thoại; khoảng cách tăng → nhiễu tăng, tốc độ giảm. Không phải dedicated line.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13279,12 +13279,12 @@
         "D": "クライアントサーバシステムでは、1台のコンピュータが複数種類のサーバ機能を兼ねる場合もある。"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 27 · img 030",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nHãy chọn phát biểu ĐÚNG về “hệ thống xử lý phân tán”.\n\n✅ Đáp án: B — 処理を複数のコンピュータで分散して管理する = Phân phối và quản lý xử lý trên nhiều máy tính\nHệ thống xử lý phân tán chia sẻ việc xử lý giữa nhiều máy tính. Điều này cũng bao gồm P2P (§5.4).\n\n❌ Các đáp án khác\nA: Máy tính trung tâm quản lý tất cả quá trình xử lý — không khớp định nghĩa/yêu cầu câu hỏi.\nC: 1 máy tính đang hoạt động — không khớp định nghĩa/yêu cầu câu hỏi.\nD: Hệ thống chuyên dụng trên Internet — không khớp định nghĩa/yêu cầu câu hỏi.",
+      "explanation": "✅ Đáp án: C — ピアツーピアはサーバ/クライアントを明確に分けた構成である（SAI）\nCâu hỏi chọn phát biểu SAI. P2P không tách server/client rõ; client-server mới tách.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13307,7 +13307,7 @@
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 27 · img 101",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 101 · CÂU HỎI 27",
+      "explanation": "✅ Đáp án: A — Unicode\nBảng mã gán dãy 0/1 cho chữ; Unicode thống nhất đa ngôn ngữ. JPEG/MIDI không phải character code.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13353,7 +13353,7 @@
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 28 · img 086",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 086 · CÂU HỎI 28",
+      "explanation": "✅ Đáp án: A — 光ファイバーで家庭まで…ラストワンマイル\nFTTH = Fiber To The Home, giải last-mile bằng quang tới nhà.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13371,12 +13371,12 @@
         "D": "少なくなります"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 29 · img 088",
       "alt": null,
-      "explanation": "✅ Đáp án: A. 広くなります\nNguồn ảnh zip 240 (CÂU HỎI 29 · img 088).\nĐáp án theo kiến thức JIT (bank stem).",
+      "explanation": "✅ Đáp án: C — 多くなります\nSố mức lượng tử hóa tăng → chi tiết biên độ tăng → lượng tin tăng. 広く không đúng.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13445,7 +13445,7 @@
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 31 · img 214",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 214 · CÂU HỎI 31",
+      "explanation": "✅ Đáp án: A — định dạng tập tin\nRSS = feed/syndication format (định dạng chia sẻ nội dung).",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13463,12 +13463,12 @@
         "D": "指数関数"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 32 · img 020",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 020 · CÂU HỎI 32",
+      "explanation": "✅ Đáp án: D — 指数関数\nhàm số mũ = exponential = 指数関数. 対数関数 là log (ngược).",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13486,12 +13486,12 @@
         "D": "ソフトウェアの作成を管理します"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 34 · img 115",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 115 · CÂU HỎI 34",
+      "explanation": "✅ Đáp án: B — ソフトウェアの処理を管理します\nプロセス管理 = quản lý tiến trình/xử lý phần mềm. Không phải UI (操作性).",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13509,12 +13509,12 @@
         "D": "ファイルの入れ物で、広義にはメモリのように一時的にデータを保持するもの。"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 34 · img 239",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 239 · CÂU HỎI 34",
+      "explanation": "✅ Đáp án: B — ファイル名のピリオド右側の文字列（属性・内容）\n拡張子 = phần mở rộng file. A mô tả bộ nhớ ngoài.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13532,12 +13532,12 @@
         "D": "メモリの種類"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 35 · img 132",
       "alt": null,
-      "explanation": "✅ Đáp án: A. ハードディスクの容量\nNguồn ảnh zip 240 (CÂU HỎI 35 · img 132).\nĐáp án theo kiến thức JIT (bank stem).",
+      "explanation": "✅ Đáp án: B — ソフトウェアの処理\nProcess = đơn vị xử lý phần mềm đang chạy, không phải dung lượng HDD.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13560,7 +13560,7 @@
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 35 · img 195",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 195 · CÂU HỎI 35",
+      "explanation": "✅ Đáp án: A — DMZに重要情報を置かない\nDMZ public-facing: không đặt dữ liệu mật. Firewall cần cấu hình đúng.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13583,7 +13583,7 @@
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 35 · img 227",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 227 · CÂU HỎI 35",
+      "explanation": "✅ Đáp án: A — きれいになります\nNhiều pixel hơn → ảnh mịn/sắc nét hơn, ít răng cưa.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13601,12 +13601,12 @@
         "D": "文字列"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 37 · img 218",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 218 · CÂU HỎI 37",
+      "explanation": "✅ Đáp án: D — 文字列\nchuỗi ký tự = string = 文字列.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13647,12 +13647,12 @@
         "D": "液晶ディスプレイと同様に、バックライトの光を透過・遮断することで表示を行うため、バックライトが必須である。"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 40 · img 121",
       "alt": null,
-      "explanation": "Đáp án theo kiến thức JIT (khớp phương án «バックライト»).",
+      "explanation": "✅ Đáp án: B — 有機物の発光体を用いて自ら光る…\nOLED tự phát sáng, thường tiết kiệm điện/sáng hơn LCD. D mô tả LCD (cần backlight) — sai cho OLED.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13670,12 +13670,12 @@
         "D": "制御"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 40 · img 142",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 142 · CÂU HỎI 40",
+      "explanation": "✅ Đáp án: D — 制御\nMã xuống dòng thuộc 制御コード (control code); khác nhau giữa Windows/Mac/Unix.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13698,7 +13698,7 @@
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 41 · img 157",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 157 · CÂU HỎI 41",
+      "explanation": "✅ Đáp án: A — 注釈\n// là comment (chú thích) trong nhiều ngôn ngữ (C/Java/JS…).",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13716,12 +13716,12 @@
         "D": "CPUの機能"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 42 · img 224",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 224 · CÂU HỎI 42",
+      "explanation": "✅ Đáp án: C — ハードウェアの相違を吸収します\nTrung gian soft–hard (OS/driver) che khác biệt phần cứng. A/B là UI.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13762,12 +13762,12 @@
         "D": "製造業における全製造過程(開発、製造、納入、保守)の電子化についての標準化のことを言います。"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 43 · img 200",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 200 · CÂU HỎI 43",
+      "explanation": "✅ Đáp án: C — 取引プロセス…商品案内や配送…商品開発まで含めます\nThương mại điện tử gồm cả quy trình giao dịch rộng. A≈EDI, D≈CALS.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13785,12 +13785,12 @@
         "D": "操作性を決めます"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 44 · img 201",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 201 · CÂU HỎI 44",
+      "explanation": "✅ Đáp án: C — ハードウェアの相違を吸収します（không phải UI）\nCâu hỏi chọn SAI về UI. Che khác biệt HW là soft/hard 仲介, không phải UI.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13831,12 +13831,12 @@
         "D": "11000101"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 47 · img 054",
       "alt": null,
-      "explanation": "Đáp án theo kiến thức JIT (khớp phương án «0»).",
+      "explanation": "✅ Đáp án: D — 11000101\n01011010₂=90, 01101011₂=107, 90+107=197=11000101₂ (8-bit dương).",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13859,7 +13859,7 @@
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 47 · img 124",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 124 · CÂU HỎI 47",
+      "explanation": "✅ Đáp án: A — ピクセル\nĐiểm ảnh = pixel (画素).",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13951,7 +13951,7 @@
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 52 · img 215",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 215 · CÂU HỎI 52",
+      "explanation": "✅ Đáp án: A — truy xuất\n照会 ≈ truy vấn/truy xuất dữ liệu (inquiry).",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13974,7 +13974,7 @@
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 54 · img 220",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 220 · CÂU HỎI 54",
+      "explanation": "✅ Đáp án: A — 基数\nCơ số (base) = số làm nền (2, 10, 16…).",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13992,12 +13992,12 @@
         "D": "何をどうするか(How)を詳細に記述する言語"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 57 · img 143",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 143 · CÂU HỎI 57",
+      "explanation": "✅ Đáp án: D — 何をどうするか(How)を詳細に記述する言語\nProcedural: mô tả How. What = declarative/non-procedural (SQL…).",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -14015,12 +14015,12 @@
         "D": "メモリー"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 58 · img 235",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 235 · CÂU HỎI 58",
+      "explanation": "✅ Đáp án: C — 仮想記憶\nKhông gian nhớ lớn (ảo) = virtual memory, không phải process.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -14038,12 +14038,12 @@
         "D": "図をたどって必要な情報を集めます"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 59 · img 206",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 206 · CÂU HỎI 59",
+      "explanation": "✅ Đáp án: B — 個別の関係を表す表を元にデータを記述します\nBiểu diễn quan hệ: mô tả dữ liệu bằng các bảng quan hệ. A (複数) dễ gây hiểu nhầm.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -14061,12 +14061,12 @@
         "D": "スムーズに流れます"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 60 · img 209",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 209 · CÂU HỎI 60",
+      "explanation": "✅ Đáp án: C — 高速に流れます\nBăng thông rộng → truyền dữ liệu nhanh hơn, không phải chậm.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -14084,12 +14084,12 @@
         "D": "ハードディスクと仮想記憶の交換"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 61 · img 122",
       "alt": null,
-      "explanation": "Đáp án theo kiến thức JIT (khớp phương án «ディスク»).",
+      "explanation": "✅ Đáp án: B — メモリーとハードディスクのデータの交換\nSwapping trao đổi trang giữa RAM và HDD.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -14130,12 +14130,12 @@
         "D": "Webページを記述するためのマークアップ言語である"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI 65 · img 185",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 185 · CÂU HỎI 65",
+      "explanation": "✅ Đáp án: C — 機種やOSに依存しない…オブジェクト指向言語\nJava: write once run anywhere, OOP. A≈FORTRAN, B≈COBOL, D≈HTML.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -14181,7 +14181,7 @@
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI ? · img 056",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 056 · CÂU HỎI None",
+      "explanation": "✅ Đáp án: A — modulation\nbiến điều = 変調 = modulation.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -14199,12 +14199,12 @@
         "D": "pixel"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "choose": 1,
       "note": "Zip 240 ảnh · CÂU HỎI ? · img 169",
       "alt": null,
-      "explanation": "⚠️ Chưa khớp bank — đáp án tạm A, cần rà soát.\nImg 169 · CÂU HỎI None",
+      "explanation": "✅ Đáp án: B — dpi\nĐộ phân giải máy in = dpi (dots per inch), không phải bit.",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
