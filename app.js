@@ -1116,17 +1116,17 @@
   }
 
   /**
-   * Unified practice bank: Quiz PT (albazzz) + Zip 240 photos — one filter.
-   * Legacy sourceFilter "zip240" is treated as this same set.
+   * Quiz ôn = Thảo Nguyên 5 zip only (sets quiz_pt / thao_nguyen).
+   * Legacy sourceFilter "zip240" maps to this filter in UI (no separate zip bank).
    */
   function isQuizPt(q) {
     if (!q) return false;
     const sets = q.sets;
-    if (Array.isArray(sets) && (sets.includes("quiz_pt") || sets.includes("zip240")))
+    if (Array.isArray(sets) && (sets.includes("quiz_pt") || sets.includes("thao_nguyen")))
       return true;
-    if (q.source === "quiz_pt" || q.source === "zip240") return true;
+    if (q.source === "quiz_pt" || q.source === "thao_nguyen") return true;
     const exam = String(q.exam || "");
-    return exam.includes("QUIZ_PT") || exam.includes("ZIP240");
+    return exam.includes("QUIZ_PT") || exam.includes("THAO_NGUYEN");
   }
 
   function isExamSource(q) {
@@ -1137,7 +1137,8 @@
       src === "books" ||
       src === "albazzz" ||
       src === "quiz_pt" ||
-      src === "zip240"
+      src === "zip240" ||
+      src === "thao_nguyen"
     )
       return false;
     if (
@@ -1145,15 +1146,21 @@
       exam.includes("BOOK_") ||
       exam.includes("ALBAZZZ") ||
       exam.includes("QUIZ_PT") ||
-      exam.includes("ZIP240")
+      exam.includes("ZIP240") ||
+      exam.includes("THAO_NGUYEN")
     )
       return false;
     return true;
   }
 
   function isSlideSource(q) {
-    // Slide / textbook bank only — Quiz PT / Zip240 have own columns
-    if (q.source === "quiz_pt" || q.source === "zip240") return false;
+    // Slide / textbook bank (may also carry quiz_pt tag if same stem in Thảo Nguyên)
+    if (
+      q.source === "quiz_pt" ||
+      q.source === "zip240" ||
+      q.source === "thao_nguyen"
+    )
+      return false;
     const src = q.source || "";
     const exam = String(q.exam || "");
     return (
@@ -1168,7 +1175,7 @@
 
   function matchesSourceFilter(q) {
     if (sourceFilter === "all") return true;
-    // zip240 → same unified Quiz ôn set (PT + Zip)
+    // Quiz ôn = Thảo Nguyên 5 zip (legacy zip240 chip → same filter)
     if (sourceFilter === "quiz_pt" || sourceFilter === "zip240") return isQuizPt(q);
     if (sourceFilter === "exam") return isExamSource(q);
     if (sourceFilter === "slides") return isSlideSource(q);
@@ -1897,7 +1904,7 @@
       }
     }
 
-    // One unified practice column: Quiz ôn = PT + Zip (JIT401 only)
+    // Quiz ôn = Thảo Nguyên 5 zip only (JIT401)
     if (ptChip) {
       const showPt = subjectId === "jit401";
       ptChip.hidden = !showPt;
@@ -1907,8 +1914,8 @@
         ptChip.setAttribute(
           "title",
           nPt > 0
-            ? `${nPt} câu gộp Quiz PT + Zip 240 (đã loại trùng)`
-            : "Quiz PT + Zip gộp một bộ"
+            ? `${nPt} câu gộp Thảo Nguyên (5 zip) + albazzz Quiz PT (đã loại trùng)`
+            : "Quiz ôn Thảo Nguyên + albazzz Quiz PT"
         );
       }
       // migrate old zip240 filter selection → quiz_pt
