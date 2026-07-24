@@ -3,7 +3,7 @@
   "use strict";
 
   /** Bump on every bank deploy so Safari/iPad cannot reuse stale JSON (GH Pages max-age=600). */
-  const DATA_VER = "20260724f";
+  const DATA_VER = "20260724g";
   const THEME_KEY = "fe_learn_theme_v1";
 
   const SUBJECTS = {
@@ -981,23 +981,18 @@
     return true;
   }
 
-  /** Quiz PT bank: albazzz PT + imported Zip240 photos (tagged quiz_pt). */
+  /**
+   * Unified practice bank: Quiz PT (albazzz) + Zip 240 photos — one filter.
+   * Legacy sourceFilter "zip240" is treated as this same set.
+   */
   function isQuizPt(q) {
     if (!q) return false;
     const sets = q.sets;
-    if (Array.isArray(sets) && sets.includes("quiz_pt")) return true;
+    if (Array.isArray(sets) && (sets.includes("quiz_pt") || sets.includes("zip240")))
+      return true;
     if (q.source === "quiz_pt" || q.source === "zip240") return true;
     const exam = String(q.exam || "");
     return exam.includes("QUIZ_PT") || exam.includes("ZIP240");
-  }
-
-  /** Photos zip 240 (unique stems tagged zip240). */
-  function isZip240(q) {
-    if (!q) return false;
-    const sets = q.sets;
-    if (Array.isArray(sets) && sets.includes("zip240")) return true;
-    if (q.source === "zip240") return true;
-    return String(q.exam || "").includes("ZIP240");
   }
 
   function isExamSource(q) {
@@ -1039,8 +1034,8 @@
 
   function matchesSourceFilter(q) {
     if (sourceFilter === "all") return true;
-    if (sourceFilter === "quiz_pt") return isQuizPt(q);
-    if (sourceFilter === "zip240") return isZip240(q);
+    // zip240 → same unified Quiz ôn set (PT + Zip)
+    if (sourceFilter === "quiz_pt" || sourceFilter === "zip240") return isQuizPt(q);
     if (sourceFilter === "exam") return isExamSource(q);
     if (sourceFilter === "slides") return isSlideSource(q);
     return true;
@@ -1693,22 +1688,18 @@
     const ptChip =
       document.getElementById("chipQuizPt") ||
       el.querySelector('[data-source="quiz_pt"]');
-    const zipChip =
-      document.getElementById("chipZip240") ||
-      el.querySelector('[data-source="zip240"]');
     const bank = Array.isArray(all) ? all : [];
 
     const nAll = bank.length;
     const nExam = bank.filter((q) => isExamSource(q)).length;
     const nSlide = bank.filter((q) => isSlideSource(q)).length;
     let nPt = bank.filter((q) => isQuizPt(q)).length;
-    let nZip = bank.filter((q) => isZip240(q)).length;
     // fallback: breakdown from JSON if sets field missing (old cache)
-    if (!nPt && data && data.breakdown && data.breakdown.quiz_pt) {
-      nPt = Number(data.breakdown.quiz_pt) || 0;
-    }
-    if (!nZip && data && data.breakdown && data.breakdown.zip240) {
-      nZip = Number(data.breakdown.zip240) || 0;
+    if (!nPt && data && data.breakdown) {
+      const a = Number(data.breakdown.quiz_pt) || 0;
+      const b = Number(data.breakdown.zip240) || 0;
+      nPt = Math.max(a, b, a + b > 0 ? a : 0);
+      if (a && b) nPt = a; // quiz_pt already includes zip after merge
     }
 
     if (allChip) {
@@ -1735,37 +1726,30 @@
       }
     }
 
-    // Quiz PT + Zip240 columns — JIT401 only
+    // One unified practice column: Quiz ôn = PT + Zip (JIT401 only)
     if (ptChip) {
       const showPt = subjectId === "jit401";
       ptChip.hidden = !showPt;
       ptChip.style.display = showPt ? "" : "none";
       if (showPt) {
-        ptChip.textContent = nPt > 0 ? `Quiz PT (${nPt})` : "Quiz PT";
-        ptChip.setAttribute("title", nPt > 0 ? `${nPt} câu Quiz PT` : "Quiz PT JIT401");
+        ptChip.textContent = nPt > 0 ? `Quiz ôn (${nPt})` : "Quiz ôn";
+        ptChip.setAttribute(
+          "title",
+          nPt > 0
+            ? `${nPt} câu gộp Quiz PT + Zip 240 (đã loại trùng)`
+            : "Quiz PT + Zip gộp một bộ"
+        );
       }
-      if (!showPt && sourceFilter === "quiz_pt") {
+      // migrate old zip240 filter selection → quiz_pt
+      if (sourceFilter === "zip240") sourceFilter = "quiz_pt";
+      if (!showPt && (sourceFilter === "quiz_pt" || sourceFilter === "zip240")) {
         sourceFilter = "all";
         el.querySelectorAll(".chip[data-source]").forEach((c) => {
           c.classList.toggle("active", c.dataset.source === "all");
         });
-      }
-    }
-    if (zipChip) {
-      const showZip = subjectId === "jit401";
-      zipChip.hidden = !showZip;
-      zipChip.style.display = showZip ? "" : "none";
-      if (showZip) {
-        zipChip.textContent = nZip > 0 ? `Zip 240 (${nZip})` : "Zip 240";
-        zipChip.setAttribute(
-          "title",
-          nZip > 0 ? `${nZip} câu unique từ 240 ảnh zip` : "Ảnh zip 240"
-        );
-      }
-      if (!showZip && sourceFilter === "zip240") {
-        sourceFilter = "all";
+      } else if (showPt && sourceFilter === "quiz_pt") {
         el.querySelectorAll(".chip[data-source]").forEach((c) => {
-          c.classList.toggle("active", c.dataset.source === "all");
+          c.classList.toggle("active", c.dataset.source === "quiz_pt");
         });
       }
     }
