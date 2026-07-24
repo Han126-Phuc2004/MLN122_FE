@@ -3,7 +3,7 @@
   "use strict";
 
   /** Bump on every bank deploy so Safari/iPad cannot reuse stale JSON (GH Pages max-age=600). */
-  const DATA_VER = "20260724e";
+  const DATA_VER = "20260724f";
   const THEME_KEY = "fe_learn_theme_v1";
 
   const SUBJECTS = {
@@ -981,13 +981,14 @@
     return true;
   }
 
-  /** Only items tagged from albazzz Quiz PT (task=pt, 109 câu) — not loose note match. */
+  /** Quiz PT bank: albazzz PT + imported Zip240 photos (tagged quiz_pt). */
   function isQuizPt(q) {
     if (!q) return false;
     const sets = q.sets;
     if (Array.isArray(sets) && sets.includes("quiz_pt")) return true;
-    if (q.source === "quiz_pt") return true;
-    return String(q.exam || "").includes("QUIZ_PT");
+    if (q.source === "quiz_pt" || q.source === "zip240") return true;
+    const exam = String(q.exam || "");
+    return exam.includes("QUIZ_PT") || exam.includes("ZIP240");
   }
 
   /** Photos zip 240 (unique stems tagged zip240). */

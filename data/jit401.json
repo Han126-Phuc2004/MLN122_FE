@@ -1,5 +1,5 @@
 {
-  "title": "JIT401 – FE + slide + Quiz PT + Zip240 (753 câu)",
+  "title": "JIT401 – FE + slide + Quiz PT (753 cau)",
   "code": "JIT401_ALL",
   "subject": "JIT401",
   "total": 753,
@@ -7,7 +7,7 @@
     "FE": 60,
     "slides": 562,
     "albazzz": 1,
-    "quiz_pt": 109,
+    "quiz_pt": 242,
     "zip240": 183
   },
   "questions": [
@@ -144,7 +144,8 @@
       "source": "fuexam",
       "exam": "JIT401_SP26_FE",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -394,7 +395,8 @@
       "source": "fuexam",
       "exam": "JIT401_SP26_FE",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -663,7 +665,8 @@
       "source": "fuexam",
       "exam": "JIT401_SP26_FE",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -685,7 +688,8 @@
       "source": "fuexam",
       "exam": "JIT401_SP26_FE",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -821,7 +825,8 @@
       "source": "fuexam",
       "exam": "JIT401_SP26_FE",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -862,7 +867,8 @@
       "source": "fuexam",
       "exam": "JIT401_SP26_FE",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -1872,7 +1878,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_M5",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -12341,7 +12348,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -12363,7 +12371,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -12385,7 +12394,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -12407,7 +12417,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -12429,7 +12440,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -12451,7 +12463,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -12473,7 +12486,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -12495,7 +12509,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -12517,7 +12532,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -12539,7 +12555,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -12561,7 +12578,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -12583,7 +12601,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -12605,7 +12624,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -12627,7 +12647,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -12649,7 +12670,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -12671,7 +12693,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -12693,7 +12716,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -12715,7 +12739,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -12737,7 +12762,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -12759,7 +12785,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -12781,7 +12808,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -12803,7 +12831,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -12825,7 +12854,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -12847,7 +12877,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -12869,7 +12900,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -12891,7 +12923,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -12913,7 +12946,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -12935,7 +12969,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -12957,7 +12992,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -12979,7 +13015,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13001,7 +13038,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13023,7 +13061,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13045,7 +13084,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13067,7 +13107,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13089,7 +13130,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13111,7 +13153,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13133,7 +13176,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13155,7 +13199,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13177,7 +13222,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13199,7 +13245,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13220,7 +13267,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13242,7 +13290,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13264,7 +13313,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13286,7 +13336,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13308,7 +13359,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13330,7 +13382,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13352,7 +13405,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13374,7 +13428,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13396,7 +13451,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13418,7 +13474,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13440,7 +13497,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13462,7 +13520,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13484,7 +13543,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13506,7 +13566,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13528,7 +13589,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13550,7 +13612,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13572,7 +13635,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13594,7 +13658,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13616,7 +13681,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13638,7 +13704,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13660,7 +13727,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13682,7 +13750,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13704,7 +13773,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13726,7 +13796,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13748,7 +13819,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13770,7 +13842,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13792,7 +13865,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13814,7 +13888,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13836,7 +13911,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13858,7 +13934,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13880,7 +13957,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13902,7 +13980,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13924,7 +14003,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13946,7 +14026,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13968,7 +14049,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -13990,7 +14072,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14012,7 +14095,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14034,7 +14118,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14056,7 +14141,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14078,7 +14164,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14100,7 +14187,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14122,7 +14210,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14144,7 +14233,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14166,7 +14256,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14188,7 +14279,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14210,7 +14302,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14232,7 +14325,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14254,7 +14348,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14276,7 +14371,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14298,7 +14394,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14320,7 +14417,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14342,7 +14440,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14364,7 +14463,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14386,7 +14486,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14408,7 +14509,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14430,7 +14532,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14452,7 +14555,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14474,7 +14578,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14496,7 +14601,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14518,7 +14624,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14540,7 +14647,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14562,7 +14670,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14584,7 +14693,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14606,7 +14716,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14628,7 +14739,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14650,7 +14762,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14672,7 +14785,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14694,7 +14808,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14716,7 +14831,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14738,7 +14854,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14760,7 +14877,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14781,7 +14899,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14803,7 +14922,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14825,7 +14945,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14846,7 +14967,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14868,7 +14990,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14890,7 +15013,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14912,7 +15036,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14934,7 +15059,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14956,7 +15082,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -14978,7 +15105,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -15000,7 +15128,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -15022,7 +15151,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -15043,7 +15173,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -15065,7 +15196,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     },
     {
@@ -15087,7 +15219,8 @@
       "source": "zip240",
       "exam": "JIT401_ZIP240",
       "sets": [
-        "zip240"
+        "zip240",
+        "quiz_pt"
       ]
     }
   ]
