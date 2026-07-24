@@ -201,6 +201,44 @@ input {
   border-color: #dc2626;
 }
 
+.sub-tab.is-locked {
+  opacity: 0.72;
+  border-style: dashed;
+}
+
+.sub-tab.is-locked.active {
+  opacity: 1;
+  border-style: solid;
+}
+
+.access-error {
+  margin: 0 0 10px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: var(--bad-bg);
+  color: var(--bad);
+  font-size: 0.82rem;
+}
+
+.access-error[hidden] {
+  display: none !important;
+}
+
+.modal-access {
+  max-width: 360px;
+}
+
+.modal-access .sync-field input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 1rem;
+  letter-spacing: 0.04em;
+}
+
 .top-actions {
   display: flex;
   gap: 4px;

@@ -23,7 +23,7 @@
       } catch (e) {}
     })();
   </script>
-  <link rel="stylesheet" href="style.css?v=20260724g" />
+  <link rel="stylesheet" href="style.css?v=20260724i" />
 </head>
 <body>
   <div class="app">
@@ -35,10 +35,11 @@
       <nav class="subjects" id="subjects" aria-label="Chọn môn">
         <button type="button" class="sub-tab active" data-subject="mln122">MLN122</button>
         <button type="button" class="sub-tab" data-subject="prm393">PRM393</button>
-        <button type="button" class="sub-tab" data-subject="jfe301">JFE301</button>
-        <button type="button" class="sub-tab" data-subject="jit401">JIT401</button>
+        <button type="button" class="sub-tab is-locked" data-subject="jfe301">🔒 JFE301</button>
+        <button type="button" class="sub-tab is-locked" data-subject="jit401">🔒 JIT401</button>
       </nav>
       <div class="top-actions">
+        <button type="button" class="btn ghost" id="btnAccessLock" title="Khóa lại JFE/JIT trên máy này" aria-label="Khóa lại JFE JIT">🔐</button>
         <button type="button" class="btn ghost" id="btnTheme" title="Sáng / Tối" aria-label="Đổi giao diện sáng tối">🌙</button>
         <button type="button" class="btn ghost" id="btnSync" title="Đồng bộ">☁</button>
         <button type="button" class="btn ghost" id="btnMode" title="Chế độ">Lần lượt</button>
@@ -124,6 +125,25 @@
     </div>
   </div>
 
+  <div class="modal-backdrop" id="accessModal" hidden>
+    <div class="modal modal-access" role="dialog" aria-labelledby="accessTitle" aria-modal="true">
+      <header class="modal-head">
+        <h2 id="accessTitle">Mã truy cập</h2>
+        <button type="button" class="btn ghost" id="btnAccessCancel" aria-label="Đóng">✕</button>
+      </header>
+      <p class="modal-lead" id="accessLead">JFE301 và JIT401 chỉ mở cho người có mã.</p>
+      <label class="sync-field">
+        Mã
+        <input type="password" id="accessCodeInput" placeholder="Nhập mã…" autocomplete="current-password" spellcheck="false" />
+      </label>
+      <p class="access-error" id="accessError" hidden></p>
+      <div class="sync-actions">
+        <button type="button" class="btn primary" id="btnAccessOk">Mở khóa</button>
+        <button type="button" class="btn" id="btnAccessCancel2">Hủy</button>
+      </div>
+    </div>
+  </div>
+
   <div class="modal-backdrop" id="syncModal" hidden>
     <div class="modal" role="dialog" aria-labelledby="syncTitle">
       <header class="modal-head">
@@ -168,6 +188,6 @@
     </div>
   </div>
 
-  <script src="app.js?v=20260724g"></script>
+  <script src="app.js?v=20260724i"></script>
 </body>
 </html>

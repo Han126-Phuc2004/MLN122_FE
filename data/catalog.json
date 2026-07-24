@@ -28,9 +28,9 @@
     {
       "id": "jit401",
       "code": "JIT401",
-      "name": "JIT401 (FE + slide + Quiz PT + Zip)",
+      "name": "JIT401 (FE + slide + Quiz PT)",
       "file": "data/jit401.json",
-      "total": 753,
+      "total": 757,
       "color": "#dc2626"
     }
   ],

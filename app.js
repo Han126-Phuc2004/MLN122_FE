@@ -3,7 +3,7 @@
   "use strict";
 
   /** Bump on every bank deploy so Safari/iPad cannot reuse stale JSON (GH Pages max-age=600). */
-  const DATA_VER = "20260724g";
+  const DATA_VER = "20260724i";
   const THEME_KEY = "fe_learn_theme_v1";
 
   const SUBJECTS = {
@@ -12,6 +12,14 @@
     jfe301: { file: "data/jfe301.json", label: "JFE301" },
     jit401: { file: "data/jit401.json", label: "JIT401" },
   };
+
+  /**
+   * JFE + JIT chỉ mở khi có mã. Share mã này với người được xem.
+   * Đổi mã → deploy lại. Không phải bảo mật tuyệt đối (file JSON vẫn public nếu biết URL).
+   */
+  const RESTRICTED_SUBJECTS = new Set(["jfe301", "jit401"]);
+  const RESTRICTED_ACCESS_CODE = "jitjfe2026";
+  const UNLOCK_KEY = "fe_learn_restricted_unlock_v1";
 
   const SUBJECT_KEY = "fe_learn_subject_v1";
   const LAST_Q_KEY = "mln122_learn_last_q"; // legacy
@@ -83,11 +91,137 @@
   function loadSubject() {
     try {
       const s = localStorage.getItem(SUBJECT_KEY);
-      if (s && SUBJECTS[s]) return s;
+      if (s && SUBJECTS[s]) {
+        if (isRestricted(s) && !isUnlocked()) return "mln122";
+        return s;
+      }
     } catch {
       /* ignore */
     }
     return "mln122";
+  }
+
+  function isRestricted(id) {
+    return RESTRICTED_SUBJECTS.has(id);
+  }
+
+  function isUnlocked() {
+    try {
+      return localStorage.getItem(UNLOCK_KEY) === "1";
+    } catch {
+      return false;
+    }
+  }
+
+  function setUnlocked(on) {
+    try {
+      if (on) localStorage.setItem(UNLOCK_KEY, "1");
+      else localStorage.removeItem(UNLOCK_KEY);
+    } catch {
+      /* ignore */
+    }
+    updateLockUi();
+  }
+
+  function canAccess(id) {
+    return !isRestricted(id) || isUnlocked();
+  }
+
+  function updateLockUi() {
+    const unlocked = isUnlocked();
+    document.querySelectorAll(".sub-tab").forEach((t) => {
+      const id = t.dataset.subject;
+      const locked = isRestricted(id) && !unlocked;
+      t.classList.toggle("is-locked", locked);
+      t.title = locked
+        ? "Cần mã truy cập — chỉ một số người được xem"
+        : SUBJECTS[id]?.label || "";
+      const base = (SUBJECTS[id]?.label || id || "").replace(/^🔒\s*/, "");
+      t.textContent = locked ? "🔒 " + base : base;
+    });
+  }
+
+  /** @returns {Promise<boolean>} true if access granted */
+  function ensureAccess(id) {
+    if (canAccess(id)) return Promise.resolve(true);
+    return showAccessModal(id);
+  }
+
+  function showAccessModal(targetId) {
+    return new Promise((resolve) => {
+      const modal = document.getElementById("accessModal");
+      const input = document.getElementById("accessCodeInput");
+      const err = document.getElementById("accessError");
+      const title = document.getElementById("accessTitle");
+      const lead = document.getElementById("accessLead");
+      if (!modal || !input) {
+        resolve(false);
+        return;
+      }
+
+      const label = SUBJECTS[targetId]?.label || targetId.toUpperCase();
+      if (title) title.textContent = "Mã truy cập · " + label;
+      if (lead) {
+        lead.innerHTML =
+          "JFE301 và JIT401 chỉ mở cho người có mã. Nhập mã rồi bấm <strong>Mở khóa</strong>.";
+      }
+      if (err) {
+        err.hidden = true;
+        err.textContent = "";
+      }
+      input.value = "";
+      modal.hidden = false;
+      setTimeout(() => input.focus(), 30);
+
+      const cleanup = () => {
+        modal.hidden = true;
+        btnOk?.removeEventListener("click", onOk);
+        btnCancel?.removeEventListener("click", onCancel);
+        input.removeEventListener("keydown", onKey);
+        modal.removeEventListener("click", onBackdrop);
+      };
+
+      const onOk = () => {
+        const code = String(input.value || "").trim();
+        if (code === RESTRICTED_ACCESS_CODE) {
+          setUnlocked(true);
+          cleanup();
+          resolve(true);
+          return;
+        }
+        if (err) {
+          err.hidden = false;
+          err.textContent = "Mã không đúng. Hỏi người share link để lấy mã.";
+        }
+        input.select();
+      };
+
+      const onCancel = () => {
+        cleanup();
+        resolve(false);
+      };
+
+      const onKey = (e) => {
+        if (e.key === "Enter") {
+          e.preventDefault();
+          onOk();
+        } else if (e.key === "Escape") {
+          e.preventDefault();
+          onCancel();
+        }
+      };
+
+      const onBackdrop = (e) => {
+        if (e.target === modal) onCancel();
+      };
+
+      const btnOk = document.getElementById("btnAccessOk");
+      const btnCancel = document.getElementById("btnAccessCancel");
+      btnOk?.addEventListener("click", onOk);
+      btnCancel?.addEventListener("click", onCancel);
+      input.addEventListener("keydown", onKey);
+      modal.addEventListener("click", onBackdrop);
+    });
   }
 
   function saveSubject() {
@@ -1517,6 +1651,20 @@
   }
 
   async function loadSubjectData(id) {
+    if (!SUBJECTS[id]) id = "mln122";
+    if (!(await ensureAccess(id))) {
+      // stay on current public subject (or MLN)
+      if (isRestricted(subjectId) && !isUnlocked()) {
+        id = "mln122";
+      } else {
+        updateLockUi();
+        document.querySelectorAll(".sub-tab").forEach((t) => {
+          t.classList.toggle("active", t.dataset.subject === subjectId);
+        });
+        return;
+      }
+    }
+
     subjectId = id;
     saveSubject();
     progress = loadProgress();
@@ -1534,6 +1682,7 @@
     document.querySelectorAll(".sub-tab").forEach((t) => {
       t.classList.toggle("active", t.dataset.subject === id);
     });
+    updateLockUi();
     updateSourceFilterVisibility();
 
     const meta = SUBJECTS[id];
@@ -1670,6 +1819,28 @@
       if (!id || id === subjectId) return;
       loadSubjectData(id);
     });
+  });
+
+  document.getElementById("btnAccessLock")?.addEventListener("click", () => {
+    if (!isUnlocked()) {
+      // allow unlocking from the lock button too
+      ensureAccess("jfe301").then((ok) => {
+        if (ok) updateLockUi();
+      });
+      return;
+    }
+    if (!confirm("Khóa lại JFE/JIT trên máy này? Cần nhập mã lần sau.")) return;
+    setUnlocked(false);
+    if (isRestricted(subjectId)) {
+      loadSubjectData("mln122");
+    } else {
+      updateLockUi();
+    }
+  });
+
+  // second cancel button in access modal
+  document.getElementById("btnAccessCancel2")?.addEventListener("click", () => {
+    document.getElementById("btnAccessCancel")?.click();
   });
 
   function updateSourceFilterVisibility() {
@@ -1950,9 +2121,16 @@
   (async function init() {
     applyTheme(resolveTheme());
     updateSyncUi();
+    updateLockUi();
+    // never auto-open restricted subject without unlock
+    if (isRestricted(subjectId) && !isUnlocked()) {
+      subjectId = "mln122";
+    }
     const synced = await bootstrapSyncFromUrl();
     if (!synced) {
       await loadSubjectData(subjectId);
+    } else if (isRestricted(subjectId) && !isUnlocked()) {
+      await loadSubjectData("mln122");
     }
   })();
 })();

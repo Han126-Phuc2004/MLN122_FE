@@ -1,14 +1,15 @@
 {
-  "title": "JIT401 – FE + slide + Quiz PT (753 cau)",
+  "title": "JIT401 – FE + slide + Quiz PT (757 cau)",
   "code": "JIT401_ALL",
   "subject": "JIT401",
-  "total": 753,
+  "total": 757,
   "breakdown": {
     "FE": 60,
     "slides": 562,
     "albazzz": 1,
-    "quiz_pt": 242,
-    "zip240": 183
+    "quiz_pt": 248,
+    "zip240": 183,
+    "thao_nguyen": 163
   },
   "questions": [
     {
@@ -396,7 +397,8 @@
       "exam": "JIT401_SP26_FE",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -454,7 +456,11 @@
       "alt": null,
       "explanation": "📝 Dịch câu hỏi\nNgười dùng nhập liệu từ đâu? Chọn câu đúng.\n\n✅ Đáp án: A — Thiết bị nhập: bàn phím, chuột…\nInput device = keyboard, mouse, mic, scanner…\n\n❌ Các đáp án khác\nB máy in = output. C loa = output. D màn hình = output.",
       "source": "fuexam",
-      "exam": "JIT401_SP26_FE"
+      "exam": "JIT401_SP26_FE",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ]
     },
     {
       "id": 24,
@@ -650,23 +656,24 @@
       "id": 34,
       "question": "PCのOSに関する記述のうち、適切なものはどれか。",
       "options": {
-        "A": "ハードウェアとアプリケーションの仲介・資源管理を行う",
-        "B": "プリンタ単体の名称である",
-        "C": "CPUの物理コア数そのもの",
-        "D": "ディスプレイの解像度規格"
+        "A": "64ビットCPUに対応するPC用OSは開発されていない。",
+        "B": "PCのOSには,ハードディスク以外のCD-ROMやUSBメモリなどの外部記憶装置を利用して起動で",
+        "C": "OSのバージョンアップに伴い,旧バージョンのOS環境で動作していた全てのアプリケーションソ…なる。",
+        "D": "1台のPCにインストールして起動することのできるOSは1種類だけである。"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "choose": 1,
-      "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
+      "note": "Đề FE FuExam (options ảnh → dựng lại để ôn). · Thảo Nguyên img 066",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nVề OS trên PC, mô tả nào thích hợp?\n\n✅ Đáp án: A — Trung gian HW–ứng dụng và quản lý tài nguyên\nOS = hệ điều hành: quản lý CPU/RAM/file/I/O, cho app chạy trên phần cứng.\n\n❌ Các đáp án khác\nB/C/D nhầm OS với thiết bị hay thông số phần cứng.",
+      "explanation": "✅ Đáp án: B. PCのOSには,ハードディスク以外のCD-ROMやUSBメモリなどの外部記憶装置を利用して起動で\nOS có thể khởi động từ thiết bị ngoài (CD/USB), không chỉ HDD.",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -689,7 +696,8 @@
       "exam": "JIT401_SP26_FE",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -868,7 +876,8 @@
       "exam": "JIT401_SP26_FE",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -1025,22 +1034,26 @@
     },
     {
       "id": 53,
-      "question": "クッキー(cookie)に関する記述a~cのうち、適切なものだけをすべて挙げたものはどれか。",
+      "question": "クッキー(cookie)に関する記述a～cのうち、適切なものだけをすべて挙げたものはどれか。\na. インターネットカフェなどで一時的にPCを借用してWebサイトを閲覧したときは、閲覧が終わったらクッキーを削除すべきである。\nb. クッキーに個人情報が保存されている場合、クロスサイトスクリプティングなどで、その個人情報が盗まれることがある。\nc. Webサイトを前回閲覧した際に入力したIDやパスワードなどは、別のPCを使用して閲覧する場合でもクッキーで引き継がれるので再入力が要らない。",
       "options": {
-        "A": "Webサーバがブラウザに保存させる小さなデータで状態管理等に使う（適切な説明の組合せ）",
-        "B": "CPUの温度センサの別名",
-        "C": "OSカーネルそのもの",
-        "D": "必ずウイルスである"
+        "A": "a,b",
+        "B": "b,c",
+        "C": "a,c",
+        "D": "a,b,c"
       },
       "answers": [
         "A"
       ],
       "choose": 1,
-      "note": "Đề FE FuExam (options ảnh → dựng lại để ôn).",
+      "note": "Đề FE FuExam (options ảnh → dựng lại để ôn). · Thảo Nguyên img 185",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nVề cookie, tổ hợp mô tả đúng là gì? (dạng chọn tổ hợp a–c trên đề gốc)\n\n✅ Đáp án: A — Dữ liệu nhỏ server cho browser lưu, dùng quản lý trạng thái…\nCookie: server gửi → browser lưu → gửi lại request sau (session, login, tracking…). Không phải virus bắt buộc, không phải cảm biến/CPU/kernel.\n\n❌ Các đáp án khác\nB/C/D sai hoàn toàn.",
+      "explanation": "✅ Đáp án: A — a,b\na đúng: dùng PC quán net nên xóa cookie sau khi xong.\nb đúng: cookie chứa PII có thể bị đánh cắp (XSS…).\nc sai: cookie gắn với trình duyệt/máy; máy khác không tự kế thừa cookie để khỏi nhập lại.\nNguồn ảnh Thảo Nguyên img 185 · CÂU HỎI 40.",
       "source": "fuexam",
-      "exam": "JIT401_SP26_FE"
+      "exam": "JIT401_SP26_FE",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ]
     },
     {
       "id": 54,
@@ -3630,7 +3643,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -3653,7 +3667,8 @@
       "exam": "JIT401_SLIDES_CH13",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -3705,23 +3720,24 @@
       "id": 193,
       "question": "「OSI」について、正しいものはどれですか。",
       "options": {
-        "A": "通信速度を測る単位である",
-        "B": "コンピュータの5要素の1つである",
-        "C": "通信の手順であるプロトコルを機能ごとに7つの階層に分けて定義したモデルである",
-        "D": "暗号化の方式の1つである"
+        "A": "モデルの最下位層はアプリケーション層であり、Webブラウザやメールソフトなどの動作を規定している。",
+        "B": "モデルを構成する階層の数は、ネットワークの形態によって変化し、必ずしも7層とは限らない。",
+        "C": "通信の手順であるプロトコルを機能ごとに7つの階層に分けて定義したモデルである。",
+        "D": "特定のベンダーに依存しない、オープンなシステム間の通信を実現するためのハードウェアの規格を定めたモデルである。（ベンダー: nhà cung cấp, nhà sản xuất）"
       },
       "answers": [
         "C"
       ],
       "choose": 1,
-      "note": "Bank pt · chương 3,16,18",
+      "note": "Bank pt · chương 3,16,18 · Thảo Nguyên img 130",
       "alt": null,
       "explanation": "📝 Dịch câu hỏi\nPhát biểu nào ĐÚNG về OSI?\n\n✅ Đáp án: C — 通信の手順であるプロトコルを機能ごとに7つの階層に分けて定義したモデルである = Mô hình chia protocol thành 7 tầng\nMô hình tham chiếu OSI xác định các giao thức bằng cách chia chúng thành bảy lớp.\n\n❌ Các đáp án khác\nA: Đơn vị đo tốc độ — không đúng với nội dung câu hỏi.\nB: Một trong 5 thành phần máy tính — không đúng với nội dung câu hỏi.\nD: Một kiểu mã hóa — không đúng với nội dung câu hỏi.",
       "source": "slides",
       "exam": "JIT401_SLIDES_CH3",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -3773,23 +3789,24 @@
       "id": 196,
       "question": "通信回線の伝送誤りに対処するパリティチェック方式（垂直パリティ）の記述として、適切なものはどれか。",
       "options": {
-        "A": "すべてのビット誤りを訂正できる",
-        "B": "1ビットの誤りを検出できる",
-        "C": "2ビットの誤りを必ず検出できる",
-        "D": "誤りを検出も訂正もできない"
+        "A": "奇数パリティならば奇数個のビット誤りを、偶数パリティならば偶数個のビット誤りを検出できる。",
+        "B": "奇数パリティならば1ビットの誤りを検出できるが、偶数パリティでは1ビットの誤りも検出できない。",
+        "C": "1ビットの誤りを検出できる。",
+        "D": "1ビットの誤りを訂正でき、2ビットの誤りを検出できる。"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "choose": 1,
-      "note": "Bank pt · chương 3,4,10,19",
+      "note": "Bank pt · chương 3,4,10,19 · Thảo Nguyên img 014",
       "alt": null,
       "explanation": "📝 Dịch câu hỏi\nMô tả đúng về parity check dọc?\n\n✅ Đáp án: B — 1ビットの誤りを検出できる = Phát hiện được lỗi 1 bit\nTính chẵn lẻ đơn giản chủ yếu có thể phát hiện một số lỗi lẻ (thường là 1 bit).\n\n❌ Các đáp án khác\nA: Sửa được mọi bit lỗi — không đúng với nội dung câu hỏi.\nC: Luôn phát hiện lỗi 2 bit — không đúng với nội dung câu hỏi.\nD: Không phát hiện/sửa được — không đúng với nội dung câu hỏi.",
       "source": "slides",
       "exam": "JIT401_SLIDES_CH3",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -3834,7 +3851,8 @@
       "exam": "JIT401_SLIDES_CH13",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -3924,7 +3942,8 @@
       "exam": "JIT401_SLIDES_CH13",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -3991,7 +4010,8 @@
       "exam": "JIT401_SLIDES_CH18",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -4103,7 +4123,8 @@
       "exam": "JIT401_SLIDES_CH3",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -4175,24 +4196,25 @@
     },
     {
       "id": 214,
-      "question": "ある音をコンピュータのファイルに記録するとき、符号化ビット数（量子化ビット数）を大きくするとどうなるか。",
+      "question": "ある音をコンピュータのファイルにデータとして記録するとき,符号化ビット数を8ビットとしている。符号化ビット数を16ビットに変更し,同じ音を同じサンプリング周波数で記録したときの説明として,適切なものはどれか。",
       "options": {
-        "A": "サンプリング周波数だけが上がる",
-        "B": "音の振幅をより細かく記録できる",
-        "C": "必ずファイルが小さくなる",
-        "D": "音程だけが変わる"
+        "A": "記録時間が同じ場合,データ量は少なくなる。",
+        "B": "記録できる周波数の上限が高くなる。",
+        "C": "音の振幅をより細かく記録できる。",
+        "D": "記録したデータの加工に必要なCPUの負担は減る。"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "choose": 1,
-      "note": "Bank pt · chương 1",
+      "note": "Bank pt · chương 1 · Thảo Nguyên img 164",
       "alt": null,
       "explanation": "📝 Dịch câu hỏi\nTăng số bit lượng tử hóa khi ghi âm thì?\n\n✅ Đáp án: B — 音の振幅をより細かく記録できる = Ghi biên độ chi tiết hơn\nSố lượng bit lượng tử hóa càng lớn thì biên độ có thể được ghi lại càng tinh vi.\n\n❌ Các đáp án khác\nA: Chỉ tăng tần số lấy mẫu — không đúng với nội dung câu hỏi.\nC: File luôn nhỏ hơn — không đúng với nội dung câu hỏi.\nD: Chỉ đổi cao độ — không đúng với nội dung câu hỏi.",
       "source": "slides",
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -4260,7 +4282,8 @@
       "exam": "JIT401_SLIDES_M4",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -4282,7 +4305,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH10",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -4350,7 +4374,8 @@
       "exam": "JIT401_SLIDES_CH14",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -4372,7 +4397,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH12",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -4488,24 +4514,25 @@
     },
     {
       "id": 228,
-      "question": "波の高さの最大値をいくつの段階で表すかを何と言いますか。",
+      "question": "音情報の高さがデジタル化する。波の高さの最大値をいくつの整数として表すかを（①）と言い、（①）が大きいほど、きめ細かく数値化できるため、（②）が向上します。",
       "options": {
-        "A": "サンプリング周波数",
-        "B": "量子化数",
-        "C": "フレームレート",
-        "D": "ビットレート"
+        "A": "①フーリエ変換；②波長",
+        "B": "①ランレングス；②性質",
+        "C": "①量子化数；②音質",
+        "D": "①サンプリング周波数；②波長"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "choose": 1,
-      "note": "Bank pt · chương 16",
+      "note": "Bank pt · chương 16 · Thảo Nguyên img 039",
       "alt": null,
       "explanation": "📝 Dịch câu hỏi\nChia biên độ sóng thành bao nhiêu mức gọi là?\n\n✅ Đáp án: B — 量子化数 = Số lượng tử hóa\nSố giai đoạn biên độ = số lượng tử hóa.\n\n❌ Các đáp án khác\nA: Tần số lấy mẫu — không đúng với nội dung câu hỏi.\nC: Frame rate — không đúng với nội dung câu hỏi.\nD: Bitrate — không đúng với nội dung câu hỏi.",
       "source": "slides",
       "exam": "JIT401_SLIDES_CH16",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -4528,7 +4555,8 @@
       "exam": "JIT401_SLIDES_CH13",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -4551,7 +4579,8 @@
       "exam": "JIT401_SLIDES_CH8",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -4574,7 +4603,8 @@
       "exam": "JIT401_SLIDES_CH12",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -4619,30 +4649,32 @@
       "exam": "JIT401_SLIDES_M4",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
       "id": 234,
       "question": "フリーウェアとシェアウェアの違いについて、正しい説明はどれですか。",
       "options": {
-        "A": "どちらも必ず有料である",
-        "B": "シェアウェアは無料で入手できるが、継続使用に登録と料金が必要な場合がある",
-        "C": "フリーウェアは必ずソース公開である",
-        "D": "シェアウェアは商用利用禁止が定義である"
+        "A": "フリーウェアは試用期間後に料金を支払う必要があるが、シェアウェアは永久に無料で使用できる。",
+        "B": "フリーウェアは常に機能制限があり、シェアウェアは試用期間中も全ての機能を利用できる。",
+        "C": "シェアウェアは無料で入手できるが、継続して使用するには登録と料金の支払いが必要な場合がある。",
+        "D": "シェアウェアは商業的利益を目的とせず、フリーウェアは必ず有料で提供される。"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "choose": 1,
-      "note": "Bank pt · chương 3",
+      "note": "Bank pt · chương 3 · Thảo Nguyên img 086",
       "alt": null,
       "explanation": "📝 Dịch câu hỏi\nKhác biệt Freeware / Shareware — chọn đúng?\n\n✅ Đáp án: B — シェアウェアは無料で入手できるが、継続使用に登録と料金が必要な場合がある = Shareware tải miễn phí nhưng dùng lâu có thể cần đăng ký/trả phí\nPhần mềm chia sẻ có thể yêu cầu đăng ký và trả phí sau khi sử dụng thử.\n\n❌ Các đáp án khác\nA: Cả hai luôn trả phí — không đúng với nội dung câu hỏi.\nC: Freeware luôn open source — không đúng với nội dung câu hỏi.\nD: Shareware cấm thương mại theo định nghĩa — không đúng với nội dung câu hỏi.",
       "source": "slides",
       "exam": "JIT401_SLIDES_CH3",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -4665,30 +4697,32 @@
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
       "id": 236,
       "question": "AND回路について正しいものをえらんでください。",
       "options": {
-        "A": "スイッチが並列のモデル",
-        "B": "スイッチが直列に並んだ回路としてモデル化される",
-        "C": "どちらか1つONで出力ON",
-        "D": "入力を反転する"
+        "A": "AND回路の演算のことを論理和と言います",
+        "B": "AND回路は1つのダイオードを使って実現できます",
+        "C": "スイッチが直列に並んだ回路としてモデル化されます",
+        "D": "スイッチが並列に並んだ回路としてモデル化されます"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "choose": 1,
-      "note": "Bank pt · chương 11",
+      "note": "Bank pt · chương 11 · Thảo Nguyên img 001",
       "alt": null,
       "explanation": "📝 Dịch câu hỏi\nPhát biểu đúng về mạch AND?\n\n✅ Đáp án: B — スイッチが直列に並んだ回路としてモデル化される = Mô hình công tắc nối tiếp\nAND là một công tắc nối tiếp. Đầu ra BẬT khi cả hai đều BẬT.\n\n❌ Các đáp án khác\nA: Công tắc song song — không đúng với nội dung câu hỏi.\nC: Một ON là ra ON — không đúng với nội dung câu hỏi.\nD: Đảo input — không đúng với nội dung câu hỏi.",
       "source": "slides",
       "exam": "JIT401_SLIDES_CH11",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -4711,7 +4745,8 @@
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -4734,7 +4769,8 @@
       "exam": "JIT401_SLIDES_CH14",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -4757,7 +4793,8 @@
       "exam": "JIT401_SLIDES_CH13",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -4780,7 +4817,8 @@
       "exam": "JIT401_SLIDES_M2",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -4803,7 +4841,8 @@
       "exam": "JIT401_SLIDES_CH15",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -4825,7 +4864,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH13",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -4848,7 +4888,8 @@
       "exam": "JIT401_SLIDES_CH4",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -4870,29 +4911,31 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH9",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
       "id": 245,
       "question": "ウィルスに感染するのを避けるために、何をしますか。",
       "options": {
-        "A": "パスワードに氏名や数字だけを使う",
-        "B": "常に最新版に更新されるブラウザを使う",
-        "C": "古いブラウザを使い続ける",
-        "D": "exe,vbs,scr,pif の添付をすぐに開く"
+        "A": "パスワードを設定する際の注意事項として、意味のある語句、数字を使います",
+        "B": "exe, vbs, scr, pifなどの拡張子を持つ添付ファイルがあるメールを開きます",
+        "C": "常に最新版に更新されるブラウザを使います",
+        "D": "Internet Explorerなどのブラウザを使います"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "choose": 1,
-      "note": "Bank pt · chương 1,9",
+      "note": "Bank pt · chương 1,9 · Thảo Nguyên img 195",
       "alt": null,
       "explanation": "📝 Dịch câu hỏi\nĐể tránh nhiễm virus nên làm gì?\n\n✅ Đáp án: B — 常に最新版に更新されるブラウザを使う = Dùng browser luôn cập nhật\nCác biện pháp an toàn như luôn cập nhật trình duyệt của bạn là rất quan trọng. Không mở các phần mở rộng nguy hiểm.\n\n❌ Các đáp án khác\nA: Password chỉ tên/số — không đúng với nội dung câu hỏi.\nC: Giữ browser cũ — không đúng với nội dung câu hỏi.\nD: Mở ngay file .exe/.vbs… — không đúng với nội dung câu hỏi.",
       "source": "slides",
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -4915,7 +4958,8 @@
       "exam": "JIT401_SLIDES_CH2",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -4938,7 +4982,8 @@
       "exam": "JIT401_SLIDES_M4",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -4961,7 +5006,8 @@
       "exam": "JIT401_SLIDES_CH11",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -5005,7 +5051,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_M4",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -5028,7 +5075,8 @@
       "exam": "JIT401_SLIDES_CH3",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -5051,7 +5099,8 @@
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -5073,7 +5122,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -5096,7 +5146,8 @@
       "exam": "JIT401_SLIDES_CH16",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -5118,7 +5169,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -5140,7 +5192,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -5162,7 +5215,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH10",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -5184,7 +5238,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH10",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -5206,7 +5261,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH17",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -5228,7 +5284,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH12",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -5250,7 +5307,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH8",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -5272,7 +5330,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH8",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -5294,7 +5353,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -5316,7 +5376,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH11",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -5338,7 +5399,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH10",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -5360,7 +5422,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -5382,7 +5445,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH11",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -5404,7 +5468,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH2",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -5426,7 +5491,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH2",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -5449,7 +5515,8 @@
       "exam": "JIT401_SLIDES_CH2",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -5471,7 +5538,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_M4",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -5493,7 +5561,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH10",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -5516,7 +5585,8 @@
       "exam": "JIT401_SLIDES_CH5",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -5579,7 +5649,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH12",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -5602,7 +5673,8 @@
       "exam": "JIT401_SLIDES_CH9",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -5625,7 +5697,8 @@
       "exam": "JIT401_SLIDES_CH8",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -5648,7 +5721,8 @@
       "exam": "JIT401_SLIDES_CH14",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -5670,7 +5744,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -5715,7 +5790,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH10",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -5737,7 +5813,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH11",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -5759,7 +5836,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH11",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -5782,7 +5860,8 @@
       "exam": "JIT401_SLIDES_CH9",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -5805,7 +5884,8 @@
       "exam": "JIT401_SLIDES_CH3",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -5827,7 +5907,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH7",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -5850,7 +5931,8 @@
       "exam": "JIT401_SLIDES_CH3",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -5872,7 +5954,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH7",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -5894,7 +5977,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH5",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -5917,7 +6001,8 @@
       "exam": "JIT401_SLIDES_CH3",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -5939,7 +6024,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH13",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -5961,7 +6047,8 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH10",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -5984,7 +6071,8 @@
       "exam": "JIT401_SLIDES_M2",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -12258,7 +12346,8 @@
       "exam": "JIT401_QUIZ_PT",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -12280,7 +12369,8 @@
       "source": "quiz_pt",
       "exam": "JIT401_QUIZ_PT",
       "sets": [
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -12303,7 +12393,8 @@
       "exam": "JIT401_QUIZ_PT",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -12326,7 +12417,8 @@
       "exam": "JIT401_QUIZ_PT",
       "sets": [
         "quiz_pt",
-        "zip240"
+        "zip240",
+        "thao_nguyen"
       ]
     },
     {
@@ -12349,7 +12441,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -12372,7 +12465,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -12418,7 +12512,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -12441,7 +12536,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -12510,7 +12606,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -12533,7 +12630,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -12579,7 +12677,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -12648,7 +12747,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -12694,7 +12794,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -12717,7 +12818,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -12763,7 +12865,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -12786,7 +12889,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -12809,7 +12913,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -12855,7 +12960,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -12878,7 +12984,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -12924,7 +13031,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -12947,7 +13055,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -12970,7 +13079,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -12993,7 +13103,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -13016,7 +13127,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -13039,7 +13151,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -13108,7 +13221,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -13131,7 +13245,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -13177,7 +13292,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -13200,7 +13316,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -13246,7 +13363,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -13314,7 +13432,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -13360,7 +13479,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -13383,7 +13503,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -13406,7 +13527,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -13429,7 +13551,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -13475,7 +13598,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -13498,7 +13622,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -13567,7 +13692,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -13590,7 +13716,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -13636,7 +13763,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -13682,7 +13810,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -13728,7 +13857,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -13774,7 +13904,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -13797,7 +13928,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -13820,7 +13952,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -13843,7 +13976,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -13889,7 +14023,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -13935,7 +14070,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -13958,7 +14094,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -13981,7 +14118,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -14004,7 +14142,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -14027,7 +14166,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -14050,7 +14190,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -14096,7 +14237,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -14119,7 +14261,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -14165,7 +14308,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -14188,7 +14332,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -14211,7 +14356,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -14257,7 +14403,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -14303,7 +14450,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -14372,7 +14520,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -14464,7 +14613,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -14487,7 +14637,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -14602,7 +14753,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -14625,7 +14777,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -14648,7 +14801,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -14671,7 +14825,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -14717,7 +14872,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -14763,7 +14919,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -14786,7 +14943,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -14809,7 +14967,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -14832,7 +14991,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -14855,7 +15015,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -14923,7 +15084,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -14946,7 +15108,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -14991,7 +15154,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -15083,7 +15247,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -15152,7 +15317,8 @@
       "exam": "JIT401_ZIP240",
       "sets": [
         "zip240",
-        "quiz_pt"
+        "quiz_pt",
+        "thao_nguyen"
       ]
     },
     {
@@ -15221,6 +15387,98 @@
       "sets": [
         "zip240",
         "quiz_pt"
+      ]
+    },
+    {
+      "id": 754,
+      "question": "以下のような機能で、どの機能がOSに属しませんか。\n(a) プロセス管理\n(b) ユーザインターフェース\n(c) アプリケーションの開発機能\n(d) 記憶管理\n(e) ソフトとハードの仲介\n(f) 特定の業務処理の実行",
+      "options": {
+        "A": "何もOSの機能です",
+        "B": "(b), (d)",
+        "C": "(c), (f)",
+        "D": "(a), (c), (f)"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên zip · CÂU HỎI 9 · img 053",
+      "alt": null,
+      "explanation": "✅ Đáp án: C — (c) アプリケーションの開発機能 và (f) 特定の業務処理の実行 không thuộc chức năng cốt lõi của OS.\nOS: process, UI, memory, soft/hard bridge. Dev app & business logic = ứng dụng.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_QUIZ_PT",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ]
+    },
+    {
+      "id": 755,
+      "question": "MIDIはどんなコードですか。",
+      "options": {
+        "A": "画像のための特殊なコードです",
+        "B": "画像のための簡単なコードです",
+        "C": "音楽のための簡単なコードです",
+        "D": "音楽のための特殊なコードです"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên zip · CÂU HỎI 60 · img 064",
+      "alt": null,
+      "explanation": "✅ Đáp án: D — 音楽のための特殊なコードです\nMIDI = Musical Instrument Digital Interface — mã/giao thức đặc thù cho nhạc.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_QUIZ_PT",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ]
+    },
+    {
+      "id": 756,
+      "question": "C++プログラムにおいて、変数が a = 10, b = 7 で定義されています。次の式を評価した結果を選びなさい。\n(a - b / a - a % a) (a + (b - a) a) % 7",
+      "options": {
+        "A": "-3",
+        "B": "-4",
+        "C": "3",
+        "D": "4"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên zip · CÂU HỎI 61 · img 065",
+      "alt": null,
+      "explanation": "✅ Đáp án: B — -4\na=10, b=7 (int C++): b/a=0, a%a=0 → a-b/a-a%a=10.\na+(b-a)*a = 10+(-3)*10=-20.\n10*(-20)=-200; (-200)%7 = -4 trong C++.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_QUIZ_PT",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ]
+    },
+    {
+      "id": 757,
+      "question": "（ ）中に入る最も良いものを一つ選んでください。\nSQLとは（① ）を操作するための（② ）集まりであり、関係（① ）を基本としています。",
+      "options": {
+        "A": "①データベース；②処理",
+        "B": "①データ；②構文",
+        "C": "①データベース；②命令",
+        "D": "①インスタンス；②処理"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên zip · CÂU HỎI 47 · img 081",
+      "alt": null,
+      "explanation": "✅ Đáp án: C — ①データベース；②命令\nSQL là tập lệnh để thao tác database (mô hình quan hệ).",
+      "source": "thao_nguyen",
+      "exam": "JIT401_QUIZ_PT",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
       ]
     }
   ]
