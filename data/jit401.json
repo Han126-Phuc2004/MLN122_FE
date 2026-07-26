@@ -13704,7 +13704,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#698 (0.95)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\n【Kiến thức chuyên môn】Cụm từ nào \"tìm kiếm bằng cách sắp xếp dữ liệu vào một cấu trúc phân cấp như cha mẹ, con cái và cháu, và truy tìm dữ liệu từ cha mẹ hàng đầu\"?\n\n✅ Đáp án: C — 階層的表現 = biểu diễn phân cấp (cây)\nBiểu diễn phân cấp (cấu trúc cây) sắp xếp dữ liệu theo cấu trúc cha-con và tìm kiếm từ trên xuống (§17.2).\n\n❌ Các đáp án khác\nA: biểu diễn quan hệ (bảng) — không khớp định nghĩa/yêu cầu câu hỏi.\nB: biểu diễn dạng lưới — không khớp định nghĩa/yêu cầu câu hỏi.\nD: Trình bày đối tượng — không khớp định nghĩa/yêu cầu câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\n【Kiến thức chuyên môn】Cụm từ nào \"tìm kiếm bằng cách sắp xếp dữ liệu vào một cấu trúc phân cấp như cha mẹ, con cái và cháu, và truy tìm dữ liệu từ cha mẹ hàng đầu\"?\n\n✅ Đáp án: A — 階層的表現\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: biểu diễn quan hệ (bảng) — không khớp định nghĩa/yêu cầu câu hỏi.\nB: biểu diễn dạng lưới — không khớp định nghĩa/yêu cầu câu hỏi.\nD: Trình bày đối tượng — không khớp định nghĩa/yêu cầu câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13747,12 +13747,12 @@
         "D": "大規模集積回路"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#248 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nLSI tiếng Nhật là gì?\n\n✅ Đáp án: A — 大規模集積回路 = Mạch tích hợp quy mô lớn\nLSI = Tích hợp quy mô lớn = Mạch tích hợp quy mô lớn.\n\n❌ Các đáp án khác\nB: Đường tích hợp — không đúng với nội dung câu hỏi.\nC: IC (thường) — không đúng với nội dung câu hỏi.\nD: Đường tích hợp lớn — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nLSI tiếng Nhật là gì?\n\n✅ Đáp án: D — 大規模集積回路\nLSI = 大規模集積回路\n\n\n❌ Các đáp án khác\nB: Đường tích hợp — không đúng với nội dung câu hỏi.\nC: IC (thường) — không đúng với nội dung câu hỏi.\nD: Đường tích hợp lớn — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13776,7 +13776,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#210 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nTốc độ khoảng ≥100 Kbps–1 Mbps gọi là gì?\n\n✅ Đáp án: C — ブロードバンド = Broadband\nMọi tốc độ trên 100Kbps đến 1Mbps đều được gọi là băng thông rộng.\n\n❌ Các đáp án khác\nA: Narrowband — không đúng với nội dung câu hỏi.\nB: Dial-up — không đúng với nội dung câu hỏi.\nD: Serial — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nTốc độ khoảng ≥100 Kbps–1 Mbps gọi là gì?\n\n✅ Đáp án: A — ブロードバンド\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Narrowband — không đúng với nội dung câu hỏi.\nB: Dial-up — không đúng với nội dung câu hỏi.\nD: Serial — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13848,7 +13848,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#238 (0.95)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nVideo dùng nén ảnh tĩnh + ghi chênh lệch → định dạng?\n\n✅ Đáp án: C — MPEG\nNén ảnh tĩnh + ghi vi sai = MPEG.\n\n❌ Các đáp án khác\nA: JPEG — không đúng với nội dung câu hỏi.\nB: GIF — không đúng với nội dung câu hỏi.\nD: PNG — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nVideo dùng nén ảnh tĩnh + ghi chênh lệch → định dạng?\n\n✅ Đáp án: D — MPEG\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: JPEG — không đúng với nội dung câu hỏi.\nB: GIF — không đúng với nội dung câu hỏi.\nD: PNG — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13867,12 +13867,12 @@
         "D": "1ビットの誤りを訂正でき、2ビットの誤りを検出できる。"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#196 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: C — 1ビットの誤りを検出できる\nParity dọc (vertical): phát hiện lỗi 1 bit (số bit lỗi lẻ). Không sửa lỗi; không chỉ odd/even một bên.",
+      "explanation": "✅ Đáp án: C — 1ビットの誤りを検出できる。\nVertical parity detect 1-bit\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13896,7 +13896,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#244 (0.95)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nVirus là ví dụ điển hình của ( ) nhắm PC cá nhân?\n\n✅ Đáp án: A — 犯罪 = tội phạm / 犯罪\nVirus là một ví dụ về tội phạm máy tính.\n\n❌ Các đáp án khác\nB: hành vi — không đúng với nội dung câu hỏi.\nC: đồ vật — không đúng với nội dung câu hỏi.\nD: bệnh — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nVirus là ví dụ điển hình của ( ) nhắm PC cá nhân?\n\n✅ Đáp án: C — 犯罪\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nB: hành vi — không đúng với nội dung câu hỏi.\nC: đồ vật — không đúng với nội dung câu hỏi.\nD: bệnh — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13920,7 +13920,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#679 (0.95)",
       "alt": null,
-      "explanation": "✅ Đáp án: D — 制御\nMã xuống dòng thuộc 制御コード (control code); khác nhau giữa Windows/Mac/Unix.",
+      "explanation": "✅ Đáp án: A — 制御\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13944,7 +13944,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#692 (0.95)",
       "alt": null,
-      "explanation": "✅ Đáp án: A — 基数\nCơ số (base) = số làm nền (2, 10, 16…).",
+      "explanation": "✅ Đáp án: C — 基数\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13968,7 +13968,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#688 (0.95)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nCách thao tác chuột/bàn phím, cách hiện cửa sổ… gọi là gì?\n\n✅ Đáp án: C — ユーザインタフェース = User interface\nGiao diện người dùng xác định cách mọi thứ được vận hành và hiển thị.\n\n❌ Các đáp án khác\nA: Device driver — không đúng với nội dung câu hỏi.\nB: Middleware — không đúng với nội dung câu hỏi.\nD: Firewall — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nCách thao tác chuột/bàn phím, cách hiện cửa sổ… gọi là gì?\n\n✅ Đáp án: B — ユーザインタフェース\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Device driver — không đúng với nội dung câu hỏi.\nB: Middleware — không đúng với nội dung câu hỏi.\nD: Firewall — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -13992,7 +13992,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#634 (0.95)",
       "alt": null,
-      "explanation": "✅ Đáp án: A — 16-8\nJIS: biểu diễn 16 bit, thường tách mỗi 8 bit.",
+      "explanation": "✅ Đáp án: D — 16-8\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -14040,7 +14040,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#643 (0.95)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nĐơn vị ( ) của lượng tin gọi là bit?\n\n✅ Đáp án: C — 最小 = nhỏ nhất\nBit là đơn vị nhỏ nhất (cũng là đơn vị cơ bản) của thông tin.\n\n❌ Các đáp án khác\nA: lớn nhất — không đúng với nội dung câu hỏi.\nB: trung bình — không đúng với nội dung câu hỏi.\nD: thay đổi — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nĐơn vị ( ) của lượng tin gọi là bit?\n\n✅ Đáp án: D — 最小\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: lớn nhất — không đúng với nội dung câu hỏi.\nB: trung bình — không đúng với nội dung câu hỏi.\nD: thay đổi — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -14059,12 +14059,12 @@
         "D": "量子化数"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#149 (0.95)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\n[Thuật ngữ] Hãy chuyển sang tiếng Nhật: Tần số lấy mẫu\n\n✅ Đáp án: C — サンプリング周波数 = tần số lấy mẫu\nTần số lấy mẫu là tần số lấy mẫu (§14.2).\n\n❌ Các đáp án khác\nA: số mức lượng tử hóa — không khớp định nghĩa/yêu cầu câu hỏi.\nB: Tốc độ bit — không khớp định nghĩa/yêu cầu câu hỏi.\nD: độ phân giải — không khớp định nghĩa/yêu cầu câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\n[Thuật ngữ] Hãy chuyển sang tiếng Nhật: Tần số lấy mẫu\n\n✅ Đáp án: D — 量子化数\n量子化数\n\n\n❌ Các đáp án khác\nA: số mức lượng tử hóa — không khớp định nghĩa/yêu cầu câu hỏi.\nB: Tốc độ bit — không khớp định nghĩa/yêu cầu câu hỏi.\nD: độ phân giải — không khớp định nghĩa/yêu cầu câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -14136,7 +14136,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#231 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\n1.111₂ = ?₁₀\n\n✅ Đáp án: A — 1.875\n1 + 0,5 + 0,25 + 0,125 = 1,875.\n\n❌ Các đáp án khác\nB: 1.75 — không đúng với nội dung câu hỏi.\nC: 1.5 — không đúng với nội dung câu hỏi.\nD: 2.0 — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\n1.111₂ = ?₁₀\n\n✅ Đáp án: B — 1.875\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nB: 1.75 — không đúng với nội dung câu hỏi.\nC: 1.5 — không đúng với nội dung câu hỏi.\nD: 2.0 — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -14160,7 +14160,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#230 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\n155₁₀ = ?₂\n\n✅ Đáp án: A — 10011011\n155=128+16+8+2+1 → 10011011₂.\n\n❌ Các đáp án khác\nB: 10011100 — không đúng với nội dung câu hỏi.\nC: 10101011 — không đúng với nội dung câu hỏi.\nD: 11001011 — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\n155₁₀ = ?₂\n\n✅ Đáp án: C — 10011011\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nB: 10011100 — không đúng với nội dung câu hỏi.\nC: 10101011 — không đúng với nội dung câu hỏi.\nD: 11001011 — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -14207,7 +14207,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#686 (0.95)",
       "alt": null,
-      "explanation": "✅ Đáp án: D — 11000101\n01011010₂=90, 01101011₂=107, 90+107=197=11000101₂ (8-bit dương).",
+      "explanation": "✅ Đáp án: B — 11000101\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -14279,7 +14279,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#262 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nA quyết định sử dụng mã hóa khóa công khai để mã hóa tài liệu để gửi tài liệu bí mật cho B qua email. Tại thời điểm này, bạn nên SỬ dụng khóa nào để mã hóa tài liệu?\n\n✅ Đáp án: A — Bさんの公開鍵 = Khóa công khai của B\nĐáp án đúng là A. Khóa công khai của ông B\n\n❌ Các đáp án khác\nB: Khóa riêng của A — không đúng với nội dung câu hỏi.\nC: Khóa riêng của ông B — không đúng với nội dung câu hỏi.\nD: Khóa công khai của A — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nA quyết định sử dụng mã hóa khóa công khai để mã hóa tài liệu để gửi tài liệu bí mật cho B qua email. Tại thời điểm này, bạn nên SỬ dụng khóa nào để mã hóa tài liệu?\n\n✅ Đáp án: D — Bさんの公開鍵\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nB: Khóa riêng của A — không đúng với nội dung câu hỏi.\nC: Khóa riêng của ông B — không đúng với nội dung câu hỏi.\nD: Khóa công khai của A — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -14351,7 +14351,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#687 (0.95)",
       "alt": null,
-      "explanation": "✅ Đáp án: A — ピクセル\nĐiểm ảnh = pixel (画素).",
+      "explanation": "✅ Đáp án: C — ピクセル\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -14399,7 +14399,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#294 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nChọn cách gọi tên đúng của hệ thống trong hình\n\n✅ Đáp án: B — 並列システム\nĐáp án đúng là B. Hệ song song\n\n❌ Các đáp án khác\nA: hệ thống loạt — không đúng với nội dung câu hỏi.\nC: hệ thống tập trung — không đúng với nội dung câu hỏi.\nD: hệ thống phân tán — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nChọn cách gọi tên đúng của hệ thống trong hình\n\n✅ Đáp án: C — 並列システム\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: hệ thống loạt — không đúng với nội dung câu hỏi.\nC: hệ thống tập trung — không đúng với nội dung câu hỏi.\nD: hệ thống phân tán — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -14423,7 +14423,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#235 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nMã ký tự quyết định tương ứng giữa ( ) và ( )?\n\n✅ Đáp án: D — 数字 - 文字 = số - chữ\nMã ký tự xác định sự tương ứng giữa số và chữ cái.\n\n❌ Các đáp án khác\nA: âm - ảnh — không đúng với nội dung câu hỏi.\nB: file - folder — không đúng với nội dung câu hỏi.\nC: nén - giải nén — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nMã ký tự quyết định tương ứng giữa ( ) và ( )?\n\n✅ Đáp án: B — 数字 - 文字\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: âm - ảnh — không đúng với nội dung câu hỏi.\nB: file - folder — không đúng với nội dung câu hỏi.\nC: nén - giải nén — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -14447,7 +14447,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#702 (0.95)",
       "alt": null,
-      "explanation": "✅ Đáp án: B — dpi\nĐộ phân giải máy in = dpi (dots per inch), không phải bit.",
+      "explanation": "✅ Đáp án: A — dpi\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -14543,7 +14543,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#682 (0.90)",
       "alt": null,
-      "explanation": "✅ Đáp án: A. 400\nNguồn ảnh zip 240 (CÂU HỎI 43 · img 129).\nĐáp án theo kiến thức JIT (bank stem).",
+      "explanation": "✅ Đáp án: B — 4\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -14663,7 +14663,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#635 (0.82)",
       "alt": null,
-      "explanation": "✅ Đáp án: C — chỉ số dưới\n添字 = subscript (chỉ số dưới), không phải chỉ số trên.",
+      "explanation": "✅ Đáp án: D — chỉ số dưới\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -14711,7 +14711,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#260 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nBạn có sử dụng từ tiếng Nhật \"bư vi xư lý\" không?\n\n✅ Đáp án: C — マイクロプロセッサ = Bộ vi xử lý\nĐáp án đúng là C. vi xử lý\n\n❌ Các đáp án khác\nA: Bộ vi xử lý — không đúng với nội dung câu hỏi.\nB: Chương trình điều khiển — không đúng với nội dung câu hỏi.\nD: Motherboard — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nBạn có sử dụng từ tiếng Nhật \"bư vi xư lý\" không?\n\n✅ Đáp án: A — マイクロプロセッサ\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Bộ vi xử lý — không đúng với nội dung câu hỏi.\nB: Chương trình điều khiển — không đúng với nội dung câu hỏi.\nD: Motherboard — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -14735,7 +14735,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#198 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\n\"Tổng hợp lý\" là gì?\n\n✅ Đáp án: D — OR回路の演算 = Phép OR\nTổng logic = OR, tích logic = AND, phủ định logic = NOT.\n\n❌ Các đáp án khác\nA: Phép AND — không đúng với nội dung câu hỏi.\nB: Phép NOT — không đúng với nội dung câu hỏi.\nC: Phép XOR — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\n\"Tổng hợp lý\" là gì?\n\n✅ Đáp án: C — OR回路の演算\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Phép AND — không đúng với nội dung câu hỏi.\nB: Phép NOT — không đúng với nội dung câu hỏi.\nC: Phép XOR — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -14754,12 +14754,12 @@
         "D": "テープ、メモリ"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#259 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nMáy Turing bao gồm những gì?\n\n✅ Đáp án: B — ヘッド、テープ = Đầu, băng dính\nCâu trả lời đúng là B. đầu, băng\n\n❌ Các đáp án khác\nA: Đầu, băng, bộ nhớ — không đúng với nội dung câu hỏi.\nC: Băng, Bộ nhớ — không đúng với nội dung câu hỏi.\nD: Đầu, Bộ nhớ — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nMáy Turing bao gồm những gì?\n\n✅ Đáp án: C — ヘッド、テープ\nTuring head+tape\n\n\n❌ Các đáp án khác\nA: Đầu, băng, bộ nhớ — không đúng với nội dung câu hỏi.\nC: Băng, Bộ nhớ — không đúng với nội dung câu hỏi.\nD: Đầu, Bộ nhớ — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -14826,12 +14826,12 @@
         "D": "「商品コード」「商品名」「単価」「仕入先コード」"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#653 (0.95)",
       "alt": null,
-      "explanation": "✅ Đáp án: D — 商品コード・商品名・単価・商品カテゴリコード・仕入先コード\nBảng商品 đã có FK category + supplier; join giữ các khóa đó.",
+      "explanation": "✅ Đáp án: C — 「商品コード」「商品名」「単価」「商品カテゴリコード」「仕入先コード」\nProduct table needs both FKs\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -14855,7 +14855,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#648 (0.95)",
       "alt": null,
-      "explanation": "✅ Đáp án: D — (\"札幌\"OR\"函館\")AND\"日本料理\"\nNhà hàng Nhật ở Sapporo hoặc Hakodate: OR hai thành phố, AND món Nhật.",
+      "explanation": "✅ Đáp án: B — (\"札幌\"OR\"函館\")AND\"日本料理\"\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -14898,12 +14898,12 @@
         "D": "括弧（）は演算の優先順位を明示的に変更するために使用でき、括弧内の計算は最も優先して実行される。"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#630 (0.90)",
       "alt": null,
-      "explanation": "✅ Đáp án: A — 括弧で優先順位を明示的に変更できる\nNgoặc có độ ưu tiên cao nhất. B: không phải mọi ngôn ngữ đều làm tròn 7/2→3. D: * / ưu tiên hơn + -.",
+      "explanation": "✅ Đáp án: D — 括弧（）は演算の優先順位を明示的に変更するために使用でき、括弧内の計算は最も優先して実行される。\nParentheses correct; A wrong about % precedence\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -14927,7 +14927,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#700 (0.95)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nLàm dung lượng nhớ “ảo” lớn hơn RAM thật gọi là gì?\n\n✅ Đáp án: C — Bộ nhớ ảo (仮想記憶)\nBộ nhớ ảo sử dụng ổ cứng HDD, v.v. để mở rộng bộ nhớ rõ ràng.\n\n❌ Các đáp án khác\nA: Cache — không đúng với nội dung câu hỏi.\nB: Chỉ swapping — không đúng với nội dung câu hỏi.\nD: Defrag — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nLàm dung lượng nhớ “ảo” lớn hơn RAM thật gọi là gì?\n\n✅ Đáp án: A — 仮想記憶\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Cache — không đúng với nội dung câu hỏi.\nB: Chỉ swapping — không đúng với nội dung câu hỏi.\nD: Defrag — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -14951,7 +14951,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#272 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\n\"RAM\" trong tiếng Anh là gì?\n\n✅ Đáp án: D — Random Access Memory\nĐáp án đúng là D. Bộ nhớ truy cập ngẫu nhiên\n\n❌ Các đáp án khác\nA: Random Array Memory — không đúng với nội dung câu hỏi.\nB: Read Array Memory — không đúng với nội dung câu hỏi.\nC: Read Access Memory — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\n\"RAM\" trong tiếng Anh là gì?\n\n✅ Đáp án: A — Random Access Memory\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Random Array Memory — không đúng với nội dung câu hỏi.\nB: Read Array Memory — không đúng với nội dung câu hỏi.\nC: Read Access Memory — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -14975,7 +14975,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#268 (0.95)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nTrung tâm dữ liệu của công ty có các máy chủ đóng vai trò quan trọng. Sau khi phân tích dữ liệu hoạt động của máy chủ này, chúng tôi nhận thấy khoảng thời gian lỗi trung bình là 500 giờ và thời gian sửa chữa trung bình là 10 giờ. Máy chủ này có bao nhiêu thời gian hoạt động?\n\n✅ Đáp án: A — 98.0%\nCâu trả lời đúng là A. 98,0%\n\n❌ Các đáp án khác\nB: 97.0% — không đúng với nội dung câu hỏi.\nC: 99.0% — không đúng với nội dung câu hỏi.\nD: 99.5% — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nTrung tâm dữ liệu của công ty có các máy chủ đóng vai trò quan trọng. Sau khi phân tích dữ liệu hoạt động của máy chủ này, chúng tôi nhận thấy khoảng thời gian lỗi trung bình là 500 giờ và thời gian sửa chữa trung bình là 10 giờ. Máy chủ này có bao nhiêu thời gian hoạt động?\n\n✅ Đáp án: B — 98.0%\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nB: 97.0% — không đúng với nội dung câu hỏi.\nC: 99.0% — không đúng với nội dung câu hỏi.\nD: 99.5% — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -15023,7 +15023,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#282 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nBạn đọc \"chuyển vị\" như thế nào? Tiếng Việt là gì?\n\n✅ Đáp án: C — てんちしき - kiểu hoán vị = Tencchi Shiki - kiưu hoán vư\nCâu trả lời đúng là C. Tenchishiki - loại dịp\n\n❌ Các đáp án khác\nA: Ten Hoshiki - mã hóa hoán vư — không đúng với nội dung câu hỏi.\nB: Poop Shiki - mã hóa hoán vư — không đúng với nội dung câu hỏi.\nD: Um Houshiki - kiưu hoán vư — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nBạn đọc \"chuyển vị\" như thế nào? Tiếng Việt là gì?\n\n✅ Đáp án: B — てんちしき - kiểu hoán vị\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Ten Hoshiki - mã hóa hoán vư — không đúng với nội dung câu hỏi.\nB: Poop Shiki - mã hóa hoán vư — không đúng với nội dung câu hỏi.\nD: Um Houshiki - kiưu hoán vư — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -15042,12 +15042,12 @@
         "D": "CPU内部でデータのやりとえいをすること"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#293 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nVai trò nào sau đây là thích hợp nhất cho bus trong CPU máy tính?\n\n✅ Đáp án: C — CPU内部でデータのやりとりをすること\nCâu trả lời đúng là C. trao đổi dữ liệu trong CPU\n\n❌ Các đáp án khác\nA: Cải thiện tốc độ xử lý của các đơn vị số học và đơn vị điều khiển — không đúng với nội dung câu hỏi.\nB: Cấp nguồn cho từng bộ phận của máy tính — không đúng với nội dung câu hỏi.\nD: Giải thích các lệnh và gửi tín hiệu điều khiển đến các thiết bị khác — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nVai trò nào sau đây là thích hợp nhất cho bus trong CPU máy tính?\n\n✅ Đáp án: D — CPU内部でデータのやりとえいをすること\nBus data transfer not power\n\n\n❌ Các đáp án khác\nA: Cải thiện tốc độ xử lý của các đơn vị số học và đơn vị điều khiển — không đúng với nội dung câu hỏi.\nB: Cấp nguồn cho từng bộ phận của máy tính — không đúng với nội dung câu hỏi.\nD: Giải thích các lệnh và gửi tín hiệu điều khiển đến các thiết bị khác — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -15095,7 +15095,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#285 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\n“Quy trình phân phối” trong tiếng Việt là gì?\n\n✅ Đáp án: B — quá trình lưu thông\nCâu trả lời đúng là B. quá trình lưu thông tin\n\n❌ Các đáp án khác\nA: quá trình di chuyển — không đúng với nội dung câu hỏi.\nC: quá trình vận hành — không đúng với nội dung câu hỏi.\nD: quá trình vận hành — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\n“Quy trình phân phối” trong tiếng Việt là gì?\n\n✅ Đáp án: C — quá trình lưu thông\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: quá trình di chuyển — không đúng với nội dung câu hỏi.\nC: quá trình vận hành — không đúng với nội dung câu hỏi.\nD: quá trình vận hành — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -15119,7 +15119,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#284 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nĐiều nào sau đây đúng về điốt và chất bán dẫn?\n\n✅ Đáp án: D — 電流が流れる方向と電子の移動する方向は逆である。 = Hướng mà dòng điện chạy và hướng mà các electron di chuyển bị đảo ngược.\nCâu trả lời đúng là D. Chiều dòng điện chạy và chiều chuyển động của các electron ngược chiều nhau.\n\n❌ Các đáp án khác\nA: Đèn LED được phân biệt với các điốt thông thường ở chỗ chúng khác nhau về cấu trúc và không phát ra ánh sáng. — không đúng với nội dung câu hỏi.\nB: Vì diode di chuyển các electron từ loại p sang loại n, dòng điện chạy theo hướng từ loại p sang loại n. — không đúng với nội dung câu hỏi.\nC: chất bán dẫn loại N thiếu electron, và chất bán dẫn loại p là ổn định do có quá nhiều electron. — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nĐiều nào sau đây đúng về điốt và chất bán dẫn?\n\n✅ Đáp án: C — 電流が流れる方向と電子の移動する方向は逆である。\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Đèn LED được phân biệt với các điốt thông thường ở chỗ chúng khác nhau về cấu trúc và không phát ra ánh sáng. — không đúng với nội dung câu hỏi.\nB: Vì diode di chuyển các electron từ loại p sang loại n, dòng điện chạy theo hướng từ loại p sang loại n. — không đúng với nội dung câu hỏi.\nC: chất bán dẫn loại N thiếu electron, và chất bán dẫn loại p là ổn định do có quá nhiều electron. — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -15143,7 +15143,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#288 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nSản phẩm FOMA của NTT Docomo thuộc thế hệ điện thoại di động nào?\n\n✅ Đáp án: C — 3G\nĐáp án đúng là C. 3G\n\n❌ Các đáp án khác\nA: 4G — không đúng với nội dung câu hỏi.\nB: 2G — không đúng với nội dung câu hỏi.\nD: 3.5G — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nSản phẩm FOMA của NTT Docomo thuộc thế hệ điện thoại di động nào?\n\n✅ Đáp án: B — 3G\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: 4G — không đúng với nội dung câu hỏi.\nB: 2G — không đúng với nội dung câu hỏi.\nD: 3.5G — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -15167,7 +15167,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#256 (0.95)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nTrong bộ xử lý có tần số xung nhịp 3 GHz, khi một lệnh có thể được thực thi ở 6 xung nhịp, cần bao nhiêu nano giây để thực thi một lệnh?\n\n✅ Đáp án: A — 2.0\nCâu trả lời đúng là A. 2.0\n\n❌ Các đáp án khác\nB: 3.0 — không đúng với nội dung câu hỏi.\nC: 0.5 — không đúng với nội dung câu hỏi.\nD: 18.0 — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nTrong bộ xử lý có tần số xung nhịp 3 GHz, khi một lệnh có thể được thực thi ở 6 xung nhịp, cần bao nhiêu nano giây để thực thi một lệnh?\n\n✅ Đáp án: B — 2.0\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nB: 3.0 — không đúng với nội dung câu hỏi.\nC: 0.5 — không đúng với nội dung câu hỏi.\nD: 18.0 — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -15191,7 +15191,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#291 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nPhương pháp nào được sử dụng để đo điện tích tích lũy giữa đầu ngón tay và cảm biến?\n\n✅ Đáp án: C — 静電容量方式\nĐáp án đúng là C. Phương pháp điện dung\n\n❌ Các đáp án khác\nA: Phương pháp cảm biến CMOS — không đúng với nội dung câu hỏi.\nB: Phương pháp phân đoạn — không đúng với nội dung câu hỏi.\nD: Phương pháp màng điện trở — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nPhương pháp nào được sử dụng để đo điện tích tích lũy giữa đầu ngón tay và cảm biến?\n\n✅ Đáp án: D — 静電容量方式\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Phương pháp cảm biến CMOS — không đúng với nội dung câu hỏi.\nB: Phương pháp phân đoạn — không đúng với nội dung câu hỏi.\nD: Phương pháp màng điện trở — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -15215,7 +15215,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#277 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nVirus máy tính có gì không đúng?\n\n✅ Đáp án: B — 個人のパソコンをねらった犯罪 = Tội phạm chống lại máy tính cá nhân\nĐáp án đúng là B. Tội phạm nhắm vào máy tính cá nhân\n\n❌ Các đáp án khác\nA: Quá trình nhiễm trùng và khởi phát với thời gian ủ bệnh là virus của sinh vật — không đúng với nội dung câu hỏi.\nC: Các chương trình do con người tạo ra — không đúng với nội dung câu hỏi.\nD: Thông qua đường lây nhiễm, gửi email bằng bộ nhớ USB hoặc Internet hoặc trang chủ — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nVirus máy tính có gì không đúng?\n\n✅ Đáp án: D — 個人のパソコンをねらった犯罪\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Quá trình nhiễm trùng và khởi phát với thời gian ủ bệnh là virus của sinh vật — không đúng với nội dung câu hỏi.\nC: Các chương trình do con người tạo ra — không đúng với nội dung câu hỏi.\nD: Thông qua đường lây nhiễm, gửi email bằng bộ nhớ USB hoặc Internet hoặc trang chủ — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -15263,7 +15263,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#247 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nBạn đọc “dải tần số” như thế nào? Tiếng Việt là gì?\n\n✅ Đáp án: C — しゅうはすうたい - dải tần số = shuuhasuutai - dải tần số\nDải tần=dải tần / băng tần.\n\n❌ Các đáp án khác\nA: shuuhasuutai - băng tần (nghĩa hẹp) — không đúng với nội dung câu hỏi.\nB: đọc sai — không đúng với nội dung câu hỏi.\nD: đọc sai — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nBạn đọc “dải tần số” như thế nào? Tiếng Việt là gì?\n\n✅ Đáp án: A — しゅうはすうたい - dải tần số\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: shuuhasuutai - băng tần (nghĩa hẹp) — không đúng với nội dung câu hỏi.\nB: đọc sai — không đúng với nội dung câu hỏi.\nD: đọc sai — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -15287,7 +15287,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#267 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\n“DoS” trong tiếng Việt là gì?\n\n✅ Đáp án: A — tấn công từ chối dịch vụ\nCâu trả lời đúng là A. tấn công từ chối dịch vụ\n\n❌ Các đáp án khác\nB: tiêu chuẩn mã hóa dữ liệu — không đúng với nội dung câu hỏi.\nC: hệ thống vạn năng — không đúng với nội dung câu hỏi.\nD: hệ thống Ram động — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\n“DoS” trong tiếng Việt là gì?\n\n✅ Đáp án: D — tấn công từ chối dịch vụ\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nB: tiêu chuẩn mã hóa dữ liệu — không đúng với nội dung câu hỏi.\nC: hệ thống vạn năng — không đúng với nội dung câu hỏi.\nD: hệ thống Ram động — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -15311,7 +15311,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#254 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nVai trò nào sau đây là vai trò chính thích hợp nhất của Lớp Phiên OSI (Lớp 5)?\n\n✅ Đáp án: A — 通信の開始から終了までの手順を管理する。 = Quản lý quy trình từ đầu đến cuối giao tiếp.\nCâu trả lời đúng là A. Quản lý quy trình từ đầu đến cuối giao tiếp.\n\n❌ Các đáp án khác\nB: Xác định lộ trình chuyển tiếp dữ liệu đến đối tác truyền thông và quản lý địa chỉ logic. — không đúng với nội dung câu hỏi.\nC: Xác định các tiêu chuẩn điện và cơ học để truyền tín hiệu bit thông qua phương tiện truyền thông. — không đúng với nội dung câu hỏi.\nD: Chuyển đổi định dạng của dữ liệu (mã hóa ký tự, mã hóa, v.v.) thành định dạng có thể được xử lý bởi lớp ứng dụng. — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nVai trò nào sau đây là vai trò chính thích hợp nhất của Lớp Phiên OSI (Lớp 5)?\n\n✅ Đáp án: D — 通信の開始から終了までの手順を管理する。\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nB: Xác định lộ trình chuyển tiếp dữ liệu đến đối tác truyền thông và quản lý địa chỉ logic. — không đúng với nội dung câu hỏi.\nC: Xác định các tiêu chuẩn điện và cơ học để truyền tín hiệu bit thông qua phương tiện truyền thông. — không đúng với nội dung câu hỏi.\nD: Chuyển đổi định dạng của dữ liệu (mã hóa ký tự, mã hóa, v.v.) thành định dạng có thể được xử lý bởi lớp ứng dụng. — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -15335,7 +15335,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#279 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nBạn đọc các biểu tượng trên_keyboard như thế nào?\n\n✅ Đáp án: C — アンダーバー = Ga ̣ ch dươ ́\nĐáp án đúng là C. dưới vạch\n\n❌ Các đáp án khác\nA: Dấu hoa thị — không đúng với nội dung câu hỏi.\nB: 3 - 1 8, ném! — không đúng với nội dung câu hỏi.\nD: Dấu ngã — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nBạn đọc các biểu tượng trên_keyboard như thế nào?\n\n✅ Đáp án: A — アンダーバー\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Dấu hoa thị — không đúng với nội dung câu hỏi.\nB: 3 - 1 8, ném! — không đúng với nội dung câu hỏi.\nD: Dấu ngã — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -15359,7 +15359,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#246 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nPhần mềm quyết định app chạy được trên ĐTDĐ chuẩn quốc tế?\n\n✅ Đáp án: B — オペレーティングシステム = Hệ điều hành (OS)\nHệ điều hành xác định ứng dụng nào có thể được sử dụng.\n\n❌ Các đáp án khác\nA: Ứng dụng — không đúng với nội dung câu hỏi.\nC: Tiền điện tử — không đúng với nội dung câu hỏi.\nD: Galapagos phone — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nPhần mềm quyết định app chạy được trên ĐTDĐ chuẩn quốc tế?\n\n✅ Đáp án: C — オペレーティングシステム\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Ứng dụng — không đúng với nội dung câu hỏi.\nC: Tiền điện tử — không đúng với nội dung câu hỏi.\nD: Galapagos phone — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -15407,7 +15407,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#244 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nVirus là ví dụ điển hình của ( ) nhắm PC cá nhân?\n\n✅ Đáp án: A — 犯罪 = tội phạm / 犯罪\nVirus là một ví dụ về tội phạm máy tính.\n\n❌ Các đáp án khác\nB: hành vi — không đúng với nội dung câu hỏi.\nC: đồ vật — không đúng với nội dung câu hỏi.\nD: bệnh — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nVirus là ví dụ điển hình của ( ) nhắm PC cá nhân?\n\n✅ Đáp án: D — 犯罪\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nB: hành vi — không đúng với nội dung câu hỏi.\nC: đồ vật — không đúng với nội dung câu hỏi.\nD: bệnh — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -15455,7 +15455,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#251 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nPhát sóng Simal bằng tiếng Việt là gì?\n\n✅ Đáp án: D — phát sóng cùng một lúc\nĐáp án đúng là D. phát bài hát cùng một lúc\n\n❌ Các đáp án khác\nA: phát sóng qua vệ tinh — không đúng với nội dung câu hỏi.\nB: phát sóng tạm thời — không đúng với nội dung câu hỏi.\nC: phát sóng từng đoạn — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nPhát sóng Simal bằng tiếng Việt là gì?\n\n✅ Đáp án: A — phát sóng cùng một lúc\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: phát sóng qua vệ tinh — không đúng với nội dung câu hỏi.\nB: phát sóng tạm thời — không đúng với nội dung câu hỏi.\nC: phát sóng từng đoạn — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -15479,7 +15479,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#276 (0.95)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nTên của địa điểm nơi số đường phố được chỉ định cho không gian bộ nhớ là gì?\n\n✅ Đáp án: D — 記憶アドレス = Địa chỉ lưu trữ\nĐáp án đúng là D. địa chỉ bộ nhớ\n\n❌ Các đáp án khác\nA: Cookie — không đúng với nội dung câu hỏi.\nB: Harddisk — không đúng với nội dung câu hỏi.\nC: Cache — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nTên của địa điểm nơi số đường phố được chỉ định cho không gian bộ nhớ là gì?\n\n✅ Đáp án: A — 記憶アドレス\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Cookie — không đúng với nội dung câu hỏi.\nB: Harddisk — không đúng với nội dung câu hỏi.\nC: Cache — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -15498,12 +15498,12 @@
         "D": "重要な情報"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#645 (0.90)",
       "alt": null,
-      "explanation": "✅ Đáp án: B — 重要な情報\nMáy server lưu thông tin quan trọng (dữ liệu/dịch vụ cung cấp).",
+      "explanation": "✅ Đáp án: D — 重要な情報\n重要な情報\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -15527,7 +15527,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#252 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nĐiều nào sau đây đúng về Mạng cục bộ (Lan)?\n\n✅ Đáp án: D — LANは、ネットワーク管理者が歩いて機器の状態をチェックできる程度の局所的な範囲を指すことが多い。 = Mạng LAN thường đề cập đến một phạm vi cục bộ trong phạm vi mà quản trị viên mạng có thể đi bộ để kiểm tra trạng thái của thiết bị.\nCâu trả lời đúng là D. Mạng LAN thường dùng để chỉ một khu vực cục bộ nơi quản trị viên mạng có thể đi lại và kiểm tra trạng thái của thiết bị.\n\n❌ Các đáp án khác\nA: Mạng LAN là các mạng lớn kết nối các khu vực rộng lớn và Internet là một loại mạng WAN. — không đúng với nội dung câu hỏi.\nB: Sự khác biệt giữa mạng LAN và WAN rất rõ ràng và các mạng trong một công ty luôn được phân loại là mạng LAN, ngay cả khi có nhiều nhánh. — không đúng với nội dung câu hỏi.\nC: Chỉ có máy tính và máy in được kết nối với mạng LAN, không phải thiết bị gia dụng. — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nĐiều nào sau đây đúng về Mạng cục bộ (Lan)?\n\n✅ Đáp án: A — LANは、ネットワーク管理者が歩いて機器の状態をチェックできる程度の局所的な範囲を指すことが多い。\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Mạng LAN là các mạng lớn kết nối các khu vực rộng lớn và Internet là một loại mạng WAN. — không đúng với nội dung câu hỏi.\nB: Sự khác biệt giữa mạng LAN và WAN rất rõ ràng và các mạng trong một công ty luôn được phân loại là mạng LAN, ngay cả khi có nhiều nhánh. — không đúng với nội dung câu hỏi.\nC: Chỉ có máy tính và máy in được kết nối với mạng LAN, không phải thiết bị gia dụng. — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -15551,7 +15551,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#270 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\n“Sở hữu công nghiệp” có những quyền gì?\n\n✅ Đáp án: B — 意匠権、特許権、実用新案権 = Quyền thiết kế, quyền sáng chế, quyền mô hình tiện ích\nĐáp án đúng là B. Quyền thiết kế, quyền sáng chế, quyền giải pháp hữu ích\n\n❌ Các đáp án khác\nA: Quyền lân cận, quyền thương hiệu, quyền mô hình tiện ích — không đúng với nội dung câu hỏi.\nC: Quyền láng giềng, quyền thiết kế và quyền nhãn hiệu — không đúng với nội dung câu hỏi.\nD: Quyền thiết kế, quyền sở hữu bản quyền, quyền sáng chế — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\n“Sở hữu công nghiệp” có những quyền gì?\n\n✅ Đáp án: C — 意匠権、特許権、実用新案権\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Quyền lân cận, quyền thương hiệu, quyền mô hình tiện ích — không đúng với nội dung câu hỏi.\nC: Quyền láng giềng, quyền thiết kế và quyền nhãn hiệu — không đúng với nội dung câu hỏi.\nD: Quyền thiết kế, quyền sở hữu bản quyền, quyền sáng chế — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -15575,7 +15575,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#273 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nTrong OSI, tầng nào chịu trách nhiệm chính cho chức năng \"chuyển giữa các thiết bị liền kề\"?\n\n✅ Đáp án: C — データリンク層 = Tầng liên kết dữ liệu\nĐáp án đúng là C. Lớp liên kết dữ liệu\n\n❌ Các đáp án khác\nA: Lớp mạng — không đúng với nội dung câu hỏi.\nB: Lớp vật lý — không đúng với nội dung câu hỏi.\nD: Thông qua lớp vận chuyển — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nTrong OSI, tầng nào chịu trách nhiệm chính cho chức năng \"chuyển giữa các thiết bị liền kề\"?\n\n✅ Đáp án: A — データリンク層\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Lớp mạng — không đúng với nội dung câu hỏi.\nB: Lớp vật lý — không đúng với nội dung câu hỏi.\nD: Thông qua lớp vận chuyển — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -15599,7 +15599,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#258 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\n“ROM” là gì?\n\n✅ Đáp án: B — 読み取り専用の半導体メモリである = Nó là một bộ nhớ bán dẫn chỉ đọc\nĐáp án đúng là B. Bộ nhớ bán dẫn chỉ đọc\n\n❌ Các đáp án khác\nA: Đó là một bộ nhớ lưu trữ toàn bộ hình ảnh màn hình — không đúng với nội dung câu hỏi.\nC: Nó là một bộ nhớ bán dẫn chỉ đọc và chỉ ghi — không đúng với nội dung câu hỏi.\nD: Đó là một bộ nhớ ghi lại tĩnh điện — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\n“ROM” là gì?\n\n✅ Đáp án: C — 読み取り専用の半導体メモリである\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Đó là một bộ nhớ lưu trữ toàn bộ hình ảnh màn hình — không đúng với nội dung câu hỏi.\nC: Nó là một bộ nhớ bán dẫn chỉ đọc và chỉ ghi — không đúng với nội dung câu hỏi.\nD: Đó là một bộ nhớ ghi lại tĩnh điện — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -15623,7 +15623,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#239 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nSóng sin viết/đọc kanji?\n\n✅ Đáp án: B — 正弦波 - seigenha\nSóng hình sin = sóng hình sin.\n\n❌ Các đáp án khác\nA: Sóng cosin — không đúng với nội dung câu hỏi.\nC: sóng sin-shougenha — không đúng với nội dung câu hỏi.\nD: Sóng Sâu Đích Thực — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nSóng sin viết/đọc kanji?\n\n✅ Đáp án: D — 正弦波 - せいげんは\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Sóng cosin — không đúng với nội dung câu hỏi.\nC: sóng sin-shougenha — không đúng với nội dung câu hỏi.\nD: Sóng Sâu Đích Thực — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -15695,7 +15695,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#287 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nĐiều nào sau đây là đúng về hình thức tiền điện tử?\n\n✅ Đáp án: D — クローズドループ型の電子マネーでは、店舗が受け取ったバリューは発行元を通じて銀行口座に振り込まれる。\nCâu trả lời đúng là D. Với tiền điện tử vòng kín, giá trị mà cửa hàng nhận được sẽ được chuyển vào tài khoản ngân hàng thông qua tổ chức phát hành.\n\n❌ Các đáp án khác\nA: Tiền điện tử vòng mở đã sớm trở nên phổ biến vì nó đòi hỏi ít vốn đầu tư và gánh nặng cho các ngân hàng là nhẹ. — không đúng với nội dung câu hỏi.\nB: Tiền điện tử vòng kín có tính ẩn danh cao, giống như tiền mặt và phù hợp để sử dụng với số lượng nhỏ. — không đúng với nội dung câu hỏi.\nC: Tiền điện tử vòng kín có tính ẩn danh cao, giống như tiền mặt và phù hợp để sử dụng với số lượng nhỏ. — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nĐiều nào sau đây là đúng về hình thức tiền điện tử?\n\n✅ Đáp án: A — クローズドループ型の電子マネーでは、店舗が受け取ったバリューは発行元を通じて銀行口座に振り込まれる。\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Tiền điện tử vòng mở đã sớm trở nên phổ biến vì nó đòi hỏi ít vốn đầu tư và gánh nặng cho các ngân hàng là nhẹ. — không đúng với nội dung câu hỏi.\nB: Tiền điện tử vòng kín có tính ẩn danh cao, giống như tiền mặt và phù hợp để sử dụng với số lượng nhỏ. — không đúng với nội dung câu hỏi.\nC: Tiền điện tử vòng kín có tính ẩn danh cao, giống như tiền mặt và phù hợp để sử dụng với số lượng nhỏ. — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -15719,7 +15719,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#652 (0.95)",
       "alt": null,
-      "explanation": "✅ Đáp án: D — 100%\nMỗi hàng BBWW→B2W2 (4 ký tự), WWBB→W2B2 (4). 4 hàng = 16 ký tự / 16 pixel gốc = 100%\n(theo cách tính ví dụ 24÷16=150% trong đề).",
+      "explanation": "✅ Đáp án: B — 100%\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -15743,7 +15743,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#663 (0.95)",
       "alt": null,
-      "explanation": "✅ Đáp án: A — Unicode\nBảng mã gán dãy 0/1 cho chữ; Unicode thống nhất đa ngôn ngữ. JPEG/MIDI không phải character code.",
+      "explanation": "✅ Đáp án: C — Unicode\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -15791,7 +15791,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#289 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nTừ \"EDI\" trong tiếng Anh được viết tắt là gì?\n\n✅ Đáp án: C — Electronic Data Interchange\nĐáp án đúng là C. Trao đổi dữ liệu điện tử\n\n❌ Các đáp án khác\nA: Electronic Data International — không đúng với nội dung câu hỏi.\nB: Electronical Data International — không đúng với nội dung câu hỏi.\nD: Electronical Data Interchange — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nTừ \"EDI\" trong tiếng Anh được viết tắt là gì?\n\n✅ Đáp án: B — Electronic Data Interchange\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Electronic Data International — không đúng với nội dung câu hỏi.\nB: Electronical Data International — không đúng với nội dung câu hỏi.\nD: Electronical Data Interchange — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -15815,7 +15815,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#218 (0.95)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nTắt nguồn thì dữ liệu mất là loại nào?\n\n✅ Đáp án: D — RAM\nRAM không ổn định và dữ liệu sẽ biến mất khi tắt nguồn.\n\n❌ Các đáp án khác\nA: GPU — không đúng với nội dung câu hỏi.\nB: IC — không đúng với nội dung câu hỏi.\nC: ROM — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nTắt nguồn thì dữ liệu mất là loại nào?\n\n✅ Đáp án: B — RAM\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: GPU — không đúng với nội dung câu hỏi.\nB: IC — không đúng với nội dung câu hỏi.\nC: ROM — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -15839,7 +15839,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#264 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nPhát biểu nào sau đây về điốt là đúng?\n\n✅ Đáp án: C — ダイオードは、電流を一方向にしか流さないという点で、真空管と異なる機能を持つ。 = Điốt có chức năng khác với ống chân không ở chỗ nó chỉ chảy theo một hướng.\nCâu trả lời đúng là C. Chức năng của điốt khác với đèn chân không ở chỗ chúng chỉ cho dòng điện chạy theo một hướng.\n\n❌ Các đáp án khác\nA: Điốt được tạo ra bằng cách cán hai chất có cùng bản chất, loại p và loại n. — không đúng với nội dung câu hỏi.\nB: Tất cả các điốt phát ra ánh sáng khi dòng điện chạy, vì vậy chúng được sử dụng rộng rãi trong đèn điện và các loại tương tự. — không đúng với nội dung câu hỏi.\nD: Trong diode, các electron có thể dễ dàng di chuyển từ loại p sang loại n, và dòng điện chạy theo hướng ngược lại. — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nPhát biểu nào sau đây về điốt là đúng?\n\n✅ Đáp án: D — ダイオードは、電流を一方向にしか流さないという点で、真空管と異なる機能を持つ。\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Điốt được tạo ra bằng cách cán hai chất có cùng bản chất, loại p và loại n. — không đúng với nội dung câu hỏi.\nB: Tất cả các điốt phát ra ánh sáng khi dòng điện chạy, vì vậy chúng được sử dụng rộng rãi trong đèn điện và các loại tương tự. — không đúng với nội dung câu hỏi.\nD: Trong diode, các electron có thể dễ dàng di chuyển từ loại p sang loại n, và dòng điện chạy theo hướng ngược lại. — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -15887,7 +15887,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#242 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\n\"Khối lượng\" trong tiếng Việt là gì?\n\n✅ Đáp án: D — nấc\nVuông = ô/nấc trên băng Turing v.v.\n\n❌ Các đáp án khác\nA: cần — không đúng với nội dung câu hỏi.\nB: đĩa — không đúng với nội dung câu hỏi.\nC: sợi đốt — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\n\"Khối lượng\" trong tiếng Việt là gì?\n\n✅ Đáp án: C — nấc\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: cần — không đúng với nội dung câu hỏi.\nB: đĩa — không đúng với nội dung câu hỏi.\nC: sợi đốt — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -15911,7 +15911,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#263 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nĐiều nào sau đây là biện pháp phòng ngừa thích hợp nhất chống lại vi-rút máy tính?\n\n✅ Đáp án: D — ウイルス対策ソフトを購入し、パターンファイルを日常的に更新する。 = Mua phần mềm chống vi-rút và cập nhật các tệp mẫu hàng ngày.\nCâu trả lời đúng là D. Mua phần mềm chống vi-rút và cập nhật tệp mẫu hàng ngày.\n\n❌ Các đáp án khác\nA: Các tệp mẫu chống vi-rút không được cập nhật để chỉ phát hiện các vi-rút đã biết. — không đúng với nội dung câu hỏi.\nB: Nếu bạn bị nhiễm vi-rút, hãy xóa ngay tất cả các tệp và khởi tạo máy tính của bạn. — không đúng với nội dung câu hỏi.\nC: Ngừng hoàn toàn email là cách hiệu quả nhất để ngăn ngừa nhiễm virus. — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nĐiều nào sau đây là biện pháp phòng ngừa thích hợp nhất chống lại vi-rút máy tính?\n\n✅ Đáp án: A — ウイルス対策ソフトを購入し、パターンファイルを日常的に更新する。\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Các tệp mẫu chống vi-rút không được cập nhật để chỉ phát hiện các vi-rút đã biết. — không đúng với nội dung câu hỏi.\nB: Nếu bạn bị nhiễm vi-rút, hãy xóa ngay tất cả các tệp và khởi tạo máy tính của bạn. — không đúng với nội dung câu hỏi.\nC: Ngừng hoàn toàn email là cách hiệu quả nhất để ngăn ngừa nhiễm virus. — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -15935,7 +15935,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#280 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nCâu nào trong số các câu sau đây về cách đĩa cứng hoạt động và được quản lý là đúng dựa trên nội dung của cơ thể?\n\n✅ Đáp án: C — 同一トラック上にデータが配置されている場合、アームを動かす必要がないため、高速に読み書きを行うことができる。 = Nếu dữ liệu được đặt trên cùng một đường đua, cánh tay không cần phải di chuyển, vì vậy nó có thể được đọc và ghi ở tốc độ cao.\nCâu trả lời đúng là C. Nếu dữ liệu được đặt trên cùng một rãnh thì không cần phải di chuyển cánh tay nên việc đọc và ghi có thể được thực hiện ở tốc độ cao.\n\n❌ Các đáp án khác\nA: Bề mặt đầu và đĩa tiếp xúc liên tục, làm tăng độ tin cậy của dữ liệu đọc và ghi. — không đúng với nội dung câu hỏi.\nB: Tác động vật lý lên đĩa cứng có thể giúp cải thiện tốc độ đọc và ghi vì có một khoảng cách giữa đầu và đĩa. — không đúng với nội dung câu hỏi.\nD: (Không có ứng viên) — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nCâu nào trong số các câu sau đây về cách đĩa cứng hoạt động và được quản lý là đúng dựa trên nội dung của cơ thể?\n\n✅ Đáp án: A — 同一トラック上にデータが配置されている場合、アームを動かす必要がないため、高速に読み書きを行うことができる。\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Bề mặt đầu và đĩa tiếp xúc liên tục, làm tăng độ tin cậy của dữ liệu đọc và ghi. — không đúng với nội dung câu hỏi.\nB: Tác động vật lý lên đĩa cứng có thể giúp cải thiện tốc độ đọc và ghi vì có một khoảng cách giữa đầu và đĩa. — không đúng với nội dung câu hỏi.\nD: (Không có ứng viên) — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -15959,7 +15959,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#292 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nLàm thế nào để bạn đọc \"tinh thể đơn\"? Ngoài ra, bạn nói nó bằng tiếng Việt như thế nào?\n\n✅ Đáp án: D — たんけっしょう - đơn kết tinh\nĐáp án đúng là D. Tanksho - đơn kết tinh\n\n❌ Các đáp án khác\nA: Tankesho - đơn giản — không đúng với nội dung câu hỏi.\nB: Tankesho - đơn tinh — không đúng với nội dung câu hỏi.\nC: Tankesho - đa kết tinh — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nLàm thế nào để bạn đọc \"tinh thể đơn\"? Ngoài ra, bạn nói nó bằng tiếng Việt như thế nào?\n\n✅ Đáp án: C — たんけっしょう - đơn kết tinh\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Tankesho - đơn giản — không đúng với nội dung câu hỏi.\nB: Tankesho - đơn tinh — không đúng với nội dung câu hỏi.\nC: Tankesho - đa kết tinh — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -16031,7 +16031,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#278 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nĐiều nào sau đây là đúng về giao tiếp tài liệu bí mật bằng phương pháp khóa công khai?\n\n✅ Đáp án: D — 受信者Bは、暗号化用の公開鍵と復号化用の秘密鍵の両方を所持しており、Aから送られてきた文書を秘密鍵で復号する。 = Người nhận B có cả khóa công khai để mã hóa và khóa riêng để giải mã và giải mã tài liệu được gửi từ A bằng khóa riêng.\nĐáp án đúng là D. Người nhận B có cả khóa chung để mã hóa và khóa riêng để giải mã, đồng thời sử dụng khóa riêng để giải mã tài liệu được gửi từ A.\n\n❌ Các đáp án khác\nA: Ngay cả khi văn bản mã hóa bị đánh cắp trong quá trình liên lạc, bên thứ ba có thể giải mã tài liệu bằng cách lấy khóa công khai của B. — không đúng với nội dung câu hỏi.\nB: Người gửi A mã hóa tài liệu bằng khóa riêng của Người nhận B và gửi cho B. — không đúng với nội dung câu hỏi.\nC: Sau khi tài liệu được mã hóa, người gửi A cũng có thể giải mã nó bằng khóa công khai của người nhận B. — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nĐiều nào sau đây là đúng về giao tiếp tài liệu bí mật bằng phương pháp khóa công khai?\n\n✅ Đáp án: C — 受信者Bは、暗号化用の公開鍵と復号化用の秘密鍵の両方を所持しており、Aから送られてきた文書を秘密鍵で復号する。\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Ngay cả khi văn bản mã hóa bị đánh cắp trong quá trình liên lạc, bên thứ ba có thể giải mã tài liệu bằng cách lấy khóa công khai của B. — không đúng với nội dung câu hỏi.\nB: Người gửi A mã hóa tài liệu bằng khóa riêng của Người nhận B và gửi cho B. — không đúng với nội dung câu hỏi.\nC: Sau khi tài liệu được mã hóa, người gửi A cũng có thể giải mã nó bằng khóa công khai của người nhận B. — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -16055,7 +16055,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#257 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nCác thiết bị đầu ra là gì?\n\n✅ Đáp án: C — ディスプレイやプリンタ = Màn hình và máy in\nCâu trả lời đúng là C. màn hình và máy in\n\n❌ Các đáp án khác\nA: Bàn phím và chuột — không đúng với nội dung câu hỏi.\nB: Bộ nhớ hoặc đĩa cứng — không đúng với nội dung câu hỏi.\nD: CPU — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nCác thiết bị đầu ra là gì?\n\n✅ Đáp án: D — ディスプレイやプリンタ\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Bàn phím và chuột — không đúng với nội dung câu hỏi.\nB: Bộ nhớ hoặc đĩa cứng — không đúng với nội dung câu hỏi.\nD: CPU — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -16079,7 +16079,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#269 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nĐiều gì là chính xác về CAL (Thương mại ở tốc độ nhẹ)?\n\n✅ Đáp án: C — CALSは、企業間で同じデータを用いて取引できるようにするための標準規格である。 = CALES là một tiêu chuẩn cho phép các doanh nghiệp giao dịch bằng cách sử dụng cùng một dữ liệu.\nCâu trả lời đúng là C. CALS là tiêu chuẩn cho phép các công ty giao dịch bằng cách sử dụng cùng một dữ liệu.\n\n❌ Các đáp án khác\nA: Mục đích ban đầu của CALS là cải thiện hiệu quả chuỗi cung ứng trong ngành công nghiệp ô tô. — không đúng với nội dung câu hỏi.\nB: Do sự ra đời của CAL, thời gian giao hàng dài hơn đã được báo cáo trong nhiều ngành công nghiệp ngoại trừ ngành công nghiệp quân sự. — không đúng với nội dung câu hỏi.\nD: Phát biểu nào sau đây về CAL (Commerce At Light Speed) phù hợp với nội dung của cơ thể? — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nĐiều gì là chính xác về CAL (Thương mại ở tốc độ nhẹ)?\n\n✅ Đáp án: D — CALSは、企業間で同じデータを用いて取引できるようにするための標準規格である。\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Mục đích ban đầu của CALS là cải thiện hiệu quả chuỗi cung ứng trong ngành công nghiệp ô tô. — không đúng với nội dung câu hỏi.\nB: Do sự ra đời của CAL, thời gian giao hàng dài hơn đã được báo cáo trong nhiều ngành công nghiệp ngoại trừ ngành công nghiệp quân sự. — không đúng với nội dung câu hỏi.\nD: Phát biểu nào sau đây về CAL (Commerce At Light Speed) phù hợp với nội dung của cơ thể? — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -16103,7 +16103,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#271 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nTừ tiếng Nhật cho \"bưưưcđệm\" là gì?\n\n✅ Đáp án: C — ふみだい = Fumidai\nĐáp án đúng là C. Fumidai\n\n❌ Các đáp án khác\nA: Zoshoku — không đúng với nội dung câu hỏi.\nB: Fukatsu — không đúng với nội dung câu hỏi.\nD: Kansu — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nTừ tiếng Nhật cho \"bưưưcđệm\" là gì?\n\n✅ Đáp án: D — ふみだい\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Zoshoku — không đúng với nội dung câu hỏi.\nB: Fukatsu — không đúng với nội dung câu hỏi.\nD: Kansu — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -16175,7 +16175,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#255 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nHộp cắm cáp vào bo mạch chủ là gì?\n\n✅ Đáp án: A — ハードディスク = Harddisk\nCâu trả lời đúng là A. đĩa cứng\n\n❌ Các đáp án khác\nB: Motherboard — không đúng với nội dung câu hỏi.\nC: CPU — không đúng với nội dung câu hỏi.\nD: メリ — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nHộp cắm cáp vào bo mạch chủ là gì?\n\n✅ Đáp án: B — ハードディスク\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nB: Motherboard — không đúng với nội dung câu hỏi.\nC: CPU — không đúng với nội dung câu hỏi.\nD: メリ — không đúng với nội dung câu hỏi.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
@@ -16391,7 +16391,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 002 · CÂU HỎI 10 · map bank#708 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\n【Kiến thức chuyên môn】Cụm từ nào \"tìm kiếm bằng cách sắp xếp dữ liệu vào một cấu trúc phân cấp như cha mẹ, con cái và cháu, và truy tìm dữ liệu từ cha mẹ hàng đầu\"?\n\n✅ Đáp án: C — 階層的表現 = biểu diễn phân cấp (cây)\nBiểu diễn phân cấp (cấu trúc cây) sắp xếp dữ liệu theo cấu trúc cha-con và tìm kiếm từ trên xuống (§17.2).\n\n❌ Các đáp án khác\nA: biểu diễn quan hệ (bảng) — không khớp định nghĩa/yêu cầu câu hỏi.\nB: biểu diễn dạng lưới — không khớp định nghĩa/yêu cầu câu hỏi.\nD: Trình bày đối tượng — không khớp định nghĩa/yêu cầu câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\n【Kiến thức chuyên môn】Cụm từ nào \"tìm kiếm bằng cách sắp xếp dữ liệu vào một cấu trúc phân cấp như cha mẹ, con cái và cháu, và truy tìm dữ liệu từ cha mẹ hàng đầu\"?\n\n✅ Đáp án: A — 階層的表現\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: biểu diễn quan hệ (bảng) — không khớp định nghĩa/yêu cầu câu hỏi.\nB: biểu diễn dạng lưới — không khớp định nghĩa/yêu cầu câu hỏi.\nD: Trình bày đối tượng — không khớp định nghĩa/yêu cầu câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -16439,7 +16439,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 004 · CÂU HỎI 14 · map bank#691 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: A — truy xuất\n照会 ≈ truy vấn/truy xuất dữ liệu (inquiry).",
+      "explanation": "✅ Đáp án: B — truy xuất\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -16463,7 +16463,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 005 · CÂU HỎI 19 · map bank#664 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nMáy tính điện tử ENIAC được phát triển năm nào?\n\n✅ Đáp án: C — 1946年 = năm 1946\nENIAC là máy tính điện tử được phát triển vào năm 1946.\n\n❌ Các đáp án khác\nA: năm 1930 — không khớp định nghĩa/yêu cầu câu hỏi.\nB: năm 1939 — không khớp định nghĩa/yêu cầu câu hỏi.\nD: năm 1949 — không khớp định nghĩa/yêu cầu câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nMáy tính điện tử ENIAC được phát triển năm nào?\n\n✅ Đáp án: D — 1946年\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: năm 1930 — không khớp định nghĩa/yêu cầu câu hỏi.\nB: năm 1939 — không khớp định nghĩa/yêu cầu câu hỏi.\nD: năm 1949 — không khớp định nghĩa/yêu cầu câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -16487,7 +16487,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 006 · CÂU HỎI 16 · map bank#680 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: A — 注釈\n// là comment (chú thích) trong nhiều ngôn ngữ (C/Java/JS…).",
+      "explanation": "✅ Đáp án: D — 注釈\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -16506,12 +16506,12 @@
         "D": "大規模集積回路"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 007 · CÂU HỎI 13 · map bank#710 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nLSI tiếng Nhật là gì?\n\n✅ Đáp án: A — 大規模集積回路 = Mạch tích hợp quy mô lớn\nLSI = Tích hợp quy mô lớn = Mạch tích hợp quy mô lớn.\n\n❌ Các đáp án khác\nB: Đường tích hợp — không đúng với nội dung câu hỏi.\nC: IC (thường) — không đúng với nội dung câu hỏi.\nD: Đường tích hợp lớn — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nLSI tiếng Nhật là gì?\n\n✅ Đáp án: D — 大規模集積回路\nLSI = 大規模集積回路 (Large Scale Integration), không chỉ 集積回路\n\n\n❌ Các đáp án khác\nB: Đường tích hợp — không đúng với nội dung câu hỏi.\nC: IC (thường) — không đúng với nội dung câu hỏi.\nD: Đường tích hợp lớn — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -16535,7 +16535,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 008 · CÂU HỎI 12 · map bank#633 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: A — máy chủ trung gian\nProxy server = máy chủ trung gian (ủy quyền/relay).",
+      "explanation": "✅ Đáp án: B — máy chủ trung gian\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -16559,7 +16559,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 009 · CÂU HỎI 15 · map bank#711 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nTốc độ khoảng ≥100 Kbps–1 Mbps gọi là gì?\n\n✅ Đáp án: C — ブロードバンド = Broadband\nMọi tốc độ trên 100Kbps đến 1Mbps đều được gọi là băng thông rộng.\n\n❌ Các đáp án khác\nA: Narrowband — không đúng với nội dung câu hỏi.\nB: Dial-up — không đúng với nội dung câu hỏi.\nD: Serial — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nTốc độ khoảng ≥100 Kbps–1 Mbps gọi là gì?\n\n✅ Đáp án: A — ブロードバンド\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Narrowband — không đúng với nội dung câu hỏi.\nB: Dial-up — không đúng với nội dung câu hỏi.\nD: Serial — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -16631,7 +16631,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 012 · CÂU HỎI 63 · map bank#714 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nVideo dùng nén ảnh tĩnh + ghi chênh lệch → định dạng?\n\n✅ Đáp án: C — MPEG\nNén ảnh tĩnh + ghi vi sai = MPEG.\n\n❌ Các đáp án khác\nA: JPEG — không đúng với nội dung câu hỏi.\nB: GIF — không đúng với nội dung câu hỏi.\nD: PNG — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nVideo dùng nén ảnh tĩnh + ghi chênh lệch → định dạng?\n\n✅ Đáp án: D — MPEG\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: JPEG — không đúng với nội dung câu hỏi.\nB: GIF — không đúng với nội dung câu hỏi.\nD: PNG — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -16674,12 +16674,12 @@
         "D": "1ビットの誤りを訂正でき、2ビットの誤りを検出できる。"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 014 · CÂU HỎI 61 · map bank#715 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: C — 1ビットの誤りを検出できる\nParity dọc (vertical): phát hiện lỗi 1 bit (số bit lỗi lẻ). Không sửa lỗi; không chỉ odd/even một bên.",
+      "explanation": "✅ Đáp án: C — 1ビットの誤りを検出できる。\nVertical parity: cả odd/even đều phát hiện được lỗi 1 bit → C\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -16703,7 +16703,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 015 · CÂU HỎI 20 · map bank#695 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: B — 個別の関係を表す表を元にデータを記述します\nBiểu diễn quan hệ: mô tả dữ liệu bằng các bảng quan hệ. A (複数) dễ gây hiểu nhầm.",
+      "explanation": "✅ Đáp án: A — 個別の関係を表す表を元にデータを記述します\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -16727,7 +16727,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 016 · CÂU HỎI 8 · map bank#701 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: A — modulation\nbiến điều = 変調 = modulation.",
+      "explanation": "✅ Đáp án: C — modulation\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -16751,7 +16751,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 017 · CÂU HỎI 23 · map bank#716 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nVirus là ví dụ điển hình của ( ) nhắm PC cá nhân?\n\n✅ Đáp án: A — 犯罪 = tội phạm / 犯罪\nVirus là một ví dụ về tội phạm máy tính.\n\n❌ Các đáp án khác\nB: hành vi — không đúng với nội dung câu hỏi.\nC: đồ vật — không đúng với nội dung câu hỏi.\nD: bệnh — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nVirus là ví dụ điển hình của ( ) nhắm PC cá nhân?\n\n✅ Đáp án: C — 犯罪\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nB: hành vi — không đúng với nội dung câu hỏi.\nC: đồ vật — không đúng với nội dung câu hỏi.\nD: bệnh — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -16775,7 +16775,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 018 · CÂU HỎI 11 · map bank#717 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: D — 制御\nMã xuống dòng thuộc 制御コード (control code); khác nhau giữa Windows/Mac/Unix.",
+      "explanation": "✅ Đáp án: A — 制御\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -16823,7 +16823,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 020 · CÂU HỎI 60 · map bank#718 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: A — 基数\nCơ số (base) = số làm nền (2, 10, 16…).",
+      "explanation": "✅ Đáp án: C — 基数\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -16847,7 +16847,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 021 · CÂU HỎI 6 · map bank#719 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nCách thao tác chuột/bàn phím, cách hiện cửa sổ… gọi là gì?\n\n✅ Đáp án: C — ユーザインタフェース = User interface\nGiao diện người dùng xác định cách mọi thứ được vận hành và hiển thị.\n\n❌ Các đáp án khác\nA: Device driver — không đúng với nội dung câu hỏi.\nB: Middleware — không đúng với nội dung câu hỏi.\nD: Firewall — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nCách thao tác chuột/bàn phím, cách hiện cửa sổ… gọi là gì?\n\n✅ Đáp án: B — ユーザインタフェース\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Device driver — không đúng với nội dung câu hỏi.\nB: Middleware — không đúng với nội dung câu hỏi.\nD: Firewall — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -16871,7 +16871,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 022 · CÂU HỎI 4 · map bank#720 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: A — 16-8\nJIS: biểu diễn 16 bit, thường tách mỗi 8 bit.",
+      "explanation": "✅ Đáp án: D — 16-8\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -16919,7 +16919,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 024 · CÂU HỎI 56 · map bank#722 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nĐơn vị ( ) của lượng tin gọi là bit?\n\n✅ Đáp án: C — 最小 = nhỏ nhất\nBit là đơn vị nhỏ nhất (cũng là đơn vị cơ bản) của thông tin.\n\n❌ Các đáp án khác\nA: lớn nhất — không đúng với nội dung câu hỏi.\nB: trung bình — không đúng với nội dung câu hỏi.\nD: thay đổi — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nĐơn vị ( ) của lượng tin gọi là bit?\n\n✅ Đáp án: D — 最小\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: lớn nhất — không đúng với nội dung câu hỏi.\nB: trung bình — không đúng với nội dung câu hỏi.\nD: thay đổi — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -16938,12 +16938,12 @@
         "D": "量子化数"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 025 · CÂU HỎI 44 · map bank#723 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\n[Thuật ngữ] Hãy chuyển sang tiếng Nhật: Tần số lấy mẫu\n\n✅ Đáp án: C — サンプリング周波数 = tần số lấy mẫu\nTần số lấy mẫu là tần số lấy mẫu (§14.2).\n\n❌ Các đáp án khác\nA: số mức lượng tử hóa — không khớp định nghĩa/yêu cầu câu hỏi.\nB: Tốc độ bit — không khớp định nghĩa/yêu cầu câu hỏi.\nD: độ phân giải — không khớp định nghĩa/yêu cầu câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\n[Thuật ngữ] Hãy chuyển sang tiếng Nhật: Tần số lấy mẫu\n\n✅ Đáp án: D — 量子化数\nMức cao sóng → số mức nguyên = 量子化数, không phải sampling freq\n\n\n❌ Các đáp án khác\nA: số mức lượng tử hóa — không khớp định nghĩa/yêu cầu câu hỏi.\nB: Tốc độ bit — không khớp định nghĩa/yêu cầu câu hỏi.\nD: độ phân giải — không khớp định nghĩa/yêu cầu câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -16967,7 +16967,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 026 · CÂU HỎI 43 · map bank#673 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: B — ソフトウェアの処理\nProcess = đơn vị xử lý phần mềm đang chạy, không phải dung lượng HDD.",
+      "explanation": "✅ Đáp án: D — ソフトウェアの処理\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -17063,7 +17063,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 030 · CÂU HỎI 51 · map bank#726 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\n1.111₂ = ?₁₀\n\n✅ Đáp án: A — 1.875\n1 + 0,5 + 0,25 + 0,125 = 1,875.\n\n❌ Các đáp án khác\nB: 1.75 — không đúng với nội dung câu hỏi.\nC: 1.5 — không đúng với nội dung câu hỏi.\nD: 2.0 — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\n1.111₂ = ?₁₀\n\n✅ Đáp án: B — 1.875\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nB: 1.75 — không đúng với nội dung câu hỏi.\nC: 1.5 — không đúng với nội dung câu hỏi.\nD: 2.0 — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -17087,7 +17087,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 031 · CÂU HỎI 40 · map bank#650 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: B — GIF\nẢnh tĩnh tối đa 256 màu: GIF. MPEG là video; JPEG nhiều màu; MIDI là nhạc.",
+      "explanation": "✅ Đáp án: C — GIF\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -17111,7 +17111,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 032 · CÂU HỎI 54 · map bank#727 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\n155₁₀ = ?₂\n\n✅ Đáp án: A — 10011011\n155=128+16+8+2+1 → 10011011₂.\n\n❌ Các đáp án khác\nB: 10011100 — không đúng với nội dung câu hỏi.\nC: 10101011 — không đúng với nội dung câu hỏi.\nD: 11001011 — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\n155₁₀ = ?₂\n\n✅ Đáp án: C — 10011011\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nB: 10011100 — không đúng với nội dung câu hỏi.\nC: 10101011 — không đúng với nội dung câu hỏi.\nD: 11001011 — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -17135,7 +17135,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 033 · CÂU HỎI 48 · map bank#667 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: A — dpi\nĐộ phân giải scanner/printer = dpi (dots per inch).",
+      "explanation": "✅ Đáp án: C — dpi\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -17182,7 +17182,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 035 · CÂU HỎI 50 · map bank#656 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: A — 17世紀\nMáy tính cơ khí bánh răng (Pascal, Leibniz…) khoảng thế kỷ 17.",
+      "explanation": "✅ Đáp án: D — 17世紀\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -17206,7 +17206,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 036 · CÂU HỎI 46 · map bank#729 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: D — 11000101\n01011010₂=90, 01101011₂=107, 90+107=197=11000101₂ (8-bit dương).",
+      "explanation": "✅ Đáp án: B — 11000101\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -17230,7 +17230,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 037 · CÂU HỎI 47 · map bank#662 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: C — ピアツーピアはサーバ/クライアントを明確に分けた構成である（SAI）\nCâu hỏi chọn phát biểu SAI. P2P không tách server/client rõ; client-server mới tách.",
+      "explanation": "✅ Đáp án: D — ピアツーピア(P2P)接続は、サービスを提供するサーバとサービスを受けるクライアントを明確に分けた構成である。\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -17302,7 +17302,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 040 · CÂU HỎI 36 · map bank#732 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nA quyết định sử dụng mã hóa khóa công khai để mã hóa tài liệu để gửi tài liệu bí mật cho B qua email. Tại thời điểm này, bạn nên SỬ dụng khóa nào để mã hóa tài liệu?\n\n✅ Đáp án: A — Bさんの公開鍵 = Khóa công khai của B\nĐáp án đúng là A. Khóa công khai của ông B\n\n❌ Các đáp án khác\nB: Khóa riêng của A — không đúng với nội dung câu hỏi.\nC: Khóa riêng của ông B — không đúng với nội dung câu hỏi.\nD: Khóa công khai của A — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nA quyết định sử dụng mã hóa khóa công khai để mã hóa tài liệu để gửi tài liệu bí mật cho B qua email. Tại thời điểm này, bạn nên SỬ dụng khóa nào để mã hóa tài liệu?\n\n✅ Đáp án: D — Bさんの公開鍵\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nB: Khóa riêng của A — không đúng với nội dung câu hỏi.\nC: Khóa riêng của ông B — không đúng với nội dung câu hỏi.\nD: Khóa công khai của A — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -17374,7 +17374,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 043 · CÂU HỎI 37 · map bank#735 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: A — ピクセル\nĐiểm ảnh = pixel (画素).",
+      "explanation": "✅ Đáp án: C — ピクセル\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -17422,7 +17422,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 045 · CÂU HỎI 32 · map bank#737 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nChọn cách gọi tên đúng của hệ thống trong hình\n\n✅ Đáp án: B — 並列システム\nĐáp án đúng là B. Hệ song song\n\n❌ Các đáp án khác\nA: hệ thống loạt — không đúng với nội dung câu hỏi.\nC: hệ thống tập trung — không đúng với nội dung câu hỏi.\nD: hệ thống phân tán — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nChọn cách gọi tên đúng của hệ thống trong hình\n\n✅ Đáp án: C — 並列システム\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: hệ thống loạt — không đúng với nội dung câu hỏi.\nC: hệ thống tập trung — không đúng với nội dung câu hỏi.\nD: hệ thống phân tán — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -17470,7 +17470,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 047 · CÂU HỎI 31 · map bank#738 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nMã ký tự quyết định tương ứng giữa ( ) và ( )?\n\n✅ Đáp án: D — 数字 - 文字 = số - chữ\nMã ký tự xác định sự tương ứng giữa số và chữ cái.\n\n❌ Các đáp án khác\nA: âm - ảnh — không đúng với nội dung câu hỏi.\nB: file - folder — không đúng với nội dung câu hỏi.\nC: nén - giải nén — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nMã ký tự quyết định tương ứng giữa ( ) và ( )?\n\n✅ Đáp án: B — 数字 - 文字\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: âm - ảnh — không đúng với nội dung câu hỏi.\nB: file - folder — không đúng với nội dung câu hỏi.\nC: nén - giải nén — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -17494,7 +17494,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 048 · CÂU HỎI 52 · map bank#739 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: B — dpi\nĐộ phân giải máy in = dpi (dots per inch), không phải bit.",
+      "explanation": "✅ Đáp án: A — dpi\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -17590,7 +17590,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 052 · CÂU HỎI 6 · map bank#684 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: C — ハードウェアの相違を吸収します（không phải UI）\nCâu hỏi chọn SAI về UI. Che khác biệt HW là soft/hard 仲介, không phải UI.",
+      "explanation": "✅ Đáp án: D — ハードウェアの相違を吸収します\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -17686,7 +17686,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 056 · CÂU HỎI 3 · map bank#675 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: A — きれいになります\nNhiều pixel hơn → ảnh mịn/sắc nét hơn, ít răng cưa.",
+      "explanation": "✅ Đáp án: C — きれいになります\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -17734,7 +17734,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 058 · CÂU HỎI 5 · map bank#743 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: A. 400\nNguồn ảnh zip 240 (CÂU HỎI 43 · img 129).\nĐáp án theo kiến thức JIT (bank stem).",
+      "explanation": "✅ Đáp án: B — 4\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -17782,7 +17782,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 060 · CÂU HỎI 1 · map bank#644 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: A — 合併\nOR trong thao tác tập hợp/điều kiện DB ≈ hợp (合併/和).",
+      "explanation": "✅ Đáp án: C — 合併\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -17854,7 +17854,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 063 · CÂU HỎI 63 · map bank#666 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: C — 多くなります\nSố mức lượng tử hóa tăng → chi tiết biên độ tăng → lượng tin tăng. 広く không đúng.",
+      "explanation": "✅ Đáp án: D — 多くなります\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -17998,7 +17998,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 069 · CÂU HỎI 51 · map bank#748 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: C — chỉ số dưới\n添字 = subscript (chỉ số dưới), không phải chỉ số trên.",
+      "explanation": "✅ Đáp án: D — chỉ số dưới\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -18022,7 +18022,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 070 · CÂU HỎI 55 · map bank#637 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: C — aがb以上\n>= là lớn hơn hoặc bằng (以上). より大きい chỉ là >.",
+      "explanation": "✅ Đáp án: A — aがb以上\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -18070,7 +18070,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 072 · CÂU HỎI 56 · map bank#678 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: B — 有機物の発光体を用いて自ら光る…\nOLED tự phát sáng, thường tiết kiệm điện/sáng hơn LCD. D mô tả LCD (cần backlight) — sai cho OLED.",
+      "explanation": "✅ Đáp án: C — 有機物の発光体を用いて自ら光るため、液晶よりも消費電力が少なく、より明るい表示が可能\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -18094,7 +18094,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 073 · CÂU HỎI 45 · map bank#672 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: B — ファイル名のピリオド右側の文字列（属性・内容）\n拡張子 = phần mở rộng file. A mô tả bộ nhớ ngoài.",
+      "explanation": "✅ Đáp án: A — コンピュータのファイルの属性・内容を表すための文字列。ファイル名のピリオドで区切られた\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -18118,7 +18118,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 074 · CÂU HỎI 49 · map bank#750 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nBạn có sử dụng từ tiếng Nhật \"bư vi xư lý\" không?\n\n✅ Đáp án: C — マイクロプロセッサ = Bộ vi xử lý\nĐáp án đúng là C. vi xử lý\n\n❌ Các đáp án khác\nA: Bộ vi xử lý — không đúng với nội dung câu hỏi.\nB: Chương trình điều khiển — không đúng với nội dung câu hỏi.\nD: Motherboard — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nBạn có sử dụng từ tiếng Nhật \"bư vi xư lý\" không?\n\n✅ Đáp án: A — マイクロプロセッサ\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Bộ vi xử lý — không đúng với nội dung câu hỏi.\nB: Chương trình điều khiển — không đúng với nội dung câu hỏi.\nD: Motherboard — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -18166,7 +18166,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 076 · CÂU HỎI 46 · map bank#751 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\n\"Tổng hợp lý\" là gì?\n\n✅ Đáp án: D — OR回路の演算 = Phép OR\nTổng logic = OR, tích logic = AND, phủ định logic = NOT.\n\n❌ Các đáp án khác\nA: Phép AND — không đúng với nội dung câu hỏi.\nB: Phép NOT — không đúng với nội dung câu hỏi.\nC: Phép XOR — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\n\"Tổng hợp lý\" là gì?\n\n✅ Đáp án: C — OR回路の演算\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Phép AND — không đúng với nội dung câu hỏi.\nB: Phép NOT — không đúng với nội dung câu hỏi.\nC: Phép XOR — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -18185,12 +18185,12 @@
         "D": "テープ、メモリ"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 077 · CÂU HỎI 48 · map bank#752 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nMáy Turing bao gồm những gì?\n\n✅ Đáp án: B — ヘッド、テープ = Đầu, băng dính\nCâu trả lời đúng là B. đầu, băng\n\n❌ Các đáp án khác\nA: Đầu, băng, bộ nhớ — không đúng với nội dung câu hỏi.\nC: Băng, Bộ nhớ — không đúng với nội dung câu hỏi.\nD: Đầu, Bộ nhớ — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nMáy Turing bao gồm những gì?\n\n✅ Đáp án: C — ヘッド、テープ\nTuring machine cổ điển = head + tape (không có 'memory' tách)\n\n\n❌ Các đáp án khác\nA: Đầu, băng, bộ nhớ — không đúng với nội dung câu hỏi.\nC: Băng, Bộ nhớ — không đúng với nội dung câu hỏi.\nD: Đầu, Bộ nhớ — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -18214,7 +18214,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 078 · CÂU HỎI 50 · map bank#685 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nBạn đọc “kiểm soát giao tiếp” như thế nào? Tiếng Việt là gì?\n\n✅ Đáp án: B — つうしんせいぎょ - điều khiển thông tin = Seigyo Tsushin - điưu khiưn thông tin\nĐáp án đúng là B. - điều khiển thông tin\n\n❌ Các đáp án khác\nA: Tsushin Seikyo - điưu khiưn tư xa — không đúng với nội dung câu hỏi.\nC: tsushinseigyo -hưn chē thông tin — không đúng với nội dung câu hỏi.\nD: Tsu Shin Seikyo - hưn chư thông tin tư xa — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nBạn đọc “kiểm soát giao tiếp” như thế nào? Tiếng Việt là gì?\n\n✅ Đáp án: A — つうしんせいぎょ-điều khiển thông tin\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Tsushin Seikyo - điưu khiưn tư xa — không đúng với nội dung câu hỏi.\nC: tsushinseigyo -hưn chē thông tin — không đúng với nội dung câu hỏi.\nD: Tsu Shin Seikyo - hưn chư thông tin tư xa — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -18238,7 +18238,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 079 · CÂU HỎI 42 · map bank#676 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: D — 文字列\nchuỗi ký tự = string = 文字列.",
+      "explanation": "✅ Đáp án: C — 文字列\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -18310,7 +18310,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 082 · CÂU HỎI 43 · map bank#721 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: B — シャープ\nKý hiệu # đọc là シャープ (sharp). Không phải $ (dollar), ! hay ~.",
+      "explanation": "✅ Đáp án: D — シャープ\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -18334,7 +18334,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 083 · CÂU HỎI 39 · map bank#694 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: C — 仮想記憶\nKhông gian nhớ lớn (ảo) = virtual memory, không phải process.",
+      "explanation": "✅ Đáp án: A — 仮想記憶\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -18382,7 +18382,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 085 · CÂU HỎI 36 · map bank#683 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: C — 取引プロセス…商品案内や配送…商品開発まで含めます\nThương mại điện tử gồm cả quy trình giao dịch rộng. A≈EDI, D≈CALS.",
+      "explanation": "✅ Đáp án: A — 取引プロセスとは、受注、発注、決済以外にも商品案内や配送などの処理、さらには商品開発まで含めます。\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -18430,7 +18430,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 087 · CÂU HỎI 41 · map bank#671 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: B — ソフトウェアの処理を管理します\nプロセス管理 = quản lý tiến trình/xử lý phần mềm. Không phải UI (操作性).",
+      "explanation": "✅ Đáp án: D — ソフトウェアの処理を管理します\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -18454,7 +18454,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 088 · CÂU HỎI 33 · map bank#629 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: A — ワイルドカード\nTrong SQL, % là ký tự đại diện (wildcard) trong LIKE.",
+      "explanation": "✅ Đáp án: C — ワイルドカード\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -18545,12 +18545,12 @@
         "D": "「商品コード」「商品名」「単価」「仕入先コード」"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 092 · CÂU HỎI 35 · map bank#755 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: D — 商品コード・商品名・単価・商品カテゴリコード・仕入先コード\nBảng商品 đã có FK category + supplier; join giữ các khóa đó.",
+      "explanation": "✅ Đáp án: C — 「商品コード」「商品名」「単価」「商品カテゴリコード」「仕入先コード」\nCần cả FK 商品カテゴリコード + 仕入先コード để join ra tên\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -18574,7 +18574,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 093 · CÂU HỎI 38 · map bank#697 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: B — メモリーとハードディスクのデータの交換\nSwapping trao đổi trang giữa RAM và HDD.",
+      "explanation": "✅ Đáp án: C — メモリーとハードディスクのデータの交換\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -18598,7 +18598,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 094 · CÂU HỎI 25 · map bank#756 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: D — (\"札幌\"OR\"函館\")AND\"日本料理\"\nNhà hàng Nhật ở Sapporo hoặc Hakodate: OR hai thành phố, AND món Nhật.",
+      "explanation": "✅ Đáp án: B — (\"札幌\"OR\"函館\")AND\"日本料理\"\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -18665,12 +18665,12 @@
         "D": "括弧（）は演算の優先順位を明示的に変更するために使用でき、括弧内の計算は最も優先して実行される。"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 097 · CÂU HỎI 26 · map bank#758 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: A — 括弧で優先順位を明示的に変更できる\nNgoặc có độ ưu tiên cao nhất. B: không phải mọi ngôn ngữ đều làm tròn 7/2→3. D: * / ưu tiên hơn + -.",
+      "explanation": "✅ Đáp án: D — 括弧（）は演算の優先順位を明示的に変更するために使用でき、括弧内の計算は最も優先して実行される。\n% không phải 四則 nhưng vẫn cùng ưu tiên * /; A sai. D (ngoặc) đúng.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -18718,7 +18718,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 099 · CÂU HỎI 27 · map bank#759 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nLàm dung lượng nhớ “ảo” lớn hơn RAM thật gọi là gì?\n\n✅ Đáp án: C — Bộ nhớ ảo (仮想記憶)\nBộ nhớ ảo sử dụng ổ cứng HDD, v.v. để mở rộng bộ nhớ rõ ràng.\n\n❌ Các đáp án khác\nA: Cache — không đúng với nội dung câu hỏi.\nB: Chỉ swapping — không đúng với nội dung câu hỏi.\nD: Defrag — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nLàm dung lượng nhớ “ảo” lớn hơn RAM thật gọi là gì?\n\n✅ Đáp án: A — 仮想記憶\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Cache — không đúng với nội dung câu hỏi.\nB: Chỉ swapping — không đúng với nội dung câu hỏi.\nD: Defrag — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -18742,7 +18742,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 100 · CÂU HỎI 28 · map bank#681 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: C — ハードウェアの相違を吸収します\nTrung gian soft–hard (OS/driver) che khác biệt phần cứng. A/B là UI.",
+      "explanation": "✅ Đáp án: D — ハードウェアの相違を吸収します\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -18766,7 +18766,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 101 · CÂU HỎI 17 · map bank#760 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\n\"RAM\" trong tiếng Anh là gì?\n\n✅ Đáp án: D — Random Access Memory\nĐáp án đúng là D. Bộ nhớ truy cập ngẫu nhiên\n\n❌ Các đáp án khác\nA: Random Array Memory — không đúng với nội dung câu hỏi.\nB: Read Array Memory — không đúng với nội dung câu hỏi.\nC: Read Access Memory — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\n\"RAM\" trong tiếng Anh là gì?\n\n✅ Đáp án: A — Random Access Memory\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Random Array Memory — không đúng với nội dung câu hỏi.\nB: Read Array Memory — không đúng với nội dung câu hỏi.\nC: Read Access Memory — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -18790,7 +18790,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 102 · CÂU HỎI 18 · map bank#761 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nTrung tâm dữ liệu của công ty có các máy chủ đóng vai trò quan trọng. Sau khi phân tích dữ liệu hoạt động của máy chủ này, chúng tôi nhận thấy khoảng thời gian lỗi trung bình là 500 giờ và thời gian sửa chữa trung bình là 10 giờ. Máy chủ này có bao nhiêu thời gian hoạt động?\n\n✅ Đáp án: A — 98.0%\nCâu trả lời đúng là A. 98,0%\n\n❌ Các đáp án khác\nB: 97.0% — không đúng với nội dung câu hỏi.\nC: 99.0% — không đúng với nội dung câu hỏi.\nD: 99.5% — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nTrung tâm dữ liệu của công ty có các máy chủ đóng vai trò quan trọng. Sau khi phân tích dữ liệu hoạt động của máy chủ này, chúng tôi nhận thấy khoảng thời gian lỗi trung bình là 500 giờ và thời gian sửa chữa trung bình là 10 giờ. Máy chủ này có bao nhiêu thời gian hoạt động?\n\n✅ Đáp án: B — 98.0%\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nB: 97.0% — không đúng với nội dung câu hỏi.\nC: 99.0% — không đúng với nội dung câu hỏi.\nD: 99.5% — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -18862,7 +18862,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 105 · CÂU HỎI 20 · map bank#625 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nĐiền từ thích hợp vào chỗ trống (xem câu gốc).\n\n✅ Đáp án: D. chương trình\nKhái niệm CNTT trong đề thi JIT.\nKhớp stem: khớp đáp án «プログラムミス».\n\n❌ Các đáp án khác\nA: プログラム = chương trình — Là gì? プログラム (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «プログラム» (A) không thỏa: khớp đáp án «プログラムミス».\nB: ウイルス = ウイルス — khái niệm kỹ thuật — Là gì? ウイルス (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «ウイルス» (B) không thỏa: khớp đáp án «プログラムミス».\nC: OS = hệ điều hành (OS) — Là gì? OS — khái niệm/cơ chế trong miền đề (OS/mạng/DB/PM/an ninh/KTCT…).\nDùng để làm gì? Có vai trò riêng; đối chiếu với điều kiện stem.\nVì sao sai? «OS» (C) không thỏa: khớp đáp án «プログラムミス».",
+      "explanation": "📝 Dịch câu hỏi\nĐiền từ thích hợp vào chỗ trống (xem câu gốc).\n\n✅ Đáp án: A — プログラム\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: プログラム = chương trình — Là gì? プログラム (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «プログラム» (A) không thỏa: khớp đáp án «プログラムミス».\nB: ウイルス = ウイルス — khái niệm kỹ thuật — Là gì? ウイルス (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «ウイルス» (B) không thỏa: khớp đáp án «プログラムミス».\nC: OS = hệ điều hành (OS) — Là gì? OS — khái niệm/cơ chế trong miền đề (OS/mạng/DB/PM/an ninh/KTCT…).\nDùng để làm gì? Có vai trò riêng; đối chiếu với điều kiện stem.\nVì sao sai? «OS» (C) không thỏa: khớp đáp án «プログラムミス».\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -18886,7 +18886,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 106 · CÂU HỎI 19 · map bank#763 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nBạn đọc \"chuyển vị\" như thế nào? Tiếng Việt là gì?\n\n✅ Đáp án: C — てんちしき - kiểu hoán vị = Tencchi Shiki - kiưu hoán vư\nCâu trả lời đúng là C. Tenchishiki - loại dịp\n\n❌ Các đáp án khác\nA: Ten Hoshiki - mã hóa hoán vư — không đúng với nội dung câu hỏi.\nB: Poop Shiki - mã hóa hoán vư — không đúng với nội dung câu hỏi.\nD: Um Houshiki - kiưu hoán vư — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nBạn đọc \"chuyển vị\" như thế nào? Tiếng Việt là gì?\n\n✅ Đáp án: B — てんちしき - kiểu hoán vị\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Ten Hoshiki - mã hóa hoán vư — không đúng với nội dung câu hỏi.\nB: Poop Shiki - mã hóa hoán vư — không đúng với nội dung câu hỏi.\nD: Um Houshiki - kiưu hoán vư — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -18905,12 +18905,12 @@
         "D": "CPU内部でデータのやりとえいをすること"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 107 · CÂU HỎI 16 · map bank#764 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nVai trò nào sau đây là thích hợp nhất cho bus trong CPU máy tính?\n\n✅ Đáp án: C — CPU内部でデータのやりとりをすること\nCâu trả lời đúng là C. trao đổi dữ liệu trong CPU\n\n❌ Các đáp án khác\nA: Cải thiện tốc độ xử lý của các đơn vị số học và đơn vị điều khiển — không đúng với nội dung câu hỏi.\nB: Cấp nguồn cho từng bộ phận của máy tính — không đúng với nội dung câu hỏi.\nD: Giải thích các lệnh và gửi tín hiệu điều khiển đến các thiết bị khác — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nVai trò nào sau đây là thích hợp nhất cho bus trong CPU máy tính?\n\n✅ Đáp án: D — CPU内部でデータのやりとえいをすること\nBus = trao đổi dữ liệu trong CPU, không phải cấp nguồn\n\n\n❌ Các đáp án khác\nA: Cải thiện tốc độ xử lý của các đơn vị số học và đơn vị điều khiển — không đúng với nội dung câu hỏi.\nB: Cấp nguồn cho từng bộ phận của máy tính — không đúng với nội dung câu hỏi.\nD: Giải thích các lệnh và gửi tín hiệu điều khiển đến các thiết bị khác — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -18958,7 +18958,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 109 · CÂU HỎI 12 · map bank#766 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\n“Quy trình phân phối” trong tiếng Việt là gì?\n\n✅ Đáp án: B — quá trình lưu thông\nCâu trả lời đúng là B. quá trình lưu thông tin\n\n❌ Các đáp án khác\nA: quá trình di chuyển — không đúng với nội dung câu hỏi.\nC: quá trình vận hành — không đúng với nội dung câu hỏi.\nD: quá trình vận hành — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\n“Quy trình phân phối” trong tiếng Việt là gì?\n\n✅ Đáp án: C — quá trình lưu thông\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: quá trình di chuyển — không đúng với nội dung câu hỏi.\nC: quá trình vận hành — không đúng với nội dung câu hỏi.\nD: quá trình vận hành — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -18982,7 +18982,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 110 · CÂU HỎI 13 · map bank#767 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nĐiều nào sau đây đúng về điốt và chất bán dẫn?\n\n✅ Đáp án: D — 電流が流れる方向と電子の移動する方向は逆である。 = Hướng mà dòng điện chạy và hướng mà các electron di chuyển bị đảo ngược.\nCâu trả lời đúng là D. Chiều dòng điện chạy và chiều chuyển động của các electron ngược chiều nhau.\n\n❌ Các đáp án khác\nA: Đèn LED được phân biệt với các điốt thông thường ở chỗ chúng khác nhau về cấu trúc và không phát ra ánh sáng. — không đúng với nội dung câu hỏi.\nB: Vì diode di chuyển các electron từ loại p sang loại n, dòng điện chạy theo hướng từ loại p sang loại n. — không đúng với nội dung câu hỏi.\nC: chất bán dẫn loại N thiếu electron, và chất bán dẫn loại p là ổn định do có quá nhiều electron. — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nĐiều nào sau đây đúng về điốt và chất bán dẫn?\n\n✅ Đáp án: C — 電流が流れる方向と電子の移動する方向は逆である。\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Đèn LED được phân biệt với các điốt thông thường ở chỗ chúng khác nhau về cấu trúc và không phát ra ánh sáng. — không đúng với nội dung câu hỏi.\nB: Vì diode di chuyển các electron từ loại p sang loại n, dòng điện chạy theo hướng từ loại p sang loại n. — không đúng với nội dung câu hỏi.\nC: chất bán dẫn loại N thiếu electron, và chất bán dẫn loại p là ổn định do có quá nhiều electron. — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -19006,7 +19006,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 111 · CÂU HỎI 11 · map bank#768 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nSản phẩm FOMA của NTT Docomo thuộc thế hệ điện thoại di động nào?\n\n✅ Đáp án: C — 3G\nĐáp án đúng là C. 3G\n\n❌ Các đáp án khác\nA: 4G — không đúng với nội dung câu hỏi.\nB: 2G — không đúng với nội dung câu hỏi.\nD: 3.5G — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nSản phẩm FOMA của NTT Docomo thuộc thế hệ điện thoại di động nào?\n\n✅ Đáp án: B — 3G\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: 4G — không đúng với nội dung câu hỏi.\nB: 2G — không đúng với nội dung câu hỏi.\nD: 3.5G — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -19030,7 +19030,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 112 · CÂU HỎI 10 · map bank#769 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nTrong bộ xử lý có tần số xung nhịp 3 GHz, khi một lệnh có thể được thực thi ở 6 xung nhịp, cần bao nhiêu nano giây để thực thi một lệnh?\n\n✅ Đáp án: A — 2.0\nCâu trả lời đúng là A. 2.0\n\n❌ Các đáp án khác\nB: 3.0 — không đúng với nội dung câu hỏi.\nC: 0.5 — không đúng với nội dung câu hỏi.\nD: 18.0 — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nTrong bộ xử lý có tần số xung nhịp 3 GHz, khi một lệnh có thể được thực thi ở 6 xung nhịp, cần bao nhiêu nano giây để thực thi một lệnh?\n\n✅ Đáp án: B — 2.0\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nB: 3.0 — không đúng với nội dung câu hỏi.\nC: 0.5 — không đúng với nội dung câu hỏi.\nD: 18.0 — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -19049,12 +19049,12 @@
         "D": "ヘッド、メモリ"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 113 · CÂU HỎI 7 · map bank#752 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nMáy Turing bao gồm những gì?\n\n✅ Đáp án: B — ヘッド、テープ = Đầu, băng dính\nCâu trả lời đúng là B. đầu, băng\n\n❌ Các đáp án khác\nA: Đầu, băng, bộ nhớ — không đúng với nội dung câu hỏi.\nC: Băng, Bộ nhớ — không đúng với nội dung câu hỏi.\nD: Đầu, Bộ nhớ — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nMáy Turing bao gồm những gì?\n\n✅ Đáp án: B — ヘッド、テープ\nTuring = head + tape (option order khác 895)\n\n\n❌ Các đáp án khác\nA: Đầu, băng, bộ nhớ — không đúng với nội dung câu hỏi.\nC: Băng, Bộ nhớ — không đúng với nội dung câu hỏi.\nD: Đầu, Bộ nhớ — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -19078,7 +19078,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 114 · CÂU HỎI 6 · map bank#750 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nBạn có sử dụng từ tiếng Nhật \"bư vi xư lý\" không?\n\n✅ Đáp án: C — マイクロプロセッサ = Bộ vi xử lý\nĐáp án đúng là C. vi xử lý\n\n❌ Các đáp án khác\nA: Bộ vi xử lý — không đúng với nội dung câu hỏi.\nB: Chương trình điều khiển — không đúng với nội dung câu hỏi.\nD: Motherboard — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nBạn có sử dụng từ tiếng Nhật \"bư vi xư lý\" không?\n\n✅ Đáp án: A — マイクロプロセッサ\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Bộ vi xử lý — không đúng với nội dung câu hỏi.\nB: Chương trình điều khiển — không đúng với nội dung câu hỏi.\nD: Motherboard — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -19102,7 +19102,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 115 · CÂU HỎI 5 · map bank#624 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nChọn phát biểu ĐÚNG về mạch OR.\n\n✅ Đáp án: C. mạch các công tắc xếp song song\nmạch các công tắc xếp song song\nĐáp án C: mạch các công tắc xếp song song\n\n❌ Các đáp án khác\nA: スイッチが直列に並んだ回路としてモデル化されます = mạch các công tắc xếp nối tiếp — Là gì? スイッチが直列に並んだ回路としてモデル化されます (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «スイッチが直列に並んだ回路としてモデル化されます» (A) không thỏa: phát biểu đúng/sai khớp cơ chế.\nB: OR回路の演算のことを論理積と言います = gọi phép OR là tích logic (sai — OR là tổng logic) — Là gì? OR回路の演算のことを論理積と言います (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «OR回路の演算のことを論理積と言います» (B) không thỏa: phát biểu đúng/sai khớp cơ chế.\nD: OR回路は1つのダイオードを使って実現できます = mạch OR làm bằng một diode — Là gì? OR回路は1つのダイオードを使って実現できます (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «OR回路は1つのダイオードを使って実現できます» (D) không thỏa: phát biểu đúng/sai khớp cơ chế.",
+      "explanation": "📝 Dịch câu hỏi\nChọn phát biểu ĐÚNG về mạch OR.\n\n✅ Đáp án: A — スイッチが並列に並んだ回路としてモデル化されます\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: スイッチが直列に並んだ回路としてモデル化されます = mạch các công tắc xếp nối tiếp — Là gì? スイッチが直列に並んだ回路としてモデル化されます (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «スイッチが直列に並んだ回路としてモデル化されます» (A) không thỏa: phát biểu đúng/sai khớp cơ chế.\nB: OR回路の演算のことを論理積と言います = gọi phép OR là tích logic (sai — OR là tổng logic) — Là gì? OR回路の演算のことを論理積と言います (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «OR回路の演算のことを論理積と言います» (B) không thỏa: phát biểu đúng/sai khớp cơ chế.\nD: OR回路は1つのダイオードを使って実現できます = mạch OR làm bằng một diode — Là gì? OR回路は1つのダイオードを使って実現できます (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «OR回路は1つのダイオードを使って実現できます» (D) không thỏa: phát biểu đúng/sai khớp cơ chế.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -19126,7 +19126,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 116 · CÂU HỎI 8 · map bank#770 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nPhương pháp nào được sử dụng để đo điện tích tích lũy giữa đầu ngón tay và cảm biến?\n\n✅ Đáp án: C — 静電容量方式\nĐáp án đúng là C. Phương pháp điện dung\n\n❌ Các đáp án khác\nA: Phương pháp cảm biến CMOS — không đúng với nội dung câu hỏi.\nB: Phương pháp phân đoạn — không đúng với nội dung câu hỏi.\nD: Phương pháp màng điện trở — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nPhương pháp nào được sử dụng để đo điện tích tích lũy giữa đầu ngón tay và cảm biến?\n\n✅ Đáp án: D — 静電容量方式\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Phương pháp cảm biến CMOS — không đúng với nội dung câu hỏi.\nB: Phương pháp phân đoạn — không đúng với nội dung câu hỏi.\nD: Phương pháp màng điện trở — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -19150,7 +19150,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 117 · CÂU HỎI 9 · map bank#771 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nVirus máy tính có gì không đúng?\n\n✅ Đáp án: B — 個人のパソコンをねらった犯罪 = Tội phạm chống lại máy tính cá nhân\nĐáp án đúng là B. Tội phạm nhắm vào máy tính cá nhân\n\n❌ Các đáp án khác\nA: Quá trình nhiễm trùng và khởi phát với thời gian ủ bệnh là virus của sinh vật — không đúng với nội dung câu hỏi.\nC: Các chương trình do con người tạo ra — không đúng với nội dung câu hỏi.\nD: Thông qua đường lây nhiễm, gửi email bằng bộ nhớ USB hoặc Internet hoặc trang chủ — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nVirus máy tính có gì không đúng?\n\n✅ Đáp án: D — 個人のパソコンをねらった犯罪\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Quá trình nhiễm trùng và khởi phát với thời gian ủ bệnh là virus của sinh vật — không đúng với nội dung câu hỏi.\nC: Các chương trình do con người tạo ra — không đúng với nội dung câu hỏi.\nD: Thông qua đường lây nhiễm, gửi email bằng bộ nhớ USB hoặc Internet hoặc trang chủ — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -19198,7 +19198,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 119 · CÂU HỎI 39 · map bank#647 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: C — ネットワーク層のIPプロトコルに従って番号が割り当てられています\nIP là địa chỉ tầng mạng. Không phải firewall, không phải định nghĩa protocol chung, không phải URL/email.",
+      "explanation": "✅ Đáp án: B — ネットワーク層のIPプロトコルに従って番号が割り当てられています\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -19222,7 +19222,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 120 · CÂU HỎI 45 · map bank#685 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nBạn đọc “kiểm soát giao tiếp” như thế nào? Tiếng Việt là gì?\n\n✅ Đáp án: B — つうしんせいぎょ - điều khiển thông tin = Seigyo Tsushin - điưu khiưn thông tin\nĐáp án đúng là B. - điều khiển thông tin\n\n❌ Các đáp án khác\nA: Tsushin Seikyo - điưu khiưn tư xa — không đúng với nội dung câu hỏi.\nC: tsushinseigyo -hưn chē thông tin — không đúng với nội dung câu hỏi.\nD: Tsu Shin Seikyo - hưn chư thông tin tư xa — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nBạn đọc “kiểm soát giao tiếp” như thế nào? Tiếng Việt là gì?\n\n✅ Đáp án: C — つうしんせいぎょ-điều khiển thông tin\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Tsushin Seikyo - điưu khiưn tư xa — không đúng với nội dung câu hỏi.\nC: tsushinseigyo -hưn chē thông tin — không đúng với nội dung câu hỏi.\nD: Tsu Shin Seikyo - hưn chư thông tin tư xa — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -19246,7 +19246,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 121 · CÂU HỎI 41 · map bank#770 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nPhương pháp nào được sử dụng để đo điện tích tích lũy giữa đầu ngón tay và cảm biến?\n\n✅ Đáp án: C — 静電容量方式\nĐáp án đúng là C. Phương pháp điện dung\n\n❌ Các đáp án khác\nA: Phương pháp cảm biến CMOS — không đúng với nội dung câu hỏi.\nB: Phương pháp phân đoạn — không đúng với nội dung câu hỏi.\nD: Phương pháp màng điện trở — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nPhương pháp nào được sử dụng để đo điện tích tích lũy giữa đầu ngón tay và cảm biến?\n\n✅ Đáp án: A — 静電容量方式\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Phương pháp cảm biến CMOS — không đúng với nội dung câu hỏi.\nB: Phương pháp phân đoạn — không đúng với nội dung câu hỏi.\nD: Phương pháp màng điện trở — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -19270,7 +19270,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 122 · CÂU HỎI 37 · map bank#674 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: A — DMZに重要情報を置かない\nDMZ public-facing: không đặt dữ liệu mật. Firewall cần cấu hình đúng.",
+      "explanation": "✅ Đáp án: B — DMZに設置されたサーバには、組織にとって重要な情報を置かないように注意すべきである。\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -19294,7 +19294,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 123 · CÂU HỎI 38 · map bank#773 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nBạn đọc “dải tần số” như thế nào? Tiếng Việt là gì?\n\n✅ Đáp án: C — しゅうはすうたい - dải tần số = shuuhasuutai - dải tần số\nDải tần=dải tần / băng tần.\n\n❌ Các đáp án khác\nA: shuuhasuutai - băng tần (nghĩa hẹp) — không đúng với nội dung câu hỏi.\nB: đọc sai — không đúng với nội dung câu hỏi.\nD: đọc sai — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nBạn đọc “dải tần số” như thế nào? Tiếng Việt là gì?\n\n✅ Đáp án: A — しゅうはすうたい - dải tần số\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: shuuhasuutai - băng tần (nghĩa hẹp) — không đúng với nội dung câu hỏi.\nB: đọc sai — không đúng với nội dung câu hỏi.\nD: đọc sai — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -19318,7 +19318,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 124 · CÂU HỎI 34 · map bank#639 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: C — リング型は、データが隣接するコンピュータへ順次転送され…\nBus không phải vòng và vẫn có va chạm; star dùng hub; ring: tuần tự, 1 máy hỏng ảnh hưởng.",
+      "explanation": "✅ Đáp án: B — リング型は、データが隣接するコンピュータへ順次転送され、一部のコンピュータが故障すると通信に支障が出る可能性がある。\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -19342,7 +19342,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 125 · CÂU HỎI 3 · map bank#669 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: A — định dạng tập tin\nRSS = feed/syndication format (định dạng chia sẻ nội dung).",
+      "explanation": "✅ Đáp án: C — định dạng tập tin\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -19366,7 +19366,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 126 · CÂU HỎI 1 · map bank#774 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\n“DoS” trong tiếng Việt là gì?\n\n✅ Đáp án: A — tấn công từ chối dịch vụ\nCâu trả lời đúng là A. tấn công từ chối dịch vụ\n\n❌ Các đáp án khác\nB: tiêu chuẩn mã hóa dữ liệu — không đúng với nội dung câu hỏi.\nC: hệ thống vạn năng — không đúng với nội dung câu hỏi.\nD: hệ thống Ram động — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\n“DoS” trong tiếng Việt là gì?\n\n✅ Đáp án: D — tấn công từ chối dịch vụ\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nB: tiêu chuẩn mã hóa dữ liệu — không đúng với nội dung câu hỏi.\nC: hệ thống vạn năng — không đúng với nội dung câu hỏi.\nD: hệ thống Ram động — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -19390,7 +19390,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 127 · CÂU HỎI 42 · map bank#775 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nVai trò nào sau đây là vai trò chính thích hợp nhất của Lớp Phiên OSI (Lớp 5)?\n\n✅ Đáp án: A — 通信の開始から終了までの手順を管理する。 = Quản lý quy trình từ đầu đến cuối giao tiếp.\nCâu trả lời đúng là A. Quản lý quy trình từ đầu đến cuối giao tiếp.\n\n❌ Các đáp án khác\nB: Xác định lộ trình chuyển tiếp dữ liệu đến đối tác truyền thông và quản lý địa chỉ logic. — không đúng với nội dung câu hỏi.\nC: Xác định các tiêu chuẩn điện và cơ học để truyền tín hiệu bit thông qua phương tiện truyền thông. — không đúng với nội dung câu hỏi.\nD: Chuyển đổi định dạng của dữ liệu (mã hóa ký tự, mã hóa, v.v.) thành định dạng có thể được xử lý bởi lớp ứng dụng. — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nVai trò nào sau đây là vai trò chính thích hợp nhất của Lớp Phiên OSI (Lớp 5)?\n\n✅ Đáp án: D — 通信の開始から終了までの手順を管理する。\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nB: Xác định lộ trình chuyển tiếp dữ liệu đến đối tác truyền thông và quản lý địa chỉ logic. — không đúng với nội dung câu hỏi.\nC: Xác định các tiêu chuẩn điện và cơ học để truyền tín hiệu bit thông qua phương tiện truyền thông. — không đúng với nội dung câu hỏi.\nD: Chuyển đổi định dạng của dữ liệu (mã hóa ký tự, mã hóa, v.v.) thành định dạng có thể được xử lý bởi lớp ứng dụng. — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -19414,7 +19414,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 128 · CÂU HỎI 44 · map bank#776 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nBạn đọc các biểu tượng trên_keyboard như thế nào?\n\n✅ Đáp án: C — アンダーバー = Ga ̣ ch dươ ́\nĐáp án đúng là C. dưới vạch\n\n❌ Các đáp án khác\nA: Dấu hoa thị — không đúng với nội dung câu hỏi.\nB: 3 - 1 8, ném! — không đúng với nội dung câu hỏi.\nD: Dấu ngã — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nBạn đọc các biểu tượng trên_keyboard như thế nào?\n\n✅ Đáp án: A — アンダーバー\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Dấu hoa thị — không đúng với nội dung câu hỏi.\nB: 3 - 1 8, ném! — không đúng với nội dung câu hỏi.\nD: Dấu ngã — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -19438,7 +19438,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 129 · CÂU HỎI 40 · map bank#777 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nPhần mềm quyết định app chạy được trên ĐTDĐ chuẩn quốc tế?\n\n✅ Đáp án: B — オペレーティングシステム = Hệ điều hành (OS)\nHệ điều hành xác định ứng dụng nào có thể được sử dụng.\n\n❌ Các đáp án khác\nA: Ứng dụng — không đúng với nội dung câu hỏi.\nC: Tiền điện tử — không đúng với nội dung câu hỏi.\nD: Galapagos phone — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nPhần mềm quyết định app chạy được trên ĐTDĐ chuẩn quốc tế?\n\n✅ Đáp án: C — オペレーティングシステム\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Ứng dụng — không đúng với nội dung câu hỏi.\nC: Tiền điện tử — không đúng với nội dung câu hỏi.\nD: Galapagos phone — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -19486,7 +19486,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 131 · CÂU HỎI 31 · map bank#754 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: C — シェアウェアは無料で入手できるが、継続使用に登録・料金が必要な場合がある\nShareware: dùng thử miễn phí, dùng lâu có thể phải trả. Freeware: miễn phí (không đảo ngược như A/B/D).",
+      "explanation": "✅ Đáp án: D — シェアウェアは無料で入手できるが、継続して使用するには登録と料金の支払いが必要な場合がある。\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -19510,7 +19510,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 132 · CÂU HỎI 33 · map bank#640 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: A — ドメイン名はIPアドレスよりも覚えやすく…\nDomain dễ nhớ hơn IP. .com không phải domain Nhật (.jp). DNS cũng chuyển domain→IP (C cũng đúng về DNS) nhưng A là phát biểu chuẩn hay gặp.",
+      "explanation": "✅ Đáp án: D — ドメイン名は数字の羅列であるIPアドレスよりも覚えやすく、入力間違いが少ないため、一般的に利用されている。\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -19534,7 +19534,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 133 · map bank#664 (0.95)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nMáy tính điện tử ENIAC được phát triển năm nào?\n\n✅ Đáp án: C — 1946年 = năm 1946\nENIAC là máy tính điện tử được phát triển vào năm 1946.\n\n❌ Các đáp án khác\nA: năm 1930 — không khớp định nghĩa/yêu cầu câu hỏi.\nB: năm 1939 — không khớp định nghĩa/yêu cầu câu hỏi.\nD: năm 1949 — không khớp định nghĩa/yêu cầu câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nMáy tính điện tử ENIAC được phát triển năm nào?\n\n✅ Đáp án: A — 1946年\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: năm 1930 — không khớp định nghĩa/yêu cầu câu hỏi.\nB: năm 1939 — không khớp định nghĩa/yêu cầu câu hỏi.\nD: năm 1949 — không khớp định nghĩa/yêu cầu câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -19558,7 +19558,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 134 · CÂU HỎI 29 · map bank#665 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: A — 光ファイバーで家庭まで…ラストワンマイル\nFTTH = Fiber To The Home, giải last-mile bằng quang tới nhà.",
+      "explanation": "✅ Đáp án: B — 光ファイバーを利用して家庭まで高速な通信回線を引くことで、ラストワンマイル問題の解決を目指す技術である。\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -19582,7 +19582,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 135 · CÂU HỎI 43 · map bank#628 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: C — 専用の光ファイバなのでノイズの影響を受けにくい\nFTTH dùng cáp quang riêng → chịu nhiễu tốt hơn ADSL (cặp đồng).",
+      "explanation": "✅ Đáp án: D — 専用の光ファイバなのでノイズの影響を受けにくい\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -19606,7 +19606,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 136 · CÂU HỎI 2 · map bank#779 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nVirus là ví dụ điển hình của ( ) nhắm PC cá nhân?\n\n✅ Đáp án: A — 犯罪 = tội phạm / 犯罪\nVirus là một ví dụ về tội phạm máy tính.\n\n❌ Các đáp án khác\nB: hành vi — không đúng với nội dung câu hỏi.\nC: đồ vật — không đúng với nội dung câu hỏi.\nD: bệnh — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nVirus là ví dụ điển hình của ( ) nhắm PC cá nhân?\n\n✅ Đáp án: D — 犯罪\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nB: hành vi — không đúng với nội dung câu hỏi.\nC: đồ vật — không đúng với nội dung câu hỏi.\nD: bệnh — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -19654,7 +19654,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 138 · map bank#633 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: A — máy chủ trung gian\nProxy server = máy chủ trung gian (ủy quyền/relay).",
+      "explanation": "✅ Đáp án: B — máy chủ trung gian\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -19678,7 +19678,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 139 · CÂU HỎI 9 · map bank#642 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: C — 連続的な量のこと\nAnalog = đại lượng liên tục (連続的な量). 数値化 = digital.",
+      "explanation": "✅ Đáp án: A — 連続的な量のこと\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -19750,7 +19750,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 142 · CÂU HỎI 7 · map bank#627 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nVề quản lý thư mục và path, giải thích nào đúng?\n\n✅ Đáp án: A. phát biểu về file/thư mục\nphát biểu về file/thư mục\nĐáp án A: phát biểu về file/thư mục\n\n❌ Các đáp án khác\nB: 通常、新しく作成するファイルは「C:Windows」フォルダに自動的に保存される。 = phát biểu về file/thư mục — Là gì? 通常、新しく作成するファイルは「C:Windows」フォルダに自動的に保存される。 (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «通常、新しく作成するファイルは「C:Windows」フォルダに自動的に保存される。» (B) không thỏa: phát biểu đúng/sai khớp cơ chế.\nC: フォルダはファイルのサブファイルである。 = thư mục là subfile của file (sai) — Là gì? フォルダはファイルのサブファイルである。 (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «フォルダはファイルのサブファイルである。» (C) không thỏa: phát biểu đúng/sai khớp cơ chế.\nD: ファイルを探しやすくするためには、1つのフォルダに数百個以上のファイルをまとめて保存するのが効率的である。 = phát biểu về file/thư mục — Là gì? ファイルを探しやすくするためには、1つのフォルダに数百個以上のファイルをまとめて保存するのが効率的である。 (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «ファイルを探しやすくするためには、1つのフォルダに数百個以上のファイルをまとめて保存するのが効率的である。» (D) không thỏa: phát biểu đúng/sai khớp cơ chế.",
+      "explanation": "📝 Dịch câu hỏi\nVề quản lý thư mục và path, giải thích nào đúng?\n\n✅ Đáp án: D — エクスプローラで表示される階層構造のことをディレクトリ構造と呼び、フォルダは親子関係で構成されている。\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nB: 通常、新しく作成するファイルは「C:Windows」フォルダに自動的に保存される。 = phát biểu về file/thư mục — Là gì? 通常、新しく作成するファイルは「C:Windows」フォルダに自動的に保存される。 (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «通常、新しく作成するファイルは「C:Windows」フォルダに自動的に保存される。» (B) không thỏa: phát biểu đúng/sai khớp cơ chế.\nC: フォルダはファイルのサブファイルである。 = thư mục là subfile của file (sai) — Là gì? フォルダはファイルのサブファイルである。 (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «フォルダはファイルのサブファイルである。» (C) không thỏa: phát biểu đúng/sai khớp cơ chế.\nD: ファイルを探しやすくするためには、1つのフォルダに数百個以上のファイルをまとめて保存するのが効率的である。 = phát biểu về file/thư mục — Là gì? ファイルを探しやすくするためには、1つのフォルダに数百個以上のファイルをまとめて保存するのが効率的である。 (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «ファイルを探しやすくするためには、1つのフォルダに数百個以上のファイルをまとめて保存するのが効率的である。» (D) không thỏa: phát biểu đúng/sai khớp cơ chế.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -19774,7 +19774,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 143 · CÂU HỎI 19 · map bank#683 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: C — 取引プロセス…商品案内や配送…商品開発まで含めます\nThương mại điện tử gồm cả quy trình giao dịch rộng. A≈EDI, D≈CALS.",
+      "explanation": "✅ Đáp án: D — 取引プロセスとは、受注、発注、決済以外にも商品案内や配送などの処理、さらには商品開発まで含めます.\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -19822,7 +19822,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 145 · map bank#781 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nPhát sóng Simal bằng tiếng Việt là gì?\n\n✅ Đáp án: D — phát sóng cùng một lúc\nĐáp án đúng là D. phát bài hát cùng một lúc\n\n❌ Các đáp án khác\nA: phát sóng qua vệ tinh — không đúng với nội dung câu hỏi.\nB: phát sóng tạm thời — không đúng với nội dung câu hỏi.\nC: phát sóng từng đoạn — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nPhát sóng Simal bằng tiếng Việt là gì?\n\n✅ Đáp án: A — phát sóng cùng một lúc\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: phát sóng qua vệ tinh — không đúng với nội dung câu hỏi.\nB: phát sóng tạm thời — không đúng với nội dung câu hỏi.\nC: phát sóng từng đoạn — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -19870,7 +19870,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 147 · CÂU HỎI 22 · map bank#782 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nTên của địa điểm nơi số đường phố được chỉ định cho không gian bộ nhớ là gì?\n\n✅ Đáp án: D — 記憶アドレス = Địa chỉ lưu trữ\nĐáp án đúng là D. địa chỉ bộ nhớ\n\n❌ Các đáp án khác\nA: Cookie — không đúng với nội dung câu hỏi.\nB: Harddisk — không đúng với nội dung câu hỏi.\nC: Cache — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nTên của địa điểm nơi số đường phố được chỉ định cho không gian bộ nhớ là gì?\n\n✅ Đáp án: A — 記憶アドレス\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Cookie — không đúng với nội dung câu hỏi.\nB: Harddisk — không đúng với nội dung câu hỏi.\nC: Cache — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -19894,7 +19894,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 148 · CÂU HỎI 26 · map bank#768 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nSản phẩm FOMA của NTT Docomo thuộc thế hệ điện thoại di động nào?\n\n✅ Đáp án: C — 3G\nĐáp án đúng là C. 3G\n\n❌ Các đáp án khác\nA: 4G — không đúng với nội dung câu hỏi.\nB: 2G — không đúng với nội dung câu hỏi.\nD: 3.5G — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nSản phẩm FOMA của NTT Docomo thuộc thế hệ điện thoại di động nào?\n\n✅ Đáp án: A — 3G\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: 4G — không đúng với nội dung câu hỏi.\nB: 2G — không đúng với nội dung câu hỏi.\nD: 3.5G — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -19918,7 +19918,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 149 · CÂU HỎI 27 · map bank#662 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: C — ピアツーピアはサーバ/クライアントを明確に分けた構成である（SAI）\nCâu hỏi chọn phát biểu SAI. P2P không tách server/client rõ; client-server mới tách.",
+      "explanation": "✅ Đáp án: A — ピアツーピア(P2P)接続は、サービスを提供するサーバとサービスを受けるクライアントを明確に分けた構成である。\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -19942,7 +19942,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 150 · CÂU HỎI 28 · map bank#659 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: D — 電話局から家庭までの距離が長くなるほど…速度が低下\nADSL dùng đường điện thoại; khoảng cách tăng → nhiễu tăng, tốc độ giảm. Không phải dedicated line.",
+      "explanation": "✅ Đáp án: C — 電話局から家庭までの距離が長くなるほど、ノイズの影響を受けて通信速度が低下しやすくなる。\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -19966,7 +19966,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 151 · CÂU HỎI 7 · map bank#627 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nVề quản lý thư mục và path, giải thích nào đúng?\n\n✅ Đáp án: A. phát biểu về file/thư mục\nphát biểu về file/thư mục\nĐáp án A: phát biểu về file/thư mục\n\n❌ Các đáp án khác\nB: 通常、新しく作成するファイルは「C:Windows」フォルダに自動的に保存される。 = phát biểu về file/thư mục — Là gì? 通常、新しく作成するファイルは「C:Windows」フォルダに自動的に保存される。 (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «通常、新しく作成するファイルは「C:Windows」フォルダに自動的に保存される。» (B) không thỏa: phát biểu đúng/sai khớp cơ chế.\nC: フォルダはファイルのサブファイルである。 = thư mục là subfile của file (sai) — Là gì? フォルダはファイルのサブファイルである。 (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «フォルダはファイルのサブファイルである。» (C) không thỏa: phát biểu đúng/sai khớp cơ chế.\nD: ファイルを探しやすくするためには、1つのフォルダに数百個以上のファイルをまとめて保存するのが効率的である。 = phát biểu về file/thư mục — Là gì? ファイルを探しやすくするためには、1つのフォルダに数百個以上のファイルをまとめて保存するのが効率的である。 (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «ファイルを探しやすくするためには、1つのフォルダに数百個以上のファイルをまとめて保存するのが効率的である。» (D) không thỏa: phát biểu đúng/sai khớp cơ chế.",
+      "explanation": "📝 Dịch câu hỏi\nVề quản lý thư mục và path, giải thích nào đúng?\n\n✅ Đáp án: D — エクスプローラで表示される階層構造のことをディレクトリ構造と呼び、フォルダは親子関係で構成されてい\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nB: 通常、新しく作成するファイルは「C:Windows」フォルダに自動的に保存される。 = phát biểu về file/thư mục — Là gì? 通常、新しく作成するファイルは「C:Windows」フォルダに自動的に保存される。 (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «通常、新しく作成するファイルは「C:Windows」フォルダに自動的に保存される。» (B) không thỏa: phát biểu đúng/sai khớp cơ chế.\nC: フォルダはファイルのサブファイルである。 = thư mục là subfile của file (sai) — Là gì? フォルダはファイルのサブファイルである。 (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «フォルダはファイルのサブファイルである。» (C) không thỏa: phát biểu đúng/sai khớp cơ chế.\nD: ファイルを探しやすくするためには、1つのフォルダに数百個以上のファイルをまとめて保存するのが効率的である。 = phát biểu về file/thư mục — Là gì? ファイルを探しやすくするためには、1つのフォルダに数百個以上のファイルをまとめて保存するのが効率的である。 (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «ファイルを探しやすくするためには、1つのフォルダに数百個以上のファイルをまとめて保存するのが効率的である。» (D) không thỏa: phát biểu đúng/sai khớp cơ chế.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -20009,12 +20009,12 @@
         "D": "重要な情報"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 153 · CÂU HỎI 2 · map bank#783 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: B — 重要な情報\nMáy server lưu thông tin quan trọng (dữ liệu/dịch vụ cung cấp).",
+      "explanation": "✅ Đáp án: D — 重要な情報\nServer lưu 重要な情報, không phải 情報端末\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -20038,7 +20038,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 154 · CÂU HỎI 3 · map bank#784 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nĐiều nào sau đây đúng về Mạng cục bộ (Lan)?\n\n✅ Đáp án: D — LANは、ネットワーク管理者が歩いて機器の状態をチェックできる程度の局所的な範囲を指すことが多い。 = Mạng LAN thường đề cập đến một phạm vi cục bộ trong phạm vi mà quản trị viên mạng có thể đi bộ để kiểm tra trạng thái của thiết bị.\nCâu trả lời đúng là D. Mạng LAN thường dùng để chỉ một khu vực cục bộ nơi quản trị viên mạng có thể đi lại và kiểm tra trạng thái của thiết bị.\n\n❌ Các đáp án khác\nA: Mạng LAN là các mạng lớn kết nối các khu vực rộng lớn và Internet là một loại mạng WAN. — không đúng với nội dung câu hỏi.\nB: Sự khác biệt giữa mạng LAN và WAN rất rõ ràng và các mạng trong một công ty luôn được phân loại là mạng LAN, ngay cả khi có nhiều nhánh. — không đúng với nội dung câu hỏi.\nC: Chỉ có máy tính và máy in được kết nối với mạng LAN, không phải thiết bị gia dụng. — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nĐiều nào sau đây đúng về Mạng cục bộ (Lan)?\n\n✅ Đáp án: A — LANは、ネットワーク管理者が歩いて機器の状態をチェックできる程度の局所的な範囲を指すことが多い。\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Mạng LAN là các mạng lớn kết nối các khu vực rộng lớn và Internet là một loại mạng WAN. — không đúng với nội dung câu hỏi.\nB: Sự khác biệt giữa mạng LAN và WAN rất rõ ràng và các mạng trong một công ty luôn được phân loại là mạng LAN, ngay cả khi có nhiều nhánh. — không đúng với nội dung câu hỏi.\nC: Chỉ có máy tính và máy in được kết nối với mạng LAN, không phải thiết bị gia dụng. — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -20062,7 +20062,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 155 · CÂU HỎI 1 · map bank#785 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\n“Sở hữu công nghiệp” có những quyền gì?\n\n✅ Đáp án: B — 意匠権、特許権、実用新案権 = Quyền thiết kế, quyền sáng chế, quyền mô hình tiện ích\nĐáp án đúng là B. Quyền thiết kế, quyền sáng chế, quyền giải pháp hữu ích\n\n❌ Các đáp án khác\nA: Quyền lân cận, quyền thương hiệu, quyền mô hình tiện ích — không đúng với nội dung câu hỏi.\nC: Quyền láng giềng, quyền thiết kế và quyền nhãn hiệu — không đúng với nội dung câu hỏi.\nD: Quyền thiết kế, quyền sở hữu bản quyền, quyền sáng chế — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\n“Sở hữu công nghiệp” có những quyền gì?\n\n✅ Đáp án: C — 意匠権、特許権、実用新案権\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Quyền lân cận, quyền thương hiệu, quyền mô hình tiện ích — không đúng với nội dung câu hỏi.\nC: Quyền láng giềng, quyền thiết kế và quyền nhãn hiệu — không đúng với nội dung câu hỏi.\nD: Quyền thiết kế, quyền sở hữu bản quyền, quyền sáng chế — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -20110,7 +20110,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 157 · CÂU HỎI 4 · map bank#786 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nTrong OSI, tầng nào chịu trách nhiệm chính cho chức năng \"chuyển giữa các thiết bị liền kề\"?\n\n✅ Đáp án: C — データリンク層 = Tầng liên kết dữ liệu\nĐáp án đúng là C. Lớp liên kết dữ liệu\n\n❌ Các đáp án khác\nA: Lớp mạng — không đúng với nội dung câu hỏi.\nB: Lớp vật lý — không đúng với nội dung câu hỏi.\nD: Thông qua lớp vận chuyển — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nTrong OSI, tầng nào chịu trách nhiệm chính cho chức năng \"chuyển giữa các thiết bị liền kề\"?\n\n✅ Đáp án: A — データリンク層\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Lớp mạng — không đúng với nội dung câu hỏi.\nB: Lớp vật lý — không đúng với nội dung câu hỏi.\nD: Thông qua lớp vận chuyển — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -20134,7 +20134,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 158 · CÂU HỎI 2 · map bank#759 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nLàm dung lượng nhớ “ảo” lớn hơn RAM thật gọi là gì?\n\n✅ Đáp án: C — Bộ nhớ ảo (仮想記憶)\nBộ nhớ ảo sử dụng ổ cứng HDD, v.v. để mở rộng bộ nhớ rõ ràng.\n\n❌ Các đáp án khác\nA: Cache — không đúng với nội dung câu hỏi.\nB: Chỉ swapping — không đúng với nội dung câu hỏi.\nD: Defrag — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nLàm dung lượng nhớ “ảo” lớn hơn RAM thật gọi là gì?\n\n✅ Đáp án: A — 仮想記憶\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Cache — không đúng với nội dung câu hỏi.\nB: Chỉ swapping — không đúng với nội dung câu hỏi.\nD: Defrag — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -20158,7 +20158,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 159 · CÂU HỎI 26 · map bank#787 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\n“ROM” là gì?\n\n✅ Đáp án: B — 読み取り専用の半導体メモリである = Nó là một bộ nhớ bán dẫn chỉ đọc\nĐáp án đúng là B. Bộ nhớ bán dẫn chỉ đọc\n\n❌ Các đáp án khác\nA: Đó là một bộ nhớ lưu trữ toàn bộ hình ảnh màn hình — không đúng với nội dung câu hỏi.\nC: Nó là một bộ nhớ bán dẫn chỉ đọc và chỉ ghi — không đúng với nội dung câu hỏi.\nD: Đó là một bộ nhớ ghi lại tĩnh điện — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\n“ROM” là gì?\n\n✅ Đáp án: A — 読み取り専用の半導体メモリである\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Đó là một bộ nhớ lưu trữ toàn bộ hình ảnh màn hình — không đúng với nội dung câu hỏi.\nC: Nó là một bộ nhớ bán dẫn chỉ đọc và chỉ ghi — không đúng với nội dung câu hỏi.\nD: Đó là một bộ nhớ ghi lại tĩnh điện — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -20182,7 +20182,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 160 · CÂU HỎI 59 · map bank#740 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nKhi mối quan hệ giữa đầu vào X và đầu ra Y của một mạch được biểu thị bằng Y = không phải X, mạch này được gọi là bao nhiêu mạch?\n\n✅ Đáp án: C — NOT回路\nĐáp án đúng là C. Mạch KHÔNG\n\n❌ Các đáp án khác\nA: OR回路 — không đúng với nội dung câu hỏi.\nB: AND回路 — không đúng với nội dung câu hỏi.\nD: XOR回路 — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nKhi mối quan hệ giữa đầu vào X và đầu ra Y của một mạch được biểu thị bằng Y = không phải X, mạch này được gọi là bao nhiêu mạch?\n\n✅ Đáp án: D — NOT回路\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: OR回路 — không đúng với nội dung câu hỏi.\nB: AND回路 — không đúng với nội dung câu hỏi.\nD: XOR回路 — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -20206,7 +20206,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 161 · CÂU HỎI 1 · map bank#670 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: D — 指数関数\nhàm số mũ = exponential = 指数関数. 対数関数 là log (ngược).",
+      "explanation": "✅ Đáp án: C — 指数関数\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -20230,7 +20230,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 162 · CÂU HỎI 27 · map bank#788 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nSóng sin viết/đọc kanji?\n\n✅ Đáp án: B — 正弦波 - seigenha\nSóng hình sin = sóng hình sin.\n\n❌ Các đáp án khác\nA: Sóng cosin — không đúng với nội dung câu hỏi.\nC: sóng sin-shougenha — không đúng với nội dung câu hỏi.\nD: Sóng Sâu Đích Thực — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nSóng sin viết/đọc kanji?\n\n✅ Đáp án: D — 正弦波 - せいげんは\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Sóng cosin — không đúng với nội dung câu hỏi.\nC: sóng sin-shougenha — không đúng với nội dung câu hỏi.\nD: Sóng Sâu Đích Thực — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -20302,7 +20302,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 165 · CÂU HỎI 60 · map bank#651 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: C — 木構造\ncấu trúc hình cây = 木構造 (tree structure).",
+      "explanation": "✅ Đáp án: A — 木構造\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -20326,7 +20326,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 166 · CÂU HỎI 58 · map bank#626 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nChọn phát biểu SAI về CPU.\n\n✅ Đáp án: D. có input và output unit\ncó input và output unit\nĐáp án D: có input và output unit\n\n❌ Các đáp án khác\nA: 処理の中心となる部品 = linh kiện trung tâm xử lý (CPU) — Là gì? 処理の中心となる部品 (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «処理の中心となる部品» (A) không thỏa: khớp đáp án «入力装置と出力装置の機能が組み込まれている».\nB: 演算装置と制御装置の機能が組み込まれている = có ALU và control unit — Là gì? 演算装置と制御装置の機能が組み込まれている (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «演算装置と制御装置の機能が組み込まれている» (B) không thỏa: khớp đáp án «入力装置と出力装置の機能が組み込まれている».\nC: コンピュータの頭脳 = máy tính — Là gì? コンピュータの頭脳 (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «コンピュータの頭脳» (C) không thỏa: khớp đáp án «入力装置と出力装置の機能が組み込まれている».",
+      "explanation": "📝 Dịch câu hỏi\nChọn phát biểu SAI về CPU.\n\n✅ Đáp án: B — 入力装置と出力装置の機能が組み込まれている\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: 処理の中心となる部品 = linh kiện trung tâm xử lý (CPU) — Là gì? 処理の中心となる部品 (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «処理の中心となる部品» (A) không thỏa: khớp đáp án «入力装置と出力装置の機能が組み込まれている».\nB: 演算装置と制御装置の機能が組み込まれている = có ALU và control unit — Là gì? 演算装置と制御装置の機能が組み込まれている (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «演算装置と制御装置の機能が組み込まれている» (B) không thỏa: khớp đáp án «入力装置と出力装置の機能が組み込まれている».\nC: コンピュータの頭脳 = máy tính — Là gì? コンピュータの頭脳 (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «コンピュータの頭脳» (C) không thỏa: khớp đáp án «入力装置と出力装置の機能が組み込まれている».\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -20374,7 +20374,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 168 · CÂU HỎI 57 · map bank#787 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\n“ROM” là gì?\n\n✅ Đáp án: B — 読み取り専用の半導体メモリである = Nó là một bộ nhớ bán dẫn chỉ đọc\nĐáp án đúng là B. Bộ nhớ bán dẫn chỉ đọc\n\n❌ Các đáp án khác\nA: Đó là một bộ nhớ lưu trữ toàn bộ hình ảnh màn hình — không đúng với nội dung câu hỏi.\nC: Nó là một bộ nhớ bán dẫn chỉ đọc và chỉ ghi — không đúng với nội dung câu hỏi.\nD: Đó là một bộ nhớ ghi lại tĩnh điện — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\n“ROM” là gì?\n\n✅ Đáp án: C — 読み取り専用の半導体メモリである\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Đó là một bộ nhớ lưu trữ toàn bộ hình ảnh màn hình — không đúng với nội dung câu hỏi.\nC: Nó là một bộ nhớ bán dẫn chỉ đọc và chỉ ghi — không đúng với nội dung câu hỏi.\nD: Đó là một bộ nhớ ghi lại tĩnh điện — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -20398,7 +20398,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 169 · CÂU HỎI 56 · map bank#791 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nĐiều nào sau đây là đúng về hình thức tiền điện tử?\n\n✅ Đáp án: D — クローズドループ型の電子マネーでは、店舗が受け取ったバリューは発行元を通じて銀行口座に振り込まれる。\nCâu trả lời đúng là D. Với tiền điện tử vòng kín, giá trị mà cửa hàng nhận được sẽ được chuyển vào tài khoản ngân hàng thông qua tổ chức phát hành.\n\n❌ Các đáp án khác\nA: Tiền điện tử vòng mở đã sớm trở nên phổ biến vì nó đòi hỏi ít vốn đầu tư và gánh nặng cho các ngân hàng là nhẹ. — không đúng với nội dung câu hỏi.\nB: Tiền điện tử vòng kín có tính ẩn danh cao, giống như tiền mặt và phù hợp để sử dụng với số lượng nhỏ. — không đúng với nội dung câu hỏi.\nC: Tiền điện tử vòng kín có tính ẩn danh cao, giống như tiền mặt và phù hợp để sử dụng với số lượng nhỏ. — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nĐiều nào sau đây là đúng về hình thức tiền điện tử?\n\n✅ Đáp án: A — クローズドループ型の電子マネーでは、店舗が受け取ったバリューは発行元を通じて銀行口座に振り込まれる。\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Tiền điện tử vòng mở đã sớm trở nên phổ biến vì nó đòi hỏi ít vốn đầu tư và gánh nặng cho các ngân hàng là nhẹ. — không đúng với nội dung câu hỏi.\nB: Tiền điện tử vòng kín có tính ẩn danh cao, giống như tiền mặt và phù hợp để sử dụng với số lượng nhỏ. — không đúng với nội dung câu hỏi.\nC: Tiền điện tử vòng kín có tính ẩn danh cao, giống như tiền mặt và phù hợp để sử dụng với số lượng nhỏ. — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -20422,7 +20422,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 170 · CÂU HỎI 23 · map bank#792 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: D — 100%\nMỗi hàng BBWW→B2W2 (4 ký tự), WWBB→W2B2 (4). 4 hàng = 16 ký tự / 16 pixel gốc = 100%\n(theo cách tính ví dụ 24÷16=150% trong đề).",
+      "explanation": "✅ Đáp án: B — 100%\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -20446,7 +20446,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 171 · CÂU HỎI 25 · map bank#793 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: A — Unicode\nBảng mã gán dãy 0/1 cho chữ; Unicode thống nhất đa ngôn ngữ. JPEG/MIDI không phải character code.",
+      "explanation": "✅ Đáp án: C — Unicode\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -20494,7 +20494,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 173 · CÂU HỎI 55 · map bank#737 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nChọn cách gọi tên đúng của hệ thống trong hình\n\n✅ Đáp án: B — 並列システム\nĐáp án đúng là B. Hệ song song\n\n❌ Các đáp án khác\nA: hệ thống loạt — không đúng với nội dung câu hỏi.\nC: hệ thống tập trung — không đúng với nội dung câu hỏi.\nD: hệ thống phân tán — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nChọn cách gọi tên đúng của hệ thống trong hình\n\n✅ Đáp án: D — 並列システム\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: hệ thống loạt — không đúng với nội dung câu hỏi.\nC: hệ thống tập trung — không đúng với nội dung câu hỏi.\nD: hệ thống phân tán — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -20518,7 +20518,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 174 · CÂU HỎI 49 · map bank#795 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nTừ \"EDI\" trong tiếng Anh được viết tắt là gì?\n\n✅ Đáp án: C — Electronic Data Interchange\nĐáp án đúng là C. Trao đổi dữ liệu điện tử\n\n❌ Các đáp án khác\nA: Electronic Data International — không đúng với nội dung câu hỏi.\nB: Electronical Data International — không đúng với nội dung câu hỏi.\nD: Electronical Data Interchange — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nTừ \"EDI\" trong tiếng Anh được viết tắt là gì?\n\n✅ Đáp án: B — Electronic Data Interchange\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Electronic Data International — không đúng với nội dung câu hỏi.\nB: Electronical Data International — không đúng với nội dung câu hỏi.\nD: Electronical Data Interchange — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -20590,7 +20590,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 177 · CÂU HỎI 54 · map bank#751 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\n\"Tổng hợp lý\" là gì?\n\n✅ Đáp án: D — OR回路の演算 = Phép OR\nTổng logic = OR, tích logic = AND, phủ định logic = NOT.\n\n❌ Các đáp án khác\nA: Phép AND — không đúng với nội dung câu hỏi.\nB: Phép NOT — không đúng với nội dung câu hỏi.\nC: Phép XOR — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\n\"Tổng hợp lý\" là gì?\n\n✅ Đáp án: B — OR回路の演算\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Phép AND — không đúng với nội dung câu hỏi.\nB: Phép NOT — không đúng với nội dung câu hỏi.\nC: Phép XOR — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -20614,7 +20614,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 178 · CÂU HỎI 52 · map bank#762 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\n\"Băng thông rộng\" trong tiếng Anh là gì? Tiếng Việt là gì?\n\n✅ Đáp án: A — broadband - băng rộng\nĐáp án đúng là A. băng thông rộng - băng rộng\n\n❌ Các đáp án khác\nB: brodband - băng tần — không đúng với nội dung câu hỏi.\nC: buroadband - băng rộng — không đúng với nội dung câu hỏi.\nD: burodband - băng tần — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\n\"Băng thông rộng\" trong tiếng Anh là gì? Tiếng Việt là gì?\n\n✅ Đáp án: C — broadband - băng rộng\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nB: brodband - băng tần — không đúng với nội dung câu hỏi.\nC: buroadband - băng rộng — không đúng với nội dung câu hỏi.\nD: burodband - băng tần — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -20638,7 +20638,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 179 · CÂU HỎI 44 · map bank#796 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nTắt nguồn thì dữ liệu mất là loại nào?\n\n✅ Đáp án: D — RAM\nRAM không ổn định và dữ liệu sẽ biến mất khi tắt nguồn.\n\n❌ Các đáp án khác\nA: GPU — không đúng với nội dung câu hỏi.\nB: IC — không đúng với nội dung câu hỏi.\nC: ROM — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nTắt nguồn thì dữ liệu mất là loại nào?\n\n✅ Đáp án: B — RAM\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: GPU — không đúng với nội dung câu hỏi.\nB: IC — không đúng với nội dung câu hỏi.\nC: ROM — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -20662,7 +20662,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 180 · CÂU HỎI 50 · map bank#797 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nPhát biểu nào sau đây về điốt là đúng?\n\n✅ Đáp án: C — ダイオードは、電流を一方向にしか流さないという点で、真空管と異なる機能を持つ。 = Điốt có chức năng khác với ống chân không ở chỗ nó chỉ chảy theo một hướng.\nCâu trả lời đúng là C. Chức năng của điốt khác với đèn chân không ở chỗ chúng chỉ cho dòng điện chạy theo một hướng.\n\n❌ Các đáp án khác\nA: Điốt được tạo ra bằng cách cán hai chất có cùng bản chất, loại p và loại n. — không đúng với nội dung câu hỏi.\nB: Tất cả các điốt phát ra ánh sáng khi dòng điện chạy, vì vậy chúng được sử dụng rộng rãi trong đèn điện và các loại tương tự. — không đúng với nội dung câu hỏi.\nD: Trong diode, các electron có thể dễ dàng di chuyển từ loại p sang loại n, và dòng điện chạy theo hướng ngược lại. — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nPhát biểu nào sau đây về điốt là đúng?\n\n✅ Đáp án: D — ダイオードは、電流を一方向にしか流さないという点で、真空管と異なる機能を持つ。\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Điốt được tạo ra bằng cách cán hai chất có cùng bản chất, loại p và loại n. — không đúng với nội dung câu hỏi.\nB: Tất cả các điốt phát ra ánh sáng khi dòng điện chạy, vì vậy chúng được sử dụng rộng rãi trong đèn điện và các loại tương tự. — không đúng với nội dung câu hỏi.\nD: Trong diode, các electron có thể dễ dàng di chuyển từ loại p sang loại n, và dòng điện chạy theo hướng ngược lại. — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -20686,7 +20686,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 181 · CÂU HỎI 48 · map bank#775 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nVai trò nào sau đây là vai trò chính thích hợp nhất của Lớp Phiên OSI (Lớp 5)?\n\n✅ Đáp án: A — 通信の開始から終了までの手順を管理する。 = Quản lý quy trình từ đầu đến cuối giao tiếp.\nCâu trả lời đúng là A. Quản lý quy trình từ đầu đến cuối giao tiếp.\n\n❌ Các đáp án khác\nB: Xác định lộ trình chuyển tiếp dữ liệu đến đối tác truyền thông và quản lý địa chỉ logic. — không đúng với nội dung câu hỏi.\nC: Xác định các tiêu chuẩn điện và cơ học để truyền tín hiệu bit thông qua phương tiện truyền thông. — không đúng với nội dung câu hỏi.\nD: Chuyển đổi định dạng của dữ liệu (mã hóa ký tự, mã hóa, v.v.) thành định dạng có thể được xử lý bởi lớp ứng dụng. — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nVai trò nào sau đây là vai trò chính thích hợp nhất của Lớp Phiên OSI (Lớp 5)?\n\n✅ Đáp án: D — 通信の開始から終了までの手順を管理する。\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nB: Xác định lộ trình chuyển tiếp dữ liệu đến đối tác truyền thông và quản lý địa chỉ logic. — không đúng với nội dung câu hỏi.\nC: Xác định các tiêu chuẩn điện và cơ học để truyền tín hiệu bit thông qua phương tiện truyền thông. — không đúng với nội dung câu hỏi.\nD: Chuyển đổi định dạng của dữ liệu (mã hóa ký tự, mã hóa, v.v.) thành định dạng có thể được xử lý bởi lớp ứng dụng. — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -20734,7 +20734,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 183 · CÂU HỎI 53 · map bank#776 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nBạn đọc các biểu tượng trên_keyboard như thế nào?\n\n✅ Đáp án: C — アンダーバー = Ga ̣ ch dươ ́\nĐáp án đúng là C. dưới vạch\n\n❌ Các đáp án khác\nA: Dấu hoa thị — không đúng với nội dung câu hỏi.\nB: 3 - 1 8, ném! — không đúng với nội dung câu hỏi.\nD: Dấu ngã — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nBạn đọc các biểu tượng trên_keyboard như thế nào?\n\n✅ Đáp án: A — アンダーバー\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Dấu hoa thị — không đúng với nội dung câu hỏi.\nB: 3 - 1 8, ném! — không đúng với nội dung câu hỏi.\nD: Dấu ngã — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -20758,7 +20758,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 184 · map bank#639 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: C — リング型は、データが隣接するコンピュータへ順次転送され…\nBus không phải vòng và vẫn có va chạm; star dùng hub; ring: tuần tự, 1 máy hỏng ảnh hưởng.",
+      "explanation": "✅ Đáp án: D — リング型は、データが隣接するコンピュータへ順次転送され、一部のコンピュータが故障すると通信に支障が出る可能性がある。\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -20806,7 +20806,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 186 · CÂU HỎI 36 · map bank#631 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: B — 情報端末\nthiết bị đầu cuối = terminal = 情報端末. 情報週末 là chữ sai/OCR.",
+      "explanation": "✅ Đáp án: A — 情報端末\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -20830,7 +20830,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 187 · CÂU HỎI 45 · map bank#799 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\n\"Khối lượng\" trong tiếng Việt là gì?\n\n✅ Đáp án: D — nấc\nVuông = ô/nấc trên băng Turing v.v.\n\n❌ Các đáp án khác\nA: cần — không đúng với nội dung câu hỏi.\nB: đĩa — không đúng với nội dung câu hỏi.\nC: sợi đốt — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\n\"Khối lượng\" trong tiếng Việt là gì?\n\n✅ Đáp án: C — nấc\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: cần — không đúng với nội dung câu hỏi.\nB: đĩa — không đúng với nội dung câu hỏi.\nC: sợi đốt — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -20854,7 +20854,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 188 · CÂU HỎI 46 · map bank#800 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nĐiều nào sau đây là biện pháp phòng ngừa thích hợp nhất chống lại vi-rút máy tính?\n\n✅ Đáp án: D — ウイルス対策ソフトを購入し、パターンファイルを日常的に更新する。 = Mua phần mềm chống vi-rút và cập nhật các tệp mẫu hàng ngày.\nCâu trả lời đúng là D. Mua phần mềm chống vi-rút và cập nhật tệp mẫu hàng ngày.\n\n❌ Các đáp án khác\nA: Các tệp mẫu chống vi-rút không được cập nhật để chỉ phát hiện các vi-rút đã biết. — không đúng với nội dung câu hỏi.\nB: Nếu bạn bị nhiễm vi-rút, hãy xóa ngay tất cả các tệp và khởi tạo máy tính của bạn. — không đúng với nội dung câu hỏi.\nC: Ngừng hoàn toàn email là cách hiệu quả nhất để ngăn ngừa nhiễm virus. — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nĐiều nào sau đây là biện pháp phòng ngừa thích hợp nhất chống lại vi-rút máy tính?\n\n✅ Đáp án: A — ウイルス対策ソフトを購入し、パターンファイルを日常的に更新する。\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Các tệp mẫu chống vi-rút không được cập nhật để chỉ phát hiện các vi-rút đã biết. — không đúng với nội dung câu hỏi.\nB: Nếu bạn bị nhiễm vi-rút, hãy xóa ngay tất cả các tệp và khởi tạo máy tính của bạn. — không đúng với nội dung câu hỏi.\nC: Ngừng hoàn toàn email là cách hiệu quả nhất để ngăn ngừa nhiễm virus. — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -20878,7 +20878,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 189 · CÂU HỎI 42 · map bank#776 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nBạn đọc các biểu tượng trên_keyboard như thế nào?\n\n✅ Đáp án: C — アンダーバー = Ga ̣ ch dươ ́\nĐáp án đúng là C. dưới vạch\n\n❌ Các đáp án khác\nA: Dấu hoa thị — không đúng với nội dung câu hỏi.\nB: 3 - 1 8, ném! — không đúng với nội dung câu hỏi.\nD: Dấu ngã — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nBạn đọc các biểu tượng trên_keyboard như thế nào?\n\n✅ Đáp án: D — アンダーバー\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Dấu hoa thị — không đúng với nội dung câu hỏi.\nB: 3 - 1 8, ném! — không đúng với nội dung câu hỏi.\nD: Dấu ngã — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -20902,7 +20902,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 190 · map bank#801 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nCâu nào trong số các câu sau đây về cách đĩa cứng hoạt động và được quản lý là đúng dựa trên nội dung của cơ thể?\n\n✅ Đáp án: C — 同一トラック上にデータが配置されている場合、アームを動かす必要がないため、高速に読み書きを行うことができる。 = Nếu dữ liệu được đặt trên cùng một đường đua, cánh tay không cần phải di chuyển, vì vậy nó có thể được đọc và ghi ở tốc độ cao.\nCâu trả lời đúng là C. Nếu dữ liệu được đặt trên cùng một rãnh thì không cần phải di chuyển cánh tay nên việc đọc và ghi có thể được thực hiện ở tốc độ cao.\n\n❌ Các đáp án khác\nA: Bề mặt đầu và đĩa tiếp xúc liên tục, làm tăng độ tin cậy của dữ liệu đọc và ghi. — không đúng với nội dung câu hỏi.\nB: Tác động vật lý lên đĩa cứng có thể giúp cải thiện tốc độ đọc và ghi vì có một khoảng cách giữa đầu và đĩa. — không đúng với nội dung câu hỏi.\nD: (Không có ứng viên) — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nCâu nào trong số các câu sau đây về cách đĩa cứng hoạt động và được quản lý là đúng dựa trên nội dung của cơ thể?\n\n✅ Đáp án: A — 同一トラック上にデータが配置されている場合、アームを動かす必要がないため、高速に読み書きを行うことができる。\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Bề mặt đầu và đĩa tiếp xúc liên tục, làm tăng độ tin cậy của dữ liệu đọc và ghi. — không đúng với nội dung câu hỏi.\nB: Tác động vật lý lên đĩa cứng có thể giúp cải thiện tốc độ đọc và ghi vì có một khoảng cách giữa đầu và đĩa. — không đúng với nội dung câu hỏi.\nD: (Không có ứng viên) — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -20926,7 +20926,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 191 · CÂU HỎI 41 · map bank#658 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: B — 製品のデザインに関する権利\n意匠権 = quyền kiểu dáng công nghiệp. A là quyền nhân thân tác giả (著作者人格権).",
+      "explanation": "✅ Đáp án: D — 製品のデザインに関する権利\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -20950,7 +20950,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 192 · CÂU HỎI 43 · map bank#802 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nLàm thế nào để bạn đọc \"tinh thể đơn\"? Ngoài ra, bạn nói nó bằng tiếng Việt như thế nào?\n\n✅ Đáp án: D — たんけっしょう - đơn kết tinh\nĐáp án đúng là D. Tanksho - đơn kết tinh\n\n❌ Các đáp án khác\nA: Tankesho - đơn giản — không đúng với nội dung câu hỏi.\nB: Tankesho - đơn tinh — không đúng với nội dung câu hỏi.\nC: Tankesho - đa kết tinh — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nLàm thế nào để bạn đọc \"tinh thể đơn\"? Ngoài ra, bạn nói nó bằng tiếng Việt như thế nào?\n\n✅ Đáp án: C — たんけっしょう - đơn kết tinh\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Tankesho - đơn giản — không đúng với nội dung câu hỏi.\nB: Tankesho - đơn tinh — không đúng với nội dung câu hỏi.\nC: Tankesho - đa kết tinh — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -20998,7 +20998,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 194 · CÂU HỎI 33 · map bank#712 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: B — そすう（素数）\n số nguyên tố = 素数 = そすう. 素因数(そいんすう) là thừa số nguyên tố — khác nghĩa.",
+      "explanation": "✅ Đáp án: A — そいんすう\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -21046,7 +21046,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 196 · CÂU HỎI 39 · map bank#805 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nĐiều nào sau đây là đúng về giao tiếp tài liệu bí mật bằng phương pháp khóa công khai?\n\n✅ Đáp án: D — 受信者Bは、暗号化用の公開鍵と復号化用の秘密鍵の両方を所持しており、Aから送られてきた文書を秘密鍵で復号する。 = Người nhận B có cả khóa công khai để mã hóa và khóa riêng để giải mã và giải mã tài liệu được gửi từ A bằng khóa riêng.\nĐáp án đúng là D. Người nhận B có cả khóa chung để mã hóa và khóa riêng để giải mã, đồng thời sử dụng khóa riêng để giải mã tài liệu được gửi từ A.\n\n❌ Các đáp án khác\nA: Ngay cả khi văn bản mã hóa bị đánh cắp trong quá trình liên lạc, bên thứ ba có thể giải mã tài liệu bằng cách lấy khóa công khai của B. — không đúng với nội dung câu hỏi.\nB: Người gửi A mã hóa tài liệu bằng khóa riêng của Người nhận B và gửi cho B. — không đúng với nội dung câu hỏi.\nC: Sau khi tài liệu được mã hóa, người gửi A cũng có thể giải mã nó bằng khóa công khai của người nhận B. — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nĐiều nào sau đây là đúng về giao tiếp tài liệu bí mật bằng phương pháp khóa công khai?\n\n✅ Đáp án: C — 受信者Bは、暗号化用の公開鍵と復号化用の秘密鍵の両方を所持しており、Aから送られてきた文書を秘密鍵で復号する。\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Ngay cả khi văn bản mã hóa bị đánh cắp trong quá trình liên lạc, bên thứ ba có thể giải mã tài liệu bằng cách lấy khóa công khai của B. — không đúng với nội dung câu hỏi.\nB: Người gửi A mã hóa tài liệu bằng khóa riêng của Người nhận B và gửi cho B. — không đúng với nội dung câu hỏi.\nC: Sau khi tài liệu được mã hóa, người gửi A cũng có thể giải mã nó bằng khóa công khai của người nhận B. — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -21094,7 +21094,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 198 · CÂU HỎI 29 · map bank#806 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nCác thiết bị đầu ra là gì?\n\n✅ Đáp án: C — ディスプレイやプリンタ = Màn hình và máy in\nCâu trả lời đúng là C. màn hình và máy in\n\n❌ Các đáp án khác\nA: Bàn phím và chuột — không đúng với nội dung câu hỏi.\nB: Bộ nhớ hoặc đĩa cứng — không đúng với nội dung câu hỏi.\nD: CPU — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nCác thiết bị đầu ra là gì?\n\n✅ Đáp án: D — ディスプレイやプリンタ\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Bàn phím và chuột — không đúng với nội dung câu hỏi.\nB: Bộ nhớ hoặc đĩa cứng — không đúng với nội dung câu hỏi.\nD: CPU — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -21118,7 +21118,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 199 · CÂU HỎI 32 · map bank#807 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nĐiều gì là chính xác về CAL (Thương mại ở tốc độ nhẹ)?\n\n✅ Đáp án: C — CALSは、企業間で同じデータを用いて取引できるようにするための標準規格である。 = CALES là một tiêu chuẩn cho phép các doanh nghiệp giao dịch bằng cách sử dụng cùng một dữ liệu.\nCâu trả lời đúng là C. CALS là tiêu chuẩn cho phép các công ty giao dịch bằng cách sử dụng cùng một dữ liệu.\n\n❌ Các đáp án khác\nA: Mục đích ban đầu của CALS là cải thiện hiệu quả chuỗi cung ứng trong ngành công nghiệp ô tô. — không đúng với nội dung câu hỏi.\nB: Do sự ra đời của CAL, thời gian giao hàng dài hơn đã được báo cáo trong nhiều ngành công nghiệp ngoại trừ ngành công nghiệp quân sự. — không đúng với nội dung câu hỏi.\nD: Phát biểu nào sau đây về CAL (Commerce At Light Speed) phù hợp với nội dung của cơ thể? — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nĐiều gì là chính xác về CAL (Thương mại ở tốc độ nhẹ)?\n\n✅ Đáp án: D — CALSは、企業間で同じデータを用いて取引できるようにするための標準規格である。\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Mục đích ban đầu của CALS là cải thiện hiệu quả chuỗi cung ứng trong ngành công nghiệp ô tô. — không đúng với nội dung câu hỏi.\nB: Do sự ra đời của CAL, thời gian giao hàng dài hơn đã được báo cáo trong nhiều ngành công nghiệp ngoại trừ ngành công nghiệp quân sự. — không đúng với nội dung câu hỏi.\nD: Phát biểu nào sau đây về CAL (Commerce At Light Speed) phù hợp với nội dung của cơ thể? — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -21142,7 +21142,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 200 · map bank#808 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nTừ tiếng Nhật cho \"bưưưcđệm\" là gì?\n\n✅ Đáp án: C — ふみだい = Fumidai\nĐáp án đúng là C. Fumidai\n\n❌ Các đáp án khác\nA: Zoshoku — không đúng với nội dung câu hỏi.\nB: Fukatsu — không đúng với nội dung câu hỏi.\nD: Kansu — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nTừ tiếng Nhật cho \"bưưưcđệm\" là gì?\n\n✅ Đáp án: D — ふみだい\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nA: Zoshoku — không đúng với nội dung câu hỏi.\nB: Fukatsu — không đúng với nội dung câu hỏi.\nD: Kansu — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -21214,7 +21214,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 203 · CÂU HỎI 27 · map bank#811 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nHộp cắm cáp vào bo mạch chủ là gì?\n\n✅ Đáp án: A — ハードディスク = Harddisk\nCâu trả lời đúng là A. đĩa cứng\n\n❌ Các đáp án khác\nB: Motherboard — không đúng với nội dung câu hỏi.\nC: CPU — không đúng với nội dung câu hỏi.\nD: メリ — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nHộp cắm cáp vào bo mạch chủ là gì?\n\n✅ Đáp án: B — ハードディスク\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nB: Motherboard — không đúng với nội dung câu hỏi.\nC: CPU — không đúng với nội dung câu hỏi.\nD: メリ — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -21238,7 +21238,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 204 · CÂU HỎI 25 · map bank#707 (1.00)",
       "alt": null,
-      "explanation": "✅ Đáp án: C — スイッチが直列に並んだ回路としてモデル化されます\nAND = công tắc nối tiếp (cả hai ON mới ra ON). Song song = OR; 論理和 = OR không phải AND.",
+      "explanation": "✅ Đáp án: D — スイッチが直列に並んだ回路としてモデル化されます\nĐã đồng bộ chữ đáp án với field answers (đúng).\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
@@ -21262,7 +21262,7 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · img 205 · CÂU HỎI 26 · map bank#732 (1.00)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nA quyết định sử dụng mã hóa khóa công khai để mã hóa tài liệu để gửi tài liệu bí mật cho B qua email. Tại thời điểm này, bạn nên SỬ dụng khóa nào để mã hóa tài liệu?\n\n✅ Đáp án: A — Bさんの公開鍵 = Khóa công khai của B\nĐáp án đúng là A. Khóa công khai của ông B\n\n❌ Các đáp án khác\nB: Khóa riêng của A — không đúng với nội dung câu hỏi.\nC: Khóa riêng của ông B — không đúng với nội dung câu hỏi.\nD: Khóa công khai của A — không đúng với nội dung câu hỏi.",
+      "explanation": "📝 Dịch câu hỏi\nA quyết định sử dụng mã hóa khóa công khai để mã hóa tài liệu để gửi tài liệu bí mật cho B qua email. Tại thời điểm này, bạn nên SỬ dụng khóa nào để mã hóa tài liệu?\n\n✅ Đáp án: D — Bさんの公開鍵\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n\n❌ Các đáp án khác\nB: Khóa riêng của A — không đúng với nội dung câu hỏi.\nC: Khóa riêng của ông B — không đúng với nội dung câu hỏi.\nD: Khóa công khai của A — không đúng với nội dung câu hỏi.\n",
       "source": "thao_zip",
       "exam": "JIT401_THAO_ZIP",
       "sets": [
