@@ -1128,17 +1128,19 @@
   }
 
   /**
-   * Quiz ôn = Thảo Nguyên 5 zip (source=thao_nguyen)
+   * Quiz ôn = Thảo Nguyên unique stems (source=thao_nguyen)
    *          + albazzz Quiz PT chỉ những câu Thảo không có (source=quiz_pt).
-   * Không lấy slide/FE (kể cả trùng stem).
-   * Legacy sourceFilter "zip240" vẫn map sang chip này.
+   * Không lấy slide/FE, không lấy cột 205 ảnh (thao_zip).
+   * Legacy sourceFilter "zip240" vẫn map sang chip Quiz ôn.
    */
   function isQuizPt(q) {
     if (!q) return false;
     const src = q.source || "";
+    if (src === "thao_zip") return false;
     if (src === "thao_nguyen" || src === "quiz_pt") return true;
     const sets = q.sets;
     if (Array.isArray(sets)) {
+      if (sets.includes("thao_zip")) return false;
       if (sets.includes("thao_nguyen") && src !== "slides" && src !== "fuexam")
         return true;
       // albazzz-extra clones only (not tagged slides)
@@ -1151,9 +1153,20 @@
         return true;
     }
     const exam = String(q.exam || "");
+    if (exam.includes("THAO_ZIP")) return false;
     if (exam.includes("THAO_NGUYEN") && src === "thao_nguyen") return true;
     if (exam.includes("QUIZ_PT") && src === "quiz_pt") return true;
     return false;
+  }
+
+  /** Cột Quiz Thảo Nguyên = đủ 205 ảnh 5 zip (1 câu / 1 ảnh, kể cả trùng stem). */
+  function isThaoZip(q) {
+    if (!q) return false;
+    if (q.source === "thao_zip") return true;
+    const sets = q.sets;
+    if (Array.isArray(sets) && sets.includes("thao_zip")) return true;
+    const exam = String(q.exam || "");
+    return exam.includes("THAO_ZIP");
   }
 
   function isExamSource(q) {
@@ -1165,7 +1178,8 @@
       src === "albazzz" ||
       src === "quiz_pt" ||
       src === "zip240" ||
-      src === "thao_nguyen"
+      src === "thao_nguyen" ||
+      src === "thao_zip"
     )
       return false;
     if (
@@ -1174,7 +1188,8 @@
       exam.includes("ALBAZZZ") ||
       exam.includes("QUIZ_PT") ||
       exam.includes("ZIP240") ||
-      exam.includes("THAO_NGUYEN")
+      exam.includes("THAO_NGUYEN") ||
+      exam.includes("THAO_ZIP")
     )
       return false;
     return true;
@@ -1185,7 +1200,8 @@
     if (
       q.source === "quiz_pt" ||
       q.source === "zip240" ||
-      q.source === "thao_nguyen"
+      q.source === "thao_nguyen" ||
+      q.source === "thao_zip"
     )
       return false;
     const src = q.source || "";
@@ -1202,8 +1218,9 @@
 
   function matchesSourceFilter(q) {
     if (sourceFilter === "all") return true;
-    // Quiz ôn = Thảo Nguyên 5 zip (legacy zip240 chip → same filter)
+    // Quiz ôn = unique Thảo + albazzz extra (legacy zip240 → quiz_pt)
     if (sourceFilter === "quiz_pt" || sourceFilter === "zip240") return isQuizPt(q);
+    if (sourceFilter === "thao_zip") return isThaoZip(q);
     if (sourceFilter === "exam") return isExamSource(q);
     if (sourceFilter === "slides") return isSlideSource(q);
     return true;
@@ -1893,18 +1910,25 @@
     const ptChip =
       document.getElementById("chipQuizPt") ||
       el.querySelector('[data-source="quiz_pt"]');
+    const zipChip =
+      document.getElementById("chipThaoZip") ||
+      el.querySelector('[data-source="thao_zip"]');
     const bank = Array.isArray(all) ? all : [];
 
     const nAll = bank.length;
     const nExam = bank.filter((q) => isExamSource(q)).length;
     const nSlide = bank.filter((q) => isSlideSource(q)).length;
     let nPt = bank.filter((q) => isQuizPt(q)).length;
-    // fallback: breakdown.thao_nguyen = 5 zip only (not quiz_pt which includes albazzz)
+    let nZip = bank.filter((q) => isThaoZip(q)).length;
+    // fallback: breakdown.thao_nguyen = unique stems; thao_zip = 205 ảnh
     if (!nPt && data && data.breakdown) {
       nPt =
-        Number(data.breakdown.thao_nguyen) ||
         Number(data.breakdown.quiz_pt) ||
+        Number(data.breakdown.thao_nguyen) ||
         0;
+    }
+    if (!nZip && data && data.breakdown) {
+      nZip = Number(data.breakdown.thao_zip) || 0;
     }
 
     if (allChip) {
@@ -1931,7 +1955,7 @@
       }
     }
 
-    // Quiz ôn = 5 zip Thảo + albazzz-extra (JIT401)
+    // Quiz ôn = unique Thảo + albazzz-extra (JIT401)
     if (ptChip) {
       const showPt = subjectId === "jit401";
       ptChip.hidden = !showPt;
@@ -1943,8 +1967,8 @@
         ptChip.setAttribute(
           "title",
           nPt > 0
-            ? `${nPt} câu: Thảo Nguyên 5 zip (${nThao}) + albazzz extra (${nAlba})`
-            : "Quiz ôn — Thảo Nguyên 5 zip + albazzz extra"
+            ? `${nPt} câu unique: Thảo (${nThao}) + albazzz extra (${nAlba})`
+            : "Quiz ôn — stem unique Thảo + albazzz extra"
         );
       }
       // migrate old zip240 filter selection → quiz_pt
@@ -1957,6 +1981,33 @@
       } else if (showPt && sourceFilter === "quiz_pt") {
         el.querySelectorAll(".chip[data-source]").forEach((c) => {
           c.classList.toggle("active", c.dataset.source === "quiz_pt");
+        });
+      }
+    }
+
+    // Quiz Thảo Nguyên = đủ 205 ảnh (1 câu / ảnh)
+    if (zipChip) {
+      const showZip = subjectId === "jit401";
+      zipChip.hidden = !showZip;
+      zipChip.style.display = showZip ? "" : "none";
+      if (showZip) {
+        zipChip.textContent =
+          nZip > 0 ? `Quiz Thảo Nguyên (${nZip})` : "Quiz Thảo Nguyên";
+        zipChip.setAttribute(
+          "title",
+          nZip > 0
+            ? `${nZip} câu = 205 ảnh unique từ 5 zip Thảo Nguyên (kể cả ảnh trùng stem)`
+            : "Đủ 205 ảnh 5 zip Thảo Nguyên"
+        );
+      }
+      if (!showZip && sourceFilter === "thao_zip") {
+        sourceFilter = "all";
+        el.querySelectorAll(".chip[data-source]").forEach((c) => {
+          c.classList.toggle("active", c.dataset.source === "all");
+        });
+      } else if (showZip && sourceFilter === "thao_zip") {
+        el.querySelectorAll(".chip[data-source]").forEach((c) => {
+          c.classList.toggle("active", c.dataset.source === "thao_zip");
         });
       }
     }
