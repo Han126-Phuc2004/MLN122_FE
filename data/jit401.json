@@ -1,5 +1,5 @@
 {
-  "title": "JIT401 – FE + slide + Quiz ôn (174) + Thảo 5zip (205) (1002 cau)",
+  "title": "JIT401 – FE + slide + Quiz on (174) + Thao 5zip+albazzz (212) (1002 cau)",
   "code": "JIT401_ALL",
   "subject": "JIT401",
   "total": 1002,
@@ -9,7 +9,8 @@
     "quiz_pt": 174,
     "thao_nguyen": 167,
     "albazzz_quiz_pt_extra": 7,
-    "thao_zip": 205
+    "thao_zip": 205,
+    "thao_zip_with_albazzz": 212
   },
   "questions": [
     {

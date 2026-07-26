@@ -1159,14 +1159,29 @@
     return false;
   }
 
-  /** Cột Quiz Thảo Nguyên = đủ 205 ảnh 5 zip (1 câu / 1 ảnh, kể cả trùng stem). */
+  /**
+   * Cột Quiz Thảo Nguyên = 205 ảnh 5 zip (source=thao_zip)
+   *                     + 7 albazzz extra không có trong zip (source=quiz_pt).
+   */
   function isThaoZip(q) {
     if (!q) return false;
-    if (q.source === "thao_zip") return true;
+    const src = q.source || "";
+    if (src === "thao_zip" || src === "quiz_pt") return true;
     const sets = q.sets;
-    if (Array.isArray(sets) && sets.includes("thao_zip")) return true;
+    if (Array.isArray(sets)) {
+      if (sets.includes("thao_zip")) return true;
+      // albazzz-extra clones (same rows as Quiz ôn extras)
+      if (
+        sets.includes("quiz_pt") &&
+        sets.includes("albazzz") &&
+        src !== "slides" &&
+        src !== "fuexam" &&
+        src !== "thao_nguyen"
+      )
+        return true;
+    }
     const exam = String(q.exam || "");
-    return exam.includes("THAO_ZIP");
+    return exam.includes("THAO_ZIP") || exam.includes("QUIZ_PT_ALBAZZZ");
   }
 
   function isExamSource(q) {
@@ -1928,7 +1943,10 @@
         0;
     }
     if (!nZip && data && data.breakdown) {
-      nZip = Number(data.breakdown.thao_zip) || 0;
+      nZip =
+        Number(data.breakdown.thao_zip_with_albazzz) ||
+        Number(data.breakdown.thao_zip) ||
+        0;
     }
 
     if (allChip) {
@@ -1985,7 +2003,7 @@
       }
     }
 
-    // Quiz Thảo Nguyên = đủ 205 ảnh (1 câu / ảnh)
+    // Quiz Thảo Nguyên = 205 ảnh + 7 albazzz extra
     if (zipChip) {
       const showZip = subjectId === "jit401";
       zipChip.hidden = !showZip;
@@ -1993,11 +2011,13 @@
       if (showZip) {
         zipChip.textContent =
           nZip > 0 ? `Quiz Thảo Nguyên (${nZip})` : "Quiz Thảo Nguyên";
+        const nZipOnly = bank.filter((q) => q.source === "thao_zip").length;
+        const nAlbaZip = bank.filter((q) => q.source === "quiz_pt").length;
         zipChip.setAttribute(
           "title",
           nZip > 0
-            ? `${nZip} câu = 205 ảnh unique từ 5 zip Thảo Nguyên (kể cả ảnh trùng stem)`
-            : "Đủ 205 ảnh 5 zip Thảo Nguyên"
+            ? `${nZip} câu: 5 zip Thảo (${nZipOnly}) + albazzz extra (${nAlbaZip})`
+            : "205 ảnh 5 zip Thảo + 7 albazzz extra"
         );
       }
       if (!showZip && sourceFilter === "thao_zip") {
