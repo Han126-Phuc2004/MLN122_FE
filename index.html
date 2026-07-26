@@ -23,7 +23,7 @@
       } catch (e) {}
     })();
   </script>
-  <link rel="stylesheet" href="style.css?v=20260726b" />
+  <link rel="stylesheet" href="style.css?v=20260726c" />
 </head>
 <body>
   <div class="app">
@@ -48,11 +48,13 @@
       </div>
     </header>
 
-    <div class="visit-bar" id="visitStats" title="Thống kê truy cập toàn site">
+    <!-- Chỉ hiện khi owner mở bằng link ?stats=… — khách thường không thấy -->
+    <div class="visit-bar" id="visitStats" hidden title="Thống kê truy cập (chỉ bạn thấy)">
       <span class="visit-label">Truy cập site</span>
       <span class="visit-item"><b id="statVisitors">…</b> khách</span>
       <span class="visit-sep">·</span>
       <span class="visit-item"><b id="statViews">…</b> lượt xem</span>
+      <button type="button" class="btn small visit-hide" id="btnHideStats" title="Ẩn thống kê trên máy này">Ẩn</button>
     </div>
 
     <div class="workspace">
@@ -195,6 +197,6 @@
     </div>
   </div>
 
-  <script src="app.js?v=20260726b"></script>
+  <script src="app.js?v=20260726c"></script>
 </body>
 </html>

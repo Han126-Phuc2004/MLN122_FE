@@ -158,7 +158,7 @@ input {
   text-overflow: ellipsis;
 }
 
-/* Always-visible visitor strip under topbar */
+/* Owner-only visitor strip (hidden for everyone else) */
 .visit-bar {
   display: flex;
   flex-wrap: wrap;
@@ -172,6 +172,10 @@ input {
   font-size: 0.82rem;
   color: var(--muted);
   line-height: 1.35;
+}
+
+.visit-bar[hidden] {
+  display: none !important;
 }
 
 .visit-bar.is-error {
@@ -197,6 +201,10 @@ input {
 
 .visit-item {
   white-space: nowrap;
+}
+
+.visit-hide {
+  margin-left: auto;
 }
 
 .subjects {

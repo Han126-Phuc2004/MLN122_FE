@@ -1,14 +1,14 @@
 {
-  "title": "JIT401 – FE + slide + Quiz on Thao+albazzz-PT (706 cau)",
+  "title": "JIT401 – FE + slide + Quiz ôn Thảo Nguyên 5 zip (790 cau)",
   "code": "JIT401_ALL",
   "subject": "JIT401",
-  "total": 706,
+  "total": 790,
   "breakdown": {
     "FE": 60,
     "slides": 562,
-    "quiz_pt": 200,
-    "thao_nguyen": 170,
-    "albazzz_quiz_pt": 110
+    "quiz_pt": 167,
+    "thao_nguyen": 167,
+    "albazzz_quiz_pt": 0
   },
   "questions": [
     {
@@ -372,8 +372,6 @@
       "source": "fuexam",
       "exam": "JIT401_SP26_FE",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -394,11 +392,7 @@
       "alt": null,
       "explanation": "📝 Dịch câu hỏi\nLệnh MIDI có lượng dữ liệu khoảng bao nhiêu bit/byte?\n\n✅ Đáp án: A — Thường message khoảng 1–3 byte\nMIDI gửi lệnh nhạc (note on/off…) rất nhỏ: status + data, thường 1–3 byte, không phải gigabit.\n\n❌ Các đáp án khác\nB/C quá lớn/cố định sai. D 0 bit vô nghĩa.",
       "source": "fuexam",
-      "exam": "JIT401_SP26_FE",
-      "sets": [
-        "thao_nguyen",
-        "quiz_pt"
-      ]
+      "exam": "JIT401_SP26_FE"
     },
     {
       "id": 21,
@@ -455,11 +449,7 @@
       "alt": null,
       "explanation": "📝 Dịch câu hỏi\nNgười dùng nhập liệu từ đâu? Chọn câu đúng.\n\n✅ Đáp án: A — Thiết bị nhập: bàn phím, chuột…\nInput device = keyboard, mouse, mic, scanner…\n\n❌ Các đáp án khác\nB máy in = output. C loa = output. D màn hình = output.",
       "source": "fuexam",
-      "exam": "JIT401_SP26_FE",
-      "sets": [
-        "thao_nguyen",
-        "quiz_pt"
-      ]
+      "exam": "JIT401_SP26_FE"
     },
     {
       "id": 24,
@@ -497,11 +487,7 @@
       "alt": null,
       "explanation": "✅ Đáp án: A — 文字の並び順を入れ替えて暗号化する方式\n転置式暗号 (transposition): giữ ký tự, đổi thứ tự sắp xếp.\nKhác 置換 (thay ký tự). B là định nghĩa sampling rate — không liên quan mã hóa.",
       "source": "fuexam",
-      "exam": "JIT401_SP26_FE",
-      "sets": [
-        "thao_nguyen",
-        "quiz_pt"
-      ]
+      "exam": "JIT401_SP26_FE"
     },
     {
       "id": 26,
@@ -672,11 +658,7 @@
       "alt": null,
       "explanation": "✅ Đáp án: B. PCのOSには,ハードディスク以外のCD-ROMやUSBメモリなどの外部記憶装置を利用して起動で\nOS có thể khởi động từ thiết bị ngoài (CD/USB), không chỉ HDD.",
       "source": "fuexam",
-      "exam": "JIT401_SP26_FE",
-      "sets": [
-        "thao_nguyen",
-        "quiz_pt"
-      ]
+      "exam": "JIT401_SP26_FE"
     },
     {
       "id": 35,
@@ -695,11 +677,7 @@
       "alt": null,
       "explanation": "📝 Dịch câu hỏi\nDữ liệu máy tính là dãy số biểu diễn bằng gì?\n\n✅ Đáp án: A — 0 và 1 (bit)\nMáy tính số dùng hệ nhị phân: mọi dữ liệu quy về bit 0/1.\n\n❌ Các đáp án khác\nB thập phân là cách người đọc. C/D không đủ biểu diễn mọi dữ liệu.",
       "source": "fuexam",
-      "exam": "JIT401_SP26_FE",
-      "sets": [
-        "thao_nguyen",
-        "quiz_pt"
-      ]
+      "exam": "JIT401_SP26_FE"
     },
     {
       "id": 36,
@@ -870,11 +848,7 @@
       "alt": null,
       "explanation": "📝 Dịch câu hỏi\nVề ngôn ngữ cấp cao, câu nào đúng?\n\n✅ Đáp án: A — Viết chương trình bằng ngữ pháp dễ người hiểu\nHigh-level (Python, Java, C…): gần ngôn ngữ người, cần biên dịch/phiên dịch ra máy.\n\n❌ Các đáp án khác\nB/C là machine/assembly (cấp thấp). D high-level viết GUI rất tốt.",
       "source": "fuexam",
-      "exam": "JIT401_SP26_FE",
-      "sets": [
-        "thao_nguyen",
-        "quiz_pt"
-      ]
+      "exam": "JIT401_SP26_FE"
     },
     {
       "id": 45,
@@ -1045,11 +1019,7 @@
       "alt": null,
       "explanation": "✅ Đáp án: A — a,b\na đúng: dùng PC quán net nên xóa cookie sau khi xong.\nb đúng: cookie chứa PII có thể bị đánh cắp (XSS…).\nc sai: cookie gắn với trình duyệt/máy; máy khác không tự kế thừa cookie để khỏi nhập lại.\nNguồn ảnh Thảo Nguyên img 185 · CÂU HỎI 40.",
       "source": "fuexam",
-      "exam": "JIT401_SP26_FE",
-      "sets": [
-        "thao_nguyen",
-        "quiz_pt"
-      ]
+      "exam": "JIT401_SP26_FE"
     },
     {
       "id": 54,
@@ -2571,8 +2541,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_M6",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -2652,8 +2620,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_M5",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -2883,11 +2849,7 @@
       "alt": null,
       "explanation": "📝 Dịch câu hỏi\n[Thuật ngữ] Hãy chuyển sang tiếng Nhật: Tần số lấy mẫu\n\n✅ Đáp án: C — サンプリング周波数 = tần số lấy mẫu\nTần số lấy mẫu là tần số lấy mẫu (§14.2).\n\n❌ Các đáp án khác\nA: số mức lượng tử hóa — không khớp định nghĩa/yêu cầu câu hỏi.\nB: Tốc độ bit — không khớp định nghĩa/yêu cầu câu hỏi.\nD: độ phân giải — không khớp định nghĩa/yêu cầu câu hỏi.",
       "source": "slides",
-      "exam": "JIT401_SLIDES_M4",
-      "sets": [
-        "thao_nguyen",
-        "quiz_pt"
-      ]
+      "exam": "JIT401_SLIDES_M4"
     },
     {
       "id": 150,
@@ -3649,8 +3611,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -3673,8 +3633,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH13",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -3697,7 +3655,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -3720,7 +3677,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH13",
       "sets": [
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -3743,8 +3699,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH3",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -3767,7 +3721,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH12",
       "sets": [
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -3790,7 +3743,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH2",
       "sets": [
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -3813,8 +3765,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH3",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -3837,7 +3787,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH13",
       "sets": [
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -3860,8 +3809,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH13",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -3884,7 +3831,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH3",
       "sets": [
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -3907,7 +3853,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH5",
       "sets": [
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -3930,7 +3875,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -3953,8 +3897,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH13",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -3977,7 +3919,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4000,7 +3941,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4023,8 +3963,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH18",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4047,7 +3985,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_M4",
       "sets": [
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4070,7 +4007,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH3",
       "sets": [
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4093,7 +4029,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH5",
       "sets": [
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4116,7 +4051,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH2",
       "sets": [
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4139,8 +4073,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH3",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4163,7 +4095,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_M2",
       "sets": [
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4186,7 +4117,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH7",
       "sets": [
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4209,7 +4139,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH2",
       "sets": [
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4232,8 +4161,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4256,7 +4183,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH14",
       "sets": [
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4279,7 +4205,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH8",
       "sets": [
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4302,8 +4227,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_M4",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4326,8 +4249,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH10",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4350,7 +4271,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH14",
       "sets": [
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4373,7 +4293,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4396,8 +4315,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH14",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4420,8 +4337,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH12",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4444,7 +4359,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH14",
       "sets": [
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4467,7 +4381,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH12",
       "sets": [
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4490,7 +4403,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH11",
       "sets": [
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4513,7 +4425,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH5",
       "sets": [
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4536,7 +4447,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH15",
       "sets": [
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4559,8 +4469,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH16",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4583,8 +4491,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH13",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4607,8 +4513,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH8",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4631,8 +4535,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH12",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4655,7 +4557,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH14",
       "sets": [
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4678,8 +4579,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_M4",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4702,8 +4601,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH3",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4726,8 +4623,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4750,8 +4645,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH11",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4774,8 +4667,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4798,8 +4689,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH14",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4822,8 +4711,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH13",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4846,8 +4733,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_M2",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4870,8 +4755,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH15",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4894,8 +4777,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH13",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4918,8 +4799,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH4",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4942,8 +4821,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH9",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4966,8 +4843,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -4990,8 +4865,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH2",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5014,8 +4887,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_M4",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5038,8 +4909,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH11",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5062,7 +4931,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5085,8 +4953,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_M4",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5109,8 +4975,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH3",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5133,8 +4997,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5157,8 +5019,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5181,8 +5041,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH16",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5205,8 +5063,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5229,8 +5085,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5253,8 +5107,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH10",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5277,8 +5129,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH10",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5301,8 +5151,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH17",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5325,8 +5173,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH12",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5349,8 +5195,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH8",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5373,8 +5217,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH8",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5397,8 +5239,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5421,8 +5261,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH11",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5445,8 +5283,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH10",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5469,8 +5305,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5493,8 +5327,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH11",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5517,8 +5349,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH2",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5541,8 +5371,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH2",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5565,8 +5393,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH2",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5589,8 +5415,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_M4",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5613,8 +5437,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH10",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5637,8 +5459,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH5",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5661,7 +5481,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_M4",
       "sets": [
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5684,8 +5503,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5708,8 +5525,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH12",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5732,8 +5547,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH9",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5756,8 +5569,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH8",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5780,8 +5591,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH14",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5804,8 +5613,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH1",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5828,7 +5635,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH12",
       "sets": [
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5851,8 +5657,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH10",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5875,8 +5679,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH11",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5899,8 +5701,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH11",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5923,8 +5723,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH9",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5947,8 +5745,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH3",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5971,8 +5767,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH7",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -5995,8 +5789,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH3",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -6019,8 +5811,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH7",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -6043,8 +5833,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH5",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -6067,8 +5855,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH3",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -6091,8 +5877,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH13",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -6115,8 +5899,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_CH10",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -6139,8 +5921,6 @@
       "source": "slides",
       "exam": "JIT401_SLIDES_M2",
       "sets": [
-        "thao_nguyen",
-        "quiz_pt",
         "albazzz"
       ]
     },
@@ -12408,7 +12188,7 @@
         "C"
       ],
       "choose": 1,
-      "note": "Quiz PT — albazzz/FPT (JIT401)",
+      "note": "Quiz PT — albazzz/FPT (JIT401) · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "📝 Dịch câu hỏi\nChọn phát biểu ĐÚNG về mạch OR.\n\n✅ Đáp án: C. mạch các công tắc xếp song song\nmạch các công tắc xếp song song\nĐáp án C: mạch các công tắc xếp song song\n\n❌ Các đáp án khác\nA: スイッチが直列に並んだ回路としてモデル化されます = mạch các công tắc xếp nối tiếp — Là gì? スイッチが直列に並んだ回路としてモデル化されます (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «スイッチが直列に並んだ回路としてモデル化されます» (A) không thỏa: phát biểu đúng/sai khớp cơ chế.\nB: OR回路の演算のことを論理積と言います = gọi phép OR là tích logic (sai — OR là tổng logic) — Là gì? OR回路の演算のことを論理積と言います (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «OR回路の演算のことを論理積と言います» (B) không thỏa: phát biểu đúng/sai khớp cơ chế.\nD: OR回路は1つのダイオードを使って実現できます = mạch OR làm bằng một diode — Là gì? OR回路は1つのダイオードを使って実現できます (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «OR回路は1つのダイオードを使って実現できます» (D) không thỏa: phát biểu đúng/sai khớp cơ chế.",
       "source": "thao_nguyen",
@@ -12416,7 +12196,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "115"
     },
     {
       "id": 625,
@@ -12431,7 +12212,7 @@
         "D"
       ],
       "choose": 1,
-      "note": "Quiz PT — albazzz/FPT (JIT401)",
+      "note": "Quiz PT — albazzz/FPT (JIT401) · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "📝 Dịch câu hỏi\nĐiền từ thích hợp vào chỗ trống (xem câu gốc).\n\n✅ Đáp án: D. chương trình\nKhái niệm CNTT trong đề thi JIT.\nKhớp stem: khớp đáp án «プログラムミス».\n\n❌ Các đáp án khác\nA: プログラム = chương trình — Là gì? プログラム (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «プログラム» (A) không thỏa: khớp đáp án «プログラムミス».\nB: ウイルス = ウイルス — khái niệm kỹ thuật — Là gì? ウイルス (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «ウイルス» (B) không thỏa: khớp đáp án «プログラムミス».\nC: OS = hệ điều hành (OS) — Là gì? OS — khái niệm/cơ chế trong miền đề (OS/mạng/DB/PM/an ninh/KTCT…).\nDùng để làm gì? Có vai trò riêng; đối chiếu với điều kiện stem.\nVì sao sai? «OS» (C) không thỏa: khớp đáp án «プログラムミス».",
       "source": "thao_nguyen",
@@ -12439,7 +12220,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "105"
     },
     {
       "id": 626,
@@ -12454,7 +12236,7 @@
         "D"
       ],
       "choose": 1,
-      "note": "Quiz PT — albazzz/FPT (JIT401)",
+      "note": "Quiz PT — albazzz/FPT (JIT401) · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "📝 Dịch câu hỏi\nChọn phát biểu SAI về CPU.\n\n✅ Đáp án: D. có input và output unit\ncó input và output unit\nĐáp án D: có input và output unit\n\n❌ Các đáp án khác\nA: 処理の中心となる部品 = linh kiện trung tâm xử lý (CPU) — Là gì? 処理の中心となる部品 (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «処理の中心となる部品» (A) không thỏa: khớp đáp án «入力装置と出力装置の機能が組み込まれている».\nB: 演算装置と制御装置の機能が組み込まれている = có ALU và control unit — Là gì? 演算装置と制御装置の機能が組み込まれている (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «演算装置と制御装置の機能が組み込まれている» (B) không thỏa: khớp đáp án «入力装置と出力装置の機能が組み込まれている».\nC: コンピュータの頭脳 = máy tính — Là gì? コンピュータの頭脳 (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «コンピュータの頭脳» (C) không thỏa: khớp đáp án «入力装置と出力装置の機能が組み込まれている».",
       "source": "thao_nguyen",
@@ -12462,7 +12244,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "166"
     },
     {
       "id": 627,
@@ -12477,7 +12260,7 @@
         "A"
       ],
       "choose": 1,
-      "note": "Quiz PT — albazzz/FPT (JIT401)",
+      "note": "Quiz PT — albazzz/FPT (JIT401) · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "📝 Dịch câu hỏi\nVề quản lý thư mục và path, giải thích nào đúng?\n\n✅ Đáp án: A. phát biểu về file/thư mục\nphát biểu về file/thư mục\nĐáp án A: phát biểu về file/thư mục\n\n❌ Các đáp án khác\nB: 通常、新しく作成するファイルは「C:Windows」フォルダに自動的に保存される。 = phát biểu về file/thư mục — Là gì? 通常、新しく作成するファイルは「C:Windows」フォルダに自動的に保存される。 (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «通常、新しく作成するファイルは「C:Windows」フォルダに自動的に保存される。» (B) không thỏa: phát biểu đúng/sai khớp cơ chế.\nC: フォルダはファイルのサブファイルである。 = thư mục là subfile của file (sai) — Là gì? フォルダはファイルのサブファイルである。 (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «フォルダはファイルのサブファイルである。» (C) không thỏa: phát biểu đúng/sai khớp cơ chế.\nD: ファイルを探しやすくするためには、1つのフォルダに数百個以上のファイルをまとめて保存するのが効率的である。 = phát biểu về file/thư mục — Là gì? ファイルを探しやすくするためには、1つのフォルダに数百個以上のファイルをまとめて保存するのが効率的である。 (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «ファイルを探しやすくするためには、1つのフォルダに数百個以上のファイルをまとめて保存するのが効率的である。» (D) không thỏa: phát biểu đúng/sai khớp cơ chế.",
       "source": "thao_nguyen",
@@ -12485,7 +12268,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "142"
     },
     {
       "id": 628,
@@ -12500,7 +12284,7 @@
         "C"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 1 · img 071",
+      "note": "Zip 240 ảnh · CÂU HỎI 1 · img 071 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: C — 専用の光ファイバなのでノイズの影響を受けにくい\nFTTH dùng cáp quang riêng → chịu nhiễu tốt hơn ADSL (cặp đồng).",
       "source": "thao_nguyen",
@@ -12508,7 +12292,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "135"
     },
     {
       "id": 629,
@@ -12523,7 +12308,7 @@
         "A"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 1 · img 238",
+      "note": "Zip 240 ảnh · CÂU HỎI 1 · img 238 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: A — ワイルドカード\nTrong SQL, % là ký tự đại diện (wildcard) trong LIKE.",
       "source": "thao_nguyen",
@@ -12531,30 +12316,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
-    },
-    {
-      "id": 630,
-      "question": "プログラミングにおける四則演算について、正しい説明をしているものはどれですか。",
-      "options": {
-        "A": "括弧（）は演算の優先順位を明示的に変更することができ、括弧内の計算は最も優先して実行される。",
-        "B": "整数同士の除算（例: 7 / 2）を実行した場合、ほとんどのプログラミング言語では、自動的に小数部が丸められた整数（この場合、3）が結果として得られる。",
-        "C": "剰余演算（%）は四則演算には含まれないため、加算（+）や乗算（*）と同じ優先順位では扱われない。",
-        "D": "プログラミングでは、数学と同じで乗算（*）と除算（/）より加算（+）と減算（-）の優先順位が高いため、常に計算順序を意識する必要はない。"
-      },
-      "answers": [
-        "A"
       ],
-      "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 2 · img 041",
-      "alt": null,
-      "explanation": "✅ Đáp án: A — 括弧で優先順位を明示的に変更できる\nNgoặc có độ ưu tiên cao nhất. B: không phải mọi ngôn ngữ đều làm tròn 7/2→3. D: * / ưu tiên hơn + -.",
-      "source": "thao_nguyen",
-      "exam": "JIT401_THAO_NGUYEN",
-      "sets": [
-        "thao_nguyen",
-        "quiz_pt"
-      ]
+      "img": "088"
     },
     {
       "id": 631,
@@ -12569,7 +12332,7 @@
         "B"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 3 · img 113",
+      "note": "Zip 240 ảnh · CÂU HỎI 3 · img 113 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: B — 情報端末\nthiết bị đầu cuối = terminal = 情報端末. 情報週末 là chữ sai/OCR.",
       "source": "thao_nguyen",
@@ -12577,7 +12340,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "186"
     },
     {
       "id": 632,
@@ -12592,7 +12356,7 @@
         "B"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 4 · img 120",
+      "note": "Zip 240 ảnh · CÂU HỎI 4 · img 120 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: B — しゅうごうえんざん\n集合(しゅうごう) + 演算(えんざん). Không phải えんさん.",
       "source": "thao_nguyen",
@@ -12600,7 +12364,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "055"
     },
     {
       "id": 633,
@@ -12615,7 +12380,7 @@
         "A"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 4 · img 130",
+      "note": "Zip 240 ảnh · CÂU HỎI 4 · img 130 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: A — máy chủ trung gian\nProxy server = máy chủ trung gian (ủy quyền/relay).",
       "source": "thao_nguyen",
@@ -12623,53 +12388,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
-    },
-    {
-      "id": 634,
-      "question": "JISコードは、日本工業規格 JIS が定めたもので、（　　）を組み合わせて表します。",
-      "options": {
-        "A": "16-8",
-        "B": "32-16",
-        "C": "12-16",
-        "D": "8-12"
-      },
-      "answers": [
-        "A"
       ],
-      "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 5 · img 013",
-      "alt": null,
-      "explanation": "✅ Đáp án: A — 16-8\nJIS: biểu diễn 16 bit, thường tách mỗi 8 bit.",
-      "source": "thao_nguyen",
-      "exam": "JIT401_THAO_NGUYEN",
-      "sets": [
-        "thao_nguyen",
-        "quiz_pt"
-      ]
-    },
-    {
-      "id": 635,
-      "question": "「添字」はベトナム語で何ですか。",
-      "options": {
-        "A": "chỉ số trên",
-        "B": "chỉ số gắn",
-        "C": "chỉ số dưới",
-        "D": "chỉ số cố định"
-      },
-      "answers": [
-        "C"
-      ],
-      "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 5 · img 180",
-      "alt": null,
-      "explanation": "✅ Đáp án: C — chỉ số dưới\n添字 = subscript (chỉ số dưới), không phải chỉ số trên.",
-      "source": "thao_nguyen",
-      "exam": "JIT401_THAO_NGUYEN",
-      "sets": [
-        "thao_nguyen",
-        "quiz_pt"
-      ]
+      "img": "008"
     },
     {
       "id": 636,
@@ -12684,7 +12404,7 @@
         "A"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 6 · img 110",
+      "note": "Zip 240 ảnh · CÂU HỎI 6 · img 110 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "Đáp án theo kiến thức JIT (khớp phương án «32»).",
       "source": "thao_nguyen",
@@ -12692,7 +12412,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "146"
     },
     {
       "id": 637,
@@ -12707,7 +12428,7 @@
         "C"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 6 · img 178",
+      "note": "Zip 240 ảnh · CÂU HỎI 6 · img 178 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: C — aがb以上\n>= là lớn hơn hoặc bằng (以上). より大きい chỉ là >.",
       "source": "thao_nguyen",
@@ -12715,7 +12436,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "070"
     },
     {
       "id": 638,
@@ -12730,7 +12452,7 @@
         "D"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 7 · img 170",
+      "note": "Zip 240 ảnh · CÂU HỎI 7 · img 170 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: D — 問題解決のための処理過程を記述するプログラミング言語\nNgôn ngữ thủ tục mô tả quá trình (How) để giải quyết bài toán.",
       "source": "thao_nguyen",
@@ -12738,7 +12460,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "068"
     },
     {
       "id": 639,
@@ -12753,7 +12476,7 @@
         "C"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 8 · img 002",
+      "note": "Zip 240 ảnh · CÂU HỎI 8 · img 002 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: C — リング型は、データが隣接するコンピュータへ順次転送され…\nBus không phải vòng và vẫn có va chạm; star dùng hub; ring: tuần tự, 1 máy hỏng ảnh hưởng.",
       "source": "thao_nguyen",
@@ -12761,7 +12484,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "124"
     },
     {
       "id": 640,
@@ -12776,7 +12500,7 @@
         "A"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 9 · img 016",
+      "note": "Zip 240 ảnh · CÂU HỎI 9 · img 016 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: A — ドメイン名はIPアドレスよりも覚えやすく…\nDomain dễ nhớ hơn IP. .com không phải domain Nhật (.jp). DNS cũng chuyển domain→IP (C cũng đúng về DNS) nhưng A là phát biểu chuẩn hay gặp.",
       "source": "thao_nguyen",
@@ -12784,7 +12508,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "132"
     },
     {
       "id": 641,
@@ -12799,7 +12524,7 @@
         "B"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 10 · img 007",
+      "note": "Zip 240 ảnh · CÂU HỎI 10 · img 007 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: B — bannhac から Aid=1 の Mid と TenBN を抽出\nSELECT Mid, TenBN WHERE Aid=1 → chỉ các dòng Aid=1, cột Mid & TenBN.",
       "source": "thao_nguyen",
@@ -12807,7 +12532,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "057"
     },
     {
       "id": 642,
@@ -12822,7 +12548,7 @@
         "C"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 10 · img 199",
+      "note": "Zip 240 ảnh · CÂU HỎI 10 · img 199 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: C — 連続的な量のこと\nAnalog = đại lượng liên tục (連続的な量). 数値化 = digital.",
       "source": "thao_nguyen",
@@ -12830,30 +12556,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
-    },
-    {
-      "id": 643,
-      "question": "（　　）に入れるものはどれですか。情報量の（　　）単位のことをビット(bit)といいます。",
-      "options": {
-        "A": "基本",
-        "B": "最大",
-        "C": "最小",
-        "D": "中間"
-      },
-      "answers": [
-        "C"
       ],
-      "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 11 · img 043",
-      "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nĐơn vị ( ) của lượng tin gọi là bit?\n\n✅ Đáp án: C — 最小 = nhỏ nhất\nBit là đơn vị nhỏ nhất (cũng là đơn vị cơ bản) của thông tin.\n\n❌ Các đáp án khác\nA: lớn nhất — không đúng với nội dung câu hỏi.\nB: trung bình — không đúng với nội dung câu hỏi.\nD: thay đổi — không đúng với nội dung câu hỏi.",
-      "source": "thao_nguyen",
-      "exam": "JIT401_THAO_NGUYEN",
-      "sets": [
-        "thao_nguyen",
-        "quiz_pt"
-      ]
+      "img": "139"
     },
     {
       "id": 644,
@@ -12868,7 +12572,7 @@
         "A"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 11 · img 134",
+      "note": "Zip 240 ảnh · CÂU HỎI 11 · img 134 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: A — 合併\nOR trong thao tác tập hợp/điều kiện DB ≈ hợp (合併/和).",
       "source": "thao_nguyen",
@@ -12876,30 +12580,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
-    },
-    {
-      "id": 645,
-      "question": "（______）に入れるのにもっとも適当なものを1つ選んでください。\nサーバとなっているコンピュータには、（______）が記録されています",
-      "options": {
-        "A": "重要なサービス",
-        "B": "重要な情報",
-        "C": "重要なアプリケーション",
-        "D": "重要な情報端末"
-      },
-      "answers": [
-        "B"
       ],
-      "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 11 · img 175",
-      "alt": null,
-      "explanation": "✅ Đáp án: B — 重要な情報\nMáy server lưu thông tin quan trọng (dữ liệu/dịch vụ cung cấp).",
-      "source": "thao_nguyen",
-      "exam": "JIT401_THAO_NGUYEN",
-      "sets": [
-        "thao_nguyen",
-        "quiz_pt"
-      ]
+      "img": "060"
     },
     {
       "id": 646,
@@ -12914,7 +12596,7 @@
         "C"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 12 · img 034",
+      "note": "Zip 240 ảnh · CÂU HỎI 12 · img 034 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "📝 Dịch câu hỏi\nNén video/âm thanh tiêu biểu là?\n\n✅ Đáp án: C — MPEG\nMPEG là điển hình cho hình ảnh và âm thanh chuyển động. JPEG/GIF chủ yếu là ảnh tĩnh.\n\n❌ Các đáp án khác\nA: JPEG — không đúng với nội dung câu hỏi.\nB: GIF — không đúng với nội dung câu hỏi.\nD: BMP — không đúng với nội dung câu hỏi.",
       "source": "thao_nguyen",
@@ -12922,7 +12604,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "167"
     },
     {
       "id": 647,
@@ -12937,7 +12620,7 @@
         "C"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 12 · img 084",
+      "note": "Zip 240 ảnh · CÂU HỎI 12 · img 084 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: C — ネットワーク層のIPプロトコルに従って番号が割り当てられています\nIP là địa chỉ tầng mạng. Không phải firewall, không phải định nghĩa protocol chung, không phải URL/email.",
       "source": "thao_nguyen",
@@ -12945,53 +12628,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
-    },
-    {
-      "id": 648,
-      "question": "札幌にある日本料理の店と函館にある日本料理の店をまとめて検索したい。検索条件を表す論理式はどれか。",
-      "options": {
-        "A": "(\"札幌\"AND\"函館\")AND\"日本料理\"",
-        "B": "(\"札幌\"AND\"函館\")OR\"日本料理\"",
-        "C": "(\"札幌\"OR\"函館\")OR\"日本料理\"",
-        "D": "(\"札幌\"OR\"函館\")AND\"日本料理\""
-      },
-      "answers": [
-        "D"
       ],
-      "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 12 · img 106",
-      "alt": null,
-      "explanation": "✅ Đáp án: D — (\"札幌\"OR\"函館\")AND\"日本料理\"\nNhà hàng Nhật ở Sapporo hoặc Hakodate: OR hai thành phố, AND món Nhật.",
-      "source": "thao_nguyen",
-      "exam": "JIT401_THAO_NGUYEN",
-      "sets": [
-        "thao_nguyen",
-        "quiz_pt"
-      ]
-    },
-    {
-      "id": 649,
-      "question": "測定する高さもデジタル化します。波の高さの最大値をいくつの段階にして表すかを決めるのが何か。",
-      "options": {
-        "A": "解像度",
-        "B": "量子化数",
-        "C": "サンプリング周波数",
-        "D": "ビットレート"
-      },
-      "answers": [
-        "B"
-      ],
-      "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 14 · img 004",
-      "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nChia biên độ sóng thành bao nhiêu mức gọi là?\n\n✅ Đáp án: B — 量子化数 = Số lượng tử hóa\nSố giai đoạn biên độ = số lượng tử hóa.\n\n❌ Các đáp án khác\nA: Tần số lấy mẫu — không đúng với nội dung câu hỏi.\nC: Frame rate — không đúng với nội dung câu hỏi.\nD: Bitrate — không đúng với nội dung câu hỏi.",
-      "source": "thao_nguyen",
-      "exam": "JIT401_THAO_NGUYEN",
-      "sets": [
-        "thao_nguyen",
-        "quiz_pt"
-      ]
+      "img": "119"
     },
     {
       "id": 650,
@@ -13006,7 +12644,7 @@
         "B"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 14 · img 127",
+      "note": "Zip 240 ảnh · CÂU HỎI 14 · img 127 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: B — GIF\nẢnh tĩnh tối đa 256 màu: GIF. MPEG là video; JPEG nhiều màu; MIDI là nhạc.",
       "source": "thao_nguyen",
@@ -13014,7 +12652,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "031"
     },
     {
       "id": 651,
@@ -13029,7 +12668,7 @@
         "C"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 15 · img 125",
+      "note": "Zip 240 ảnh · CÂU HỎI 15 · img 125 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: C — 木構造\ncấu trúc hình cây = 木構造 (tree structure).",
       "source": "thao_nguyen",
@@ -13037,53 +12676,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
-    },
-    {
-      "id": 652,
-      "question": "図を画素で表す手法を考える。画像の画素を左上から1行ずつ右方向へ[…]黒ならB、白ならWと書く。例えば、4×4画素の図を[…]と表す。次に、BやWがn文字連続する場合を\"Bn\"、\"Wn\"と表す（nは2以上の整数）と、この図を\"B1W2B1\"を1行として4行分繰り返すが、[…]表現でき、圧縮率を24÷16=150%とする（圧縮率が100%を超える場合は[…]）。では、4×4画素の図が\"BBWW WWBB BBWW WWBB\"で表されるとき、同じ手法で表した圧縮率は何%か。",
-      "options": {
-        "A": "75%",
-        "B": "125%",
-        "C": "150%",
-        "D": "100%"
-      },
-      "answers": [
-        "D"
       ],
-      "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 15 · img 137",
-      "alt": null,
-      "explanation": "✅ Đáp án: D — 100%\nMỗi hàng BBWW→B2W2 (4 ký tự), WWBB→W2B2 (4). 4 hàng = 16 ký tự / 16 pixel gốc = 100%\n(theo cách tính ví dụ 24÷16=150% trong đề).",
-      "source": "thao_nguyen",
-      "exam": "JIT401_THAO_NGUYEN",
-      "sets": [
-        "thao_nguyen",
-        "quiz_pt"
-      ]
-    },
-    {
-      "id": 653,
-      "question": "「商品カテゴリコード」「商品カテゴリ名」のフィールドを持つ商品カテゴリ表と、「仕入先コード」「仕入先名」のフィールドを持つ仕入先表、および「商品コード」「商品名」「単価」「商品カテゴリコード」「仕入先コード」のフィールドを持つ商品表の3つの表を作成した。結合した\"商品\"表はどれか。",
-      "options": {
-        "A": "「商品コード」「商品名」[単価]",
-        "B": "「商品コード」「商品名」[単価]「仕入先コード」",
-        "C": "「商品コード」「商品名」[単価]「商品カテゴリコード」",
-        "D": "「商品コード」「商品名」[単価]「商品カテゴリコード」「仕入先コード」"
-      },
-      "answers": [
-        "D"
-      ],
-      "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 15 · img 228",
-      "alt": null,
-      "explanation": "✅ Đáp án: D — 商品コード・商品名・単価・商品カテゴリコード・仕入先コード\nBảng商品 đã có FK category + supplier; join giữ các khóa đó.",
-      "source": "thao_nguyen",
-      "exam": "JIT401_THAO_NGUYEN",
-      "sets": [
-        "thao_nguyen",
-        "quiz_pt"
-      ]
+      "img": "165"
     },
     {
       "id": 654,
@@ -13098,7 +12692,7 @@
         "B"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 19 · img 026",
+      "note": "Zip 240 ảnh · CÂU HỎI 19 · img 026 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "Đáp án theo kiến thức JIT (khớp phương án «node»).",
       "source": "thao_nguyen",
@@ -13106,30 +12700,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
-    },
-    {
-      "id": 655,
-      "question": "プログラム言語に関する次の記述a〜cのうち適切なものだけをすべて挙げたものはどれか。\na 機械語やアセンブリ言語で作成されたプログラムは特定のCPUに依存することなく実行できる\nb コンパイラで変換されるプログラムは最終的に[…]から実行される\nc 人間の言葉に近い規則をもったプログラム言語（高水準言語）を活用すれば、機械語では[…]複雑な演算が実行できるプログラムが開発できる",
-      "options": {
-        "A": "b,c",
-        "B": "a",
-        "C": "a,c",
-        "D": "b"
-      },
-      "answers": [
-        "A"
       ],
-      "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 19 · img 126",
-      "alt": null,
-      "explanation": "✅ Đáp án: A — b,c\na SAI: machine/assembly phụ thuộc CPU. b,c đúng về compiler & high-level language.",
-      "source": "thao_nguyen",
-      "exam": "JIT401_THAO_NGUYEN",
-      "sets": [
-        "thao_nguyen",
-        "quiz_pt"
-      ]
+      "img": "089"
     },
     {
       "id": 656,
@@ -13144,7 +12716,7 @@
         "A"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 20 · img 208",
+      "note": "Zip 240 ảnh · CÂU HỎI 20 · img 208 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: A — 17世紀\nMáy tính cơ khí bánh răng (Pascal, Leibniz…) khoảng thế kỷ 17.",
       "source": "thao_nguyen",
@@ -13152,30 +12724,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
-    },
-    {
-      "id": 657,
-      "question": "第2世代携帯電話の改善点は何ですか。",
-      "options": {
-        "A": "携帯電話でさまざまなアプリケーションをストレスなく利用することができます",
-        "B": "管理し，ユーザ端末は入出力のみを行う",
-        "C": "音質が向上し，秘話性能も考慮されるようになりました",
-        "D": "データ通信が高速になりました"
-      },
-      "answers": [
-        "C"
       ],
-      "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 21 · img 182",
-      "alt": null,
-      "explanation": "✅ Đáp án: C — 音質が向上し，秘話性能も考慮されるようになりました\n2G: số hóa, chất lượng thoại & bảo mật tốt hơn 1G. App mượt là 3G/smartphone.",
-      "source": "thao_nguyen",
-      "exam": "JIT401_THAO_NGUYEN",
-      "sets": [
-        "thao_nguyen",
-        "quiz_pt"
-      ]
+      "img": "035"
     },
     {
       "id": 658,
@@ -13190,7 +12740,7 @@
         "B"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 22 · img 217",
+      "note": "Zip 240 ảnh · CÂU HỎI 22 · img 217 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: B — 製品のデザインに関する権利\n意匠権 = quyền kiểu dáng công nghiệp. A là quyền nhân thân tác giả (著作者人格権).",
       "source": "thao_nguyen",
@@ -13198,7 +12748,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "152"
     },
     {
       "id": 659,
@@ -13213,7 +12764,7 @@
         "D"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 23 · img 092",
+      "note": "Zip 240 ảnh · CÂU HỎI 23 · img 092 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: D — 電話局から家庭までの距離が長くなるほど…速度が低下\nADSL dùng đường điện thoại; khoảng cách tăng → nhiễu tăng, tốc độ giảm. Không phải dedicated line.",
       "source": "thao_nguyen",
@@ -13221,7 +12772,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "150"
     },
     {
       "id": 660,
@@ -13236,7 +12788,7 @@
         "D"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 24 · img 085",
+      "note": "Zip 240 ảnh · CÂU HỎI 24 · img 085 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "Đáp án theo kiến thức JIT (khớp phương án «ubiquitous»).",
       "source": "thao_nguyen",
@@ -13244,7 +12796,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "144"
     },
     {
       "id": 661,
@@ -13259,7 +12812,7 @@
         "A"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 25 · img 027",
+      "note": "Zip 240 ảnh · CÂU HỎI 25 · img 027 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "Đáp án theo kiến thức JIT (khớp phương án «16»).",
       "source": "thao_nguyen",
@@ -13267,7 +12820,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "080"
     },
     {
       "id": 662,
@@ -13282,7 +12836,7 @@
         "C"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 27 · img 030",
+      "note": "Zip 240 ảnh · CÂU HỎI 27 · img 030 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: C — ピアツーピアはサーバ/クライアントを明確に分けた構成である（SAI）\nCâu hỏi chọn phát biểu SAI. P2P không tách server/client rõ; client-server mới tách.",
       "source": "thao_nguyen",
@@ -13290,30 +12844,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
-    },
-    {
-      "id": 663,
-      "question": "0と1の並びを、どの文字に対応させるかは、文字コードと呼ばれます。",
-      "options": {
-        "A": "Unicode",
-        "B": "JPEG",
-        "C": "ASCII",
-        "D": "MIDI"
-      },
-      "answers": [
-        "A"
       ],
-      "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 27 · img 101",
-      "alt": null,
-      "explanation": "✅ Đáp án: A — Unicode\nBảng mã gán dãy 0/1 cho chữ; Unicode thống nhất đa ngôn ngữ. JPEG/MIDI không phải character code.",
-      "source": "thao_nguyen",
-      "exam": "JIT401_THAO_NGUYEN",
-      "sets": [
-        "thao_nguyen",
-        "quiz_pt"
-      ]
+      "img": "037"
     },
     {
       "id": 664,
@@ -13328,7 +12860,7 @@
         "C"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 27 · img 172",
+      "note": "Zip 240 ảnh · CÂU HỎI 27 · img 172 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "📝 Dịch câu hỏi\nMáy tính điện tử ENIAC được phát triển năm nào?\n\n✅ Đáp án: C — 1946年 = năm 1946\nENIAC là máy tính điện tử được phát triển vào năm 1946.\n\n❌ Các đáp án khác\nA: năm 1930 — không khớp định nghĩa/yêu cầu câu hỏi.\nB: năm 1939 — không khớp định nghĩa/yêu cầu câu hỏi.\nD: năm 1949 — không khớp định nghĩa/yêu cầu câu hỏi.",
       "source": "thao_nguyen",
@@ -13336,7 +12868,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "005"
     },
     {
       "id": 665,
@@ -13351,7 +12884,7 @@
         "A"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 28 · img 086",
+      "note": "Zip 240 ảnh · CÂU HỎI 28 · img 086 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: A — 光ファイバーで家庭まで…ラストワンマイル\nFTTH = Fiber To The Home, giải last-mile bằng quang tới nhà.",
       "source": "thao_nguyen",
@@ -13359,7 +12892,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "134"
     },
     {
       "id": 666,
@@ -13374,7 +12908,7 @@
         "C"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 29 · img 088",
+      "note": "Zip 240 ảnh · CÂU HỎI 29 · img 088 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: C — 多くなります\nSố mức lượng tử hóa tăng → chi tiết biên độ tăng → lượng tin tăng. 広く không đúng.",
       "source": "thao_nguyen",
@@ -13382,7 +12916,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "063"
     },
     {
       "id": 667,
@@ -13397,7 +12932,7 @@
         "A"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 31 · img 005",
+      "note": "Zip 240 ảnh · CÂU HỎI 31 · img 005 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: A — dpi\nĐộ phân giải scanner/printer = dpi (dots per inch).",
       "source": "thao_nguyen",
@@ -13405,7 +12940,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "033"
     },
     {
       "id": 668,
@@ -13420,7 +12956,7 @@
         "A"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 31 · img 012",
+      "note": "Zip 240 ảnh · CÂU HỎI 31 · img 012 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "Đáp án theo kiến thức JIT (khớp phương án «User Interface»).",
       "source": "thao_nguyen",
@@ -13428,7 +12964,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "059"
     },
     {
       "id": 669,
@@ -13443,7 +12980,7 @@
         "A"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 31 · img 214",
+      "note": "Zip 240 ảnh · CÂU HỎI 31 · img 214 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: A — định dạng tập tin\nRSS = feed/syndication format (định dạng chia sẻ nội dung).",
       "source": "thao_nguyen",
@@ -13451,7 +12988,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "051"
     },
     {
       "id": 670,
@@ -13466,7 +13004,7 @@
         "D"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 32 · img 020",
+      "note": "Zip 240 ảnh · CÂU HỎI 32 · img 020 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: D — 指数関数\nhàm số mũ = exponential = 指数関数. 対数関数 là log (ngược).",
       "source": "thao_nguyen",
@@ -13474,7 +13012,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "161"
     },
     {
       "id": 671,
@@ -13489,7 +13028,7 @@
         "B"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 34 · img 115",
+      "note": "Zip 240 ảnh · CÂU HỎI 34 · img 115 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: B — ソフトウェアの処理を管理します\nプロセス管理 = quản lý tiến trình/xử lý phần mềm. Không phải UI (操作性).",
       "source": "thao_nguyen",
@@ -13497,7 +13036,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "087"
     },
     {
       "id": 672,
@@ -13512,7 +13052,7 @@
         "B"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 34 · img 239",
+      "note": "Zip 240 ảnh · CÂU HỎI 34 · img 239 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: B — ファイル名のピリオド右側の文字列（属性・内容）\n拡張子 = phần mở rộng file. A mô tả bộ nhớ ngoài.",
       "source": "thao_nguyen",
@@ -13520,7 +13060,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "073"
     },
     {
       "id": 673,
@@ -13535,7 +13076,7 @@
         "B"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 35 · img 132",
+      "note": "Zip 240 ảnh · CÂU HỎI 35 · img 132 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: B — ソフトウェアの処理\nProcess = đơn vị xử lý phần mềm đang chạy, không phải dung lượng HDD.",
       "source": "thao_nguyen",
@@ -13543,7 +13084,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "026"
     },
     {
       "id": 674,
@@ -13558,7 +13100,7 @@
         "A"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 35 · img 195",
+      "note": "Zip 240 ảnh · CÂU HỎI 35 · img 195 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: A — DMZに重要情報を置かない\nDMZ public-facing: không đặt dữ liệu mật. Firewall cần cấu hình đúng.",
       "source": "thao_nguyen",
@@ -13566,7 +13108,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "122"
     },
     {
       "id": 675,
@@ -13581,7 +13124,7 @@
         "A"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 35 · img 227",
+      "note": "Zip 240 ảnh · CÂU HỎI 35 · img 227 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: A — きれいになります\nNhiều pixel hơn → ảnh mịn/sắc nét hơn, ít răng cưa.",
       "source": "thao_nguyen",
@@ -13589,7 +13132,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "056"
     },
     {
       "id": 676,
@@ -13604,7 +13148,7 @@
         "D"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 37 · img 218",
+      "note": "Zip 240 ảnh · CÂU HỎI 37 · img 218 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: D — 文字列\nchuỗi ký tự = string = 文字列.",
       "source": "thao_nguyen",
@@ -13612,7 +13156,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "079"
     },
     {
       "id": 677,
@@ -13635,7 +13180,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "019"
     },
     {
       "id": 678,
@@ -13650,7 +13196,7 @@
         "B"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 40 · img 121",
+      "note": "Zip 240 ảnh · CÂU HỎI 40 · img 121 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: B — 有機物の発光体を用いて自ら光る…\nOLED tự phát sáng, thường tiết kiệm điện/sáng hơn LCD. D mô tả LCD (cần backlight) — sai cho OLED.",
       "source": "thao_nguyen",
@@ -13658,30 +13204,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
-    },
-    {
-      "id": 679,
-      "question": "改行が何種のコードにあたるか[…]よってコードが違うため、[…]",
-      "options": {
-        "A": "情報",
-        "B": "改行",
-        "C": "文字",
-        "D": "制御"
-      },
-      "answers": [
-        "D"
       ],
-      "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 40 · img 142",
-      "alt": null,
-      "explanation": "✅ Đáp án: D — 制御\nMã xuống dòng thuộc 制御コード (control code); khác nhau giữa Windows/Mac/Unix.",
-      "source": "thao_nguyen",
-      "exam": "JIT401_THAO_NGUYEN",
-      "sets": [
-        "thao_nguyen",
-        "quiz_pt"
-      ]
+      "img": "072"
     },
     {
       "id": 680,
@@ -13696,7 +13220,7 @@
         "A"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 41 · img 157",
+      "note": "Zip 240 ảnh · CÂU HỎI 41 · img 157 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: A — 注釈\n// là comment (chú thích) trong nhiều ngôn ngữ (C/Java/JS…).",
       "source": "thao_nguyen",
@@ -13704,7 +13228,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "006"
     },
     {
       "id": 681,
@@ -13719,7 +13244,7 @@
         "C"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 42 · img 224",
+      "note": "Zip 240 ảnh · CÂU HỎI 42 · img 224 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: C — ハードウェアの相違を吸収します\nTrung gian soft–hard (OS/driver) che khác biệt phần cứng. A/B là UI.",
       "source": "thao_nguyen",
@@ -13727,30 +13252,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
-    },
-    {
-      "id": 682,
-      "question": "100Mビット/秒の伝送速度の[…]およそ何秒か。ここで1Kバイト[…]",
-      "options": {
-        "A": "400",
-        "B": "5000",
-        "C": "50",
-        "D": "4"
-      },
-      "answers": [
-        "A"
       ],
-      "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 43 · img 129",
-      "alt": null,
-      "explanation": "✅ Đáp án: A. 400\nNguồn ảnh zip 240 (CÂU HỎI 43 · img 129).\nĐáp án theo kiến thức JIT (bank stem).",
-      "source": "thao_nguyen",
-      "exam": "JIT401_THAO_NGUYEN",
-      "sets": [
-        "thao_nguyen",
-        "quiz_pt"
-      ]
+      "img": "100"
     },
     {
       "id": 683,
@@ -13765,7 +13268,7 @@
         "C"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 43 · img 200",
+      "note": "Zip 240 ảnh · CÂU HỎI 43 · img 200 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: C — 取引プロセス…商品案内や配送…商品開発まで含めます\nThương mại điện tử gồm cả quy trình giao dịch rộng. A≈EDI, D≈CALS.",
       "source": "thao_nguyen",
@@ -13773,7 +13276,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "085"
     },
     {
       "id": 684,
@@ -13788,7 +13292,7 @@
         "C"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 44 · img 201",
+      "note": "Zip 240 ảnh · CÂU HỎI 44 · img 201 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: C — ハードウェアの相違を吸収します（không phải UI）\nCâu hỏi chọn SAI về UI. Che khác biệt HW là soft/hard 仲介, không phải UI.",
       "source": "thao_nguyen",
@@ -13796,7 +13300,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "052"
     },
     {
       "id": 685,
@@ -13811,7 +13316,7 @@
         "B"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 45 · img 065",
+      "note": "Zip 240 ảnh · CÂU HỎI 45 · img 065 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "📝 Dịch câu hỏi\nBạn đọc “kiểm soát giao tiếp” như thế nào? Tiếng Việt là gì?\n\n✅ Đáp án: B — つうしんせいぎょ - điều khiển thông tin = Seigyo Tsushin - điưu khiưn thông tin\nĐáp án đúng là B. - điều khiển thông tin\n\n❌ Các đáp án khác\nA: Tsushin Seikyo - điưu khiưn tư xa — không đúng với nội dung câu hỏi.\nC: tsushinseigyo -hưn chē thông tin — không đúng với nội dung câu hỏi.\nD: Tsu Shin Seikyo - hưn chư thông tin tư xa — không đúng với nội dung câu hỏi.",
       "source": "thao_nguyen",
@@ -13819,76 +13324,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
-    },
-    {
-      "id": 686,
-      "question": "二つの2進数01011010と0110[…]トで表現するものとする。",
-      "options": {
-        "A": "10000100",
-        "B": "01111011",
-        "C": "00110001",
-        "D": "11000101"
-      },
-      "answers": [
-        "D"
       ],
-      "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 47 · img 054",
-      "alt": null,
-      "explanation": "✅ Đáp án: D — 11000101\n01011010₂=90, 01101011₂=107, 90+107=197=11000101₂ (8-bit dương).",
-      "source": "thao_nguyen",
-      "exam": "JIT401_THAO_NGUYEN",
-      "sets": [
-        "thao_nguyen",
-        "quiz_pt"
-      ]
-    },
-    {
-      "id": 687,
-      "question": "デジタル画像は縦横に並んだ[…]はなんと言いますか。",
-      "options": {
-        "A": "ピクセル",
-        "B": "ビット",
-        "C": "コード",
-        "D": "データ"
-      },
-      "answers": [
-        "A"
-      ],
-      "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 47 · img 124",
-      "alt": null,
-      "explanation": "✅ Đáp án: A — ピクセル\nĐiểm ảnh = pixel (画素).",
-      "source": "thao_nguyen",
-      "exam": "JIT401_THAO_NGUYEN",
-      "sets": [
-        "thao_nguyen",
-        "quiz_pt"
-      ]
-    },
-    {
-      "id": 688,
-      "question": "マウスやキーボードの操作方法[…]言いますか。",
-      "options": {
-        "A": "ファイルシステム",
-        "B": "マルチタスク",
-        "C": "ユーザインタフェース",
-        "D": "デバイスドライバ"
-      },
-      "answers": [
-        "C"
-      ],
-      "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 49 · img 131",
-      "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nCách thao tác chuột/bàn phím, cách hiện cửa sổ… gọi là gì?\n\n✅ Đáp án: C — ユーザインタフェース = User interface\nGiao diện người dùng xác định cách mọi thứ được vận hành và hiển thị.\n\n❌ Các đáp án khác\nA: Device driver — không đúng với nội dung câu hỏi.\nB: Middleware — không đúng với nội dung câu hỏi.\nD: Firewall — không đúng với nội dung câu hỏi.",
-      "source": "thao_nguyen",
-      "exam": "JIT401_THAO_NGUYEN",
-      "sets": [
-        "thao_nguyen",
-        "quiz_pt"
-      ]
+      "img": "120"
     },
     {
       "id": 689,
@@ -13903,7 +13340,7 @@
         "D"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 50 · img 112",
+      "note": "Zip 240 ảnh · CÂU HỎI 50 · img 112 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: D — 5\n26 chữ cái: 2⁴=16 thiếu, 2⁵=32 đủ → tối thiểu 5 bit.",
       "source": "thao_nguyen",
@@ -13911,7 +13348,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "029"
     },
     {
       "id": 690,
@@ -13926,7 +13364,7 @@
         "A"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 51 · img 082",
+      "note": "Zip 240 ảnh · CÂU HỎI 51 · img 082 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "Đáp án theo kiến thức JIT (khớp phương án «中間»).",
       "source": "thao_nguyen",
@@ -13934,7 +13372,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "046"
     },
     {
       "id": 691,
@@ -13949,7 +13388,7 @@
         "A"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 52 · img 215",
+      "note": "Zip 240 ảnh · CÂU HỎI 52 · img 215 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: A — truy xuất\n照会 ≈ truy vấn/truy xuất dữ liệu (inquiry).",
       "source": "thao_nguyen",
@@ -13957,30 +13396,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
-    },
-    {
-      "id": 692,
-      "question": "()とは、数値を扱う際に「基と…",
-      "options": {
-        "A": "基数",
-        "B": "真数",
-        "C": "進数",
-        "D": "奇数"
-      },
-      "answers": [
-        "A"
       ],
-      "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 54 · img 220",
-      "alt": null,
-      "explanation": "✅ Đáp án: A — 基数\nCơ số (base) = số làm nền (2, 10, 16…).",
-      "source": "thao_nguyen",
-      "exam": "JIT401_THAO_NGUYEN",
-      "sets": [
-        "thao_nguyen",
-        "quiz_pt"
-      ]
+      "img": "004"
     },
     {
       "id": 693,
@@ -13995,7 +13412,7 @@
         "D"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 57 · img 143",
+      "note": "Zip 240 ảnh · CÂU HỎI 57 · img 143 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: D — 何をどうするか(How)を詳細に記述する言語\nProcedural: mô tả How. What = declarative/non-procedural (SQL…).",
       "source": "thao_nguyen",
@@ -14003,7 +13420,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "096"
     },
     {
       "id": 694,
@@ -14018,7 +13436,7 @@
         "C"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 58 · img 235",
+      "note": "Zip 240 ảnh · CÂU HỎI 58 · img 235 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: C — 仮想記憶\nKhông gian nhớ lớn (ảo) = virtual memory, không phải process.",
       "source": "thao_nguyen",
@@ -14026,7 +13444,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "083"
     },
     {
       "id": 695,
@@ -14041,7 +13460,7 @@
         "B"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 59 · img 206",
+      "note": "Zip 240 ảnh · CÂU HỎI 59 · img 206 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: B — 個別の関係を表す表を元にデータを記述します\nBiểu diễn quan hệ: mô tả dữ liệu bằng các bảng quan hệ. A (複数) dễ gây hiểu nhầm.",
       "source": "thao_nguyen",
@@ -14049,7 +13468,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "015"
     },
     {
       "id": 696,
@@ -14064,7 +13484,7 @@
         "C"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 60 · img 209",
+      "note": "Zip 240 ảnh · CÂU HỎI 60 · img 209 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: C — 高速に流れます\nBăng thông rộng → truyền dữ liệu nhanh hơn, không phải chậm.",
       "source": "thao_nguyen",
@@ -14072,7 +13492,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "090"
     },
     {
       "id": 697,
@@ -14087,7 +13508,7 @@
         "B"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 61 · img 122",
+      "note": "Zip 240 ảnh · CÂU HỎI 61 · img 122 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: B — メモリーとハードディスクのデータの交換\nSwapping trao đổi trang giữa RAM và HDD.",
       "source": "thao_nguyen",
@@ -14095,30 +13516,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
-    },
-    {
-      "id": 698,
-      "question": "「データを親子構造に並べ、この構造を順次たどることによって検索する表現法である」という表現はどの定義ですか。",
-      "options": {
-        "A": "関係的表現",
-        "B": "木構造",
-        "C": "階層的表現",
-        "D": "網的表現"
-      },
-      "answers": [
-        "C"
       ],
-      "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 63 · img 219",
-      "alt": null,
-      "explanation": "📝 Dịch câu hỏi\n【Kiến thức chuyên môn】Cụm từ nào \"tìm kiếm bằng cách sắp xếp dữ liệu vào một cấu trúc phân cấp như cha mẹ, con cái và cháu, và truy tìm dữ liệu từ cha mẹ hàng đầu\"?\n\n✅ Đáp án: C — 階層的表現 = biểu diễn phân cấp (cây)\nBiểu diễn phân cấp (cấu trúc cây) sắp xếp dữ liệu theo cấu trúc cha-con và tìm kiếm từ trên xuống (§17.2).\n\n❌ Các đáp án khác\nA: biểu diễn quan hệ (bảng) — không khớp định nghĩa/yêu cầu câu hỏi.\nB: biểu diễn dạng lưới — không khớp định nghĩa/yêu cầu câu hỏi.\nD: Trình bày đối tượng — không khớp định nghĩa/yêu cầu câu hỏi.",
-      "source": "thao_nguyen",
-      "exam": "JIT401_THAO_NGUYEN",
-      "sets": [
-        "thao_nguyen",
-        "quiz_pt"
-      ]
+      "img": "093"
     },
     {
       "id": 699,
@@ -14133,7 +13532,7 @@
         "C"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI 65 · img 185",
+      "note": "Zip 240 ảnh · CÂU HỎI 65 · img 185 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: C — 機種やOSに依存しない…オブジェクト指向言語\nJava: write once run anywhere, OOP. A≈FORTRAN, B≈COBOL, D≈HTML.",
       "source": "thao_nguyen",
@@ -14141,30 +13540,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
-    },
-    {
-      "id": 700,
-      "question": "見かけ上の記憶容量を実際のメモリより大きく見せることで、大きなメモリ空間を確保する技術はどれか。",
-      "options": {
-        "A": "主記憶",
-        "B": "マルチタスク",
-        "C": "仮想記憶",
-        "D": "キャッシュメモリ"
-      },
-      "answers": [
-        "C"
       ],
-      "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI ? · img 008",
-      "alt": null,
-      "explanation": "📝 Dịch câu hỏi\nLàm dung lượng nhớ “ảo” lớn hơn RAM thật gọi là gì?\n\n✅ Đáp án: C — Bộ nhớ ảo (仮想記憶)\nBộ nhớ ảo sử dụng ổ cứng HDD, v.v. để mở rộng bộ nhớ rõ ràng.\n\n❌ Các đáp án khác\nA: Cache — không đúng với nội dung câu hỏi.\nB: Chỉ swapping — không đúng với nội dung câu hỏi.\nD: Defrag — không đúng với nội dung câu hỏi.",
-      "source": "thao_nguyen",
-      "exam": "JIT401_THAO_NGUYEN",
-      "sets": [
-        "thao_nguyen",
-        "quiz_pt"
-      ]
+      "img": "013"
     },
     {
       "id": 701,
@@ -14179,7 +13556,7 @@
         "A"
       ],
       "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI ? · img 056",
+      "note": "Zip 240 ảnh · CÂU HỎI ? · img 056 · Thảo Nguyên 5 zip",
       "alt": null,
       "explanation": "✅ Đáp án: A — modulation\nbiến điều = 変調 = modulation.",
       "source": "thao_nguyen",
@@ -14187,30 +13564,8 @@
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
-    },
-    {
-      "id": 702,
-      "question": "プリンタの性能を表すとき、解像度は何といいますか。",
-      "options": {
-        "A": "bit",
-        "B": "dpi",
-        "C": "bps",
-        "D": "pixel"
-      },
-      "answers": [
-        "B"
       ],
-      "choose": 1,
-      "note": "Zip 240 ảnh · CÂU HỎI ? · img 169",
-      "alt": null,
-      "explanation": "✅ Đáp án: B — dpi\nĐộ phân giải máy in = dpi (dots per inch), không phải bit.",
-      "source": "thao_nguyen",
-      "exam": "JIT401_THAO_NGUYEN",
-      "sets": [
-        "thao_nguyen",
-        "quiz_pt"
-      ]
+      "img": "016"
     },
     {
       "id": 703,
@@ -14229,11 +13584,12 @@
       "alt": null,
       "explanation": "✅ Đáp án: C — (c) アプリケーションの開発機能 và (f) 特定の業務処理の実行 không thuộc chức năng cốt lõi của OS.\nOS: process, UI, memory, soft/hard bridge. Dev app & business logic = ứng dụng.",
       "source": "thao_nguyen",
-      "exam": "JIT401_QUIZ_PT",
+      "exam": "JIT401_THAO_NGUYEN",
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "053"
     },
     {
       "id": 704,
@@ -14252,11 +13608,12 @@
       "alt": null,
       "explanation": "✅ Đáp án: D — 音楽のための特殊なコードです\nMIDI = Musical Instrument Digital Interface — mã/giao thức đặc thù cho nhạc.",
       "source": "thao_nguyen",
-      "exam": "JIT401_QUIZ_PT",
+      "exam": "JIT401_THAO_NGUYEN",
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "064"
     },
     {
       "id": 705,
@@ -14275,11 +13632,12 @@
       "alt": null,
       "explanation": "✅ Đáp án: B — -4\na=10, b=7 (int C++): b/a=0, a%a=0 → a-b/a-a%a=10.\na+(b-a)*a = 10+(-3)*10=-20.\n10*(-20)=-200; (-200)%7 = -4 trong C++.",
       "source": "thao_nguyen",
-      "exam": "JIT401_QUIZ_PT",
+      "exam": "JIT401_THAO_NGUYEN",
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "065"
     },
     {
       "id": 706,
@@ -14298,11 +13656,2531 @@
       "alt": null,
       "explanation": "✅ Đáp án: C — ①データベース；②命令\nSQL là tập lệnh để thao tác database (mô hình quan hệ).",
       "source": "thao_nguyen",
-      "exam": "JIT401_QUIZ_PT",
+      "exam": "JIT401_THAO_NGUYEN",
       "sets": [
         "thao_nguyen",
         "quiz_pt"
-      ]
+      ],
+      "img": "081"
+    },
+    {
+      "id": 707,
+      "question": "AND回路について正しいものをえらんでください。",
+      "options": {
+        "A": "AND回路の演算のことを論理和と言います",
+        "B": "AND回路は1つのダイオードを使って実現できます",
+        "C": "スイッチが直列に並んだ回路としてモデル化されます",
+        "D": "スイッチが並列に並んだ回路としてモデル化されます"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#236 (1.00)",
+      "alt": null,
+      "explanation": "✅ Đáp án: C — スイッチが直列に並んだ回路としてモデル化されます\nAND = công tắc nối tiếp (cả hai ON mới ra ON). Song song = OR; 論理和 = OR không phải AND.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "001"
+    },
+    {
+      "id": 708,
+      "question": "「データを親子構造に並べ、この構造を順次たどることによって検索する表現法である」というものはどの定義ですか。",
+      "options": {
+        "A": "階層的表現",
+        "B": "木構造",
+        "C": "網的表現",
+        "D": "関係的表現"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#698 (0.95)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\n【Kiến thức chuyên môn】Cụm từ nào \"tìm kiếm bằng cách sắp xếp dữ liệu vào một cấu trúc phân cấp như cha mẹ, con cái và cháu, và truy tìm dữ liệu từ cha mẹ hàng đầu\"?\n\n✅ Đáp án: C — 階層的表現 = biểu diễn phân cấp (cây)\nBiểu diễn phân cấp (cấu trúc cây) sắp xếp dữ liệu theo cấu trúc cha-con và tìm kiếm từ trên xuống (§17.2).\n\n❌ Các đáp án khác\nA: biểu diễn quan hệ (bảng) — không khớp định nghĩa/yêu cầu câu hỏi.\nB: biểu diễn dạng lưới — không khớp định nghĩa/yêu cầu câu hỏi.\nD: Trình bày đối tượng — không khớp định nghĩa/yêu cầu câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "002"
+    },
+    {
+      "id": 709,
+      "question": "ユーザからの入力は何から行えますか。正しいものをえらんでください。",
+      "options": {
+        "A": "キーボードやマウスなどの入力装置",
+        "B": "プリンタのみ",
+        "C": "スピーカのみ",
+        "D": "ディスプレイ出力のみ"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#23 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nNgười dùng nhập liệu từ đâu? Chọn câu đúng.\n\n✅ Đáp án: A — Thiết bị nhập: bàn phím, chuột…\nInput device = keyboard, mouse, mic, scanner…\n\n❌ Các đáp án khác\nB máy in = output. C loa = output. D màn hình = output.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "003"
+    },
+    {
+      "id": 710,
+      "question": "LSIは日本語で何ですか。",
+      "options": {
+        "A": "集積線路",
+        "B": "大規模集積線路",
+        "C": "集積回路",
+        "D": "大規模集積回路"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#248 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nLSI tiếng Nhật là gì?\n\n✅ Đáp án: A — 大規模集積回路 = Mạch tích hợp quy mô lớn\nLSI = Tích hợp quy mô lớn = Mạch tích hợp quy mô lớn.\n\n❌ Các đáp án khác\nB: Đường tích hợp — không đúng với nội dung câu hỏi.\nC: IC (thường) — không đúng với nội dung câu hỏi.\nD: Đường tích hợp lớn — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "007"
+    },
+    {
+      "id": 711,
+      "question": "一般に100 Kbps～1 Mbps以上の通信速度を何と言いますか。",
+      "options": {
+        "A": "ブロードバンド",
+        "B": "狭帯域",
+        "C": "ナローバンド",
+        "D": "高帯域"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#210 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nTốc độ khoảng ≥100 Kbps–1 Mbps gọi là gì?\n\n✅ Đáp án: C — ブロードバンド = Broadband\nMọi tốc độ trên 100Kbps đến 1Mbps đều được gọi là băng thông rộng.\n\n❌ Các đáp án khác\nA: Narrowband — không đúng với nội dung câu hỏi.\nB: Dial-up — không đúng với nội dung câu hỏi.\nD: Serial — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "009"
+    },
+    {
+      "id": 712,
+      "question": "「số nguyên tố」は日本語で何ですか。",
+      "options": {
+        "A": "にんすう",
+        "B": "そいんすう",
+        "C": "かんすう",
+        "D": "らんすう"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#250 (1.00)",
+      "alt": null,
+      "explanation": "✅ Đáp án: B — そすう（素数）\n số nguyên tố = 素数 = そすう. 素因数(そいんすう) là thừa số nguyên tố — khác nghĩa.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "010"
+    },
+    {
+      "id": 713,
+      "question": "ネットワークのデータ伝送速度を表す単位はどれか。",
+      "options": {
+        "A": "bps",
+        "B": "Hz",
+        "C": "bit",
+        "D": "fps"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#240 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nĐơn vị tốc độ truyền mạng?\n\n✅ Đáp án: A — bps\nĐơn vị của tốc độ truyền là bps (bit/s).\n\n❌ Các đáp án khác\nB: dpi — không đúng với nội dung câu hỏi.\nC: Hz — không đúng với nội dung câu hỏi.\nD: lux — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "011"
+    },
+    {
+      "id": 714,
+      "question": "「định dạng trao đổi hình ảnh」は英語の略語が何ですか。",
+      "options": {
+        "A": "PNG",
+        "B": "GIF",
+        "C": "JPEG",
+        "D": "MPEG"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#238 (0.95)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nVideo dùng nén ảnh tĩnh + ghi chênh lệch → định dạng?\n\n✅ Đáp án: C — MPEG\nNén ảnh tĩnh + ghi vi sai = MPEG.\n\n❌ Các đáp án khác\nA: JPEG — không đúng với nội dung câu hỏi.\nB: GIF — không đúng với nội dung câu hỏi.\nD: PNG — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "012"
+    },
+    {
+      "id": 715,
+      "question": "通信回線の伝送誤りに対処するパリティチェック方式（垂直パリティ）の記述として、適切なものはどれか。",
+      "options": {
+        "A": "奇数パリティならば奇数個のビット誤りを、偶数パリティならば偶数個のビット誤りを検出できる。",
+        "B": "奇数パリティならば1ビットの誤りを検出できるが、偶数パリティでは1ビットの誤りも検出できない。",
+        "C": "1ビットの誤りを検出できる。",
+        "D": "1ビットの誤りを訂正でき、2ビットの誤りを検出できる。"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#196 (1.00)",
+      "alt": null,
+      "explanation": "✅ Đáp án: C — 1ビットの誤りを検出できる\nParity dọc (vertical): phát hiện lỗi 1 bit (số bit lỗi lẻ). Không sửa lỗi; không chỉ odd/even một bên.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "014"
+    },
+    {
+      "id": 716,
+      "question": "Chọn đáp án thích hợp để điền vào chỗ trống sau:\n個人のパソコンをねらった（）としてウイルスが代表的です。",
+      "options": {
+        "A": "行為",
+        "B": "もの",
+        "C": "犯罪",
+        "D": "病気"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#244 (0.95)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nVirus là ví dụ điển hình của ( ) nhắm PC cá nhân?\n\n✅ Đáp án: A — 犯罪 = tội phạm / 犯罪\nVirus là một ví dụ về tội phạm máy tính.\n\n❌ Các đáp án khác\nB: hành vi — không đúng với nội dung câu hỏi.\nC: đồ vật — không đúng với nội dung câu hỏi.\nD: bệnh — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "017"
+    },
+    {
+      "id": 717,
+      "question": "改行が何番のコードにあたるかを（　　）コードと言い、Windows，MacOS，Unix などの OS によってコードが違うため、ファイル交換の際に問題になることがあります。",
+      "options": {
+        "A": "制御",
+        "B": "改行",
+        "C": "情報",
+        "D": "文字"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#679 (0.95)",
+      "alt": null,
+      "explanation": "✅ Đáp án: D — 制御\nMã xuống dòng thuộc 制御コード (control code); khác nhau giữa Windows/Mac/Unix.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "018"
+    },
+    {
+      "id": 718,
+      "question": "（）とは、数値を扱う際に「基となる数字の個数」のことです。",
+      "options": {
+        "A": "真数",
+        "B": "進数",
+        "C": "基数",
+        "D": "奇数"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#692 (0.95)",
+      "alt": null,
+      "explanation": "✅ Đáp án: A — 基数\nCơ số (base) = số làm nền (2, 10, 16…).",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "020"
+    },
+    {
+      "id": 719,
+      "question": "マウスやキーボードの操作方法、ウィンドウの見え方、ファイルの扱い方などの操作性のことを何と言いますか。",
+      "options": {
+        "A": "デバイスドライバ",
+        "B": "ユーザインタフェース",
+        "C": "ファイルシステム",
+        "D": "マルチタスク"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#688 (0.95)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nCách thao tác chuột/bàn phím, cách hiện cửa sổ… gọi là gì?\n\n✅ Đáp án: C — ユーザインタフェース = User interface\nGiao diện người dùng xác định cách mọi thứ được vận hành và hiển thị.\n\n❌ Các đáp án khác\nA: Device driver — không đúng với nội dung câu hỏi.\nB: Middleware — không đúng với nội dung câu hỏi.\nD: Firewall — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "021"
+    },
+    {
+      "id": 720,
+      "question": "JISコードは、日本工業規格 JIS が定めたもので、（　　）bit の数字を（　　）bit ずつに分けて表します。",
+      "options": {
+        "A": "12-16",
+        "B": "32-16",
+        "C": "8-12",
+        "D": "16-8"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#634 (0.95)",
+      "alt": null,
+      "explanation": "✅ Đáp án: A — 16-8\nJIS: biểu diễn 16 bit, thường tách mỗi 8 bit.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "022"
+    },
+    {
+      "id": 721,
+      "question": "「#」の記号はどのように読みますか。",
+      "options": {
+        "A": "ドラー",
+        "B": "シャープ",
+        "C": "エクスクラメーションマーク",
+        "D": "チルダ"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#190 (1.00)",
+      "alt": null,
+      "explanation": "✅ Đáp án: B — シャープ\nKý hiệu # đọc là シャープ (sharp). Không phải $ (dollar), ! hay ~.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "023"
+    },
+    {
+      "id": 722,
+      "question": "（　　）に入れるものはどれですか。一番 適当なものを選んでください。\n情報量の（　　）単位のことをビットといいます。",
+      "options": {
+        "A": "中間",
+        "B": "最大",
+        "C": "基本",
+        "D": "最小"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#643 (0.95)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nĐơn vị ( ) của lượng tin gọi là bit?\n\n✅ Đáp án: C — 最小 = nhỏ nhất\nBit là đơn vị nhỏ nhất (cũng là đơn vị cơ bản) của thông tin.\n\n❌ Các đáp án khác\nA: lớn nhất — không đúng với nội dung câu hỏi.\nB: trung bình — không đúng với nội dung câu hỏi.\nD: thay đổi — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "024"
+    },
+    {
+      "id": 723,
+      "question": "測定する高さもデジタル化します。波の高さの最大値をいくつの整数として表すかを何と言いますか。",
+      "options": {
+        "A": "ビットレート",
+        "B": "解像度",
+        "C": "サンプリング周波数",
+        "D": "量子化数"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#149 (0.95)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\n[Thuật ngữ] Hãy chuyển sang tiếng Nhật: Tần số lấy mẫu\n\n✅ Đáp án: C — サンプリング周波数 = tần số lấy mẫu\nTần số lấy mẫu là tần số lấy mẫu (§14.2).\n\n❌ Các đáp án khác\nA: số mức lượng tử hóa — không khớp định nghĩa/yêu cầu câu hỏi.\nB: Tốc độ bit — không khớp định nghĩa/yêu cầu câu hỏi.\nD: độ phân giải — không khớp định nghĩa/yêu cầu câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "025"
+    },
+    {
+      "id": 724,
+      "question": "動画像では、1つ前の画像との違っている部分だけを記録して圧縮率を高める方法を何と言いますか。",
+      "options": {
+        "A": "量子化",
+        "B": "差分記録",
+        "C": "フーリエ変換",
+        "D": "標本化"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#189 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nTrong video, phương pháp chỉ ghi phần khác biệt so với khung hình trước để tăng tỷ lệ nén gọi là gì?\n\n✅ Đáp án: B — 差分記録 = Ghi chênh lệch (差分記録)\nTrong hình ảnh video, hầu như không có sự khác biệt giữa khung hình trước và khung hình sau, do đó tốc độ nén được tăng lên bằng cách chỉ ghi các phần khác nhau (được sử dụng trong MPEG).\n\n❌ Các đáp án khác\nA: Nén run-length — không đúng với nội dung câu hỏi.\nC: Biến đổi Fourier — không đúng với nội dung câu hỏi.\nD: Lượng tử hóa — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "027"
+    },
+    {
+      "id": 725,
+      "question": "動画像では、静止画圧縮と差分記録を組み合わせて圧縮率を高めた形式として、よく用いられるものは何ですか。",
+      "options": {
+        "A": "GIF",
+        "B": "PNG",
+        "C": "MPEG",
+        "D": "JPEG"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#238 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nVideo dùng nén ảnh tĩnh + ghi chênh lệch → định dạng?\n\n✅ Đáp án: C — MPEG\nNén ảnh tĩnh + ghi vi sai = MPEG.\n\n❌ Các đáp án khác\nA: JPEG — không đúng với nội dung câu hỏi.\nB: GIF — không đúng với nội dung câu hỏi.\nD: PNG — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "028"
+    },
+    {
+      "id": 726,
+      "question": "2進数1.111を10進数で表現したものはどれか。",
+      "options": {
+        "A": "1.75",
+        "B": "1.875",
+        "C": "1.88",
+        "D": "1.625"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#231 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\n1.111₂ = ?₁₀\n\n✅ Đáp án: A — 1.875\n1 + 0,5 + 0,25 + 0,125 = 1,875.\n\n❌ Các đáp án khác\nB: 1.75 — không đúng với nội dung câu hỏi.\nC: 1.5 — không đúng với nội dung câu hỏi.\nD: 2.0 — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "030"
+    },
+    {
+      "id": 727,
+      "question": "10進数155を2進数で表したものはどれか。",
+      "options": {
+        "A": "10110011",
+        "B": "11011001",
+        "C": "10011011",
+        "D": "11001101"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#230 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\n155₁₀ = ?₂\n\n✅ Đáp án: A — 10011011\n155=128+16+8+2+1 → 10011011₂.\n\n❌ Các đáp án khác\nB: 10011100 — không đúng với nội dung câu hỏi.\nC: 10101011 — không đúng với nội dung câu hỏi.\nD: 11001011 — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "032"
+    },
+    {
+      "id": 728,
+      "question": "「帯域幅」はどのように読みますか。ベトナム語で何ですか。",
+      "options": {
+        "A": "たいいきはば - chiều rộng dải tần",
+        "B": "だいいきはば - chiều rộng băng thông",
+        "C": "だいいきはば - chiều rộng dải tần"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#241 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nBạn đọc \"băng thông\" như thế nào? Tiếng Việt là gì?\n\n✅ Đáp án: A — たいいきはば - chiều rộng dải tần = taiikihaba - chiều rộng dải tần\nBăng thông = băng thông = băng thông / Dải tần rộng.\n\n❌ Các đáp án khác\nB: … băng hẹp — không đúng với nội dung câu hỏi.\nC: … tần số — không đúng với nội dung câu hỏi.\nD: … độ trễ — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "034"
+    },
+    {
+      "id": 729,
+      "question": "二つの2進数01011010と01101011を加算して得られる2進数はどれか。ここで、2進数は値が正の8ビットで表現するものとする。",
+      "options": {
+        "A": "00110001",
+        "B": "11000101",
+        "C": "01111011",
+        "D": "10000100"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#686 (0.95)",
+      "alt": null,
+      "explanation": "✅ Đáp án: D — 11000101\n01011010₂=90, 01101011₂=107, 90+107=197=11000101₂ (8-bit dương).",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "036"
+    },
+    {
+      "id": 730,
+      "question": "圧縮・解凍ソフトでファイルを圧縮したとき、圧縮方式によって付けられる拡張子として正しいものはどれですか。",
+      "options": {
+        "A": "docx、xlsx、pptx",
+        "B": "jpg、png、gif",
+        "C": "zip、lzh、gz",
+        "D": "mp3、wav、midi"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#237 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nExtension nén file đúng là?\n\n✅ Đáp án: C — zip、lzh、gz = zip/lzh/gz\nVí dụ về phần mở rộng nén: zip/lzh/gz.\n\n❌ Các đáp án khác\nA: doc/xls/ppt — không đúng với nội dung câu hỏi.\nB: jpg/png/gif — không đúng với nội dung câu hỏi.\nD: exe/dll/sys — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "038"
+    },
+    {
+      "id": 731,
+      "question": "音情報の高さがデジタル化する。波の高さの最大値をいくつの整数として表すかを（①）と言い、（①）が大きいほど、きめ細かく数値化できるため、（②）が向上します。",
+      "options": {
+        "A": "①フーリエ変換；②波長",
+        "B": "①ランレングス；②性質",
+        "C": "①量子化数；②音質",
+        "D": "①サンプリング周波数；②波長"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#228 (1.00)",
+      "alt": null,
+      "explanation": "✅ Đáp án: C — ①量子化数；②音質\nSố mức lượng tử hóa càng lớn → số hóa biên độ mịn hơn → chất lượng âm tốt hơn.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "039"
+    },
+    {
+      "id": 732,
+      "question": "Aさんは、Bさんに機密文書を電子メールで送信するため、公開鍵暗号方式を用いて文書を暗号化することにした。このとき、Aさんが文書を暗号化するために使用するべき鍵はどれか。",
+      "options": {
+        "A": "Bさんの秘密鍵",
+        "B": "Aさんの公開鍵",
+        "C": "Aさんの秘密鍵",
+        "D": "Bさんの公開鍵"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#262 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nA quyết định sử dụng mã hóa khóa công khai để mã hóa tài liệu để gửi tài liệu bí mật cho B qua email. Tại thời điểm này, bạn nên SỬ dụng khóa nào để mã hóa tài liệu?\n\n✅ Đáp án: A — Bさんの公開鍵 = Khóa công khai của B\nĐáp án đúng là A. Khóa công khai của ông B\n\n❌ Các đáp án khác\nB: Khóa riêng của A — không đúng với nội dung câu hỏi.\nC: Khóa riêng của ông B — không đúng với nội dung câu hỏi.\nD: Khóa công khai của A — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "040"
+    },
+    {
+      "id": 733,
+      "question": "「小文字」はどのように読みますか。ベトナム語で何ですか。",
+      "options": {
+        "A": "しょうもじ - chữ in nhỏ",
+        "B": "しもじ - chữ in nhỏ",
+        "C": "こもじ - chữ in thường",
+        "D": "こうもじ - chữ in thường"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#233 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nBạn đọc “chữ thường” như thế nào? Tiếng Việt là gì?\n\n✅ Đáp án: C — こもじ - chữ in thường = komoji - chữ thường\nChữ thường = Komoji = chữ thường.\n\n❌ Các đáp án khác\nA: oomojii - chữ hoa — không đúng với nội dung câu hỏi.\nB: komoji - chữ số — không đúng với nội dung câu hỏi.\nD: daimoji… — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "041"
+    },
+    {
+      "id": 734,
+      "question": "10進数のマイナス5を、2の補数方式でコンピュータに表現する場合、8ビットパターンではどのようになるか。",
+      "options": {
+        "A": "1111 1011",
+        "B": "00000101",
+        "C": "11111010",
+        "D": "10000101"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#222 (0.95)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\n−5 ở hệ 10, bù 2 8-bit là?\n\n✅ Đáp án: A — 11111011\n+5=00000101 → Đảo ngược 11111010 → +1 thành 11111011.\n\n❌ Các đáp án khác\nB: 11111010 — không đúng với nội dung câu hỏi.\nC: 10000101 — không đúng với nội dung câu hỏi.\nD: 00000101 — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "042"
+    },
+    {
+      "id": 735,
+      "question": "デジタル画像は縦横に並んだ点の集まりとして表現されています。画像を構成する点を画素、もしくはなんと言いますか。",
+      "options": {
+        "A": "ビット",
+        "B": "コード",
+        "C": "ピクセル",
+        "D": "データ"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#687 (0.95)",
+      "alt": null,
+      "explanation": "✅ Đáp án: A — ピクセル\nĐiểm ảnh = pixel (画素).",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "043"
+    },
+    {
+      "id": 736,
+      "question": "2バイトで1文字を表すとき,何種類の文字まで表せるか。",
+      "options": {
+        "A": "32,768",
+        "B": "64,000",
+        "C": "65,536",
+        "D": "32,000"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#229 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\n1 chữ = 2 byte → tối đa bao nhiêu loại?\n\n✅ Đáp án: C — 65,536\n2 byte = 16 bit, 2¹⁶ = 65.536.\n\n❌ Các đáp án khác\nA: 256 — không đúng với nội dung câu hỏi.\nB: 1024 — không đúng với nội dung câu hỏi.\nD: 16,777,216 — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "044"
+    },
+    {
+      "id": 737,
+      "question": "Chọn cách gọi tên đúng của hệ thống trong hình",
+      "options": {
+        "A": "直列システム",
+        "B": "分散システム",
+        "C": "並列システム",
+        "D": "集中システム"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#294 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nChọn cách gọi tên đúng của hệ thống trong hình\n\n✅ Đáp án: B — 並列システム\nĐáp án đúng là B. Hệ song song\n\n❌ Các đáp án khác\nA: hệ thống loạt — không đúng với nội dung câu hỏi.\nC: hệ thống tập trung — không đúng với nội dung câu hỏi.\nD: hệ thống phân tán — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "045"
+    },
+    {
+      "id": 738,
+      "question": "データの（　　）と（　　）の対応を決めているのが文字コードです。",
+      "options": {
+        "A": "画像 - 音声",
+        "B": "数字 - 文字",
+        "C": "記号 - 数字",
+        "D": "音声 - 文字"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#235 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nMã ký tự quyết định tương ứng giữa ( ) và ( )?\n\n✅ Đáp án: D — 数字 - 文字 = số - chữ\nMã ký tự xác định sự tương ứng giữa số và chữ cái.\n\n❌ Các đáp án khác\nA: âm - ảnh — không đúng với nội dung câu hỏi.\nB: file - folder — không đúng với nội dung câu hỏi.\nC: nén - giải nén — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "047"
+    },
+    {
+      "id": 739,
+      "question": "プリンタの性能を表すとき、解像度は1インチ（2.54cm）あたりのドット数で表されます。この単位は何といいますか。",
+      "options": {
+        "A": "dpi",
+        "B": "pixel",
+        "C": "bit",
+        "D": "bps"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#702 (0.95)",
+      "alt": null,
+      "explanation": "✅ Đáp án: B — dpi\nĐộ phân giải máy in = dpi (dots per inch), không phải bit.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "048"
+    },
+    {
+      "id": 740,
+      "question": "ある回路の入力Xと出力Yの関係が、Y = NOT X で表されるとき、この回路は何回路と呼ばれますか。",
+      "options": {
+        "A": "OR回路",
+        "B": "XOR回路",
+        "C": "NOT回路",
+        "D": "AND回路"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#283 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nKhi mối quan hệ giữa đầu vào X và đầu ra Y của một mạch được biểu thị bằng Y = không phải X, mạch này được gọi là bao nhiêu mạch?\n\n✅ Đáp án: C — NOT回路\nĐáp án đúng là C. Mạch KHÔNG\n\n❌ Các đáp án khác\nA: OR回路 — không đúng với nội dung câu hỏi.\nB: AND回路 — không đúng với nội dung câu hỏi.\nD: XOR回路 — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "049"
+    },
+    {
+      "id": 741,
+      "question": "ぎざぎざの少ない、きれいな画像を得るためには、（　　）が多いほどよいですか。",
+      "options": {
+        "A": "画素数",
+        "B": "ファイルサイズ",
+        "C": "ビット数",
+        "D": "色数"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#221 (0.90)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nĐể ảnh mịn, ít răng cưa cần tăng gì?\n\n✅ Đáp án: A — 画素数 = Số pixel\nSố lượng pixel càng cao thì cạnh càng ít bị lởm chởm và hình ảnh càng rõ nét.\n\n❌ Các đáp án khác\nB: Parity bit — không đúng với nội dung câu hỏi.\nC: Số protocol — không đúng với nội dung câu hỏi.\nD: Domain — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "050"
+    },
+    {
+      "id": 742,
+      "question": "コンピュータのデータは何の並びで表現された数字ですか。",
+      "options": {
+        "A": "0と1（ビット）",
+        "B": "10進のみ固定",
+        "C": "文字Aのみ",
+        "D": "色名のみ"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#35 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nDữ liệu máy tính là dãy số biểu diễn bằng gì?\n\n✅ Đáp án: A — 0 và 1 (bit)\nMáy tính số dùng hệ nhị phân: mọi dữ liệu quy về bit 0/1.\n\n❌ Các đáp án khác\nB thập phân là cách người đọc. C/D không đủ biểu diễn mọi dữ liệu.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "054"
+    },
+    {
+      "id": 743,
+      "question": "100M ビット/秒の伝送速度の LAN を使用して,1G バイトのファイルを転送するのに必要な時間はおよそ何秒か。ここで,1K バイト=1000バイトとする。また,LAN の伝送効率は20%とする。",
+      "options": {
+        "A": "5000",
+        "B": "4",
+        "C": "50",
+        "D": "400"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#682 (0.90)",
+      "alt": null,
+      "explanation": "✅ Đáp án: A. 400\nNguồn ảnh zip 240 (CÂU HỎI 43 · img 129).\nĐáp án theo kiến thức JIT (bank stem).",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "058"
+    },
+    {
+      "id": 744,
+      "question": "非手続型プログラミング言語について正しいものをえらんでください。",
+      "options": {
+        "A": "管理の手順を与えます",
+        "B": "何をしたいか(What)を記述することで解を得る言語",
+        "C": "SQLなど目的の特化された定型的処理をする少数の言語が属します",
+        "D": "何をどうするか(How)を詳細に記述する言語"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#693 (0.90)",
+      "alt": null,
+      "explanation": "✅ Đáp án: D — 何をどうするか(How)を詳細に記述する言語\nProcedural: mô tả How. What = declarative/non-procedural (SQL…).",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "061"
+    },
+    {
+      "id": 745,
+      "question": "MIDI命令はデータ量としては何ビットとなりますか。",
+      "options": {
+        "A": "通常1〜3バイト程度のメッセージ",
+        "B": "必ず1ギガビット",
+        "C": "必ず1024ビット固定",
+        "D": "0ビット"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#20 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nLệnh MIDI có lượng dữ liệu khoảng bao nhiêu bit/byte?\n\n✅ Đáp án: A — Thường message khoảng 1–3 byte\nMIDI gửi lệnh nhạc (note on/off…) rất nhỏ: status + data, thường 1–3 byte, không phải gigabit.\n\n❌ Các đáp án khác\nB/C quá lớn/cố định sai. D 0 bit vô nghĩa.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "062"
+    },
+    {
+      "id": 746,
+      "question": "PCのOSに関する記述のうち,適切なものはどれか。",
+      "options": {
+        "A": "64ビットCPUに対応するPC用OSは開発されていない。",
+        "B": "PCのOSには,ハードディスク以外のCD-ROMやUSBメモリなどの外部記憶装置を利用して起動で",
+        "C": "OSのバージョンアップに伴い,旧バージョンのOS環境で動作していた全てのアプリケーションソ…なる。",
+        "D": "1台のPCにインストールして起動することのできるOSは1種類だけである。"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#34 (1.00)",
+      "alt": null,
+      "explanation": "✅ Đáp án: B. PCのOSには,ハードディスク以外のCD-ROMやUSBメモリなどの外部記憶装置を利用して起動で\nOS có thể khởi động từ thiết bị ngoài (CD/USB), không chỉ HDD.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "066"
+    },
+    {
+      "id": 747,
+      "question": "ヘルツについて正しいものをえらんでください。",
+      "options": {
+        "A": "文字の並び順を入れ替えて暗号化する方式である",
+        "B": "1秒あたりの波（音）の高さの測定回数を表す",
+        "C": "公開鍵と秘密鍵のペアを用いる現代暗号のみを指す",
+        "D": "データを圧縮してから必ず削除する方式である"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#25 (0.83)",
+      "alt": null,
+      "explanation": "✅ Đáp án: A — 文字の並び順を入れ替えて暗号化する方式\n転置式暗号 (transposition): giữ ký tự, đổi thứ tự sắp xếp.\nKhác 置換 (thay ký tự). B là định nghĩa sampling rate — không liên quan mã hóa.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "067"
+    },
+    {
+      "id": 748,
+      "question": "「添え字」はベトナム語で何ですか。",
+      "options": {
+        "A": "chỉ số trên",
+        "B": "chỉ số gán",
+        "C": "chỉ số cố định",
+        "D": "chỉ số dưới"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#635 (0.82)",
+      "alt": null,
+      "explanation": "✅ Đáp án: C — chỉ số dưới\n添字 = subscript (chỉ số dưới), không phải chỉ số trên.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "069"
+    },
+    {
+      "id": 749,
+      "question": "プログラム言語に関する次の記述a〜cのうち,適切なものだけをすべて挙げたものはどれか。\na 機械語やアセンブリ言語で作成されたプログラムは,特定の CPU に依存するこ\nb コンパイラで変換されるプログラムは,最終的には機械語に変換されてから実\nc 人間の言葉に近い規則をもったプログラム言語(高水準言語)を活用すれば,機…行できるプログラムが開発できる。",
+      "options": {
+        "A": "b",
+        "B": "a,c",
+        "C": "b,c",
+        "D": "a"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#655 (0.90)",
+      "alt": null,
+      "explanation": "✅ Đáp án: A — b,c\na SAI: machine/assembly phụ thuộc CPU. b,c đúng về compiler & high-level language.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "071"
+    },
+    {
+      "id": 750,
+      "question": "「bộ vi xử lý」は日本語でなんですか。",
+      "options": {
+        "A": "マイクロプロセッサ",
+        "B": "マイクロプロセッサー",
+        "C": "デバイスドライバ",
+        "D": "マザーボード"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#260 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nBạn có sử dụng từ tiếng Nhật \"bư vi xư lý\" không?\n\n✅ Đáp án: C — マイクロプロセッサ = Bộ vi xử lý\nĐáp án đúng là C. vi xử lý\n\n❌ Các đáp án khác\nA: Bộ vi xử lý — không đúng với nội dung câu hỏi.\nB: Chương trình điều khiển — không đúng với nội dung câu hỏi.\nD: Motherboard — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "074"
+    },
+    {
+      "id": 751,
+      "question": "「論理和」は何ですか。",
+      "options": {
+        "A": "NOT回路の演算",
+        "B": "AND回路の演算",
+        "C": "OR回路の演算",
+        "D": "複合回路の演算"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#198 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\n\"Tổng hợp lý\" là gì?\n\n✅ Đáp án: D — OR回路の演算 = Phép OR\nTổng logic = OR, tích logic = AND, phủ định logic = NOT.\n\n❌ Các đáp án khác\nA: Phép AND — không đúng với nội dung câu hỏi.\nB: Phép NOT — không đúng với nội dung câu hỏi.\nC: Phép XOR — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "076"
+    },
+    {
+      "id": 752,
+      "question": "チューリングマシンは何から構造されますか。",
+      "options": {
+        "A": "ヘッド、メモリ",
+        "B": "ヘッド、テープ、メモリ",
+        "C": "ヘッド、テープ",
+        "D": "テープ、メモリ"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#259 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nMáy Turing bao gồm những gì?\n\n✅ Đáp án: B — ヘッド、テープ = Đầu, băng dính\nCâu trả lời đúng là B. đầu, băng\n\n❌ Các đáp án khác\nA: Đầu, băng, bộ nhớ — không đúng với nội dung câu hỏi.\nC: Băng, Bộ nhớ — không đúng với nội dung câu hỏi.\nD: Đầu, Bộ nhớ — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "077"
+    },
+    {
+      "id": 753,
+      "question": "第２世代携帯電話の改善点は何ですか。",
+      "options": {
+        "A": "データ通信が高速になりました",
+        "B": "携帯電話でさまざまなアプリケーションをストレスなく利用することができます",
+        "C": "音質が向上し，秘話性能も考慮されるようになりました",
+        "D": "管理し，ユーザ端末は入出力のみを行う"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#657 (0.95)",
+      "alt": null,
+      "explanation": "✅ Đáp án: C — 音質が向上し，秘話性能も考慮されるようになりました\n2G: số hóa, chất lượng thoại & bảo mật tốt hơn 1G. App mượt là 3G/smartphone.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "084"
+    },
+    {
+      "id": 754,
+      "question": "フリーウェアとシェアウェアの違いについて、正しい説明はどれですか。",
+      "options": {
+        "A": "フリーウェアは試用期間後に料金を支払う必要があるが、シェアウェアは永久に無料で使用できる。",
+        "B": "フリーウェアは常に機能制限があり、シェアウェアは試用期間中も全ての機能を利用できる。",
+        "C": "シェアウェアは無料で入手できるが、継続して使用するには登録と料金の支払いが必要な場合がある。",
+        "D": "シェアウェアは商業的利益を目的とせず、フリーウェアは必ず有料で提供される。"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#234 (1.00)",
+      "alt": null,
+      "explanation": "✅ Đáp án: C — シェアウェアは無料で入手できるが、継続使用に登録・料金が必要な場合がある\nShareware: dùng thử miễn phí, dùng lâu có thể phải trả. Freeware: miễn phí (không đảo ngược như A/B/D).",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "086"
+    },
+    {
+      "id": 755,
+      "question": "「商品カテゴリコード」「商品カテゴリ名」のフィールドを持つ\"商品カテゴリ\"表と、「仕入先コード」「仕入先名」のフィールドを持つ\"仕入先\"表、および\"商品\"表の3つの表を結合して、次のフィールドを持つ表を作成した。\n「商品コード」「商品名」「商品カテゴリ名」「仕入先名」「単価」\n結合した\"商品\"表はどれか。",
+      "options": {
+        "A": "「商品コード」「商品名」「単価」「商品カテゴリコード」",
+        "B": "「商品コード」「商品名」「単価」",
+        "C": "「商品コード」「商品名」「単価」「商品カテゴリコード」「仕入先コード」",
+        "D": "「商品コード」「商品名」「単価」「仕入先コード」"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#653 (0.95)",
+      "alt": null,
+      "explanation": "✅ Đáp án: D — 商品コード・商品名・単価・商品カテゴリコード・仕入先コード\nBảng商品 đã có FK category + supplier; join giữ các khóa đó.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "092"
+    },
+    {
+      "id": 756,
+      "question": "札幌にある日本料理の店と函館にある日本料理の店をまとめて探したい。検索条件を表す論理式はどれか。",
+      "options": {
+        "A": "(\"札幌\"AND\"函館\")OR\"日本料理\"",
+        "B": "(\"札幌\"OR\"函館\")AND\"日本料理\"",
+        "C": "(\"札幌\"AND\"函館\")AND\"日本料理\"",
+        "D": "(\"札幌\"OR\"函館\")OR\"日本料理\""
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#648 (0.95)",
+      "alt": null,
+      "explanation": "✅ Đáp án: D — (\"札幌\"OR\"函館\")AND\"日本料理\"\nNhà hàng Nhật ở Sapporo hoặc Hakodate: OR hai thành phố, AND món Nhật.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "094"
+    },
+    {
+      "id": 757,
+      "question": "データ量の大小関係のうち,正しいものはどれか。",
+      "options": {
+        "A": "1バイト <1kバイト<1Mバイト<1Gバイト",
+        "B": "1バイト <1Mバイト <1Gバイト <1Tバイト",
+        "C": "1バイト <1Mバイト <1Tバイト<1Gバイト",
+        "D": "1バイト <1Tバイト<1Mバイト<1Gバイト"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#205 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nQuan hệ dung lượng đúng là?\n\n✅ Đáp án: B — 1kバイト < 1Mバイト < 1Gバイト < 1Tバイト = k < M < G < T\nThứ tự k < M < G < T.\n\n❌ Các đáp án khác\nA: G < M < k — không đúng với nội dung câu hỏi.\nC: T < G < M — không đúng với nội dung câu hỏi.\nD: M < k < G — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "095"
+    },
+    {
+      "id": 758,
+      "question": "プログラミングにおける四則演算について、正しい説明をしているものどれですか。",
+      "options": {
+        "A": "剰余演算（％）は四則演算には含まれないため、加算（+）や乗算（*）と同じ優先順位では扱われない。",
+        "B": "プログラミングでは、数学と同じで乗算（*）と除算（/）より加算（+）と減算（-）の優先順位が高いため、常に計算順序を意識する必要はない。",
+        "C": "整数同士の除算（例: 7 / 2）を実行した場合、ほとんどのプログラミング言語では、自動的に小数部が丸められた整数（この場合、3）が結果として得られる。",
+        "D": "括弧（）は演算の優先順位を明示的に変更するために使用でき、括弧内の計算は最も優先して実行される。"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#630 (0.90)",
+      "alt": null,
+      "explanation": "✅ Đáp án: A — 括弧で優先順位を明示的に変更できる\nNgoặc có độ ưu tiên cao nhất. B: không phải mọi ngôn ngữ đều làm tròn 7/2→3. D: * / ưu tiên hơn + -.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "097"
+    },
+    {
+      "id": 759,
+      "question": "見かけ上の記憶容量を実際のメモリ容量よりも大きくし、不足する部分をハードディスクで補うことで、大きなメモリ空間を確保する仕組みを何と言いますか。",
+      "options": {
+        "A": "仮想記憶",
+        "B": "キャッシュメモリ",
+        "C": "主記憶",
+        "D": "マルチタスク"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#700 (0.95)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nLàm dung lượng nhớ “ảo” lớn hơn RAM thật gọi là gì?\n\n✅ Đáp án: C — Bộ nhớ ảo (仮想記憶)\nBộ nhớ ảo sử dụng ổ cứng HDD, v.v. để mở rộng bộ nhớ rõ ràng.\n\n❌ Các đáp án khác\nA: Cache — không đúng với nội dung câu hỏi.\nB: Chỉ swapping — không đúng với nội dung câu hỏi.\nD: Defrag — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "099"
+    },
+    {
+      "id": 760,
+      "question": "「RAM」は英語で何ですか。",
+      "options": {
+        "A": "Random Access Memory",
+        "B": "Read Array Memory",
+        "C": "Read Access Memory",
+        "D": "Random Array Memory"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#272 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\n\"RAM\" trong tiếng Anh là gì?\n\n✅ Đáp án: D — Random Access Memory\nĐáp án đúng là D. Bộ nhớ truy cập ngẫu nhiên\n\n❌ Các đáp án khác\nA: Random Array Memory — không đúng với nội dung câu hỏi.\nB: Read Array Memory — không đúng với nội dung câu hỏi.\nC: Read Access Memory — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "101"
+    },
+    {
+      "id": 761,
+      "question": "ある企業のデータセンターには、重要な役割を果たすサーバーがあります。このサーバーの稼動データを分析したところ、平均故障間隔が500時間、平均修復時間が10時間であることが分かりました。このサーバーの稼働率はおよそいくつですか。次の中から最も近い値を選びなさい。",
+      "options": {
+        "A": "99.5%",
+        "B": "98.0%",
+        "C": "97.0%",
+        "D": "99.0%"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#268 (0.95)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nTrung tâm dữ liệu của công ty có các máy chủ đóng vai trò quan trọng. Sau khi phân tích dữ liệu hoạt động của máy chủ này, chúng tôi nhận thấy khoảng thời gian lỗi trung bình là 500 giờ và thời gian sửa chữa trung bình là 10 giờ. Máy chủ này có bao nhiêu thời gian hoạt động?\n\n✅ Đáp án: A — 98.0%\nCâu trả lời đúng là A. 98,0%\n\n❌ Các đáp án khác\nB: 97.0% — không đúng với nội dung câu hỏi.\nC: 99.0% — không đúng với nội dung câu hỏi.\nD: 99.5% — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "102"
+    },
+    {
+      "id": 762,
+      "question": "「ブロードバンド」は英語で何ですか。ベトナム語で何ですか。",
+      "options": {
+        "A": "broadband - băng rộng",
+        "B": "buroadband - băng rộng",
+        "C": "brodband - băng tần",
+        "D": "burodband - băng tần"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#286 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\n\"Băng thông rộng\" trong tiếng Anh là gì? Tiếng Việt là gì?\n\n✅ Đáp án: A — broadband - băng rộng\nĐáp án đúng là A. băng thông rộng - băng rộng\n\n❌ Các đáp án khác\nB: brodband - băng tần — không đúng với nội dung câu hỏi.\nC: buroadband - băng rộng — không đúng với nội dung câu hỏi.\nD: burodband - băng tần — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "103"
+    },
+    {
+      "id": 763,
+      "question": "「転置式」はどのように読みますか。ベトナム語で何ですか。",
+      "options": {
+        "A": "てんほうしき - mã hóa hoán vị",
+        "B": "てんちしき - kiểu hoán vị",
+        "C": "うんちしき - mã hóa hoán vị",
+        "D": "うんほうしき - kiểu hoán vị"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#282 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nBạn đọc \"chuyển vị\" như thế nào? Tiếng Việt là gì?\n\n✅ Đáp án: C — てんちしき - kiểu hoán vị = Tencchi Shiki - kiưu hoán vư\nCâu trả lời đúng là C. Tenchishiki - loại dịp\n\n❌ Các đáp án khác\nA: Ten Hoshiki - mã hóa hoán vư — không đúng với nội dung câu hỏi.\nB: Poop Shiki - mã hóa hoán vư — không đúng với nội dung câu hỏi.\nD: Um Houshiki - kiưu hoán vư — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "106"
+    },
+    {
+      "id": 764,
+      "question": "コンピュータのCPUにおいて、バスの主な役割として最も適切なものはどれか。",
+      "options": {
+        "A": "演算装置と制御装置の処理速度を向上させること",
+        "B": "命令を解釈し、他の装置に制御信号を送ること",
+        "C": "電源をコンピュータの各部位に供給すること",
+        "D": "CPU内部でデータのやりとえいをすること"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#293 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nVai trò nào sau đây là thích hợp nhất cho bus trong CPU máy tính?\n\n✅ Đáp án: C — CPU内部でデータのやりとりをすること\nCâu trả lời đúng là C. trao đổi dữ liệu trong CPU\n\n❌ Các đáp án khác\nA: Cải thiện tốc độ xử lý của các đơn vị số học và đơn vị điều khiển — không đúng với nội dung câu hỏi.\nB: Cấp nguồn cho từng bộ phận của máy tính — không đúng với nội dung câu hỏi.\nD: Giải thích các lệnh và gửi tín hiệu điều khiển đến các thiết bị khác — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "107"
+    },
+    {
+      "id": 765,
+      "question": "ある会社のシステムは、3つの装置A、B、Cで構成されています。AとBは並列接続され、それらがCと直列接続されています。各装置の稼働率はそれぞれ0.99、0.98、0.95です。このシステム全体の可用性はおよそいくつですか。次の中から最も近い値を選びなさい。",
+      "options": {
+        "A": "89.5%",
+        "B": "91.0%",
+        "C": "94.0%",
+        "D": "92.5%"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#290 (0.95)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nHệ thống của một công ty bao gồm ba thiết bị: A, B và C. A và B được mắc song song và chúng được mắc nối tiếp với C. Khi tốc độ hoạt động của mỗi thiết bị lần lượt là 0,9, 0,9 và 0,95 thì tốc độ hoạt động của toàn bộ hệ thống là bao nhiêu?\n\n✅ Đáp án: C — 94.0%\nCâu trả lời đúng là C. 94,0%\n\n❌ Các đáp án khác\nA: 89.5% — không đúng với nội dung câu hỏi.\nB: 92.5% — không đúng với nội dung câu hỏi.\nD: 91.0% — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "108"
+    },
+    {
+      "id": 766,
+      "question": "「流通過程」はベトナム語で何ですか。",
+      "options": {
+        "A": "quá trình di chuyển",
+        "B": "quá trình vận hành",
+        "C": "quá trình lưu thông",
+        "D": "quá trình vận hành"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#285 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\n“Quy trình phân phối” trong tiếng Việt là gì?\n\n✅ Đáp án: B — quá trình lưu thông\nCâu trả lời đúng là B. quá trình lưu thông tin\n\n❌ Các đáp án khác\nA: quá trình di chuyển — không đúng với nội dung câu hỏi.\nC: quá trình vận hành — không đúng với nội dung câu hỏi.\nD: quá trình vận hành — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "109"
+    },
+    {
+      "id": 767,
+      "question": "ダイオードと半導体について、正しいものはどれですか。",
+      "options": {
+        "A": "ダイオードは、p型からn型に電子が移動するため、p型からn型の方向に電流が流れる。",
+        "B": "LEDは一般のダイオードとは構造が異なり、光を発しないという点で区別される。",
+        "C": "電流が流れる方向と電子の移動する方向は逆である。",
+        "D": "n型半導体は電子が不足しており、p型半導体は電子が過剰であるため安定している。"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#284 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nĐiều nào sau đây đúng về điốt và chất bán dẫn?\n\n✅ Đáp án: D — 電流が流れる方向と電子の移動する方向は逆である。 = Hướng mà dòng điện chạy và hướng mà các electron di chuyển bị đảo ngược.\nCâu trả lời đúng là D. Chiều dòng điện chạy và chiều chuyển động của các electron ngược chiều nhau.\n\n❌ Các đáp án khác\nA: Đèn LED được phân biệt với các điốt thông thường ở chỗ chúng khác nhau về cấu trúc và không phát ra ánh sáng. — không đúng với nội dung câu hỏi.\nB: Vì diode di chuyển các electron từ loại p sang loại n, dòng điện chạy theo hướng từ loại p sang loại n. — không đúng với nội dung câu hỏi.\nC: chất bán dẫn loại N thiếu electron, và chất bán dẫn loại p là ổn định do có quá nhiều electron. — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "110"
+    },
+    {
+      "id": 768,
+      "question": "NTTドコモのFOMAの商品は何世代携帯電話のものですか。",
+      "options": {
+        "A": "2G",
+        "B": "3G",
+        "C": "3.5G",
+        "D": "4G"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#288 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nSản phẩm FOMA của NTT Docomo thuộc thế hệ điện thoại di động nào?\n\n✅ Đáp án: C — 3G\nĐáp án đúng là C. 3G\n\n❌ Các đáp án khác\nA: 4G — không đúng với nội dung câu hỏi.\nB: 2G — không đúng với nội dung câu hỏi.\nD: 3.5G — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "111"
+    },
+    {
+      "id": 769,
+      "question": "クロック周波数3 GHz のプロセッサにおいて、1 つの命令が 6 クロック で実行できるとき、時間は何ナノ秒か。",
+      "options": {
+        "A": "18.0",
+        "B": "2.0",
+        "C": "3.0",
+        "D": "0.5"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#256 (0.95)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nTrong bộ xử lý có tần số xung nhịp 3 GHz, khi một lệnh có thể được thực thi ở 6 xung nhịp, cần bao nhiêu nano giây để thực thi một lệnh?\n\n✅ Đáp án: A — 2.0\nCâu trả lời đúng là A. 2.0\n\n❌ Các đáp án khác\nB: 3.0 — không đúng với nội dung câu hỏi.\nC: 0.5 — không đúng với nội dung câu hỏi.\nD: 18.0 — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "112"
+    },
+    {
+      "id": 770,
+      "question": "指先とのセンサの間に蓄えられる電荷を測定する方式は何の方式ですか。",
+      "options": {
+        "A": "CMOSのセンサの方式",
+        "B": "抵抗膜方式",
+        "C": "セグメントの方式",
+        "D": "静電容量方式"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#291 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nPhương pháp nào được sử dụng để đo điện tích tích lũy giữa đầu ngón tay và cảm biến?\n\n✅ Đáp án: C — 静電容量方式\nĐáp án đúng là C. Phương pháp điện dung\n\n❌ Các đáp án khác\nA: Phương pháp cảm biến CMOS — không đúng với nội dung câu hỏi.\nB: Phương pháp phân đoạn — không đúng với nội dung câu hỏi.\nD: Phương pháp màng điện trở — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "116"
+    },
+    {
+      "id": 771,
+      "question": "コンピュータウィルスについて正しくないものをえらんでください。",
+      "options": {
+        "A": "人為的に作成されたプログラム",
+        "B": "伝染し，潜伏期間をおいて発病する過程が生物のウィルス",
+        "C": "感染経路は，USBメモリやインターネットを利用したメール，ホームページを経由す",
+        "D": "個人のパソコンをねらった犯罪"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#277 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nVirus máy tính có gì không đúng?\n\n✅ Đáp án: B — 個人のパソコンをねらった犯罪 = Tội phạm chống lại máy tính cá nhân\nĐáp án đúng là B. Tội phạm nhắm vào máy tính cá nhân\n\n❌ Các đáp án khác\nA: Quá trình nhiễm trùng và khởi phát với thời gian ủ bệnh là virus của sinh vật — không đúng với nội dung câu hỏi.\nC: Các chương trình do con người tạo ra — không đúng với nội dung câu hỏi.\nD: Thông qua đường lây nhiễm, gửi email bằng bộ nhớ USB hoặc Internet hoặc trang chủ — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "117"
+    },
+    {
+      "id": 772,
+      "question": "以下のメモリ部品の中で、アクセス速度が一番速いのはどちらですか。",
+      "options": {
+        "A": "ハードディスク",
+        "B": "USB",
+        "C": "メモリ",
+        "D": "キャッシュ"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#265 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nThành phần bộ nhớ nào sau đây có tốc độ truy cập nhanh nhất?\n\n✅ Đáp án: D — キャッシュ = Nhớ tạm\nĐáp án đúng là D. cache\n\n❌ Các đáp án khác\nA: Harddisk — không đúng với nội dung câu hỏi.\nB: USB — không đúng với nội dung câu hỏi.\nC: Bộ nhớ — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "118"
+    },
+    {
+      "id": 773,
+      "question": "「周波数帯」はどのように読みますか。ベトナム語で何ですか。",
+      "options": {
+        "A": "しゅうはすうたい - dải tần số",
+        "B": "しゅばすうだい- dải tần số",
+        "C": "しゅうぱすうだい - băng tần",
+        "D": "しゅはすうたい-băng tần"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#247 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nBạn đọc “dải tần số” như thế nào? Tiếng Việt là gì?\n\n✅ Đáp án: C — しゅうはすうたい - dải tần số = shuuhasuutai - dải tần số\nDải tần=dải tần / băng tần.\n\n❌ Các đáp án khác\nA: shuuhasuutai - băng tần (nghĩa hẹp) — không đúng với nội dung câu hỏi.\nB: đọc sai — không đúng với nội dung câu hỏi.\nD: đọc sai — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "123"
+    },
+    {
+      "id": 774,
+      "question": "「DoS」はベトナム語で何ですか。",
+      "options": {
+        "A": "hệ thống vạn năng",
+        "B": "hệ thống Ram động",
+        "C": "tiêu chuẩn mã hóa dữ liệu",
+        "D": "tấn công từ chối dịch vụ"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#267 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\n“DoS” trong tiếng Việt là gì?\n\n✅ Đáp án: A — tấn công từ chối dịch vụ\nCâu trả lời đúng là A. tấn công từ chối dịch vụ\n\n❌ Các đáp án khác\nB: tiêu chuẩn mã hóa dữ liệu — không đúng với nội dung câu hỏi.\nC: hệ thống vạn năng — không đúng với nội dung câu hỏi.\nD: hệ thống Ram động — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "126"
+    },
+    {
+      "id": 775,
+      "question": "OSIのセッション層（第5層）の主な役割として、最も適切なものはどれですか。",
+      "options": {
+        "A": "通信媒体を通じてビット信号を伝送するための電気的・機械的規格を定める。",
+        "B": "通信相手までのデータの転送経路を決定し、論理アドレスを管理する。",
+        "C": "データの形式（文字コードや暗号化など）を変換し、アプリケーション層が扱える形式に変換する。",
+        "D": "通信の開始から終了までの手順を管理する。"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#254 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nVai trò nào sau đây là vai trò chính thích hợp nhất của Lớp Phiên OSI (Lớp 5)?\n\n✅ Đáp án: A — 通信の開始から終了までの手順を管理する。 = Quản lý quy trình từ đầu đến cuối giao tiếp.\nCâu trả lời đúng là A. Quản lý quy trình từ đầu đến cuối giao tiếp.\n\n❌ Các đáp án khác\nB: Xác định lộ trình chuyển tiếp dữ liệu đến đối tác truyền thông và quản lý địa chỉ logic. — không đúng với nội dung câu hỏi.\nC: Xác định các tiêu chuẩn điện và cơ học để truyền tín hiệu bit thông qua phương tiện truyền thông. — không đúng với nội dung câu hỏi.\nD: Chuyển đổi định dạng của dữ liệu (mã hóa ký tự, mã hóa, v.v.) thành định dạng có thể được xử lý bởi lớp ứng dụng. — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "127"
+    },
+    {
+      "id": 776,
+      "question": "「_」のキーボードの記号はどのように読みますか。",
+      "options": {
+        "A": "アンダーバー",
+        "B": "アスタリスク",
+        "C": "チルダ",
+        "D": "ハット"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#279 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nBạn đọc các biểu tượng trên_keyboard như thế nào?\n\n✅ Đáp án: C — アンダーバー = Ga ̣ ch dươ ́\nĐáp án đúng là C. dưới vạch\n\n❌ Các đáp án khác\nA: Dấu hoa thị — không đúng với nội dung câu hỏi.\nB: 3 - 1 8, ném! — không đúng với nội dung câu hỏi.\nD: Dấu ngã — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "128"
+    },
+    {
+      "id": 777,
+      "question": "国際標準の携帯電話で利用できるアプリケーションを決定するのが何と呼ぶソフトウェアですか。",
+      "options": {
+        "A": "ガラパゴス携帯",
+        "B": "電子マネー",
+        "C": "オペレーティングシステム",
+        "D": "アプリケーション"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#246 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nPhần mềm quyết định app chạy được trên ĐTDĐ chuẩn quốc tế?\n\n✅ Đáp án: B — オペレーティングシステム = Hệ điều hành (OS)\nHệ điều hành xác định ứng dụng nào có thể được sử dụng.\n\n❌ Các đáp án khác\nA: Ứng dụng — không đúng với nội dung câu hỏi.\nC: Tiền điện tử — không đúng với nội dung câu hỏi.\nD: Galapagos phone — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "129"
+    },
+    {
+      "id": 778,
+      "question": "「OSI」について、正しいものはどれですか。",
+      "options": {
+        "A": "モデルの最下位層はアプリケーション層であり、Webブラウザやメールソフトなどの動作を規定している。",
+        "B": "モデルを構成する階層の数は、ネットワークの形態によって変化し、必ずしも7層とは限らない。",
+        "C": "通信の手順であるプロトコルを機能ごとに7つの階層に分けて定義したモデルである。",
+        "D": "特定のベンダーに依存しない、オープンなシステム間の通信を実現するためのハードウェアの規格を定めたモデルである。（ベンダー: nhà cung cấp, nhà sản xuất）"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#193 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nPhát biểu nào ĐÚNG về OSI?\n\n✅ Đáp án: C — 通信の手順であるプロトコルを機能ごとに7つの階層に分けて定義したモデルである = Mô hình chia protocol thành 7 tầng\nMô hình tham chiếu OSI xác định các giao thức bằng cách chia chúng thành bảy lớp.\n\n❌ Các đáp án khác\nA: Đơn vị đo tốc độ — không đúng với nội dung câu hỏi.\nB: Một trong 5 thành phần máy tính — không đúng với nội dung câu hỏi.\nD: Một kiểu mã hóa — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "130"
+    },
+    {
+      "id": 779,
+      "question": "個人のパソコンをねらった()としてウイルスが代表的です。",
+      "options": {
+        "A": "病気",
+        "B": "行為",
+        "C": "もの",
+        "D": "犯罪"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#244 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nVirus là ví dụ điển hình của ( ) nhắm PC cá nhân?\n\n✅ Đáp án: A — 犯罪 = tội phạm / 犯罪\nVirus là một ví dụ về tội phạm máy tính.\n\n❌ Các đáp án khác\nB: hành vi — không đúng với nội dung câu hỏi.\nC: đồ vật — không đúng với nội dung câu hỏi.\nD: bệnh — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "136"
+    },
+    {
+      "id": 780,
+      "question": "「PLC」はベトナム語で何ですか。",
+      "options": {
+        "A": "nối mạng qua hệ thống điện nhà",
+        "B": "truyền dữ liệu bằng tia hồng ngoại",
+        "C": "truyền hình cáp dây dẫn",
+        "D": "cáp quang đến tận nhà"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#243 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nPLC tiếng Việt?\n\n✅ Đáp án: A — Nối mạng qua điện nhà\nPLC = Truyền thông đường dây điện.\n\n❌ Các đáp án khác\nB: Truyền hình cáp — không đúng với nội dung câu hỏi.\nC: FTTH — không đúng với nội dung câu hỏi.\nD: Hồng ngoại — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "137"
+    },
+    {
+      "id": 781,
+      "question": "「サイマル放送」はベトナム語で何ですか。",
+      "options": {
+        "A": "phát sóng cùng một lúc",
+        "B": "phát sóng từng đoạn",
+        "C": "phát sóng qua vệ tinh",
+        "D": "phát sóng tạm thời"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#251 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nPhát sóng Simal bằng tiếng Việt là gì?\n\n✅ Đáp án: D — phát sóng cùng một lúc\nĐáp án đúng là D. phát bài hát cùng một lúc\n\n❌ Các đáp án khác\nA: phát sóng qua vệ tinh — không đúng với nội dung câu hỏi.\nB: phát sóng tạm thời — không đúng với nội dung câu hỏi.\nC: phát sóng từng đoạn — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "145"
+    },
+    {
+      "id": 782,
+      "question": "メモリ空間には、番地が割り当てられるところが何と呼ばれましたか。",
+      "options": {
+        "A": "記憶アドレス",
+        "B": "Cookie",
+        "C": "Cache",
+        "D": "ハードディスク"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#276 (0.95)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nTên của địa điểm nơi số đường phố được chỉ định cho không gian bộ nhớ là gì?\n\n✅ Đáp án: D — 記憶アドレス = Địa chỉ lưu trữ\nĐáp án đúng là D. địa chỉ bộ nhớ\n\n❌ Các đáp án khác\nA: Cookie — không đúng với nội dung câu hỏi.\nB: Harddisk — không đúng với nội dung câu hỏi.\nC: Cache — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "147"
+    },
+    {
+      "id": 783,
+      "question": "（________）に入れるのに もっとも 適当なものを 1つ 選んでください。\nサーバとなっているコンピュータには、（________）が記録されています",
+      "options": {
+        "A": "重要な情報端末",
+        "B": "重要なアプリケーシ",
+        "C": "重要なサービス",
+        "D": "重要な情報"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#645 (0.90)",
+      "alt": null,
+      "explanation": "✅ Đáp án: B — 重要な情報\nMáy server lưu thông tin quan trọng (dữ liệu/dịch vụ cung cấp).",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "153"
+    },
+    {
+      "id": 784,
+      "question": "LAN（Local Area Network）について、正しいものはどれですか.",
+      "options": {
+        "A": "LANは、ネットワーク管理者が歩いて機器の状態をチェックできる程度の局所的な範囲を指すことが多い。",
+        "B": "LANは、広域な地域を結ぶ大規模なネットワークであり、インターネットはWANの一種である。",
+        "C": "LANとWANの区別は明確で、一つの企業内のネットワークは、支店が複数あっても常にLANとして分類される。",
+        "D": "LANにはコンピュータやプリンタのみが接続され、家電製品が接続されることはない。"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#252 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nĐiều nào sau đây đúng về Mạng cục bộ (Lan)?\n\n✅ Đáp án: D — LANは、ネットワーク管理者が歩いて機器の状態をチェックできる程度の局所的な範囲を指すことが多い。 = Mạng LAN thường đề cập đến một phạm vi cục bộ trong phạm vi mà quản trị viên mạng có thể đi bộ để kiểm tra trạng thái của thiết bị.\nCâu trả lời đúng là D. Mạng LAN thường dùng để chỉ một khu vực cục bộ nơi quản trị viên mạng có thể đi lại và kiểm tra trạng thái của thiết bị.\n\n❌ Các đáp án khác\nA: Mạng LAN là các mạng lớn kết nối các khu vực rộng lớn và Internet là một loại mạng WAN. — không đúng với nội dung câu hỏi.\nB: Sự khác biệt giữa mạng LAN và WAN rất rõ ràng và các mạng trong một công ty luôn được phân loại là mạng LAN, ngay cả khi có nhiều nhánh. — không đúng với nội dung câu hỏi.\nC: Chỉ có máy tính và máy in được kết nối với mạng LAN, không phải thiết bị gia dụng. — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "154"
+    },
+    {
+      "id": 785,
+      "question": "「工業所有権」に属しているものはどの有権ですか。",
+      "options": {
+        "A": "意匠権、著作者財産権、特許権",
+        "B": "著作隣接権、商標権、実用新案権",
+        "C": "意匠権、特許権、実用新案権",
+        "D": "著作隣接権、意匠権、商標権"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#270 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\n“Sở hữu công nghiệp” có những quyền gì?\n\n✅ Đáp án: B — 意匠権、特許権、実用新案権 = Quyền thiết kế, quyền sáng chế, quyền mô hình tiện ích\nĐáp án đúng là B. Quyền thiết kế, quyền sáng chế, quyền giải pháp hữu ích\n\n❌ Các đáp án khác\nA: Quyền lân cận, quyền thương hiệu, quyền mô hình tiện ích — không đúng với nội dung câu hỏi.\nC: Quyền láng giềng, quyền thiết kế và quyền nhãn hiệu — không đúng với nội dung câu hỏi.\nD: Quyền thiết kế, quyền sở hữu bản quyền, quyền sáng chế — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "155"
+    },
+    {
+      "id": 786,
+      "question": "OSIにおいて、「隣接機器間転送」の機能は主にどの階層が担当しますか。",
+      "options": {
+        "A": "データリンク層",
+        "B": "物理層",
+        "C": "ネットワーク層",
+        "D": "通トランスポート層"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#273 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nTrong OSI, tầng nào chịu trách nhiệm chính cho chức năng \"chuyển giữa các thiết bị liền kề\"?\n\n✅ Đáp án: C — データリンク層 = Tầng liên kết dữ liệu\nĐáp án đúng là C. Lớp liên kết dữ liệu\n\n❌ Các đáp án khác\nA: Lớp mạng — không đúng với nội dung câu hỏi.\nB: Lớp vật lý — không đúng với nội dung câu hỏi.\nD: Thông qua lớp vận chuyển — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "157"
+    },
+    {
+      "id": 787,
+      "question": "「ROM」とは何ですか。",
+      "options": {
+        "A": "画面イメージ全体を記憶するメモリである",
+        "B": "静電気をを記録するメモリである",
+        "C": "読み取り専用の半導体メモリである",
+        "D": "読み書き専用の半導体メモリである"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#258 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\n“ROM” là gì?\n\n✅ Đáp án: B — 読み取り専用の半導体メモリである = Nó là một bộ nhớ bán dẫn chỉ đọc\nĐáp án đúng là B. Bộ nhớ bán dẫn chỉ đọc\n\n❌ Các đáp án khác\nA: Đó là một bộ nhớ lưu trữ toàn bộ hình ảnh màn hình — không đúng với nội dung câu hỏi.\nC: Nó là một bộ nhớ bán dẫn chỉ đọc và chỉ ghi — không đúng với nội dung câu hỏi.\nD: Đó là một bộ nhớ ghi lại tĩnh điện — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "168"
+    },
+    {
+      "id": 788,
+      "question": "「sóng hình sin」は日本語の漢字でどのように書きますか。どのように読みますか。",
+      "options": {
+        "A": "征弦波 - せいげんば",
+        "B": "征玄派 - せいげんば",
+        "C": "正玄派 - ぜいけんは",
+        "D": "正弦波 - せいげんは"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#239 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nSóng sin viết/đọc kanji?\n\n✅ Đáp án: B — 正弦波 - seigenha\nSóng hình sin = sóng hình sin.\n\n❌ Các đáp án khác\nA: Sóng cosin — không đúng với nội dung câu hỏi.\nC: sóng sin-shougenha — không đúng với nội dung câu hỏi.\nD: Sóng Sâu Đích Thực — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "162"
+    },
+    {
+      "id": 789,
+      "question": "「CRC」は英語でなんですか。",
+      "options": {
+        "A": "Cycle Redundansy Check",
+        "B": "Cyclic Redundancy Check",
+        "C": "Cyclic Redundance Check",
+        "D": "Cycle Redundantant Check"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#217 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nCRC viết tắt tiếng Anh là gì?\n\n✅ Đáp án: B — Cyclic Redundancy Check\nCRC = Kiểm tra dự phòng theo chu kỳ.\n\n❌ Các đáp án khác\nA: Cyclic Redundance Check — không đúng với nội dung câu hỏi.\nC: Circle… — không đúng với nội dung câu hỏi.\nD: Code… — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "163"
+    },
+    {
+      "id": 790,
+      "question": "ある音をコンピュータのファイルにデータとして記録するとき,符号化ビット数を8ビットとしている。符号化ビット数を16ビットに変更し,同じ音を同じサンプリング周波数で記録したときの説明として,適切なものはどれか。",
+      "options": {
+        "A": "記録時間が同じ場合,データ量は少なくなる。",
+        "B": "記録できる周波数の上限が高くなる。",
+        "C": "音の振幅をより細かく記録できる。",
+        "D": "記録したデータの加工に必要なCPUの負担は減る。"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#214 (1.00)",
+      "alt": null,
+      "explanation": "✅ Đáp án: C — 音の振幅をより細かく記録できる\nTăng bit lượng tử hóa (8→16) → ghi biên độ chi tiết hơn. Tần số max phụ thuộc sampling rate, không phụ thuộc bit depth.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "164"
+    },
+    {
+      "id": 791,
+      "question": "電子マネーの形態について、正しいものはどれですか。",
+      "options": {
+        "A": "クローズドループ型の電子マネーでは、店舗が受け取ったバリューは発行元を通じて銀行口座に振り込まれる。",
+        "B": "オープンループ型の電子マネーは、設備投資が少なく、銀行の負担が軽いため、早期に普及した。",
+        "C": "クローズドループ型の電子マネーは、現金のような匿名性が高く、小口の利用に適している。",
+        "D": "クローズドループ型の電子マネーは、現金のような匿名性が高く、小口の利用に適している。"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#287 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nĐiều nào sau đây là đúng về hình thức tiền điện tử?\n\n✅ Đáp án: D — クローズドループ型の電子マネーでは、店舗が受け取ったバリューは発行元を通じて銀行口座に振り込まれる。\nCâu trả lời đúng là D. Với tiền điện tử vòng kín, giá trị mà cửa hàng nhận được sẽ được chuyển vào tài khoản ngân hàng thông qua tổ chức phát hành.\n\n❌ Các đáp án khác\nA: Tiền điện tử vòng mở đã sớm trở nên phổ biến vì nó đòi hỏi ít vốn đầu tư và gánh nặng cho các ngân hàng là nhẹ. — không đúng với nội dung câu hỏi.\nB: Tiền điện tử vòng kín có tính ẩn danh cao, giống như tiền mặt và phù hợp để sử dụng với số lượng nhỏ. — không đúng với nội dung câu hỏi.\nC: Tiền điện tử vòng kín có tính ẩn danh cao, giống như tiền mặt và phù hợp để sử dụng với số lượng nhỏ. — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "169"
+    },
+    {
+      "id": 792,
+      "question": "図を画素で表す手法を考える。画像の画素を左上から1行ずつ右方向へ1画素ずつ読み取り、黒ならB、白ならWと書く。例えば、4×4画素の図を \"BWWB BWWB BWWB BWWB\"（16文字）のように表す。次に、BやWがn文字連続する場合を\"Bn\"、\"Wn\"と表す（nは2以上の整数）と、この例では\"B1W2B1\"を1行として4行分繰り返すが、全体を\"B1W2B1B1W2B1B1W2B1B1W2B1\"（24文字）と表現でき、圧縮率を24÷16＝150%とする（圧縮率が100%を超える場合は圧縮効果なし）。では、4×4画素の図が\"BBWW WWBB BBWW WWBB\"で表されるとき、同じ手法で表現した場合の圧縮率は何%か。",
+      "options": {
+        "A": "75%",
+        "B": "100%",
+        "C": "125%",
+        "D": "150%"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#652 (0.95)",
+      "alt": null,
+      "explanation": "✅ Đáp án: D — 100%\nMỗi hàng BBWW→B2W2 (4 ký tự), WWBB→W2B2 (4). 4 hàng = 16 ký tự / 16 pixel gốc = 100%\n(theo cách tính ví dụ 24÷16=150% trong đề).",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "170"
+    },
+    {
+      "id": 793,
+      "question": "0と1の並びを、どの文字に対応させるかは、（　　）コードというコード体系で標準化されています。",
+      "options": {
+        "A": "ASCII",
+        "B": "JPEG",
+        "C": "Unicode",
+        "D": "MIDI"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#663 (0.95)",
+      "alt": null,
+      "explanation": "✅ Đáp án: A — Unicode\nBảng mã gán dãy 0/1 cho chữ; Unicode thống nhất đa ngôn ngữ. JPEG/MIDI không phải character code.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "171"
+    },
+    {
+      "id": 794,
+      "question": "世界の主要な言語で使われている文字を一つの文字コード体系で取り扱うための規格はどれか。",
+      "options": {
+        "A": "JIS",
+        "B": "ASCII",
+        "C": "EUC",
+        "D": "Unicode"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#202 (0.95)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nBảng mã thống nhất chữ các ngôn ngữ chính trên thế giới?\n\n✅ Đáp án: D — Unicode\nUnicode xử lý các ký tự từ các ngôn ngữ chính trên thế giới một cách thống nhất.\n\n❌ Các đáp án khác\nA: ASCII — không đúng với nội dung câu hỏi.\nB: JIS — không đúng với nội dung câu hỏi.\nC: EUC — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "172"
+    },
+    {
+      "id": 795,
+      "question": "「EDI」は英語でどの言葉に略されましたか。",
+      "options": {
+        "A": "Electronical Data International",
+        "B": "Electronic Data Interchange",
+        "C": "Electronical Data Interchange",
+        "D": "Electronic Data International"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#289 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nTừ \"EDI\" trong tiếng Anh được viết tắt là gì?\n\n✅ Đáp án: C — Electronic Data Interchange\nĐáp án đúng là C. Trao đổi dữ liệu điện tử\n\n❌ Các đáp án khác\nA: Electronic Data International — không đúng với nội dung câu hỏi.\nB: Electronical Data International — không đúng với nội dung câu hỏi.\nD: Electronical Data Interchange — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "174"
+    },
+    {
+      "id": 796,
+      "question": "電源が切れないとき、データが消えてしまうものは何ですか。",
+      "options": {
+        "A": "IC",
+        "B": "RAM",
+        "C": "GPU",
+        "D": "ROM"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#218 (0.95)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nTắt nguồn thì dữ liệu mất là loại nào?\n\n✅ Đáp án: D — RAM\nRAM không ổn định và dữ liệu sẽ biến mất khi tắt nguồn.\n\n❌ Các đáp án khác\nA: GPU — không đúng với nội dung câu hỏi.\nB: IC — không đúng với nội dung câu hỏi.\nC: ROM — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "179"
+    },
+    {
+      "id": 797,
+      "question": "ダイオードに関する次の記述のうち、正しいものはどれですか。",
+      "options": {
+        "A": "ダイオードは、p型とn型という2つの同じ性質の物質を貼り合わせて作られる。",
+        "B": "すべてのダイオードは電流が流れると発光するため、電源ランプなどに広く用いられている。",
+        "C": "ダイオードでは、電子がp型からn型に移動しやすく、その逆方向に電流が流れる。",
+        "D": "ダイオードは、電流を一方向にしか流さないという点で、真空管と異なる機能を持つ。"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#264 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nPhát biểu nào sau đây về điốt là đúng?\n\n✅ Đáp án: C — ダイオードは、電流を一方向にしか流さないという点で、真空管と異なる機能を持つ。 = Điốt có chức năng khác với ống chân không ở chỗ nó chỉ chảy theo một hướng.\nCâu trả lời đúng là C. Chức năng của điốt khác với đèn chân không ở chỗ chúng chỉ cho dòng điện chạy theo một hướng.\n\n❌ Các đáp án khác\nA: Điốt được tạo ra bằng cách cán hai chất có cùng bản chất, loại p và loại n. — không đúng với nội dung câu hỏi.\nB: Tất cả các điốt phát ra ánh sáng khi dòng điện chạy, vì vậy chúng được sử dụng rộng rãi trong đèn điện và các loại tương tự. — không đúng với nội dung câu hỏi.\nD: Trong diode, các electron có thể dễ dàng di chuyển từ loại p sang loại n, và dòng điện chạy theo hướng ngược lại. — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "180"
+    },
+    {
+      "id": 798,
+      "question": "クッキー(cookie)に関する記述a～cのうち、適切なものだけをすべて挙げたものはどれかですか。\na. インターネットカフェなどで一時的にPCを借用してWebサイトを閲覧したときは、閲覧が終わったらクッキーを削除すべきである。\nb. クッキーに個人情報が保存されている場合、クロスサイトスクリプティングなどで、その個人情報が盗まれることがある。\nc. Webサイトを前回閲覧した際に入力したIDやパスワードなどは、別のPCを使用して閲覧する場合でもクッキーで引き継がれるので再入力が要らない。",
+      "options": {
+        "A": "a,b",
+        "B": "b,c",
+        "C": "a,c",
+        "D": "a,b,c"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#53 (0.95)",
+      "alt": null,
+      "explanation": "✅ Đáp án: A — a,b\na đúng: dùng PC quán net nên xóa cookie sau khi xong.\nb đúng: cookie chứa PII có thể bị đánh cắp (XSS…).\nc sai: cookie gắn với trình duyệt/máy; máy khác không tự kế thừa cookie để khỏi nhập lại.\nNguồn ảnh Thảo Nguyên img 185 · CÂU HỎI 40.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "185"
+    },
+    {
+      "id": 799,
+      "question": "「マス目」はベトナム語で何ですか。",
+      "options": {
+        "A": "càn",
+        "B": "đĩa",
+        "C": "nấc",
+        "D": "sợi đốt"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#242 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\n\"Khối lượng\" trong tiếng Việt là gì?\n\n✅ Đáp án: D — nấc\nVuông = ô/nấc trên băng Turing v.v.\n\n❌ Các đáp án khác\nA: cần — không đúng với nội dung câu hỏi.\nB: đĩa — không đúng với nội dung câu hỏi.\nC: sợi đốt — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "187"
+    },
+    {
+      "id": 800,
+      "question": "コンピュータウイルスの予防策として、最も適切なものはどれですか。",
+      "options": {
+        "A": "ウイルス対策ソフトを購入し、パターンファイルを日常的に更新する。",
+        "B": "既知のウイルスのみを検出するよう、ウイルス対策ソフトのパターンファイルは更新しない。",
+        "C": "ウイルスに感染した場合は、すぐに全てのファイルを消去しパソコンを初期化する。",
+        "D": "ウイルス感染を防ぐには、メールの利用を完全に停止することが最も効果的である。"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#263 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nĐiều nào sau đây là biện pháp phòng ngừa thích hợp nhất chống lại vi-rút máy tính?\n\n✅ Đáp án: D — ウイルス対策ソフトを購入し、パターンファイルを日常的に更新する。 = Mua phần mềm chống vi-rút và cập nhật các tệp mẫu hàng ngày.\nCâu trả lời đúng là D. Mua phần mềm chống vi-rút và cập nhật tệp mẫu hàng ngày.\n\n❌ Các đáp án khác\nA: Các tệp mẫu chống vi-rút không được cập nhật để chỉ phát hiện các vi-rút đã biết. — không đúng với nội dung câu hỏi.\nB: Nếu bạn bị nhiễm vi-rút, hãy xóa ngay tất cả các tệp và khởi tạo máy tính của bạn. — không đúng với nội dung câu hỏi.\nC: Ngừng hoàn toàn email là cách hiệu quả nhất để ngăn ngừa nhiễm virus. — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "188"
+    },
+    {
+      "id": 801,
+      "question": "ハードディスクの仕組みと管理に関する次の記述の中で、本文の内容に基づいて正しいものを一つ選びなさい。",
+      "options": {
+        "A": "同一トラック上にデータが配置されている場合、アームを動かす必要がないため、高速に読み書きを行うことができる。",
+        "B": "ヘッドとディスク面は常に接触しており、これによってデータの読み書きの信頼性を高めている。",
+        "C": "ハードディスクへの物理的な衝撃は、ヘッドとディスクの間に隙間ができるため、読み書き速度の向上に役立つ。",
+        "D": "None"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#280 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nCâu nào trong số các câu sau đây về cách đĩa cứng hoạt động và được quản lý là đúng dựa trên nội dung của cơ thể?\n\n✅ Đáp án: C — 同一トラック上にデータが配置されている場合、アームを動かす必要がないため、高速に読み書きを行うことができる。 = Nếu dữ liệu được đặt trên cùng một đường đua, cánh tay không cần phải di chuyển, vì vậy nó có thể được đọc và ghi ở tốc độ cao.\nCâu trả lời đúng là C. Nếu dữ liệu được đặt trên cùng một rãnh thì không cần phải di chuyển cánh tay nên việc đọc và ghi có thể được thực hiện ở tốc độ cao.\n\n❌ Các đáp án khác\nA: Bề mặt đầu và đĩa tiếp xúc liên tục, làm tăng độ tin cậy của dữ liệu đọc và ghi. — không đúng với nội dung câu hỏi.\nB: Tác động vật lý lên đĩa cứng có thể giúp cải thiện tốc độ đọc và ghi vì có một khoảng cách giữa đầu và đĩa. — không đúng với nội dung câu hỏi.\nD: (Không có ứng viên) — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "190"
+    },
+    {
+      "id": 802,
+      "question": "「単結晶」はどのように読みますか。また、ベトナム語で何ですか。",
+      "options": {
+        "A": "たんけっしょ - đơn kết tinh",
+        "B": "たんけっしょ - đa kết tinh",
+        "C": "たんけっしょう - đơn kết tinh",
+        "D": "たんけっしょう - đơn giản"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#292 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nLàm thế nào để bạn đọc \"tinh thể đơn\"? Ngoài ra, bạn nói nó bằng tiếng Việt như thế nào?\n\n✅ Đáp án: D — たんけっしょう - đơn kết tinh\nĐáp án đúng là D. Tanksho - đơn kết tinh\n\n❌ Các đáp án khác\nA: Tankesho - đơn giản — không đúng với nội dung câu hỏi.\nB: Tankesho - đơn tinh — không đúng với nội dung câu hỏi.\nC: Tankesho - đa kết tinh — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "192"
+    },
+    {
+      "id": 803,
+      "question": "言葉を説明する文書は ただしいですか。(Phần thuyết minh về từ vựng được cho là đúng hay sai?)\n認証とは公開鍵方式と秘密鍵方式により暗号化した状態で情報通信を行うことです。",
+      "options": {
+        "A": "False",
+        "B": "True",
+        "C": "None",
+        "D": "None"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#253 (0.90)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nBạn muốn giải thích tài liệu nào sau đây? (Phưn thuyưt minh vưt tư vưng đưưưưc cho là đúng hay sai?) Xác thực là thực hiện truyền thông thông tin ở trạng thái mã hóa bằng phương pháp khóa công khai và phương pháp khóa riêng.\n\n✅ Đáp án: A — False\nCâu trả lời đúng là A. Sai\n\n❌ Các đáp án khác\nB: True — không đúng với nội dung câu hỏi.\nC: (Không có ứng viên) — không đúng với nội dung câu hỏi.\nD: (Không có ứng viên) — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "193"
+    },
+    {
+      "id": 804,
+      "question": "ウイルスに感染するのを避けるために、何をしますか。",
+      "options": {
+        "A": "パスワードを設定する際の注意事項として、意味のある語句、数字を使います",
+        "B": "exe, vbs, scr, pifなどの拡張子を持つ添付ファイルがあるメールを開きます",
+        "C": "常に最新版に更新されるブラウザを使います",
+        "D": "Internet Explorerなどのブラウザを使います"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#245 (0.95)",
+      "alt": null,
+      "explanation": "✅ Đáp án: C — 常に最新版に更新されるブラウザを使います\nTránh virus: browser/OS cập nhật; không mở file đính kèm nguy hiểm; password không dùng từ dễ đoán.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "195"
+    },
+    {
+      "id": 805,
+      "question": "公開鍵方式による秘密文書通信について、正しいものはどれか。",
+      "options": {
+        "A": "一度暗号化された文書は、送信者Aも受信者Bの公開鍵を使えば復号化できる。",
+        "B": "通信途中で暗号文が盗まれても、第三者はBの公開鍵を入手すれば文書を復号化できる。",
+        "C": "受信者Bは、暗号化用の公開鍵と復号化用の秘密鍵の両方を所持しており、Aから送られてきた文書を秘密鍵で復号する。",
+        "D": "送信者Aは、受信者Bの秘密鍵を使って文書を暗号化し、Bに送付する。"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#278 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nĐiều nào sau đây là đúng về giao tiếp tài liệu bí mật bằng phương pháp khóa công khai?\n\n✅ Đáp án: D — 受信者Bは、暗号化用の公開鍵と復号化用の秘密鍵の両方を所持しており、Aから送られてきた文書を秘密鍵で復号する。 = Người nhận B có cả khóa công khai để mã hóa và khóa riêng để giải mã và giải mã tài liệu được gửi từ A bằng khóa riêng.\nĐáp án đúng là D. Người nhận B có cả khóa chung để mã hóa và khóa riêng để giải mã, đồng thời sử dụng khóa riêng để giải mã tài liệu được gửi từ A.\n\n❌ Các đáp án khác\nA: Ngay cả khi văn bản mã hóa bị đánh cắp trong quá trình liên lạc, bên thứ ba có thể giải mã tài liệu bằng cách lấy khóa công khai của B. — không đúng với nội dung câu hỏi.\nB: Người gửi A mã hóa tài liệu bằng khóa riêng của Người nhận B và gửi cho B. — không đúng với nội dung câu hỏi.\nC: Sau khi tài liệu được mã hóa, người gửi A cũng có thể giải mã nó bằng khóa công khai của người nhận B. — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "196"
+    },
+    {
+      "id": 806,
+      "question": "出力装置は何がありますか。",
+      "options": {
+        "A": "メモリやハードディスク",
+        "B": "キーボードやマウス",
+        "C": "CPU",
+        "D": "ディスプレイやプリンタ"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#257 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nCác thiết bị đầu ra là gì?\n\n✅ Đáp án: C — ディスプレイやプリンタ = Màn hình và máy in\nCâu trả lời đúng là C. màn hình và máy in\n\n❌ Các đáp án khác\nA: Bàn phím và chuột — không đúng với nội dung câu hỏi.\nB: Bộ nhớ hoặc đĩa cứng — không đúng với nội dung câu hỏi.\nD: CPU — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "198"
+    },
+    {
+      "id": 807,
+      "question": "CALS(Commerce At Light Speed)について、正しいものはどれですか。",
+      "options": {
+        "A": "CALSを導入した結果、軍事産業を除く多くの業界で納期の長期化が報告されている。",
+        "B": "CALSのもともとの目的は、自動車業界のサプライチェーン効率化を図ることだった。",
+        "C": "CALS(Commerce At Light Speed)に関する次の記述のうち、本文の内容と一致するものはどれか。",
+        "D": "CALSは、企業間で同じデータを用いて取引できるようにするための標準規格である。"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#269 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nĐiều gì là chính xác về CAL (Thương mại ở tốc độ nhẹ)?\n\n✅ Đáp án: C — CALSは、企業間で同じデータを用いて取引できるようにするための標準規格である。 = CALES là một tiêu chuẩn cho phép các doanh nghiệp giao dịch bằng cách sử dụng cùng một dữ liệu.\nCâu trả lời đúng là C. CALS là tiêu chuẩn cho phép các công ty giao dịch bằng cách sử dụng cùng một dữ liệu.\n\n❌ Các đáp án khác\nA: Mục đích ban đầu của CALS là cải thiện hiệu quả chuỗi cung ứng trong ngành công nghiệp ô tô. — không đúng với nội dung câu hỏi.\nB: Do sự ra đời của CAL, thời gian giao hàng dài hơn đã được báo cáo trong nhiều ngành công nghiệp ngoại trừ ngành công nghiệp quân sự. — không đúng với nội dung câu hỏi.\nD: Phát biểu nào sau đây về CAL (Commerce At Light Speed) phù hợp với nội dung của cơ thể? — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "199"
+    },
+    {
+      "id": 808,
+      "question": "「bước đệm」は日本語で何ですか",
+      "options": {
+        "A": "かんすう",
+        "B": "ふっかつ",
+        "C": "ぞうしょく",
+        "D": "ふみだい"
+      },
+      "answers": [
+        "D"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#271 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nTừ tiếng Nhật cho \"bưưưcđệm\" là gì?\n\n✅ Đáp án: C — ふみだい = Fumidai\nĐáp án đúng là C. Fumidai\n\n❌ Các đáp án khác\nA: Zoshoku — không đúng với nội dung câu hỏi.\nB: Fukatsu — không đúng với nội dung câu hỏi.\nD: Kansu — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "200"
+    },
+    {
+      "id": 809,
+      "question": "記憶装置は何が該当しますか。",
+      "options": {
+        "A": "CPU",
+        "B": "メモリやハードディスク",
+        "C": "キーボードやマウス",
+        "D": "ディスプレイやプリンタ"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#266 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nThiết bị lưu trữ là gì?\n\n✅ Đáp án: B — メモリやハードディスク = Bộ nhớ hoặc đĩa cứng\nCâu trả lời đúng là B. bộ nhớ và đĩa cứng\n\n❌ Các đáp án khác\nA: CPU — không đúng với nội dung câu hỏi.\nC: Màn hình và máy in — không đúng với nội dung câu hỏi.\nD: Bàn phím và chuột — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "201"
+    },
+    {
+      "id": 810,
+      "question": "AさんがBさんに電子文書を送信し、Bさんがその文書の送信者を確認する方法について、本文の内容に基づき、正しく説明しているものはどれか。",
+      "options": {
+        "A": "Aさんは自身の秘密鍵で文書を暗号化して送信する。BさんはAさんの公開鍵で復号できれば、Aさんからの送信と確認できる。",
+        "B": "Aさんは自身の公開鍵で文書を暗号化して送信する。BさんはAさんの秘密鍵で復号できれば、Aさんからの送信と確認できる。",
+        "C": "AさんはBさんの公開鍵で文書を暗号化して送信する。Bさんは自身の秘密鍵で復号できれば、Aさんからの送信と確認できる。",
+        "D": "AさんはBさんの秘密鍵で文書を暗号化して送信する。Bさんは自身の公開鍵で復号できれば、Aさんからの送信と確認できる。"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#261 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nCâu nào sau đây mô tả chính xác cách A gửi tài liệu điện tử cho B và B xác nhận người gửi tài liệu dựa trên nội dung của phần thân?\n\n✅ Đáp án: A — Aさんは自身の秘密鍵で文書を暗号化して送信する。BさんはAさんの公開鍵で復号できれば、Aさんからの送信と確認できる。 = Một mã hóa và truyền tài liệu bằng khóa riêng của mình. Nếu ông B có thể giải mã bằng khóa công khai của ông A, ông có thể xác nhận rằng nó đã được gửi bởi ông A.\nCâu trả lời đúng là A. Ông A mã hóa tài liệu bằng khóa riêng của mình và gửi nó. Nếu anh B giải mã được tin nhắn bằng khóa công khai của anh A thì anh B có thể xác nhận rằng tin nhắn đó là do anh A gửi.\n\n❌ Các đáp án khác\nB: Một mã hóa và gửi tài liệu bằng khóa công khai của mình. Nếu ông B có thể giải mã bằng khóa riêng của ông A, ông có thể xác nhận việc truyền từ ông A. — không đúng với nội dung câu hỏi.\nC: A mã hóa và truyền tài liệu bằng khóa công khai của B. Nếu ông B có thể giải mã bằng khóa riêng của mình, ông có thể xác nhận việc truyền từ ông A. — không đúng với nội dung câu hỏi.\nD: A mã hóa và truyền tài liệu bằng khóa riêng của B. Nếu ông B có thể giải mã bằng khóa công khai của riêng mình, ông có thể xác nhận việc truyền từ ông A. — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "202"
+    },
+    {
+      "id": 811,
+      "question": "マザーボードとケーブルで接続された箱は何ですか。",
+      "options": {
+        "A": "メモリ",
+        "B": "ハードディスク",
+        "C": "CPU",
+        "D": "マザーボード"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Thảo Nguyên 5 zip · map bank#255 (1.00)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nHộp cắm cáp vào bo mạch chủ là gì?\n\n✅ Đáp án: A — ハードディスク = Harddisk\nCâu trả lời đúng là A. đĩa cứng\n\n❌ Các đáp án khác\nB: Motherboard — không đúng với nội dung câu hỏi.\nC: CPU — không đúng với nội dung câu hỏi.\nD: メリ — không đúng với nội dung câu hỏi.",
+      "source": "thao_nguyen",
+      "exam": "JIT401_THAO_NGUYEN",
+      "sets": [
+        "quiz_pt",
+        "thao_nguyen"
+      ],
+      "img": "203"
     }
   ]
 }

@@ -3,17 +3,20 @@
   "use strict";
 
   /** Bump on every bank deploy so Safari/iPad cannot reuse stale JSON (GH Pages max-age=600). */
-  const DATA_VER = "20260726b";
+  const DATA_VER = "20260726e";
   const THEME_KEY = "fe_learn_theme_v1";
 
   /**
-   * Public hit counter (no Google account). Dashboard-free: numbers show on the site.
-   * Namespace is shared for this site only. API: https://counterapi.dev
+   * Hit counter runs for everyone (silent). Numbers only show for owner.
+   * Open with ?stats=OWNER_CODE once → remembers on this browser.
+   * API: https://counterapi.dev — not a hard security boundary (code is in JS).
    */
   const ANALYTICS_NS = "mln122fe";
   const ANALYTICS_API = "https://api.counterapi.dev/v1";
   const ANALYTICS_UNIQUE_KEY = "fe_learn_unique_visitor_v1";
   const ANALYTICS_SESSION_KEY = "fe_learn_pv_session_v1";
+  const STATS_OWNER_CODE = "han126stats";
+  const STATS_UNLOCK_KEY = "fe_learn_stats_owner_v1";
 
   const SUBJECTS = {
     mln122: { file: "data/mln122.json", label: "MLN122" },
@@ -1125,17 +1128,18 @@
   }
 
   /**
-   * Quiz ôn = Thảo Nguyên 5 zip only (sets quiz_pt / thao_nguyen).
-   * Legacy sourceFilter "zip240" maps to this filter in UI (no separate zip bank).
+   * Quiz ôn = chỉ câu source=thao_nguyen (5 file zip Thảo Nguyên).
+   * Không lấy slide/FE dù từng trùng stem; không lấy albazzz/quiz_pt thuần.
+   * Legacy sourceFilter "zip240" vẫn map sang chip này.
    */
   function isQuizPt(q) {
     if (!q) return false;
+    if (q.source === "thao_nguyen") return true;
+    // fallback nếu bank cũ còn tag nhưng đã tách source
     const sets = q.sets;
-    if (Array.isArray(sets) && (sets.includes("quiz_pt") || sets.includes("thao_nguyen")))
+    if (Array.isArray(sets) && sets.includes("thao_nguyen") && q.source !== "slides" && q.source !== "fuexam")
       return true;
-    if (q.source === "quiz_pt" || q.source === "thao_nguyen") return true;
-    const exam = String(q.exam || "");
-    return exam.includes("QUIZ_PT") || exam.includes("THAO_NGUYEN");
+    return String(q.exam || "").includes("THAO_NGUYEN") && q.source === "thao_nguyen";
   }
 
   function isExamSource(q) {
@@ -1881,12 +1885,12 @@
     const nExam = bank.filter((q) => isExamSource(q)).length;
     const nSlide = bank.filter((q) => isSlideSource(q)).length;
     let nPt = bank.filter((q) => isQuizPt(q)).length;
-    // fallback: breakdown from JSON if sets field missing (old cache)
+    // fallback: breakdown.thao_nguyen = 5 zip only (not quiz_pt which includes albazzz)
     if (!nPt && data && data.breakdown) {
-      const a = Number(data.breakdown.quiz_pt) || 0;
-      const b = Number(data.breakdown.zip240) || 0;
-      nPt = Math.max(a, b, a + b > 0 ? a : 0);
-      if (a && b) nPt = a; // quiz_pt already includes zip after merge
+      nPt =
+        Number(data.breakdown.thao_nguyen) ||
+        Number(data.breakdown.quiz_pt) ||
+        0;
     }
 
     if (allChip) {
@@ -1913,7 +1917,7 @@
       }
     }
 
-    // Quiz ôn = Thảo Nguyên 5 zip only (JIT401)
+    // Quiz ôn = chỉ 5 zip Thảo Nguyên (JIT401)
     if (ptChip) {
       const showPt = subjectId === "jit401";
       ptChip.hidden = !showPt;
@@ -1923,8 +1927,8 @@
         ptChip.setAttribute(
           "title",
           nPt > 0
-            ? `${nPt} câu gộp Thảo Nguyên (5 zip) + albazzz Quiz PT (đã loại trùng)`
-            : "Quiz ôn Thảo Nguyên + albazzz Quiz PT"
+            ? `${nPt} câu từ 5 file zip Thảo Nguyên (không gồm albazzz / slide-only)`
+            : "Quiz ôn — 5 zip Thảo Nguyên"
         );
       }
       // migrate old zip240 filter selection → quiz_pt
@@ -2151,13 +2155,52 @@
     return count;
   }
 
-  /** Pageviews once per tab session; unique visitors once per browser (localStorage). */
-  async function trackAndShowVisits() {
-    const box = document.getElementById("visitStats");
-    const viewsEl = document.getElementById("statViews");
-    const visitorsEl = document.getElementById("statVisitors");
-    if (!box || !viewsEl || !visitorsEl) return;
+  function isStatsOwnerUnlocked() {
+    try {
+      if (localStorage.getItem(STATS_UNLOCK_KEY) === "1") return true;
+    } catch {
+      /* ignore */
+    }
+    return false;
+  }
 
+  function setStatsOwnerUnlocked(on) {
+    try {
+      if (on) localStorage.setItem(STATS_UNLOCK_KEY, "1");
+      else localStorage.removeItem(STATS_UNLOCK_KEY);
+    } catch {
+      /* ignore */
+    }
+  }
+
+  /** Unlock via ?stats=CODE or ?owner=CODE, then strip param from URL. */
+  function consumeStatsOwnerFromUrl() {
+    try {
+      const u = new URL(location.href);
+      const raw = u.searchParams.get("stats") || u.searchParams.get("owner");
+      if (!raw) return isStatsOwnerUnlocked();
+      if (raw === STATS_OWNER_CODE) {
+        setStatsOwnerUnlocked(true);
+        u.searchParams.delete("stats");
+        u.searchParams.delete("owner");
+        const clean = u.pathname + (u.searchParams.toString() ? `?${u.searchParams}` : "") + u.hash;
+        history.replaceState(null, "", clean);
+        return true;
+      }
+    } catch {
+      /* ignore */
+    }
+    return isStatsOwnerUnlocked();
+  }
+
+  function setVisitBarVisible(show) {
+    const box = document.getElementById("visitStats");
+    if (!box) return;
+    box.hidden = !show;
+  }
+
+  /** Pageviews once per tab session; unique visitors once per browser (localStorage). */
+  async function trackVisitsSilent() {
     let bumpViews = true;
     let bumpUnique = false;
     try {
@@ -2169,15 +2212,13 @@
     try {
       bumpUnique = !localStorage.getItem(ANALYTICS_UNIQUE_KEY);
     } catch {
-      /* private mode: still count pageviews; unique may over-count */
       bumpUnique = true;
     }
 
     try {
-      const views = await counterFetch("pageviews", bumpViews);
-      let visitors = 0;
+      await counterFetch("pageviews", bumpViews);
       try {
-        visitors = await counterFetch("visitors", bumpUnique);
+        await counterFetch("visitors", bumpUnique);
         if (bumpUnique) {
           try {
             localStorage.setItem(ANALYTICS_UNIQUE_KEY, String(Date.now()));
@@ -2186,9 +2227,8 @@
           }
         }
       } catch {
-        // Create visitors key if missing
         try {
-          visitors = await counterFetch("visitors", true);
+          await counterFetch("visitors", true);
           if (bumpUnique) {
             try {
               localStorage.setItem(ANALYTICS_UNIQUE_KEY, String(Date.now()));
@@ -2197,12 +2237,30 @@
             }
           }
         } catch {
-          visitors = 0;
+          /* ignore */
         }
       }
+    } catch {
+      /* network / adblock — silent */
+    }
+  }
+
+  /** Load counts into the owner-only bar. */
+  async function refreshOwnerStats() {
+    const box = document.getElementById("visitStats");
+    const viewsEl = document.getElementById("statViews");
+    const visitorsEl = document.getElementById("statVisitors");
+    if (!box || !viewsEl || !visitorsEl || box.hidden) return;
+
+    try {
+      const [views, visitors] = await Promise.all([
+        counterFetch("pageviews", false),
+        counterFetch("visitors", false).catch(() => 0),
+      ]);
       viewsEl.textContent = formatCount(views);
       visitorsEl.textContent = formatCount(visitors);
       box.classList.remove("is-error");
+      box.title = "Thống kê truy cập (chỉ bạn thấy trên máy này)";
     } catch {
       viewsEl.textContent = "—";
       visitorsEl.textContent = "—";
@@ -2210,6 +2268,35 @@
       box.title = "Không tải được thống kê (mạng / adblock chặn CounterAPI)";
     }
   }
+
+  document.getElementById("btnHideStats")?.addEventListener("click", () => {
+    setStatsOwnerUnlocked(false);
+    setVisitBarVisible(false);
+  });
+
+  // Triple-click brand → prompt for owner code (backup if you forget the URL)
+  let brandClicks = 0;
+  let brandClickTimer = 0;
+  document.querySelector(".brand")?.addEventListener("click", () => {
+    brandClicks += 1;
+    clearTimeout(brandClickTimer);
+    brandClickTimer = setTimeout(() => {
+      brandClicks = 0;
+    }, 700);
+    if (brandClicks < 3) return;
+    brandClicks = 0;
+    if (isStatsOwnerUnlocked()) {
+      setVisitBarVisible(true);
+      refreshOwnerStats();
+      return;
+    }
+    const code = window.prompt("Mã xem thống kê (chỉ admin):");
+    if (code === STATS_OWNER_CODE) {
+      setStatsOwnerUnlocked(true);
+      setVisitBarVisible(true);
+      refreshOwnerStats();
+    }
+  });
 
   (async function init() {
     applyTheme(resolveTheme());
@@ -2219,8 +2306,14 @@
     if (isRestricted(subjectId) && !isUnlocked()) {
       subjectId = "mln122";
     }
-    // fire-and-forget; do not block question load
-    trackAndShowVisits();
+
+    const owner = consumeStatsOwnerFromUrl();
+    setVisitBarVisible(owner);
+    // Everyone is counted; only owner sees the bar
+    trackVisitsSilent().then(() => {
+      if (owner || isStatsOwnerUnlocked()) refreshOwnerStats();
+    });
+
     const synced = await bootstrapSyncFromUrl();
     if (!synced) {
       await loadSubjectData(subjectId);
