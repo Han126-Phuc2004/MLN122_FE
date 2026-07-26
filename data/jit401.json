@@ -1,14 +1,14 @@
 {
-  "title": "JIT401 – FE + slide + Quiz ôn Thảo Nguyên 5 zip (790 cau)",
+  "title": "JIT401 – FE + slide + Quiz ôn Thảo+albazzz-extra (797 cau)",
   "code": "JIT401_ALL",
   "subject": "JIT401",
-  "total": 790,
+  "total": 797,
   "breakdown": {
     "FE": 60,
     "slides": 562,
-    "quiz_pt": 167,
+    "quiz_pt": 174,
     "thao_nguyen": 167,
-    "albazzz_quiz_pt": 0
+    "albazzz_quiz_pt_extra": 7
   },
   "questions": [
     {
@@ -16181,6 +16181,174 @@
         "thao_nguyen"
       ],
       "img": "203"
+    },
+    {
+      "id": 812,
+      "question": "パリティビットには、どのような種類がありますか。",
+      "options": {
+        "A": "奇数パリティと偶数パリティ",
+        "B": "縦パリティだけ",
+        "C": "横パリティだけ",
+        "D": "パリティは1種類だけ"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Quiz PT — albazzz/FPT (không có trong 5 zip Thảo Nguyên)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nBit parity có những loại nào?\n\n✅ Đáp án: A. 奇数パリティと偶数パリティ — khái niệm kỹ thuật\nKhái niệm CNTT trong đề thi JIT.\nKhớp stem: khớp đáp án «奇数パリティと偶数パリティ».\n\n❌ Các đáp án khác\nB: 縦パリティだけ = 縦パリティだけ — khái niệm kỹ thuật — Là gì? 縦パリティだけ (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «縦パリティだけ» (B) không thỏa: khớp đáp án «奇数パリティと偶数パリティ».\nC: 横パリティだけ = 横パリティだけ — khái niệm kỹ thuật — Là gì? 横パリティだけ (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «横パリティだけ» (C) không thỏa: khớp đáp án «奇数パリティと偶数パリティ».\nD: パリティは1種類だけ = パリティは1種類だけ — khái niệm kỹ thuật — Là gì? パリティは1種類だけ (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «パリティは1種類だけ» (D) không thỏa: khớp đáp án «奇数パリティと偶数パリティ».",
+      "source": "quiz_pt",
+      "exam": "JIT401_QUIZ_PT_ALBAZZZ",
+      "sets": [
+        "quiz_pt",
+        "albazzz"
+      ],
+      "qv": "Bit parity có những loại nào?"
+    },
+    {
+      "id": 813,
+      "question": "2進数10011と2進数101を乗算した結果の2進数はどれか。",
+      "options": {
+        "A": "1011111",
+        "B": "110011",
+        "C": "10011",
+        "D": "10101"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Quiz PT — albazzz/FPT (không có trong 5 zip Thảo Nguyên)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nChọn phương án đúng (xem câu gốc).\n\n✅ Đáp án: A. 1011111\nCó vai trò riêng; đối chiếu với điều kiện stem.\nKhớp stem: khớp đáp án «1011111».\n\n❌ Các đáp án khác\nB: 110011 = 110011 — Là gì? 110011 — khái niệm/cơ chế trong miền đề (OS/mạng/DB/PM/an ninh/KTCT…).\nDùng để làm gì? Có vai trò riêng; đối chiếu với điều kiện stem.\nVì sao sai? «110011» (B) không thỏa: khớp đáp án «1011111».\nC: 10011 = 10011 — Là gì? 10011 — khái niệm/cơ chế trong miền đề (OS/mạng/DB/PM/an ninh/KTCT…).\nDùng để làm gì? Có vai trò riêng; đối chiếu với điều kiện stem.\nVì sao sai? «10011» (C) không thỏa: khớp đáp án «1011111».\nD: 10101 = 10101 — Là gì? 10101 — khái niệm/cơ chế trong miền đề (OS/mạng/DB/PM/an ninh/KTCT…).\nDùng để làm gì? Có vai trò riêng; đối chiếu với điều kiện stem.\nVì sao sai? «10101» (D) không thỏa: khớp đáp án «1011111».",
+      "source": "quiz_pt",
+      "exam": "JIT401_QUIZ_PT_ALBAZZZ",
+      "sets": [
+        "quiz_pt",
+        "albazzz"
+      ],
+      "qv": "Chọn phương án đúng (xem câu gốc)."
+    },
+    {
+      "id": 814,
+      "question": "CDでは、傷や手の脂、埃などによってデータが正しく読み取れない場合があります。このような誤りを検出・訂正するための仕組みを何と言いますか。",
+      "options": {
+        "A": "パリティチェック",
+        "B": "誤り検出・訂正機構",
+        "C": "ファイアウォール",
+        "D": "ランレングス圧縮"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Quiz PT — albazzz/FPT (không có trong 5 zip Thảo Nguyên)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nTrên CD, dữ liệu có thể đọc sai vì xước/dầu/bụi. Cơ chế phát hiện/sửa lỗi như vậy gọi là gì?\n\n✅ Đáp án: B. cơ chế phát hiện/sửa lỗi\ncơ chế phát hiện/sửa lỗi\nĐáp án B: cơ chế phát hiện/sửa lỗi\n\n❌ Các đáp án khác\nA: パリティチェック = パリティチェック — khái niệm kỹ thuật — Là gì? パリティチェック (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «パリティチェック» (A) không thỏa: khớp đáp án «誤り検出・訂正機構».\nC: ファイアウォール = tường lửa — Là gì? ファイアウォール (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «ファイアウォール» (C) không thỏa: khớp đáp án «誤り検出・訂正機構».\nD: ランレングス圧縮 = nén run-length — Là gì? ランレングス圧縮 (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «ランレングス圧縮» (D) không thỏa: khớp đáp án «誤り検出・訂正機構».",
+      "source": "quiz_pt",
+      "exam": "JIT401_QUIZ_PT_ALBAZZZ",
+      "sets": [
+        "quiz_pt",
+        "albazzz"
+      ],
+      "qv": "Trên CD, dữ liệu có thể đọc sai vì xước/dầu/bụi. Cơ chế phát hiện/sửa lỗi như vậy gọi là gì?"
+    },
+    {
+      "id": 815,
+      "question": "音声を圧縮する際によく使われる、波を正弦波に分解する変換は何ですか。",
+      "options": {
+        "A": "ランレングス",
+        "B": "ハフマン符号",
+        "C": "フーリエ変換",
+        "D": "パリティ"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Quiz PT — albazzz/FPT (không có trong 5 zip Thảo Nguyên)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nPhép biến đổi thường dùng khi nén âm, phân rã sóng thành sine — là gì?\n\n✅ Đáp án: C. biến đổi Fourier\nbiến đổi Fourier\nĐáp án C: biến đổi Fourier\n\n❌ Các đáp án khác\nA: ランレングス = ランレングス — khái niệm kỹ thuật — Là gì? ランレングス (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «ランレングス» (A) không thỏa: khớp đáp án «フーリエ変換».\nB: ハフマン符号 = mã Huffman — Là gì? ハフマン符号 (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «ハフマン符号» (B) không thỏa: khớp đáp án «フーリエ変換».\nD: パリティ = パリティ — khái niệm kỹ thuật — Là gì? パリティ (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «パリティ» (D) không thỏa: khớp đáp án «フーリエ変換».",
+      "source": "quiz_pt",
+      "exam": "JIT401_QUIZ_PT_ALBAZZZ",
+      "sets": [
+        "quiz_pt",
+        "albazzz"
+      ],
+      "qv": "Phép biến đổi thường dùng khi nén âm, phân rã sóng thành sine — là gì?"
+    },
+    {
+      "id": 816,
+      "question": "2進数100001を3倍したものはどれか。",
+      "options": {
+        "A": "1000010",
+        "B": "1100011",
+        "C": "111111",
+        "D": "1000011"
+      },
+      "answers": [
+        "B"
+      ],
+      "choose": 1,
+      "note": "Quiz PT — albazzz/FPT (không có trong 5 zip Thảo Nguyên)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nChọn phương án đúng (xem câu gốc).\n\n✅ Đáp án: B. 1100011\nCó vai trò riêng; đối chiếu với điều kiện stem.\nKhớp stem: khớp đáp án «1100011».\n\n❌ Các đáp án khác\nA: 1000010 = 1000010 — Là gì? 1000010 — khái niệm/cơ chế trong miền đề (OS/mạng/DB/PM/an ninh/KTCT…).\nDùng để làm gì? Có vai trò riêng; đối chiếu với điều kiện stem.\nVì sao sai? «1000010» (A) không thỏa: khớp đáp án «1100011».\nC: 111111 = 111111 — Là gì? 111111 — khái niệm/cơ chế trong miền đề (OS/mạng/DB/PM/an ninh/KTCT…).\nDùng để làm gì? Có vai trò riêng; đối chiếu với điều kiện stem.\nVì sao sai? «111111» (C) không thỏa: khớp đáp án «1100011».\nD: 1000011 = 1000011 — Là gì? 1000011 — khái niệm/cơ chế trong miền đề (OS/mạng/DB/PM/an ninh/KTCT…).\nDùng để làm gì? Có vai trò riêng; đối chiếu với điều kiện stem.\nVì sao sai? «1000011» (D) không thỏa: khớp đáp án «1100011».",
+      "source": "quiz_pt",
+      "exam": "JIT401_QUIZ_PT_ALBAZZZ",
+      "sets": [
+        "quiz_pt",
+        "albazzz"
+      ],
+      "qv": "Chọn phương án đúng (xem câu gốc)."
+    },
+    {
+      "id": 817,
+      "question": "MIDI命令のデータ段階（取りうる値の数）として適切なものはどれか。",
+      "options": {
+        "A": "64",
+        "B": "100",
+        "C": "128",
+        "D": "256"
+      },
+      "answers": [
+        "C"
+      ],
+      "choose": 1,
+      "note": "Quiz PT — albazzz/FPT (không có trong 5 zip Thảo Nguyên)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nChọn phương án đúng (xem câu gốc).\n\n✅ Đáp án: C. 128\nCó vai trò riêng; đối chiếu với điều kiện stem.\nKhớp stem: khớp đáp án «128».\n\n❌ Các đáp án khác\nA: 64 = 64 — Là gì? 64 — khái niệm/cơ chế trong miền đề (OS/mạng/DB/PM/an ninh/KTCT…).\nDùng để làm gì? Có vai trò riêng; đối chiếu với điều kiện stem.\nVì sao sai? «64» (A) không thỏa: khớp đáp án «128».\nB: 100 = 100 — Là gì? 100 — khái niệm/cơ chế trong miền đề (OS/mạng/DB/PM/an ninh/KTCT…).\nDùng để làm gì? Có vai trò riêng; đối chiếu với điều kiện stem.\nVì sao sai? «100» (B) không thỏa: khớp đáp án «128».\nD: 256 = 256 — Là gì? 256 — khái niệm/cơ chế trong miền đề (OS/mạng/DB/PM/an ninh/KTCT…).\nDùng để làm gì? Có vai trò riêng; đối chiếu với điều kiện stem.\nVì sao sai? «256» (D) không thỏa: khớp đáp án «128».",
+      "source": "quiz_pt",
+      "exam": "JIT401_QUIZ_PT_ALBAZZZ",
+      "sets": [
+        "quiz_pt",
+        "albazzz"
+      ],
+      "qv": "Chọn phương án đúng (xem câu gốc)."
+    },
+    {
+      "id": 818,
+      "question": "A3サイズ（29.7cm×42.0cm）を350 dpiで印刷する場合の画素数の計算で使う関係はどれか。",
+      "options": {
+        "A": "画素数 ≒ (cm/2.54×dpi) の縦×横",
+        "B": "画素数 = cm×dpi のみ",
+        "C": "画素数 = bps×Hz",
+        "D": "画素数 = ビット数÷8"
+      },
+      "answers": [
+        "A"
+      ],
+      "choose": 1,
+      "note": "Quiz PT — albazzz/FPT (không có trong 5 zip Thảo Nguyên)",
+      "alt": null,
+      "explanation": "📝 Dịch câu hỏi\nChọn phương án đúng (xem câu gốc).\n\n✅ Đáp án: A. 画素数 ≒ (cm/2.54×dpi) の縦×横 — khái niệm kỹ thuật\nsố pixel ≈ (cm/2.54×dpi) dọc×ngang\nẢnh số là lưới điểm; nhiều điểm hơn → đường biên mượt, ít «răng cưa».\nParity bit / số giao thức / tên miền không quyết định độ mịn ảnh.\n\n❌ Các đáp án khác\nB: 画素数 = cm×dpi のみ = số điểm ảnh (pixel) — Là gì? 画素数 = cm×dpi のみ (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «画素数 = cm×dpi のみ» (B) không thỏa: khớp đáp án «画素数 ≒ (cm/2.54×dpi) の縦×横».\nC: 画素数 = bps×Hz = số điểm ảnh (pixel) — Là gì? 画素数 = bps×Hz (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «画素数 = bps×Hz» (C) không thỏa: khớp đáp án «画素数 ≒ (cm/2.54×dpi) の縦×横».\nD: 画素数 = ビット数÷8 = 画素数 = ビット数÷8 — khái niệm kỹ thuật — Là gì? 画素数 = ビット数÷8 (thuật ngữ JP).\nDùng để làm gì? Khái niệm CNTT trong đề thi JIT.\nVì sao sai? «画素数 = ビット数÷8» (D) không thỏa: khớp đáp án «画素数 ≒ (cm/2.54×dpi) の縦×横».",
+      "source": "quiz_pt",
+      "exam": "JIT401_QUIZ_PT_ALBAZZZ",
+      "sets": [
+        "quiz_pt",
+        "albazzz"
+      ],
+      "qv": "Chọn phương án đúng (xem câu gốc)."
     }
   ]
 }

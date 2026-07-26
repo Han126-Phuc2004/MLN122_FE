@@ -3,7 +3,7 @@
   "use strict";
 
   /** Bump on every bank deploy so Safari/iPad cannot reuse stale JSON (GH Pages max-age=600). */
-  const DATA_VER = "20260726e";
+  const DATA_VER = "20260726f";
   const THEME_KEY = "fe_learn_theme_v1";
 
   /**
@@ -1128,18 +1128,32 @@
   }
 
   /**
-   * Quiz ôn = chỉ câu source=thao_nguyen (5 file zip Thảo Nguyên).
-   * Không lấy slide/FE dù từng trùng stem; không lấy albazzz/quiz_pt thuần.
+   * Quiz ôn = Thảo Nguyên 5 zip (source=thao_nguyen)
+   *          + albazzz Quiz PT chỉ những câu Thảo không có (source=quiz_pt).
+   * Không lấy slide/FE (kể cả trùng stem).
    * Legacy sourceFilter "zip240" vẫn map sang chip này.
    */
   function isQuizPt(q) {
     if (!q) return false;
-    if (q.source === "thao_nguyen") return true;
-    // fallback nếu bank cũ còn tag nhưng đã tách source
+    const src = q.source || "";
+    if (src === "thao_nguyen" || src === "quiz_pt") return true;
     const sets = q.sets;
-    if (Array.isArray(sets) && sets.includes("thao_nguyen") && q.source !== "slides" && q.source !== "fuexam")
-      return true;
-    return String(q.exam || "").includes("THAO_NGUYEN") && q.source === "thao_nguyen";
+    if (Array.isArray(sets)) {
+      if (sets.includes("thao_nguyen") && src !== "slides" && src !== "fuexam")
+        return true;
+      // albazzz-extra clones only (not tagged slides)
+      if (
+        sets.includes("quiz_pt") &&
+        sets.includes("albazzz") &&
+        src !== "slides" &&
+        src !== "fuexam"
+      )
+        return true;
+    }
+    const exam = String(q.exam || "");
+    if (exam.includes("THAO_NGUYEN") && src === "thao_nguyen") return true;
+    if (exam.includes("QUIZ_PT") && src === "quiz_pt") return true;
+    return false;
   }
 
   function isExamSource(q) {
@@ -1917,18 +1931,20 @@
       }
     }
 
-    // Quiz ôn = chỉ 5 zip Thảo Nguyên (JIT401)
+    // Quiz ôn = 5 zip Thảo + albazzz-extra (JIT401)
     if (ptChip) {
       const showPt = subjectId === "jit401";
       ptChip.hidden = !showPt;
       ptChip.style.display = showPt ? "" : "none";
       if (showPt) {
         ptChip.textContent = nPt > 0 ? `Quiz ôn (${nPt})` : "Quiz ôn";
+        const nThao = bank.filter((q) => q.source === "thao_nguyen").length;
+        const nAlba = bank.filter((q) => q.source === "quiz_pt").length;
         ptChip.setAttribute(
           "title",
           nPt > 0
-            ? `${nPt} câu từ 5 file zip Thảo Nguyên (không gồm albazzz / slide-only)`
-            : "Quiz ôn — 5 zip Thảo Nguyên"
+            ? `${nPt} câu: Thảo Nguyên 5 zip (${nThao}) + albazzz extra (${nAlba})`
+            : "Quiz ôn — Thảo Nguyên 5 zip + albazzz extra"
         );
       }
       // migrate old zip240 filter selection → quiz_pt
