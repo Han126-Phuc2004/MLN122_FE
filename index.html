@@ -23,19 +23,14 @@
       } catch (e) {}
     })();
   </script>
-  <link rel="stylesheet" href="style.css?v=20260726a" />
+  <link rel="stylesheet" href="style.css?v=20260726b" />
 </head>
 <body>
   <div class="app">
     <header class="topbar">
       <div class="brand">
-        <span class="brand-code" id="brandCode">FE Ôn tập</span>
-        <span class="brand-sub" id="brandSub">—</span>
-        <span class="visit-stats" id="visitStats" title="Thống kê truy cập (toàn site)" hidden>
-          <span class="visit-item"><b id="statVisitors">—</b> khách</span>
-          <span class="visit-sep">·</span>
-          <span class="visit-item"><b id="statViews">—</b> lượt xem</span>
-        </span>
+        <span class="brand-code" id="brandCode">MLN122</span>
+        <span class="brand-sub" id="brandSub">Ôn tập FE</span>
       </div>
       <nav class="subjects" id="subjects" aria-label="Chọn môn">
         <button type="button" class="sub-tab active" data-subject="mln122">MLN122</button>
@@ -52,6 +47,13 @@
         <button type="button" class="btn ghost" id="btnReset" title="Reset">↺</button>
       </div>
     </header>
+
+    <div class="visit-bar" id="visitStats" title="Thống kê truy cập toàn site">
+      <span class="visit-label">Truy cập site</span>
+      <span class="visit-item"><b id="statVisitors">…</b> khách</span>
+      <span class="visit-sep">·</span>
+      <span class="visit-item"><b id="statViews">…</b> lượt xem</span>
+    </div>
 
     <div class="workspace">
       <main class="main-col">
@@ -193,6 +195,6 @@
     </div>
   </div>
 
-  <script src="app.js?v=20260726a"></script>
+  <script src="app.js?v=20260726b"></script>
 </body>
 </html>

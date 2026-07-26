@@ -3,7 +3,7 @@
   "use strict";
 
   /** Bump on every bank deploy so Safari/iPad cannot reuse stale JSON (GH Pages max-age=600). */
-  const DATA_VER = "20260726a";
+  const DATA_VER = "20260726b";
   const THEME_KEY = "fe_learn_theme_v1";
 
   /**
@@ -2186,14 +2186,28 @@
           }
         }
       } catch {
-        // Key not created yet, or blocked — show pageviews only
-        visitors = 0;
+        // Create visitors key if missing
+        try {
+          visitors = await counterFetch("visitors", true);
+          if (bumpUnique) {
+            try {
+              localStorage.setItem(ANALYTICS_UNIQUE_KEY, String(Date.now()));
+            } catch {
+              /* ignore */
+            }
+          }
+        } catch {
+          visitors = 0;
+        }
       }
       viewsEl.textContent = formatCount(views);
       visitorsEl.textContent = formatCount(visitors);
-      box.hidden = false;
+      box.classList.remove("is-error");
     } catch {
-      /* network / adblock — keep stats hidden */
+      viewsEl.textContent = "—";
+      visitorsEl.textContent = "—";
+      box.classList.add("is-error");
+      box.title = "Không tải được thống kê (mạng / adblock chặn CounterAPI)";
     }
   }
 

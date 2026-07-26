@@ -158,24 +158,36 @@ input {
   text-overflow: ellipsis;
 }
 
-.visit-stats {
-  display: inline-flex;
+/* Always-visible visitor strip under topbar */
+.visit-bar {
+  display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 4px 6px;
-  margin-top: 2px;
-  font-size: 0.72rem;
+  gap: 6px 10px;
+  margin: -4px 0 12px;
+  padding: 8px 12px;
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  font-size: 0.82rem;
   color: var(--muted);
-  line-height: 1.3;
+  line-height: 1.35;
 }
 
-.visit-stats[hidden] {
-  display: none !important;
+.visit-bar.is-error {
+  border-color: var(--bad);
+  color: var(--bad);
 }
 
-.visit-stats b {
+.visit-label {
   font-weight: 700;
   color: var(--text);
+  margin-right: 2px;
+}
+
+.visit-bar b {
+  font-weight: 700;
+  color: var(--primary);
   font-variant-numeric: tabular-nums;
 }
 
