@@ -3,8 +3,17 @@
   "use strict";
 
   /** Bump on every bank deploy so Safari/iPad cannot reuse stale JSON (GH Pages max-age=600). */
-  const DATA_VER = "20260724n";
+  const DATA_VER = "20260726a";
   const THEME_KEY = "fe_learn_theme_v1";
+
+  /**
+   * Public hit counter (no Google account). Dashboard-free: numbers show on the site.
+   * Namespace is shared for this site only. API: https://counterapi.dev
+   */
+  const ANALYTICS_NS = "mln122fe";
+  const ANALYTICS_API = "https://api.counterapi.dev/v1";
+  const ANALYTICS_UNIQUE_KEY = "fe_learn_unique_visitor_v1";
+  const ANALYTICS_SESSION_KEY = "fe_learn_pv_session_v1";
 
   const SUBJECTS = {
     mln122: { file: "data/mln122.json", label: "MLN122" },
@@ -2125,6 +2134,69 @@
     /* ignore */
   }
 
+  function formatCount(n) {
+    const x = Number(n);
+    if (!Number.isFinite(x) || x < 0) return "—";
+    return x.toLocaleString("vi-VN");
+  }
+
+  async function counterFetch(key, bump) {
+    const base = `${ANALYTICS_API}/${encodeURIComponent(ANALYTICS_NS)}/${encodeURIComponent(key)}`;
+    const url = bump ? `${base}/up` : `${base}/`;
+    const res = await fetch(url, { method: "GET", cache: "no-store" });
+    if (!res.ok) throw new Error(`counter ${key} ${res.status}`);
+    const data = await res.json();
+    const count = data && data.count;
+    if (typeof count !== "number") throw new Error(`counter ${key} bad payload`);
+    return count;
+  }
+
+  /** Pageviews once per tab session; unique visitors once per browser (localStorage). */
+  async function trackAndShowVisits() {
+    const box = document.getElementById("visitStats");
+    const viewsEl = document.getElementById("statViews");
+    const visitorsEl = document.getElementById("statVisitors");
+    if (!box || !viewsEl || !visitorsEl) return;
+
+    let bumpViews = true;
+    let bumpUnique = false;
+    try {
+      if (sessionStorage.getItem(ANALYTICS_SESSION_KEY)) bumpViews = false;
+      else sessionStorage.setItem(ANALYTICS_SESSION_KEY, "1");
+    } catch {
+      /* count every load if sessionStorage blocked */
+    }
+    try {
+      bumpUnique = !localStorage.getItem(ANALYTICS_UNIQUE_KEY);
+    } catch {
+      /* private mode: still count pageviews; unique may over-count */
+      bumpUnique = true;
+    }
+
+    try {
+      const views = await counterFetch("pageviews", bumpViews);
+      let visitors = 0;
+      try {
+        visitors = await counterFetch("visitors", bumpUnique);
+        if (bumpUnique) {
+          try {
+            localStorage.setItem(ANALYTICS_UNIQUE_KEY, String(Date.now()));
+          } catch {
+            /* ignore */
+          }
+        }
+      } catch {
+        // Key not created yet, or blocked — show pageviews only
+        visitors = 0;
+      }
+      viewsEl.textContent = formatCount(views);
+      visitorsEl.textContent = formatCount(visitors);
+      box.hidden = false;
+    } catch {
+      /* network / adblock — keep stats hidden */
+    }
+  }
+
   (async function init() {
     applyTheme(resolveTheme());
     updateSyncUi();
@@ -2133,6 +2205,8 @@
     if (isRestricted(subjectId) && !isUnlocked()) {
       subjectId = "mln122";
     }
+    // fire-and-forget; do not block question load
+    trackAndShowVisits();
     const synced = await bootstrapSyncFromUrl();
     if (!synced) {
       await loadSubjectData(subjectId);

@@ -158,6 +158,35 @@ input {
   text-overflow: ellipsis;
 }
 
+.visit-stats {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 6px;
+  margin-top: 2px;
+  font-size: 0.72rem;
+  color: var(--muted);
+  line-height: 1.3;
+}
+
+.visit-stats[hidden] {
+  display: none !important;
+}
+
+.visit-stats b {
+  font-weight: 700;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+.visit-sep {
+  opacity: 0.55;
+}
+
+.visit-item {
+  white-space: nowrap;
+}
+
 .subjects {
   display: flex;
   flex-wrap: wrap;
