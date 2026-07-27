@@ -426,12 +426,12 @@
         "D": "ソースコードがある。"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26 (ảnh scan). Key: Web2.0大きな特徴→シェアウェア(共有) (A)",
+      "note": "Đề thật FE SP26 (ảnh scan). Key: Web2.0の大きな特徴→ロングテールがある (C)",
       "alt": null,
-      "explanation": "🔑 Keyword: Web2.0大きな特徴→シェアウェア(共有) (A)\n\n✅ Đáp án: A — シェアウェアがある。\n\n❌ Sai: B=キャラクターがある。 / C=ロングテールがある。 / D=ソースコードがある。",
+      "explanation": "🔑 Key Web 2.0: Đặc trưng nổi bật về mô hình kinh doanh của Web 2.0 là hiện tượng «Long Tail» (ロングテール - Đuôi dài, bán các sản phẩm ngách/doanh số nhỏ nhưng tổng lợi nhuận lớn)\n\n✅ C — ロングテールがある (Có hiệu ứng Long Tail)\n\n❌ Sai: A=シェアウェア (Shareware là mô hình dùng thử phần mềm PC từ thời Web 1.0) / B=キャラクター / D=ソースコード",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE",
       "image": "https://fuexam.me/data/attachments/19/19010-ce9ea59ade8d7acfe3e53c5711996ba1.jpg"
