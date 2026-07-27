@@ -15802,16 +15802,16 @@
         "C"
       ],
       "choose": 1,
-      "note": "Thảo Nguyên 5 zip · map bank#663 (0.95)",
+      "note": "Thảo Nguyên 5 zip · img 171 (Chuẩn Unicode)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\n(Gốc JP) 0と1の並びを、どの文字に対応させるかは、（ ）コードというコード体系で標準化されています。\n\n✅ Đáp án: C — Unicode\nĐã đồng bộ chữ đáp án với field answers (đúng).\n\n❌ Các đáp án khác\nA: ASCII — «ASCII» không khớp định nghĩa/điều kiện trong câu (đáp án đúng nhấn: Unicode).\nB: JPEG — «JPEG» không khớp định nghĩa/điều kiện trong câu (đáp án đúng nhấn: Unicode).\nD: MIDI — «MIDI» không khớp định nghĩa/điều kiện trong câu (đáp án đúng nhấn: Unicode).\n",
+      "explanation": "📝 Dịch câu hỏi\nQuy tắc quy định chuỗi 0 và 1 (bit) tương ứng với ký tự nào được chuẩn hóa bởi hệ thống mã gọi là mã (   ).\n\n✅ Đáp án: C — Unicode\nUnicode là tiêu chuẩn quốc tế chuẩn hóa việc mã hóa chuỗi bit (0 và 1) thành các ký tự (chữ cái, chữ Nhật, biểu tượng...) trên toàn thế giới.\n\n❌ Các đáp án khác\nA: ASCII — Chỉ là mã ký tự cơ bản 7-bit cho tiếng Anh.\nB: JPEG — Định dạng nén hình ảnh (静止画圧縮).\nD: MIDI — Định dạng giao tiếp dữ liệu âm thanh kỹ thuật số (電子楽器の演奏データ).\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
         "quiz_pt",
         "thao_nguyen"
       ],
-      "img": "171"
+      "img": null
     },
     {
       "id": 794,
