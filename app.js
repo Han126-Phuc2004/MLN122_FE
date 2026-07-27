@@ -3,7 +3,7 @@
   "use strict";
 
   /** Bump on every bank deploy so Safari/iPad cannot reuse stale JSON (GH Pages max-age=600). */
-  const DATA_VER = "20260727c";
+  const DATA_VER = "20260727d";
   const THEME_KEY = "fe_learn_theme_v1";
 
   /**
@@ -1504,6 +1504,23 @@
     els.cardQnum.textContent = `Multiple Choice Question ${q.id}`;
     els.cardChoose.textContent = chooseLabel(n);
     els.cardQuestion.textContent = q.question;
+
+    let imgWrap = document.getElementById("cardQuestionImg");
+    if (!imgWrap) {
+      imgWrap = document.createElement("div");
+      imgWrap.id = "cardQuestionImg";
+      imgWrap.className = "card-q-img-wrap";
+      els.cardQuestion.after(imgWrap);
+    }
+
+    const imgSrc = q.image || q.img || "";
+    if (imgSrc) {
+      imgWrap.innerHTML = `<a href="${escapeHtml(imgSrc)}" target="_blank" rel="noopener" title="Bấm để xem ảnh gốc phóng to"><img src="${escapeHtml(imgSrc)}" class="card-q-img" alt="Hình minh họa câu ${q.id}" loading="lazy"></a>`;
+      imgWrap.hidden = false;
+    } else {
+      imgWrap.innerHTML = "";
+      imgWrap.hidden = true;
+    }
     els.jumpInput.value = String(q.id);
     els.jumpInput.max = String(all.length);
 

@@ -1112,3 +1112,24 @@ html.dark .card-nav {
     flex: 1 1 auto;
   }
 }
+
+/* Question Image Styling */
+.card-q-img-wrap {
+  margin: 12px 0 16px;
+  text-align: center;
+}
+
+.card-q-img {
+  max-width: 100%;
+  max-height: 480px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  object-fit: contain;
+  cursor: zoom-in;
+  transition: transform 0.15s ease;
+}
+
+.card-q-img:hover {
+  transform: scale(1.01);
+}
