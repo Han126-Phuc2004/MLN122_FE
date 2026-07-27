@@ -3,7 +3,7 @@
   "use strict";
 
   /** Bump on every bank deploy so Safari/iPad cannot reuse stale JSON (GH Pages max-age=600). */
-  const DATA_VER = "20260728_fix747_note";
+  const DATA_VER = "20260728_audit174_done";
   const THEME_KEY = "fe_learn_theme_v1";
 
   /**
