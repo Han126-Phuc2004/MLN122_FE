@@ -99,12 +99,12 @@
         "D": "135₁₆"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: 753₈ - A6₁₆ = 491₁₀ - 166₁₀ = 325₁₀ (đáp án c → chọn B)",
+      "note": "Đề thật FE SP26 (ảnh scan). Key: 753₈ - A6₁₆ = 491₁₀ - 166₁₀ = 325₁₀ (C)",
       "alt": null,
-      "explanation": "🔑 Key: 753₈ - A6₁₆ = 491₁₀ - 166₁₀ = 325₁₀ (đáp án c → chọn B)\n\n✅ Đáp án ĐÚNG: B — 501₈\n\n❌ Các đáp án SAI: A=101001101₂ / C=325₁₀ / D=135₁₆",
+      "explanation": "🔑 Tính toán đổi cơ số:\n• 753₈ = 7×64 + 5×8 + 3 = 491₁₀\n• A6₁₆ = 10×16 + 6 = 166₁₀\n• 491 − 166 = 325₁₀\n\n✅ C — 325₁₀\n\n❌ Sai: A=101001101₂ (333₁₀) / B=501₈ (321₁₀) / D=135₁₆ (309₁₀)",
       "source": "fuexam",
       "exam": "JFE301_SP26_FE",
       "image": "https://fuexam.me/data/attachments/18/18991-bae80baaf3be3e6f43ce9556479f9ba8.jpg"
