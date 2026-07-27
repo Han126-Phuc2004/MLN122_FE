@@ -14598,19 +14598,19 @@
         "D": "400"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#682 (0.90)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\n(Gốc JP) 100M ビット/秒の伝送速度の LAN を使用して,1G バイトのファイルを転送するのに必要な時間はおよそ何秒か。ここで,1K バイト=1000バイトとする。また,LAN の伝送効率は20%とする。\n\n✅ Đáp án: B — 4\n1GB = 8Gbit; 8Gbit / 100Mbps ≈ 80s lý thuyết; đề có overhead → đáp án gần đúng theo phương án.\n\n❌ Các đáp án khác\nA: 5000 — Sai đơn vị bit/byte hoặc phép chia tốc độ.\nC: 50 — Sai đơn vị bit/byte hoặc phép chia tốc độ.\nD: 400 — Sai đơn vị bit/byte hoặc phép chia tốc độ.\n",
+      "explanation": "📝 Dịch câu hỏi\nSử dụng LAN có tốc độ truyền 100 Mbps để truyền file 1 GB, mất khoảng bao nhiêu giây?\nBiết 1 KB = 1000 Bytes, 1 GB = 1,000,000,000 Bytes, hiệu suất truyền LAN là 20%.\n\n✅ Đáp án: D — 400\nDung lượng file = 1 GB = 8 x 10^9 bits.\nTốc độ thực tế = 100 Mbps x 20% = 20 Mbps = 2 x 10^7 bits/s.\nThời gian = (8 x 10^9) / (2 x 10^7) = 400 giây.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
         "quiz_pt",
         "thao_nguyen"
       ],
-      "img": "058"
+      "img": null
     },
     {
       "id": 744,
@@ -14622,19 +14622,19 @@
         "D": "何をどうするか(How)を詳細に記述する言語"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#693 (0.90)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\n(Gốc JP) 非手続型プログラミング言語について正しいものをえらんでください。\n\n✅ Đáp án: D — 何をどうするか(How)を詳細に記述する言語\nNgôn ngữ thủ tục nhấn How (làm thế nào) theo từng bước.\n\n❌ Các đáp án khác\nA: 管理の手順を与えます — Không phải đặc trưng procedural.\nB: 何をしたいか(What)を記述することで解を得る言語 — Không phải đặc trưng procedural.\nC: SQLなど目的の特化された定型的処理をする少数の言語が属します — Không phải đặc trưng procedural.\n",
+      "explanation": "📝 Dịch câu hỏi\nHãy chọn phát biểu đúng về ngôn ngữ lập trình phi thủ tục (Non-procedural language).\n\n✅ Đáp án: B — 何をしたいか(What)を記述することで解を得る言語\nNgôn ngữ phi thủ tục (Non-procedural, ví dụ SQL, Prolog) tập trung mô tả WHAT (cái muốn đạt được), không cần chỉ rõ từng bước HOW.\n\n❌ Các đáp án khác\nD: 何をどうするか(How)... — Đây là đặc trưng của ngôn ngữ thủ tục (Procedural language).\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
         "quiz_pt",
         "thao_nguyen"
       ],
-      "img": "061"
+      "img": null
     },
     {
       "id": 745,
@@ -14688,10 +14688,10 @@
       "id": 747,
       "question": "ヘルツについて正しいものをえらんでください。",
       "options": {
-        "A": "文字の並び順を入れ替えて暗号化する方式である",
-        "B": "1秒あたりの波（音）の高さの測定回数を表す",
-        "C": "公開鍵と秘密鍵のペアを用いる現代暗号のみを指す",
-        "D": "データを圧縮してから必ず削除する方式である"
+        "A": "1秒あたりの波（音）の高さの測定回数を表します",
+        "B": "1 kHz = 10,000 Hz",
+        "C": "1分あたりの波（音）の高さの測定回数を表します",
+        "D": "1 kHz = 100 Hz"
       },
       "answers": [
         "A"
@@ -14699,14 +14699,14 @@
       "choose": 1,
       "note": "Thảo Nguyên 5 zip · map bank#25 (0.83)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\n(Gốc JP) ヘルツについて正しいものをえらんでください。\n\n✅ Đáp án: A — 文字の並び順を入れ替えて暗号化する方式である\n転置式暗号 (transposition): giữ ký tự, đổi thứ tự sắp xếp. Khác 置換 (thay ký tự). B là định nghĩa sampling rate — không liên quan mã hóa.\n\n❌ Các đáp án khác\nB: 1秒あたりの波（音）の高さの測定回数を表す — «1秒あたりの波（音）の高さの測定回数を表す» không khớp định nghĩa/điều kiện trong câu (đáp án đúng nhấn: 文字の並び順を入れ替えて暗号化する方式である).\nC: 公開鍵と秘密鍵のペアを用いる現代暗号のみを指す — «公開鍵と秘密鍵のペアを用いる現代暗号のみを指す» không khớp định nghĩa/điều kiện trong câu (đáp án đúng nhấn: 文字の並び順を入れ替えて暗号化する方式である).\nD: データを圧縮してから必ず削除する方式である — «データを圧縮してから必ず削除する方式である» không khớp định nghĩa/điều kiện trong câu (đáp án đúng nhấn: 文字の並び順を入れ替えて暗号化する方式である).\n",
+      "explanation": "📝 Dịch câu hỏi\nHãy chọn phát biểu đúng về Hertz (Hz).\n\n✅ Đáp án: A — 1秒あたりの波（音）の高さの測定回数を表します\nHertz (Hz) là đơn vị đo tần số, biểu thị số lần dao động / đo sóng (âm thanh) trong 1 giây (1 cycle per second).\n\n❌ Các đáp án khác\nB: 1 kHz = 10,000 Hz — Sai (1 kHz = 1,000 Hz).\nC: 1分あたりの波... — Sai (Hertz tính theo giây, không phải theo phút).\nD: 1 kHz = 100 Hz — Sai (1 kHz = 1,000 Hz).\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
         "quiz_pt",
         "thao_nguyen"
       ],
-      "img": "067"
+      "img": null
     },
     {
       "id": 748,
