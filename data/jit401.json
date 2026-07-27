@@ -486,12 +486,12 @@
         "D": "フローチャート"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26 (ảnh scan). Key: ヒューマンI/F設計→フローチャート検討時では不十分 (D)",
+      "note": "Đề thật FE SP26 (ảnh scan). Key: ヒューマンI/F設計→アルゴリズム検討時では不十分 (A)",
       "alt": null,
-      "explanation": "🔑 Keyword: ヒューマンI/F設計→フローチャート検討時では不十分 (D)\n\n✅ Đáp án: D — フローチャート\n\n❌ Sai: A=アルゴリズム / B=ソーティング / C=マージソート",
+      "explanation": "🔑 Key: Thiết kế Human Interface (UI/UX) không thể đánh giá đầy đủ chỉ dựa trên giai đoạn xem xét «Thuật toán» (アルゴリズム), do đó cần tạo chương trình chạy thử (Prototype) để hoàn thiện.\n\n✅ A — アルゴリズム (Thuật toán)\n\n❌ Sai: B=ソーティング / C=マージソート / D=フローチャート",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE",
       "image": "https://fuexam.me/data/attachments/19/19010-ce9ea59ade8d7acfe3e53c5711996ba1.jpg"
@@ -806,12 +806,12 @@
         "D": "モジュレーションなどにより表現されています。"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26 (ảnh scan). Key: 着信メロディ→高音質不可は誤り→正しくない=C",
+      "note": "Đề thật FE SP26 (ảnh scan). Key chọn câu SAI: 着信メロディ (nhạc chuông) khẳng định phát nhạc chất lượng cao (高音質再生可能) là SAI → chọn B",
       "alt": null,
-      "explanation": "🔑 Keyword: 着信メロディ→高音質不可は誤り→正しくない=C\n\n✅ Đáp án: C — 高音質な楽曲再生が不可能です。\n\n❌ Sai: A=着信メロディのデータは、音楽用のコードと解釈されます。 / B=両音質な楽曲再生が可能です。 / D=モジュレーションなどにより表現されています。",
+      "explanation": "🔑 Key chọn phát biểu SAI về nhạc chuông (着信メロディ): Nhạc chuông mã hóa MIDI/đơn âm trước đây KHÔNG THỂ phát nhạc âm thanh chất lượng cao (高音質). Do đó phát biểu «Phát nhạc chất lượng cao là có thể» là SAI → Cần chọn.\n\n✅ B — 高音質/両音質な楽曲再生が可能です (Phát biểu Sai $\\rightarrow$ Chọn B)\n\n❌ Các câu phát biểu đúng: A / C (高音質再生不可能 - Không thể phát nhạc chất lượng cao) / D",
       "source": "fuexam",
       "exam": "JIT401_SP26_FE",
       "image": "https://fuexam.me/data/attachments/19/19014-e6919f295a817e17fa81212a329776c3.jpg"
