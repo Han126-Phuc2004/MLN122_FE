@@ -14735,27 +14735,27 @@
     },
     {
       "id": 749,
-      "question": "プログラム言語に関する次の記述a〜cのうち,適切なものだけをすべて挙げたものはどれか。\na 機械語やアセンブリ言語で作成されたプログラムは,特定の CPU に依存するこ\nb コンパイラで変換されるプログラムは,最終的には機械語に変換されてから実\nc 人間の言葉に近い規則をもったプログラム言語(高水準言語)を活用すれば,機…行できるプログラムが開発できる。",
+      "question": "プログラム言語に関する次の記述a〜cのうち,適切なものだけをすべて挙げたものはどれか。\na 機械語やアセンブリ言語で作成されたプログラムは、特定の CPU に依存することなく実行できる。\nb コンパイラで変換されるプログラムは、最終的には機械語に変換されてから実行される。\nc 人間の言葉に近い規則をもったプログラム言語(高水準言語)を活用すれば、機械語では実行できない複雑な演算が実行できるプログラムが開発できる。",
       "options": {
         "A": "b",
-        "B": "a,c",
-        "C": "b,c",
+        "B": "a, c",
+        "C": "b, c",
         "D": "a"
       },
       "answers": [
         "A"
       ],
       "choose": 1,
-      "note": "Thảo Nguyên 5 zip · map bank#655 (0.90)",
+      "note": "Thảo Nguyên 5 zip · img 071 (IT Passport Q81 Chuẩn)",
       "alt": null,
-      "explanation": "📝 Dịch câu hỏi\n(Gốc JP) プログラム言語に関する次の記述a〜cのうち,適切なものだけをすべて挙げたものはどれか。 a 機械語やアセンブリ言語で作成されたプログラムは,特定の CPU に依存するこ b コンパイラで変換されるプログラムは,最終的には機械語に変換されてから実 c 人間の言葉に近い規則をもったプログラム言語(高水準言語)を活用すれば,機…行できるプログラムが開発できる。\n\n✅ Đáp án: A — b\nĐối chiếu từng mệnh đề a–c với kiến thức ngôn ngữ máy/compiler/high-level; chọn tổ hợp đúng theo đáp án A.\n\n❌ Các đáp án khác\nB: a,c — Tổ hợp mệnh đề không đúng.\nC: b,c — Tổ hợp mệnh đề không đúng.\nD: a — Tổ hợp mệnh đề không đúng.\n",
+      "explanation": "📝 Dịch câu hỏi\nTrong các phát biểu a〜c sau đây về ngôn ngữ lập trình, phát biểu nào đúng?\n\na. Chương trình viết bằng ngôn ngữ máy hoặc hợp ngữ (assembly) có thể chạy mà không phụ thuộc vào CPU cụ thể.\nb. Chương trình được dịch bởi compiler cuối cùng sẽ được chuyển thành ngôn ngữ máy rồi mới thực thi.\nc. Sử dụng ngôn ngữ bậc cao (high-level language) có thể phát triển chương trình thực hiện các phép toán phức tạp mà ngôn ngữ máy không thể thực thi được.\n\n✅ Đáp án: A — b (Chỉ phát biểu b đúng)\n\n🔍 Phân tích chi tiết:\n❌ a: Sai. Ngôn ngữ máy và hợp ngữ phụ thuộc trực tiếp vào tập lệnh của CPU cụ thể (CPU-dependent).\n✅ b: Đúng. Compiler biên dịch toàn bộ mã nguồn sang ngôn ngữ máy (mã nhị phân/CPU instruction) trước khi chương trình chạy.\n❌ c: Sai. Ngôn ngữ bậc cao giúp con người dễ đọc/dễ viết hơn, nhưng cuối cùng vẫn chuyển về ngôn ngữ máy; nó không tạo ra tính năng tính toán nào nằm ngoài khả năng của ngôn ngữ máy/CPU.\n",
       "source": "thao_nguyen",
       "exam": "JIT401_THAO_NGUYEN",
       "sets": [
         "quiz_pt",
         "thao_nguyen"
       ],
-      "img": "071"
+      "img": null
     },
     {
       "id": 750,
