@@ -3,7 +3,7 @@
   "use strict";
 
   /** Bump on every bank deploy so Safari/iPad cannot reuse stale JSON (GH Pages max-age=600). */
-  const DATA_VER = "20260731_v232654";
+  const DATA_VER = "20260731_v232905";
   const THEME_KEY = "fe_learn_theme_v1";
 
   /**
@@ -1086,13 +1086,11 @@
       } catch {
         /* ignore */
       }
-      await syncPull({ silent: false, thenLoadSubject: true });
-      return true;
+      return await syncPull({ silent: false, thenLoadSubject: true });
     }
     // existing id: soft pull on start
     if (getSyncId() && isSyncAuto()) {
-      await syncPull({ silent: true, thenLoadSubject: true });
-      return true;
+      return await syncPull({ silent: true, thenLoadSubject: true });
     }
     return false;
   }
@@ -2694,7 +2692,7 @@
     });
 
     const synced = await bootstrapSyncFromUrl();
-    if (!synced) {
+    if (!synced || !all || !all.length) {
       await loadSubjectData(subjectId);
     } else if (isRestricted(subjectId) && !isUnlocked()) {
       await loadSubjectData("mln122");
