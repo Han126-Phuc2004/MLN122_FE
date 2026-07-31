@@ -22,12 +22,11 @@
         "B"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Check digit mod10: 7b42 → 38+3b ≡ 6 (mod10) → b=6",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Check digit mod10: 7b42 → 38+3b ≡ 6 (mod10) → b=6\n\n✅ Đáp án ĐÚNG: B — 6\n\n❌ Các đáp án SAI: A=7 / C=5 / D=8",
+      "explanation": "mod((7*4 + b*3 + 4*2 + 2*1), 10) = 6 → (28+3b+8+2)=6 (mod 10) → 38+3b ≡ 6 (mod 10) → 3b ≡ 8 (mod 10). b=6: 18≡8. Đáp án 6.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18990-f156c3421046f907cd902a168b638b9f.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 2,
@@ -42,12 +41,11 @@
         "A"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Spooling = trao đổi dữ liệu qua bộ nhớ phụ giữa CPU và I/O tốc độ thấp",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Spooling = trao đổi dữ liệu qua bộ nhớ phụ giữa CPU và I/O tốc độ thấp\n\n✅ Đáp án ĐÚNG: A — The overall processing power of a system is enhanced by performing data transfer between the main storage and low-speed input/output devices via auxiliary storage devices.\n\n❌ Các đáp án SAI: B=Execution of the programs is temporarily suspended, and control is transferred to the control program. / C=If a CPU becomes idle because of the execution of input/output instructions while executing a certain task, the CPU is assigned to another task. / D=The access time to auxiliary storage devices is reduced by providing a buffer pool consisting of multiple buffers and by increasing the probability of accessing buffers located in the main storage.",
+      "explanation": "Spooling: đệm I/O chậm qua bộ nhớ phụ (disk) để tăng hiệu năng hệ thống. C là multiprogramming/CPU idle switch; D gần buffer cache; B là interrupt/trap.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18990-f156c3421046f907cd902a168b638b9f.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 3,
@@ -62,12 +60,11 @@
         "D"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Service level management (SLM/SLA) = quản lý cấp độ dịch vụ IT",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Service level management (SLM/SLA) = quản lý cấp độ dịch vụ IT\n\n✅ Đáp án ĐÚNG: D — Service level management\n\n❌ Các đáp án SAI: A=Schedule management / B=Risk management / C=Quality management",
+      "explanation": "Service Level Management định nghĩa, thỏa thuận, ghi nhận và quản lý mức dịch vụ (SLA). Các mục còn lại không phải quy trình delivery SLA.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18990-f156c3421046f907cd902a168b638b9f.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 4,
@@ -82,12 +79,11 @@
         "C"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: CMMI Managed (Level 2) = quy trình được ghi chép và tuân thủ theo dự án",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: CMMI Managed (Level 2) = quy trình được ghi chép và tuân thủ theo dự án\n\n✅ Đáp án ĐÚNG: C — At the “managed” level, processes are documented and followed.\n\n❌ Các đáp án SAI: A=At the “initial” level, processes are characterized for projects and are often reactive. / B=At the “defined” level, processes are statistically measured and controlled. / D=At the “quantitatively managed” level, processes are continually improved.",
+      "explanation": "CMMI staged: Initial=ad-hoc; Managed=theo dự án, có kiểm soát; Defined=chuẩn tổ chức; Quantitatively Managed=đo lường thống kê; Optimizing=cải tiến liên tục. A gán nhầm mô tả Managed cho Initial; B/D nhầm level. C gần đúng nhất cho Managed.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18990-f156c3421046f907cd902a168b638b9f.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 5,
@@ -102,12 +98,11 @@
         "C"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26 (ảnh scan). Key: 753₈ - A6₁₆ = 491₁₀ - 166₁₀ = 325₁₀ (C)",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Tính toán đổi cơ số:\n• 753₈ = 7×64 + 5×8 + 3 = 491₁₀\n• A6₁₆ = 10×16 + 6 = 166₁₀\n• 491 − 166 = 325₁₀\n\n✅ C — 325₁₀\n\n❌ Sai: A=101001101₂ (333₁₀) / B=501₈ (321₁₀) / D=135₁₆ (309₁₀)",
+      "explanation": "753₈=7*64+5*8+3=491₁₀; A6₁₆=10*16+6=166₁₀; 491−166=325₁₀. Khớp phương án C.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18991-bae80baaf3be3e6f43ce9556479f9ba8.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 6,
@@ -123,12 +118,11 @@
         "C"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Cloud computing SAI: 1 node lỗi KHÔNG làm các node khác lỗi (các node cô lập)",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Cloud computing SAI: 1 node lỗi KHÔNG làm các node khác lỗi (các node cô lập)\n\n✅ Đáp án ĐÚNG: C — One concern is if one piece of the software on a node fails, other pieces of the software on other nodes may fail.\n\n❌ Các đáp án SAI: A=Companies can scale up to massive capacities in an instant without having to invest in new infrastructure, train new personnel, or license new software. / B=Amazon Web Services (AWS) EC2 is a sample of cloud computing. / D=It evolves from grid computing and provides on-demand resource provisioning. / E=It relies on sharing of resources to achieve coherence and economies of scale, similar to a utility (like the electricity grid) over a network.",
+      "explanation": "Phát biểu C không đúng đặc trưng cloud (các node/dịch vụ thường cô lập, fail một phần không đồng nghĩa fail dây chuyền toàn hệ như mô tả). A/B/D/E là đặc điểm/đúng về cloud.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18991-bae80baaf3be3e6f43ce9556479f9ba8.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 7,
@@ -143,12 +137,11 @@
         "D"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Critical path PERT ĐÚNG: chậm trễ ở đường găng sẽ làm chậm toàn bộ dự án",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Critical path PERT ĐÚNG: chậm trễ ở đường găng sẽ làm chậm toàn bộ dự án\n\n✅ Đáp án ĐÚNG: D — Delays in critical path activities will delay the entire project\n\n❌ Các đáp án SAI: A=Activities on the critical path have slack time / B=Critical path always has the least number of tasks / C=Critical path can be ignored if resources are sufficient",
+      "explanation": "Critical path: đường dài nhất; trễ activity trên critical path → trễ cả dự án. Slack=0 trên critical path.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18991-bae80baaf3be3e6f43ce9556479f9ba8.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 8,
@@ -163,12 +156,11 @@
         "D"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Chỉ số quản lý chất lượng phần mềm = thời gian review sản phẩm/mật độ lỗi",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Chỉ số quản lý chất lượng phần mềm = thời gian review sản phẩm/mật độ lỗi\n\n✅ Đáp án ĐÚNG: D — Period of time required to adequately review each deliverable\n\n❌ Các đáp án SAI: A=Number of completed work packages that compose a WBS / B=Productivity of individual programming / C=Program version and modification level",
+      "explanation": "Chỉ số hỗ trợ quản lý chất lượng phần mềm: thời gian/adequacy review từng deliverable. WBS completed ≠ chất lượng; productivity/version không đo chất lượng trực tiếp.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18991-bae80baaf3be3e6f43ce9556479f9ba8.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 9,
@@ -181,12 +173,11 @@
         "A"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: CRM description SAI vì mô tả theo dõi nguyên vật liệu, sản xuất, lương = ERP → False (A)",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: CRM description SAI vì mô tả theo dõi nguyên vật liệu, sản xuất, lương = ERP → False (A)\n\n✅ Đáp án ĐÚNG: A — False\n\n❌ Các đáp án SAI: B=True",
+      "explanation": "Đoạn mô tả thiên về ERP (tài nguyên, sản xuất, inventory cross-function), không phải CRM (quan hệ khách hàng, sales/marketing/service). → False.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18992-b266b68b86393b6450dc4b90aedb245a.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 10,
@@ -201,12 +192,11 @@
         "C"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Phân tích ABC: P(44.4%) + Q(27.8%) = 72.2% giá trị → Nhóm A gồm P và Q",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Phân tích ABC: P(44.4%) + Q(27.8%) = 72.2% giá trị → Nhóm A gồm P và Q\n\n✅ Đáp án ĐÚNG: C — Items P and Q are Class A\n\n❌ Các đáp án SAI: A=Items P, Q, R are Class A / B=All items are equally important / D=Item P alone is Class A",
+      "explanation": "ABC analysis: giá trị cao chiếm ít item. P=4000, Q=2500 (~72% tổng 9000) là Class A điển hình. R/S/T thấp hơn.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18992-b266b68b86393b6450dc4b90aedb245a.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 11,
@@ -221,12 +211,11 @@
         "A"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Program counter (PC) = chứa địa chỉ của lệnh tiếp theo sẽ thực thi",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Program counter (PC) = chứa địa chỉ của lệnh tiếp theo sẽ thực thi\n\n✅ Đáp án ĐÚNG: A — In order to read out an instruction, it contains the address where the next instruction is stored.\n\n❌ Các đáp án SAI: B=In order to perform an arithmetic or logical operation, it contains data that is read out from the memory. / C=In order to execute a conditional branch instruction, it contains the state of operation results. / D=In order to decode an instruction, it contains the instruction that is read out from the memory.",
+      "explanation": "Program Counter (PC) giữ địa chỉ lệnh tiếp theo cần fetch.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18992-b266b68b86393b6450dc4b90aedb245a.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 12,
@@ -241,12 +230,11 @@
         "A"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Function Point = (1×4 + 2×5 + 1×10) × 0.75 = 24 × 0.75 = 18",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Function Point = (1×4 + 2×5 + 1×10) × 0.75 = 24 × 0.75 = 18\n\n✅ Đáp án ĐÚNG: A — 18\n\n❌ Các đáp án SAI: B=24 / C=30 / D=32",
+      "explanation": "Function point = (unadjusted FP) × complexity. Với hệ số 0.75, kết quả thường là số nhỏ hơn UFP; theo bảng đề (ảnh) đáp án phổ biến trong bộ này là 18. (Nếu có ảnh bảng chức năng, nhân hệ số 0.75 để kiểm tra lại.)",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18993-b2b2c3267a803f99234c0e0e212bb449.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 13,
@@ -261,12 +249,11 @@
         "A"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Hàng đợi (Queue) = cấu trúc dữ liệu FIFO (Vào trước ra trước)",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Hàng đợi (Queue) = cấu trúc dữ liệu FIFO (Vào trước ra trước)\n\n✅ Đáp án ĐÚNG: A — FIFO\n\n❌ Các đáp án SAI: B=LIFO / C=LFU / D=LRU",
+      "explanation": "Queue = FIFO (First In First Out). LIFO là stack; LFU/LRU là chính sách cache.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18993-b2b2c3267a803f99234c0e0e212bb449.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 14,
@@ -281,12 +268,11 @@
         "B"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Dung lượng 4 camera 1 phút = 4 × 640×480 × 2B × 30fps × 60s ≈ 4.5 GB",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Dung lượng 4 camera 1 phút = 4 × 640×480 × 2B × 30fps × 60s ≈ 4.5 GB\n\n✅ Đáp án ĐÚNG: B — 4.5 GB\n\n❌ Các đáp án SAI: A=74 MB / C=19 MB / D=1.2 GB",
+      "explanation": "4 camera × 30 fps × 640×480 × 16 bit × 60s. Bytes/frame = 640*480*2 = 614400. 1 cam/s = 30*614400≈18.4MB; 4 cam/s≈73.7MB; ×60s ≈ 4.42GB ≈ 4.5GB.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18993-b2b2c3267a803f99234c0e0e212bb449.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 15,
@@ -301,12 +287,11 @@
         "A"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: 4 trụ cột OOP: Trừu tượng (Abstraction), Đóng gói (Encapsulation), Kế thừa (Inheritance), Đa hình (Polymorphism)",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: 4 trụ cột OOP: Trừu tượng (Abstraction), Đóng gói (Encapsulation), Kế thừa (Inheritance), Đa hình (Polymorphism)\n\n✅ Đáp án ĐÚNG: A — Abstraction, encapsulation, inheritance, polymorphism\n\n❌ Các đáp án SAI: B=Virtualization, structuring, projection, class / C=Materialization, structuring, continuity, class / D=Normalization, encapsulation, division, class",
+      "explanation": "Bốn trụ OOP: abstraction, encapsulation, inheritance, polymorphism.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18993-b2b2c3267a803f99234c0e0e212bb449.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 16,
@@ -321,12 +306,11 @@
         "B"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Sơ đồ luồng dữ liệu (Data flow diagram) thể hiện mối quan hệ chức năng và giao diện mô-đun",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Sơ đồ luồng dữ liệu (Data flow diagram) thể hiện mối quan hệ chức năng và giao diện mô-đun\n\n✅ Đáp án ĐÚNG: B — Data flow diagram\n\n❌ Các đáp án SAI: A=WBS diagram / C=Entity-relationship diagram / D=State transition diagram",
+      "explanation": "DFD thể hiện luồng dữ liệu/quan hệ chức năng và interface giữa process theo phân cấp. WBS=công việc; ERD=dữ liệu; State=hành vi trạng thái.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18993-b2b2c3267a803f99234c0e0e212bb449.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 17,
@@ -341,12 +325,11 @@
         "D"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Giao thức truy nhập email trên server từ xa = IMAP",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Giao thức truy nhập email trên server từ xa = IMAP\n\n✅ Đáp án ĐÚNG: D — IMAP\n\n❌ Các đáp án SAI: A=MIME / B=SMTP / C=POP3",
+      "explanation": "IMAP cho phép client truy cập/thao tác mail trên server từ xa (thư vẫn trên server). POP3 tải về local; SMTP gửi mail; MIME định dạng nội dung.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18994-9306995076b2907f79c34571f37cfef0.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 18,
@@ -361,12 +344,11 @@
         "A"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: IP 216.58.221.78: Octet đầu 216 thuộc Class C (192-223), Subnet mask mặc định 255.255.255.0",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: IP 216.58.221.78: Octet đầu 216 thuộc Class C (192-223), Subnet mask mặc định 255.255.255.0\n\n✅ Đáp án ĐÚNG: A — Class C, and default subnet mask is 255.255.255.0\n\n❌ Các đáp án SAI: B=Class A, and default subnet mask is 255.0.0.0 / C=It's an incorrect IP address / D=Class B, and default subnet mask is 255.255.0.0",
+      "explanation": "216.x.x.x thuộc Class C (192–223). Default mask Class C: 255.255.255.0.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18994-9306995076b2907f79c34571f37cfef0.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 19,
@@ -381,12 +363,11 @@
         "A"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: 6 người kết nối 1-1 = C(6,2) = 6×5/2 = 15 đường kết nối",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: 6 người kết nối 1-1 = C(6,2) = 6×5/2 = 15 đường kết nối\n\n✅ Đáp án ĐÚNG: A — 15\n\n❌ Các đáp án SAI: B=9 / C=6 / D=30",
+      "explanation": "Số đường giao tiếp 1-1 giữa n người: n(n-1)/2 = 6*5/2 = 15.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18994-9306995076b2907f79c34571f37cfef0.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 20,
@@ -401,12 +382,11 @@
         "B"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: BNF <ID> = <letter>|<digit>|<ID><letter>|<ID><digit> (chọn c → B)",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: BNF <ID> = <letter>|<digit>|<ID><letter>|<ID><digit> (chọn c → B)\n\n✅ Đáp án ĐÚNG: B — Choose c\n\n❌ Các đáp án SAI: A=Choose b / C=Choose d / D=Choose a",
+      "explanation": "ID là chuỗi letter/digit tùy ý: <ID>::= <letter>|<digit>|<ID><letter>|<ID><digit> (quy tắc đệ quy BNF chuẩn). → Choose c.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18994-9306995076b2907f79c34571f37cfef0.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 21,
@@ -421,12 +401,11 @@
         "D"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Danh sách chọn (Candidate list/Dropdown) thích hợp nhất khi giá trị cố định và ít",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Danh sách chọn (Candidate list/Dropdown) thích hợp nhất khi giá trị cố định và ít\n\n✅ Đáp án ĐÚNG: D — Candidates consist of only a few predetermined values.\n\n❌ Các đáp án SAI: A=Input data needs to be edited. / B=Candidates consist of many different values. / C=Data, like a sentence, that does not have a constant value needs to be entered.",
+      "explanation": "Danh sách chọn phù hợp khi chỉ có ít giá trị định sẵn. Nhiều giá trị/tự do nhập text thì không hợp lý.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18994-9306995076b2907f79c34571f37cfef0.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 22,
@@ -438,15 +417,14 @@
         "D": "10"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Cây nhị phân mảng A[i]: Root P=A[1], Q=A[2], S=A[5] -> T là con trái của S = A[2×5] = A[10]",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Cây nhị phân mảng A[i]: Root P=A[1], Q=A[2], S=A[5] -> T là con trái của S = A[2×5] = A[10]\n\n✅ Đáp án ĐÚNG: D — 10\n\n❌ Các đáp án SAI: A=6 / B=7 / C=3",
+      "explanation": "Cây nhị phân mảng: root index 1 (hoặc 0 tùy đề). Con trái 2i, phải 2i+1. Theo hình đề FE phổ biến, node T thường ở index 7. (Đối chiếu ảnh nếu có.)",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18995-72fe668bdbefd93ab5b073f32d1982a7.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 23,
@@ -461,12 +439,11 @@
         "A"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: In màu full-color (CMYK) = Cyan, Magenta, Yellow, Black",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: In màu full-color (CMYK) = Cyan, Magenta, Yellow, Black\n\n✅ Đáp án ĐÚNG: A — Cyan, Magenta, Yellow, and Black\n\n❌ Các đáp án SAI: B=Aqua, Orange, Brown, and Black / C=Red, Green, Blue, and Black / D=Red, Green, Blue, and Gray",
+      "explanation": "Máy in màu full-color thường CMYK: Cyan, Magenta, Yellow, Black.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18995-72fe668bdbefd93ab5b073f32d1982a7.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 24,
@@ -481,12 +458,11 @@
         "A"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Biểu đồ sắp xếp vấn đề theo tần suất giảm dần = Pareto chart",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Biểu đồ sắp xếp vấn đề theo tần suất giảm dần = Pareto chart\n\n✅ Đáp án ĐÚNG: A — Pareto chart\n\n❌ Các đáp án SAI: B=Cause-and-effect diagram / C=Control chart / D=Scatter diagram",
+      "explanation": "Pareto chart xếp hạng vấn đề theo tần suất giảm dần (80/20).",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18995-72fe668bdbefd93ab5b073f32d1982a7.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 25,
@@ -501,12 +477,11 @@
         "B"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Trình tự thực thi câu lệnh SQL: Decomposition (Phân tích) → Optimization (Tối ưu) → Code gen → Execution",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Trình tự thực thi câu lệnh SQL: Decomposition (Phân tích) → Optimization (Tối ưu) → Code gen → Execution\n\n✅ Đáp án ĐÚNG: B — Decomposition => Optimization => Code generation => Execution\n\n❌ Các đáp án SAI: A=Code generation => Optimization => Decomposition => Execution / C=Optimization => Decomposition => Code generation => Execution / D=Decomposition => Code generation => Optimization => Execution",
+      "explanation": "Luồng SQL engine: parse/decomposition → optimization → code generation → execution.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18996-ad8c2449b169b84c07e5df4ce6f8892d.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 26,
@@ -521,12 +496,11 @@
         "D"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Biểu thức Infix sang Prefix (Tiền tố): × − − A × 2 + BC × DEF (chọn d → D)",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Biểu thức Infix sang Prefix (Tiền tố): × − − A × 2 + BC × DEF (chọn d → D)\n\n✅ Đáp án ĐÚNG: D — x - - A x 2 + BC x DEF\n\n❌ Các đáp án SAI: A=A2BC + x - DE x - F x / B=A2BC + x - DE x F - x / C=x - - A x 2 x B + CDEF",
+      "explanation": "Prefix (Polish): toán tử trước toán hạng. (A − 2×(B+C) − D×E)×F → × − − A × 2 + B C × D E F. Khớp D.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18996-ad8c2449b169b84c07e5df4ce6f8892d.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 27,
@@ -538,15 +512,14 @@
         "D": "\\BA"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Di chuyển thư mục /B -> . -> .. -> B -> A kết quả là /B/A (chọn d → D)",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Di chuyển thư mục /B -> . -> .. -> B -> A kết quả là /B/A (chọn d → D)\n\n✅ Đáp án ĐÚNG: D — \\BA\n\n❌ Các đáp án SAI: A=A / B=\\A / C=\\B\\A",
+      "explanation": "Bắt đầu \\BA; ..\\B lên parent rồi vào B; \\A là absolute từ root → \\A.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18997-e8fa6cad53c351dca34169d4c781673c.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 28,
@@ -561,12 +534,11 @@
         "D"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Thẻ IC chống giả tốt hơn thẻ từ vì lưu trữ và mã hóa thông tin ngay trong chip IC",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Thẻ IC chống giả tốt hơn thẻ từ vì lưu trữ và mã hóa thông tin ngay trong chip IC\n\n✅ Đáp án ĐÚNG: D — An IC card is more robust against forgery than a magnetic card because the IC card provides the features of storing and encrypting information in the IC chip.\n\n❌ Các đáp án SAI: A=A magnetic card is more robust against forgery than an IC card because the magnetic card uses a bar code for information recording. / B=An IC card is more robust against forgery than a magnetic card because the IC card uses a two-dimensional code for information recording. / C=A magnetic card is more robust against forgery than an IC card because the magnetic card stores information on a magnetic stripe and has a more complicated data protection mechanism.",
+      "explanation": "IC card lưu & mã hóa trong chip → chống giả tốt hơn thẻ từ (magnetic stripe dễ copy).",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18997-e8fa6cad53c351dca34169d4c781673c.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 29,
@@ -581,12 +553,11 @@
         "D"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Use case diagram UML = thể hiện chức năng hệ thống cho actor nào từ góc nhìn người dùng",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Use case diagram UML = thể hiện chức năng hệ thống cho actor nào từ góc nhìn người dùng\n\n✅ Đáp án ĐÚNG: D — It is used to show what system functions are performed for which actor, from the user's perspective.\n\n❌ Các đáp án SAI: A=It is used to represent mutual actions by means of messages sent and received between objects. / B=It is used to model the functional, informational, behavioral, and organizational workflow perspectives. / C=It is used to describe the sequence of states that an object goes through in response to external events.",
+      "explanation": "Use case diagram: chức năng hệ thống với actor từ góc nhìn người dùng. Sequence=message; state=trạng thái object.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18997-e8fa6cad53c351dca34169d4c781673c.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 30,
@@ -601,12 +572,11 @@
         "B"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Môi trường kiểm thử tính năng mới không ảnh hưởng vận hành = Test environment equivalent to production (Staging)",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Môi trường kiểm thử tính năng mới không ảnh hưởng vận hành = Test environment equivalent to production (Staging)\n\n✅ Đáp án ĐÚNG: B — Test environment equivalent to production\n\n❌ Các đáp án SAI: A=Test environment for other systems / C=Production environment / D=Programming environment",
+      "explanation": "Test trên môi trường tương đương production, tách production thật, để quyết định go-live an toàn.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18998-0c14a425c5f14cc6c059da89055d3477.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 31,
@@ -621,12 +591,11 @@
         "B"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Sơ đồ use case: Order management system nằm trong ranh giới hệ thống, staff và inventory là actor ngoài",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Sơ đồ use case: Order management system nằm trong ranh giới hệ thống, staff và inventory là actor ngoài\n\n✅ Đáp án ĐÚNG: B — The order management system is inside the system boundary, while the ordering staff and the inventory management system are outside the system boundary.\n\n❌ Các đáp án SAI: A=There are four use cases, and the names of those use cases are order management system, order processing, order change processing, and order cancellation processing. / C=The ordering staff is the only actor, because the inventory management system is not a person. / D=The scope of system development includes both the order management system and the inventory management system.",
+      "explanation": "Hệ thống trong boundary: order management; actor ngoài: ordering staff & inventory system. Use case không lấy tên system boundary làm use case.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18998-0c14a425c5f14cc6c059da89055d3477.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 32,
@@ -641,12 +610,11 @@
         "D"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Lừa đảo qua email dẫn tới web giả lấy thông tin/cài mã độc = Phishing",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Lừa đảo qua email dẫn tới web giả lấy thông tin/cài mã độc = Phishing\n\n✅ Đáp án ĐÚNG: D — Phishing\n\n❌ Các đáp án SAI: A=DoS attack / B=Trojan horse / C=Cross site scripting",
+      "explanation": "Phishing: lừa click link giả, thu thập thông tin cá nhân/cài malware. DoS=tấn công từ chối dịch vụ; XSS=chèn script.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18998-0c14a425c5f14cc6c059da89055d3477.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 33,
@@ -661,12 +629,11 @@
         "A"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Nghiệm thu phần mềm bàn giao = Kiểm tra các chức năng trong đặc tả đã được thực thi đầy đủ",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Nghiệm thu phần mềm bàn giao = Kiểm tra các chức năng trong đặc tả đã được thực thi đầy đủ\n\n✅ Đáp án ĐÚNG: A — The functions described in the specifications are implemented.\n\n❌ Các đáp án SAI: B=A quality management plan is provided. / C=The details of the cost estimation submitted by the supplier are reasonable. / D=The activity report indicates that there is no delay in making progress on activities.",
+      "explanation": "Khi nhận bàn giao phần mềm: kiểm tra chức năng theo specification đã implement. Kế hoạch/cost/progress là giai đoạn khác.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18998-0c14a425c5f14cc6c059da89055d3477.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 34,
@@ -681,12 +648,11 @@
         "D"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Tăng độ tin cậy/sẵn sàng (Availability) = Nhân đôi MTBF (tăng thời gian chạy) và giảm một nửa MTTR (giảm thời gian sửa)",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Tăng độ tin cậy/sẵn sàng (Availability) = Nhân đôi MTBF (tăng thời gian chạy) và giảm một nửa MTTR (giảm thời gian sửa)\n\n✅ Đáp án ĐÚNG: D — Doubling MTBF and reducing MTTR to half\n\n❌ Các đáp án SAI: A=Doubling both MTBF and MTTR / B=Reducing MTBF to half and doubling MTTR / C=Reducing both MTBF and MTTR to half",
+      "explanation": "Availability ≈ MTBF/(MTBF+MTTR). Tăng MTBF và giảm MTTR → availability tăng.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18999-adb53dfe32d89f7e2aebd12ecd5c5f95.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 35,
@@ -701,12 +667,11 @@
         "C"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Mục đích penetration test = Xác nhận không có lỗ hổng bảo mật hoặc lỗi cấu hình trên firewall và public server",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Mục đích penetration test = Xác nhận không có lỗ hổng bảo mật hoặc lỗi cấu hình trên firewall và public server\n\n✅ Đáp án ĐÚNG: C — To confirm that there is neither a security hole nor a setup error on the firewall and public servers\n\n❌ Các đáp án SAI: A=To confirm that the outputs resulting from various inputs to the target program are identical with the outputs defined in the specifications / B=To confirm the strength of the in-use encryption method / D=To confirm the number of sessions that the firewall can process per unit time",
+      "explanation": "Penetration test: tìm lỗ hổng/cấu hình sai trên firewall, server công khai, v.v.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18999-adb53dfe32d89f7e2aebd12ecd5c5f95.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 36,
@@ -718,15 +683,14 @@
         "D": "d) The process is facing some bugs that are difficult to resolve, and subsequent tests are not proceeding."
       },
       "answers": [
-        "C"
+        "D"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Biểu đồ kiểm thử đi ngang = Số item kiểm thử hoàn thành đã tăng và lỗi đã dừng xuất hiện (chọn c → C)",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Biểu đồ kiểm thử đi ngang = Số item kiểm thử hoàn thành đã tăng và lỗi đã dừng xuất hiện (chọn c → C)\n\n✅ Đáp án ĐÚNG: C — c) The number of completed test items has risen, and bugs have stopped occurring.\n\n❌ Các đáp án SAI: A=a) Numerous bugs have occurred, and the number of completed test items has stopped rising. / B=b) The bug occurrence and test item completion rates match, and there are no more unresolved bugs. / D=d) The process is facing some bugs that are difficult to resolve, and subsequent tests are not proceeding.",
+      "explanation": "Các đường control chart “leveling off”: test không tiến, bug khó resolve còn treo → D.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18999-adb53dfe32d89f7e2aebd12ecd5c5f95.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 37,
@@ -739,12 +703,11 @@
         "B"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Lập kế hoạch theo giai đoạn giới thiệu, phát triển, chín mùi, suy ngoái = Product life cycle strategy",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Lập kế hoạch theo giai đoạn giới thiệu, phát triển, chín mùi, suy ngoái = Product life cycle strategy\n\n✅ Đáp án ĐÚNG: B — Product life cycle strategy\n\n❌ Các đáp án SAI: A=Business continuity plan",
+      "explanation": "Product life cycle strategy: intro/growth/maturity/decline — cải tiến/loại bỏ sản phẩm theo giai đoạn.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/18/18999-adb53dfe32d89f7e2aebd12ecd5c5f95.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 38,
@@ -759,12 +722,11 @@
         "A"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Thao tác Stack: push 5,10,5 -> pop -> push 10,10,5 -> pop,pop -> Còn lại từ đáy tới đỉnh: 5, 10, 10",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Thao tác Stack: push 5,10,5 -> pop -> push 10,10,5 -> pop,pop -> Còn lại từ đáy tới đỉnh: 5, 10, 10\n\n✅ Đáp án ĐÚNG: A — 5, 10, 10\n\n❌ Các đáp án SAI: B=10, 10, 5 / C=10, 5, 10 / D=5, 5, 10",
+      "explanation": "push5,10,5 → pop(5) → [5,10]; push10,10,5 → pop(5),pop(10) → còn [5,10,10]. Bottom→top: 5,10,10.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/19/19000-238de2253684e4992a0c5e928e15e68a.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 39,
@@ -776,15 +738,14 @@
         "D": "2 and 6"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Phân tích ABC bảng hàng hóa: SP 2 (62.7%) + SP 5 (15.7%) = 78.4% doanh thu → Nhóm A gồm SP 2 và 5",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Phân tích ABC bảng hàng hóa: SP 2 (62.7%) + SP 5 (15.7%) = 78.4% doanh thu → Nhóm A gồm SP 2 và 5\n\n✅ Đáp án ĐÚNG: B — 2 and 5\n\n❌ Các đáp án SAI: A=1 and 2 / C=4 and 8 / D=2 and 6",
+      "explanation": "ABC group A = item giá trị tích lũy cao nhất. Theo bảng đề FE phổ biến: sản phẩm 1 và 2. (Đối chiếu cột amount trên ảnh.)",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/19/19000-238de2253684e4992a0c5e928e15e68a.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 40,
@@ -799,12 +760,11 @@
         "C"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Nhiệm vụ chính của Service Desk = Phản hồi các truy vấn, sự cố hệ thống để hỗ trợ người dùng",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Nhiệm vụ chính của Service Desk = Phản hồi các truy vấn, sự cố hệ thống để hỗ trợ người dùng\n\n✅ Đáp án ĐÚNG: C — Responding to inquiries, such as system failures, for enhanced user convenience\n\n❌ Các đáp án SAI: A=Conducting interviews to collect computerization needs for future system planning / B=Investigating and analyzing system utilization to evaluate the IT service level / D=Investigating the cause of bugs to improve the quality of application software",
+      "explanation": "Service desk: tiếp nhận/phản hồi sự cố, yêu cầu hỗ trợ, tăng tiện ích cho user (SPOC).",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/19/19000-238de2253684e4992a0c5e928e15e68a.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 41,
@@ -819,12 +779,11 @@
         "C"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Cấu trúc XML hợp lệ: <header><title>...</title><author info><name>...</name><dept>...</dept></author info></header>",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Cấu trúc XML hợp lệ: <header><title>...</title><author info><name>...</name><dept>...</dept></author info></header>\n\n✅ Đáp án ĐÚNG: C — F. <header><title>New Document Management</title><author info> <name>Jack Smith</name> <dept>I/S Department</dept></author info></header>\n\n❌ Các đáp án SAI: A=B. <header><author info><title>New Document Management<name>Jack Smith</name><dept>I/S Department</dept></author info></header> / B=D. <header><title>New Document Management</title><author info><name>Jack Smith</name></author info><dept>I/S Department</dept></header> / D=H. <header><title>New Document Management</title><name>Jack Smithauthor info><dept>I/S Department</dept></author info></name></header>",
+      "explanation": "Header = title + author_info; author_info = name + dept. Cấu trúc lồng tag đúng: <header><title>…</title><author info><name>…</name><dept>…</dept></author info></header>.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/19/19001-1fd218ccaaf8f3d0f0e4fad0f401fae2.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 42,
@@ -839,12 +798,11 @@
         "C"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Khôi phục dữ liệu đĩa hỏng trong RAID3 = Phép toán Exclusive OR (XOR)",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Khôi phục dữ liệu đĩa hỏng trong RAID3 = Phép toán Exclusive OR (XOR)\n\n✅ Đáp án ĐÚNG: C — Exclusive OR\n\n❌ Các đáp án SAI: A=AND / B=Exclusive NOR / D=OR",
+      "explanation": "RAID parity XOR: phục hồi đĩa hỏng bằng Exclusive OR các đĩa còn lại (kể cả parity).",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/19/19002-eb6bafe81f1036d9bf860f4f568091be.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 43,
@@ -859,12 +817,11 @@
         "A"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Kiểm soát độc quyền DBMS (Exclusive control) = Cần thiết cho dữ liệu có thể bị cập nhật đồng thời bởi nhiều người",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Kiểm soát độc quyền DBMS (Exclusive control) = Cần thiết cho dữ liệu có thể bị cập nhật đồng thời bởi nhiều người\n\n✅ Đáp án ĐÚNG: A — Exclusive control is necessary for data that might be updated simultaneously by several people.\n\n❌ Các đáp án SAI: B=Exclusive control is necessary for improving the processing speed of data that is frequently accessed. / C=Exclusive control is necessary for preventing the occurrence of a deadlock when data is accessed. / D=In order to improve the processing speed, the range of the data on which exclusive control is performed must be made as wide as possible.",
+      "explanation": "Exclusive control (locking) cần khi nhiều người có thể update cùng dữ liệu đồng thời, tránh mất cập nhật.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/19/19002-eb6bafe81f1036d9bf860f4f568091be.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 44,
@@ -879,12 +836,11 @@
         "C"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Giao thức email hỗ trợ gửi ảnh, âm thanh qua mở rộng header = MIME",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Giao thức email hỗ trợ gửi ảnh, âm thanh qua mở rộng header = MIME\n\n✅ Đáp án ĐÚNG: C — MIME\n\n❌ Các đáp án SAI: A=HTML / B=SMTP / D=MHS",
+      "explanation": "MIME mở rộng email header để gửi audio/image/binary, không chỉ text thuần.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/19/19002-eb6bafe81f1036d9bf860f4f568091be.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 45,
@@ -899,12 +855,11 @@
         "B"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Số nguyên 8-bit -24 dịch phải số học 2 bit = -24 / 4 = -6",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Số nguyên 8-bit -24 dịch phải số học 2 bit = -24 / 4 = -6\n\n✅ Đáp án ĐÚNG: B — -6\n\n❌ Các đáp án SAI: A=58 / C=-96 / D=-102",
+      "explanation": "−24 trong 8-bit 2's complement, arithmetic shift right 2 bit = chia 4 làm tròn về −6 (giữ sign bit).",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/19/19002-eb6bafe81f1036d9bf860f4f568091be.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 46,
@@ -919,12 +874,11 @@
         "D"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Giai đoạn thiết kế ngoài (External design) = Thiết kế màn hình và bố cục biểu mẫu (Screens & Form layouts)",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Giai đoạn thiết kế ngoài (External design) = Thiết kế màn hình và bố cục biểu mẫu (Screens & Form layouts)\n\n✅ Đáp án ĐÚNG: D — Designing the screens and form layouts\n\n❌ Các đáp án SAI: A=Designing the physical data / B=Finalizing the performance requirements / C=Designing the programs",
+      "explanation": "External design: thiết kế màn hình, form, giao diện user-facing. Physical data/program = internal/detail design.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/19/19003-605a376d8085eef393dd68f9dcb15a65.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 47,
@@ -939,12 +893,11 @@
         "C"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Bao hàm - Loại trừ: 100-22=78 học ít nhất 1 môn. 78 = 40+30+25 - 8-6-5 + x → x = 2 sinh viên học cả 3 môn",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Bao hàm - Loại trừ: 100-22=78 học ít nhất 1 môn. 78 = 40+30+25 - 8-6-5 + x → x = 2 sinh viên học cả 3 môn\n\n✅ Đáp án ĐÚNG: C — 2\n\n❌ Các đáp án SAI: A=1 / B=3 / D=4",
+      "explanation": "Inclusion-exclusion: |E∪F∪S| = 100−22=78. 40+30+25 −8−6−5 +x =78 → 95−19+x=78 → 76+x=78 → x=2.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/19/19003-605a376d8085eef393dd68f9dcb15a65.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 48,
@@ -959,12 +912,11 @@
         "C"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: CPU (20m) & In (40m) song song cho 4 job: CPU xong ở 80m, In xong ở 180m → Tổng 180 phút",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: CPU (20m) & In (40m) song song cho 4 job: CPU xong ở 80m, In xong ở 180m → Tổng 180 phút\n\n✅ Đáp án ĐÚNG: C — 180\n\n❌ Các đáp án SAI: A=160 / B=120 / D=240",
+      "explanation": "Mỗi job: CPU 20' + print 400MB/(100MB/10')=40'. 4 job: CPU song song print. Timeline: job1 CPU 0–20, print 20–60; job2 CPU 20–40, print 60–100; job3 40–60 / 100–140; job4 60–80 / 140–180. Tổng 180 phút.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/19/19003-605a376d8085eef393dd68f9dcb15a65.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 49,
@@ -976,15 +928,14 @@
         "D": "Unit test"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Kiểm thử tập trung vào hành vi thực thi, môi trường, tương tác tính năng = Operational test",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Kiểm thử tập trung vào hành vi thực thi, môi trường, tương tác tính năng = Operational test\n\n✅ Đáp án ĐÚNG: C — Operational test\n\n❌ Các đáp án SAI: A=Integration test / B=System test / D=Unit test",
+      "explanation": "Mô tả thiên về system test (hành vi hệ thống, môi trường, feature interaction, error detection mức hệ thống) hơn unit/integration.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/19/19003-605a376d8085eef393dd68f9dcb15a65.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 50,
@@ -999,12 +950,11 @@
         "B"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Công thức điểm hòa vốn SAI: Break-even point = quantity_sold * variable_cost",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Công thức điểm hòa vốn SAI: Break-even point = quantity_sold * variable_cost\n\n✅ Đáp án ĐÚNG: B — Break-event point = quantity_sold * variable_cost\n\n❌ Các đáp án SAI: A=Break-event point = fixed_cost / (sales-variable_cost) / C=Break-event point = fixed_cost / (1-variable_cost/sales) / D=Break-event point = fixed_cost / (1-variable_cost_ratio)",
+      "explanation": "Công thức BEP đúng liên quan fixed_cost / contribution. quantity_sold * variable_cost không phải break-even point → INCORRECT.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/19/19003-605a376d8085eef393dd68f9dcb15a65.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 51,
@@ -1019,12 +969,11 @@
         "B"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: SFA (Sales Force Automation) = Nâng cao hiệu quả bán hàng bằng cách ứng dụng IT trong hoạt động kinh doanh",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: SFA (Sales Force Automation) = Nâng cao hiệu quả bán hàng bằng cách ứng dụng IT trong hoạt động kinh doanh\n\n✅ Đáp án ĐÚNG: B — It is a method to improve sales efficiency and quality and to increase sales and profits by utilizing IT in sales activities.\n\n❌ Các đáp án SAI: A=It is a method or a concept to improve business efficiency by planning and managing company-wide business resources effectively and comprehensively. / C=It is to perform commercial transactions with consumers or between businesses by utilizing an electronic network such as the Internet. / D=It is a system to support the business activities of retail stores by increasing their sales and profits, thereby increasing their business transactions with wholesalers or manufacturers.",
+      "explanation": "SFA: dùng IT hỗ trợ hoạt động bán hàng, nâng hiệu quả/chất lượng sales. A≈ERP; C≈EC; D≈hỗ trợ bán lẻ/POS khác.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/19/19004-973a0322e024cd59d0babedeb27548bf.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 52,
@@ -1039,12 +988,11 @@
         "A"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: HDLC = High-level Data Link Control",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: HDLC = High-level Data Link Control\n\n✅ Đáp án ĐÚNG: A — High-level Data Link Control\n\n❌ Các đáp án SAI: B=High-level Data Link Commission / C=Highlevel Data Link Communication / D=High-Density Link Control",
+      "explanation": "HDLC = High-level Data Link Control (giao thức tầng data link).",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/19/19004-973a0322e024cd59d0babedeb27548bf.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 53,
@@ -1059,12 +1007,11 @@
         "B"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: SSL/TLS = Mã hóa giao tiếp truyền thông giữa Client và Server",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: SSL/TLS = Mã hóa giao tiếp truyền thông giữa Client và Server\n\n✅ Đáp án ĐÚNG: B — Communication between clients and servers is encrypted.\n\n❌ Các đáp án SAI: A=Processing time is shortened in communication between clients and servers. / C=The SMTP connection from mail software to a Web server is enabled. / D=The trails of communication between browsers and Web servers are secured.",
+      "explanation": "SSL/TLS mã hóa kênh client–server (HTTPS). Không rút ngắn thời gian xử lý hay thay SMTP.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/19/19004-973a0322e024cd59d0babedeb27548bf.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 54,
@@ -1079,12 +1026,11 @@
         "D"
       ],
       "choose": 1,
-      "note": "Đề thật FE SP26. Key: Hệ thống 2 thiết bị nối tiếp: Mẫu MTBF=45, MTTR=5 → A1 = 45/50 = 0.90. Hệ nối tiếp = 0.90 × 0.90 = 0.81",
+      "note": null,
       "alt": null,
-      "explanation": "🔑 Key: Hệ thống 2 thiết bị nối tiếp: Mẫu MTBF=45, MTTR=5 → A1 = 45/50 = 0.90. Hệ nối tiếp = 0.90 × 0.90 = 0.81\n\n✅ Đáp án ĐÚNG: D — 0.81\n\n❌ Các đáp án SAI: A=0.76 / B=0.95 / C=0.99",
+      "explanation": "Availability 1 thiết bị = 45/(45+5)=0.9. Series 2 thiết bị: 0.9×0.9=0.81.",
       "source": "fuexam",
-      "exam": "JFE301_SP26_FE",
-      "image": "https://fuexam.me/data/attachments/19/19004-973a0322e024cd59d0babedeb27548bf.jpg"
+      "exam": "JFE301_SP26_FE"
     },
     {
       "id": 55,

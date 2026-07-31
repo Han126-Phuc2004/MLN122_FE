@@ -3,7 +3,7 @@
   "use strict";
 
   /** Bump on every bank deploy so Safari/iPad cannot reuse stale JSON (GH Pages max-age=600). */
-  const DATA_VER = "20260728_fix793";
+  const DATA_VER = "20260731_fix542";
   const THEME_KEY = "fe_learn_theme_v1";
 
   /**
@@ -2148,7 +2148,275 @@
     e.target.value = "";
   });
 
+  // ========== Search Functionality ==========
+  let selectedSearchIndex = -1;
+
+  function removeVietnameseTones(str) {
+    if (!str) return "";
+    return String(str)
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/đ/g, "d")
+      .replace(/Đ/g, "D");
+  }
+
+  function highlightText(text, rawQuery) {
+    if (!text || !rawQuery) return escapeHtml(text || "");
+    const safeText = escapeHtml(text);
+    const qNorm = removeVietnameseTones(rawQuery).trim();
+    if (!qNorm) return safeText;
+
+    const terms = rawQuery
+      .trim()
+      .split(/\s+/)
+      .filter(Boolean)
+      .map((t) => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+    if (!terms.length) return safeText;
+
+    try {
+      const regex = new RegExp(`(${terms.join("|")})`, "gi");
+      return safeText.replace(regex, '<mark class="search-hl">$1</mark>');
+    } catch {
+      return safeText;
+    }
+  }
+
+  function openSearchModal() {
+    const modal = document.getElementById("searchModal");
+    const input = document.getElementById("searchInput");
+    if (!modal || !input) return;
+    modal.hidden = false;
+    selectedSearchIndex = -1;
+    setTimeout(() => {
+      input.focus();
+      input.select();
+    }, 50);
+    renderSearchResults(input.value || "");
+  }
+
+  function closeSearchModal() {
+    const modal = document.getElementById("searchModal");
+    if (modal) modal.hidden = true;
+    selectedSearchIndex = -1;
+  }
+
+  function renderSearchResults(queryStr) {
+    const resultsContainer = document.getElementById("searchResults");
+    const countEl = document.getElementById("searchCount");
+    const btnClear = document.getElementById("btnSearchClear");
+    if (!resultsContainer) return;
+
+    const rawQuery = String(queryStr || "").trim();
+    if (btnClear) btnClear.hidden = !rawQuery;
+
+    if (!rawQuery) {
+      if (countEl) countEl.textContent = "Nhập từ khóa để tìm kiếm câu hỏi";
+      resultsContainer.innerHTML = `<div class="search-empty">Nhập nội dung câu hỏi, phương án, giải thích hoặc số ID câu để tìm kiếm.</div>`;
+      selectedSearchIndex = -1;
+      return;
+    }
+
+    const qLower = rawQuery.toLowerCase();
+    const qNorm = removeVietnameseTones(rawQuery);
+    const idMatch = rawQuery.match(/^(?:câu\s*|cau\s*|#)?(\d+)$/i);
+    const targetId = idMatch ? parseInt(idMatch[1], 10) : null;
+
+    const matches = [];
+    const bank = Array.isArray(all) ? all : [];
+
+    for (const q of bank) {
+      if (!q) continue;
+      let matched = false;
+      let matchType = "";
+      let matchSnippet = "";
+
+      // 1. Direct ID match
+      if (targetId !== null && q.id === targetId) {
+        matched = true;
+        matchType = "id";
+      }
+
+      // 2. Question text match
+      const qText = q.question || "";
+      const qTextNorm = removeVietnameseTones(qText);
+      if (!matched && (qText.toLowerCase().includes(qLower) || qTextNorm.includes(qNorm))) {
+        matched = true;
+        matchType = "question";
+      }
+
+      // 3. Options match
+      if (!matched && q.options) {
+        for (const [L, optText] of Object.entries(q.options)) {
+          const optStr = `${L}. ${optText}`;
+          if (optStr.toLowerCase().includes(qLower) || removeVietnameseTones(optStr).includes(qNorm)) {
+            matched = true;
+            matchType = "option";
+            matchSnippet = optStr;
+            break;
+          }
+        }
+      }
+
+      // 4. Explanation match
+      if (!matched && q.explanation) {
+        const exp = q.explanation;
+        if (exp.toLowerCase().includes(qLower) || removeVietnameseTones(exp).includes(qNorm)) {
+          matched = true;
+          matchType = "explanation";
+          matchSnippet = exp;
+        }
+      }
+
+      // 5. Note / Alt match
+      if (!matched && q.note) {
+        if (q.note.toLowerCase().includes(qLower) || removeVietnameseTones(q.note).includes(qNorm)) {
+          matched = true;
+          matchType = "note";
+          matchSnippet = q.note;
+        }
+      }
+
+      if (matched) {
+        matches.push({ q, matchType, matchSnippet });
+      }
+    }
+
+    if (countEl) {
+      countEl.textContent = `Tìm thấy ${matches.length} câu hỏi phù hợp`;
+    }
+
+    if (!matches.length) {
+      resultsContainer.innerHTML = `<div class="search-empty">Không tìm thấy câu hỏi nào chứa "${escapeHtml(rawQuery)}".</div>`;
+      selectedSearchIndex = -1;
+      return;
+    }
+
+    const renderList = matches.slice(0, 60);
+    const frag = document.createDocumentFragment();
+
+    renderList.forEach(({ q, matchType, matchSnippet }, idx) => {
+      const p = progress[q.id] || {};
+      const item = document.createElement("div");
+      item.className = "search-item" + (idx === selectedSearchIndex ? " is-selected" : "");
+      item.setAttribute("role", "listitem");
+
+      let statusHtml = "";
+      if (p.result === "ok") statusHtml = `<span class="search-item-status ok">✓ Đúng</span>`;
+      else if (p.result === "bad") statusHtml = `<span class="search-item-status bad">✗ Sai</span>`;
+      if (p.star) statusHtml += `<span class="search-item-status star"> ★</span>`;
+
+      const examCode = q.exam || data?.code || subjectId.toUpperCase();
+      const questionHl = highlightText(q.question, rawQuery);
+
+      let extraSnippetHtml = "";
+      if (matchType === "option" && matchSnippet) {
+        extraSnippetHtml = `<div class="search-item-matched-option"><strong>Đáp án khớp:</strong> ${highlightText(matchSnippet, rawQuery)}</div>`;
+      } else if (matchType === "explanation" && matchSnippet) {
+        extraSnippetHtml = `<div class="search-item-matched-explain"><strong>Giải thích khớp:</strong> ${highlightText(matchSnippet.slice(0, 150), rawQuery)}...</div>`;
+      } else if (matchType === "note" && matchSnippet) {
+        extraSnippetHtml = `<div class="search-item-matched-explain"><strong>Ghi chú:</strong> ${highlightText(matchSnippet, rawQuery)}</div>`;
+      }
+
+      item.innerHTML = `
+        <div class="search-item-header">
+          <span class="search-item-id">Câu ${q.id}</span>
+          <span class="search-item-badge">${escapeHtml(examCode)}</span>
+          ${statusHtml}
+        </div>
+        <div class="search-item-question">${questionHl}</div>
+        ${extraSnippetHtml}
+      `;
+
+      item.addEventListener("click", () => {
+        closeSearchModal();
+        jumpToId(q.id);
+      });
+
+      frag.appendChild(item);
+    });
+
+    resultsContainer.innerHTML = "";
+    resultsContainer.appendChild(frag);
+  }
+
+  function handleSearchKeyboard(e) {
+    const modal = document.getElementById("searchModal");
+    if (!modal || modal.hidden) return false;
+
+    const items = modal.querySelectorAll(".search-item");
+    if (!items.length) return false;
+
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      selectedSearchIndex = Math.min(selectedSearchIndex + 1, items.length - 1);
+      updateSearchSelection(items);
+      return true;
+    }
+    if (e.key === "ArrowUp") {
+      e.preventDefault();
+      selectedSearchIndex = Math.max(selectedSearchIndex - 1, 0);
+      updateSearchSelection(items);
+      return true;
+    }
+    if (e.key === "Enter" && selectedSearchIndex >= 0 && selectedSearchIndex < items.length) {
+      e.preventDefault();
+      items[selectedSearchIndex].click();
+      return true;
+    }
+    if (e.key === "Escape") {
+      e.preventDefault();
+      closeSearchModal();
+      return true;
+    }
+    return false;
+  }
+
+  function updateSearchSelection(items) {
+    items.forEach((item, idx) => {
+      const isSel = idx === selectedSearchIndex;
+      item.classList.toggle("is-selected", isSel);
+      if (isSel) {
+        item.scrollIntoView({ block: "nearest" });
+      }
+    });
+  }
+
+  document.getElementById("btnSearch")?.addEventListener("click", openSearchModal);
+  document.getElementById("btnQuickSearch")?.addEventListener("click", openSearchModal);
+  document.getElementById("btnSearchClose")?.addEventListener("click", closeSearchModal);
+  document.getElementById("btnSearchClear")?.addEventListener("click", () => {
+    const input = document.getElementById("searchInput");
+    if (input) {
+      input.value = "";
+      input.focus();
+      renderSearchResults("");
+    }
+  });
+  document.getElementById("searchInput")?.addEventListener("input", (e) => {
+    renderSearchResults(e.target.value);
+  });
+  const searchModalEl = document.getElementById("searchModal");
+  if (searchModalEl) {
+    searchModalEl.addEventListener("click", (e) => {
+      if (e.target === searchModalEl) closeSearchModal();
+    });
+  }
+
   document.addEventListener("keydown", (e) => {
+    if (handleSearchKeyboard(e)) return;
+
+    if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
+      e.preventDefault();
+      openSearchModal();
+      return;
+    }
+    if (e.key === "/" && !e.target.matches("input, textarea")) {
+      e.preventDefault();
+      openSearchModal();
+      return;
+    }
+
     if (e.target.matches("input, textarea")) return;
     const key = e.key.toLowerCase();
     if (["a", "b", "c", "d", "e"].includes(key)) {

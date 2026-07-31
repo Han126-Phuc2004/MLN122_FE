@@ -23,7 +23,7 @@
       } catch (e) {}
     })();
   </script>
-  <link rel="stylesheet" href="style.css?v=20260727i" />
+  <link rel="stylesheet" href="style.css?v=20260731_fix542" />
 </head>
 <body>
   <div class="app">
@@ -39,6 +39,7 @@
         <button type="button" class="sub-tab is-locked" data-subject="jit401">🔒 JIT401</button>
       </nav>
       <div class="top-actions">
+        <button type="button" class="btn ghost" id="btnSearch" title="Tìm kiếm câu hỏi (Ctrl+K)" aria-label="Tìm kiếm câu hỏi">🔍</button>
         <button type="button" class="btn ghost" id="btnAccessLock" title="Khóa lại JFE/JIT trên máy này" aria-label="Khóa lại JFE JIT">🔐</button>
         <button type="button" class="btn ghost" id="btnTheme" title="Sáng / Tối" aria-label="Đổi giao diện sáng tối">🌙</button>
         <button type="button" class="btn ghost" id="btnSync" title="Đồng bộ">☁</button>
@@ -70,6 +71,7 @@
             </div>
           </div>
           <div class="toolbar-right">
+            <button type="button" class="btn small search-trigger-btn" id="btnQuickSearch" title="Tìm kiếm câu hỏi (Ctrl+K)">🔍 Tìm kiếm</button>
             <label class="jump">
               Câu
               <input type="number" id="jumpInput" min="1" max="9999" value="1" />
@@ -132,6 +134,25 @@
         </div>
         <div class="q-map" id="qMap" role="list"></div>
       </aside>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="searchModal" hidden>
+    <div class="modal modal-search" role="dialog" aria-labelledby="searchTitle" aria-modal="true">
+      <header class="modal-head">
+        <h2 id="searchTitle">Tìm kiếm câu hỏi</h2>
+        <button type="button" class="btn ghost" id="btnSearchClose" aria-label="Đóng">✕</button>
+      </header>
+      <div class="search-input-wrap">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="searchInput" placeholder="Nhập từ khóa (nội dung, đáp án, giải thích, ID câu)..." autocomplete="off" spellcheck="false" />
+        <button type="button" class="search-clear-btn" id="btnSearchClear" hidden title="Xóa từ khóa">✕</button>
+      </div>
+      <div class="search-meta-bar">
+        <span class="search-count" id="searchCount">Nhập từ khóa để tìm kiếm</span>
+        <span class="search-shortcut-hint"><kbd>Ctrl</kbd> + <kbd>K</kbd> hoặc <kbd>/</kbd></span>
+      </div>
+      <div class="search-results" id="searchResults" role="list"></div>
     </div>
   </div>
 
@@ -198,6 +219,6 @@
     </div>
   </div>
 
-  <script src="app.js?v=20260727i"></script>
+  <script src="app.js?v=20260731_fix542"></script>
 </body>
 </html>
