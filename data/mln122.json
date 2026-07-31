@@ -10155,7 +10155,7 @@
       "choose": 1,
       "note": null,
       "alt": null,
-      "explanation": "Vật ngang giá chung xuất hiện ở hình thái chung của giá trị.",
+      "explanation": "Vật ngang giá chung xuất hiện ở hình thái chung của giá trị (trước hình thái tiền tệ đầy đủ).",
       "source": "fuexam",
       "exam": "MLN122_SP26_B5_FE"
     },
@@ -10424,7 +10424,7 @@
       "choose": 1,
       "note": null,
       "alt": null,
-      "explanation": "Đáp án đúng: A. John Kay (1704 - 1779). Hãy đối chiếu giáo trình MLN122 (Kinh tế chính trị Mác–Lênin) với nội dung phương án đúng.",
+      "explanation": "CMCN lần 1 khởi phát từ nước Anh.",
       "source": "fuexam",
       "exam": "MLN122_SP26_B5_FE"
     },
@@ -10726,12 +10726,12 @@
         "D": "Thomas Mun"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "choose": 1,
       "note": null,
       "alt": null,
-      "explanation": "Đáp án đúng: D. William Petty. Lịch sử các học thuyết kinh tế (重商, cổ điển Anh, v.v.). Lịch sử học thuyết: trọng thương, trọng nông, kinh tế chính trị cổ điển Anh.",
+      "explanation": "Mở đầu trường phái Kinh tế chính trị cổ điển Anh là William Petty (C).",
       "source": "fuexam",
       "exam": "MLN122_SP26_B5_FE_RE"
     },
@@ -10936,12 +10936,13 @@
         "D": "Độc lập về lãnh thổ, nhưng lệ thuộc về ngoại giao"
       },
       "answers": [
-        "A"
+        "A",
+        "B"
       ],
-      "choose": 1,
+      "choose": 2,
       "note": null,
       "alt": null,
-      "explanation": "Đáp án đúng: A. Độc lập về chính trị nhưng lệ thuộc về kinh tế và ngoại giao. Bám lý thuyết giá trị, hàng hóa, tiền tệ và tư bản trong Kinh tế chính trị Mác–Lênin. Vai trò nhà nước trong điều tiết kinh tế thị trường định hướng XHCN.",
+      "explanation": "Tư bản cho vay: quyền sử dụng tách khỏi sở hữu; là hàng hóa đặc biệt. Giá cả (lợi tức) không do 'giá trị' quyết định theo nghĩa hàng hóa thông thường. (Chọn đúng)",
       "source": "fuexam",
       "exam": "MLN122_SP26_B5_FE_RE"
     },
@@ -11032,13 +11033,12 @@
         "D": "Giảm thiểu vai trò của Nhà nước trong quản lý kinh tế"
       },
       "answers": [
-        "A",
-        "C"
+        "B"
       ],
-      "choose": 2,
+      "choose": 1,
       "note": null,
       "alt": null,
-      "explanation": "Đây là câu chọn 2 đáp án. Đáp án đúng: A. Xây dựng cơ sở vật chất cho chủ nghĩa xã hội và nâng cao đời sống nhân dân.; C. Hướng tôi dân giàu, nước mạnh, dân chủ, công bằng, văn minh.. Cơ chế thị trường, cạnh tranh và quan hệ cung–cầu trong nền kinh tế hàng hóa. Vai trò nhà nước trong điều tiết kinh tế thị trường định hướng XHCN.",
+      "explanation": "Mô hình KTTT định hướng XHCN được chính thức nêu tại Đại hội VIII.",
       "source": "fuexam",
       "exam": "MLN122_SP26_B5_FE_RE"
     },
