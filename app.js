@@ -3,7 +3,7 @@
   "use strict";
 
   /** Bump on every bank deploy so Safari/iPad cannot reuse stale JSON (GH Pages max-age=600). */
-  const DATA_VER = "20260731_fix542";
+  const DATA_VER = "20260731_v232654";
   const THEME_KEY = "fe_learn_theme_v1";
 
   /**
@@ -1706,7 +1706,14 @@
 
   function jumpToId(id) {
     const idxInAll = all.findIndex((q) => q.id === id);
-    if (idxInAll < 0) return;
+    if (idxInAll < 0) {
+      pos = 0;
+      selected = new Set();
+      checked = false;
+      rememberCurrent();
+      render();
+      return;
+    }
     let qi = queue.indexOf(idxInAll);
     if (qi < 0) {
       filter = "all";
@@ -1716,7 +1723,7 @@
       rebuildQueue({ keepId: id, shuffle: false });
       qi = queue.indexOf(idxInAll);
     }
-    if (qi < 0) return;
+    if (qi < 0) qi = 0;
     pos = qi;
     selected = new Set();
     checked = false;
